@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-kuning-utama: #ffc700;
+  --color-black: #1a1a1a;
+}
+
+/* Base styles */
+body {
+  @apply bg-white text-black;
+}
+
+@keyframes scroll-loop {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(10px);
+    opacity: 0;
+  }
+}
+
+.animate-scroll-loop {
+  animation: scroll-loop 2s ease-in-out infinite;
+}
+
