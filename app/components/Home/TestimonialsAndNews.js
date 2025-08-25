@@ -24,7 +24,6 @@ const TestimonialsAndNews = ({ dictionary }) => {
   };
 
   return (
-    // Tambahkan border atas dan bawah di sini
     <section className="bg-white border-t border-b border-gray-200">
       <div className="flex flex-col lg:flex-row">
         {/* Kolom Kiri - Testimonial */}
@@ -35,14 +34,12 @@ const TestimonialsAndNews = ({ dictionary }) => {
             strokeWidth={1}
           />
           <div className="relative z-10 flex flex-col h-full">
-            {/* Header */}
             <div className="text-center">
               <h2 className="text-2xl font-bold text-black">
                 {dictionary.testimonial_title}
               </h2>
             </div>
 
-            {/* Konten Utama (Slider) */}
             <div className="flex-grow flex flex-col justify-center">
               <div className="relative h-56 mt-8">
                 {testimonials.map((testimonial, index) => (
@@ -66,8 +63,9 @@ const TestimonialsAndNews = ({ dictionary }) => {
                       <p className="text-sm text-gray-800 mb-4">
                         {testimonial.company}
                       </p>
+                      {/* FIX: Ganti tanda kutip dengan entitas HTML */}
                       <p className="text-black italic max-w-lg text-sm">
-                        "{testimonial.quote}"
+                        &ldquo;{testimonial.quote}&rdquo;
                       </p>
                     </div>
                   </div>
@@ -106,7 +104,6 @@ const TestimonialsAndNews = ({ dictionary }) => {
 
         {/* Kolom Kanan - News & Events */}
         <div className="bg-white px-8 py-16 md:px-16 lg:px-24 flex flex-col lg:w-1/2">
-          {/* Header */}
           <div className="text-center">
             <h2 className="text-2xl font-bold text-black mb-4">
               {dictionary.news_title}
@@ -116,7 +113,6 @@ const TestimonialsAndNews = ({ dictionary }) => {
             </p>
           </div>
 
-          {/* Konten Utama (Berita) */}
           <div className="space-y-6 flex-grow">
             {dictionary.news.map((item, index) => (
               <div
@@ -136,7 +132,6 @@ const TestimonialsAndNews = ({ dictionary }) => {
             ))}
           </div>
 
-          {/* Footer */}
           <div className="mt-12">
             <a
               href="#"
