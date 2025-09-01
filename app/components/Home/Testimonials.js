@@ -40,7 +40,7 @@ const Testimonials = ({ dictionary }) => {
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div className="md:col-span-2">
               <p className="text-2xl lg:text-3xl font-light italic leading-snug mb-6">
-                "{activeTestimonial.quote}"
+                &quot;{activeTestimonial.quote}&quot;
               </p>
               <div>
                 {/* Warna teks nama & perusahaan diubah */}

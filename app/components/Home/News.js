@@ -1,5 +1,5 @@
 'use client';
-import React, { useLayoutEffect, useRef } from 'react';
+import React, { useLayoutEffect, useRef, useMemo } from 'react';
 import Image from 'next/image';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -10,7 +10,10 @@ gsap.registerPlugin(ScrollTrigger);
 const News = ({ dictionary }) => {
   const sectionRef = useRef(null);
   const trackRef = useRef(null);
-  const articles = dictionary.articles || [];
+  const articles = useMemo(
+    () => dictionary.articles || [],
+    [dictionary.articles]
+  );
 
   useLayoutEffect(() => {
     const section = sectionRef.current;
