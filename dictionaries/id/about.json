@@ -1,0 +1,52 @@
+{
+  "about_page": {
+    "hero": {
+      "breadcrumb": "Tentang Kami",
+      "subtitle": "KENALI KAMI",
+      "title": "Merintis Solusi Alat Berat di Indonesia"
+    },
+    "director_intro": {
+      "greeting": "Selamat datang di THEI – TJM Heavy Equipment Indonesia.",
+      "quote": "Kami hadir sebagai pionir transformasi dunia alat berat di Indonesia, membawa semangat 'Lebih Lengkap, Lebih Efisien, Lebih Profesional'."
+    },
+    "vision_mission": {
+      "vision_title": "Visi Kami",
+      "vision_text": "Menjadi penyedia solusi alat berat terlengkap di Indonesia.",
+      "mission_title": "Misi Kami",
+      "mission_text": "Meningkatkan efisiensi pelanggan melalui layanan sales, rental, service, spare parts, dan after sales bonus terbesar."
+    },
+    "core_values": {
+      "title": "Nilai-Nilai Inti",
+      "values": [
+        {
+          "name": "Integritas",
+          "description": "Menjunjung tinggi kejujuran dan standar etika dalam setiap tindakan."
+        },
+        {
+          "name": "Profesionalisme",
+          "description": "Memberikan keunggulan dan keahlian dalam layanan kami."
+        },
+        {
+          "name": "Keselamatan",
+          "description": "Memprioritaskan kesejahteraan tim dan klien di atas segalanya."
+        },
+        {
+          "name": "Inovasi",
+          "description": "Terus mencari solusi dan teknologi yang lebih baik."
+        }
+      ]
+    },
+    "hsse": {
+      "title": "Komitmen HSSE",
+      "description": "Kami berkomitmen penuh pada budaya keselamatan, menargetkan nol kecelakaan, dan memastikan kelengkapan alat pelindung diri (APD) di semua lokasi."
+    },
+    "csr": {
+      "title": "Tanggung Jawab Sosial Perusahaan",
+      "activities": [
+        "Pelatihan operator alat berat bersertifikat.",
+        "Donasi peralatan ke sekolah-sekolah teknik.",
+        "Program Hijau Bersama THEI (inisiatif penanaman pohon)."
+      ]
+    }
+  }
+}

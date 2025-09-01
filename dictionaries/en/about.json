@@ -1,0 +1,52 @@
+{
+  "about_page": {
+    "hero": {
+      "breadcrumb": "About Us",
+      "subtitle": "GET TO KNOW US",
+      "title": "Pioneering Heavy Equipment Solutions in Indonesia"
+    },
+    "director_intro": {
+      "greeting": "Welcome to THEI – TJM Heavy Equipment Indonesia.",
+      "quote": "We are here as pioneers in transforming the world of heavy equipment in Indonesia, carrying the spirit of 'More Complete, More Efficient, More Professional'."
+    },
+    "vision_mission": {
+      "vision_title": "Our Vision",
+      "vision_text": "To be the most complete heavy equipment solution provider in Indonesia.",
+      "mission_title": "Our Mission",
+      "mission_text": "To enhance customer efficiency through comprehensive sales, rental, service, spare parts, and the largest after-sales bonus."
+    },
+    "core_values": {
+      "title": "Core Values",
+      "values": [
+        {
+          "name": "Integrity",
+          "description": "Upholding honesty and ethical standards in every action."
+        },
+        {
+          "name": "Professionalism",
+          "description": "Delivering excellence and expertise in our services."
+        },
+        {
+          "name": "Safety",
+          "description": "Prioritizing the well-being of our team and clients above all."
+        },
+        {
+          "name": "Innovation",
+          "description": "Continuously seeking better solutions and technologies."
+        }
+      ]
+    },
+    "hsse": {
+      "title": "HSSE Commitment",
+      "description": "We are fully committed to a culture of safety, aiming for zero accidents and ensuring complete personal protective equipment (PPE) at all sites."
+    },
+    "csr": {
+      "title": "Corporate Social Responsibility",
+      "activities": [
+        "Certified training for heavy equipment operators.",
+        "Donation of equipment to technical schools.",
+        "The 'Green with THEI' program for tree planting initiatives."
+      ]
+    }
+  }
+}
