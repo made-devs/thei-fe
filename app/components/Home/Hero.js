@@ -35,13 +35,12 @@ const Hero = ({ dictionary }) => {
             index === currentSlide ? 'opacity-100' : 'opacity-0'
           }`}
         >
+          {/* Pastikan kamu punya 6 gambar banner */}
           <Image
             src={`/banner-slider${index + 1}.webp`}
             alt={slide.title}
             fill
             className="object-cover -z-10"
-            // FIX: Hanya gambar pertama (index 0) yang diprioritaskan.
-            // Sisanya akan otomatis di-lazy load oleh Next.js.
             priority={index === 0}
             sizes="100vw"
           />
@@ -123,7 +122,7 @@ const Hero = ({ dictionary }) => {
         <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center min-w-[80px] transition-colors">
           <Phone size={20} className="mb-1" />
           <span className="text-xs font-bold leading-tight text-center">
-            1500228
+            {dictionary.fab_phone_number}
           </span>
         </button>
         <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center min-w-[80px] transition-colors">
@@ -136,29 +135,30 @@ const Hero = ({ dictionary }) => {
           />
         </button>
       </div>
+      {/* Tombol mobile sekarang mengambil teks dari dictionary */}
       <div className="fixed bottom-0 left-0 right-0 z-50 flex lg:hidden shadow-2xl">
         <button className="bg-yellow-400 hover:bg-yellow-500 text-black p-3 flex flex-col items-center w-1/4 transition-colors group">
           <FileText size={20} className="mb-1" />
           <span className="text-xs font-bold leading-tight text-center">
-            Quote
+            {dictionary.fab_mobile_quote}
           </span>
         </button>
         <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
           <MapPin size={20} className="mb-1" />
           <span className="text-xs font-bold leading-tight text-center">
-            Location
+            {dictionary.fab_mobile_location}
           </span>
         </button>
         <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
           <Phone size={20} className="mb-1" />
           <span className="text-xs font-bold leading-tight text-center">
-            Call
+            {dictionary.fab_mobile_call}
           </span>
         </button>
         <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
           <MessageCircle size={20} className="mb-1" />
           <span className="text-xs font-bold leading-tight text-center">
-            Chat
+            {dictionary.fab_mobile_chat}
           </span>
         </button>
       </div>

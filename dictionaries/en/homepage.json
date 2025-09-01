@@ -1,0 +1,176 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "category": "SALES",
+        "title": "FIND THE LATEST HEAVY EQUIPMENT FOR YOUR PROJECT'S SUCCESS",
+        "cta": "VIEW UNIT CATALOG"
+      },
+      {
+        "category": "TRADE-IN",
+        "title": "UPGRADE YOUR FLEET, OPTIMIZE YOUR BUSINESS WITH THEI'S TRADE-IN PROGRAM",
+        "cta": "SUBMIT TRADE-IN"
+      },
+      {
+        "category": "RENTAL",
+        "title": "MAXIMUM EFFICIENCY WITHOUT LARGE INVESTMENT WITH OUR RENTAL SOLUTIONS",
+        "cta": "CHECK RENTAL UNITS"
+      },
+      {
+        "category": "REPAIR",
+        "title": "MINIMIZE DOWNTIME WITH FAST & PROFESSIONAL REPAIR SERVICES",
+        "cta": "BOOK SERVICE"
+      },
+      {
+        "category": "PARTS",
+        "title": "GUARANTEED AVAILABILITY OF GENUINE SPARE PARTS, SMOOTH OPERATIONS WITHOUT HINDRANCE",
+        "cta": "SEARCH FOR PARTS"
+      },
+      {
+        "category": "AFTER SALES",
+        "title": "ENJOY THE BIGGEST AFTER SALES BONUS UP TO HUNDREDS OF MILLIONS OF RUPIAH",
+        "cta": "LEARN MORE"
+      }
+    ],
+    "scroll_down": "SCROLL DOWN",
+    "fab_quote": "REQUEST QUOTE",
+    "fab_location": "FIND LOCATION",
+    "fab_live_chat": "LIVE CHAT 24 HOURS",
+    "fab_phone_number": "1500228",
+    "fab_mobile_quote": "Quote",
+    "fab_mobile_location": "Location",
+    "fab_mobile_call": "Call",
+    "fab_mobile_chat": "Chat"
+  },
+  "highlight_promo": {
+    "title_line1": "Boost Your Brand",
+    "title_line2": "with Our Expertise",
+    "subtitle": "Our Featured Services",
+    "view_all": "View All Services",
+    "best_value": "Best Value",
+    "packages": [
+      {
+        "name": "SILVER",
+        "price": "Rp20 jt",
+        "description": "Basic service package to maintain your vehicle's essential performance.",
+        "features": ["Oil", "Spooring", "AC Basic", "Lamp Polishing", "Fogging"]
+      },
+      {
+        "name": "GOLD",
+        "price": "Rp50 jt",
+        "description": "Comprehensive maintenance for extra comfort and protection.",
+        "features": [
+          "AC Super Freeze",
+          "Anti-Rust",
+          "Body Polishing",
+          "Undercarriage Service",
+          "Oil",
+          "Fogging"
+        ]
+      },
+      {
+        "name": "EXCLUSIVE",
+        "price": "Rp150 jt",
+        "description": "Premium services for advanced restoration and protection.",
+        "features": [
+          "Nano Ceramic",
+          "Anti-Rust",
+          "Overhaul",
+          "AC Super Freeze",
+          "Spooring",
+          "etc."
+        ]
+      },
+      {
+        "name": "DIAMOND",
+        "price": "Rp200 jt",
+        "description": "The total solution for peak performance and complete peace of mind.",
+        "features": [
+          "All Exclusive Package",
+          "+ Engine Rebuild",
+          "Tune Up",
+          "Understeel",
+          "Premium Coating",
+          "Transmission",
+          "Brakes",
+          "Tires",
+          "Safety Kit"
+        ]
+      }
+    ],
+    "button_text": "Choose Package",
+    "what_included": "What included:"
+  },
+  "why_thei": {
+    "subtitle": "WHY CHOOSE THEI",
+    "title": "Our Competitive Advantages",
+    "features": [
+      { "title": "One Stop Solution" },
+      { "title": "24/7 Field Service" },
+      { "title": "Genuine Parts" },
+      { "title": "HSSE Certified" },
+      { "title": "Hundreds of Millions in Bonuses" }
+    ]
+  },
+  "news": {
+    "title": "Latest Insight",
+    "subtitle": "News & Article",
+    "see_more": "See All News",
+    "articles": [
+      {
+        "category": "PRODUCT",
+        "title": "Introducing the Newest Generation Excavator with a Game-Changing Fuel Efficiency",
+        "image": "/home/news1.webp"
+      },
+      {
+        "category": "COMPANY",
+        "title": "THEI Awarded as The Best National Distributor of 2025",
+        "image": "/home/news2.webp"
+      },
+      {
+        "category": "EVENT",
+        "title": "Successfully Held The Biggest Heavy Equipment Exhibition at Jakarta Convention Center",
+        "image": "/home/news3.webp"
+      },
+      {
+        "category": "TECHNOLOGY",
+        "title": "The Latest GPS Technology is Now Integrated in All of Our Bulldozer Units",
+        "image": "/home/news4.webp"
+      },
+      {
+        "category": "SUSTAINABILITY",
+        "title": "Our Full Commitment to Sustainability and The Environment",
+        "image": "/home/news5.webp"
+      },
+      {
+        "category": "TRAINING",
+        "title": "The 5th Batch of Advanced Operator Training is Now Open",
+        "image": "/home/news6.webp"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "WHAT OUR CLIENTS SAY ABOUT US",
+    "subtitle": "CUSTOMER TESTIMONIALS",
+    "list": [
+      {
+        "name": "Budi Santoso",
+        "company": "Project Manager, PT Abadi Jaya",
+        "image": "/testimonials/testi1.webp",
+        "quote": "The after-sales support from THEI is outstanding. Whenever there's an issue, their team responds quickly and effectively, minimizing downtime on our site."
+      },
+      {
+        "name": "Citra Lestari",
+        "company": "Operations Director, PT Karya Bersama",
+        "image": "/testimonials/testi2.webp",
+        "quote": "The Bundling Solution program has been a great help in managing our maintenance budget. The quality of genuine parts is unquestionable."
+      },
+      {
+        "name": "Agus Wijaya",
+        "company": "CEO, PT Konstruksi Megah",
+        "image": "/testimonials/testi3.webp",
+        "quote": "The reliability of the heavy equipment is key to the success of our projects. THEI not only sells products but also provides comprehensive solutions."
+      }
+    ]
+  }
+}

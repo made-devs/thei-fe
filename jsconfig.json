@@ -1,7 +1,12 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      // FIX: Hapus "src/" dari path ini
+      "@/components/*": ["app/components/*"],
+      "@/lib/*": ["lib/*"],
+      "@/i18n-config": ["i18n-config.js"]
     }
   }
 }
+

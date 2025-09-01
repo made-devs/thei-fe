@@ -1,0 +1,178 @@
+{
+  "hero": {
+    "slides": [
+      {
+        "category": "SALES",
+        "title": "TEMUKAN ALAT BERAT TERBARU UNTUK KESUKSESAN PROYEK ANDA",
+        "cta": "LIHAT KATALOG UNIT"
+      },
+      {
+        "category": "TRADE-IN",
+        "title": "UPGRADE ARMADA ANDA, OPTIMALKAN BISNIS DENGAN PROGRAM TRADE-IN THEI",
+        "cta": "AJUKAN TRADE-IN"
+      },
+      {
+        "category": "RENTAL",
+        "title": "EFISIENSI MAKSIMAL TANPA INVESTASI BESAR DENGAN SOLUSI RENTAL KAMI",
+        "cta": "CEK UNIT RENTAL"
+      },
+      {
+        "category": "REPAIR",
+        "title": "MINIMALKAN DOWNTIME DENGAN LAYANAN PERBAIKAN CEPAT & PROFESIONAL",
+        "cta": "BOOKING SERVICE"
+      },
+      {
+        "category": "PARTS",
+        "title": "KETERSEDIAAN SUKU CADANG ASLI TERJAMIN, OPERASIONAL LANCAR TANPA HAMBATAN",
+        "cta": "CARI SUKU CADANG"
+      },
+      {
+        "category": "AFTER SALES",
+        "title": "NIKMATI BONUS AFTER SALES TERBESAR HINGGA RATUSAN JUTA RUPIAH",
+        "cta": "PELAJARI LEBIH LANJUT"
+      }
+    ],
+    "scroll_down": "SCROLL KE BAWAH",
+    "fab_quote": "MINTA PENAWARAN",
+    "fab_location": "CARI LOKASI",
+    "fab_live_chat": "LIVE CHAT 24 JAM",
+    "fab_phone_number": "1500228",
+    "fab_mobile_quote": "Penawaran",
+    "fab_mobile_location": "Lokasi",
+    "fab_mobile_call": "Telepon",
+    "fab_mobile_chat": "Chat"
+  },
+  "--- HOMEPAGE SECTIONS ---": "---",
+
+  "highlight_promo": {
+    "title_line1": "Tingkatkan Bisnis Anda",
+    "title_line2": "dengan Keahlian Kami",
+    "subtitle": "Promo Unggulan Kami",
+    "view_all": "Lihat Semua Promo",
+    "best_value": "Paling Untung",
+    "packages": [
+      {
+        "name": "SILVER",
+        "price": "Rp20 jt",
+        "description": "Paket servis dasar untuk menjaga performa esensial kendaraan Anda.",
+        "features": ["Oli", "Spooring", "AC Basic", "Poles Lampu", "Fogging"]
+      },
+      {
+        "name": "GOLD",
+        "price": "Rp50 jt",
+        "description": "Perawatan menyeluruh untuk kenyamanan dan perlindungan ekstra.",
+        "features": [
+          "AC Super Beku",
+          "Anti Karat",
+          "Poles Body",
+          "Service Kaki-kaki",
+          "Oli",
+          "Fogging"
+        ]
+      },
+      {
+        "name": "EXCLUSIVE",
+        "price": "Rp150 jt",
+        "description": "Layanan premium untuk restorasi dan perlindungan tingkat lanjut.",
+        "features": [
+          "Nano Ceramic",
+          "Anti Karat",
+          "Overhaul",
+          "AC Super Beku",
+          "Spooring",
+          "dll."
+        ]
+      },
+      {
+        "name": "DIAMOND",
+        "price": "Rp200 jt",
+        "description": "Solusi total untuk performa puncak dan ketenangan pikiran sepenuhnya.",
+        "features": [
+          "Semua Paket Exclusive",
+          "+ Engine Rebuild",
+          "Tune Up",
+          "Understeel",
+          "Premium Coating",
+          "Transmisi",
+          "Rem",
+          "Ban",
+          "Safety Kit"
+        ]
+      }
+    ],
+    "button_text": "Pilih Paket",
+    "what_included": "Yang termasuk:"
+  },
+  "why_thei": {
+    "subtitle": "MENGAPA MEMILIH THEI",
+    "title": "Keunggulan Kompetitif Kami",
+    "features": [
+      { "title": "Solusi Satu Pintu" },
+      { "title": "Layanan Lapangan 24/7" },
+      { "title": "Suku Cadang Asli" },
+      { "title": "Tersertifikasi HSSE" },
+      { "title": "Bonus Ratusan Juta" }
+    ]
+  },
+  "news": {
+    "subtitle": "WAWASAN TERKINI",
+    "title": "Berita & Artikel",
+    "see_more": "Lihat Semua Berita",
+    "articles": [
+      {
+        "category": "PRODUK",
+        "title": "Memperkenalkan Excavator Generasi Terbaru dengan Efisiensi Bahan Bakar Terbaik",
+        "image": "/home/news1.webp"
+      },
+      {
+        "category": "PERUSAHAAN",
+        "title": "THEI Meraih Penghargaan sebagai Distributor Terbaik Nasional 2025",
+        "image": "/home/news2.webp"
+      },
+      {
+        "category": "ACARA",
+        "title": "Sukses Gelar Pameran Alat Berat Terbesar di Jakarta Convention Center",
+        "image": "/home/news3.webp"
+      },
+      {
+        "category": "TEKNOLOGI",
+        "title": "Teknologi GPS Terbaru Kini Terintegrasi di Semua Unit Bulldozer Kami",
+        "image": "/home/news4.webp"
+      },
+      {
+        "category": "LINGKUNGAN",
+        "title": "Komitmen Penuh THEI dalam Program Keberlanjutan dan Lingkungan",
+        "image": "/home/news5.webp"
+      },
+      {
+        "category": "PELATIHAN",
+        "title": "Pelatihan Operator Tingkat Lanjut Batch ke-5 Resmi Dibuka",
+        "image": "/home/news6.webp"
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "APA KATA MEREKA TENTANG KAMI",
+    "subtitle": "TESTIMONI PELANGGAN",
+    "list": [
+      {
+        "name": "Budi Santoso",
+        "company": "Manajer Proyek, PT Abadi Jaya",
+        "image": "/home/testi1.webp",
+        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan solutif, meminimalkan downtime di lapangan."
+      },
+      {
+        "name": "Citra Lestari",
+        "company": "Direktur Operasional, PT Karya Bersama",
+        "image": "/home/testi2.webp",
+        "quote": "Program Bundling Solution sangat membantu kami dalam mengelola anggaran pemeliharaan. Kualitas suku cadang asli tidak perlu diragukan lagi."
+      },
+      {
+        "name": "Agus Wijaya",
+        "company": "CEO, PT Konstruksi Megah",
+        "image": "/home/testi3.webp",
+        "quote": "Keandalan alat berat adalah kunci keberhasilan proyek-proyek kami. THEI tidak hanya menjual produk, tetapi juga memberikan solusi menyeluruh."
+      }
+    ]
+  }
+}
