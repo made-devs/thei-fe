@@ -2,37 +2,37 @@
   "hero": {
     "slides": [
       {
-        "category": "SALES",
-        "title": "TEMUKAN ALAT BERAT TERBARU UNTUK KESUKSESAN PROYEK ANDA",
+        "category": "PENJUALAN",
+        "title": "Temukan Alat Berat Terbaru Untuk Kesuksesan Proyek Anda",
         "cta": "LIHAT KATALOG UNIT"
       },
       {
-        "category": "TRADE-IN",
-        "title": "UPGRADE ARMADA ANDA, OPTIMALKAN BISNIS DENGAN PROGRAM TRADE-IN THEI",
-        "cta": "AJUKAN TRADE-IN"
+        "category": "TUKAR TAMBAH",
+        "title": "Upgrade Armada Anda, Optimalkan Bisnis Dengan Program Tukar Tambah THEI",
+        "cta": "AJUKAN TUKAR TAMBAH"
       },
       {
         "category": "RENTAL",
-        "title": "EFISIENSI MAKSIMAL TANPA INVESTASI BESAR DENGAN SOLUSI RENTAL KAMI",
+        "title": "Efisiensi Maksimal Tanpa Investasi Besar Dengan Solusi Rental Kami",
         "cta": "CEK UNIT RENTAL"
       },
       {
-        "category": "REPAIR",
-        "title": "MINIMALKAN DOWNTIME DENGAN LAYANAN PERBAIKAN CEPAT & PROFESIONAL",
-        "cta": "BOOKING SERVICE"
+        "category": "PERBAIKAN",
+        "title": "Minimalkan Waktu Henti Dengan Layanan Perbaikan Cepat & Profesional",
+        "cta": "PESAN LAYANAN"
       },
       {
-        "category": "PARTS",
-        "title": "KETERSEDIAAN SUKU CADANG ASLI TERJAMIN, OPERASIONAL LANCAR TANPA HAMBATAN",
+        "category": "SUKU CADANG",
+        "title": "Ketersediaan Suku Cadang Asli Terjamin, Operasional Lancar Tanpa Hambatan",
         "cta": "CARI SUKU CADANG"
       },
       {
-        "category": "AFTER SALES",
-        "title": "NIKMATI BONUS AFTER SALES TERBESAR HINGGA RATUSAN JUTA RUPIAH",
+        "category": "PURNA JUAL",
+        "title": "Nikmati Bonus Purna Jual Terbesar Hingga Ratusan Juta Rupiah",
         "cta": "PELAJARI LEBIH LANJUT"
       }
     ],
-    "scroll_down": "SCROLL KE BAWAH",
+    "scroll_down": "GULIR KE BAWAH",
     "fab_quote": "MINTA PENAWARAN",
     "fab_location": "CARI LOKASI",
     "fab_live_chat": "LIVE CHAT 24 JAM",
@@ -42,13 +42,20 @@
     "fab_mobile_call": "Telepon",
     "fab_mobile_chat": "Chat"
   },
-  "--- HOMEPAGE SECTIONS ---": "---",
-
+  "news_ticker": {
+    "items": [
+      "THEI dianugerahi sebagai Distributor Nasional Terbaik 2025.",
+      "Diskon 20% untuk semua suku cadang asli hingga akhir bulan!",
+      "Pameran alat berat terbesar akan segera hadir di Jakarta Convention Center.",
+      "Program Tukar Tambah: Tukarkan alat berat lama Anda dengan yang baru dan dapatkan penawaran spesial."
+    ]
+  },
   "highlight_promo": {
     "title_line1": "Tingkatkan Bisnis Anda",
     "title_line2": "dengan Keahlian Kami",
-    "subtitle": "Promo Unggulan Kami",
-    "view_all": "Lihat Semua Promo",
+    "subtitle": "Layanan Unggulan Kami",
+    "description": "Jelajahi paket layanan pilihan kami yang dirancang untuk menjaga peralatan Anda dalam kondisi puncak dan memaksimalkan efisiensi operasional Anda.",
+    "view_all": "Lihat Semua Layanan",
     "best_value": "Paling Untung",
     "packages": [
       {
@@ -65,7 +72,7 @@
           "AC Super Beku",
           "Anti Karat",
           "Poles Body",
-          "Service Kaki-kaki",
+          "Servis Kaki-kaki",
           "Oli",
           "Fogging"
         ]
@@ -104,62 +111,143 @@
     "what_included": "Yang termasuk:"
   },
   "why_thei": {
-    "subtitle": "MENGAPA MEMILIH THEI",
-    "title": "Keunggulan Kompetitif Kami",
+    "subtitle": "Mengapa Memilih Kami",
+    "title": "Mengapa Klien Kami Percaya Kami Berbeda",
+    "description": "Kami tidak hanya menyediakan alat berat, tetapi solusi lengkap untuk mendukung kesuksesan proyek Anda dengan standar internasional dan layanan purna jual yang andal.",
+    "image_url": "/home/news2.webp",
     "features": [
-      { "title": "Solusi Satu Pintu" },
-      { "title": "Layanan Lapangan 24/7" },
-      { "title": "Suku Cadang Asli" },
-      { "title": "Tersertifikasi HSSE" },
-      { "title": "Bonus Ratusan Juta" }
+      {
+        "title": "Solusi Satu Pintu",
+        "description": "Layanan komprehensif dari penjualan hingga purna jual di satu tempat."
+      },
+      {
+        "title": "Layanan Lapangan 24/7",
+        "description": "Siap melayani Anda kapan pun, di mana pun, untuk meminimalkan waktu henti."
+      },
+      {
+        "title": "Suku Cadang Asli",
+        "description": "Jaminan ketersediaan suku cadang asli untuk performa optimal."
+      },
+      {
+        "title": "Tersertifikasi HSSE",
+        "description": "Berkomitmen pada standar tertinggi untuk keselamatan dan lingkungan."
+      }
+    ],
+    "stats": [
+      { "value": "50+", "label": "Tahun Pengalaman" },
+      { "value": "1.2k+", "label": "Tim Ahli" },
+      { "value": "3.5k+", "label": "Unit Direntalkan" },
+      { "value": "10k+", "label": "Pelanggan Puas" }
     ]
   },
+  "popular_equipment": {
+    "title": "Jelajahi Alat Berat Populer",
+    "description": "Telusuri alat berat baru dan bekas kami yang paling dicari. Temukan mesin yang sempurna untuk kebutuhan Anda atau jelajahi rangkaian engine dan peralatan kerja kami.",
+    "search_placeholder": "Produk apa yang Anda butuhkan?",
+    "best_value_badge": "Paling Untung",
+    "empty_category_message": "Belum ada produk di kategori ini.",
+    "view_all_cta": "LIHAT SEMUA",
+    "tabs": [
+      { "id": "new_machines", "label": "Mesin Baru" },
+      { "id": "used_machines", "label": "Mesin Bekas" },
+      { "id": "engines", "label": "Engine" },
+      { "id": "cat_lift_trucks", "label": "CAT Lift Trucks" },
+      { "id": "work_tools", "label": "Peralatan Kerja" }
+    ],
+    "products": {
+      "new_machines": [
+        {
+          "name": "MOTOR GRADERS",
+          "model": "120 GC",
+          "image": "/newmachine1.webp",
+          "promo": true
+        },
+        {
+          "name": "OFF-HIGHWAY TRUCKS",
+          "model": "773E",
+          "image": "/newmachine2.webp",
+          "promo": false
+        },
+        {
+          "name": "MEDIUM WHEEL LOADERS",
+          "model": "966 GC",
+          "image": "/newmachine3.webp",
+          "promo": false
+        }
+      ],
+      "used_machines": [
+        {
+          "name": "EXCAVATOR BEKAS",
+          "model": "320D2",
+          "image": "/home/promo1.webp",
+          "promo": false
+        },
+        {
+          "name": "BULLDOZER BEKAS",
+          "model": "D8R",
+          "image": "/home/promo2.webp",
+          "promo": true
+        }
+      ],
+      "engines": [],
+      "cat_lift_trucks": [],
+      "work_tools": []
+    }
+  },
   "news": {
-    "subtitle": "WAWASAN TERKINI",
-    "title": "Berita & Artikel",
+    "title": "Wawasan Terkini",
+    "subtitle": "Berita & Artikel",
+    "description": "Tetap terinformasi dengan berita, acara, dan artikel terbaru dari THEI. Dapatkan wawasan tentang produk, teknologi, dan kegiatan korporat kami.",
     "see_more": "Lihat Semua Berita",
     "articles": [
       {
         "category": "PRODUK",
-        "title": "Memperkenalkan Excavator Generasi Terbaru dengan Efisiensi Bahan Bakar Terbaik",
+        "title": "Memperkenalkan Excavator Generasi Terbaru",
+        "description": "Temukan bagaimana model excavator terbaru kami dapat meningkatkan efisiensi proyek Anda dengan konsumsi bahan bakar yang lebih rendah.",
         "image": "/home/news1.webp"
       },
       {
         "category": "PERUSAHAAN",
-        "title": "THEI Meraih Penghargaan sebagai Distributor Terbaik Nasional 2025",
+        "title": "THEI Meraih Penghargaan Distributor Nasional Terbaik 2025",
+        "description": "Komitmen kami terhadap keunggulan telah diakui dengan penghargaan nasional yang bergengsi ini.",
         "image": "/home/news2.webp"
       },
       {
         "category": "ACARA",
-        "title": "Sukses Gelar Pameran Alat Berat Terbesar di Jakarta Convention Center",
+        "title": "Pameran Alat Berat Terbesar di JCC",
+        "description": "Kami sukses memamerkan teknologi dan jajaran produk terbaru kami di Jakarta Convention Center.",
         "image": "/home/news3.webp"
       },
       {
         "category": "TEKNOLOGI",
-        "title": "Teknologi GPS Terbaru Kini Terintegrasi di Semua Unit Bulldozer Kami",
+        "title": "Teknologi GPS Terbaru Terintegrasi di Bulldozer Kami",
+        "description": "Tingkatkan presisi operasional Anda dengan teknologi GPS terkini yang kini menjadi standar di semua unit bulldozer kami.",
         "image": "/home/news4.webp"
       },
       {
         "category": "LINGKUNGAN",
-        "title": "Komitmen Penuh THEI dalam Program Keberlanjutan dan Lingkungan",
+        "title": "Komitmen Kami terhadap Lingkungan",
+        "description": "Pelajari lebih lanjut tentang inisiatif hijau kami dan bagaimana kami berkontribusi untuk masa depan yang berkelanjutan.",
         "image": "/home/news5.webp"
       },
       {
         "category": "PELATIHAN",
-        "title": "Pelatihan Operator Tingkat Lanjut Batch ke-5 Resmi Dibuka",
+        "title": "Pelatihan Operator Tingkat Lanjut Angkatan ke-5 Dibuka",
+        "description": "Daftarkan diri Anda sekarang dalam program pelatihan lanjutan kami untuk meningkatkan keterampilan dan standar keselamatan operator.",
         "image": "/home/news6.webp"
       }
     ]
   },
   "testimonials": {
-    "title": "APA KATA MEREKA TENTANG KAMI",
-    "subtitle": "TESTIMONI PELANGGAN",
+    "title": "Kata Klien Tentang Kami",
+    "subtitle": "Testimoni Pelanggan",
+    "description": "Kisah sukses klien kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa yang mereka katakan tentang kemitraan dengan THEI.",
     "list": [
       {
         "name": "Budi Santoso",
         "company": "Manajer Proyek, PT Abadi Jaya",
         "image": "/home/testi1.webp",
-        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan solutif, meminimalkan downtime di lapangan."
+        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan solutif, meminimalkan waktu henti di lapangan."
       },
       {
         "name": "Citra Lestari",
@@ -174,5 +262,9 @@
         "quote": "Keandalan alat berat adalah kunci keberhasilan proyek-proyek kami. THEI tidak hanya menjual produk, tetapi juga memberikan solusi menyeluruh."
       }
     ]
+  },
+  "main_cta": {
+    "title": "MARI TEMUKAN SOLUSI TERBAIK UNTUK MENINGKATKAN BISNIS ANDA KE DEPAN.",
+    "cta_button": "HUBUNGI KAMI SEKARANG"
   }
 }

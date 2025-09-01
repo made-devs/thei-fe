@@ -20,7 +20,6 @@ export default function LanguageSwitcher({ currentLocale }) {
     return segments.join('/');
   };
 
-  // Menutup dropdown jika klik di luar komponen
   useEffect(() => {
     function handleClickOutside(event) {
       if (switcherRef.current && !switcherRef.current.contains(event.target)) {
@@ -37,7 +36,7 @@ export default function LanguageSwitcher({ currentLocale }) {
     <div ref={switcherRef} className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center justify-center text-sm font-semibold text-gray-700 hover:text-black transition-colors"
+        className="flex items-center justify-center text-sm font-semibold transition-colors text-yellow-400 hover:opacity-80"
       >
         <span>{currentLocale.toUpperCase()}</span>
         <ChevronDown
@@ -47,17 +46,16 @@ export default function LanguageSwitcher({ currentLocale }) {
       </button>
 
       {isOpen && (
-        // FIX: Ganti 'right-0' dengan 'left-1/2 -translate-x-1/2' untuk menengahkan dropdown
-        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-12 bg-white rounded-md shadow-lg z-40">
+        <div className="absolute top-full right-0 mt-2 w-16 bg-black border border-yellow-400/50 rounded-md shadow-lg z-40">
           <ul className="py-1">
             {i18n.locales.map((locale) => {
-              if (locale === currentLocale) return null; // Jangan tampilkan bahasa yang sedang aktif
+              if (locale === currentLocale) return null;
               return (
                 <li key={locale}>
                   <Link
                     href={redirectedPathName(locale)}
                     onClick={() => setIsOpen(false)}
-                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 text-center"
+                    className="block px-4 py-2 text-sm text-yellow-400 hover:bg-yellow-400 hover:text-black text-center transition-colors"
                   >
                     {locale.toUpperCase()}
                   </Link>

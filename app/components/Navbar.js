@@ -4,7 +4,20 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { Search, ShoppingCart, Menu, X } from 'lucide-react';
+import {
+  Search,
+  ShoppingCart,
+  Menu,
+  X,
+  Phone,
+  Mail,
+  MapPin,
+  Facebook,
+  Instagram,
+  Linkedin,
+  Youtube,
+  Twitter,
+} from 'lucide-react';
 import LanguageSwitcher from './language-switcher';
 
 const Navbar = ({ dictionary, currentLocale }) => {
@@ -30,93 +43,128 @@ const Navbar = ({ dictionary, currentLocale }) => {
     <div className="w-full bg-white relative">
       {/* --- DESKTOP NAVBAR (lg:block) --- */}
       <div className="hidden lg:block">
-        {/* Logo */}
-        <div className="absolute left-0 right-0 top-0 bottom-0 z-20 pointer-events-none">
-          <div className="max-w-[1440px] mx-auto relative h-full">
-            <div className="absolute left-6 top-1/2 transform -translate-y-1/2 pointer-events-auto">
-              <div className="flex items-center">
-                <div className="bg-yellow-400 px-4 py-2 rounded-l-md">
-                  <span className="text-black font-bold text-xl">THEI</span>
-                </div>
-                <div className="bg-black px-3 py-2 rounded-r-md">
-                  <span className="text-white font-bold text-xl">ID</span>
-                </div>
+        {/* Navigasi Atas - Ditambahkan relative z-30 */}
+        <div className="bg-yellow-400 text-sm font-medium relative z-30">
+          <div className="max-w-[1440px] mx-auto flex justify-between items-stretch h-12">
+            {/* Info Kontak */}
+            <div className="flex-grow flex items-center space-x-6 px-6 text-black">
+              <a
+                href="tel:(888)880-8880"
+                className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+              >
+                <Phone size={16} />
+                <span>(888) 880-8880</span>
+              </a>
+              <a
+                href="mailto:example@example.com"
+                className="flex items-center space-x-2 hover:opacity-80 transition-opacity"
+              >
+                <Mail size={16} />
+                <span>example@example.com</span>
+              </a>
+              <div className="flex items-center space-x-2">
+                <MapPin size={16} />
+                <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* Navigasi Atas */}
-        <div className="relative">
-          <div className="max-w-7xl mx-auto flex items-stretch">
-            <div className="flex-1"></div>
-            <div className="relative w-20">
-              <Image
-                src="/bg-header.png"
-                alt="header background"
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="bg-gray-200 py-2 px-6">
-              <div className="flex justify-end items-center space-x-8 text-sm font-medium text-gray-700 h-full">
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  {dictionary.about}
+            {/* Sosmed & Bahasa - Reworked for stacking context */}
+            <div className="relative flex items-center text-yellow-400">
+              {/* Background shape */}
+              <div
+                className="absolute inset-0 bg-black"
+                style={{
+                  clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)',
+                }}
+              ></div>
+              {/* Content on top of the shape */}
+              <div className="relative flex items-center space-x-4 pl-14 pr-8">
+                <LanguageSwitcher currentLocale={currentLocale} />
+                <div className="w-px h-5 bg-yellow-400 opacity-50"></div>
+                <a
+                  href="#"
+                  aria-label="Facebook"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  <Facebook size={18} />
                 </a>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  {dictionary.career}
+                <a
+                  href="#"
+                  aria-label="Twitter"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  <Twitter size={18} />
                 </a>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  {dictionary.training}
+                <a
+                  href="#"
+                  aria-label="Instagram"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  <Instagram size={18} />
                 </a>
-                <a href="#" className="hover:text-gray-900 transition-colors">
-                  {dictionary.eprocurement}
+                <a
+                  href="#"
+                  aria-label="LinkedIn"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  <Linkedin size={18} />
                 </a>
-                <div className="flex items-center space-x-4">
-                  <LanguageSwitcher currentLocale={currentLocale} />
-                  <button className="p-1 hover:bg-gray-300 rounded">
-                    <Search size={16} className="text-gray-700" />
-                  </button>
-                </div>
+                <a
+                  href="#"
+                  aria-label="YouTube"
+                  className="hover:opacity-70 transition-opacity"
+                >
+                  <Youtube size={18} />
+                </a>
               </div>
             </div>
           </div>
         </div>
 
         {/* Navigasi Utama */}
-        <div className="bg-white border-b border-gray-200">
-          <div className="max-w-7xl mx-auto px-6 py-4">
-            <div className="flex items-center justify-between">
-              <div className="w-48"></div> {/* Spacer */}
-              <nav className="flex items-center space-x-8">
-                {mainNavLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className="text-gray-800 font-semibold hover:text-yellow-500 transition-colors"
-                  >
-                    {link.name}
-                  </a>
-                ))}
-              </nav>
-              <div className="flex items-center">
-                <div className="w-px h-8 bg-gray-300 mx-4"></div>
-                <button className="flex items-center space-x-2 text-gray-800 font-semibold hover:text-yellow-500 transition-colors">
-                  <ShoppingCart size={20} />
-                  <span>{dictionary.buy_parts}</span>
-                </button>
+        <div className="bg-white border-b border-gray-200 relative">
+          <div className="max-w-[1440px] mx-auto px-6 h-[80px] flex items-center justify-between">
+            {/* Logo */}
+            <div className="flex items-center">
+              <div className="bg-yellow-400 px-4 py-2 rounded-l-md">
+                <span className="text-black font-bold text-xl">THEI</span>
               </div>
+              <div className="bg-black px-3 py-2 rounded-r-md">
+                <span className="text-white font-bold text-xl">ID</span>
+              </div>
+            </div>
+
+            {/* Links Navigasi */}
+            <nav className="flex items-center space-x-8">
+              {mainNavLinks.map((link) => (
+                <a
+                  key={link.name}
+                  href={link.href}
+                  className="text-gray-800 font-semibold hover:text-yellow-500 transition-colors"
+                >
+                  {link.name}
+                </a>
+              ))}
+            </nav>
+
+            {/* Tombol Aksi */}
+            <div className="flex items-center space-x-6">
+              <button className="p-2 hover:bg-gray-100 rounded-full">
+                <Search size={18} className="text-gray-700" />
+              </button>
+              <button className="flex items-center space-x-2 bg-yellow-400 text-black px-5 py-2.5 rounded font-semibold hover:bg-yellow-500 transition-colors">
+                <ShoppingCart size={20} />
+                <span>{dictionary.buy_parts}</span>
+              </button>
             </div>
           </div>
         </div>
+        {/* Garis kuning di bawah navigasi utama */}
         <div className="h-2 bg-yellow-400"></div>
       </div>
 
       {/* --- MOBILE HEADER (lg:hidden) --- */}
       <div className="lg:hidden">
-        {/* FIX: Ganti flex dengan grid 3 kolom untuk centering yang sempurna */}
         <div className="mx-auto px-4 grid grid-cols-3 items-center h-[60px]">
-          {/* Kolom Kiri */}
           <div className="flex justify-start">
             <button
               onClick={() => setIsMenuOpen(true)}
@@ -125,8 +173,6 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <Menu size={24} />
             </button>
           </div>
-
-          {/* Kolom Tengah */}
           <div className="flex justify-center">
             <div className="flex items-center">
               <div className="bg-yellow-400 px-3 py-1">
@@ -139,8 +185,6 @@ const Navbar = ({ dictionary, currentLocale }) => {
               </div>
             </div>
           </div>
-
-          {/* Kolom Kanan */}
           <div className="flex justify-end items-center space-x-4">
             <LanguageSwitcher currentLocale={currentLocale} />
             <button className="text-black">

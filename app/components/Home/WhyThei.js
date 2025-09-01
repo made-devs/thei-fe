@@ -1,61 +1,93 @@
+// app/components/Home/WhyThei.js
 'use client';
+
 import React from 'react';
-// Tambahkan Cog ke dalam import
-import { ShieldCheck, Clock, Package, Wrench, Award, Cog } from 'lucide-react';
+import Image from 'next/image';
+import {
+  Users,
+  FileText,
+  TrendingUp,
+  Presentation,
+  Package,
+  Cog,
+} from 'lucide-react';
 
 const iconMap = {
-  'One Stop Solution': <Package size={40} className="mb-4 text-yellow-400" />,
-  '24/7 Field Service': <Clock size={40} className="mb-4 text-yellow-400" />,
-  'Genuine Parts': <ShieldCheck size={40} className="mb-4 text-yellow-400" />,
-  'HSSE Certified': <Wrench size={40} className="mb-4 text-yellow-400" />,
-  'Hundreds of Millions in Bonuses': (
-    <Award size={40} className="mb-4 text-yellow-400" />
-  ),
-  // Terjemahan untuk ikon
-  'Solusi Satu Pintu': <Package size={40} className="mb-4 text-yellow-400" />,
-  'Layanan Lapangan 24/7': <Clock size={40} className="mb-4 text-yellow-400" />,
-  'Suku Cadang Asli': (
-    <ShieldCheck size={40} className="mb-4 text-yellow-400" />
-  ),
-  'Tersertifikasi HSSE': <Wrench size={40} className="mb-4 text-yellow-400" />,
-  'Bonus Ratusan Juta': <Award size={40} className="mb-4 text-yellow-400" />,
+  // English keys
+  'One Stop Solution': <Users size={24} />,
+  '24/7 Field Service': <FileText size={24} />,
+  'Genuine Parts': <TrendingUp size={24} />,
+  'HSSE Certified': <Presentation size={24} />,
+  // Indonesian keys
+  'Solusi Satu Pintu': <Users size={24} />,
+  'Layanan Lapangan 24/7': <FileText size={24} />,
+  'Suku Cadang Asli': <TrendingUp size={24} />,
+  'Tersertifikasi HSSE': <Presentation size={24} />,
 };
 
 const WhyThei = ({ dictionary }) => {
-  const features = dictionary.features || [];
+  const { subtitle, title, description, image_url, features, stats } =
+    dictionary;
 
   return (
-    <section
-      className="relative text-white py-20 bg-cover bg-center bg-fixed"
-      style={{ backgroundImage: "url('/banner-slider1.webp')" }}
-    >
-      <div className="absolute inset-0 bg-black/70 z-0"></div>
-
-      <div className="relative z-10 container mx-auto px-6 lg:px-8 max-w-[1440px] text-center">
-        {/* Subtitle dengan ikon Cog ditambahkan di sini */}
-        <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-4">
-          <Cog
-            size={20}
-            className="mr-2 animate-spin"
-            style={{ animationDuration: '5s' }}
-          />
-          <span>{dictionary.subtitle}</span>
+    <section className="bg-white py-20">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
+        {/* Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
+            <Cog
+              size={20}
+              className="mr-2 animate-spin"
+              style={{ animationDuration: '5s' }}
+            />
+            <span>{subtitle}</span>
+          </div>
+          <h2 className="text-4xl lg:text-5xl font-bold text-black mb-4">
+            {title}
+          </h2>
+          <p className="text-gray-600">{description}</p>
         </div>
 
-        <h2 className="text-4xl lg:text-5xl font-bold mb-16">
-          {dictionary.title}
-        </h2>
+        {/* Main Content Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          {/* Kolom Kiri: Gambar */}
+          <div className="relative w-full h-[500px] rounded-2xl overflow-hidden">
+            <Image src={image_url} alt={title} fill className="object-cover" />
+          </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-lg p-6 flex flex-col items-center justify-center text-center transition-all duration-300 hover:bg-white/20 hover:scale-105"
-            >
-              {iconMap[feature.title]}
-              <h3 className="font-bold text-lg">{feature.title}</h3>
+          {/* Kolom Kanan: Fitur */}
+          <div className="bg-[#1C3C34] text-white p-12 rounded-2xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+              {features.map((feature, index) => (
+                <div key={index}>
+                  <div className="bg-yellow-400 w-12 h-12 flex items-center justify-center rounded-full mb-4">
+                    <div className="text-black">
+                      {iconMap[feature.title] || <Package size={24} />}
+                    </div>
+                  </div>
+                  <h3 className="font-bold text-xl mb-2">{feature.title}</h3>
+                  <p className="text-gray-300 text-sm leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              ))}
             </div>
-          ))}
+          </div>
+        </div>
+
+        {/* Stats Section */}
+        <div className="mt-20 pt-12 border-t border-gray-200">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            {stats.map((stat, index) => (
+              <div key={index} className="relative">
+                <h3 className="text-4xl font-bold text-black">{stat.value}</h3>
+                <p className="text-gray-500 text-sm mt-2">{stat.label}</p>
+                {index < stats.length - 1 && (
+                  <div className="hidden md:block absolute top-1/2 right-0 -translate-y-1/2 h-16 w-px bg-gray-200"></div>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

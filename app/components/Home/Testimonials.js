@@ -29,6 +29,9 @@ const Testimonials = ({ dictionary }) => {
           <h2 className="text-4xl lg:text-5xl font-bold text-black">
             {dictionary.title}
           </h2>
+          <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+            {dictionary.description}
+          </p>
         </div>
 
         {/* Highlight Card - WARNA DIUBAH */}

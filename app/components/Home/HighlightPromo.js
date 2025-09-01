@@ -79,6 +79,9 @@ const HighlightPromo = ({ dictionary }) => {
               <br />
               {dictionary.title_line2}
             </h2>
+            <p className="mt-4 text-gray-600 max-w-2xl">
+              {dictionary.description}
+            </p>
           </div>
           <a
             href="#"
