@@ -3,6 +3,7 @@ import {
   Briefcase,
   HeartHandshake,
   Lightbulb,
+  Cog,
 } from 'lucide-react';
 
 const iconMap = {
@@ -20,7 +21,21 @@ const CoreValues = ({ dictionary }) => {
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px] text-center">
-        <h2 className="text-3xl font-bold text-black">{dictionary.title}</h2>
+        <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
+          <Cog
+            size={20}
+            className="mr-2 animate-spin"
+            style={{ animationDuration: '5s' }}
+          />
+          <span>{dictionary.subtitle}</span>
+        </div>
+        <h2 className="text-4xl lg:text-5xl font-bold text-black">
+          {dictionary.title}
+        </h2>
+        {/* Tambahkan paragraf deskripsi di sini */}
+        <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+          {dictionary.description}
+        </p>
         <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {dictionary.values.map((value) => (
             <div

@@ -1,0 +1,83 @@
+{
+  "parts_page": {
+    "hero": {
+      "subtitle": "SUKU CADANG ASLI UNTUK ALAT BERAT ANDA",
+      "title": "Ketersediaan Terjamin, Performa Maksimal",
+      "image": "/parts/hero-bg.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Suku Cadang", "link": "/parts" }
+      ]
+    },
+    "features_section": {
+      "title": "Mengapa Memilih Suku Cadang Asli Kami?",
+      "features": [
+        {
+          "name": "Pemesanan Mudah",
+          "description": "Pesan melalui WhatsApp, Hotline, atau formulir permintaan.",
+          "icon": "MessageSquare"
+        },
+        {
+          "name": "Pengiriman Fleksibel",
+          "description": "Pilih antara pengiriman ke lokasi Anda atau ambil di cabang kami.",
+          "icon": "Truck"
+        },
+        {
+          "name": "Garansi Asli",
+          "description": "Garansi resmi untuk setiap suku cadang asli yang Anda beli.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "name": "Promo Bulanan",
+          "description": "Dapatkan penawaran spesial untuk suku cadang tertentu setiap bulannya.",
+          "icon": "Tag"
+        }
+      ]
+    },
+    "category_section": {
+      "title": "Jelajahi Kategori Suku Cadang",
+      "description": "Temukan suku cadang spesifik yang Anda butuhkan dari katalog lengkap kami.",
+      "categories": [
+        {
+          "name": "Filter Oli, Udara, Bahan Bakar, Hidrolik",
+          "image": "/parts/cat-filter.webp",
+          "link": "#"
+        },
+        { "name": "Belt, Hose", "image": "/parts/cat-belt.webp", "link": "#" },
+        {
+          "name": "Seal Kit, O-Ring",
+          "image": "/parts/cat-seal.webp",
+          "link": "#"
+        },
+        {
+          "name": "Cutting Edge",
+          "image": "/parts/cat-edge.webp",
+          "link": "#"
+        },
+        { "name": "Roller", "image": "/parts/cat-roller.webp", "link": "#" },
+        {
+          "name": "Sprocket",
+          "image": "/parts/cat-sprocket.webp",
+          "link": "#"
+        },
+        {
+          "name": "Pin / Bushing",
+          "image": "/parts/cat-pin.webp",
+          "link": "#"
+        },
+        { "name": "Aki", "image": "/parts/cat-battery.webp", "link": "#" },
+        { "name": "Oli & Coolant", "image": "/parts/cat-oil.webp", "link": "#" }
+      ]
+    },
+    "promo_section": {
+      "title": "Promo Spesial Bulan Ini",
+      "description": "Lihat simulasi cara mudah memesan suku cadang melalui WhatsApp dan dapatkan penawaran menarik.",
+      "video_placeholder": "Simulasi Video Pemesanan via WA"
+    },
+    "fast_movers_section": {
+      "title": "Suku Cadang Fast Moving",
+      "description": "Tabel di bawah ini menunjukkan suku cadang yang paling sering dicari oleh pelanggan kami. Semua dijamin 100% asli.",
+      "image": "/parts/fast-movers-table.webp"
+    }
+  }
+}

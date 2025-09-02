@@ -1,0 +1,77 @@
+{
+  "new_machines_page": {
+    "hero": {
+      "subtitle": "TOP QUALITY AND PERFORMANCE",
+      "title": "Explore Our New Machine Lineup",
+      "image": "/equipment/banner.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Equipment", "link": "/equipment" },
+        { "name": "New Machines", "link": "/equipment/new-machines" }
+      ]
+    },
+    "intro": {
+      "title": "Cat® equipment sets the standard for our industry.",
+      "description": "Cat® equipment is recognized for its reliability and durability. Combined with the expertise of our Cat-certified professionals, you can get the perfect machine you’re looking for. Since a new Cat machine is an investment in the future of your business."
+    },
+    "types": [
+      {
+        "name": "Hydraulic Excavator",
+        "image": "/equipment/type1.webp",
+        "link": "#"
+      },
+      {
+        "name": "Mini Excavator",
+        "image": "/equipment/type2.webp",
+        "link": "#"
+      },
+      { "name": "Bulldozer", "image": "/equipment/type3.webp", "link": "#" },
+      { "name": "Wheel Loader", "image": "/equipment/type4.webp", "link": "#" },
+      { "name": "Motor Grader", "image": "/equipment/type5.webp", "link": "#" },
+      {
+        "name": "Backhoe Loader",
+        "image": "/equipment/type6.webp",
+        "link": "#"
+      },
+      {
+        "name": "Skid Steer Loader",
+        "image": "/equipment/type7.webp",
+        "link": "#"
+      },
+      {
+        "name": "Crawler Crane",
+        "image": "/equipment/type8.webp",
+        "link": "#"
+      },
+      { "name": "Truck Crane", "image": "/equipment/type9.webp", "link": "#" },
+      {
+        "name": "Rough Terrain Crane",
+        "image": "/equipment/type10.webp",
+        "link": "#"
+      },
+      {
+        "name": "Forklift (Diesel, LPG, Electric)",
+        "image": "/equipment/type11.webp",
+        "link": "#"
+      },
+      { "name": "Telehandler", "image": "/equipment/type12.webp", "link": "#" },
+      {
+        "name": "Articulated Dump Truck",
+        "image": "/equipment/type13.webp",
+        "link": "#"
+      },
+      {
+        "name": "Soil Compactor",
+        "image": "/equipment/type14.webp",
+        "link": "#"
+      },
+      {
+        "name": "Asphalt Paver",
+        "image": "/equipment/type15.webp",
+        "link": "#"
+      },
+      { "name": "Boom Lift", "image": "/equipment/type16.webp", "link": "#" },
+      { "name": "Scissor Lift", "image": "/equipment/type17.webp", "link": "#" }
+    ]
+  }
+}

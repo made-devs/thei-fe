@@ -1,0 +1,121 @@
+{
+  "service_page": {
+    "hero": {
+      "subtitle": "DUKUNGAN AHLI UNTUK ALAT BERAT ANDA",
+      "title": "Layanan Profesional, Uptime Maksimal",
+      "description": "Jaga performa puncak alat berat Anda dengan dukungan teknisi ahli dan solusi servis komprehensif kami yang siap 24/7.",
+      "cta": "Jadwalkan Servis Sekarang",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Layanan & Dukungan", "link": "/service" }
+      ]
+    },
+    "interactive_services": {
+      "title": "Jelajahi Solusi Layanan Kami",
+      "services": [
+        {
+          "id": "preventive",
+          "icon": "ShieldCheck",
+          "title": "A. Preventive Maintenance",
+          "description": "Program perawatan pencegahan terencana untuk menjaga keandalan dan meminimalkan biaya operasional.",
+          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+        },
+        {
+          "id": "rebuild",
+          "icon": "Wrench",
+          "title": "B. Rebuild & Overhaul",
+          "description": "Kembalikan komponen utama alat berat Anda ke kondisi seperti baru dengan standar kualitas pabrikan.",
+          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+        },
+        {
+          "id": "hydraulic",
+          "icon": "Droplets",
+          "title": "C. Hydraulic Service",
+          "description": "Layanan lengkap untuk sistem hidrolik, memastikan presisi dan kekuatan alat berat Anda.",
+          "points": ["Pump", "Motor", "Cylinder", "Hose"]
+        },
+        {
+          "id": "electrical",
+          "icon": "Cpu",
+          "title": "D. Electrical & ECM",
+          "description": "Diagnostik dan perbaikan canggih untuk semua komponen elektronik dan modul kontrol engine.",
+          "points": ["Scan", "Calibration", "Repair"]
+        },
+        {
+          "id": "undercarriage",
+          "icon": "Layers",
+          "title": "E. Undercarriage & Track",
+          "description": "Perawatan dan perbaikan khusus untuk undercarriage guna memastikan mobilitas dan stabilitas yang optimal.",
+          "points": ["Alignment", "Wear Analysis", "Track Press"]
+        },
+        {
+          "id": "fabrication",
+          "icon": "Sparkles",
+          "title": "F. Fabrication & Welding",
+          "description": "Solusi fabrikasi dan pengelasan presisi untuk memperbaiki kerusakan struktural dan modifikasi.",
+          "points": ["Crack Repair", "Bucket Repair", "Line Boring"]
+        },
+        {
+          "id": "ac",
+          "icon": "Snowflake",
+          "title": "G. Air Conditioning",
+          "description": "Pastikan kenyamanan dan keamanan operator dengan layanan perawatan AC yang menyeluruh.",
+          "points": ["Flushing", "Refill Freon", "Cabin Filter"]
+        },
+        {
+          "id": "field_service",
+          "icon": "Truck",
+          "title": "H. Field Service 24/7",
+          "description": "Tim servis lapangan kami siap datang ke lokasi Anda kapan saja untuk perbaikan darurat.",
+          "points": ["Mobile Truck", "On-site Repair"]
+        },
+        {
+          "id": "agreement",
+          "icon": "FileText",
+          "title": "I. Service Agreement",
+          "description": "Kontrak layanan yang disesuaikan untuk menjamin uptime dan efisiensi sesuai target KPI Anda.",
+          "points": ["Uptime Guarantee", "Custom Contracts"]
+        },
+        {
+          "id": "inspection",
+          "icon": "ClipboardCheck",
+          "title": "J. Inspection",
+          "description": "Layanan inspeksi mendetail untuk memastikan unit baru siap kerja atau unit lama tetap prima.",
+          "points": ["PDI", "99-Point Inspection", "Commissioning"]
+        },
+        {
+          "id": "fuel",
+          "icon": "Fuel",
+          "title": "K. Fuel Efficiency",
+          "description": "Program audit dan pelatihan untuk membantu Anda mencapai efisiensi bahan bakar yang maksimal.",
+          "points": ["Fuel Audit", "Operator Training"]
+        }
+      ]
+    },
+    "quality_gallery": {
+      "title": "Bukti Kualitas dan Keahlian Kami",
+      "before_after": {
+        "title": "Before & After Overhaul",
+        "image_before": "/service/before.webp",
+        "image_after": "/service/after.webp"
+      },
+      "video": {
+        "title": "Proses Hydraulic Test",
+        "thumbnail": "/service/video-thumb.webp"
+      },
+      "image1": {
+        "title": "Mekanik Profesional",
+        "src": "/service/mechanic.webp"
+      },
+      "image2": {
+        "title": "Armada Service Truck",
+        "src": "/service/service-truck.webp"
+      }
+    },
+    "field_service_highlight": {
+      "title": "Siap Melayani Kapan Saja, Di Mana Saja.",
+      "description": "Armada Field Service kami yang lengkap siap menjangkau lokasi Anda 24/7 untuk memastikan waktu henti minimal dan produktivitas maksimal.",
+      "cta": "Hubungi Layanan Darurat"
+    }
+  }
+}

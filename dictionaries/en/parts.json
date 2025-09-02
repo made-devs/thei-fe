@@ -1,0 +1,83 @@
+{
+  "parts_page": {
+    "hero": {
+      "subtitle": "GENUINE PARTS FOR YOUR MACHINE",
+      "title": "Guaranteed Availability, Maximum Performance",
+      "image": "/parts/hero-bg.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Parts", "link": "/parts" }
+      ]
+    },
+    "features_section": {
+      "title": "Why Choose Our Genuine Parts?",
+      "features": [
+        {
+          "name": "Easy Ordering",
+          "description": "Order via WhatsApp, Hotline, or inquiry form.",
+          "icon": "MessageSquare"
+        },
+        {
+          "name": "Flexible Delivery",
+          "description": "Choose between delivery to your site or pick-up at our branch.",
+          "icon": "Truck"
+        },
+        {
+          "name": "Genuine Warranty",
+          "description": "Official warranty for every genuine part you purchase.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "name": "Monthly Promo",
+          "description": "Get special offers for selected spare parts every month.",
+          "icon": "Tag"
+        }
+      ]
+    },
+    "category_section": {
+      "title": "Explore Parts Categories",
+      "description": "Find the specific part you need from our comprehensive catalog.",
+      "categories": [
+        {
+          "name": "Oil, Air, Fuel, Hydraulic Filter",
+          "image": "/parts/cat-filter.webp",
+          "link": "#"
+        },
+        { "name": "Belt, Hose", "image": "/parts/cat-belt.webp", "link": "#" },
+        {
+          "name": "Seal Kit, O-Ring",
+          "image": "/parts/cat-seal.webp",
+          "link": "#"
+        },
+        {
+          "name": "Cutting Edge",
+          "image": "/parts/cat-edge.webp",
+          "link": "#"
+        },
+        { "name": "Roller", "image": "/parts/cat-roller.webp", "link": "#" },
+        {
+          "name": "Sprocket",
+          "image": "/parts/cat-sprocket.webp",
+          "link": "#"
+        },
+        {
+          "name": "Pin / Bushing",
+          "image": "/parts/cat-pin.webp",
+          "link": "#"
+        },
+        { "name": "Battery", "image": "/parts/cat-battery.webp", "link": "#" },
+        { "name": "Oil & Coolant", "image": "/parts/cat-oil.webp", "link": "#" }
+      ]
+    },
+    "promo_section": {
+      "title": "This Month's Special Promo",
+      "description": "See a simulation of how easy it is to order parts via WhatsApp and get attractive offers.",
+      "video_placeholder": "WA Order Simulation Video"
+    },
+    "fast_movers_section": {
+      "title": "Fast Moving Parts",
+      "description": "The table below shows the most frequently sought-after spare parts by our customers. All are guaranteed 100% genuine.",
+      "image": "/parts/fast-movers-table.webp"
+    }
+  }
+}

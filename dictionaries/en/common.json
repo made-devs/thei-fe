@@ -45,5 +45,9 @@
     "equipment_maintenance": "Equipment Maintenance",
     "fuel_guarantee": "Fuel Guarantee Program",
     "repair_options": "Repair Options"
+  },
+  "main_cta": {
+    "title": "LET'S FIND THE BEST SOLUTION TO ADVANCE YOUR BUSINESS.",
+    "cta_button": "CONTACT US NOW"
   }
 }

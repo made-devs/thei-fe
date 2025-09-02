@@ -1,0 +1,69 @@
+{
+  "promotions_page": {
+    "hero": {
+      "subtitle": "Penawaran Eksklusif",
+      "title": "Penawaran Terbaik, Keuntungan Maksimal.",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Promosi", "link": "/promotions" }
+      ]
+    },
+    "packages": {
+      "title": "Paket Servis Unggulan",
+      "best_value": "Paling Untung",
+      "button_text": "Pilih Paket",
+      "what_included": "Yang termasuk:",
+      "list": [
+        {
+          "name": "SILVER",
+          "price": "Rp20 jt",
+          "description": "Paket servis dasar untuk menjaga performa esensial.",
+          "features": ["Oli", "Spooring", "AC Basic", "Poles Lampu", "Fogging"]
+        },
+        {
+          "name": "GOLD",
+          "price": "Rp50 jt",
+          "description": "Perawatan menyeluruh untuk kenyamanan dan perlindungan ekstra.",
+          "features": ["AC Super Beku", "Anti Karat", "Poles Body", "Servis Kaki-kaki", "Oli", "Fogging"]
+        },
+        {
+          "name": "EXCLUSIVE",
+          "price": "Rp150 jt",
+          "description": "Layanan premium untuk restorasi dan perlindungan tingkat lanjut.",
+          "features": ["Nano Ceramic", "Anti Karat", "Overhaul", "AC Super Beku", "Spooring", "dll."]
+        },
+        {
+          "name": "DIAMOND",
+          "price": "Rp200 jt",
+          "description": "Solusi total untuk performa puncak dan ketenangan pikiran.",
+          "features": ["Semua Paket Exclusive", "+ Engine Rebuild", "Tune Up", "Understeel", "Premium Coating", "Transmisi", "Rem", "Ban", "Safety Kit"]
+        }
+      ]
+    },
+    "collaboration": {
+      "title": "Lebih dari Sekedar Servis. Ini Adalah Kemitraan.",
+      "benefits": [
+        { "name": "Priority Card", "icon": "CreditCard" },
+        { "name": "Gratis Service Forklift", "icon": "Wrench" },
+        { "name": "Prioritas Trade-in", "icon": "Repeat" },
+        { "name": "Kontrak Servis 24/7", "icon": "CalendarClock" },
+        { "name": "Hotline VIP", "icon": "Phone" },
+        { "name": "Gift Pack Eksklusif", "icon": "Gift" },
+        { "name": "Training Operator", "icon": "Users" },
+        { "name": "Garansi Tambahan", "icon": "ShieldCheck" },
+        { "name": "Konsultasi Firma Hukum", "icon": "Briefcase" },
+        { "name": "Gratis Pengiriman", "icon": "Truck" }
+      ]
+    },
+    "testimonial": {
+      "title": "Kisah Sukses Partner Kami",
+      "quote": "Program kolaborasi ini benar-benar mengubah cara kami mengelola armada. Layanan prioritas dan bonus-bonusnya sangat membantu efisiensi operasional kami.",
+      "name": "Dewi Anggraini",
+      "company": "Direktur Operasional, PT. Maju Konstruksi"
+    },
+    "main_cta": {
+        "title": "Siap Menjadi Partner Prioritas dan Nikmati Semua Keuntungannya?",
+        "cta_button": "Daftar Program Kolaborasi"
+    }
+  }
+}

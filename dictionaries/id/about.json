@@ -6,7 +6,8 @@
       "title": "Merintis Solusi Alat Berat di Indonesia"
     },
     "director_intro": {
-      "greeting": "Selamat datang di THEI – TJM Heavy Equipment Indonesia.",
+      "subtitle": "SAMBUTAN DIREKTUR",
+      "title": "Selamat datang di TJM Heavy Equipment Indonesia (THEI).",
       "quote": "Kami hadir sebagai pionir transformasi dunia alat berat di Indonesia, membawa semangat 'Lebih Lengkap, Lebih Efisien, Lebih Profesional'."
     },
     "vision_mission": {
@@ -16,7 +17,9 @@
       "mission_text": "Meningkatkan efisiensi pelanggan melalui layanan sales, rental, service, spare parts, dan after sales bonus terbesar."
     },
     "core_values": {
-      "title": "Nilai-Nilai Inti",
+      "subtitle": "FONDASI KAMI",
+      "title": "Nilai-Nilai Inti Kami",
+      "description": "Nilai-nilai ini adalah pilar yang menopang setiap aspek bisnis kami, memandu keputusan kami, dan membentuk budaya perusahaan yang kuat dan beretika.",
       "values": [
         {
           "name": "Integritas",
@@ -37,15 +40,46 @@
       ]
     },
     "hsse": {
-      "title": "Komitmen HSSE",
-      "description": "Kami berkomitmen penuh pada budaya keselamatan, menargetkan nol kecelakaan, dan memastikan kelengkapan alat pelindung diri (APD) di semua lokasi."
+      "subtitle": "PRIORITAS UTAMA",
+      "title": "Komitmen HSSE Kami",
+      "description": "Kami berkomitmen penuh pada budaya keselamatan, menargetkan nol kecelakaan, dan memastikan kelengkapan alat pelindung diri (APD) di semua lokasi.",
+      "points": [
+        "Pelatihan keselamatan kerja berkala untuk semua staf.",
+        "Inspeksi peralatan dan lingkungan kerja secara rutin.",
+        "Implementasi standar K3 (Keselamatan dan Kesehatan Kerja) internasional.",
+        "Program 'Safety First' sebagai budaya utama perusahaan."
+      ]
     },
     "csr": {
+      "subtitle": "KONTRIBUSI KAMI",
       "title": "Tanggung Jawab Sosial Perusahaan",
+      "description": "Kami percaya pada pertumbuhan yang berkelanjutan dengan memberikan kembali kepada masyarakat dan lingkungan. Inisiatif CSR kami berfokus pada pendidikan, pemberdayaan komunitas, dan pelestarian lingkungan.",
       "activities": [
         "Pelatihan operator alat berat bersertifikat.",
         "Donasi peralatan ke sekolah-sekolah teknik.",
         "Program Hijau Bersama THEI (inisiatif penanaman pohon)."
+      ],
+      "images": [
+        {
+          "src": "/career.webp",
+          "alt": "Kegiatan sosial perusahaan dengan karyawan"
+        },
+        {
+          "src": "/commitment.webp",
+          "alt": "Gedung perusahaan sebagai bagian dari komunitas"
+        },
+        {
+          "src": "/home/news2.webp",
+          "alt": "Kemitraan dengan komunitas lokal"
+        },
+        {
+          "src": "/home/news3.webp",
+          "alt": "Logistik dan distribusi bantuan"
+        },
+        {
+          "src": "/home/news4.webp",
+          "alt": "Pelatihan dan pengembangan keahlian"
+        }
       ]
     }
   }

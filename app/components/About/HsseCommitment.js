@@ -1,22 +1,49 @@
 import Image from 'next/image';
+import { Cog, CheckCircle } from 'lucide-react';
 
 const HsseCommitment = ({ dictionary }) => {
   return (
-    <section className="bg-gray-800 text-white py-20">
+    // Ganti bg section menjadi putih agar card kuning terlihat menonjol
+    <section className="bg-white py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-3xl font-bold">{dictionary.title}</h2>
-            <p className="mt-4 text-gray-300">{dictionary.description}</p>
-          </div>
-          <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
-            {/* Placeholder untuk foto safety wall */}
-            <Image
-              src="/commit1.webp" // Ganti dengan path gambar yang sesuai
-              alt="HSSE Commitment"
-              fill
-              className="object-cover"
-            />
+        {/* Tambahkan div ini sebagai card kuning yang rounded */}
+        <div className="bg-yellow-300 text-black rounded-2xl p-12 lg:p-16">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <div className="flex items-center text-sm font-bold uppercase text-black mb-2">
+                <Cog
+                  size={20}
+                  className="mr-2 animate-spin"
+                  style={{ animationDuration: '5s' }}
+                />
+                <span>{dictionary.subtitle}</span>
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-black">
+                {dictionary.title}
+              </h2>
+              <p className="mt-4 text-gray-800">{dictionary.description}</p>
+
+              {/* Checklist Points */}
+              <ul className="mt-6 space-y-3">
+                {dictionary.points.map((point, index) => (
+                  <li key={index} className="flex items-start">
+                    <CheckCircle
+                      size={20}
+                      className="text-green-600 mr-3 flex-shrink-0 mt-1"
+                    />
+                    <span className="text-gray-900">{point}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
+              <Image
+                src="/about-us/about1.webp"
+                alt="HSSE Commitment"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,54 @@
+{
+  "equipment_page": {
+    "hero": {
+      "subtitle": "JELAJAHI PRODUK KAMI",
+      "title": "Temukan Alat Berat Terbaik Anda",
+      "image": "/equipment/banner.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Alat Berat", "link": "/equipment" }
+      ]
+    },
+    "intro": {
+      "title": "Solusi Alat Berat Unggulan untuk Semua Kebutuhan Industri Anda",
+      "description": "Lini produk Cat® dirancang untuk memenuhi kebutuhan Anda di berbagai industri. Mulai dari konstruksi, pertambangan, kehutanan, hingga pertanian dan penggunaan sehari-hari. Berbagai macam mesin kami yang tahan lama dan andal memberikan waktu kerja, produktivitas, dan kualitas kerja maksimum yang dapat meningkatkan bisnis Anda."
+    },
+    "categories": [
+      {
+        "title": "Mesin Baru",
+        "description": "Peralatan Cat® diakui karena keandalan dan daya tahannya. Dikombinasikan dengan keahlian para profesional kami yang bersertifikat Cat, Anda bisa mendapatkan mesin yang tepat yang Anda cari. Karena mesin Cat baru adalah investasi untuk masa depan bisnis Anda.",
+        "image": "/equipment/equip1.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "/equipment/new-machines"
+      },
+      {
+        "title": "Rental",
+        "description": "Rental menyediakan solusi skema untuk pelanggan dalam proyek yang khawatir tentang investasi awal, dengan armada yang dipelihara sepenuhnya dan teknisi yang berpengalaman.",
+        "image": "/equipment/equip2.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "#"
+      },
+      {
+        "title": "Peralatan Bekas",
+        "description": "Dapatkan keandalan dan daya tahan Cat dengan harga lebih terjangkau. Semua peralatan bekas kami telah melalui inspeksi ketat untuk memastikan kualitas dan kinerja terbaik.",
+        "image": "/equipment/equip3.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "#"
+      },
+      {
+        "title": "Engine / Sistem Tenaga",
+        "description": "Dari genset hingga engine industri, sistem tenaga Cat memberikan tenaga yang andal untuk aplikasi paling kritis Anda.",
+        "image": "/equipment/equip4.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "#"
+      },
+      {
+        "title": "Peralatan Kerja / Attachment",
+        "description": "Maksimalkan keserbagunaan alat berat Anda dengan berbagai pilihan attachment Cat. Dirancang untuk kinerja optimal dan daya tahan lama.",
+        "image": "/equipment/equip5.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "#"
+      }
+    ]
+  }
+}

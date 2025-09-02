@@ -1,0 +1,99 @@
+{
+  "promotions_page": {
+    "hero": {
+      "subtitle": "Exclusive Offers",
+      "title": "Best Deals, Maximum Benefits.",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Promotions", "link": "/promotions" }
+      ]
+    },
+    "packages": {
+      "title": "Featured Service Packages",
+      "best_value": "Best Value",
+      "button_text": "Choose Package",
+      "what_included": "What's included:",
+      "list": [
+        {
+          "name": "SILVER",
+          "price": "Rp20 jt",
+          "description": "Basic service package to maintain essential performance.",
+          "features": [
+            "Oil",
+            "Spooring",
+            "Basic AC",
+            "Lamp Polishing",
+            "Fogging"
+          ]
+        },
+        {
+          "name": "GOLD",
+          "price": "Rp50 jt",
+          "description": "Comprehensive maintenance for extra comfort and protection.",
+          "features": [
+            "Super Freeze AC",
+            "Anti-Rust",
+            "Body Polishing",
+            "Undercarriage Service",
+            "Oil",
+            "Fogging"
+          ]
+        },
+        {
+          "name": "EXCLUSIVE",
+          "price": "Rp150 jt",
+          "description": "Premium services for advanced restoration and protection.",
+          "features": [
+            "Nano Ceramic",
+            "Anti-Rust",
+            "Overhaul",
+            "Super Freeze AC",
+            "Spooring",
+            "etc."
+          ]
+        },
+        {
+          "name": "DIAMOND",
+          "price": "Rp200 jt",
+          "description": "The total solution for peak performance and complete peace of mind.",
+          "features": [
+            "All Exclusive Package Items",
+            "+ Engine Rebuild",
+            "Tune Up",
+            "Understeel",
+            "Premium Coating",
+            "Transmission",
+            "Brakes",
+            "Tires",
+            "Safety Kit"
+          ]
+        }
+      ]
+    },
+    "collaboration": {
+      "title": "More Than Just Service. This Is a Partnership.",
+      "benefits": [
+        { "name": "Priority Card", "icon": "CreditCard" },
+        { "name": "Free Forklift Service", "icon": "Wrench" },
+        { "name": "Trade-in Priority", "icon": "Repeat" },
+        { "name": "24/7 Service Contract", "icon": "CalendarClock" },
+        { "name": "VIP Hotline", "icon": "Phone" },
+        { "name": "Exclusive Gift Pack", "icon": "Gift" },
+        { "name": "Operator Training", "icon": "Users" },
+        { "name": "Extended Warranty", "icon": "ShieldCheck" },
+        { "name": "Law Firm Consultation", "icon": "Briefcase" },
+        { "name": "Free Delivery", "icon": "Truck" }
+      ]
+    },
+    "testimonial": {
+      "title": "Our Partner's Success Story",
+      "quote": "This collaboration program truly changed how we manage our fleet. The priority service and bonuses have significantly helped our operational efficiency.",
+      "name": "Dewi Anggraini",
+      "company": "Operations Director, PT. Maju Konstruksi"
+    },
+    "main_cta": {
+      "title": "Ready to Become a Priority Partner and Enjoy All the Benefits?",
+      "cta_button": "Join Collaboration Program"
+    }
+  }
+}

@@ -45,5 +45,9 @@
     "equipment_maintenance": "Pemeliharaan Peralatan",
     "fuel_guarantee": "Program Jaminan Bahan Bakar",
     "repair_options": "Opsi Perbaikan"
+  },
+  "main_cta": {
+    "title": "MARI TEMUKAN SOLUSI TERBAIK UNTUK MENINGKATKAN BISNIS ANDA KE DEPAN.",
+    "cta_button": "HUBUNGI KAMI SEKARANG"
   }
 }

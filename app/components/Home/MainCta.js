@@ -4,6 +4,11 @@ import React from 'react';
 import Image from 'next/image';
 
 const MainCta = ({ dictionary }) => {
+  // FIX: Pengecekan untuk memastikan data ada sebelum render
+  if (!dictionary || !dictionary.title) {
+    return null;
+  }
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">

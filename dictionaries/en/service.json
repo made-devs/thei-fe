@@ -1,0 +1,121 @@
+{
+  "service_page": {
+    "hero": {
+      "subtitle": "EXPERT SUPPORT FOR YOUR HEAVY EQUIPMENT",
+      "title": "Professional Service, Maximum Uptime",
+      "description": "Maintain the peak performance of your heavy equipment with the support of our expert technicians and comprehensive 24/7 service solutions.",
+      "cta": "Schedule Service Now",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Service & Support", "link": "/service" }
+      ]
+    },
+    "interactive_services": {
+      "title": "Explore Our Service Solutions",
+      "services": [
+        {
+          "id": "preventive",
+          "icon": "ShieldCheck",
+          "title": "A. Preventive Maintenance",
+          "description": "Planned maintenance programs to maintain reliability and minimize operating costs.",
+          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+        },
+        {
+          "id": "rebuild",
+          "icon": "Wrench",
+          "title": "B. Rebuild & Overhaul",
+          "description": "Restore your major components to like-new condition with manufacturer-quality standards.",
+          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+        },
+        {
+          "id": "hydraulic",
+          "icon": "Droplets",
+          "title": "C. Hydraulic Service",
+          "description": "Complete services for hydraulic systems, ensuring the precision and power of your equipment.",
+          "points": ["Pump", "Motor", "Cylinder", "Hose"]
+        },
+        {
+          "id": "electrical",
+          "icon": "Cpu",
+          "title": "D. Electrical & ECM",
+          "description": "Advanced diagnostics and repairs for all electronic components and engine control modules.",
+          "points": ["Scan", "Calibration", "Repair"]
+        },
+        {
+          "id": "undercarriage",
+          "icon": "Layers",
+          "title": "E. Undercarriage & Track",
+          "description": "Specialized maintenance and repair for undercarriages to ensure optimal mobility and stability.",
+          "points": ["Alignment", "Wear Analysis", "Track Press"]
+        },
+        {
+          "id": "fabrication",
+          "icon": "Sparkles",
+          "title": "F. Fabrication & Welding",
+          "description": "Precision fabrication and welding solutions to repair structural damage and modifications.",
+          "points": ["Crack Repair", "Bucket Repair", "Line Boring"]
+        },
+        {
+          "id": "ac",
+          "icon": "Snowflake",
+          "title": "G. Air Conditioning",
+          "description": "Ensure operator comfort and safety with our comprehensive AC maintenance services.",
+          "points": ["Flushing", "Freon Refill", "Cabin Filter"]
+        },
+        {
+          "id": "field_service",
+          "icon": "Truck",
+          "title": "H. Field Service 24/7",
+          "description": "Our field service team is ready to come to your location anytime for emergency repairs.",
+          "points": ["Mobile Truck", "On-site Repair"]
+        },
+        {
+          "id": "agreement",
+          "icon": "FileText",
+          "title": "I. Service Agreement",
+          "description": "Customized service contracts to guarantee uptime and efficiency according to your KPI targets.",
+          "points": ["Uptime Guarantee", "Custom Contracts"]
+        },
+        {
+          "id": "inspection",
+          "icon": "ClipboardCheck",
+          "title": "J. Inspection",
+          "description": "Detailed inspection services to ensure new units are ready to work or old units remain in top condition.",
+          "points": ["PDI", "99-Point Inspection", "Commissioning"]
+        },
+        {
+          "id": "fuel",
+          "icon": "Fuel",
+          "title": "K. Fuel Efficiency",
+          "description": "Audit and training programs to help you achieve maximum fuel efficiency.",
+          "points": ["Fuel Audit", "Operator Training"]
+        }
+      ]
+    },
+    "quality_gallery": {
+      "title": "Proof of Our Quality and Expertise",
+      "before_after": {
+        "title": "Before & After Overhaul",
+        "image_before": "/service/before.webp",
+        "image_after": "/service/after.webp"
+      },
+      "video": {
+        "title": "Hydraulic Test Process",
+        "thumbnail": "/service/video-thumb.webp"
+      },
+      "image1": {
+        "title": "Professional Mechanics",
+        "src": "/service/mechanic.webp"
+      },
+      "image2": {
+        "title": "Service Truck Fleet",
+        "src": "/service/service-truck.webp"
+      }
+    },
+    "field_service_highlight": {
+      "title": "Ready to Serve Anytime, Anywhere.",
+      "description": "Our fully equipped Field Service fleet is ready to reach your location 24/7 to ensure minimal downtime and maximum productivity.",
+      "cta": "Call Emergency Service"
+    }
+  }
+}

@@ -6,7 +6,8 @@
       "title": "Pioneering Heavy Equipment Solutions in Indonesia"
     },
     "director_intro": {
-      "greeting": "Welcome to THEI – TJM Heavy Equipment Indonesia.",
+      "subtitle": "DIRECTOR'S WELCOME",
+      "title": "Welcome to TJM Heavy Equipment Indonesia (THEI).",
       "quote": "We are here as pioneers in transforming the world of heavy equipment in Indonesia, carrying the spirit of 'More Complete, More Efficient, More Professional'."
     },
     "vision_mission": {
@@ -16,7 +17,9 @@
       "mission_text": "To enhance customer efficiency through comprehensive sales, rental, service, spare parts, and the largest after-sales bonus."
     },
     "core_values": {
-      "title": "Core Values",
+      "subtitle": "OUR FOUNDATION",
+      "title": "Our Core Values",
+      "description": "These values are the pillars that support every aspect of our business, guiding our decisions and shaping a strong, ethical corporate culture.",
       "values": [
         {
           "name": "Integrity",
@@ -37,15 +40,46 @@
       ]
     },
     "hsse": {
-      "title": "HSSE Commitment",
-      "description": "We are fully committed to a culture of safety, aiming for zero accidents and ensuring complete personal protective equipment (PPE) at all sites."
+      "subtitle": "TOP PRIORITY",
+      "title": "Our HSSE Commitment",
+      "description": "We are fully committed to a culture of safety, aiming for zero accidents and ensuring complete personal protective equipment (PPE) at all sites.",
+      "points": [
+        "Regular safety training for all staff.",
+        "Routine inspection of equipment and work environments.",
+        "Implementation of international OHS (Occupational Health and Safety) standards.",
+        "A 'Safety First' program as the company's core culture."
+      ]
     },
     "csr": {
+      "subtitle": "OUR CONTRIBUTION",
       "title": "Corporate Social Responsibility",
+      "description": "We believe in sustainable growth by giving back to the community and the environment. Our CSR initiatives focus on education, community empowerment, and environmental conservation.",
       "activities": [
         "Certified training for heavy equipment operators.",
         "Donation of equipment to technical schools.",
         "The 'Green with THEI' program for tree planting initiatives."
+      ],
+      "images": [
+        {
+          "src": "/career.webp",
+          "alt": "Corporate social activity with employees"
+        },
+        {
+          "src": "/commitment.webp",
+          "alt": "Company building as part of the community"
+        },
+        {
+          "src": "/home/news2.webp",
+          "alt": "Partnership with local communities"
+        },
+        {
+          "src": "/home/news3.webp",
+          "alt": "Logistics and aid distribution"
+        },
+        {
+          "src": "/home/news4.webp",
+          "alt": "Skill training and development"
+        }
       ]
     }
   }
