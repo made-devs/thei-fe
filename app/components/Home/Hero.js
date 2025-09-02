@@ -1,4 +1,3 @@
-// /app/components/Home/Hero.js
 'use client';
 import React, { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
@@ -66,7 +65,8 @@ const Hero = ({ dictionary }) => {
       ))}
       <div className="absolute bottom-[6rem] left-0 right-0 z-20">
         <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-          <div className="flex space-x-2 items-center">
+          {/* Indikator sekarang center di mobile dan start di desktop */}
+          <div className="flex space-x-2 pb-7 items-center justify-center lg:justify-start">
             {slides.map((_, index) => (
               <button
                 key={index}
