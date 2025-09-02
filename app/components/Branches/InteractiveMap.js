@@ -4,10 +4,10 @@ import React, { useState, useRef, useEffect } from 'react';
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
-import { Map, MapPin as MapPinIcon, Phone } from 'lucide-react';
+import { MapPin as MapPinIcon, Phone } from 'lucide-react';
 
-// FIX: Konfigurasi ikon kustom untuk Leaflet
-const customIcon = new L.Icon({
+// FIX: Konfigurasi ikon kustom untuk Leaflet agar tidak rusak di Next.js
+const defaultIcon = new L.Icon({
   iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png',
   iconSize: [25, 41],
   iconAnchor: [12, 41],
@@ -16,21 +16,42 @@ const customIcon = new L.Icon({
   shadowSize: [41, 41],
 });
 
+const activeIcon = new L.Icon({
+  iconUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon-2x.png', // Ikon yang lebih besar atau beda warna
+  iconSize: [35, 51], // Ukuran diperbesar
+  iconAnchor: [17, 51],
+  popupAnchor: [1, -44],
+  shadowUrl: 'https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png',
+  shadowSize: [51, 51],
+});
+
 const InteractiveMap = ({ dictionary }) => {
   const [activeBranch, setActiveBranch] = useState(null);
-  const scrollContainerRef = useRef(null);
   const cardRefs = useRef({});
+  const mapRef = useRef(null);
 
   // Center peta di tengah Indonesia
   const mapCenter = [-2.548926, 118.0148634];
 
   useEffect(() => {
+    if (activeBranch && mapRef.current) {
+      // Animasi peta terbang ke lokasi pin yang aktif
+      mapRef.current.flyTo(
+        [activeBranch.coords.lat, activeBranch.coords.lng],
+        9,
+        {
+          animate: true,
+          duration: 1, // Durasi animasi 1 detik
+        }
+      );
+    }
+
+    // Scroll list ke kartu yang aktif
     if (activeBranch && cardRefs.current[activeBranch.id]) {
       const card = cardRefs.current[activeBranch.id];
       card.scrollIntoView({
         behavior: 'smooth',
         block: 'nearest',
-        inline: 'center',
       });
     }
   }, [activeBranch]);
@@ -45,8 +66,9 @@ const InteractiveMap = ({ dictionary }) => {
         </div>
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Kolom Peta Leaflet */}
-          <div className="relative w-full h-[65vh] bg-gray-100 rounded-lg overflow-hidden">
+          <div className="relative w-full h-[65vh] bg-gray-100 rounded-lg overflow-hidden shadow-md">
             <MapContainer
+              ref={mapRef}
               center={mapCenter}
               zoom={5}
               scrollWheelZoom={false}
@@ -60,7 +82,10 @@ const InteractiveMap = ({ dictionary }) => {
                 <Marker
                   key={branch.id}
                   position={[branch.coords.lat, branch.coords.lng]}
-                  icon={customIcon}
+                  // Ganti ikon jika pin sedang aktif
+                  icon={
+                    activeBranch?.id === branch.id ? activeIcon : defaultIcon
+                  }
                   eventHandlers={{
                     click: () => {
                       setActiveBranch(branch);
@@ -77,17 +102,14 @@ const InteractiveMap = ({ dictionary }) => {
             </MapContainer>
           </div>
           {/* Kolom Daftar Cabang */}
-          <div
-            ref={scrollContainerRef}
-            className="w-full h-[65vh] overflow-y-auto space-y-4 pr-4"
-          >
+          <div className="w-full h-[65vh] overflow-y-auto space-y-4 pr-4">
             {dictionary.branches.map((branch) => (
               <div
                 key={branch.id}
                 ref={(el) => (cardRefs.current[branch.id] = el)}
                 className={`p-6 border rounded-lg transition-all duration-300 cursor-pointer ${
                   activeBranch?.id === branch.id
-                    ? 'border-yellow-400 bg-yellow-50 shadow-lg'
+                    ? 'border-yellow-400 bg-yellow-50 shadow-lg scale-105' // Tambah scale untuk efek "pop"
                     : 'border-gray-200 bg-white hover:bg-gray-50'
                 }`}
                 onClick={() => setActiveBranch(branch)}
