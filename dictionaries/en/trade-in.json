@@ -1,0 +1,124 @@
+{
+  "trade_in_page": {
+    "hero": {
+      "subtitle": "UPGRADE YOUR FLEET",
+      "title": "Easy Trade-In, Faster Business Growth",
+      "image": "/trade-in/hero-trade-in.webp",
+      "breadcrumbs": [{ "name": "Home", "link": "/" }, { "name": "Trade-In" }]
+    },
+    "benefits_section": {
+      "title": "15 Benefits of Trading In Your Heavy Equipment at THEI",
+      "description": "Our trade-in program is designed to provide maximum benefits and unmatched convenience for your business.",
+      "benefits": [
+        {
+          "title": "High & Transparent Trade-In Value",
+          "description": "Your old unit is valued competitively with an official appraisal system, ensuring you get the best deal. Maximum trade-in age is 10 years (e.g., a 2015 forklift).",
+          "icon": "TrendingUp"
+        },
+        {
+          "title": "Upgrade to New Technology",
+          "description": "Instantly switch to the latest units (diesel, electric, gasoline) that are more energy-efficient and environmentally friendly.",
+          "icon": "Zap"
+        },
+        {
+          "title": "Save on Initial Capital",
+          "description": "The value of your old equipment automatically becomes a discount on the new unit purchase, easing your business cash flow.",
+          "icon": "PiggyBank"
+        },
+        {
+          "title": "Fast & Easy Process",
+          "description": "All processes from appraisal, documentation, to the handover of old and new units are handled by the THEI team.",
+          "icon": "FastForward"
+        },
+        {
+          "title": "Hassle-Free Selling",
+          "description": "No need to waste time advertising or selling your old equipment to third parties; just hand it over to THEI.",
+          "icon": "ThumbsUp"
+        },
+        {
+          "title": "Longer New Unit Warranty",
+          "description": "New units from trade-ins receive an additional promotional value of IDR 20 million from THEI.",
+          "icon": "ShieldCheck"
+        },
+        {
+          "title": "Installment Scheme Options",
+          "description": "The new unit can be purchased through financing (leasing) after deducting the value of the old unit.",
+          "icon": "CreditCard"
+        },
+        {
+          "title": "Free Initial Service Period",
+          "description": "New units from trade-ins get free filter components for 250, 500, 750, and 1000 Hour Meter intervals.",
+          "icon": "Wrench"
+        },
+        {
+          "title": "Market Price Certainty",
+          "description": "Transparent appraisal value based on unit condition, working hours, and service history.",
+          "icon": "ClipboardCheck"
+        },
+        {
+          "title": "Improve Fleet Efficiency",
+          "description": "Helping you save time and rejuvenate your old fleet with ease.",
+          "icon": "LineChart"
+        },
+        {
+          "title": "Promo Support from TJM Auto Care",
+          "description": "Every new trade-in unit is automatically enrolled in TJM's premium after-sales program (standby technicians, emergency hotline, spare parts).",
+          "icon": "Award"
+        },
+        {
+          "title": "Free Corporate Gift Pack",
+          "description": "Receive an exclusive package (uniforms, helmets, vests, and safety kit with your company's branding).",
+          "icon": "Gift"
+        },
+        {
+          "title": "Added Value for Your Company",
+          "description": "Get a bonus Corporate Business consultation at Sentinel Law Firm with every trade-in.",
+          "icon": "Briefcase"
+        },
+        {
+          "title": "Free Delivery in Jabodetabek",
+          "description": "Customers will get free delivery for new units within the Jabodetabek area.",
+          "icon": "Truck"
+        },
+        {
+          "title": "Free Operator Training",
+          "description": "We provide basic training for your new unit's operator to ensure optimal and safe operation.",
+          "icon": "Users"
+        }
+      ]
+    },
+    "how_it_works": {
+      "title": "Just 4 Easy Steps",
+      "steps": [
+        {
+          "title": "Contact Us",
+          "description": "Tell us your needs via phone or our online form."
+        },
+        {
+          "title": "Unit Appraisal",
+          "description": "Our expert team will visit your location for inspection & appraisal."
+        },
+        {
+          "title": "Accept the Offer",
+          "description": "Get the best price offer for your old unit."
+        },
+        {
+          "title": "New Unit Delivered",
+          "description": "Once the deal is done, we deliver the new unit and pick up the old one."
+        }
+      ]
+    },
+    "proof_section": {
+      "video_title": "See Our Process",
+      "video_description": "Transparency is key. Watch how our team conducts appraisals and unit handovers.",
+      "testimonial_title": "What They Say",
+      "testimonial_quote": "The trade-in process at THEI was very professional and fast. The price offered for my old unit was also very fair. Highly recommended!",
+      "testimonial_name": "Mr. Hermawan",
+      "testimonial_company": "Director, PT. Konstruksi Handal"
+    },
+    "main_cta": {
+      "title": "Ready to Upgrade Your Fleet to be More Modern and Efficient?",
+      "cta_button": "Start Trade-In Process"
+    }
+  }
+}
