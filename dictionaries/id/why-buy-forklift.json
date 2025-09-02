@@ -1,0 +1,146 @@
+{
+  "forklift_page": {
+    "hero": {
+      "subtitle": "Investasi Terbaik untuk Bisnis Anda",
+      "title": "20 Alasan Memilih Forklift dari THEI",
+      "image": "/why-buy-forklift/hero-forklift.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Mengapa Beli Forklift" }
+      ]
+    },
+    "benefits": {
+      "title": "Keuntungan Tak Terhingga, Bukan Sekadar Unit",
+      "description": "Kami memberikan lebih dari sekadar forklift. Kami menawarkan paket solusi lengkap yang menjamin efisiensi, keamanan, dan keuntungan jangka panjang untuk bisnis Anda.",
+      "items": [
+        {
+          "icon": "Car",
+          "title": "Hemat Biaya Mobil",
+          "description": "Bonus service & coating senilai Rp150 juta di TJM Auto Care."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Unit Terlindungi",
+          "description": "Gratis asuransi perlindungan unit selama 1 tahun penuh."
+        },
+        {
+          "icon": "HardHat",
+          "title": "Operator Aman",
+          "description": "Termasuk program training bersertifikat K3 untuk operator Anda."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Perawatan Awal Ringan",
+          "description": "Bebas biaya untuk servis pertama pada 500 jam pemakaian."
+        },
+        {
+          "icon": "Repeat",
+          "title": "Nilai Aset Tinggi",
+          "description": "Kami jamin penawaran harga trade-in terbaik di masa depan."
+        },
+        {
+          "icon": "Truck",
+          "title": "Armada Terjamin",
+          "description": "Dukungan fleet maintenance 24/7 untuk menjaga operasional Anda."
+        },
+        {
+          "icon": "PhoneCall",
+          "title": "Cepat Ditangani",
+          "description": "Akses ke hotline VIP khusus untuk penanganan prioritas."
+        },
+        {
+          "icon": "Gift",
+          "title": "Identitas Profesional",
+          "description": "Dapatkan gift pack eksklusif (seragam, helm, rompi) dengan branding perusahaan Anda."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Training Gratis",
+          "description": "Bebas biaya training untuk seluruh customer di area Jabodetabek."
+        },
+        {
+          "icon": "Filter",
+          "title": "Hemat Perawatan",
+          "description": "Gratis paket oli dan filter untuk pemakaian selama 1 tahun."
+        },
+        {
+          "icon": "CalendarClock",
+          "title": "Garansi Lebih Panjang",
+          "description": "Nikmati tambahan garansi unit resmi selama 1 tahun ekstra."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Insight Bisnis",
+          "description": "Bonus sesi konsultasi bisnis ekspor-impor bersama ahli."
+        },
+        {
+          "icon": "Shield",
+          "title": "Safety Kerja Terjamin",
+          "description": "Dapatkan paket safety kit lengkap secara gratis."
+        },
+        {
+          "icon": "Clock",
+          "title": "Downtime Minim",
+          "description": "Tim teknisi kami selalu siaga untuk datang ke lokasi Anda."
+        },
+        {
+          "icon": "Database",
+          "title": "Data Service Transparan",
+          "description": "Akses mudah untuk memantau riwayat service unit secara online."
+        },
+        {
+          "icon": "Camera",
+          "title": "Serah Terima Profesional",
+          "description": "Proses serah terima didokumentasikan dengan foto & video."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Cashflow Aman",
+          "description": "Tersedia berbagai opsi pembayaran melalui leasing & kredit."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Langsung Siap Pakai",
+          "description": "Unit dikirim dalam kondisi prima untuk efisiensi operasional maksimal."
+        },
+        {
+          "icon": "Tags",
+          "title": "Akses Promo Lintas Bisnis",
+          "description": "Keuntungan eksklusif untuk mengakses promo di seluruh TJM Group."
+        },
+        {
+          "icon": "Building",
+          "title": "Rasa Aman",
+          "description": "Beli dari dealer resmi dengan ekosistem purna jual terlengkap."
+        }
+      ]
+    },
+    "bonus_gallery": {
+      "title": "Bonus Nyata, Bukan Sekadar Janji",
+      "description": "Setiap pembelian forklift di THEI dilengkapi dengan paket keuntungan yang dirancang untuk meningkatkan nilai dan keamanan investasi Anda.",
+      "images": [
+        {
+          "src": "/why-buy-forklift/training.webp",
+          "alt": "Pelatihan operator forklift",
+          "caption": "Training Operator Bersertifikat"
+        },
+        {
+          "src": "/why-buy-forklift/gift-pack.webp",
+          "alt": "Paket merchandise perusahaan",
+          "caption": "Corporate Gift Pack Eksklusif"
+        },
+        {
+          "src": "/why-buy-forklift/safety-kit.webp",
+          "alt": "Peralatan safety kit",
+          "caption": "Paket Safety Kit Lengkap"
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "Lihat Apa Kata Mereka",
+      "description": "Dengarkan langsung dari pelanggan kami yang telah merasakan keuntungan membeli forklift di THEI.",
+      "video_id": "dQw4w9WgXcQ",
+      "video_thumb": "/why-buy-forklift/testimonial-thumb.webp"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "news_page": {
+    "hero": {
+      "subtitle": "Wawasan Terbaru dari THEI",
+      "title": "Berita & Acara",
+      "image": "/news/hero-news.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Berita & Acara" }
+      ]
+    },
+    "main_section": {
+      "all": "Semua",
+      "promo": "Promo",
+      "project": "Proyek",
+      "csr": "CSR",
+      "training": "Pelatihan",
+      "read_more": "Baca Selengkapnya"
+    },
+    "featured_video": {
+      "title": "Liputan Acara Eksklusif Kami",
+      "description": "Rasakan kembali momen-momen penting dari acara terbaru kami melalui liputan video eksklusif ini.",
+      "video_thumb": "/news/event-video-thumb.webp"
+    },
+    "articles": [
+      {
+        "id": 1,
+        "slug": "promo-ultra-untung-lebih-extra",
+        "category": "Promo",
+        "title": "Promo ULTRA: Untung Lebih Extra",
+        "date": "2025-08-15",
+        "image": "/promo4.webp",
+        "excerpt": "Dapatkan penawaran sewa mulai dari Rp 25 Juta/bulan dan unit bekas berkualitas mulai dari Rp 700 Jutaan. Plus, menangkan merchandise eksklusif!"
+      },
+      {
+        "id": 2,
+        "slug": "thei-dukung-proyek-infrastruktur-strategis",
+        "category": "Project",
+        "title": "THEI Dukung Proyek Infrastruktur Strategis Nasional",
+        "date": "2025-07-22",
+        "image": "/home/news2.webp",
+        "excerpt": "Armada kami turut andil dalam pembangunan proyek strategis nasional, memastikan kelancaran dan efisiensi di lapangan."
+      },
+      {
+        "id": 3,
+        "slug": "program-csr-penanaman-1000-pohon",
+        "category": "CSR",
+        "title": "CSR: Aksi Penanaman 1.000 Pohon untuk Lingkungan",
+        "date": "2025-06-30",
+        "image": "/commitment.webp",
+        "excerpt": "Sebagai bagian dari komitmen kami terhadap lingkungan, THEI sukses menyelenggarakan program penanaman 1.000 pohon di area konservasi."
+      },
+      {
+        "id": 4,
+        "slug": "pelatihan-operator-bersertifikat-k3-batch-5",
+        "category": "Training",
+        "title": "Pelatihan Operator Bersertifikat K3 Batch 5 Dibuka",
+        "date": "2025-05-19",
+        "image": "/home/news6.webp",
+        "excerpt": "Tingkatkan keahlian dan standar keselamatan kerja dengan mengikuti program pelatihan operator profesional kami yang kembali dibuka."
+      },
+      {
+        "id": 5,
+        "slug": "bundling-solution-2025-jaga-kondisi-prima-unit",
+        "category": "Promo",
+        "title": "Bundling Solution 2025: Jaga Kondisi Prima Unit Anda",
+        "date": "2025-08-05",
+        "image": "/promo2.webp",
+        "excerpt": "Nikmati diskon 20% untuk paket Oil, Filter, dan S.O.S. Pastikan unit Anda selalu dalam performa terbaik dengan penawaran terbatas ini."
+      },
+      {
+        "id": 6,
+        "slug": "thei-terima-penghargaan-distributor-terbaik",
+        "category": "CSR",
+        "title": "THEI Kembali Terima Penghargaan Distributor Terbaik 2025",
+        "date": "2025-04-10",
+        "image": "/about-us/about1.webp",
+        "excerpt": "Dedikasi kami dalam memberikan layanan terbaik kembali diakui melalui penghargaan bergengsi sebagai distributor nasional terbaik tahun ini."
+      }
+    ]
+  }
+}

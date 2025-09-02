@@ -1,13 +1,22 @@
 {
   "navigation": {
-    "about": "ABOUT US",
+    "about_us": "ABOUT THEI",
     "branches": "BRANCHES",
     "equipment": "EQUIPMENT",
     "parts": "PARTS",
-    "service": "SERVICE & SUPPORT",
+    "service": "SERVICE",
     "promotions": "PROMOTIONS",
     "trade_in": "TRADE-IN",
-    "buy_parts": "BUY PARTS"
+    "why_buy_forklift": "WHY BUY FORKLIFT",
+    "news": "NEWS & EVENTS",
+    "buy_parts": "BUY PARTS",
+    "company": "ABOUT US"
+  },
+  "contact_info": {
+    "whatsapp_display": "0851 9588 6789",
+    "whatsapp_link": "6285195886789",
+    "email": "tjmheavyequipment@gmail.com",
+    "address": "Pekanbaru, Riau – Indonesia"
   },
   "footer": {
     "head_office": "HEAD OFFICE",

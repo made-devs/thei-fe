@@ -1,0 +1,146 @@
+{
+  "forklift_page": {
+    "hero": {
+      "subtitle": "The Best Investment for Your Business",
+      "title": "20 Reasons to Choose a Forklift from THEI",
+      "image": "/why-buy-forklift/hero-forklift.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Why Buy Forklift" }
+      ]
+    },
+    "benefits": {
+      "title": "Infinite Advantages, Not Just a Unit",
+      "description": "We provide more than just a forklift. We offer a complete solution package that guarantees efficiency, safety, and long-term profitability for your business.",
+      "items": [
+        {
+          "icon": "Car",
+          "title": "Save on Car Costs",
+          "description": "Bonus service & coating worth IDR 150 million at TJM Auto Care."
+        },
+        {
+          "icon": "ShieldCheck",
+          "title": "Protected Unit",
+          "description": "Free 1-year full unit protection insurance."
+        },
+        {
+          "icon": "HardHat",
+          "title": "Safe Operators",
+          "description": "Includes a K3 certified training program for your operators."
+        },
+        {
+          "icon": "Wrench",
+          "title": "Light Initial Maintenance",
+          "description": "Free of charge for the first 500-hour service."
+        },
+        {
+          "icon": "Repeat",
+          "title": "High Asset Value",
+          "description": "We guarantee the best trade-in price offer in the future."
+        },
+        {
+          "icon": "Truck",
+          "title": "Guaranteed Fleet",
+          "description": "24/7 fleet maintenance support to keep your operations running."
+        },
+        {
+          "icon": "PhoneCall",
+          "title": "Quick Response",
+          "description": "Access to a special VIP hotline for priority handling."
+        },
+        {
+          "icon": "Gift",
+          "title": "Professional Identity",
+          "description": "Receive an exclusive gift pack (uniform, helmet, vest) with your company's branding."
+        },
+        {
+          "icon": "MapPin",
+          "title": "Free Training",
+          "description": "Free of charge training for all customers in the Jabodetabek area."
+        },
+        {
+          "icon": "Filter",
+          "title": "Maintenance Savings",
+          "description": "Free oil and filter package for 1 year of use."
+        },
+        {
+          "icon": "CalendarClock",
+          "title": "Longer Unit Warranty",
+          "description": "Enjoy an extra 1-year official unit warranty."
+        },
+        {
+          "icon": "TrendingUp",
+          "title": "Business Insight",
+          "description": "Bonus export-import business consultation session with an expert."
+        },
+        {
+          "icon": "Shield",
+          "title": "Guaranteed Work Safety",
+          "description": "Receive a complete safety kit package for free."
+        },
+        {
+          "icon": "Clock",
+          "title": "Minimal Downtime",
+          "description": "Our team of technicians is always ready to come to your location."
+        },
+        {
+          "icon": "Database",
+          "title": "Transparent Service Data",
+          "description": "Easy access to monitor the unit's service history online."
+        },
+        {
+          "icon": "Camera",
+          "title": "Professional Handover",
+          "description": "The handover process is documented with photos & videos."
+        },
+        {
+          "icon": "Banknote",
+          "title": "Secure Cashflow",
+          "description": "Various payment options available through leasing & credit."
+        },
+        {
+          "icon": "Rocket",
+          "title": "Ready to Use Immediately",
+          "description": "The unit is delivered in prime condition for maximum operational efficiency."
+        },
+        {
+          "icon": "Tags",
+          "title": "Cross-Business Promo Access",
+          "description": "Exclusive benefits to access promos across the TJM Group."
+        },
+        {
+          "icon": "Building",
+          "title": "Peace of Mind",
+          "description": "Buy from an official dealer with the most complete after-sales ecosystem."
+        }
+      ]
+    },
+    "bonus_gallery": {
+      "title": "Real Bonuses, Not Just Promises",
+      "description": "Every forklift purchase at THEI comes with a benefits package designed to enhance the value and security of your investment.",
+      "images": [
+        {
+          "src": "/why-buy-forklift/training.webp",
+          "alt": "Forklift operator training",
+          "caption": "Certified Operator Training"
+        },
+        {
+          "src": "/why-buy-forklift/gift-pack.webp",
+          "alt": "Company merchandise package",
+          "caption": "Exclusive Corporate Gift Pack"
+        },
+        {
+          "src": "/why-buy-forklift/safety-kit.webp",
+          "alt": "Safety kit equipment",
+          "caption": "Complete Safety Kit Package"
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "See What They Say",
+      "description": "Hear directly from our customers who have experienced the benefits of buying a forklift at THEI.",
+      "video_id": "dQw4w9WgXcQ",
+      "video_thumb": "/why-buy-forklift/testimonial-thumb.webp"
+    }
+  }
+}

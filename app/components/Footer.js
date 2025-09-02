@@ -4,43 +4,42 @@ import Image from 'next/image';
 import { Facebook, Linkedin, Instagram, Youtube } from 'lucide-react';
 
 const Footer = ({ dictionary }) => {
+  // Pastikan dictionary dan propertinya ada sebelum digunakan
+  const footerDict = dictionary.footer || {};
+  const contactInfo = dictionary.contact_info || {};
+
   return (
-    // FIX: Ganti bg-black dengan warna custom --color-black
     <footer className="bg-[var(--color-black)] text-white">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px] py-20">
-        {/* FIX: Ubah grid utama menjadi 3 kolom di desktop */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Kolom 1: Kontak & Info */}
           <div className="space-y-8">
             <div>
               <h4 className="font-bold text-sm mb-4">
-                {dictionary.head_office}
+                {footerDict.head_office}
               </h4>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Jl. Raya Cilandak KKO No.1, RT.13/RW.5, Ragunan, Ps. Minggu,
-                Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12560
+                {contactInfo.address}
               </p>
             </div>
             <div>
-              <h4 className="font-bold text-sm mb-4">{dictionary.phone}</h4>
+              <h4 className="font-bold text-sm mb-4">{footerDict.phone}</h4>
               <p className="text-gray-400 text-sm">
-                (62-21) 782 2373
-                <br />
-                (62-21) 2997 6620 (Hunting)
+                {contactInfo.whatsapp_display} (WhatsApp)
               </p>
             </div>
             <div>
-              <h4 className="font-bold text-sm mb-4">{dictionary.email}</h4>
+              <h4 className="font-bold text-sm mb-4">{footerDict.email}</h4>
               <a
-                href="mailto:info@trakindo.co.id"
+                href={`mailto:${contactInfo.email}`}
                 className="text-gray-400 text-sm hover:text-yellow-400"
               >
-                info@trakindo.co.id
+                {contactInfo.email}
               </a>
             </div>
             <div>
               <h4 className="font-bold text-sm mb-4">
-                {dictionary.download_app}
+                {footerDict.download_app}
               </h4>
               <div className="flex space-x-4">
                 <a href="#">
@@ -62,7 +61,7 @@ const Footer = ({ dictionary }) => {
               </div>
             </div>
             <div>
-              <h4 className="font-bold text-sm mb-4">{dictionary.follow_us}</h4>
+              <h4 className="font-bold text-sm mb-4">{footerDict.follow_us}</h4>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white">
                   <Facebook size={20} />
@@ -80,19 +79,19 @@ const Footer = ({ dictionary }) => {
             </div>
             <div>
               <h4 className="font-bold text-sm mb-4">
-                {dictionary.newsletter}
+                {footerDict.newsletter}
               </h4>
               <form className="flex">
                 <input
                   type="email"
-                  placeholder={dictionary.email_address}
+                  placeholder={footerDict.email_address}
                   className="bg-gray-800 border border-gray-700 text-white text-sm px-4 py-2 w-full focus:outline-none focus:ring-2 focus:ring-yellow-400"
                 />
                 <button
                   type="submit"
                   className="bg-yellow-400 text-black font-bold text-sm px-6 py-2 hover:bg-yellow-500 transition-colors"
                 >
-                  {dictionary.subscribe}
+                  {footerDict.subscribe}
                 </button>
               </form>
             </div>
@@ -103,126 +102,126 @@ const Footer = ({ dictionary }) => {
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               <div>
                 <h4 className="font-bold text-sm mb-6">
-                  {dictionary.news_event}
+                  {footerDict.news_event}
                 </h4>
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.news}
+                      {footerDict.news}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.events}
+                      {footerDict.events}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.press_release}
+                      {footerDict.press_release}
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-bold text-sm mb-6">
-                  {dictionary.equipment}
+                  {footerDict.equipment}
                 </h4>
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.new_machines}
+                      {footerDict.new_machines}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.rental}
+                      {footerDict.rental}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.used_equipment}
+                      {footerDict.used_equipment}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.engines}
+                      {footerDict.engines}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.lift_trucks}
+                      {footerDict.lift_trucks}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.work_tools}
+                      {footerDict.work_tools}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.metso}
+                      {footerDict.metso}
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold text-sm mb-6">{dictionary.parts}</h4>
+                <h4 className="font-bold text-sm mb-6">{footerDict.parts}</h4>
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.cat_parts}
+                      {footerDict.cat_parts}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.parts_return}
+                      {footerDict.parts_return}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.pcc_loyalty}
+                      {footerDict.pcc_loyalty}
                     </a>
                   </li>
                 </ul>
               </div>
               <div>
                 <h4 className="font-bold text-sm mb-6">
-                  {dictionary.service_support}
+                  {footerDict.service_support}
                 </h4>
                 <ul className="space-y-4 text-sm">
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.cat_rebuild}
+                      {footerDict.cat_rebuild}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.cat_sos}
+                      {footerDict.cat_sos}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.customer_value_agreement}
+                      {footerDict.customer_value_agreement}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.equipment_protection}
+                      {footerDict.equipment_protection}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.equipment_maintenance}
+                      {footerDict.equipment_maintenance}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.fuel_guarantee}
+                      {footerDict.fuel_guarantee}
                     </a>
                   </li>
                   <li>
                     <a href="#" className="text-gray-400 hover:text-white">
-                      {dictionary.repair_options}
+                      {footerDict.repair_options}
                     </a>
                   </li>
                 </ul>

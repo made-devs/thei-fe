@@ -1,13 +1,22 @@
 {
   "navigation": {
-    "about": "TENTANG KAMI",
+    "about_us": "TENTANG THEI",
     "branches": "CABANG",
-    "equipment": "PERALATAN",
+    "equipment": "ALAT BERAT",
     "parts": "SUKU CADANG",
-    "service": "LAYANAN & DUKUNGAN",
+    "service": "LAYANAN",
     "promotions": "PROMOSI",
     "trade_in": "TUKAR TAMBAH",
-    "buy_parts": "BELI SUKU CADANG"
+    "why_buy_forklift": "MENGAPA BELI FORKLIFT",
+    "news": "BERITA & ACARA",
+    "buy_parts": "BELI SUKU CADANG",
+    "company": "TENTANG KAMI"
+  },
+  "contact_info": {
+    "whatsapp_display": "0851 9588 6789",
+    "whatsapp_link": "6285195886789",
+    "email": "tjmheavyequipment@gmail.com",
+    "address": "Pekanbaru, Riau – Indonesia"
   },
   "footer": {
     "head_office": "KANTOR PUSAT",
@@ -22,7 +31,7 @@
     "news": "Berita",
     "events": "Acara",
     "press_release": "Siaran Pers",
-    "equipment": "PERALatan",
+    "equipment": "PERALATAN",
     "new_machines": "Mesin Baru",
     "rental": "Sewa",
     "used_equipment": "Peralatan Bekas",

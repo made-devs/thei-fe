@@ -1,0 +1,82 @@
+{
+  "news_page": {
+    "hero": {
+      "subtitle": "Latest Insights from THEI",
+      "title": "News & Events",
+      "image": "/news/hero-news.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "News & Events" }
+      ]
+    },
+    "main_section": {
+      "all": "All",
+      "promo": "Promo",
+      "project": "Project",
+      "csr": "CSR",
+      "training": "Training",
+      "read_more": "Read More"
+    },
+    "featured_video": {
+      "title": "Our Exclusive Event Coverage",
+      "description": "Relive the key moments from our latest event through this exclusive video coverage.",
+      "video_thumb": "/news/event-video-thumb.webp"
+    },
+    "articles": [
+      {
+        "id": 1,
+        "slug": "ultra-promo-extra-profit",
+        "category": "Promo",
+        "title": "ULTRA Promo: Extra Profit",
+        "date": "2025-08-15",
+        "image": "/promo4.webp",
+        "excerpt": "Get rental offers starting from IDR 25 Million/month and quality used units from IDR 700 Million. Plus, win exclusive merchandise!"
+      },
+      {
+        "id": 2,
+        "slug": "thei-supports-strategic-national-infrastructure-projects",
+        "category": "Project",
+        "title": "THEI Supports Strategic National Infrastructure Projects",
+        "date": "2025-07-22",
+        "image": "/home/news2.webp",
+        "excerpt": "Our fleet is contributing to the development of national strategic projects, ensuring smoothness and efficiency on the ground."
+      },
+      {
+        "id": 3,
+        "slug": "csr-program-planting-1000-trees",
+        "category": "CSR",
+        "title": "CSR: 1,000 Trees Planting Action for the Environment",
+        "date": "2025-06-30",
+        "image": "/commitment.webp",
+        "excerpt": "As part of our commitment to the environment, THEI successfully organized a program to plant 1,000 trees in a conservation area."
+      },
+      {
+        "id": 4,
+        "slug": "k3-certified-operator-training-batch-5-opens",
+        "category": "Training",
+        "title": "K3 Certified Operator Training Batch 5 Opens",
+        "date": "2025-05-19",
+        "image": "/home/news6.webp",
+        "excerpt": "Enhance your skills and work safety standards by joining our professional operator training program, which is now open again."
+      },
+      {
+        "id": 5,
+        "slug": "bundling-solution-2025-keep-your-unit-in-prime-condition",
+        "category": "Promo",
+        "title": "Bundling Solution 2025: Keep Your Unit in Prime Condition",
+        "date": "2025-08-05",
+        "image": "/promo2.webp",
+        "excerpt": "Enjoy a 20% discount on the Oil, Filter, and S.O.S package. Ensure your unit is always at its best performance with this limited offer."
+      },
+      {
+        "id": 6,
+        "slug": "thei-receives-best-distributor-award-again",
+        "category": "CSR",
+        "title": "THEI Receives Best Distributor Award Again in 2025",
+        "date": "2025-04-10",
+        "image": "/about-us/about1.webp",
+        "excerpt": "Our dedication to providing the best service is once again recognized through the prestigious award as the best national distributor of the year."
+      }
+    ]
+  }
+}

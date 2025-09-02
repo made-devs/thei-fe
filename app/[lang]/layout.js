@@ -22,9 +22,9 @@ export default async function RootLayout({ children, params }) {
     <html lang={lang}>
       {/* 3. Terapkan kelas font ke body, gabungkan dengan kelas yang sudah ada */}
       <body className={`${jakarta.className} bg-gray-100`}>
-        <Navbar dictionary={dictionary.navigation} currentLocale={lang} />
+        <Navbar dictionary={dictionary} currentLocale={lang} />
         <main>{children}</main>
-        <Footer dictionary={dictionary.footer} />
+        <Footer dictionary={dictionary} />
         <div className="h-20 lg:hidden"></div>
       </body>
     </html>
