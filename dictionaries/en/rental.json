@@ -1,0 +1,87 @@
+{
+  "rental_page": {
+    "hero": {
+      "subtitle": "Ready-to-Use Fleet",
+      "title": "Flexible Rental Solutions for Your Project",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Equipment", "link": "/equipment" },
+        { "name": "Rental", "link": "/equipment/rental" }
+      ]
+    },
+    "categories": {
+      "title": "Available Rental Unit Categories",
+      "items": [
+        {
+          "name": "Forklift",
+          "image": "/equipment/rental/forklift.webp",
+          "link": "#"
+        },
+        {
+          "name": "Mini Excavator",
+          "image": "/equipment/rental/mini-excavator.webp",
+          "link": "#"
+        },
+        {
+          "name": "Excavator",
+          "image": "/equipment/rental/excavator.webp",
+          "link": "#"
+        },
+        {
+          "name": "Boom Lift",
+          "image": "/equipment/rental/boom-lift.webp",
+          "link": "#"
+        },
+        {
+          "name": "Wheel Loader",
+          "image": "/equipment/rental/wheel-loader.webp",
+          "link": "#"
+        },
+        {
+          "name": "Vibro Compactor",
+          "image": "/equipment/rental/vibro.webp",
+          "link": "#"
+        },
+        {
+          "name": "Motor Grader",
+          "image": "/equipment/rental/motor-grader.webp",
+          "link": "#"
+        },
+        {
+          "name": "Dozer",
+          "image": "/equipment/rental/dozer.webp",
+          "link": "#"
+        }
+      ]
+    },
+    "facilities": {
+      "title": "More Than Just Renting, It's a Guarantee of Peace of Mind",
+      "image": "/equipment/rental/training.webp",
+      "items": [
+        { "name": "Free Delivery", "icon": "Truck" },
+        { "name": "SLA Response <3 Hours", "icon": "Clock3" },
+        { "name": "24/7 Service Truck Support", "icon": "Wrench" },
+        { "name": "Replacement Unit Guarantee", "icon": "Repeat" },
+        { "name": "IoT GPS Tracking", "icon": "MapPin" },
+        { "name": "Complete Safety Kit", "icon": "HardHat" },
+        { "name": "Basic Operator Training", "icon": "Users" }
+      ]
+    },
+    "tech_and_pricing": {
+      "title": "Technology & Transparency",
+      "iot_demo": {
+        "title": "Monitor Your Unit in Real-time",
+        "description": "All our rental units are equipped with IoT GPS to monitor location, operating hours, and machine condition right from your fingertips.",
+        "cta": "Watch Demo Video"
+      },
+      "pricing_table": {
+        "title": "Competitive Pricing Structure",
+        "image": "/equipment/rental/pricing-table.webp"
+      }
+    },
+    "main_cta": {
+      "title": "Ready to Start Your Project Without the Burden of Investment?",
+      "cta_button": "Request a Rental Quote"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "branches_page": {
+    "hero": {
+      "subtitle": "CABANG KAMI",
+      "title": "Jaringan Luas, Pelayanan Dekat",
+      "description": "Temukan dukungan ahli kami di 8 kota besar di seluruh Indonesia, siap melayani di mana pun proyek Anda berada.",
+      "image": "/branches/hero-branches.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Cabang Kami" }
+      ]
+    },
+    "interactive_map": {
+      "title": "Jelajahi Jaringan Cabang Kami",
+      "branches": [
+        {
+          "id": "jabodetabek",
+          "city": "Jabodetabek",
+          "address": "Jl. Raya Cilandak KKO No.1, RT.13/RW.5, Ragunan, Ps. Minggu, Jakarta Selatan",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(021) 782-2373",
+          "coords": { "lat": -6.29, "lng": 106.82 }
+        },
+        {
+          "id": "bandung",
+          "city": "Bandung",
+          "address": "Jl. Soekarno Hatta No. 438, Kota Bandung, Jawa Barat",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(022) 520-1234",
+          "coords": { "lat": -6.94, "lng": 107.62 }
+        },
+        {
+          "id": "semarang",
+          "city": "Semarang",
+          "address": "Jl. Jenderal Sudirman No. 320, Kota Semarang, Jawa Tengah",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(024) 760-5678",
+          "coords": { "lat": -6.98, "lng": 110.41 }
+        },
+        {
+          "id": "surabaya",
+          "city": "Surabaya",
+          "address": "Jl. Raya Surabaya-Malang KM 48, Pandaan, Pasuruan, Jawa Timur",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(031) 888-9999",
+          "coords": { "lat": -7.54, "lng": 112.71 }
+        },
+        {
+          "id": "medan",
+          "city": "Medan",
+          "address": "Jl. Medan-Tanjung Morawa KM 12.5, Kabupaten Deli Serdang, Sumatera Utara",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(061) 794-1111",
+          "coords": { "lat": 3.59, "lng": 98.67 }
+        },
+        {
+          "id": "pekanbaru",
+          "city": "Pekanbaru",
+          "address": "Jl. Jend. Sudirman No. 450, Kota Pekanbaru, Riau",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(0761) 858-222",
+          "coords": { "lat": 0.51, "lng": 101.45 }
+        },
+        {
+          "id": "balikpapan",
+          "city": "Balikpapan",
+          "address": "Jl. Mulawarman No. 21, Batakan, Balikpapan Timur, Kalimantan Timur",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(0542) 761-888",
+          "coords": { "lat": -1.27, "lng": 116.83 }
+        },
+        {
+          "id": "makassar",
+          "city": "Makassar",
+          "address": "Jl. Urip Sumoharjo KM. 6, Tello Baru, Panakkukang, Makassar, Sulawesi Selatan",
+          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "phone": "(0411) 448-888",
+          "coords": { "lat": -5.14, "lng": 119.43 }
+        }
+      ]
+    },
+    "virtual_tour": {
+      "title": "Kunjungi Fasilitas Kami, Secara Virtual",
+      "video_thumbnail": "/branches/virtual-tour.webp",
+      "video_id": "dQw4w9WgXcQ"
+    },
+    "facility_gallery": {
+      "title": "Standar Profesional di Setiap Lokasi",
+      "images": [
+        "/branches/gallery-1.webp",
+        "/branches/gallery-2.webp",
+        "/branches/gallery-3.webp",
+        "/branches/gallery-4.webp"
+      ]
+    },
+    "main_cta": {
+      "title": "Tim Ahli Kami Menunggu di Kota Anda",
+      "cta_button": "Temukan Cabang Terdekat"
+    }
+  }
+}

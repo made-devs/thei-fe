@@ -1,0 +1,69 @@
+{
+  "repair_packages_page": {
+    "hero": {
+      "subtitle": "Special Repair Offers",
+      "title": "Repair & Premium Service Packages",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Promotions", "link": "/promotions" },
+        { "name": "Repair Packages", "link": "/promotions/repair-packages" }
+      ]
+    },
+    "packages": {
+      "title": "Choose the Package That Fits Your Needs",
+      "items": [
+        {
+          "name": "Repair Package",
+          "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
+          "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
+          "image": "/promotions/repair-package.webp"
+        },
+        {
+          "name": "Retail Repair Package",
+          "details": "Flexible per-unit service for Forklifts, Excavators, Boom Lifts, Wheel Loaders, etc.",
+          "bonus": "Free 25 to 40-point vital inspection for your unit.",
+          "image": "/promotions/inspection.webp"
+        },
+        {
+          "name": "Premium Service Package",
+          "details": "The most comprehensive service for units from Forklifts to Motor Graders with tier options: Complete, Super, or Ultimate.",
+          "bonus": "Free Car Service Package worth Rp50 million at TJM Auto Care.",
+          "image": "/promotions/premium-service.webp"
+        }
+      ]
+    },
+    "premium_table": {
+      "title": "Premium Service Package Comparison",
+      "tiers": [
+        {
+          "name": "Complete",
+          "features": ["Basic Overhaul", "Fluid Checks", "3-Month Warranty"]
+        },
+        {
+          "name": "Super",
+          "features": [
+            "Everything in Complete",
+            "ECM Calibration",
+            "Filter Replacements",
+            "6-Month Warranty"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "features": [
+            "Everything in Super",
+            "Engine Dyno Test",
+            "S.O.S Analysis",
+            "12-Month Warranty"
+          ]
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "What Our Customers Say",
+      "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",
+      "name": "Andi Wijaya",
+      "company": "Field Manager, PT. Konstruksi Prima"
+    }
+  }
+}

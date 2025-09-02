@@ -1,0 +1,73 @@
+{
+  "repair_packages_page": {
+    "hero": {
+      "subtitle": "Penawaran Perbaikan Spesial",
+      "title": "Paket Repair & Servis Premium",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Promosi", "link": "/promotions" },
+        { "name": "Paket Repair", "link": "/promotions/repair-packages" }
+      ]
+    },
+    "packages": {
+      "title": "Pilih Paket yang Sesuai Kebutuhan Anda",
+      "items": [
+        {
+          "name": "Paket Repair",
+          "details": "Mencakup berbagai unit dari Forklift Super Hemat hingga Bulldozer Super Komplit.",
+          "bonus": "Gratis Servis Mobil senilai Rp20 jt di TJM Auto Care.",
+          "image": "/promotions/repair-package.webp"
+        },
+        {
+          "name": "Paket Eceran Repair",
+          "details": "Servis fleksibel per unit untuk Forklift, Excavator, Boom Lift, Wheel Loader, dan lainnya.",
+          "bonus": "Gratis inspeksi 25 hingga 40 titik vital pada unit Anda.",
+          "image": "/promotions/inspection.webp"
+        },
+        {
+          "name": "Paket Premium Service",
+          "details": "Layanan paling komprehensif untuk unit Forklift hingga Motor Grader dengan pilihan tier: Komplit, Super, atau Ultimate.",
+          "bonus": "Gratis Paket Servis Mobil senilai Rp50 jt di TJM Auto Care.",
+          "image": "/promotions/premium-service.webp"
+        }
+      ]
+    },
+    "premium_table": {
+      "title": "Perbandingan Paket Premium Service",
+      "tiers": [
+        {
+          "name": "Komplit",
+          "features": [
+            "Overhaul Dasar",
+            "Pemeriksaan Cairan",
+            "Garansi 3 Bulan"
+          ]
+        },
+        {
+          "name": "Super",
+          "features": [
+            "Semua di Paket Komplit",
+            "Kalibrasi ECM",
+            "Penggantian Filter",
+            "Garansi 6 Bulan"
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "features": [
+            "Semua di Paket Super",
+            "Engine Dyno Test",
+            "Analisis S.O.S",
+            "Garansi 12 Bulan"
+          ]
+        }
+      ]
+    },
+    "testimonial": {
+      "title": "Apa Kata Pelanggan Kami",
+      "quote": "Paket Premium Service benar-benar memberikan ketenangan. Unit kami kembali seperti baru dan bonus servis mobilnya sangat bermanfaat!",
+      "name": "Andi Wijaya",
+      "company": "Manajer Lapangan, PT. Konstruksi Prima"
+    }
+  }
+}

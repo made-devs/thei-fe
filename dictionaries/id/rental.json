@@ -1,0 +1,87 @@
+{
+  "rental_page": {
+    "hero": {
+      "subtitle": "Armada Siap Pakai",
+      "title": "Solusi Rental Fleksibel untuk Proyek Anda",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Equipment", "link": "/equipment" },
+        { "name": "Rental", "link": "/equipment/rental" }
+      ]
+    },
+    "categories": {
+      "title": "Kategori Unit Rental Tersedia",
+      "items": [
+        {
+          "name": "Forklift",
+          "image": "/equipment/rental/forklift.webp",
+          "link": "#"
+        },
+        {
+          "name": "Mini Excavator",
+          "image": "/equipment/rental/mini-excavator.webp",
+          "link": "#"
+        },
+        {
+          "name": "Excavator",
+          "image": "/equipment/rental/excavator.webp",
+          "link": "#"
+        },
+        {
+          "name": "Boom Lift",
+          "image": "/equipment/rental/boom-lift.webp",
+          "link": "#"
+        },
+        {
+          "name": "Wheel Loader",
+          "image": "/equipment/rental/wheel-loader.webp",
+          "link": "#"
+        },
+        {
+          "name": "Vibro Compactor",
+          "image": "/equipment/rental/vibro.webp",
+          "link": "#"
+        },
+        {
+          "name": "Motor Grader",
+          "image": "/equipment/rental/motor-grader.webp",
+          "link": "#"
+        },
+        {
+          "name": "Dozer",
+          "image": "/equipment/rental/dozer.webp",
+          "link": "#"
+        }
+      ]
+    },
+    "facilities": {
+      "title": "Bukan Sekadar Sewa, Ini Jaminan Ketenangan Anda",
+      "image": "/equipment/rental/training.webp",
+      "items": [
+        { "name": "Gratis Pengiriman", "icon": "Truck" },
+        { "name": "SLA Respons <3 Jam", "icon": "Clock3" },
+        { "name": "Layanan Truk Servis 24/7", "icon": "Wrench" },
+        { "name": "Jaminan Unit Pengganti", "icon": "Repeat" },
+        { "name": "Pelacakan GPS IoT", "icon": "MapPin" },
+        { "name": "Kelengkapan Safety Kit", "icon": "HardHat" },
+        { "name": "Pelatihan Operator Dasar", "icon": "Users" }
+      ]
+    },
+    "tech_and_pricing": {
+      "title": "Teknologi & Transparansi",
+      "iot_demo": {
+        "title": "Pantau Unit Anda Secara Real-time",
+        "description": "Semua unit rental kami dilengkapi dengan IoT GPS untuk memonitor lokasi, jam operasional, dan kondisi mesin langsung dari genggaman Anda.",
+        "cta": "Lihat Demo Video"
+      },
+      "pricing_table": {
+        "title": "Struktur Harga Kompetitif",
+        "image": "/equipment/rental/pricing-table.webp"
+      }
+    },
+    "main_cta": {
+      "title": "Siap Memulai Proyek Anda Tanpa Beban Investasi?",
+      "cta_button": "Minta Penawaran Rental"
+    }
+  }
+}
