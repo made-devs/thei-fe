@@ -1,15 +1,12 @@
 {
   "navigation": {
     "about": "ABOUT US",
-    "career": "CAREER",
-    "training": "TRAINING",
-    "eprocurement": "E-PROCUREMENT",
+    "branches": "BRANCHES",
     "equipment": "EQUIPMENT",
     "parts": "PARTS",
     "service": "SERVICE & SUPPORT",
     "promotions": "PROMOTIONS",
-    "technology": "TECHNOLOGY",
-    "industries": "INDUSTRIES",
+    "trade_in": "TRADE-IN",
     "buy_parts": "BUY PARTS"
   },
   "footer": {

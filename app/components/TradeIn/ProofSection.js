@@ -2,7 +2,10 @@ import Image from 'next/image';
 import { PlayCircle, Quote } from 'lucide-react';
 
 const ProofSection = ({ dictionary }) => {
-  if (!dictionary) return null;
+  // Guard clause untuk memastikan dictionary ada
+  if (!dictionary) {
+    return null;
+  }
 
   return (
     <section className="bg-white py-20">
@@ -31,7 +34,8 @@ const ProofSection = ({ dictionary }) => {
           <div className="bg-gray-50 p-8 rounded-lg">
             <Quote size={40} className="text-yellow-400 mb-4" />
             <blockquote className="italic text-lg text-gray-800">
-              "{dictionary.testimonial_quote}"
+              {/* FIX: Menggunakan &quot; untuk escape karakter kutip */}
+              &quot;{dictionary.testimonial_quote}&quot;
             </blockquote>
             <div className="mt-6">
               <p className="font-bold text-black">

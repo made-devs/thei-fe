@@ -1,9 +1,8 @@
-// app/components/Navbar.js
-
 'use client';
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   Search,
   ShoppingCart,
@@ -23,20 +22,19 @@ import LanguageSwitcher from './language-switcher';
 const Navbar = ({ dictionary, currentLocale }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Sesuaikan dengan halaman yang sudah ada
   const mainNavLinks = [
-    { name: dictionary.equipment, href: '#' },
-    { name: dictionary.parts, href: '#' },
-    { name: dictionary.service, href: '#' },
-    { name: dictionary.promotions, href: '#' },
-    { name: dictionary.technology, href: '#' },
-    { name: dictionary.industries, href: '#' },
+    { name: dictionary.equipment, href: `/${currentLocale}/equipment` },
+    { name: dictionary.parts, href: `/${currentLocale}/parts` },
+    { name: dictionary.service, href: `/${currentLocale}/service` },
+    { name: dictionary.promotions, href: `/${currentLocale}/promotions` },
+    { name: dictionary.trade_in, href: `/${currentLocale}/trade-in` },
   ];
 
+  // Sesuaikan dengan halaman yang sudah ada
   const topNavLinks = [
-    { name: dictionary.about, href: '#' },
-    { name: dictionary.career, href: '#' },
-    { name: dictionary.training, href: '#' },
-    { name: dictionary.eprocurement, href: '#' },
+    { name: dictionary.about, href: `/${currentLocale}/about` },
+    { name: dictionary.branches, href: `/${currentLocale}/branches` },
   ];
 
   return (
@@ -124,25 +122,25 @@ const Navbar = ({ dictionary, currentLocale }) => {
         <div className="bg-white border-b border-gray-200 relative">
           <div className="max-w-[1440px] mx-auto px-6 h-[80px] flex items-center justify-between">
             {/* Logo */}
-            <div className="flex items-center">
+            <Link href={`/${currentLocale}`} className="flex items-center">
               <div className="bg-yellow-400 px-4 py-2 rounded-l-md">
                 <span className="text-black font-bold text-xl">THEI</span>
               </div>
               <div className="bg-black px-3 py-2 rounded-r-md">
                 <span className="text-white font-bold text-xl">ID</span>
               </div>
-            </div>
+            </Link>
 
             {/* Links Navigasi */}
             <nav className="flex items-center space-x-8">
               {mainNavLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
                   href={link.href}
                   className="text-gray-800 font-semibold hover:text-yellow-500 transition-colors"
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             </nav>
 
@@ -174,7 +172,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
             </button>
           </div>
           <div className="flex justify-center">
-            <div className="flex items-center">
+            <Link href={`/${currentLocale}`} className="flex items-center">
               <div className="bg-yellow-400 px-3 py-1">
                 <span className="text-black font-extrabold text-lg tracking-wider">
                   THEI
@@ -183,7 +181,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <div className="bg-black px-2 py-1">
                 <span className="text-white font-bold text-lg">ID</span>
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex justify-end items-center space-x-4">
             <LanguageSwitcher currentLocale={currentLocale} />
@@ -199,7 +197,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
       {isMenuOpen && (
         <div className="lg:hidden fixed inset-0 bg-white z-50 flex flex-col">
           <div className="mx-auto px-4 flex w-full justify-between items-center h-[60px] border-b">
-            <div className="flex items-center">
+            <Link href={`/${currentLocale}`} className="flex items-center">
               <div className="bg-yellow-400 px-3 py-1">
                 <span className="text-black font-extrabold text-xl tracking-wider">
                   THEI
@@ -208,7 +206,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <div className="bg-black px-2 py-1">
                 <span className="text-white font-bold text-xl">ID</span>
               </div>
-            </div>
+            </Link>
             <button onClick={() => setIsMenuOpen(false)}>
               <X size={24} />
             </button>
@@ -216,25 +214,25 @@ const Navbar = ({ dictionary, currentLocale }) => {
           <div className="flex-grow p-6 overflow-y-auto">
             <nav className="flex flex-col space-y-6 text-lg font-bold text-black">
               {mainNavLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             </nav>
             <hr className="my-6" />
             <div className="flex flex-col space-y-6 text-md text-gray-700">
               {topNavLinks.map((link) => (
-                <a
+                <Link
                   key={link.name}
                   href={link.href}
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
-                </a>
+                </Link>
               ))}
             </div>
           </div>

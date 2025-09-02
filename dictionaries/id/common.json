@@ -1,15 +1,12 @@
 {
   "navigation": {
     "about": "TENTANG KAMI",
-    "career": "KARIR",
-    "training": "PELATIHAN",
-    "eprocurement": "E-PROCUREMENT",
+    "branches": "CABANG",
     "equipment": "PERALATAN",
     "parts": "SUKU CADANG",
     "service": "LAYANAN & DUKUNGAN",
     "promotions": "PROMOSI",
-    "technology": "TEKNOLOGI",
-    "industries": "INDUSTRI",
+    "trade_in": "TUKAR TAMBAH",
     "buy_parts": "BELI SUKU CADANG"
   },
   "footer": {
@@ -25,7 +22,7 @@
     "news": "Berita",
     "events": "Acara",
     "press_release": "Siaran Pers",
-    "equipment": "PERALATAN",
+    "equipment": "PERALatan",
     "new_machines": "Mesin Baru",
     "rental": "Sewa",
     "used_equipment": "Peralatan Bekas",

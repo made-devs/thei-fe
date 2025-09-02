@@ -2,125 +2,126 @@
   "trade_in_page": {
     "hero": {
       "subtitle": "UPGRADE ARMADA ANDA",
-      "title": "Tukar Tambah Mudah, Bisnis Makin Laju",
-      "image": "/trade-in/hero-trade-in.webp",
+      "title": "Upgrade Mudah, Bisnis Makin Laju",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
-        { "name": "Tukar Tambah" }
+        { "name": "Tukar Tambah", "link": "/trade-in" }
       ]
     },
     "benefits_section": {
-      "title": "15 Manfaat Trade-In Alat Berat di THEI",
-      "description": "Program tukar tambah kami dirancang untuk memberikan keuntungan maksimal dan kemudahan tak tertandingi bagi bisnis Anda.",
+      "title": "15 Manfaat Tukar Tambah di THEI",
       "benefits": [
         {
+          "icon": "Tag",
           "title": "Harga Tukar Tinggi & Transparan",
-          "description": "Unit lama dihargai kompetitif dengan sistem appraisal resmi, sehingga Anda merasa lebih untung. Usia trade-in maksimal 10 tahun ke belakang (contoh: forklift tahun 2015).",
-          "icon": "TrendingUp"
+          "description": "Unit lama dihargai kompetitif dengan sistem appraisal resmi. Usia trade-in maksimal 10 tahun (contoh: forklift tahun 2015)."
         },
         {
+          "icon": "Cpu",
           "title": "Upgrade ke Teknologi Baru",
-          "description": "Bisa langsung ganti ke unit terbaru (diesel, elektrik, gasoline) yang lebih hemat energi & ramah lingkungan.",
-          "icon": "Zap"
+          "description": "Langsung ganti ke unit terbaru (diesel, elektrik, gasoline) yang lebih hemat energi & ramah lingkungan."
         },
         {
+          "icon": "Wallet",
           "title": "Hemat Modal Awal",
-          "description": "Nilai alat lama otomatis jadi potongan harga pembelian unit baru, membuat cashflow bisnis lebih ringan.",
-          "icon": "PiggyBank"
+          "description": "Nilai alat lama otomatis jadi potongan harga pembelian unit baru, meringankan cashflow bisnis Anda."
         },
         {
+          "icon": "Zap",
           "title": "Proses Cepat & Mudah",
-          "description": "Semua proses appraisal, dokumen, hingga serah-terima unit lama ke baru ditangani oleh tim THEI.",
-          "icon": "FastForward"
+          "description": "Semua proses dari appraisal, dokumen, hingga serah-terima unit ditangani sepenuhnya oleh tim THEI."
         },
         {
+          "icon": "ThumbsUp",
           "title": "Bebas Ribet Jual Sendiri",
-          "description": "Anda tidak perlu buang waktu iklan atau jual alat lama ke pihak ketiga, cukup serahkan ke THEI.",
-          "icon": "ThumbsUp"
+          "description": "Tidak perlu buang waktu dan tenaga untuk mengiklankan atau menjual alat lama ke pihak ketiga."
         },
         {
+          "icon": "ShieldCheck",
           "title": "Garansi Unit Baru Lebih Panjang",
-          "description": "Unit baru hasil trade-in mendapatkan tambahan promo dari THEI senilai Rp 20 juta.",
-          "icon": "ShieldCheck"
+          "description": "Unit baru hasil trade-in mendapatkan tambahan promo dari THEI senilai Rp 20 juta."
         },
         {
+          "icon": "Percent",
           "title": "Opsi Skema Cicilan",
-          "description": "Unit baru dapat dibeli melalui sarana pembiayaan (leasing) setelah nilai unit lama dipotong.",
-          "icon": "CreditCard"
+          "description": "Unit baru dapat dibeli melalui skema pembiayaan (leasing) yang fleksibel setelah proses tukar tambah."
         },
         {
+          "icon": "Wrench",
           "title": "Free Service Periode Awal",
-          "description": "Unit baru dari trade-in mendapatkan bonus komponen filter gratis untuk 250, 500, 750, dan 1000 Hour Meter.",
-          "icon": "Wrench"
+          "description": "Dapatkan bonus komponen filter gratis untuk servis pada 250, 500, 750, dan 1000 jam pemakaian."
         },
         {
+          "icon": "FileText",
           "title": "Kepastian Harga Pasar",
-          "description": "Nilai appraisal transparan berdasarkan kondisi unit, jam kerja, dan riwayat service.",
-          "icon": "ClipboardCheck"
+          "description": "Nilai appraisal yang transparan berdasarkan kondisi unit, jam kerja, dan riwayat servis."
         },
         {
+          "icon": "TrendingUp",
           "title": "Meningkatkan Efisiensi Armada",
-          "description": "Membantu Anda dalam efisiensi waktu dan melakukan peremajaan unit lama dengan mudah.",
-          "icon": "LineChart"
+          "description": "Solusi cerdas untuk efisiensi waktu dan peremajaan unit-unit lama di armada Anda."
         },
         {
+          "icon": "Award",
           "title": "Dukungan Promo dari TJM Auto Care",
-          "description": "Setiap unit trade-in baru otomatis masuk ke program aftersales premium TJM (teknisi siaga, hotline darurat, sparepart).",
-          "icon": "Award"
+          "description": "Setiap unit baru otomatis masuk ke program aftersales premium TJM (teknisi siaga, hotline darurat, dll)."
         },
         {
+          "icon": "Gift",
           "title": "Free Corporate Gift Pack",
-          "description": "Mendapatkan paket eksklusif (seragam, helm, rompi, dan safety kit dengan branding perusahaan).",
-          "icon": "Gift"
+          "description": "Dapatkan paket eksklusif berisi seragam, helm, rompi, dan safety kit dengan branding perusahaan Anda."
         },
         {
+          "icon": "Briefcase",
           "title": "Nilai Tambah untuk Perusahaan",
-          "description": "Dapatkan bonus konsultasi Corporate Business di Sentinel Law Firm untuk setiap program trade-in.",
-          "icon": "Briefcase"
+          "description": "Dapatkan bonus konsultasi Corporate Business di Sentinel Law Firm sebagai nilai tambah."
         },
         {
-          "title": "Free Delivery Jabodetabek",
-          "description": "Customer akan mendapatkan gratis biaya pengiriman unit baru untuk area Jabodetabek.",
-          "icon": "Truck"
+          "icon": "Truck",
+          "title": "Free Delivery Area Jabodetabek",
+          "description": "Nikmati layanan pengiriman unit baru secara gratis untuk wilayah Jabodetabek."
         },
         {
+          "icon": "Users",
           "title": "Free Training Operator",
-          "description": "Kami memberikan pelatihan dasar untuk operator unit baru Anda agar dapat beroperasi secara optimal dan aman.",
-          "icon": "Users"
+          "description": "Kami memberikan pelatihan dasar gratis untuk operator unit baru Anda agar siap bekerja."
         }
       ]
     },
-    "how_it_works": {
+    "how_it_works_section": {
       "title": "Proses Cuma 4 Langkah Mudah",
       "steps": [
         {
-          "title": "Hubungi Kami",
-          "description": "Sampaikan kebutuhan Anda melalui telepon atau formulir online."
+          "icon": "ClipboardList",
+          "title": "Ajukan & Lengkapi Data",
+          "description": "Isi formulir online atau hubungi tim kami dengan detail unit lama Anda."
         },
         {
-          "title": "Appraisal Unit",
-          "description": "Tim ahli kami akan datang ke lokasi Anda untuk inspeksi & appraisal."
+          "icon": "Search",
+          "title": "Proses Appraisal",
+          "description": "Tim ahli kami akan melakukan inspeksi menyeluruh untuk memberikan penawaran terbaik."
         },
         {
-          "title": "Terima Penawaran",
-          "description": "Dapatkan penawaran harga terbaik untuk unit lama Anda."
+          "icon": "ThumbsUp",
+          "title": "Persetujuan Penawaran",
+          "description": "Setelah penawaran disetujui, kami akan mengurus semua dokumen yang diperlukan."
         },
         {
-          "title": "Unit Baru Dikirim",
-          "description": "Setelah deal, kami kirim unit baru dan ambil unit lama Anda."
+          "icon": "Repeat",
+          "title": "Serah Terima Unit",
+          "description": "Kami antar unit baru dan ambil unit lama Anda. Siap kerja!"
         }
       ]
     },
     "proof_section": {
-      "video_title": "Lihat Proses Kami",
-      "video_description": "Transparansi adalah kunci. Saksikan bagaimana tim kami melakukan appraisal hingga serah terima unit.",
-      "testimonial_title": "Apa Kata Mereka",
-      "testimonial_quote": "Proses trade-in di THEI sangat profesional dan cepat. Harga yang ditawarkan untuk unit lama saya juga sangat fair. Sangat direkomendasikan!",
-      "testimonial_name": "Bapak Hermawan",
-      "testimonial_company": "Direktur, PT. Konstruksi Handal"
+      "video_title": "Lihat Proses Appraisal Kami",
+      "video_description": "Transparansi adalah kunci. Saksikan bagaimana tim ahli kami melakukan proses appraisal profesional.",
+      "testimonial_quote": "Proses trade-in di THEI benar-benar di luar ekspektasi. Cepat, harganya bagus, dan timnya sangat profesional. Hemat waktu dan tenaga!",
+      "testimonial_name": "Doni Setiawan",
+      "testimonial_company": "Direktur Operasional, PT. Lintas Konstruksi"
     },
     "main_cta": {
-      "title": "Siap Upgrade Armada Anda Menjadi Lebih Modern dan Efisien?",
+      "title": "Siap Upgrade Armada Anda?",
       "cta_button": "Mulai Proses Trade-In"
     }
   }
