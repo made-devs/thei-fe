@@ -10,7 +10,7 @@ const RentalHero = ({ dictionary, lang }) => {
   return (
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       <Image
-        src="/equipment/rental/hero-background.webp"
+        src="/equipment/equip6.webp"
         alt={dictionary.title || 'Rental Heavy Equipment'}
         fill
         className="object-cover"

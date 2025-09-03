@@ -1,14 +1,23 @@
 {
   "about_page": {
     "hero": {
-      "breadcrumb": "About Us",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "About Us", "link": "/about" }
+      ],
       "subtitle": "GET TO KNOW US",
-      "title": "Pioneering Heavy Equipment Solutions in Indonesia"
+      "title": "Pioneering Heavy Equipment Solutions in Indonesia",
+      "image": "/about-us/about1.webp"
     },
     "director_intro": {
       "subtitle": "DIRECTOR'S WELCOME",
       "title": "Welcome to TJM Heavy Equipment Indonesia (THEI).",
-      "quote": "We are here as pioneers in transforming the world of heavy equipment in Indonesia, carrying the spirit of 'More Complete, More Efficient, More Professional'."
+      "quote": "We are here as pioneers in transforming the world of heavy equipment in Indonesia, carrying the spirit of 'More Complete, More Efficient, More Professional'.",
+      "video": {
+        "id": "dQw4w9WgXcQ",
+        "thumbnail": "/about-us/about2.webp",
+        "alt": "THEI director's welcome video"
+      }
     },
     "vision_mission": {
       "vision_title": "Our Vision",
@@ -65,7 +74,7 @@
           "alt": "Corporate social activity with employees"
         },
         {
-          "src": "/commitment.webp",
+          "src": "/home/news1.webp",
           "alt": "Company building as part of the community"
         },
         {

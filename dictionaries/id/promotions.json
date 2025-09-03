@@ -24,24 +24,49 @@
           "name": "GOLD",
           "price": "Rp50 jt",
           "description": "Perawatan menyeluruh untuk kenyamanan dan perlindungan ekstra.",
-          "features": ["AC Super Beku", "Anti Karat", "Poles Body", "Servis Kaki-kaki", "Oli", "Fogging"]
+          "features": [
+            "AC Super Beku",
+            "Anti Karat",
+            "Poles Body",
+            "Servis Kaki-kaki",
+            "Oli",
+            "Fogging"
+          ]
         },
         {
           "name": "EXCLUSIVE",
           "price": "Rp150 jt",
           "description": "Layanan premium untuk restorasi dan perlindungan tingkat lanjut.",
-          "features": ["Nano Ceramic", "Anti Karat", "Overhaul", "AC Super Beku", "Spooring", "dll."]
+          "features": [
+            "Nano Ceramic",
+            "Anti Karat",
+            "Overhaul",
+            "AC Super Beku",
+            "Spooring",
+            "dll."
+          ]
         },
         {
           "name": "DIAMOND",
           "price": "Rp200 jt",
           "description": "Solusi total untuk performa puncak dan ketenangan pikiran.",
-          "features": ["Semua Paket Exclusive", "+ Engine Rebuild", "Tune Up", "Understeel", "Premium Coating", "Transmisi", "Rem", "Ban", "Safety Kit"]
+          "features": [
+            "Semua Paket Exclusive",
+            "+ Engine Rebuild",
+            "Tune Up",
+            "Understeel",
+            "Premium Coating",
+            "Transmisi",
+            "Rem",
+            "Ban",
+            "Safety Kit"
+          ]
         }
       ]
     },
     "collaboration": {
-      "title": "Lebih dari Sekedar Servis. Ini Adalah Kemitraan.",
+      "title": "Lebih dari Sekadar Servis. Ini Adalah Kemitraan.",
+      "description": "Program kolaborasi kami dirancang untuk memberikan keuntungan maksimal bagi partner setia kami, memastikan armada Anda selalu dalam kondisi prima dengan dukungan prioritas.",
       "benefits": [
         { "name": "Priority Card", "icon": "CreditCard" },
         { "name": "Gratis Service Forklift", "icon": "Wrench" },
@@ -62,8 +87,8 @@
       "company": "Direktur Operasional, PT. Maju Konstruksi"
     },
     "main_cta": {
-        "title": "Siap Menjadi Partner Prioritas dan Nikmati Semua Keuntungannya?",
-        "cta_button": "Daftar Program Kolaborasi"
+      "title": "Siap Menjadi Partner Prioritas dan Nikmati Semua Keuntungannya?",
+      "cta_button": "Daftar Program Kolaborasi"
     }
   }
 }

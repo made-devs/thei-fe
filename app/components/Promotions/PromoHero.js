@@ -9,7 +9,7 @@ const PromoHero = ({ dictionary }) => {
   return (
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       <Image
-        src="/promotions/hero-gift.webp" // Ganti dengan gambar yang sesuai
+        src="/banner-slider2.webp" // Ganti dengan gambar yang sesuai
         alt={dictionary.title || 'Promotions'}
         fill
         className="object-cover"

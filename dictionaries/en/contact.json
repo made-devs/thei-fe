@@ -1,0 +1,67 @@
+{
+  "contact_page": {
+    "hero": {
+      "subtitle": "CONTACT US",
+      "title": "Our Expert Team is Ready to Help You",
+      "image": "/contact.webp",
+      "breadcrumbs": [{ "name": "Home", "link": "/" }, { "name": "Contact" }]
+    },
+    "contact_info": {
+      "title": "Main Contact Information",
+      "cards": [
+        {
+          "icon": "Building2",
+          "title": "Head Office",
+          "line1": "Jl. Raya Cilandak KKO No.1",
+          "line2": "Ragunan, South Jakarta",
+          "cta": "View on Google Maps"
+        },
+        {
+          "icon": "Phone",
+          "title": "24-Hour Hotline",
+          "line1": "1500-228",
+          "line2": "For emergency & general service",
+          "cta": "Call Now"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "WhatsApp",
+          "line1": "0851 9588 6789",
+          "line2": "For text messages only",
+          "cta": "Start Chat"
+        },
+        {
+          "icon": "Mail",
+          "title": "Email",
+          "line1": "tjmheavyequipment@gmail.com",
+          "line2": "For general inquiries & quotes",
+          "cta": "Send Email"
+        }
+      ]
+    },
+    "contact_form": {
+      "title": "Send Your Request",
+      "description": "Select the type of request and fill in the details below. Our team will respond shortly.",
+      "request_type_label": "Request Type",
+      "options": {
+        "quote": "Request Quote",
+        "service": "Book Service",
+        "parts": "Order Parts",
+        "emergency": "Emergency Service"
+      },
+      "name_label": "Full Name",
+      "company_label": "Company Name",
+      "email_label": "Email Address",
+      "phone_label": "Phone Number",
+      "part_number_label": "Part Number (If known)",
+      "message_label": "Your Message",
+      "submit_button": "Send Message"
+    },
+    "customer_service": {
+      "title": "Our Team is Ready to Serve You",
+      "description": "We pride ourselves on our responsive and solution-oriented customer service. See how our team works to ensure your every need is met.",
+      "video_id": "dQw4w9WgXcQ",
+      "video_thumb": "/home/news6.webp"
+    }
+  }
+}

@@ -188,14 +188,52 @@ const Navbar = ({ dictionary, currentLocale }) => {
       </div>
 
       {/* --- MOBILE HEADER & MENU (lg:hidden) --- */}
-      {/* Mobile implementation remains largely the same, but would need logic to handle dropdown display */}
       <div className="lg:hidden">
-        {/* ... existing mobile header code ... */}
+        <div className="mx-auto px-4 grid grid-cols-3 items-center h-[60px]">
+          <div className="flex justify-start">
+            <LanguageSwitcher currentLocale={currentLocale} />
+          </div>
+          <div className="flex justify-center">
+            <Link href={`/${currentLocale}`} className="flex items-center">
+              <div className="bg-yellow-400 px-3 py-1">
+                <span className="text-black font-extrabold text-lg tracking-wider">
+                  THEI
+                </span>
+              </div>
+              <div className="bg-black px-2 py-1">
+                <span className="text-white font-bold text-lg">ID</span>
+              </div>
+            </Link>
+          </div>
+          <div className="flex justify-end items-center">
+            <button
+              onClick={() => setIsMenuOpen(true)}
+              className="bg-yellow-400 p-2"
+            >
+              <Menu size={24} />
+            </button>
+          </div>
+        </div>
+        <div className="w-full h-[5px] bg-yellow-400"></div>
       </div>
 
       {isMenuOpen && (
         <div className="lg:hidden fixed inset-0 bg-white z-50 flex flex-col">
-          {/* ... existing mobile menu header ... */}
+          <div className="mx-auto px-4 flex w-full justify-between items-center h-[60px] border-b">
+            <Link href={`/${currentLocale}`} className="flex items-center">
+              <div className="bg-yellow-400 px-3 py-1">
+                <span className="text-black font-extrabold text-xl tracking-wider">
+                  THEI
+                </span>
+              </div>
+              <div className="bg-black px-2 py-1">
+                <span className="text-white font-bold text-xl">ID</span>
+              </div>
+            </Link>
+            <button onClick={() => setIsMenuOpen(false)}>
+              <X size={24} />
+            </button>
+          </div>
           <div className="flex-grow p-6 overflow-y-auto">
             <nav className="flex flex-col space-y-6 text-lg font-bold text-black">
               {mainNavLinks.map((link) =>

@@ -8,7 +8,7 @@ const PartsHero = ({ dictionary }) => {
   return (
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       <Image
-        src={dictionary.image || '/parts/hero-bg.webp'}
+        src={dictionary.image || '/parts/banner.webp'}
         alt={dictionary.title || 'Parts'}
         fill
         className="object-cover"

@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "TOP QUALITY AND PERFORMANCE",
       "title": "Explore Our New Machine Lineup",
-      "image": "/equipment/banner.webp",
+      "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Equipment", "link": "/equipment" },
@@ -17,61 +17,85 @@
     "types": [
       {
         "name": "Hydraulic Excavator",
-        "image": "/equipment/type1.webp",
+        "image": "/new-machines/type1.webp",
         "link": "#"
       },
       {
         "name": "Mini Excavator",
-        "image": "/equipment/type2.webp",
+        "image": "/new-machines/type2.webp",
         "link": "#"
       },
-      { "name": "Bulldozer", "image": "/equipment/type3.webp", "link": "#" },
-      { "name": "Wheel Loader", "image": "/equipment/type4.webp", "link": "#" },
-      { "name": "Motor Grader", "image": "/equipment/type5.webp", "link": "#" },
+      { "name": "Bulldozer", "image": "/new-machines/type3.webp", "link": "#" },
+      {
+        "name": "Wheel Loader",
+        "image": "/new-machines/type4.webp",
+        "link": "#"
+      },
+      {
+        "name": "Motor Grader",
+        "image": "/new-machines/type5.webp",
+        "link": "#"
+      },
       {
         "name": "Backhoe Loader",
-        "image": "/equipment/type6.webp",
+        "image": "/new-machines/type6.webp",
         "link": "#"
       },
       {
         "name": "Skid Steer Loader",
-        "image": "/equipment/type7.webp",
+        "image": "/new-machines/type7.webp",
         "link": "#"
       },
       {
         "name": "Crawler Crane",
-        "image": "/equipment/type8.webp",
+        "image": "/new-machines/type8.webp",
         "link": "#"
       },
-      { "name": "Truck Crane", "image": "/equipment/type9.webp", "link": "#" },
+      {
+        "name": "Truck Crane",
+        "image": "/new-machines/type9.webp",
+        "link": "#"
+      },
       {
         "name": "Rough Terrain Crane",
-        "image": "/equipment/type10.webp",
+        "image": "/new-machines/type10.webp",
         "link": "#"
       },
       {
         "name": "Forklift (Diesel, LPG, Electric)",
-        "image": "/equipment/type11.webp",
+        "image": "/new-machines/type11.webp",
         "link": "#"
       },
-      { "name": "Telehandler", "image": "/equipment/type12.webp", "link": "#" },
+      {
+        "name": "Telehandler",
+        "image": "/new-machines/type12.webp",
+        "link": "#"
+      },
       {
         "name": "Articulated Dump Truck",
-        "image": "/equipment/type13.webp",
+        "image": "/new-machines/type13.webp",
         "link": "#"
       },
       {
         "name": "Soil Compactor",
-        "image": "/equipment/type14.webp",
+        "image": "/new-machines/type14.webp",
         "link": "#"
       },
       {
         "name": "Asphalt Paver",
-        "image": "/equipment/type15.webp",
+        "image": "/new-machines/type15.webp",
         "link": "#"
       },
-      { "name": "Boom Lift", "image": "/equipment/type16.webp", "link": "#" },
-      { "name": "Scissor Lift", "image": "/equipment/type17.webp", "link": "#" }
+      {
+        "name": "Boom Lift",
+        "image": "/new-machines/type16.webp",
+        "link": "#"
+      },
+      {
+        "name": "Scissor Lift",
+        "image": "/new-machines/type17.webp",
+        "link": "#"
+      }
     ]
   }
 }

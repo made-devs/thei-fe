@@ -1,3 +1,4 @@
+// Filepath: app/components/Promotions/CollaborationBenefits.js
 import Image from 'next/image';
 import {
   CreditCard,
@@ -33,9 +34,11 @@ const CollaborationBenefits = ({ dictionary }) => {
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-black mb-8">
+            <h2 className="text-3xl font-bold text-black">
               {dictionary.title}
             </h2>
+            {/* Menambahkan deskripsi di sini */}
+            <p className="text-gray-600 mt-4 mb-8">{dictionary.description}</p>
             <div className="grid sm:grid-cols-2 gap-x-6 gap-y-6">
               {(dictionary.benefits || []).map((benefit) => (
                 <div key={benefit.name} className="flex items-center gap-4">
@@ -51,7 +54,7 @@ const CollaborationBenefits = ({ dictionary }) => {
           </div>
           <div className="relative w-full h-[50vh] rounded-lg overflow-hidden">
             <Image
-              src="/promotions/gift-pack.webp" // Ganti dengan path gambar yang sesuai
+              src="/banner-slider2.webp" // Ganti dengan path gambar yang sesuai
               alt="Customer receiving gift pack"
               fill
               className="object-cover"

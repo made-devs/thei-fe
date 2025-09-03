@@ -3,13 +3,14 @@
     "hero": {
       "subtitle": "EXPLORE OUR PRODUCTS",
       "title": "Find Your Perfect Heavy Equipment",
-      "image": "/equipment/banner.webp",
+      "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Equipment", "link": "/equipment" }
       ]
     },
     "intro": {
+      "subtitle": "ONE-STOP SOLUTION",
       "title": "Superior Heavy Equipment Solutions for All Your Industry Needs",
       "description": "The Cat® product line is designed to meet your needs across various industries. From construction, mining, forestry, to agriculture and daily use. Our wide range of durable and reliable machines provides maximum uptime, productivity, and work quality that can enhance your business."
     },

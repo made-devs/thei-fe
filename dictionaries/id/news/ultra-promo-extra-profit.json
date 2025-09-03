@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": 1,
+    "slug": "ultra-promo-extra-profit",
+    "category": "Promo",
+    "title": "Promo ULTRA: Untung Lebih Extra",
+    "date": "2025-08-15",
+    "image": "/promo4.webp",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Kabar gembira bagi para pelaku industri! THEI kembali menghadirkan Promo ULTRA (Untung Lebih Extra) yang dirancang khusus untuk memberikan keuntungan maksimal bagi bisnis Anda. Melalui promo ini, kami menawarkan solusi alat berat yang lebih terjangkau tanpa mengurangi kualitas dan keandalan yang telah menjadi ciri khas kami."
+      },
+      {
+        "type": "subheading",
+        "text": "Penawaran Sewa dan Unit Bekas Terbaik"
+      },
+      {
+        "type": "paragraph",
+        "text": "Dalam Promo ULTRA, Anda bisa mendapatkan penawaran sewa alat berat mulai dari Rp 25 Juta per bulan. Ini adalah kesempatan emas bagi Anda yang membutuhkan tambahan unit untuk proyek jangka pendek tanpa harus mengeluarkan investasi besar. Selain itu, kami juga menyediakan unit bekas berkualitas yang sudah terinspeksi dengan harga mulai dari Rp 700 Jutaan. Semua unit bekas kami dijamin dalam kondisi prima dan siap kerja."
+      },
+      {
+        "type": "image",
+        "src": "/home/news1.webp",
+        "alt": "Detail penawaran Promo ULTRA dengan berbagai alat berat"
+      },
+      {
+        "type": "subheading",
+        "text": "Menangkan Merchandise Eksklusif!"
+      },
+      {
+        "type": "paragraph",
+        "text": "Tidak hanya itu, setiap transaksi selama periode Promo ULTRA akan mendapatkan kesempatan untuk memenangkan merchandise eksklusif dari Caterpillar dan THEI. Jangan lewatkan kesempatan ini untuk memperkuat armada Anda sekaligus mendapatkan keuntungan lebih. Hubungi tim sales kami sekarang juga untuk informasi lebih lanjut."
+      }
+    ]
+  }
+}

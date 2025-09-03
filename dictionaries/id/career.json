@@ -1,0 +1,77 @@
+{
+  "career_page": {
+    "hero": {
+      "subtitle": "TEMUKAN POTENSI ANDA",
+      "title": "Bertumbuh Bersama THEI",
+      "description": "Kami bukan hanya menawarkan pekerjaan, kami menawarkan jenjang karir. Jelajahi peluang untuk bergabung dengan tim ahli kami atau tingkatkan keahlian Anda melalui program pelatihan bersertifikat.",
+      "image": "/career.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Tentang Kami", "link": "/about" },
+        { "name": "Karir & Pelatihan" }
+      ]
+    },
+    "why_join": {
+      "subtitle": "BUDAYA KAMI",
+      "title": "Mengapa Bergabung dengan THEI?",
+      "description": "Kami percaya bahwa tim yang hebat dibangun dari individu yang bersemangat. Di THEI, kami menciptakan lingkungan kerja yang suportif, inovatif, dan mengutamakan keselamatan, di mana setiap orang memiliki kesempatan untuk berkembang.",
+      "benefits": [
+        "Jenjang Karir yang Jelas",
+        "Lingkungan Kerja Kolaboratif",
+        "Program Pengembangan Diri",
+        "Kompensasi & Benefit Kompetitif"
+      ],
+      "video_testimonial": {
+        "title": "Dengar dari Tim Kami",
+        "video_thumb": "/home/news2.webp",
+        "video_id": "dQw4w9WgXcQ"
+      }
+    },
+    "open_positions": {
+      "subtitle": "JADILAH BAGIAN DARI KAMI",
+      "title": "Lowongan Terbuka",
+      "description": "Kami selalu mencari talenta terbaik untuk bergabung. Temukan posisi yang paling sesuai dengan keahlian dan minat Anda.",
+      "positions": [
+        {
+          "title": "Mekanik Alat Berat",
+          "location": "Semua Cabang",
+          "type": "Full-time"
+        },
+        {
+          "title": "Service Advisor",
+          "location": "Jakarta, Surabaya",
+          "type": "Full-time"
+        },
+        {
+          "title": "Parts Sales Consultant",
+          "location": "Pekanbaru, Balikpapan",
+          "type": "Full-time"
+        },
+        {
+          "title": "Admin Operasional",
+          "location": "Kantor Pusat (Jakarta)",
+          "type": "Full-time"
+        },
+        {
+          "title": "Marketing Executive",
+          "location": "Bandung, Medan",
+          "type": "Full-time"
+        }
+      ],
+      "cta": "Lihat Detail & Lamar"
+    },
+    "training_programs": {
+      "subtitle": "TINGKATKAN KEAHLIAN",
+      "title": "Program Pelatihan Profesional",
+      "description": "Investasikan pada diri Anda atau tim Anda dengan program pelatihan bersertifikat kami. Dirancang oleh para ahli industri untuk meningkatkan produktivitas dan standar keselamatan.",
+      "programs": [
+        "Sertifikasi Operator Forklift K3",
+        "Pelatihan Basic Maintenance",
+        "Program Safety Induction",
+        "Pelatihan Eco Driving Efisien"
+      ],
+      "image": "/home/news6.webp",
+      "cta": "Daftar Pelatihan"
+    }
+  }
+}

@@ -1,3 +1,4 @@
+// Filepath: app/components/RepairPackages/PackagesSection.js
 import Image from 'next/image';
 import { Gift } from 'lucide-react';
 
@@ -16,8 +17,9 @@ const PackagesSection = ({ dictionary }) => {
               key={item.name}
               className="grid lg:grid-cols-2 gap-12 items-center"
             >
+              {/* Menghapus h-[40vh] agar tinggi gambar responsif */}
               <div
-                className={`relative aspect-video h-[40vh] rounded-lg overflow-hidden ${
+                className={`relative aspect-video rounded-lg overflow-hidden ${
                   index % 2 === 0 ? 'lg:order-last' : ''
                 }`}
               >

@@ -9,7 +9,7 @@ const RepairPackagesHero = ({ dictionary }) => {
   return (
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       <Image
-        src="/promotions/hero-repair.webp" // Ganti dengan gambar yang sesuai
+        src="/banner-slider3.webp" // Ganti dengan gambar yang sesuai
         alt={dictionary.title || 'Repair Packages'}
         fill
         className="object-cover"

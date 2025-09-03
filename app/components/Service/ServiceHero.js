@@ -10,7 +10,7 @@ const ServiceHero = ({ dictionary }) => {
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       {/* Gambar Latar */}
       <Image
-        src="/service/hero-bg.webp"
+        src="/banner-slider2.webp"
         alt={dictionary.title || 'Service and Support'}
         fill
         className="object-cover"

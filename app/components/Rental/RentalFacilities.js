@@ -1,3 +1,4 @@
+// Filepath: app/components/Rental/RentalFacilities.js
 import Image from 'next/image';
 import {
   Truck,
@@ -30,7 +31,8 @@ const RentalFacilities = ({ dictionary }) => {
             <h2 className="text-3xl font-bold text-black mb-8">
               {dictionary.title}
             </h2>
-            <div className="space-y-6">
+            {/* Change from vertical stack to a 2-column grid */}
+            <div className="grid sm:grid-cols-2 gap-6">
               {dictionary.items.map((facility) => (
                 <div key={facility.name} className="flex items-start">
                   <div className="flex-shrink-0 bg-gray-200 rounded-full p-3">
@@ -43,7 +45,7 @@ const RentalFacilities = ({ dictionary }) => {
               ))}
             </div>
           </div>
-          <div className="relative aspect-[3/4] h-[60vh] rounded-lg overflow-hidden">
+          <div className="relative aspect-4/3 rounded-lg overflow-hidden">
             <Image
               src={dictionary.image}
               alt="Operator Training"

@@ -1,0 +1,77 @@
+{
+  "career_page": {
+    "hero": {
+      "subtitle": "FIND YOUR POTENTIAL",
+      "title": "Grow With THEI",
+      "description": "We don't just offer jobs; we offer career paths. Explore opportunities to join our expert team or enhance your skills through our certified training programs.",
+      "image": "/career.webp",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "About Us", "link": "/about" },
+        { "name": "Career & Training" }
+      ]
+    },
+    "why_join": {
+      "subtitle": "OUR CULTURE",
+      "title": "Why Join THEI?",
+      "description": "We believe that great teams are built from passionate individuals. At THEI, we foster a supportive, innovative, and safety-first work environment where everyone has the opportunity to thrive.",
+      "benefits": [
+        "Clear Career Path",
+        "Collaborative Work Environment",
+        "Personal Development Programs",
+        "Competitive Compensation & Benefits"
+      ],
+      "video_testimonial": {
+        "title": "Hear from Our Team",
+        "video_thumb": "/home/news2.webp",
+        "video_id": "dQw4w9WgXcQ"
+      }
+    },
+    "open_positions": {
+      "subtitle": "BECOME ONE OF US",
+      "title": "Open Positions",
+      "description": "We are always looking for the best talent to join us. Find the position that best fits your skills and interests.",
+      "positions": [
+        {
+          "title": "Heavy Equipment Mechanic",
+          "location": "All Branches",
+          "type": "Full-time"
+        },
+        {
+          "title": "Service Advisor",
+          "location": "Jakarta, Surabaya",
+          "type": "Full-time"
+        },
+        {
+          "title": "Parts Sales Consultant",
+          "location": "Pekanbaru, Balikpapan",
+          "type": "Full-time"
+        },
+        {
+          "title": "Operational Admin",
+          "location": "Head Office (Jakarta)",
+          "type": "Full-time"
+        },
+        {
+          "title": "Marketing Executive",
+          "location": "Bandung, Medan",
+          "type": "Full-time"
+        }
+      ],
+      "cta": "View Details & Apply"
+    },
+    "training_programs": {
+      "subtitle": "LEVEL UP YOUR SKILLS",
+      "title": "Professional Training Programs",
+      "description": "Invest in yourself or your team with our certified training programs. Designed by industry experts to increase productivity and safety standards.",
+      "programs": [
+        "Forklift K3 Operator Certification",
+        "Basic Maintenance Training",
+        "Safety Induction Program",
+        "Efficient Eco Driving Training"
+      ],
+      "image": "/home/news6.webp",
+      "cta": "Register for Training"
+    }
+  }
+}

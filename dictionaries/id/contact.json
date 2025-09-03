@@ -1,0 +1,67 @@
+{
+  "contact_page": {
+    "hero": {
+      "subtitle": "HUBUNGI KAMI",
+      "title": "Tim Ahli Kami Siap Membantu Anda",
+      "image": "/contact.webp",
+      "breadcrumbs": [{ "name": "Home", "link": "/" }, { "name": "Kontak" }]
+    },
+    "contact_info": {
+      "title": "Informasi Kontak Utama",
+      "cards": [
+        {
+          "icon": "Building2",
+          "title": "Kantor Pusat",
+          "line1": "Jl. Raya Cilandak KKO No.1",
+          "line2": "Ragunan, Jakarta Selatan",
+          "cta": "Lihat di Google Maps"
+        },
+        {
+          "icon": "Phone",
+          "title": "Hotline 24 Jam",
+          "line1": "1500-228",
+          "line2": "Layanan darurat & umum",
+          "cta": "Telepon Sekarang"
+        },
+        {
+          "icon": "MessageSquare",
+          "title": "WhatsApp",
+          "line1": "0851 9588 6789",
+          "line2": "Hanya untuk pesan teks",
+          "cta": "Mulai Chat"
+        },
+        {
+          "icon": "Mail",
+          "title": "Email",
+          "line1": "tjmheavyequipment@gmail.com",
+          "line2": "Untuk pertanyaan umum & penawaran",
+          "cta": "Kirim Email"
+        }
+      ]
+    },
+    "contact_form": {
+      "title": "Kirim Permintaan Anda",
+      "description": "Pilih jenis permintaan dan isi detail di bawah ini. Tim kami akan segera merespons.",
+      "request_type_label": "Jenis Permintaan",
+      "options": {
+        "quote": "Minta Penawaran (Request Quote)",
+        "service": "Pesan Layanan (Book Service)",
+        "parts": "Pesan Suku Cadang (Order Parts)",
+        "emergency": "Layanan Darurat (Emergency)"
+      },
+      "name_label": "Nama Lengkap",
+      "company_label": "Nama Perusahaan",
+      "email_label": "Alamat Email",
+      "phone_label": "Nomor Telepon",
+      "part_number_label": "Nomor Suku Cadang (Jika tahu)",
+      "message_label": "Pesan Anda",
+      "submit_button": "Kirim Pesan"
+    },
+    "customer_service": {
+      "title": "Tim Kami Siap Melayani Anda",
+      "description": "Kami bangga dengan layanan pelanggan kami yang responsif dan solutif. Lihat bagaimana tim kami bekerja untuk memastikan setiap kebutuhan Anda terpenuhi.",
+      "video_id": "dQw4w9WgXcQ",
+      "video_thumb": "/home/news6.webp"
+    }
+  }
+}

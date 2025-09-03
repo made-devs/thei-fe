@@ -1,14 +1,23 @@
 {
   "about_page": {
     "hero": {
-      "breadcrumb": "Tentang Kami",
+      "breadcrumbs": [
+        { "name": "Home", "link": "/" },
+        { "name": "Tentang Kami", "link": "/about" }
+      ],
       "subtitle": "KENALI KAMI",
-      "title": "Merintis Solusi Alat Berat di Indonesia"
+      "title": "Merintis Solusi Alat Berat di Indonesia",
+      "image": "/about-us/about1.webp"
     },
     "director_intro": {
       "subtitle": "SAMBUTAN DIREKTUR",
       "title": "Selamat datang di TJM Heavy Equipment Indonesia (THEI).",
-      "quote": "Kami hadir sebagai pionir transformasi dunia alat berat di Indonesia, membawa semangat 'Lebih Lengkap, Lebih Efisien, Lebih Profesional'."
+      "quote": "Kami hadir sebagai pionir transformasi dunia alat berat di Indonesia, membawa semangat 'Lebih Lengkap, Lebih Efisien, Lebih Profesional'.",
+      "video": {
+        "id": "dQw4w9WgXcQ",
+        "thumbnail": "/about-us/about2.webp",
+        "alt": "Video sambutan direktur THEI"
+      }
     },
     "vision_mission": {
       "vision_title": "Visi Kami",

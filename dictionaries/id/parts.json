@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "SUKU CADANG ASLI UNTUK ALAT BERAT ANDA",
       "title": "Ketersediaan Terjamin, Performa Maksimal",
-      "image": "/parts/hero-bg.webp",
+      "image": "/parts/banner.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Suku Cadang", "link": "/parts" }
@@ -40,33 +40,33 @@
       "categories": [
         {
           "name": "Filter Oli, Udara, Bahan Bakar, Hidrolik",
-          "image": "/parts/cat-filter.webp",
+          "image": "/parts/part1.webp",
           "link": "#"
         },
-        { "name": "Belt, Hose", "image": "/parts/cat-belt.webp", "link": "#" },
+        { "name": "Belt, Hose", "image": "/parts/part2.webp", "link": "#" },
         {
           "name": "Seal Kit, O-Ring",
-          "image": "/parts/cat-seal.webp",
+          "image": "/parts/part3.webp",
           "link": "#"
         },
         {
           "name": "Cutting Edge",
-          "image": "/parts/cat-edge.webp",
+          "image": "/parts/part4.webp",
           "link": "#"
         },
-        { "name": "Roller", "image": "/parts/cat-roller.webp", "link": "#" },
+        { "name": "Roller", "image": "/parts/part5.webp", "link": "#" },
         {
           "name": "Sprocket",
-          "image": "/parts/cat-sprocket.webp",
+          "image": "/parts/part6.webp",
           "link": "#"
         },
         {
           "name": "Pin / Bushing",
-          "image": "/parts/cat-pin.webp",
+          "image": "/parts/part7.webp",
           "link": "#"
         },
-        { "name": "Aki", "image": "/parts/cat-battery.webp", "link": "#" },
-        { "name": "Oli & Coolant", "image": "/parts/cat-oil.webp", "link": "#" }
+        { "name": "Aki", "image": "/parts/part8.webp", "link": "#" },
+        { "name": "Oli & Coolant", "image": "/parts/part9.webp", "link": "#" }
       ]
     },
     "promo_section": {

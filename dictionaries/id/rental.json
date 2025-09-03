@@ -3,6 +3,7 @@
     "hero": {
       "subtitle": "Armada Siap Pakai",
       "title": "Solusi Rental Fleksibel untuk Proyek Anda",
+      "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Equipment", "link": "/equipment" },
@@ -14,42 +15,42 @@
       "items": [
         {
           "name": "Forklift",
-          "image": "/equipment/rental/forklift.webp",
+          "image": "/new-machines/type11.webp",
           "link": "#"
         },
         {
           "name": "Mini Excavator",
-          "image": "/equipment/rental/mini-excavator.webp",
+          "image": "/new-machines/type2.webp",
           "link": "#"
         },
         {
           "name": "Excavator",
-          "image": "/equipment/rental/excavator.webp",
+          "image": "/new-machines/type1.webp",
           "link": "#"
         },
         {
           "name": "Boom Lift",
-          "image": "/equipment/rental/boom-lift.webp",
+          "image": "/new-machines/type16.webp",
           "link": "#"
         },
         {
           "name": "Wheel Loader",
-          "image": "/equipment/rental/wheel-loader.webp",
+          "image": "/new-machines/type4.webp",
           "link": "#"
         },
         {
           "name": "Vibro Compactor",
-          "image": "/equipment/rental/vibro.webp",
+          "image": "/new-machines/type18.webp",
           "link": "#"
         },
         {
           "name": "Motor Grader",
-          "image": "/equipment/rental/motor-grader.webp",
+          "image": "/new-machines/type5.webp",
           "link": "#"
         },
         {
           "name": "Dozer",
-          "image": "/equipment/rental/dozer.webp",
+          "image": "/new-machines/type3.webp",
           "link": "#"
         }
       ]
