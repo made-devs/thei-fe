@@ -1,4 +1,4 @@
-// /app/[lang]/page.js
+// Filepath: app/[lang]/page.js
 
 // Ganti import ke getDictionary
 import { getDictionary } from '../../lib/dictionary';
@@ -19,7 +19,7 @@ export default async function HomePage({ params }) {
 
   return (
     <>
-      <Hero dictionary={dictionary.hero} />
+      <Hero dictionary={dictionary.hero} currentLocale={lang} />
       <NewsTicker dictionary={dictionary.news_ticker} />
       <PopularEquipment dictionary={dictionary.popular_equipment} />
       <HighlightPromo dictionary={dictionary.highlight_promo} />

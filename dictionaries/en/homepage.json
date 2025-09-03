@@ -4,32 +4,38 @@
       {
         "category": "SALES",
         "title": "Find The Latest Heavy Equipment For Your Project's Success",
-        "cta": "VIEW UNIT CATALOG"
+        "cta": "VIEW UNIT CATALOG",
+        "link": "/equipment"
       },
       {
         "category": "TRADE-IN",
         "title": "Upgrade Your Fleet, Optimize Your Business With THEI's Trade-In Program",
-        "cta": "SUBMIT TRADE-IN"
+        "cta": "SUBMIT TRADE-IN",
+        "link": "/trade-in"
       },
       {
         "category": "RENTAL",
         "title": "Maximum Efficiency Without Large Investment With Our Rental Solutions",
-        "cta": "CHECK RENTAL UNITS"
+        "cta": "CHECK RENTAL UNITS",
+        "link": "/equipment/rental"
       },
       {
         "category": "REPAIR",
         "title": "Minimize Downtime With Fast & Professional Repair Services",
-        "cta": "BOOK SERVICE"
+        "cta": "BOOK SERVICE",
+        "link": "/service"
       },
       {
         "category": "PARTS",
         "title": "Guaranteed Availability Of Genuine Spare Parts, Smooth Operations Without Hindrance",
-        "cta": "SEARCH FOR PARTS"
+        "cta": "SEARCH FOR PARTS",
+        "link": "/parts"
       },
       {
         "category": "AFTER SALES",
         "title": "Enjoy The Biggest After Sales Bonus Up To Hundreds Of Millions Of Rupiah",
-        "cta": "LEARN MORE"
+        "cta": "LEARN MORE",
+        "link": "/why-buy-forklift"
       }
     ],
     "scroll_down": "SCROLL DOWN",

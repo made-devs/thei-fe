@@ -4,32 +4,38 @@
       {
         "category": "PENJUALAN",
         "title": "Temukan Alat Berat Terbaru Untuk Kesuksesan Proyek Anda",
-        "cta": "LIHAT KATALOG UNIT"
+        "cta": "LIHAT KATALOG UNIT",
+        "link": "/equipment/new-machines"
       },
       {
         "category": "TUKAR TAMBAH",
         "title": "Upgrade Armada Anda, Optimalkan Bisnis Dengan Program Tukar Tambah THEI",
-        "cta": "AJUKAN TUKAR TAMBAH"
+        "cta": "AJUKAN TUKAR TAMBAH",
+        "link": "/trade-in"
       },
       {
         "category": "RENTAL",
         "title": "Efisiensi Maksimal Tanpa Investasi Besar Dengan Solusi Rental Kami",
-        "cta": "CEK UNIT RENTAL"
+        "cta": "CEK UNIT RENTAL",
+        "link": "/equipment/rental"
       },
       {
         "category": "PERBAIKAN",
         "title": "Minimalkan Waktu Henti Dengan Layanan Perbaikan Cepat & Profesional",
-        "cta": "PESAN LAYANAN"
+        "cta": "PESAN LAYANAN",
+        "link": "/service"
       },
       {
         "category": "SUKU CADANG",
         "title": "Ketersediaan Suku Cadang Asli Terjamin, Operasional Lancar Tanpa Hambatan",
-        "cta": "CARI SUKU CADANG"
+        "cta": "CARI SUKU CADANG",
+        "link": "/parts"
       },
       {
         "category": "PURNA JUAL",
         "title": "Nikmati Bonus Purna Jual Terbesar Hingga Ratusan Juta Rupiah",
-        "cta": "PELAJARI LEBIH LANJUT"
+        "cta": "PELAJARI LEBIH LANJUT",
+        "link": "/why-buy-forklift"
       }
     ],
     "scroll_down": "GULIR KE BAWAH",

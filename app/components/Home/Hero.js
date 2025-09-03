@@ -1,6 +1,8 @@
+// Filepath: app/components/Home/Hero.js
 'use client';
 import React, { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   MessageCircle,
   MapPin,
@@ -9,7 +11,8 @@ import {
   ChevronDown,
 } from 'lucide-react';
 
-const Hero = ({ dictionary }) => {
+// FIX: Menambahkan `currentLocale` ke dalam parameter fungsi
+const Hero = ({ dictionary, currentLocale }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = useMemo(() => dictionary.slides || [], [dictionary.slides]);
 
@@ -55,9 +58,12 @@ const Hero = ({ dictionary }) => {
                 <h1 className="text-white text-4xl md:text-5xl font-bold leading-tight mb-8">
                   {slide.title}
                 </h1>
-                <button className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 text-sm font-bold tracking-wide uppercase transition-colors shadow-lg">
+                <Link
+                  href={`/${currentLocale}${slide.link}`}
+                  className="bg-yellow-400 hover:bg-yellow-500 text-black px-8 py-3 text-sm font-bold tracking-wide uppercase transition-colors shadow-lg"
+                >
                   {slide.cta}
-                </button>
+                </Link>
               </div>
             </div>
           </div>
