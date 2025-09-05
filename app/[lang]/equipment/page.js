@@ -17,7 +17,10 @@ export default async function EquipmentPage({ params: { lang } }) {
     <>
       <EquipmentHero dictionary={equipmentDict.hero} />
       <EquipmentIntro dictionary={equipmentDict.intro} />
-      <EquipmentCategoryList dictionary={equipmentDict.categories} />
+      <EquipmentCategoryList
+        dictionary={equipmentDict.categories}
+        lang={lang}
+      />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

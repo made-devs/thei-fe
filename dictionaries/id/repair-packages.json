@@ -16,19 +16,19 @@
           "name": "Paket Repair",
           "details": "Mencakup berbagai unit dari Forklift Super Hemat hingga Bulldozer Super Komplit.",
           "bonus": "Gratis Servis Mobil senilai Rp20 jt di TJM Auto Care.",
-          "image": "/promotions/repair-package.webp"
+          "image": "/banner-slider4.webp"
         },
         {
           "name": "Paket Eceran Repair",
           "details": "Servis fleksibel per unit untuk Forklift, Excavator, Boom Lift, Wheel Loader, dan lainnya.",
           "bonus": "Gratis inspeksi 25 hingga 40 titik vital pada unit Anda.",
-          "image": "/promotions/inspection.webp"
+          "image": "/service.webp"
         },
         {
           "name": "Paket Premium Service",
           "details": "Layanan paling komprehensif untuk unit Forklift hingga Motor Grader dengan pilihan tier: Komplit, Super, atau Ultimate.",
           "bonus": "Gratis Paket Servis Mobil senilai Rp50 jt di TJM Auto Care.",
-          "image": "/promotions/premium-service.webp"
+          "image": "/banner-slider3.webp"
         }
       ]
     },
@@ -67,7 +67,9 @@
       "title": "Apa Kata Pelanggan Kami",
       "quote": "Paket Premium Service benar-benar memberikan ketenangan. Unit kami kembali seperti baru dan bonus servis mobilnya sangat bermanfaat!",
       "name": "Andi Wijaya",
-      "company": "Manajer Lapangan, PT. Konstruksi Prima"
+      "company": "Manajer Lapangan, PT. Konstruksi Prima",
+      "video_thumb": "/testi/thumbnail1.webp",
+      "video_id": "dQw4w9WgXcQ"
     }
   }
 }

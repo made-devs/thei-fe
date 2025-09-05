@@ -1,6 +1,7 @@
 'use client';
 import React, { useLayoutEffect, useRef, useMemo } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Check, Cog, ArrowRight } from 'lucide-react';
@@ -29,7 +30,7 @@ const PriceDisplay = ({ priceString }) => {
   );
 };
 
-const HighlightPromo = ({ dictionary }) => {
+const HighlightPromo = ({ dictionary, currentLocale }) => {
   const packages = useMemo(
     () => dictionary.packages || [],
     [dictionary.packages]
@@ -83,13 +84,13 @@ const HighlightPromo = ({ dictionary }) => {
               {dictionary.description}
             </p>
           </div>
-          <a
-            href="#"
+          <Link
+            href={`/${currentLocale}/promotions`}
             className="mt-4 md:mt-0 bg-yellow-300 text-black font-semibold text-sm px-6 py-3 rounded-full shadow-md hover:bg-gray-200 transition-colors flex items-center"
           >
             <span>{dictionary.view_all}</span>
             <ArrowRight size={16} className="ml-2" />
-          </a>
+          </Link>
         </div>
 
         {/* Grid Kartu Promo */}

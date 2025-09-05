@@ -72,7 +72,8 @@
     "promo_section": {
       "title": "Promo Spesial Bulan Ini",
       "description": "Lihat simulasi cara mudah memesan suku cadang melalui WhatsApp dan dapatkan penawaran menarik.",
-      "video_placeholder": "Simulasi Video Pemesanan via WA"
+      "video_placeholder": "Simulasi Video Pemesanan via WA",
+      "video_id": "dQw4w9WgXcQ"
     },
     "fast_movers_section": {
       "title": "Suku Cadang Fast Moving",

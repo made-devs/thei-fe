@@ -3,7 +3,6 @@
     "hero": {
       "subtitle": "FIND YOUR POTENTIAL",
       "title": "Grow With THEI",
-      "description": "We don't just offer jobs; we offer career paths. Explore opportunities to join our expert team or enhance your skills through our certified training programs.",
       "image": "/career.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
@@ -31,6 +30,7 @@
       "subtitle": "BECOME ONE OF US",
       "title": "Open Positions",
       "description": "We are always looking for the best talent to join us. Find the position that best fits your skills and interests.",
+      "image": "/career.webp",
       "positions": [
         {
           "title": "Heavy Equipment Mechanic",

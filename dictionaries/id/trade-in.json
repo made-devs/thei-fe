@@ -3,6 +3,7 @@
     "hero": {
       "subtitle": "UPGRADE ARMADA ANDA",
       "title": "Upgrade Mudah, Bisnis Makin Laju",
+      "image": "/banner-slider2.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Tukar Tambah", "link": "/trade-in" }
@@ -12,22 +13,22 @@
       "title": "15 Manfaat Tukar Tambah di THEI",
       "benefits": [
         {
-          "icon": "Tag",
+          "icon": "TrendingUp",
           "title": "Harga Tukar Tinggi & Transparan",
           "description": "Unit lama dihargai kompetitif dengan sistem appraisal resmi. Usia trade-in maksimal 10 tahun (contoh: forklift tahun 2015)."
         },
         {
-          "icon": "Cpu",
+          "icon": "Zap",
           "title": "Upgrade ke Teknologi Baru",
           "description": "Langsung ganti ke unit terbaru (diesel, elektrik, gasoline) yang lebih hemat energi & ramah lingkungan."
         },
         {
-          "icon": "Wallet",
+          "icon": "PiggyBank",
           "title": "Hemat Modal Awal",
           "description": "Nilai alat lama otomatis jadi potongan harga pembelian unit baru, meringankan cashflow bisnis Anda."
         },
         {
-          "icon": "Zap",
+          "icon": "FastForward",
           "title": "Proses Cepat & Mudah",
           "description": "Semua proses dari appraisal, dokumen, hingga serah-terima unit ditangani sepenuhnya oleh tim THEI."
         },
@@ -42,7 +43,7 @@
           "description": "Unit baru hasil trade-in mendapatkan tambahan promo dari THEI senilai Rp 20 juta."
         },
         {
-          "icon": "Percent",
+          "icon": "CreditCard",
           "title": "Opsi Skema Cicilan",
           "description": "Unit baru dapat dibeli melalui skema pembiayaan (leasing) yang fleksibel setelah proses tukar tambah."
         },
@@ -52,12 +53,12 @@
           "description": "Dapatkan bonus komponen filter gratis untuk servis pada 250, 500, 750, dan 1000 jam pemakaian."
         },
         {
-          "icon": "FileText",
+          "icon": "ClipboardCheck",
           "title": "Kepastian Harga Pasar",
           "description": "Nilai appraisal yang transparan berdasarkan kondisi unit, jam kerja, dan riwayat servis."
         },
         {
-          "icon": "TrendingUp",
+          "icon": "LineChart",
           "title": "Meningkatkan Efisiensi Armada",
           "description": "Solusi cerdas untuk efisiensi waktu dan peremajaan unit-unit lama di armada Anda."
         },
@@ -118,7 +119,9 @@
       "video_description": "Transparansi adalah kunci. Saksikan bagaimana tim ahli kami melakukan proses appraisal profesional.",
       "testimonial_quote": "Proses trade-in di THEI benar-benar di luar ekspektasi. Cepat, harganya bagus, dan timnya sangat profesional. Hemat waktu dan tenaga!",
       "testimonial_name": "Doni Setiawan",
-      "testimonial_company": "Direktur Operasional, PT. Lintas Konstruksi"
+      "testimonial_company": "Direktur Operasional, PT. Lintas Konstruksi",
+      "video_thumb": "/home/news2.webp",
+      "video_id": "dQw4w9WgXcQ"
     },
     "main_cta": {
       "title": "Siap Upgrade Armada Anda?",

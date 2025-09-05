@@ -4,7 +4,7 @@
       "subtitle": "OUR BRANCHES",
       "title": "Extensive Network, Local Service",
       "description": "Find our expert support in 8 major cities across Indonesia, ready to serve wherever your project is located.",
-      "image": "/branches/hero-branches.webp",
+      "image": "/contact.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Our Branches" }
@@ -81,16 +81,16 @@
     },
     "virtual_tour": {
       "title": "Visit Our Facilities, Virtually",
-      "video_thumbnail": "/branches/virtual-tour.webp",
+      "video_thumbnail": "/commitment.webp",
       "video_id": "dQw4w9WgXcQ"
     },
     "facility_gallery": {
       "title": "Professional Standards at Every Location",
       "images": [
-        "/branches/gallery-1.webp",
-        "/branches/gallery-2.webp",
-        "/branches/gallery-3.webp",
-        "/branches/gallery-4.webp"
+        "/home/news4.webp",
+        "/home/news5.webp",
+        "/equipment/equip1.webp",
+        "/equipment/equip3.webp"
       ]
     },
     "main_cta": {

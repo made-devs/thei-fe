@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": 4,
+    "slug": "k3-certified-operator-training-batch-5-opens",
+    "category": "Training",
+    "title": "K3 Certified Operator Training Batch 5 Opens",
+    "date": "2025-05-19",
+    "image": "/home/news6.webp",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "THEI is proud to announce the reopening of the K3 Certified Operator Training program for Batch 5. This program is part of our commitment to raising the standards of work safety and professionalism in the Indonesian heavy equipment industry."
+      },
+      {
+        "type": "subheading",
+        "text": "Enhancing Skills and Safety"
+      },
+      {
+        "type": "paragraph",
+        "text": "This training is designed to equip operators with in-depth knowledge of Occupational Health and Safety (K3) standards, efficient and safe heavy equipment operation techniques, and daily maintenance. Graduates will receive an officially recognized national certificate, increasing their marketability and providing a quality guarantee for their companies."
+      },
+      {
+        "type": "image",
+        "src": "/career.webp",
+        "alt": "Professional team at THEI ready to provide training"
+      },
+      {
+        "type": "subheading",
+        "text": "Schedule and Registration"
+      },
+      {
+        "type": "paragraph",
+        "text": "Registration for Batch 5 is now open and will run until the end of this month. Seats are limited to ensure maximum training quality. Register your team now and invest in competent and safety-conscious human resources. Contact us for more information on the schedule and fees."
+      }
+    ]
+  }
+}

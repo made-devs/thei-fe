@@ -4,8 +4,8 @@
       {
         "category": "SALES",
         "title": "Bonus After Sales up to Rp200 million",
-        "cta": "Request Quote",
-        "link": "/equipment"
+        "cta": "Explore Equipment",
+        "link": "/equipment/new-machines"
       },
       {
         "category": "PARTS",
@@ -42,7 +42,6 @@
     "fab_quote": "REQUEST QUOTE",
     "fab_location": "FIND LOCATION",
     "fab_live_chat": "LIVE CHAT 24 HOURS",
-    "fab_phone_number": "1500228",
     "fab_mobile_quote": "Quote",
     "fab_mobile_location": "Location",
     "fab_mobile_call": "Call",
@@ -59,9 +58,9 @@
   "highlight_promo": {
     "title_line1": "Boost Your Business",
     "title_line2": "with Our Expertise",
-    "subtitle": "Our Featured Services",
+    "subtitle": "Our Featured Promo",
     "description": "Explore our curated service packages designed to keep your equipment in peak condition and maximize your operational efficiency.",
-    "view_all": "View All Services",
+    "view_all": "View Details",
     "best_value": "Best Value",
     "packages": [
       {
@@ -208,45 +207,7 @@
     "title": "Latest Insight",
     "subtitle": "News & Article",
     "description": "Stay updated with the latest news, events, and articles from THEI. Get insights into our products, technology, and corporate activities.",
-    "see_more": "See All News",
-    "articles": [
-      {
-        "category": "PRODUCT",
-        "title": "Introducing the Newest Generation Excavator",
-        "description": "Discover how our latest excavator model can boost your project's efficiency with lower fuel consumption.",
-        "image": "/home/news1.webp"
-      },
-      {
-        "category": "COMPANY",
-        "title": "THEI Awarded as The Best National Distributor of 2025",
-        "description": "Our commitment to excellence has been recognized with this prestigious national award.",
-        "image": "/home/news2.webp"
-      },
-      {
-        "category": "EVENT",
-        "title": "The Biggest Heavy Equipment Exhibition in JCC",
-        "description": "We successfully showcased our latest technology and product line-up at the Jakarta Convention Center.",
-        "image": "/home/news3.webp"
-      },
-      {
-        "category": "TECHNOLOGY",
-        "title": "New GPS Technology Integrated in Our Bulldozers",
-        "description": "Enhance your operational precision with the latest GPS technology now standard in all our bulldozer units.",
-        "image": "/home/news4.webp"
-      },
-      {
-        "category": "SUSTAINABILITY",
-        "title": "Our Commitment to the Environment",
-        "description": "Learn more about our green initiatives and how we are contributing to a sustainable future.",
-        "image": "/home/news5.webp"
-      },
-      {
-        "category": "TRAINING",
-        "title": "The 5th Batch of Advanced Operator Training is Open",
-        "description": "Enroll now in our advanced training program to enhance operator skills and safety standards.",
-        "image": "/home/news6.webp"
-      }
-    ]
+    "see_more": "See All News"
   },
   "testimonials": {
     "title": "What Our Clients Say About Us",

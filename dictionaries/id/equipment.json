@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "JELAJAHI PRODUK KAMI",
       "title": "Temukan Alat Berat Terbaik Anda",
-      "image": "/equipment/banner.webp",
+      "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Alat Berat", "link": "/equipment" }

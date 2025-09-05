@@ -1,10 +1,11 @@
 'use client';
 import React, { useCallback, useEffect, useState, useMemo } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import useEmblaCarousel from 'embla-carousel-react';
 import { Cog, ArrowRight, ArrowLeft } from 'lucide-react';
 
-const News = ({ dictionary }) => {
+const News = ({ dictionary, currentLocale }) => {
   const articles = useMemo(
     () => dictionary.articles || [],
     [dictionary.articles]
@@ -71,45 +72,35 @@ const News = ({ dictionary }) => {
                   key={`${article.title}-${index}`}
                   className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_25%] pl-4"
                 >
-                  <div className="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 h-full flex flex-col">
-                    <div className="relative aspect-video">
-                      <Image
-                        src={article.image}
-                        alt={article.title}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                      />
+                  <Link
+                    href={`/${currentLocale}/news/${article.slug}`}
+                    className="h-full block group"
+                  >
+                    <div className="bg-white rounded-lg overflow-hidden shadow-lg border border-gray-200 h-full flex flex-col">
+                      <div className="relative aspect-video overflow-hidden">
+                        <Image
+                          src={article.image}
+                          alt={article.title}
+                          fill
+                          className="object-cover group-hover:scale-105 transition-transform duration-300"
+                          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                        />
+                      </div>
+                      <div className="p-6 flex flex-col flex-grow">
+                        <span className="text-xs font-bold text-yellow-500 uppercase">
+                          {article.category}
+                        </span>
+                        <h3 className="font-bold text-lg mt-2 mb-2">
+                          {article.title}
+                        </h3>
+                        <p className="text-sm text-gray-600 flex-grow">
+                          {article.description}
+                        </p>
+                      </div>
                     </div>
-                    <div className="p-6 flex flex-col flex-grow">
-                      <span className="text-xs font-bold text-yellow-500 uppercase">
-                        {article.category}
-                      </span>
-                      <h3 className="font-bold text-lg mt-2 mb-2">
-                        {article.title}
-                      </h3>
-                      <p className="text-sm text-gray-600 flex-grow">
-                        {article.description}
-                      </p>
-                    </div>
-                  </div>
+                  </Link>
                 </div>
               ))}
-              {/* "See All" Card as the last item */}
-              <div className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_25%] pl-4">
-                <a
-                  href="#"
-                  className="flex flex-col items-center justify-center h-full bg-gray-100 rounded-lg text-black hover:bg-yellow-400 transition-colors group"
-                >
-                  <ArrowRight
-                    size={32}
-                    className="mb-2 transition-transform group-hover:translate-x-2"
-                  />
-                  <span className="font-bold text-sm text-center">
-                    {dictionary.see_more}
-                  </span>
-                </a>
-              </div>
             </div>
           </div>
           {/* Navigation Buttons */}
@@ -140,6 +131,16 @@ const News = ({ dictionary }) => {
               }`}
             />
           ))}
+        </div>
+
+        {/* Tombol CTA "See All News" */}
+        <div className="text-center mt-12">
+          <Link
+            href={`/${currentLocale}/news`}
+            className="inline-block bg-yellow-400 text-black px-8 py-3 text-sm font-bold tracking-wide uppercase hover:bg-yellow-500 transition-colors rounded-full"
+          >
+            {dictionary.see_more}
+          </Link>
         </div>
       </div>
     </section>

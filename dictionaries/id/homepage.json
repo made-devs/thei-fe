@@ -4,7 +4,7 @@
       {
         "category": "SALES",
         "title": "Bonus After Sales hingga Rp200 juta",
-        "cta": "Minta Penawaran",
+        "cta": "Lihat Equipment",
         "link": "/equipment"
       },
       {
@@ -22,7 +22,7 @@
       {
         "category": "RENTAL",
         "title": "Solusi Rental Efisien Tanpa Investasi Besar",
-        "cta": "Lihat Peralatan",
+        "cta": "Lihat Equipment",
         "link": "/equipment/rental"
       },
       {
@@ -42,7 +42,6 @@
     "fab_quote": "MINTA PENAWARAN",
     "fab_location": "CARI LOKASI",
     "fab_live_chat": "LIVE CHAT 24 JAM",
-    "fab_phone_number": "1500228",
     "fab_mobile_quote": "Penawaran",
     "fab_mobile_location": "Lokasi",
     "fab_mobile_call": "Telepon",
@@ -59,9 +58,9 @@
   "highlight_promo": {
     "title_line1": "Tingkatkan Bisnis Anda",
     "title_line2": "dengan Keahlian Kami",
-    "subtitle": "Layanan Unggulan Kami",
+    "subtitle": "Promo Unggulan Kami",
     "description": "Jelajahi paket layanan pilihan kami yang dirancang untuk menjaga peralatan Anda dalam kondisi puncak dan memaksimalkan efisiensi operasional Anda.",
-    "view_all": "Lihat Semua Layanan",
+    "view_all": "Lihat Detail",
     "best_value": "Paling Untung",
     "packages": [
       {
@@ -208,45 +207,7 @@
     "title": "Wawasan Terkini",
     "subtitle": "Berita & Artikel",
     "description": "Tetap terinformasi dengan berita, acara, dan artikel terbaru dari THEI. Dapatkan wawasan tentang produk, teknologi, dan kegiatan korporat kami.",
-    "see_more": "Lihat Semua Berita",
-    "articles": [
-      {
-        "category": "PRODUK",
-        "title": "Memperkenalkan Excavator Generasi Terbaru",
-        "description": "Temukan bagaimana model excavator terbaru kami dapat meningkatkan efisiensi proyek Anda dengan konsumsi bahan bakar yang lebih rendah.",
-        "image": "/home/news1.webp"
-      },
-      {
-        "category": "PERUSAHAAN",
-        "title": "THEI Meraih Penghargaan Distributor Nasional Terbaik 2025",
-        "description": "Komitmen kami terhadap keunggulan telah diakui dengan penghargaan nasional yang bergengsi ini.",
-        "image": "/home/news2.webp"
-      },
-      {
-        "category": "ACARA",
-        "title": "Pameran Alat Berat Terbesar di JCC",
-        "description": "Kami sukses memamerkan teknologi dan jajaran produk terbaru kami di Jakarta Convention Center.",
-        "image": "/home/news3.webp"
-      },
-      {
-        "category": "TEKNOLOGI",
-        "title": "Teknologi GPS Terbaru Terintegrasi di Bulldozer Kami",
-        "description": "Tingkatkan presisi operasional Anda dengan teknologi GPS terkini yang kini menjadi standar di semua unit bulldozer kami.",
-        "image": "/home/news4.webp"
-      },
-      {
-        "category": "LINGKUNGAN",
-        "title": "Komitmen Kami terhadap Lingkungan",
-        "description": "Pelajari lebih lanjut tentang inisiatif hijau kami dan bagaimana kami berkontribusi untuk masa depan yang berkelanjutan.",
-        "image": "/home/news5.webp"
-      },
-      {
-        "category": "PELATIHAN",
-        "title": "Pelatihan Operator Tingkat Lanjut Angkatan ke-5 Dibuka",
-        "description": "Daftarkan diri Anda sekarang dalam program pelatihan lanjutan kami untuk meningkatkan keterampilan dan standar keselamatan operator.",
-        "image": "/home/news6.webp"
-      }
-    ]
+    "see_more": "Lihat Semua Berita"
   },
   "testimonials": {
     "title": "Kata Klien Tentang Kami",

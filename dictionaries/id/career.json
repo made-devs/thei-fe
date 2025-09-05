@@ -3,7 +3,6 @@
     "hero": {
       "subtitle": "TEMUKAN POTENSI ANDA",
       "title": "Bertumbuh Bersama THEI",
-      "description": "Kami bukan hanya menawarkan pekerjaan, kami menawarkan jenjang karir. Jelajahi peluang untuk bergabung dengan tim ahli kami atau tingkatkan keahlian Anda melalui program pelatihan bersertifikat.",
       "image": "/career.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
@@ -31,6 +30,7 @@
       "subtitle": "JADILAH BAGIAN DARI KAMI",
       "title": "Lowongan Terbuka",
       "description": "Kami selalu mencari talenta terbaik untuk bergabung. Temukan posisi yang paling sesuai dengan keahlian dan minat Anda.",
+      "image": "/career.webp",
       "positions": [
         {
           "title": "Mekanik Alat Berat",

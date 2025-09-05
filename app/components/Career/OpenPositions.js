@@ -50,9 +50,9 @@ const OpenPositions = ({ dictionary }) => {
             ))}
           </div>
           {/* Kolom Poster/Gambar */}
-          <div className="relative aspect-[3/4] h-[60vh] rounded-lg overflow-hidden">
+          <div className="relative h-[60vh] rounded-lg overflow-hidden">
             <Image
-              src="/service/mechanic.webp" // Menggunakan foto mekanik
+              src={dictionary.image}
               alt="Lowongan Kerja THEI"
               fill
               className="object-cover"

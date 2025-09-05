@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": 4,
+    "slug": "pelatihan-operator-bersertifikat-k3-batch-5-dibuka",
+    "category": "Training",
+    "title": "Pelatihan Operator Bersertifikat K3 Batch 5 Dibuka",
+    "date": "2025-05-19",
+    "image": "/home/news6.webp",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "THEI dengan bangga mengumumkan pembukaan kembali program Pelatihan Operator Bersertifikat K3 untuk Batch ke-5. Program ini adalah bagian dari komitmen kami untuk meningkatkan standar keselamatan kerja dan profesionalisme di industri alat berat Indonesia."
+      },
+      {
+        "type": "subheading",
+        "text": "Meningkatkan Keahlian dan Keselamatan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pelatihan ini dirancang untuk membekali para operator dengan pengetahuan mendalam tentang standar Keselamatan dan Kesehatan Kerja (K3), teknik pengoperasian alat berat yang efisien dan aman, serta perawatan harian. Peserta yang lulus akan mendapatkan sertifikat resmi yang diakui secara nasional, meningkatkan nilai jual mereka di pasar kerja dan memberikan jaminan kualitas bagi perusahaan."
+      },
+      {
+        "type": "image",
+        "src": "/career.webp",
+        "alt": "Tim profesional THEI yang siap memberikan pelatihan"
+      },
+      {
+        "type": "subheading",
+        "text": "Jadwal dan Pendaftaran"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pendaftaran untuk Batch 5 kini telah dibuka dan akan berlangsung hingga akhir bulan ini. Kapasitas terbatas untuk memastikan kualitas pelatihan yang maksimal. Segera daftarkan tim Anda dan investasikan pada sumber daya manusia yang kompeten dan sadar akan keselamatan. Hubungi kami untuk informasi lebih lanjut mengenai jadwal dan biaya."
+      }
+    ]
+  }
+}

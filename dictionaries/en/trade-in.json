@@ -3,6 +3,7 @@
     "hero": {
       "subtitle": "UPGRADE YOUR FLEET",
       "title": "Easy Upgrades, Accelerated Business",
+      "image": "/banner-slider2.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Trade-In", "link": "/trade-in" }
@@ -12,22 +13,22 @@
       "title": "15 Benefits of Trading In at THEI",
       "benefits": [
         {
-          "icon": "Tag",
+          "icon": "TrendingUp",
           "title": "High & Transparent Trade-In Value",
           "description": "Your old unit is valued competitively with an official appraisal system. Max trade-in age is 10 years (e.g., a 2015 forklift)."
         },
         {
-          "icon": "Cpu",
+          "icon": "Zap",
           "title": "Upgrade to New Technology",
           "description": "Instantly switch to the latest units (diesel, electric, gasoline) that are more energy-efficient and eco-friendly."
         },
         {
-          "icon": "Wallet",
+          "icon": "PiggyBank",
           "title": "Save on Initial Capital",
           "description": "The value of your old equipment automatically becomes a discount on the new unit purchase, easing your business cash flow."
         },
         {
-          "icon": "Zap",
+          "icon": "FastForward",
           "title": "Fast & Easy Process",
           "description": "All processes from appraisal, documentation, to the handover of units are handled entirely by the THEI team."
         },
@@ -42,7 +43,7 @@
           "description": "The new unit from trade-in receives an additional promotional value of IDR 20 million from THEI."
         },
         {
-          "icon": "Percent",
+          "icon": "CreditCard",
           "title": "Installment Scheme Options",
           "description": "The new unit can be purchased through a flexible financing (leasing) scheme after the trade-in process."
         },
@@ -52,12 +53,12 @@
           "description": "Get a bonus of free filter components for services at 250, 500, 750, and 1000 usage hours."
         },
         {
-          "icon": "FileText",
+          "icon": "ClipboardCheck",
           "title": "Market Price Certainty",
           "description": "Transparent appraisal value based on unit condition, working hours, and service history."
         },
         {
-          "icon": "TrendingUp",
+          "icon": "LineChart",
           "title": "Improve Fleet Efficiency",
           "description": "A smart solution for time efficiency and rejuvenating older units in your fleet."
         },
@@ -118,7 +119,9 @@
       "video_description": "Transparency is key. Watch how our expert team conducts a professional appraisal process.",
       "testimonial_quote": "The trade-in process at THEI was beyond expectations. Fast, great pricing, and a very professional team. Saved a lot of time and effort!",
       "testimonial_name": "Doni Setiawan",
-      "testimonial_company": "Operations Director, PT. Lintas Konstruksi"
+      "testimonial_company": "Operations Director, PT. Lintas Konstruksi",
+      "video_thumb": "/home/news2.webp",
+      "video_id": "dQw4w9WgXcQ"
     },
     "main_cta": {
       "title": "Ready to Upgrade Your Fleet?",

@@ -25,9 +25,6 @@ const CareerHero = ({ dictionary, lang }) => {
         <h1 className="text-5xl lg:text-6xl font-bold mt-2">
           {dictionary.title}
         </h1>
-        <p className="mt-4 text-lg max-w-2xl text-gray-200">
-          {dictionary.description}
-        </p>
 
         <div className="flex items-center justify-center text-sm mt-8">
           {(dictionary.breadcrumbs || []).map((crumb, index) => (

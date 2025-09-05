@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Latest Insights from THEI",
       "title": "News & Events",
-      "image": "/news/hero-news.webp",
+      "image": "/news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "News & Events" }
@@ -20,7 +20,7 @@
     "featured_video": {
       "title": "Our Exclusive Event Coverage",
       "description": "Relive the key moments from our latest event through this exclusive video coverage.",
-      "video_thumb": "/news/event-video-thumb.webp"
+      "video_thumb": "/home/news3.webp"
     }
   },
   "articles": [

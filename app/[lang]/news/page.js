@@ -15,8 +15,8 @@ export default async function NewsPage({ params: { lang } }) {
   return (
     <>
       <PageHero dictionary={pageDict.hero} />
-      {/* Mengirim data yang sudah difilter ke NewsGrid */}
-      <NewsGrid dictionary={{ ...pageDict, articles }} />
+      {/* Mengirim data yang sudah difilter dan lang ke NewsGrid */}
+      <NewsGrid dictionary={{ ...pageDict, articles }} lang={lang} />
       <FeaturedVideo dictionary={pageDict.featured_video} />
       <MainCta dictionary={commonDict.main_cta} />
     </>

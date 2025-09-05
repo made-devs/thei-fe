@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "The Best Investment for Your Business",
       "title": "20 Reasons to Choose a Forklift from THEI",
-      "image": "/why-buy-forklift/hero-forklift.webp",
+      "image": "/banner-slider3.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Why Buy Forklift" }
@@ -120,17 +120,17 @@
       "description": "Every forklift purchase at THEI comes with a benefits package designed to enhance the value and security of your investment.",
       "images": [
         {
-          "src": "/why-buy-forklift/training.webp",
+          "src": "/home/news6.webp",
           "alt": "Forklift operator training",
           "caption": "Certified Operator Training"
         },
         {
-          "src": "/why-buy-forklift/gift-pack.webp",
+          "src": "/career.webp",
           "alt": "Company merchandise package",
           "caption": "Exclusive Corporate Gift Pack"
         },
         {
-          "src": "/why-buy-forklift/safety-kit.webp",
+          "src": "/about-us/about1.webp",
           "alt": "Safety kit equipment",
           "caption": "Complete Safety Kit Package"
         }
@@ -140,7 +140,7 @@
       "title": "See What They Say",
       "description": "Hear directly from our customers who have experienced the benefits of buying a forklift at THEI.",
       "video_id": "dQw4w9WgXcQ",
-      "video_thumb": "/why-buy-forklift/testimonial-thumb.webp"
+      "video_thumb": "/home/testi2.webp"
     }
   }
 }

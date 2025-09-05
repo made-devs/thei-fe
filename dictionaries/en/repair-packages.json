@@ -16,13 +16,13 @@
           "name": "Repair Package",
           "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
           "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
-          "image": "/banner-slider1.webp"
+          "image": "/banner-slider4.webp"
         },
         {
           "name": "Retail Repair Package",
           "details": "Flexible per-unit service for Forklifts, Excavators, Boom Lifts, Wheel Loaders, etc.",
           "bonus": "Free 25 to 40-point vital inspection for your unit.",
-          "image": "/banner-slider2.webp"
+          "image": "/service.webp"
         },
         {
           "name": "Premium Service Package",
@@ -63,7 +63,9 @@
       "title": "What Our Customers Say",
       "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",
       "name": "Andi Wijaya",
-      "company": "Field Manager, PT. Konstruksi Prima"
+      "company": "Field Manager, PT. Konstruksi Prima",
+      "video_thumb": "/testi/thumbnail1.webp",
+      "video_id": "dQw4w9WgXcQ"
     }
   }
 }

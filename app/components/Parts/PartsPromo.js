@@ -1,25 +1,69 @@
-import { PlayCircle } from 'lucide-react';
+'use client';
+import { useState } from 'react';
+import Image from 'next/image';
+import { PlayCircle, X } from 'lucide-react';
 
 const PartsPromo = ({ dictionary }) => {
-  if (!dictionary) return null;
+  const [showVideo, setShowVideo] = useState(false);
+  const promoData = dictionary;
+
+  if (!promoData) return null;
+
+  // dQw4w9WgXcQ is the Rickroll video ID
+  const videoId = promoData.video_id || 'dQw4w9WgXcQ';
 
   return (
-    <section className="bg-white py-20">
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1024px] text-center">
-        <h2 className="text-3xl font-bold text-black">{dictionary.title}</h2>
-        <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
-          {dictionary.description}
-        </p>
-        <div className="mt-8 relative aspect-video w-full mx-auto rounded-lg overflow-hidden bg-gray-800 group cursor-pointer">
-          <div className="absolute inset-0 flex items-center justify-center">
-            <PlayCircle
-              size={80}
-              className="text-white opacity-50 group-hover:opacity-100 group-hover:scale-110 transition-all"
+    <>
+      <section className="bg-white py-20">
+        <div className="container mx-auto px-6 lg:px-8 max-w-[1024px] text-center">
+          <h2 className="text-3xl font-bold text-black">{promoData.title}</h2>
+          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+            {promoData.description}
+          </p>
+          <div
+            className="mt-8 relative aspect-video w-full mx-auto rounded-lg overflow-hidden group cursor-pointer"
+            onClick={() => setShowVideo(true)}
+          >
+            <Image
+              src="/parts/thumbnail.webp"
+              alt={promoData.video_placeholder || 'Promo Video Thumbnail'}
+              fill
+              className="object-cover transition-transform duration-300 group-hover:scale-105"
             />
+            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+              <PlayCircle
+                size={80}
+                className="text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"
+              />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+
+      {showVideo && (
+        <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
+          <div className="relative w-full max-w-4xl">
+            <button
+              onClick={() => setShowVideo(false)}
+              className="absolute -top-10 right-0 text-white hover:text-yellow-400"
+            >
+              <X size={32} />
+            </button>
+            <div className="aspect-video">
+              <iframe
+                width="100%"
+                height="100%"
+                src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
+                title="YouTube video player"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 };
 

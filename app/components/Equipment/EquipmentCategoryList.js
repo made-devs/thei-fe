@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-const EquipmentCategoryList = ({ dictionary }) => {
+const EquipmentCategoryList = ({ dictionary, lang }) => {
   if (!Array.isArray(dictionary) || dictionary.length === 0) {
     return null;
   }
@@ -44,14 +44,14 @@ const EquipmentCategoryList = ({ dictionary }) => {
               </p>
               <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                 <Link
-                  href={category.cta1_link || '#'}
+                  href={`/${lang}${category.cta1_link}` || '#'}
                   className="inline-flex items-center justify-center px-6 py-3 font-semibold text-black bg-yellow-400 rounded-md hover:bg-yellow-500 transition-colors"
                 >
                   {category.cta1_text}
                 </Link>
                 {category.cta2_text && (
                   <Link
-                    href={category.cta2_link || '#'}
+                    href={`/${lang}${category.cta2_link}` || '#'}
                     className="inline-flex items-center justify-center px-6 py-3 font-semibold text-gray-800 bg-gray-200 rounded-md hover:bg-gray-300 transition-colors"
                   >
                     {category.cta2_text}

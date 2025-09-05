@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Investasi Terbaik untuk Bisnis Anda",
       "title": "20 Alasan Memilih Forklift dari THEI",
-      "image": "/why-buy-forklift/hero-forklift.webp",
+      "image": "/banner-slider3.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Mengapa Beli Forklift" }
@@ -120,17 +120,17 @@
       "description": "Setiap pembelian forklift di THEI dilengkapi dengan paket keuntungan yang dirancang untuk meningkatkan nilai dan keamanan investasi Anda.",
       "images": [
         {
-          "src": "/why-buy-forklift/training.webp",
+          "src": "/home/news6.webp",
           "alt": "Pelatihan operator forklift",
           "caption": "Training Operator Bersertifikat"
         },
         {
-          "src": "/why-buy-forklift/gift-pack.webp",
+          "src": "/career.webp",
           "alt": "Paket merchandise perusahaan",
           "caption": "Corporate Gift Pack Eksklusif"
         },
         {
-          "src": "/why-buy-forklift/safety-kit.webp",
+          "src": "/about-us/about1.webp",
           "alt": "Peralatan safety kit",
           "caption": "Paket Safety Kit Lengkap"
         }
@@ -140,7 +140,7 @@
       "title": "Lihat Apa Kata Mereka",
       "description": "Dengarkan langsung dari pelanggan kami yang telah merasakan keuntungan membeli forklift di THEI.",
       "video_id": "dQw4w9WgXcQ",
-      "video_thumb": "/why-buy-forklift/testimonial-thumb.webp"
+      "video_thumb": "/home/testi2.webp"
     }
   }
 }

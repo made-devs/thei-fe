@@ -6,6 +6,7 @@ import { i18n } from '../../i18n-config';
 import { getLayoutDictionary } from '../../lib/dictionary';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import FloatingActionButton from '../components/General/FloatingActionButton';
 
 // 2. Inisialisasi font dengan subset yang dibutuhkan
 const jakarta = Plus_Jakarta_Sans({ subsets: ['latin'] });
@@ -24,7 +25,8 @@ export default async function RootLayout({ children, params }) {
       <body className={`${jakarta.className} bg-gray-100`}>
         <Navbar dictionary={dictionary} currentLocale={lang} />
         <main>{children}</main>
-        <Footer dictionary={dictionary} />
+        <Footer dictionary={dictionary} currentLocale={lang} />
+        <FloatingActionButton dictionary={dictionary} currentLocale={lang} />
         <div className="h-20 lg:hidden"></div>
       </body>
     </html>

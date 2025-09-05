@@ -72,7 +72,8 @@
     "promo_section": {
       "title": "This Month's Special Promo",
       "description": "See a simulation of how easy it is to order parts via WhatsApp and get attractive offers.",
-      "video_placeholder": "WA Order Simulation Video"
+      "video_placeholder": "WA Order Simulation Video",
+      "video_id": "dQw4w9WgXcQ"
     },
     "fast_movers_section": {
       "title": "Fast Moving Parts",

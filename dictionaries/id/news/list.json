@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Wawasan Terbaru dari THEI",
       "title": "Berita & Acara",
-      "image": "/news/hero-news.webp",
+      "image": "/news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Berita & Acara" }
@@ -20,7 +20,7 @@
     "featured_video": {
       "title": "Liputan Acara Eksklusif Kami",
       "description": "Rasakan kembali momen-momen penting dari acara terbaru kami melalui liputan video eksklusif ini.",
-      "video_thumb": "/news/event-video-thumb.webp"
+      "video_thumb": "/home/news3.webp"
     }
   },
   "articles": [

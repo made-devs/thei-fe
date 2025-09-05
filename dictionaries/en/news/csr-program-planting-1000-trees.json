@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": 3,
+    "slug": "csr-program-planting-1000-trees",
+    "category": "CSR",
+    "title": "CSR: 1,000 Trees Planting Action for the Environment",
+    "date": "2025-06-30",
+    "image": "/commitment.webp",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "As a tangible manifestation of our commitment to environmental sustainability, THEI has successfully organized a corporate social responsibility (CSR) program by planting 1,000 trees. This event is part of the ongoing 'Green with THEI' initiative."
+      },
+      {
+        "type": "subheading",
+        "text": "Collaboration for a Greener Future"
+      },
+      {
+        "type": "paragraph",
+        "text": "Held in a local conservation area, this activity involved the active participation of all THEI employees in collaboration with the local community. This action not only aims to reduce our carbon footprint but also to raise awareness about the importance of preserving the ecosystem for future generations."
+      },
+      {
+        "type": "image",
+        "src": "/home/news5.webp",
+        "alt": "THEI employees during a CSR activity"
+      },
+      {
+        "type": "subheading",
+        "text": "Sustainable Commitment"
+      },
+      {
+        "type": "paragraph",
+        "text": "The planting of these 1,000 trees is the first step of many other environmental programs we plan to implement. We believe that business growth must be aligned with responsibility towards the environment and society. Thank you to all parties who have supported this event."
+      }
+    ]
+  }
+}

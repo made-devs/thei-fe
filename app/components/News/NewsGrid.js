@@ -12,7 +12,7 @@ const categoryIcons = {
   Training: <Wrench size={16} />,
 };
 
-const NewsGrid = ({ dictionary }) => {
+const NewsGrid = ({ dictionary, lang }) => {
   const [filter, setFilter] = useState('All');
   const mainDict = dictionary.main_section || {};
   const articles = dictionary.articles || [];
@@ -55,7 +55,7 @@ const NewsGrid = ({ dictionary }) => {
         {/* News Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredArticles.map((article) => (
-            <Link key={article.id} href={`/news/${article.slug}`}>
+            <Link key={article.id} href={`/${lang}/news/${article.slug}`}>
               <div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
                 <div className="relative aspect-video">
                   <Image

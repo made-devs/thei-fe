@@ -1,0 +1,37 @@
+{
+  "article": {
+    "id": 3,
+    "slug": "program-csr-penanaman-1000-pohon",
+    "category": "CSR",
+    "title": "CSR: Aksi Penanaman 1.000 Pohon untuk Lingkungan",
+    "date": "2025-06-30",
+    "image": "/commitment.webp",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Sebagai wujud nyata dari komitmen kami terhadap kelestarian lingkungan, THEI telah sukses menyelenggarakan program tanggung jawab sosial perusahaan (CSR) dengan melakukan aksi penanaman 1.000 pohon. Acara ini merupakan bagian dari inisiatif 'Hijau Bersama THEI' yang berkelanjutan."
+      },
+      {
+        "type": "subheading",
+        "text": "Kolaborasi untuk Masa Depan yang Lebih Hijau"
+      },
+      {
+        "type": "paragraph",
+        "text": "Kegiatan yang diadakan di area konservasi lokal ini melibatkan partisipasi aktif dari seluruh karyawan THEI dan bekerja sama dengan komunitas setempat. Aksi ini tidak hanya bertujuan untuk mengurangi jejak karbon, tetapi juga untuk meningkatkan kesadaran akan pentingnya menjaga ekosistem bagi generasi mendatang."
+      },
+      {
+        "type": "image",
+        "src": "/home/news5.webp",
+        "alt": "Karyawan THEI dalam kegiatan CSR"
+      },
+      {
+        "type": "subheading",
+        "text": "Komitmen Berkelanjutan"
+      },
+      {
+        "type": "paragraph",
+        "text": "Penanaman 1.000 pohon ini adalah langkah awal dari banyak program lingkungan lainnya yang akan kami laksanakan. Kami percaya bahwa pertumbuhan bisnis harus selaras dengan tanggung jawab terhadap lingkungan dan masyarakat. Terima kasih kepada semua pihak yang telah mendukung acara ini."
+      }
+    ]
+  }
+}

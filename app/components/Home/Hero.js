@@ -3,13 +3,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-  MessageCircle,
-  MapPin,
-  Phone,
-  FileText,
-  ChevronDown,
-} from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 // FIX: Menambahkan `currentLocale` ke dalam parameter fungsi
 const Hero = ({ dictionary, currentLocale }) => {
@@ -105,68 +99,6 @@ const Hero = ({ dictionary, currentLocale }) => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="fixed right-0 top-1/2 -translate-y-1/2 z-50 hidden lg:flex flex-col shadow-2xl">
-        <button className="bg-yellow-400 hover:bg-yellow-500 text-black p-3 flex flex-col items-center min-w-[80px] transition-colors group">
-          <FileText size={20} className="mb-1" />
-          <span
-            className="text-xs font-bold leading-tight text-center"
-            dangerouslySetInnerHTML={{
-              __html: dictionary.fab_quote.replace(' ', '<br/>'),
-            }}
-          />
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center min-w-[80px] transition-colors">
-          <MapPin size={20} className="mb-1" />
-          <span
-            className="text-xs font-bold leading-tight text-center"
-            dangerouslySetInnerHTML={{
-              __html: dictionary.fab_location.replace(' ', '<br/>'),
-            }}
-          />
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center min-w-[80px] transition-colors">
-          <Phone size={20} className="mb-1" />
-          <span className="text-xs font-bold leading-tight text-center">
-            {dictionary.fab_phone_number}
-          </span>
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center min-w-[80px] transition-colors">
-          <MessageCircle size={20} className="mb-1" />
-          <span
-            className="text-xs font-bold leading-tight text-center"
-            dangerouslySetInnerHTML={{
-              __html: dictionary.fab_live_chat.replace(' ', '<br/>'),
-            }}
-          />
-        </button>
-      </div>
-      {/* Tombol mobile sekarang mengambil teks dari dictionary */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 flex lg:hidden shadow-2xl">
-        <button className="bg-yellow-400 hover:bg-yellow-500 text-black p-3 flex flex-col items-center w-1/4 transition-colors group">
-          <FileText size={20} className="mb-1" />
-          <span className="text-xs font-bold leading-tight text-center">
-            {dictionary.fab_mobile_quote}
-          </span>
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
-          <MapPin size={20} className="mb-1" />
-          <span className="text-xs font-bold leading-tight text-center">
-            {dictionary.fab_mobile_location}
-          </span>
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
-          <Phone size={20} className="mb-1" />
-          <span className="text-xs font-bold leading-tight text-center">
-            {dictionary.fab_mobile_call}
-          </span>
-        </button>
-        <button className="bg-gray-800 hover:bg-gray-700 text-white p-3 flex flex-col items-center w-1/4 transition-colors">
-          <MessageCircle size={20} className="mb-1" />
-          <span className="text-xs font-bold leading-tight text-center">
-            {dictionary.fab_mobile_chat}
-          </span>
-        </button>
       </div>
     </div>
   );
