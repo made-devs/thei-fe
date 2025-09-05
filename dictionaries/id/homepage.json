@@ -2,39 +2,39 @@
   "hero": {
     "slides": [
       {
-        "category": "PENJUALAN",
-        "title": "Temukan Alat Berat Terbaru Untuk Kesuksesan Proyek Anda",
-        "cta": "LIHAT KATALOG UNIT",
-        "link": "/equipment/new-machines"
+        "category": "SALES",
+        "title": "Bonus After Sales hingga Rp200 juta",
+        "cta": "Minta Penawaran",
+        "link": "/equipment"
       },
       {
-        "category": "TUKAR TAMBAH",
-        "title": "Upgrade Armada Anda, Optimalkan Bisnis Dengan Program Tukar Tambah THEI",
-        "cta": "AJUKAN TUKAR TAMBAH",
-        "link": "/trade-in"
-      },
-      {
-        "category": "RENTAL",
-        "title": "Efisiensi Maksimal Tanpa Investasi Besar Dengan Solusi Rental Kami",
-        "cta": "CEK UNIT RENTAL",
-        "link": "/equipment/rental"
-      },
-      {
-        "category": "PERBAIKAN",
-        "title": "Minimalkan Waktu Henti Dengan Layanan Perbaikan Cepat & Profesional",
-        "cta": "PESAN LAYANAN",
-        "link": "/service"
-      },
-      {
-        "category": "SUKU CADANG",
-        "title": "Ketersediaan Suku Cadang Asli Terjamin, Operasional Lancar Tanpa Hambatan",
-        "cta": "CARI SUKU CADANG",
+        "category": "PARTS",
+        "title": "Suku Cadang Asli",
+        "cta": "Cari Suku Cadang",
         "link": "/parts"
       },
       {
-        "category": "PURNA JUAL",
-        "title": "Nikmati Bonus Purna Jual Terbesar Hingga Ratusan Juta Rupiah",
-        "cta": "PELAJARI LEBIH LANJUT",
+        "category": "REPAIR",
+        "title": "Layanan 24/7",
+        "cta": "Pesan Servis",
+        "link": "/service"
+      },
+      {
+        "category": "RENTAL",
+        "title": "Solusi Rental Efisien Tanpa Investasi Besar",
+        "cta": "Lihat Peralatan",
+        "link": "/equipment/rental"
+      },
+      {
+        "category": "TRADE-IN",
+        "title": "Upgrade Armada Anda dengan Program Trade-In",
+        "cta": "Minta Penawaran",
+        "link": "/trade-in"
+      },
+      {
+        "category": "AFTER SALES",
+        "title": "Dapatkan Bonus After Sales Terbesar",
+        "cta": "Cari Cabang",
         "link": "/why-buy-forklift"
       }
     ],
@@ -137,13 +137,17 @@
       {
         "title": "Tersertifikasi HSSE",
         "description": "Berkomitmen pada standar tertinggi untuk keselamatan dan lingkungan."
+      },
+      {
+        "title": "Bonus Ratusan Juta",
+        "description": "Program purna jual paling menguntungkan di industri dengan keuntungan berlimpah."
       }
     ],
     "stats": [
-      { "value": "50+", "label": "Tahun Pengalaman" },
-      { "value": "1.2k+", "label": "Tim Ahli" },
+      { "value": "5+", "label": "Tahun Pengalaman" },
+      { "value": "20+", "label": "Tim Ahli" },
       { "value": "3.5k+", "label": "Unit Direntalkan" },
-      { "value": "10k+", "label": "Pelanggan Puas" }
+      { "value": "500+", "label": "Pelanggan Puas" }
     ]
   },
   "popular_equipment": {

@@ -1,8 +1,8 @@
-// app/components/Home/WhyThei.js
-'use client';
+// Filepath: app/components/Home/WhyThei.js
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 import {
   Users,
   FileText,
@@ -10,19 +10,22 @@ import {
   Presentation,
   Package,
   Cog,
-} from 'lucide-react';
+  Award, // Import ikon Award
+} from "lucide-react";
 
 const iconMap = {
   // English keys
-  'One Stop Solution': <Users size={24} />,
-  '24/7 Field Service': <FileText size={24} />,
-  'Genuine Parts': <TrendingUp size={24} />,
-  'HSSE Certified': <Presentation size={24} />,
+  "One Stop Solution": <Users size={24} />,
+  "24/7 Field Service": <FileText size={24} />,
+  "Genuine Parts": <TrendingUp size={24} />,
+  "HSSE Certified": <Presentation size={24} />,
+  "Huge Bonuses": <Award size={24} />, // Tambahkan pemetaan ikon baru
   // Indonesian keys
-  'Solusi Satu Pintu': <Users size={24} />,
-  'Layanan Lapangan 24/7': <FileText size={24} />,
-  'Suku Cadang Asli': <TrendingUp size={24} />,
-  'Tersertifikasi HSSE': <Presentation size={24} />,
+  "Solusi Satu Pintu": <Users size={24} />,
+  "Layanan Lapangan 24/7": <FileText size={24} />,
+  "Suku Cadang Asli": <TrendingUp size={24} />,
+  "Tersertifikasi HSSE": <Presentation size={24} />,
+  "Bonus Ratusan Juta": <Award size={24} />, // Tambahkan pemetaan ikon baru
 };
 
 const WhyThei = ({ dictionary }) => {
@@ -38,7 +41,7 @@ const WhyThei = ({ dictionary }) => {
             <Cog
               size={20}
               className="mr-2 animate-spin"
-              style={{ animationDuration: '5s' }}
+              style={{ animationDuration: "5s" }}
             />
             <span>{subtitle}</span>
           </div>
