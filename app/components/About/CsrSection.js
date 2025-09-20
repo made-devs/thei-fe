@@ -59,47 +59,14 @@ const CsrSection = ({ dictionary }) => {
   }
 
   return (
-    <section className="bg-white py-20">
+    // STRATEGI 2: Ganti background color
+    <section className="bg-slate-50 py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         {/* Grid Konten Utama */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Kolom Kiri: Header dan Checklist */}
-          <div>
-            {/* Header Section */}
-            <div className="text-left mb-8">
-              <div className="flex items-center justify-start text-sm font-bold uppercase text-yellow-400 mb-2">
-                <Cog
-                  size={20}
-                  className="mr-2 animate-spin"
-                  style={{ animationDuration: '5s' }}
-                />
-                <span>{dictionary.subtitle}</span>
-              </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black">
-                {dictionary.title}
-              </h2>
-              <p className="mt-4 text-gray-600 max-w-3xl">
-                {dictionary.description}
-              </p>
-            </div>
-
-            {/* Checklist */}
-            <ul className="space-y-4">
-              {dictionary.activities.map((activity, index) => (
-                <li key={index} className="flex items-start">
-                  <Check
-                    size={24}
-                    className="text-green-500 mr-4 flex-shrink-0 mt-1"
-                  />
-                  {/* Mengubah ukuran font checklist agar konsisten */}
-                  <span className="text-base text-gray-700">{activity}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Kolom Kanan: Galeri Gambar */}
-          <div className="grid grid-cols-4 gap-4">
+          {/* STRATEGI 1: Balik layout, galeri di kiri */}
+          {/* Kolom Kiri: Galeri Gambar */}
+          <div className="grid grid-cols-4 gap-4 md:order-first">
             {/* Carousel Gambar Utama */}
             <div
               className="col-span-3 relative rounded-lg overflow-hidden"
@@ -174,6 +141,40 @@ const CsrSection = ({ dictionary }) => {
                 <ChevronDown size={20} className="text-gray-600" />
               </button>
             </div>
+          </div>
+
+          {/* Kolom Kanan: Header dan Checklist */}
+          <div className="pl-[3rem]">
+            {/* Header Section */}
+            <div className="text-left mb-8">
+              <div className="flex items-center justify-start text-sm font-bold uppercase text-yellow-400 mb-2">
+                <Cog
+                  size={20}
+                  className="mr-2 animate-spin"
+                  style={{ animationDuration: '5s' }}
+                />
+                <span>{dictionary.subtitle}</span>
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-black">
+                {dictionary.title}
+              </h2>
+              <p className="mt-4 text-gray-600 max-w-3xl">
+                {dictionary.description}
+              </p>
+            </div>
+
+            {/* Checklist */}
+            <ul className="space-y-4">
+              {dictionary.activities.map((activity, index) => (
+                <li key={index} className="flex items-start">
+                  <Check
+                    size={24}
+                    className="text-green-500 mr-4 flex-shrink-0 mt-1"
+                  />
+                  <span className="text-base text-gray-700">{activity}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>

@@ -16,8 +16,8 @@ export default async function RepairPackagesPage({ params: { lang } }) {
     <>
       <RepairPackagesHero dictionary={pageDict.hero} />
       <PackagesSection dictionary={pageDict.packages} />
-      <PremiumTable dictionary={pageDict.premium_table} />
       <CustomerProof dictionary={pageDict.testimonial} />
+      <PremiumTable dictionary={pageDict.premium_table} />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

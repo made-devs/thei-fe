@@ -15,8 +15,8 @@ export default async function RentalPage({ params: { lang } }) {
     <>
       {/* FIX: Mengirim prop 'lang' ke komponen Hero */}
       <RentalHero dictionary={rentalDict.hero} lang={lang} />
-      <RentalCategoryGrid dictionary={rentalDict.categories} />
       <RentalFacilities dictionary={rentalDict.facilities} />
+      <RentalCategoryGrid dictionary={rentalDict.categories} />
       <TechAndPricing dictionary={rentalDict.tech_and_pricing} />
       <MainCta dictionary={rentalDict.main_cta} />
     </>

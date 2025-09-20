@@ -1,4 +1,3 @@
-// Filepath: app/components/Career/WhyJoin.js
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -15,7 +14,7 @@ const WhyJoin = ({ dictionary }) => {
         <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Kolom Teks */}
-            <div>
+            <div className="pl-[2rem]">
               <div className="flex items-center text-sm font-bold uppercase text-yellow-400 mb-2">
                 <Cog size={20} className="mr-2" />
                 <span>{dictionary.subtitle}</span>
@@ -38,8 +37,8 @@ const WhyJoin = ({ dictionary }) => {
                 ))}
               </ul>
             </div>
-            {/* Kolom Video */}
-            <div className="text-center">
+            {/* Kolom Video - Ditukar ke Kiri */}
+            <div className="text-center lg:order-first">
               <h3 className="text-xl font-bold mb-4">
                 {dictionary.video_testimonial.title}
               </h3>

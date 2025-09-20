@@ -6,6 +6,7 @@ import {
   Cog,
 } from 'lucide-react';
 
+// Mapping name to icon component for easy lookup
 const iconMap = {
   Integrity: <ShieldCheck size={40} className="text-yellow-400" />,
   Integritas: <ShieldCheck size={40} className="text-yellow-400" />,
@@ -18,6 +19,16 @@ const iconMap = {
 };
 
 const CoreValues = ({ dictionary }) => {
+  const values = dictionary.values || [];
+
+  const ValueCard = ({ value }) => (
+    <div className="p-8 bg-slate-50 rounded-lg shadow-sm hover:shadow-lg transition-shadow h-full">
+      <div className="flex justify-center mb-4">{iconMap[value.name]}</div>
+      <h3 className="font-bold text-xl">{value.name}</h3>
+      <p className="mt-2 text-gray-600 text-sm">{value.description}</p>
+    </div>
+  );
+
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px] text-center">
@@ -32,22 +43,14 @@ const CoreValues = ({ dictionary }) => {
         <h2 className="text-4xl lg:text-5xl font-bold text-black">
           {dictionary.title}
         </h2>
-        {/* Tambahkan paragraf deskripsi di sini */}
         <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
           {dictionary.description}
         </p>
-        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          {dictionary.values.map((value) => (
-            <div
-              key={value.name}
-              className="p-8 bg-gray-50 rounded-lg shadow-sm hover:shadow-lg transition-shadow"
-            >
-              <div className="flex justify-center mb-4">
-                {iconMap[value.name]}
-              </div>
-              <h3 className="font-bold text-xl">{value.name}</h3>
-              <p className="mt-2 text-gray-600 text-sm">{value.description}</p>
-            </div>
+
+        {/* REVISI: Menggunakan grid 2x2 standar */}
+        <div className="mt-16 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
+          {values.map((value, index) => (
+            <ValueCard key={index} value={value} />
           ))}
         </div>
       </div>

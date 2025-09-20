@@ -14,18 +14,18 @@
       "title": "Explore Our Service Solutions",
       "services": [
         {
-          "id": "preventive",
-          "icon": "ShieldCheck",
-          "title": "Preventive Maintenance",
-          "description": "Planned maintenance programs to maintain reliability and minimize operating costs.",
-          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+          "id": "inspection",
+          "icon": "ClipboardCheck",
+          "title": "Inspection",
+          "description": "Detailed inspection services to ensure new units are ready to work or old units remain in top condition.",
+          "points": ["PDI", "99-Point Inspection", "Commissioning"]
         },
         {
-          "id": "rebuild",
-          "icon": "Wrench",
-          "title": "Rebuild & Overhaul",
-          "description": "Restore your major components to like-new condition with manufacturer-quality standards.",
-          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+          "id": "fuel",
+          "icon": "Fuel",
+          "title": "Fuel Efficiency",
+          "description": "Audit and training programs to help you achieve maximum fuel efficiency.",
+          "points": ["Fuel Audit", "Operator Training"]
         },
         {
           "id": "hydraulic",
@@ -42,6 +42,34 @@
           "points": ["Scan", "Calibration", "Repair"]
         },
         {
+          "id": "ac",
+          "icon": "Snowflake",
+          "title": "Air Conditioning",
+          "description": "Ensure operator comfort and safety with our comprehensive AC maintenance services.",
+          "points": ["Flushing", "Freon Refill", "Cabin Filter"]
+        },
+        {
+          "id": "preventive",
+          "icon": "ShieldCheck",
+          "title": "Preventive Maintenance",
+          "description": "Planned maintenance programs to maintain reliability and minimize operating costs.",
+          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+        },
+        {
+          "id": "rebuild",
+          "icon": "Wrench",
+          "title": "Rebuild & Overhaul",
+          "description": "Restore your major components to like-new condition with manufacturer-quality standards.",
+          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+        },
+        {
+          "id": "field_service",
+          "icon": "Truck",
+          "title": "Field Service 24/7",
+          "description": "Our field service team is ready to come to your location anytime for emergency repairs.",
+          "points": ["Mobile Truck", "On-site Repair"]
+        },
+        {
           "id": "undercarriage",
           "icon": "Layers",
           "title": "Undercarriage & Track",
@@ -56,61 +84,38 @@
           "points": ["Crack Repair", "Bucket Repair", "Line Boring"]
         },
         {
-          "id": "ac",
-          "icon": "Snowflake",
-          "title": "Air Conditioning",
-          "description": "Ensure operator comfort and safety with our comprehensive AC maintenance services.",
-          "points": ["Flushing", "Freon Refill", "Cabin Filter"]
-        },
-        {
-          "id": "field_service",
-          "icon": "Truck",
-          "title": "Field Service 24/7",
-          "description": "Our field service team is ready to come to your location anytime for emergency repairs.",
-          "points": ["Mobile Truck", "On-site Repair"]
-        },
-        {
           "id": "agreement",
           "icon": "FileText",
           "title": "Service Agreement",
           "description": "Customized service contracts to guarantee uptime and efficiency according to your KPI targets.",
           "points": ["Uptime Guarantee", "Custom Contracts"]
-        },
-        {
-          "id": "inspection",
-          "icon": "ClipboardCheck",
-          "title": "Inspection",
-          "description": "Detailed inspection services to ensure new units are ready to work or old units remain in top condition.",
-          "points": ["PDI", "99-Point Inspection", "Commissioning"]
-        },
-        {
-          "id": "fuel",
-          "icon": "Fuel",
-          "title": "Fuel Efficiency",
-          "description": "Audit and training programs to help you achieve maximum fuel efficiency.",
-          "points": ["Fuel Audit", "Operator Training"]
         }
       ]
     },
     "quality_gallery": {
       "title": "Proof of Our Quality and Expertise",
       "before_after": {
-        "title": "Before & After Overhaul",
+        "title": "See The Real Transformation",
         "image_before": "/service/before.webp",
         "image_after": "/service/after.webp"
       },
-      "video": {
-        "title": "Hydraulic Test Process",
-        "thumbnail": "/service/video-thumb.webp"
-      },
-      "image1": {
-        "title": "Professional Mechanics",
-        "src": "/service/mechanic.webp"
-      },
-      "image2": {
-        "title": "Service Truck Fleet",
-        "src": "/service/service-truck.webp"
-      }
+      "media_items": [
+        {
+          "type": "video",
+          "title": "Hydraulic Test Process",
+          "src": "/service/video-thumb.webp"
+        },
+        {
+          "type": "image",
+          "title": "Professional Mechanics",
+          "src": "/service/mechanic.webp"
+        },
+        {
+          "type": "image",
+          "title": "Service Truck Fleet",
+          "src": "/service/service-truck.webp"
+        }
+      ]
     },
     "field_service_highlight": {
       "title": "Ready to Serve Anytime, Anywhere.",

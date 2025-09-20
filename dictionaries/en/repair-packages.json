@@ -13,10 +13,10 @@
       "title": "Choose the Package That Fits Your Needs",
       "items": [
         {
-          "name": "Repair Package",
-          "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
-          "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
-          "image": "/banner-slider4.webp"
+          "name": "Premium Service Package",
+          "details": "The most comprehensive service for units from Forklifts to Motor Graders with tier options: Complete, Super, or Ultimate.",
+          "bonus": "Free Car Service Package worth Rp50 million at TJM Auto Care.",
+          "image": "/banner-slider3.webp"
         },
         {
           "name": "Retail Repair Package",
@@ -25,10 +25,10 @@
           "image": "/service.webp"
         },
         {
-          "name": "Premium Service Package",
-          "details": "The most comprehensive service for units from Forklifts to Motor Graders with tier options: Complete, Super, or Ultimate.",
-          "bonus": "Free Car Service Package worth Rp50 million at TJM Auto Care.",
-          "image": "/banner-slider3.webp"
+          "name": "Repair Package",
+          "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
+          "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
+          "image": "/banner-slider4.webp"
         }
       ]
     },

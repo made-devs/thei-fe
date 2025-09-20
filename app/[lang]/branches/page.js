@@ -15,9 +15,9 @@ export default async function BranchesPage({ params: { lang } }) {
     <>
       <BranchesHero dictionary={branchesDict.hero} lang={lang} />
       {/* Panggil MapLoader di sini */}
+      <FacilityGallery dictionary={branchesDict.facility_gallery} />
       <MapLoader dictionary={branchesDict.interactive_map} />
       <VirtualTour dictionary={branchesDict.virtual_tour} />
-      <FacilityGallery dictionary={branchesDict.facility_gallery} />
       <MainCta dictionary={branchesDict.main_cta} />
     </>
   );

@@ -14,9 +14,9 @@ export default async function PartsPage({ params: { lang } }) {
   return (
     <>
       <PartsHero dictionary={partsDict.hero} />
-      <KeyFeatures dictionary={partsDict.features_section} />
-      <PartsCategoryGrid dictionary={partsDict.category_section} />
       <PartsPromo dictionary={partsDict.promo_section} />
+      <PartsCategoryGrid dictionary={partsDict.category_section} />
+      <KeyFeatures dictionary={partsDict.features_section} />
       <FastMovers dictionary={partsDict.fast_movers_section} />
       <MainCta dictionary={commonDict.main_cta} />
     </>

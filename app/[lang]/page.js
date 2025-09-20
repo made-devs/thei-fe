@@ -25,13 +25,24 @@ export default async function HomePage({ params }) {
 
   return (
     <>
-      <Hero dictionary={dictionary.hero} currentLocale={lang} />
-      <NewsTicker dictionary={dictionary.news_ticker} />
-      {/* <PopularEquipment dictionary={dictionary.popular_equipment} /> */}
+      <div className="bg-black text-center pt-24 pb-8">
+        <h1 className="text-5xl font-extrabold text-yellow-400 tracking-wider">
+          THEI – TJM Heavy Equipment Indonesia
+        </h1>
+        <p className="mt-4 text-lg text-gray-300 tracking-wide">
+          Indonesia’s One-Stop Solution for Heavy Equipment Rental, Service &
+          Sales
+        </p>
+      </div>
       <HighlightPromo
         dictionary={dictionary.highlight_promo}
         currentLocale={lang}
       />
+
+      <Hero dictionary={dictionary.hero} currentLocale={lang} />
+      <NewsTicker dictionary={dictionary.news_ticker} />
+      {/* <PopularEquipment dictionary={dictionary.popular_equipment} /> */}
+
       <WhyThei dictionary={dictionary.why_thei} />
       <News dictionary={newsDataForHomePage} currentLocale={lang} />
       <Testimonials dictionary={dictionary.testimonials} />

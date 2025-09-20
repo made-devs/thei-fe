@@ -36,12 +36,12 @@
         {
           "icon": "Repeat",
           "title": "Nilai Aset Tinggi",
-          "description": "Kami jamin penawaran harga trade-in terbaik di masa depan."
+          "description": "Kami jamin penawaran harga tukar tambah terbaik di masa depan."
         },
         {
           "icon": "Truck",
           "title": "Armada Terjamin",
-          "description": "Dukungan fleet maintenance 24/7 untuk menjaga operasional Anda."
+          "description": "Dukungan perawatan armada 24/7 untuk menjaga operasional Anda."
         },
         {
           "icon": "PhoneCall",
@@ -119,6 +119,11 @@
       "title": "Bonus Nyata, Bukan Sekadar Janji",
       "description": "Setiap pembelian forklift di THEI dilengkapi dengan paket keuntungan yang dirancang untuk meningkatkan nilai dan keamanan investasi Anda.",
       "images": [
+        {
+          "src": "/new-machines/type11.webp",
+          "alt": "Forklift baru",
+          "caption": "Unit Forklift Terbaru"
+        },
         {
           "src": "/home/news6.webp",
           "alt": "Pelatihan operator forklift",

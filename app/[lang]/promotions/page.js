@@ -14,9 +14,9 @@ export default async function PromotionsPage({ params: { lang } }) {
   return (
     <>
       <PromoHero dictionary={promoDict.hero} />
-      <PromoPackages dictionary={promoDict.packages} />
       <CollaborationBenefits dictionary={promoDict.collaboration} />
       <PartnerTestimonial dictionary={promoDict.testimonial} />
+      <PromoPackages dictionary={promoDict.packages} />
       <MainCta dictionary={promoDict.main_cta} />
     </>
   );

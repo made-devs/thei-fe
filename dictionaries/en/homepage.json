@@ -1,43 +1,15 @@
 {
   "hero": {
-    "slides": [
-      {
-        "category": "SALES",
-        "title": "Bonus After Sales up to Rp200 million",
-        "cta": "Explore Equipment",
-        "link": "/equipment/new-machines"
-      },
-      {
-        "category": "PARTS",
-        "title": "Genuine Parts",
-        "cta": "Explore Parts",
-        "link": "/parts"
-      },
-      {
-        "category": "REPAIR",
-        "title": "24/7 Service",
-        "cta": "Book Service",
-        "link": "/service"
-      },
-      {
-        "category": "RENTAL",
-        "title": "Efficient Rental Solutions Without Big Investment",
-        "cta": "Explore Equipment",
-        "link": "/equipment/rental"
-      },
-      {
-        "category": "TRADE-IN",
-        "title": "Upgrade Your Fleet with Our Trade-In Program",
-        "cta": "Request Quote",
-        "link": "/trade-in"
-      },
-      {
-        "category": "AFTER SALES",
-        "title": "Get the Biggest After Sales Bonus",
-        "cta": "Find Branch",
-        "link": "/why-buy-forklift"
-      }
-    ],
+    "main_copy": "Sales • Trade-In • Rental • Repair • Parts • After Sales",
+    "sub_copy_line1": "Bonus After Sales up to Rp200 Million",
+    "sub_copy_line2": "24/7 Service",
+    "sub_copy_line3": "Genuine Parts",
+    "cta": {
+      "quote": "Request Quote",
+      "explore": "Explore Equipment",
+      "book": "Book Service",
+      "branch": "Find Branch"
+    },
     "scroll_down": "SCROLL DOWN",
     "fab_quote": "REQUEST QUOTE",
     "fab_location": "FIND LOCATION",
@@ -143,71 +115,26 @@
       }
     ],
     "stats": [
-      { "value": "5+", "label": "Years of Experience" },
       { "value": "20+", "label": "Expert Team" },
       { "value": "3.5k+", "label": "Units Rented" },
       { "value": "500+", "label": "Happy Customers" }
     ]
   },
-  "popular_equipment": {
-    "title": "Explore Popular Equipment",
-    "description": "Browse through our most sought-after new and used heavy equipment. Find the perfect machine for your needs or explore our range of engines and work tools.",
-    "search_placeholder": "What products do you need?",
-    "best_value_badge": "Best Value",
-    "empty_category_message": "No products in this category yet.",
-    "view_all_cta": "VIEW ALL",
-    "tabs": [
-      { "id": "new_machines", "label": "New Machines" },
-      { "id": "used_machines", "label": "Used Machines" },
-      { "id": "engines", "label": "Engines" },
-      { "id": "cat_lift_trucks", "label": "CAT Lift Trucks" },
-      { "id": "work_tools", "label": "Work Tools" }
-    ],
-    "products": {
-      "new_machines": [
-        {
-          "name": "MOTOR GRADERS",
-          "model": "120 GC",
-          "image": "/newmachine1.webp",
-          "promo": true
-        },
-        {
-          "name": "OFF-HIGHWAY TRUCKS",
-          "model": "773E",
-          "image": "/newmachine2.webp",
-          "promo": false
-        },
-        {
-          "name": "MEDIUM WHEEL LOADERS",
-          "model": "966 GC",
-          "image": "/newmachine3.webp",
-          "promo": false
-        }
-      ],
-      "used_machines": [
-        {
-          "name": "USED EXCAVATOR",
-          "model": "320D2",
-          "image": "/home/promo1.webp",
-          "promo": false
-        },
-        {
-          "name": "USED BULLDOZER",
-          "model": "D8R",
-          "image": "/home/promo2.webp",
-          "promo": true
-        }
-      ],
-      "engines": [],
-      "cat_lift_trucks": [],
-      "work_tools": []
-    }
-  },
   "news": {
     "title": "Latest Insight",
     "subtitle": "News & Article",
     "description": "Stay updated with the latest news, events, and articles from THEI. Get insights into our products, technology, and corporate activities.",
-    "see_more": "See All News"
+    "see_more": "See All News",
+    "event_videos": {
+      "title": "Exclusive Event Coverage",
+      "description": "Watch the highlights from our most important events. See our technology, team, and commitment in action.",
+      "videos": [
+        { "title": "THEI Grand Launching 2025" },
+        { "title": "The Biggest Heavy Equipment Expo" },
+        { "title": "National Customer Day" },
+        { "title": "Tree Planting CSR Program" }
+      ]
+    }
   },
   "testimonials": {
     "title": "What Our Clients Say About Us",
@@ -232,6 +159,31 @@
         "image": "/home/testi3.webp",
         "quote": "The reliability of the heavy equipment is key to the success of our projects. THEI not only sells products but also provides comprehensive solutions."
       }
-    ]
+    ],
+    "video_testimonials": {
+      "title": "See Their Success Stories",
+      "videos": [
+        {
+          "name": "Rian Pratama",
+          "company": "Foreman, PT Cipta Karya",
+          "title": "Operational Efficiency Increased by 20%"
+        },
+        {
+          "name": "Siti Hartono",
+          "company": "Site Manager, Tambang Jaya",
+          "title": "Downtime Reduced Significantly"
+        },
+        {
+          "name": "Joko Susilo",
+          "company": "Lead Engineer, Geo-Infra Solusi",
+          "title": "Unbeatable 24/7 Support"
+        },
+        {
+          "name": "Dewi Anggraini",
+          "company": "Logistics Head, Terra Logistik",
+          "title": "Fleet Management Made Easy"
+        }
+      ]
+    }
   }
 }

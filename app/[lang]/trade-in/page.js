@@ -1,5 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
 import TradeInHero from '@/components/TradeIn/TradeInHero';
+import TradeInHighlight from '@/components/TradeIn/TradeInHighlight'; // Import komponen baru
 import BenefitsSection from '@/components/TradeIn/BenefitsSection';
 import HowItWorks from '@/components/TradeIn/HowItWorks';
 import ProofSection from '@/components/TradeIn/ProofSection';
@@ -12,8 +13,10 @@ export default async function TradeInPage({ params: { lang } }) {
   return (
     <>
       <TradeInHero dictionary={pageDict.hero} lang={lang} />
+      {/* Tempatkan komponen baru di bawah hero */}
+      <TradeInHighlight dictionary={pageDict.trade_in_highlight} />
       <BenefitsSection dictionary={pageDict.benefits_section} />
-      <HowItWorks dictionary={pageDict.how_it_works} />
+      <HowItWorks dictionary={pageDict.how_it_works_section} />
       <ProofSection dictionary={pageDict.proof_section} />
       <MainCta dictionary={pageDict.main_cta} />
     </>

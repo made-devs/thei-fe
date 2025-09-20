@@ -10,6 +10,8 @@
       ]
     },
     "main_section": {
+      "title": "Stay Updated with Our Journey",
+      "description": "Explore the latest news, events, and articles from THEI. Filter by category to find what interests you the most.",
       "all": "All",
       "promo": "Promo",
       "project": "Project",
@@ -20,21 +22,55 @@
     "featured_video": {
       "title": "Our Exclusive Event Coverage",
       "description": "Relive the key moments from our latest event through this exclusive video coverage.",
-      "video_thumb": "/home/news3.webp"
+      "videos": [
+        {
+          "title": "THEI Grand Launching 2025",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "The Biggest Heavy Equipment Expo",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "National Customer Day",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "Tree Planting CSR Program",
+          "id": "dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "documentation_gallery": {
+      "title": "Event Documentation Gallery",
+      "description": "Take a closer look at the important moments from our project, CSR, and training activities.",
+      "images": [
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Project+Handover",
+          "caption": "Strategic Project Handover"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=CSR+Event",
+          "caption": "CSR Tree Planting Activity"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Operator+Training",
+          "caption": "Certified Operator Training"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Fleet+in+Action",
+          "caption": "Fleet at Mining Site"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Team+Briefing",
+          "caption": "Field Team Briefing"
+        }
+      ]
     }
   },
   "articles": [
     {
       "id": 1,
-      "slug": "ultra-promo-extra-profit",
-      "category": "Promo",
-      "title": "ULTRA Promo: Extra Profit",
-      "date": "2025-08-15",
-      "image": "/promo4.webp",
-      "excerpt": "Get rental offers starting from IDR 25 Million/month and quality used units from IDR 700 Million. Plus, win exclusive merchandise!"
-    },
-    {
-      "id": 2,
       "slug": "thei-supports-strategic-national-infrastructure-projects",
       "category": "Project",
       "title": "THEI Supports Strategic National Infrastructure Projects",
@@ -43,7 +79,7 @@
       "excerpt": "Our fleet is contributing to the development of national strategic projects, ensuring smoothness and efficiency on the ground."
     },
     {
-      "id": 3,
+      "id": 2,
       "slug": "csr-program-planting-1000-trees",
       "category": "CSR",
       "title": "CSR: 1,000 Trees Planting Action for the Environment",
@@ -52,7 +88,7 @@
       "excerpt": "As part of our commitment to the environment, THEI successfully organized a program to plant 1,000 trees in a conservation area."
     },
     {
-      "id": 4,
+      "id": 3,
       "slug": "k3-certified-operator-training-batch-5-opens",
       "category": "Training",
       "title": "K3 Certified Operator Training Batch 5 Opens",
@@ -61,16 +97,7 @@
       "excerpt": "Enhance your skills and work safety standards by joining our professional operator training program, which is now open again."
     },
     {
-      "id": 5,
-      "slug": "bundling-solution-2025-keep-your-unit-in-prime-condition",
-      "category": "Promo",
-      "title": "Bundling Solution 2025: Keep Your Unit in Prime Condition",
-      "date": "2025-08-05",
-      "image": "/promo2.webp",
-      "excerpt": "Enjoy a 20% discount on the Oil, Filter, and S.O.S package. Ensure your unit is always at its best performance with this limited offer."
-    },
-    {
-      "id": 6,
+      "id": 4,
       "slug": "thei-receives-best-distributor-award-again-in-2025",
       "category": "CSR",
       "title": "THEI Receives Best Distributor Award Again in 2025",

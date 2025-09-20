@@ -1,11 +1,34 @@
 'use client';
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import Image from 'next/image';
-import { Quote, Cog } from 'lucide-react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
 
 const Testimonials = ({ dictionary }) => {
+  // Memoize data
   const testimonials = useMemo(() => dictionary.list || [], [dictionary.list]);
+  const videoTestimonials = useMemo(
+    () => dictionary.video_testimonials?.videos || [],
+    [dictionary.video_testimonials]
+  );
+
   const [activeIndex, setActiveIndex] = useState(0);
+
+  // Embla Carousel for Videos
+  const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
+    align: 'start',
+    containScroll: 'trimSnaps',
+    loop: true,
+  });
+
+  const videoScrollPrev = useCallback(
+    () => videoEmblaApi && videoEmblaApi.scrollPrev(),
+    [videoEmblaApi]
+  );
+  const videoScrollNext = useCallback(
+    () => videoEmblaApi && videoEmblaApi.scrollNext(),
+    [videoEmblaApi]
+  );
 
   if (testimonials.length === 0) {
     return null;
@@ -15,7 +38,7 @@ const Testimonials = ({ dictionary }) => {
 
   return (
     <section className="bg-white py-20">
-      <div className="container mx-auto px-6 lg:px-8 max-w-[max-w-7xl]">
+      <div className="container mx-auto px-6 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-12">
           <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
@@ -34,10 +57,10 @@ const Testimonials = ({ dictionary }) => {
           </p>
         </div>
 
-        {/* Highlight Card - WARNA DIUBAH */}
+        {/* Written Testimonial Card */}
         <div className="bg-yellow-400 text-black rounded-xl shadow-2xl p-8 lg:p-12 mb-12 relative overflow-hidden min-h-[350px] flex items-center">
           <Quote
-            className="absolute -bottom-8 -left-8 text-black/10" // Warna ikon quote diubah
+            className="absolute -bottom-8 -left-8 text-black/10"
             size={200}
           />
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
@@ -46,7 +69,6 @@ const Testimonials = ({ dictionary }) => {
                 &quot;{activeTestimonial.quote}&quot;
               </p>
               <div>
-                {/* Warna teks nama & perusahaan diubah */}
                 <p className="font-bold text-lg text-black">
                   {activeTestimonial.name}
                 </p>
@@ -60,14 +82,14 @@ const Testimonials = ({ dictionary }) => {
                 src={activeTestimonial.image}
                 alt={activeTestimonial.name}
                 fill
-                className="rounded-full object-cover border-4 border-black" // Warna border diubah
+                className="rounded-full object-cover border-4 border-black"
                 sizes="200px"
               />
             </div>
           </div>
         </div>
 
-        {/* Thumbnail Cards */}
+        {/* Thumbnail Selectors */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {testimonials.map((testimonial, index) => (
             <button
@@ -95,6 +117,71 @@ const Testimonials = ({ dictionary }) => {
             </button>
           ))}
         </div>
+
+        {/* Video Testimonials Section */}
+        {videoTestimonials.length > 0 && (
+          <div className="mt-20 pt-16 border-t">
+            <div className="text-center mb-12">
+              <h3 className="text-3xl lg:text-4xl font-bold">
+                {dictionary.video_testimonials.title}
+              </h3>
+            </div>
+            <div className="relative">
+              <div className="overflow-hidden" ref={videoEmblaRef}>
+                <div className="flex -ml-4">
+                  {videoTestimonials.map((video, index) => (
+                    <div
+                      key={index}
+                      className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-4"
+                    >
+                      <div className="group cursor-pointer">
+                        <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                          <Image
+                            src={`https://placehold.co/1600x900/1a1a1a/ffc700?text=Video+${
+                              index + 1
+                            }`}
+                            alt={video.title}
+                            fill
+                            className="object-cover group-hover:scale-105 transition-transform duration-300"
+                            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                            unoptimized
+                          />
+                          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+                            <PlayCircle
+                              size={64}
+                              className="text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"
+                            />
+                          </div>
+                        </div>
+                        <div className="p-4 text-left">
+                          <h4 className="font-bold text-lg mt-2">
+                            {video.title}
+                          </h4>
+                          <p className="text-sm text-gray-600">
+                            {video.name}, {video.company}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+              {/* REVISI: Menyesuaikan posisi vertikal panah */}
+              <button
+                className="absolute top-[calc(50%-2.75rem)] -left-4 transform -translate-y-1/2 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md z-10 hidden lg:flex"
+                onClick={videoScrollPrev}
+              >
+                <ArrowLeft size={24} className="text-black" />
+              </button>
+              <button
+                className="absolute top-[calc(50%-2.75rem)] -right-4 transform -translate-y-1/2 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md z-10 hidden lg:flex"
+                onClick={videoScrollNext}
+              >
+                <ArrowRight size={24} className="text-black" />
+              </button>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

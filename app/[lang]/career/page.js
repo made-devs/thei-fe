@@ -14,9 +14,9 @@ export default async function CareerPage({ params: { lang } }) {
   return (
     <>
       <CareerHero dictionary={pageDict.hero} lang={lang} />
-      <WhyJoin dictionary={pageDict.why_join} />
-      <OpenPositions dictionary={pageDict.open_positions} />
       <TrainingPrograms dictionary={pageDict.training_programs} />
+      <OpenPositions dictionary={pageDict.open_positions} />
+      <WhyJoin dictionary={pageDict.why_join} />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

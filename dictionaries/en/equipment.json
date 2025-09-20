@@ -16,18 +16,18 @@
     },
     "categories": [
       {
-        "title": "New Machines",
-        "description": "Cat® equipment is recognized for its reliability and durability. Combined with the expertise of our Cat-certified professionals, you can get the perfect machine you’re looking for. Since a new Cat machine is an investment in the future of your business.",
-        "image": "/equipment/equip1.webp",
-        "cta1_text": "View Details",
-        "cta1_link": "/equipment/new-machines"
-      },
-      {
         "title": "Rental",
         "description": "Rental provides scheme solutions for customers in projects who are concerned about initial investment, with a fully maintained fleet and experienced technicians.",
         "image": "/equipment/equip2.webp",
         "cta1_text": "View Details",
         "cta1_link": "/equipment/rental"
+      },
+      {
+        "title": "New Machines",
+        "description": "Cat® equipment is recognized for its reliability and durability. Combined with the expertise of our Cat-certified professionals, you can get the perfect machine you’re looking for. Since a new Cat machine is an investment in the future of your business.",
+        "image": "/equipment/equip1.webp",
+        "cta1_text": "View Details",
+        "cta1_link": "/equipment/new-machines"
       },
       {
         "title": "Used Equipment",

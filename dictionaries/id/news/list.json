@@ -20,21 +20,55 @@
     "featured_video": {
       "title": "Liputan Acara Eksklusif Kami",
       "description": "Rasakan kembali momen-momen penting dari acara terbaru kami melalui liputan video eksklusif ini.",
-      "video_thumb": "/home/news3.webp"
+      "videos": [
+        {
+          "title": "Grand Launching THEI 2025",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "Pameran Alat Berat Terbesar",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "Hari Pelanggan Nasional",
+          "id": "dQw4w9WgXcQ"
+        },
+        {
+          "title": "Program CSR Penanaman Pohon",
+          "id": "dQw4w9WgXcQ"
+        }
+      ]
+    },
+    "documentation_gallery": {
+      "title": "Galeri Dokumentasi Kegiatan",
+      "description": "Lihat lebih dekat berbagai momen penting dari kegiatan proyek, CSR, dan pelatihan yang telah kami selenggarakan.",
+      "images": [
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Project+Handover",
+          "caption": "Serah Terima Proyek Strategis"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=CSR+Event",
+          "caption": "Kegiatan CSR Penanaman Pohon"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Operator+Training",
+          "caption": "Pelatihan Operator Bersertifikat"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Fleet+in+Action",
+          "caption": "Armada di Lokasi Tambang"
+        },
+        {
+          "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Team+Briefing",
+          "caption": "Briefing Tim Lapangan"
+        }
+      ]
     }
   },
   "articles": [
     {
       "id": 1,
-      "slug": "ultra-promo-extra-profit",
-      "category": "Promo",
-      "title": "Promo ULTRA: Untung Lebih Extra",
-      "date": "2025-08-15",
-      "image": "/promo4.webp",
-      "excerpt": "Dapatkan penawaran sewa mulai dari Rp 25 Juta/bulan dan unit bekas berkualitas mulai dari Rp 700 Jutaan. Plus, menangkan merchandise eksklusif!"
-    },
-    {
-      "id": 2,
       "slug": "thei-dukung-proyek-infrastruktur-strategis",
       "category": "Project",
       "title": "THEI Dukung Proyek Infrastruktur Strategis Nasional",
@@ -43,7 +77,7 @@
       "excerpt": "Armada kami turut andil dalam pembangunan proyek strategis nasional, memastikan kelancaran dan efisiensi di lapangan."
     },
     {
-      "id": 3,
+      "id": 2,
       "slug": "program-csr-penanaman-1000-pohon",
       "category": "CSR",
       "title": "CSR: Aksi Penanaman 1.000 Pohon untuk Lingkungan",
@@ -52,7 +86,7 @@
       "excerpt": "Sebagai bagian dari komitmen kami terhadap lingkungan, THEI sukses menyelenggarakan program penanaman 1.000 pohon di area konservasi."
     },
     {
-      "id": 4,
+      "id": 3,
       "slug": "pelatihan-operator-bersertifikat-k3-batch-5-dibuka",
       "category": "Training",
       "title": "Pelatihan Operator Bersertifikat K3 Batch 5 Dibuka",
@@ -61,16 +95,7 @@
       "excerpt": "Tingkatkan keahlian dan standar keselamatan kerja dengan mengikuti program pelatihan operator profesional kami yang kembali dibuka."
     },
     {
-      "id": 5,
-      "slug": "bundling-solution-2025-jaga-kondisi-prima-unit",
-      "category": "Promo",
-      "title": "Bundling Solution 2025: Jaga Kondisi Prima Unit Anda",
-      "date": "2025-08-05",
-      "image": "/promo2.webp",
-      "excerpt": "Nikmati diskon 20% untuk paket Oil, Filter, dan S.O.S. Pastikan unit Anda selalu dalam performa terbaik dengan penawaran terbatas ini."
-    },
-    {
-      "id": 6,
+      "id": 4,
       "slug": "thei-terima-penghargaan-distributor-terbaik-2025",
       "category": "CSR",
       "title": "THEI Kembali Terima Penghargaan Distributor Terbaik 2025",

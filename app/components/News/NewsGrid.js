@@ -35,6 +35,19 @@ const NewsGrid = ({ dictionary, lang }) => {
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
+        {/* Section Header */}
+        {mainDict.title && (
+          <div className="text-center mb-12">
+            {/* Ukuran title diubah menjadi 3xl agar konsisten */}
+            <h2 className="text-3xl font-bold text-black mb-4">
+              {mainDict.title}
+            </h2>
+            <p className="text-gray-600 max-w-3xl mx-auto">
+              {mainDict.description}
+            </p>
+          </div>
+        )}
+
         {/* Filter Buttons */}
         <div className="flex justify-center flex-wrap gap-4 mb-12">
           {categories.map((category) => (

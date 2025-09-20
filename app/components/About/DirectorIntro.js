@@ -1,4 +1,3 @@
-// Filepath: app/components/About/DirectorIntro.js
 'use client';
 import { useState } from 'react';
 import Image from 'next/image';
@@ -11,27 +10,31 @@ const DirectorIntro = ({ dictionary }) => {
   return (
     <>
       <section className="bg-white py-20">
-        <div className="container mx-auto px-6 lg:px-8 max-w-[1440px] text-center">
-          <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
-            <Cog
-              size={20}
-              className="mr-2 animate-spin"
-              style={{ animationDuration: '5s' }}
-            />
-            <span>{dictionary.subtitle}</span>
-          </div>
-          <h2 className="text-4xl lg:text-5xl font-bold text-black max-w-4xl mx-auto">
-            {dictionary.title}
-          </h2>
-          <p className="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-            &quot;{dictionary.quote}&quot;
-          </p>
+        <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
+          {/* Main container with side-by-side layout on large screens */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            {/* Left Column: Text Content */}
+            <div className="text-center lg:text-left">
+              <div className="flex items-center justify-center lg:justify-start text-sm font-bold uppercase text-yellow-400 mb-2">
+                <Cog
+                  size={20}
+                  className="mr-2 animate-spin"
+                  style={{ animationDuration: '5s' }}
+                />
+                <span>{dictionary.subtitle}</span>
+              </div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-black">
+                {dictionary.title}
+              </h2>
+              <p className="mt-4 text-lg text-gray-600">
+                &quot;{dictionary.quote}&quot;
+              </p>
+            </div>
 
-          {/* Video Player */}
-          {videoData && (
-            <div className="mt-12">
+            {/* Right Column: Video Player */}
+            {videoData && (
               <div
-                className="relative aspect-video max-w-4xl mx-auto rounded-lg overflow-hidden group cursor-pointer shadow-lg"
+                className="relative aspect-video w-full rounded-lg overflow-hidden group cursor-pointer shadow-lg"
                 onClick={() => setShowVideo(true)}
               >
                 <Image
@@ -39,6 +42,7 @@ const DirectorIntro = ({ dictionary }) => {
                   alt={videoData.alt}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                   <PlayCircle
@@ -47,11 +51,12 @@ const DirectorIntro = ({ dictionary }) => {
                   />
                 </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </section>
 
+      {/* Video Modal */}
       {showVideo && videoData && (
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
           <div className="relative w-full max-w-4xl">

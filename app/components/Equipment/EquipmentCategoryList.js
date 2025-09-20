@@ -1,66 +1,82 @@
+'use client';
+import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const EquipmentCategoryList = ({ dictionary, lang }) => {
+  // State untuk melacak tab yang sedang aktif, defaultnya yang pertama (index 0)
+  const [activeIndex, setActiveIndex] = useState(0);
+
   if (!Array.isArray(dictionary) || dictionary.length === 0) {
     return null;
   }
 
+  const activeCategory = dictionary[activeIndex];
+
   return (
-    <section className="bg-gray-50 py-16">
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1280px] space-y-16">
-        {dictionary.map((category, index) => (
-          <div
-            key={category.title}
-            // Menambah gap antar kolom di layar besar
-            className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center"
-          >
-            {/* Image Container */}
-            <div
-              className={`relative aspect-[4/3] rounded-lg overflow-hidden ${
-                index % 2 === 0 ? 'lg:order-last' : ''
+    <section className="bg-gray-50 py-20">
+      <div className="container mx-auto px-6 lg:px-8 max-w-[1280px]">
+        {/* Bagian Navigasi Tab */}
+        <div className="flex flex-wrap justify-center gap-2 lg:gap-4 mb-12">
+          {dictionary.map((category, index) => (
+            <button
+              key={category.title}
+              onClick={() => setActiveIndex(index)}
+              className={`px-5 py-3 text-sm lg:text-base font-bold rounded-full transition-all duration-300 ${
+                activeIndex === index
+                  ? 'bg-yellow-400 text-black shadow-md'
+                  : 'bg-white text-gray-600 hover:bg-yellow-100 hover:text-black'
               }`}
             >
+              {category.title}
+            </button>
+          ))}
+        </div>
+
+        {/* Bagian Konten Tab yang Aktif */}
+        {activeCategory && (
+          <div className="max-w-5xl mx-auto text-center">
+            {/* Urutan 1: Gambar */}
+            <div className="relative aspect-video w-full rounded-lg overflow-hidden shadow-xl mb-8">
               <Image
-                src={category.image}
-                alt={category.title}
+                src={activeCategory.image}
+                alt={activeCategory.title}
                 fill
                 className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 50vw"
+                sizes="(max-width: 1024px) 100vw, 80vw"
+                priority={true} // Prioritaskan gambar pertama agar cepat dimuat
               />
             </div>
-            {/* Text Container */}
-            <div
-              // Memberi padding agar teks tidak terlalu mepet ke gambar
-              className={`text-center lg:text-left ${
-                index % 2 === 0 ? 'lg:pr-8' : 'lg:pl-8'
-              }`}
-            >
-              <h3 className="text-3xl font-bold text-black">
-                {category.title}
-              </h3>
-              <p className="mt-4 text-gray-600 leading-relaxed">
-                {category.description}
-              </p>
-              <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+
+            {/* Urutan 2: Judul */}
+            <h3 className="text-4xl font-bold text-black">
+              {activeCategory.title}
+            </h3>
+
+            {/* Urutan 3: Deskripsi */}
+            <p className="mt-4 text-gray-600 leading-relaxed max-w-3xl mx-auto">
+              {activeCategory.description}
+            </p>
+
+            {/* Tombol CTA */}
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
+              <Link
+                href={`/${lang}${activeCategory.cta1_link}` || '#'}
+                className="inline-flex items-center justify-center px-8 py-3 font-bold text-black bg-yellow-400 rounded-full hover:bg-yellow-500 transition-colors"
+              >
+                {activeCategory.cta1_text}
+              </Link>
+              {activeCategory.cta2_text && (
                 <Link
-                  href={`/${lang}${category.cta1_link}` || '#'}
-                  className="inline-flex items-center justify-center px-6 py-3 font-semibold text-black bg-yellow-400 rounded-md hover:bg-yellow-500 transition-colors"
+                  href={`/${lang}${activeCategory.cta2_link}` || '#'}
+                  className="inline-flex items-center justify-center px-8 py-3 font-bold text-gray-800 bg-gray-200 rounded-full hover:bg-gray-300 transition-colors"
                 >
-                  {category.cta1_text}
+                  {activeCategory.cta2_text}
                 </Link>
-                {category.cta2_text && (
-                  <Link
-                    href={`/${lang}${category.cta2_link}` || '#'}
-                    className="inline-flex items-center justify-center px-6 py-3 font-semibold text-gray-800 bg-gray-200 rounded-md hover:bg-gray-300 transition-colors"
-                  >
-                    {category.cta2_text}
-                  </Link>
-                )}
-              </div>
+              )}
             </div>
           </div>
-        ))}
+        )}
       </div>
     </section>
   );

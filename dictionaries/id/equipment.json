@@ -16,18 +16,18 @@
     },
     "categories": [
       {
-        "title": "Mesin Baru",
-        "description": "Peralatan Cat® diakui karena keandalan dan daya tahannya. Dikombinasikan dengan keahlian para profesional kami yang bersertifikat Cat, Anda bisa mendapatkan mesin yang tepat yang Anda cari. Karena mesin Cat baru adalah investasi untuk masa depan bisnis Anda.",
-        "image": "/equipment/equip1.webp",
-        "cta1_text": "Lihat Detail",
-        "cta1_link": "/equipment/new-machines"
-      },
-      {
         "title": "Rental",
         "description": "Rental menyediakan solusi skema untuk pelanggan dalam proyek yang khawatir tentang investasi awal, dengan armada yang dipelihara sepenuhnya dan teknisi yang berpengalaman.",
         "image": "/equipment/equip2.webp",
         "cta1_text": "Lihat Detail",
         "cta1_link": "/equipment/rental"
+      },
+      {
+        "title": "Mesin Baru",
+        "description": "Peralatan Cat® diakui karena keandalan dan daya tahannya. Dikombinasikan dengan keahlian para profesional kami yang bersertifikat Cat, Anda bisa mendapatkan mesin yang tepat yang Anda cari. Karena mesin Cat baru adalah investasi untuk masa depan bisnis Anda.",
+        "image": "/equipment/equip1.webp",
+        "cta1_text": "Lihat Detail",
+        "cta1_link": "/equipment/new-machines"
       },
       {
         "title": "Peralatan Bekas",

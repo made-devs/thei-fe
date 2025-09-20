@@ -15,10 +15,10 @@ export default async function AboutPage({ params: { lang } }) {
     <>
       <PageHero dictionary={aboutDict.hero} />
       <DirectorIntro dictionary={aboutDict.director_intro} />
-      <VisionMission dictionary={aboutDict.vision_mission} />
-      <CoreValues dictionary={aboutDict.core_values} />
-      <HsseCommitment dictionary={aboutDict.hsse} />
       <CsrSection dictionary={aboutDict.csr} />
+      <VisionMission dictionary={aboutDict.vision_mission} />
+      <HsseCommitment dictionary={aboutDict.hsse} />
+      <CoreValues dictionary={aboutDict.core_values} />
       <MainCta dictionary={dictionary.main_cta} />
     </>
   );

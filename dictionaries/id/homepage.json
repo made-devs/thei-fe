@@ -1,43 +1,15 @@
 {
   "hero": {
-    "slides": [
-      {
-        "category": "SALES",
-        "title": "Bonus After Sales hingga Rp200 juta",
-        "cta": "Lihat Equipment",
-        "link": "/equipment"
-      },
-      {
-        "category": "PARTS",
-        "title": "Suku Cadang Asli",
-        "cta": "Cari Suku Cadang",
-        "link": "/parts"
-      },
-      {
-        "category": "REPAIR",
-        "title": "Layanan 24/7",
-        "cta": "Pesan Servis",
-        "link": "/service"
-      },
-      {
-        "category": "RENTAL",
-        "title": "Solusi Rental Efisien Tanpa Investasi Besar",
-        "cta": "Lihat Equipment",
-        "link": "/equipment/rental"
-      },
-      {
-        "category": "TRADE-IN",
-        "title": "Upgrade Armada Anda dengan Program Trade-In",
-        "cta": "Minta Penawaran",
-        "link": "/trade-in"
-      },
-      {
-        "category": "AFTER SALES",
-        "title": "Dapatkan Bonus After Sales Terbesar",
-        "cta": "Cari Cabang",
-        "link": "/why-buy-forklift"
-      }
-    ],
+    "main_copy": "Sales • Trade-In • Rental • Repair • Parts • After Sales",
+    "sub_copy_line1": "Bonus After Sales hingga Rp200 Juta",
+    "sub_copy_line2": "Layanan 24/7",
+    "sub_copy_line3": "Suku Cadang Asli",
+    "cta": {
+      "quote": "Minta Penawaran",
+      "explore": "Jelajahi Equipment",
+      "book": "Pesan Servis",
+      "branch": "Cari Cabang"
+    },
     "scroll_down": "GULIR KE BAWAH",
     "fab_quote": "MINTA PENAWARAN",
     "fab_location": "CARI LOKASI",
@@ -143,95 +115,75 @@
       }
     ],
     "stats": [
-      { "value": "5+", "label": "Tahun Pengalaman" },
       { "value": "20+", "label": "Tim Ahli" },
       { "value": "3.5k+", "label": "Unit Direntalkan" },
       { "value": "500+", "label": "Pelanggan Puas" }
     ]
   },
-  "popular_equipment": {
-    "title": "Jelajahi Alat Berat Populer",
-    "description": "Telusuri alat berat baru dan bekas kami yang paling dicari. Temukan mesin yang sempurna untuk kebutuhan Anda atau jelajahi rangkaian engine dan peralatan kerja kami.",
-    "search_placeholder": "Produk apa yang Anda butuhkan?",
-    "best_value_badge": "Paling Untung",
-    "empty_category_message": "Belum ada produk di kategori ini.",
-    "view_all_cta": "LIHAT SEMUA",
-    "tabs": [
-      { "id": "new_machines", "label": "Mesin Baru" },
-      { "id": "used_machines", "label": "Mesin Bekas" },
-      { "id": "engines", "label": "Engine" },
-      { "id": "cat_lift_trucks", "label": "CAT Lift Trucks" },
-      { "id": "work_tools", "label": "Peralatan Kerja" }
-    ],
-    "products": {
-      "new_machines": [
-        {
-          "name": "MOTOR GRADERS",
-          "model": "120 GC",
-          "image": "/newmachine1.webp",
-          "promo": true
-        },
-        {
-          "name": "OFF-HIGHWAY TRUCKS",
-          "model": "773E",
-          "image": "/newmachine2.webp",
-          "promo": false
-        },
-        {
-          "name": "MEDIUM WHEEL LOADERS",
-          "model": "966 GC",
-          "image": "/newmachine3.webp",
-          "promo": false
-        }
-      ],
-      "used_machines": [
-        {
-          "name": "EXCAVATOR BEKAS",
-          "model": "320D2",
-          "image": "/home/promo1.webp",
-          "promo": false
-        },
-        {
-          "name": "BULLDOZER BEKAS",
-          "model": "D8R",
-          "image": "/home/promo2.webp",
-          "promo": true
-        }
-      ],
-      "engines": [],
-      "cat_lift_trucks": [],
-      "work_tools": []
-    }
-  },
   "news": {
     "title": "Wawasan Terkini",
     "subtitle": "Berita & Artikel",
     "description": "Tetap terinformasi dengan berita, acara, dan artikel terbaru dari THEI. Dapatkan wawasan tentang produk, teknologi, dan kegiatan korporat kami.",
-    "see_more": "Lihat Semua Berita"
+    "see_more": "Lihat Semua Berita",
+    "event_videos": {
+      "title": "Liputan Acara Eksklusif",
+      "description": "Saksikan cuplikan dari acara-acara terpenting kami. Lihat teknologi, tim, dan komitmen kami beraksi.",
+      "videos": [
+        { "title": "Grand Launching THEI 2025" },
+        { "title": "Pameran Alat Berat Terbesar" },
+        { "title": "Hari Pelanggan Nasional" },
+        { "title": "Program CSR Penanaman Pohon" }
+      ]
+    }
   },
   "testimonials": {
-    "title": "Kata Klien Tentang Kami",
-    "subtitle": "Testimoni Pelanggan",
-    "description": "Kisah sukses klien kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa yang mereka katakan tentang kemitraan dengan THEI.",
+    "title": "What Our Clients Say About Us",
+    "subtitle": "Customer Testimonials",
+    "description": "Our clients' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
     "list": [
       {
         "name": "Budi Santoso",
-        "company": "Manajer Proyek, PT Abadi Jaya",
+        "company": "Project Manager, PT Abadi Jaya",
         "image": "/home/testi1.webp",
-        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan solutif, meminimalkan waktu henti di lapangan."
+        "quote": "The after-sales support from THEI is outstanding. Whenever there's an issue, their team responds quickly and effectively, minimizing downtime on our site."
       },
       {
         "name": "Citra Lestari",
-        "company": "Direktur Operasional, PT Karya Bersama",
+        "company": "Operations Director, PT Karya Bersama",
         "image": "/home/testi2.webp",
-        "quote": "Program Bundling Solution sangat membantu kami dalam mengelola anggaran pemeliharaan. Kualitas suku cadang asli tidak perlu diragukan lagi."
+        "quote": "The Bundling Solution program has been a great help in managing our maintenance budget. The quality of genuine parts is unquestionable."
       },
       {
         "name": "Agus Wijaya",
         "company": "CEO, PT Konstruksi Megah",
         "image": "/home/testi3.webp",
-        "quote": "Keandalan alat berat adalah kunci keberhasilan proyek-proyek kami. THEI tidak hanya menjual produk, tetapi juga memberikan solusi menyeluruh."
+        "quote": "The reliability of the heavy equipment is key to the success of our projects. THEI not only sells products but also provides comprehensive solutions."
       }
-    ]
+    ],
+    "video_testimonials": {
+      "title": "See Their Success Stories",
+      "videos": [
+        {
+          "name": "David Lee",
+          "company": "Foreman, Quantum Constructions",
+          "title": "Operational Efficiency Increased by 20%"
+        },
+        {
+          "name": "Sarah Chen",
+          "company": "Site Manager, Apex Mining",
+          "title": "Downtime Reduced Significantly"
+        },
+        {
+          "name": "Michael Brown",
+          "company": "Lead Engineer, Geo-Infra Solutions",
+          "title": "Unbeatable 24/7 Support"
+        },
+        {
+          "name": "Emily White",
+          "company": "Logistics Head, Terra Logistics",
+          "title": "Fleet Management Made Easy"
+        }
+      ]
+    }
   }
 }

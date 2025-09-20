@@ -9,6 +9,12 @@
         { "name": "Trade-In", "link": "/trade-in" }
       ]
     },
+    "trade_in_highlight": {
+      "title": "See the Difference an Upgrade Makes",
+      "description": "Slide to compare an old unit with a brand new one and see the benefits of our trade-in program.",
+      "image_before": "/service/before.webp",
+      "image_after": "/service/after.webp"
+    },
     "benefits_section": {
       "title": "15 Benefits of Trading In at THEI",
       "benefits": [

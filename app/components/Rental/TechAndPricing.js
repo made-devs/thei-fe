@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import { PlayCircle } from 'lucide-react';
 
@@ -10,16 +11,18 @@ const TechAndPricing = ({ dictionary }) => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-black">{dictionary.title}</h2>
         </div>
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          {/* IoT Demo */}
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-2">
+
+        {/* Mengubah menjadi flex-col untuk layout vertikal */}
+        <div className="flex flex-col items-center gap-16 lg:gap-20">
+          {/* IoT Demo Section */}
+          <div className="text-center w-full max-w-4xl">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-2">
               {dictionary.iot_demo.title}
             </h3>
             <p className="text-gray-600 mb-6 max-w-md mx-auto">
               {dictionary.iot_demo.description}
             </p>
-            <div className="relative aspect-video rounded-lg overflow-hidden group cursor-pointer max-w-lg mx-auto">
+            <div className="relative aspect-video rounded-lg overflow-hidden group cursor-pointer shadow-lg">
               <div className="absolute inset-0 bg-black/50 flex items-center justify-center z-10">
                 <PlayCircle
                   size={60}
@@ -27,25 +30,33 @@ const TechAndPricing = ({ dictionary }) => {
                 />
               </div>
               <Image
-                src="/equipment/rental/iot-demo.webp"
+                // Menggunakan placeholder untuk video demo
+                src="https://placehold.co/1600x900/1a1a1a/ffc700?text=IoT+Demo"
                 alt="IoT GPS Tracking Demo"
                 fill
                 className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 896px"
+                unoptimized
               />
             </div>
           </div>
 
-          {/* Pricing Table */}
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">
+          {/* Pricing Table Section */}
+          <div className="text-center w-full max-w-4xl">
+            <h3 className="text-2xl lg:text-3xl font-bold mb-4">
               {dictionary.pricing_table.title}
             </h3>
-            <div className="relative aspect-square rounded-lg overflow-hidden border">
+            <div className="relative aspect-square rounded-lg overflow-hidden border shadow-lg">
               <Image
-                src={dictionary.pricing_table.image}
+                // Menggunakan placeholder untuk tabel harga
+                src={
+                  'https://placehold.co/1000x1000/1a1a1a/ffc700?text=Pricing+Table'
+                }
                 alt="Tabel Harga Rental"
                 fill
-                className="object-contain p-4"
+                className="object-contain p-4 bg-gray-50"
+                sizes="(max-width: 1024px) 100vw, 896px"
+                unoptimized
               />
             </div>
           </div>

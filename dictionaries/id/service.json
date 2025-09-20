@@ -14,18 +14,18 @@
       "title": "Jelajahi Solusi Layanan Kami",
       "services": [
         {
-          "id": "preventive",
-          "icon": "ShieldCheck",
-          "title": "Preventive Maintenance",
-          "description": "Program perawatan pencegahan terencana untuk menjaga keandalan dan meminimalkan biaya operasional.",
-          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+          "id": "inspection",
+          "icon": "ClipboardCheck",
+          "title": "Inspection",
+          "description": "Layanan inspeksi mendetail untuk memastikan unit baru siap kerja atau unit lama tetap prima.",
+          "points": ["PDI", "99-Point Inspection", "Commissioning"]
         },
         {
-          "id": "rebuild",
-          "icon": "Wrench",
-          "title": "Rebuild & Overhaul",
-          "description": "Kembalikan komponen utama alat berat Anda ke kondisi seperti baru dengan standar kualitas pabrikan.",
-          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+          "id": "fuel",
+          "icon": "Fuel",
+          "title": "Fuel Efficiency",
+          "description": "Program audit dan pelatihan untuk membantu Anda mencapai efisiensi bahan bakar yang maksimal.",
+          "points": ["Fuel Audit", "Operator Training"]
         },
         {
           "id": "hydraulic",
@@ -42,6 +42,34 @@
           "points": ["Scan", "Calibration", "Repair"]
         },
         {
+          "id": "ac",
+          "icon": "Snowflake",
+          "title": "Air Conditioning",
+          "description": "Pastikan kenyamanan dan keamanan operator dengan layanan perawatan AC yang menyeluruh.",
+          "points": ["Flushing", "Refill Freon", "Cabin Filter"]
+        },
+        {
+          "id": "preventive",
+          "icon": "ShieldCheck",
+          "title": "Preventive Maintenance",
+          "description": "Program perawatan pencegahan terencana untuk menjaga keandalan dan meminimalkan biaya operasional.",
+          "points": ["PM Basic", "PM Pro", "PM Platinum"]
+        },
+        {
+          "id": "rebuild",
+          "icon": "Wrench",
+          "title": "Rebuild & Overhaul",
+          "description": "Kembalikan komponen utama alat berat Anda ke kondisi seperti baru dengan standar kualitas pabrikan.",
+          "points": ["Engine", "Transmission", "Final Drive", "Undercarriage"]
+        },
+        {
+          "id": "field_service",
+          "icon": "Truck",
+          "title": "Field Service 24/7",
+          "description": "Tim servis lapangan kami siap datang ke lokasi Anda kapan saja untuk perbaikan darurat.",
+          "points": ["Mobile Truck", "On-site Repair"]
+        },
+        {
           "id": "undercarriage",
           "icon": "Layers",
           "title": "Undercarriage & Track",
@@ -56,61 +84,38 @@
           "points": ["Crack Repair", "Bucket Repair", "Line Boring"]
         },
         {
-          "id": "ac",
-          "icon": "Snowflake",
-          "title": "Air Conditioning",
-          "description": "Pastikan kenyamanan dan keamanan operator dengan layanan perawatan AC yang menyeluruh.",
-          "points": ["Flushing", "Refill Freon", "Cabin Filter"]
-        },
-        {
-          "id": "field_service",
-          "icon": "Truck",
-          "title": "Field Service 24/7",
-          "description": "Tim servis lapangan kami siap datang ke lokasi Anda kapan saja untuk perbaikan darurat.",
-          "points": ["Mobile Truck", "On-site Repair"]
-        },
-        {
           "id": "agreement",
           "icon": "FileText",
           "title": "Service Agreement",
           "description": "Kontrak layanan yang disesuaikan untuk menjamin uptime dan efisiensi sesuai target KPI Anda.",
           "points": ["Uptime Guarantee", "Custom Contracts"]
-        },
-        {
-          "id": "inspection",
-          "icon": "ClipboardCheck",
-          "title": "Inspection",
-          "description": "Layanan inspeksi mendetail untuk memastikan unit baru siap kerja atau unit lama tetap prima.",
-          "points": ["PDI", "99-Point Inspection", "Commissioning"]
-        },
-        {
-          "id": "fuel",
-          "icon": "Fuel",
-          "title": "Fuel Efficiency",
-          "description": "Program audit dan pelatihan untuk membantu Anda mencapai efisiensi bahan bakar yang maksimal.",
-          "points": ["Fuel Audit", "Operator Training"]
         }
       ]
     },
     "quality_gallery": {
       "title": "Bukti Kualitas dan Keahlian Kami",
       "before_after": {
-        "title": "Before & After Overhaul",
+        "title": "Lihat Transformasi Nyata Pekerjaan Kami",
         "image_before": "/service/before.webp",
         "image_after": "/service/after.webp"
       },
-      "video": {
-        "title": "Proses Hydraulic Test",
-        "thumbnail": "/service/video-thumb.webp"
-      },
-      "image1": {
-        "title": "Mekanik Profesional",
-        "src": "/service/mechanic.webp"
-      },
-      "image2": {
-        "title": "Armada Service Truck",
-        "src": "/service/service-truck.webp"
-      }
+      "media_items": [
+        {
+          "type": "video",
+          "title": "Proses Uji Hidrolik",
+          "src": "/service/video-thumb.webp"
+        },
+        {
+          "type": "image",
+          "title": "Mekanik Profesional",
+          "src": "/service/mechanic.webp"
+        },
+        {
+          "type": "image",
+          "title": "Armada Truk Servis",
+          "src": "/service/service-truck.webp"
+        }
+      ]
     },
     "field_service_highlight": {
       "title": "Siap Melayani Kapan Saja, Di Mana Saja.",

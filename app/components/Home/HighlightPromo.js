@@ -20,12 +20,14 @@ const PriceDisplay = ({ priceString }) => {
 
   return (
     <div className="flex items-baseline">
-      {/* UKURAN FONT DIKECILKAN */}
-      <span className="text-lg font-bold text-black mr-1 self-start">Rp</span>
+      {/* Warna teks disesuaikan untuk background terang */}
+      <span className="text-lg font-bold text-gray-800 mr-1 self-start">
+        Rp
+      </span>
       <span className="text-3xl font-extrabold text-black leading-none">
         {mainDigits}
       </span>
-      <span className="text-lg font-bold text-black">{trailingDigits}</span>
+      <span className="text-lg font-bold text-gray-800">{trailingDigits}</span>
     </div>
   );
 };
@@ -46,14 +48,12 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
         scrollTrigger: {
           trigger: sectionRef.current,
           start: 'top 80%',
-          // FIX: Memberi lebih banyak ruang untuk animasi selesai
           end: 'center 80%',
           scrub: 1,
         },
         opacity: 1,
         y: 0,
         ease: 'power1.out',
-        // FIX: Mengurangi jeda antar animasi agar tidak terlalu terasa "telat"
         stagger: 0.1,
       });
     }, sectionRef);
@@ -62,35 +62,26 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
   }, [packages]);
 
   return (
-    <section ref={sectionRef} className="bg-gray-100 pt-[8rem] pb-20">
+    <section ref={sectionRef} className="bg-black pt-[5rem] pb-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         {/* Header Section */}
-        <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16">
-          <div>
-            <div className="flex items-center text-sm font-bold uppercase text-yellow-400 mb-2">
-              <Cog
-                size={20}
-                className="mr-2 animate-spin"
-                style={{ animationDuration: '5s' }}
-              />
-              <span>{dictionary.subtitle}</span>
-            </div>
-            <h2 className="text-5xl font-bold leading-[3.5rem] text-black">
-              {dictionary.title_line1}
-              <br />
-              {dictionary.title_line2}
-            </h2>
-            <p className="mt-4 text-gray-600 max-w-2xl">
-              {dictionary.description}
-            </p>
+        <div className="text-center mb-16">
+          <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
+            <Cog
+              size={20}
+              className="mr-2 animate-spin"
+              style={{ animationDuration: '5s' }}
+            />
+            <span>{dictionary.subtitle}</span>
           </div>
-          <Link
-            href={`/${currentLocale}/promotions`}
-            className="mt-4 md:mt-0 bg-yellow-300 text-black font-semibold text-sm px-6 py-3 rounded-full shadow-md hover:bg-gray-200 transition-colors flex items-center"
-          >
-            <span>{dictionary.view_all}</span>
-            <ArrowRight size={16} className="ml-2" />
-          </Link>
+          <h2 className="text-4xl font-bold leading-[2.5rem] text-yellow-400">
+            {dictionary.title_line1}
+            <br />
+            {dictionary.title_line2}
+          </h2>
+          <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            {dictionary.description}
+          </p>
         </div>
 
         {/* Grid Kartu Promo */}
@@ -101,13 +92,13 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
               <div
                 key={index}
                 ref={(el) => (cardsRef.current[index] = el)}
+                // UBAH BG KARTU MENJADI PUTIH
                 className={`bg-white rounded-lg shadow-lg flex flex-col relative text-left transition-transform duration-300 ${
                   isDiamond
                     ? 'lg:scale-105 border-4 border-yellow-400'
                     : 'hover:scale-105'
                 }`}
               >
-                {/* PADDING KARTU DIKECILKAN DARI p-8 MENJADI p-6 */}
                 <div className="p-6 flex flex-col flex-grow">
                   {isDiamond && (
                     <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-4 py-1 rounded-full">
@@ -122,14 +113,12 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
                       className="object-cover"
                     />
                   </div>
-                  {/* UKURAN FONT NAMA PAKET DIKECILKAN DARI 2xl MENJADI xl */}
+                  {/* UBAH WARNA TEKS KARTU MENJADI GELAP */}
                   <h3 className="text-xl font-bold text-black">{pkg.name}</h3>
-                  {/* UKURAN FONT DESKRIPSI DIKECILKAN DARI sm MENJADI xs */}
                   <p className="text-gray-600 text-xs mt-2 h-10">
                     {pkg.description}
                   </p>
 
-                  {/* MARGIN HARGA DIKURANGI */}
                   <div className="my-2">
                     <PriceDisplay priceString={pkg.price} />
                   </div>
@@ -138,7 +127,7 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
                     className={`w-full py-2 my-2 font-bold rounded-lg transition-colors ${
                       isDiamond
                         ? 'bg-yellow-400 text-black hover:bg-yellow-500'
-                        : 'bg-gray-800 text-white hover:bg-black'
+                        : 'bg-gray-800 text-white hover:bg-gray-700'
                     }`}
                   >
                     {dictionary.button_text}
@@ -150,7 +139,6 @@ const HighlightPromo = ({ dictionary, currentLocale }) => {
                     <p className="text-xs font-semibold mb-2 text-black">
                       {dictionary.what_included}
                     </p>
-                    {/* TINGGI LIST DIKURANGI, FONT DIKECILKAN */}
                     <ul className="space-y-1.5 max-h-32 overflow-y-auto">
                       {pkg.features.map((feature, fIndex) => (
                         <li key={fIndex} className="flex items-start">

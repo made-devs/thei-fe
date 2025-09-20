@@ -120,6 +120,11 @@
       "description": "Every forklift purchase at THEI comes with a benefits package designed to enhance the value and security of your investment.",
       "images": [
         {
+          "src": "/new-machines/type11.webp",
+          "alt": "New Forklift Unit",
+          "caption": "The Best Forklift Unit"
+        },
+        {
           "src": "/home/news6.webp",
           "alt": "Forklift operator training",
           "caption": "Certified Operator Training"
