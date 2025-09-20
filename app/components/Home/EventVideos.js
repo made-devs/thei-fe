@@ -1,12 +1,11 @@
 'use client';
-import React, { useCallback } from 'react';
+import React, from 'react';
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
 import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
 
 const EventVideos = ({ dictionary }) => {
-  if (!dictionary || !dictionary.videos) return null;
-
+  // Hooks dipanggil di level atas, sebelum pengecekan apapun.
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: 'start',
     slidesToScroll: 1,
@@ -21,6 +20,11 @@ const EventVideos = ({ dictionary }) => {
     () => emblaApi && emblaApi.scrollNext(),
     [emblaApi]
   );
+
+  // Pengecekan data dilakukan setelah hooks dipanggil.
+  if (!dictionary || !dictionary.videos || dictionary.videos.length === 0) {
+    return null;
+  }
 
   return (
     <section className="bg-gray-50 py-20">
@@ -46,6 +50,7 @@ const EventVideos = ({ dictionary }) => {
                         fill
                         className="object-cover group-hover:scale-105 transition-transform duration-300"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        unoptimized
                       />
                       <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                         <PlayCircle
