@@ -10,6 +10,15 @@
         { "name": "Layanan & Dukungan", "link": "/service" }
       ]
     },
+    "service_packages": {
+      "title": "Paket Servis Premium Kami",
+      "description": "Pilih paket yang paling sesuai dengan kebutuhan operasional Anda. Semua paket kami dirancang untuk memberikan performa maksimal dan ketenangan pikiran.",
+      "serviceContent": "Isi Paket Servis",
+      "fullInspection": "Inspeksi Lengkap",
+      "additionalInspection": "Inspeksi Tambahan",
+      "bonuses": "Bonus",
+      "getQuote": "Minta Penawaran"
+    },
     "interactive_services": {
       "title": "Jelajahi Solusi Layanan Kami",
       "services": [

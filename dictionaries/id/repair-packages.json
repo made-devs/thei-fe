@@ -1,73 +1,60 @@
 {
   "repair_packages_page": {
     "hero": {
-      "subtitle": "Penawaran Perbaikan Spesial",
-      "title": "Paket Repair & Servis Premium",
+      "subtitle": "Special Repair Offers",
+      "title": "Repair & Premium Service Packages",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
-        { "name": "Promosi", "link": "/promotions" },
-        { "name": "Paket Repair", "link": "/promotions/repair-packages" }
+        { "name": "Promotions", "link": "/promotions" },
+        { "name": "Repair Packages", "link": "/promotions/repair-packages" }
       ]
     },
     "packages": {
-      "title": "Pilih Paket yang Sesuai Kebutuhan Anda",
+      "title": "Choose the Package That Fits Your Needs",
       "items": [
         {
-          "name": "Paket Repair",
-          "details": "Mencakup berbagai unit dari Forklift Super Hemat hingga Bulldozer Super Komplit.",
-          "bonus": "Gratis Servis Mobil senilai Rp20 jt di TJM Auto Care.",
-          "image": "/banner-slider4.webp"
+          "name": "Premium Service Package",
+          "details": "The most comprehensive service for units from Forklifts to Motor Graders with tier options: Complete, Super, or Ultimate.",
+          "bonus": "Free Car Service Package worth Rp50 million at TJM Auto Care.",
+          "image": "/banner-slider3.webp"
         },
         {
-          "name": "Paket Eceran Repair",
-          "details": "Servis fleksibel per unit untuk Forklift, Excavator, Boom Lift, Wheel Loader, dan lainnya.",
-          "bonus": "Gratis inspeksi 25 hingga 40 titik vital pada unit Anda.",
+          "name": "Retail Repair Package",
+          "details": "Flexible per-unit service for Forklifts, Excavators, Boom Lifts, Wheel Loaders, etc.",
+          "bonus": "Free 25 to 40-point vital inspection for your unit.",
           "image": "/service.webp"
         },
         {
-          "name": "Paket Premium Service",
-          "details": "Layanan paling komprehensif untuk unit Forklift hingga Motor Grader dengan pilihan tier: Komplit, Super, atau Ultimate.",
-          "bonus": "Gratis Paket Servis Mobil senilai Rp50 jt di TJM Auto Care.",
-          "image": "/banner-slider3.webp"
+          "name": "Repair Package",
+          "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
+          "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
+          "image": "/banner-slider4.webp"
         }
       ]
     },
-    "premium_table": {
-      "title": "Perbandingan Paket Premium Service",
-      "tiers": [
-        {
-          "name": "Komplit",
-          "features": [
-            "Overhaul Dasar",
-            "Pemeriksaan Cairan",
-            "Garansi 3 Bulan"
-          ]
-        },
-        {
-          "name": "Super",
-          "features": [
-            "Semua di Paket Komplit",
-            "Kalibrasi ECM",
-            "Penggantian Filter",
-            "Garansi 6 Bulan"
-          ]
-        },
-        {
-          "name": "Ultimate",
-          "features": [
-            "Semua di Paket Super",
-            "Engine Dyno Test",
-            "Analisis S.O.S",
-            "Garansi 12 Bulan"
-          ]
-        }
-      ]
+    "repair_slider": {
+      "title": "Paket Rekondisi Sesuai Kebutuhan Anda",
+      "description": "Jelajahi berbagai paket rekondisi kami yang dirancang untuk mengembalikan alat berat Anda ke performa puncaknya dengan harga yang hemat.",
+      "serviceDetails": "Detail Servis",
+      "inspectionDetails": "Detail Inspeksi",
+      "bonuses": "Bonus",
+      "specialBonus": "Bonus Spesial",
+      "getQuote": "Minta Penawaran"
+    },
+    "premium_service": {
+      "title": "Perbandingan Paket Servis Premium",
+      "description": "Pilih dari tiga level layanan—Komplit, Super, dan Ultimate—yang dirancang untuk memberikan performa dan nilai terbaik untuk unit Anda.",
+      "serviceContent": "Isi Paket Servis",
+      "fullInspection": "Inspeksi Lengkap",
+      "additionalInspection": "Inspeksi Tambahan",
+      "bonuses": "Bonus",
+      "getQuote": "Minta Penawaran"
     },
     "testimonial": {
-      "title": "Apa Kata Pelanggan Kami",
-      "quote": "Paket Premium Service benar-benar memberikan ketenangan. Unit kami kembali seperti baru dan bonus servis mobilnya sangat bermanfaat!",
+      "title": "What Our Customers Say",
+      "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",
       "name": "Andi Wijaya",
-      "company": "Manajer Lapangan, PT. Konstruksi Prima",
+      "company": "Field Manager, PT. Konstruksi Prima",
       "video_thumb": "/testi/thumbnail1.webp",
       "video_id": "dQw4w9WgXcQ"
     }

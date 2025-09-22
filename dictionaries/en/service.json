@@ -10,6 +10,15 @@
         { "name": "Service & Support", "link": "/service" }
       ]
     },
+    "service_packages": {
+      "title": "Our Premium Service Packages",
+      "description": "Choose the package that best suits your operational needs. All our packages are designed to deliver maximum performance and peace of mind.",
+      "serviceContent": "Service Package Content",
+      "fullInspection": "Full Inspection",
+      "additionalInspection": "Additional Inspection",
+      "bonuses": "Bonuses",
+      "getQuote": "Get Quote"
+    },
     "interactive_services": {
       "title": "Explore Our Service Solutions",
       "services": [

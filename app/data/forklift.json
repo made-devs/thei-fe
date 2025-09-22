@@ -1,0 +1,778 @@
+{
+  "forklifts": [
+    {
+      "model": "FB15Z",
+      "type": "Electric forklift",
+      "performance": {
+        "rated_capacity": "1500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "135 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "1850 mm",
+        "front_overhang": "400 mm",
+        "tread": "426 mm",
+        "wheelbase": "1250 mm",
+        "fork_spread": "920 mm",
+        "working_aisle_width_with_pallet": "3570 mm",
+        "service_weight": null,
+        "operating_pressure_for_attachment": "111.9 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "12 km/h",
+        "travel_unladen": "13 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.43 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "8 kW",
+        "pump_motor": "10 kW",
+        "battery": "48 V/450 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "5.00-8-10PR",
+        "front_wheel": "6.50-10-10PR",
+        "overall_dimension": "2905 mm x 1990 mm x 1090 mm",
+        "weight": "2990 kg"
+      }
+    },
+    {
+      "model": "FB20Z",
+      "type": "Electric forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "145 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "475 mm",
+        "tread": "454 mm",
+        "wheelbase": "1450 mm",
+        "fork_spread": "920 mm",
+        "working_aisle_width_with_pallet": "3885 mm",
+        "service_weight": null,
+        "operating_pressure_for_attachment": "117.3 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "11 kW",
+        "pump_motor": "14 kW",
+        "battery": "48 V/630 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8-14PR",
+        "front_wheel": "7.00-12-12PR",
+        "overall_dimension": "3279 mm x 1995 mm x 1150 mm",
+        "weight": "3950 kg"
+      }
+    },
+    {
+      "model": "FB25Z",
+      "type": "Electric forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "145 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "475 mm",
+        "tread": "454 mm",
+        "wheelbase": "1450 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": "4035 mm",
+        "service_weight": null,
+        "operating_pressure_for_attachment": "142.8 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "11 kW",
+        "pump_motor": "14 kW",
+        "battery": "48 V/630 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8-14PR",
+        "front_wheel": "7.00-12-12PR",
+        "overall_dimension": "3429 mm x 1992 mm x 1150 mm",
+        "weight": "3950 kg"
+      }
+    },
+    {
+      "model": "FB30Z",
+      "type": "Electric forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "145 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2245 mm",
+        "front_overhang": "480 mm",
+        "tread": "470 mm",
+        "wheelbase": "1600 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": "4198 mm",
+        "service_weight": null,
+        "operating_pressure_for_attachment": "135.9 kg/cm³"
+      },
+      "speed": {
+        "travel_laden": "13.5 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.3 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "12 kW",
+        "pump_motor": "14 kW",
+        "battery": "80 V/520 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "28 x 9-15-14PR",
+        "overall_dimension": "3581 mm x 2065 mm x 1238 mm",
+        "weight": "4810 kg"
+      }
+    },
+    {
+      "model": "FB35Z",
+      "type": "Electric forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "145 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2385 mm",
+        "front_overhang": "495 mm",
+        "tread": "470 mm",
+        "wheelbase": "1720 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": "4340 mm",
+        "service_weight": null,
+        "operating_pressure_for_attachment": "136.1 kg/cm³"
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "12 kW",
+        "pump_motor": "14 kW",
+        "battery": "80 V/585 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "28 x 9-15-14PR",
+        "overall_dimension": "3700 mm x 2095 mm x 1238 mm",
+        "weight": "5300 kg"
+      }
+    },
+    {
+      "model": "FD50Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "5000Kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "203 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "3415 mm",
+        "front_overhang": "610 mm",
+        "tread": "335 mm",
+        "wheelbase": "2340 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "26 km/h",
+        "travel_unladen": "30 km/h",
+        "lifting_laden": "460 mm/s",
+        "lifting_unladen": "485 mm/s",
+        "lowering_laden": "450 mm/s",
+        "lowering_unladen": "400 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": "0.2"
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "(12/90)x2",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "8.25-15-14PR",
+        "front_wheel": "8.25-15-14PR",
+        "overall_dimension": "3516 mm x 2000 mm x 2500 mm",
+        "weight": "7980 kg"
+      }
+    },
+    {
+      "model": "FD60Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "6000Kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "208 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "3507 mm",
+        "front_overhang": "615 mm",
+        "tread": "335 mm",
+        "wheelbase": "2340 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "26 km/h",
+        "travel_unladen": "30 km/h",
+        "lifting_laden": "460 mm/s",
+        "lifting_unladen": "485 mm/s",
+        "lowering_laden": "400 mm/s",
+        "lowering_unladen": "350 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": "0.2"
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": null,
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "8.25-15-14PR",
+        "front_wheel": "8.25-15-14PR",
+        "overall_dimension": "3547 mm x 2000 mm x 2500 mm",
+        "weight": "8640 kg"
+      }
+    },
+    {
+      "model": "FD70Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "7000Kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "218 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "3507 mm",
+        "front_overhang": "625 mm",
+        "tread": "335 mm",
+        "wheelbase": "2340 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "26 km/h",
+        "travel_unladen": "30 km/h",
+        "lifting_laden": "460 mm/s",
+        "lifting_unladen": "485 mm/s",
+        "lowering_laden": "450 mm/s",
+        "lowering_unladen": "400 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": "0.2"
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": null,
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "8.25-15-14PR",
+        "front_wheel": "8.25-15-14PR",
+        "overall_dimension": "3557 mm x 2000 mm x 2500 mm",
+        "weight": "9340 kg"
+      }
+    },
+    {
+      "model": "FD100Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "10000Kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "220 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "4080 mm",
+        "front_overhang": "718 mm",
+        "tread": "400 mm",
+        "wheelbase": "2800 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "25 km/h",
+        "lifting_laden": "345 mm/s",
+        "lifting_unladen": "425 mm/s",
+        "lowering_laden": "400 mm/s",
+        "lowering_unladen": "350 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": "0.2"
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "(12/90)x2",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "9.00-20-14PR",
+        "front_wheel": "9.00-20-14PR",
+        "overall_dimension": "4260 mm x 2230 mm x 2850 mm",
+        "weight": "12750 kg"
+      }
+    },
+    {
+      "model": "FD15Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "1500Kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "115 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2060 mm",
+        "front_overhang": "400 mm",
+        "tread": "390 mm",
+        "wheelbase": "1400 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "14.5 km/h",
+        "travel_unladen": "15.5 km/h",
+        "lifting_laden": "390 mm/s",
+        "lifting_unladen": "420 mm/s",
+        "lowering_laden": "< 600 mm/s",
+        "lowering_unladen": "≥ 300 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "6.50-10-10PR",
+        "front_wheel": "5.00-8-10PR",
+        "overall_dimension": "2250 mm x 2040 mm x 1086 mm",
+        "weight": "2680 kg"
+      }
+    },
+    {
+      "model": "FD18Z",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "1800Kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "115 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2060 mm",
+        "front_overhang": "400 mm",
+        "tread": "390 mm",
+        "wheelbase": "1400 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "14.5 km/h",
+        "travel_unladen": "15.5 km/h",
+        "lifting_laden": "390 mm/s",
+        "lifting_unladen": "420 mm/s",
+        "lowering_laden": "< 600 mm/s",
+        "lowering_unladen": "≥ 300 mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "6.50-10-10PR",
+        "front_wheel": "5.00-8-10PR",
+        "overall_dimension": "2250 mm x 2040 mm x 1086 mm",
+        "weight": "2900 kg"
+      }
+    },
+    {
+      "model": "FD20H",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "2000Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "135mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2240mm",
+        "front_overhang": "473mm",
+        "tread": "430mm",
+        "wheelbase": "1600mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "18Km/h",
+        "travel_unladen": "19Km/h",
+        "lifting_laden": "400mm/s",
+        "lifting_unladen": "430mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "7.00-12-12PR",
+        "front_wheel": "6.00-9-10PR",
+        "overall_dimension": "2570x2090x1160",
+        "weight": "3350"
+      }
+    },
+    {
+      "model": "FD25H",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "2500Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "135mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2240mm",
+        "front_overhang": "473mm",
+        "tread": "430mm",
+        "wheelbase": "1600mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "18Km/h",
+        "travel_unladen": "19Km/h",
+        "lifting_laden": "400mm/s",
+        "lifting_unladen": "430mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "7.00-12-12PR",
+        "front_wheel": "6.00-9-10PR",
+        "overall_dimension": "2570x2090x1160",
+        "weight": "3800"
+      }
+    },
+    {
+      "model": "FD30H",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "3000Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "145mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2410mm",
+        "front_overhang": "483mm",
+        "tread": "460mm",
+        "wheelbase": "1700mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "19Km/h",
+        "travel_unladen": "20Km/h",
+        "lifting_laden": "410mm/s",
+        "lifting_unladen": "440mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "28x9-15-12PR",
+        "front_wheel": "6.50-10-10PR",
+        "overall_dimension": "2705x2090x1230",
+        "weight": "4350"
+      }
+    },
+    {
+      "model": "FD35H",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "3500Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "145mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2445mm",
+        "front_overhang": "488mm",
+        "tread": "460mm",
+        "wheelbase": "1700mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "19Km/h",
+        "travel_unladen": "20Km/h",
+        "lifting_laden": "410mm/s",
+        "lifting_unladen": "440mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "28x9-15-12PR",
+        "front_wheel": "6.50-10-10PR",
+        "overall_dimension": "2745x2090x1230",
+        "weight": "4800"
+      }
+    },
+    {
+      "model": "FD40mini",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "4000Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "85mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2700mm",
+        "front_overhang": "500mm",
+        "tread": "490mm",
+        "wheelbase": "1900mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "17.5MPa"
+      },
+      "speed": {
+        "travel_laden": "19Km/h",
+        "travel_unladen": "20Km/h",
+        "lifting_laden": "410mm/s",
+        "lifting_unladen": "440mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/12V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "250-15-16PR",
+        "front_wheel": "6.50-10-10PR",
+        "overall_dimension": "2930x2090x1410",
+        "weight": "5300"
+      }
+    },
+    {
+      "model": "FD45mini",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "4500Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "140mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2760mm",
+        "front_overhang": "570mm",
+        "tread": "530mm",
+        "wheelbase": "2000mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "18Km/h",
+        "travel_unladen": "19Km/h",
+        "lifting_laden": "410mm/s",
+        "lifting_unladen": "430mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/24V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "300-15-18PR",
+        "front_wheel": "7.00-12-12PR",
+        "overall_dimension": "3060x2350x1490",
+        "weight": "6380"
+      }
+    },
+    {
+      "model": "FD50mini",
+      "type": "Internal combustion forklift",
+      "performance": {
+        "rated_capacity": "5000Kg",
+        "load_centre": "500mm",
+        "lifting_height": "3000mm",
+        "free_lifting_height": "140mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2760mm",
+        "front_overhang": "570mm",
+        "tread": "530mm",
+        "wheelbase": "2000mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": null,
+        "service_weight": null,
+        "operating_pressure_for_attachment": "20MPa"
+      },
+      "speed": {
+        "travel_laden": "18Km/h",
+        "travel_unladen": "19Km/h",
+        "lifting_laden": "410mm/s",
+        "lifting_unladen": "430mm/s",
+        "lowering_laden": "< 600mm/s",
+        "lowering_unladen": "≥ 300mm/s"
+      },
+      "gradeability": {
+        "laden": "0.2",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": null,
+        "pump_motor": null,
+        "battery": "90Ah/24V",
+        "controller": null
+      },
+      "size": {
+        "rear_wheel": "300-15-18PR",
+        "front_wheel": "7.00-12-12PR",
+        "overall_dimension": "3100x2350x1490",
+        "weight": "6600"
+      }
+    }
+  ]
+}

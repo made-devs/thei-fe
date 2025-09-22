@@ -1,0 +1,805 @@
+{
+  "repair_packages": [
+    {
+      "equipment_type": "Forklift",
+      "package_name": "SUPER SAVER FORKLIFT REFURBISHMENT PACKAGE",
+      "level": "Super Saver",
+      "pricing": {
+        "normal_price": "IDR 13,500,000",
+        "promo_price": "IDR 6,750,000",
+        "savings": "IDR 6,750,000"
+      },
+      "service_details": [
+        "Hydraulic lift & tilt cylinder service",
+        "Mast & fork service (lubrication & adjustment)",
+        "Minor engine service (replace oil & fuel filters)",
+        "Greasing all mast joints"
+      ],
+      "inspection_details": [
+        "Transmission & torque converter inspection",
+        "Differential inspection",
+        "Brake system inspection",
+        "Tire / solid tire inspection",
+        "Radiator & cooling system inspection",
+        "Battery & main electrical system inspection",
+        "Safety switch & horn inspection",
+        "Exhaust system inspection",
+        "Seat & seat belt inspection",
+        "Light load test"
+      ],
+      "bonuses": [
+        "Free 10 liters of engine oil",
+        "Free 2 kg of grease",
+        "Free 1 unit of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free digital inspection report",
+        "Free load test certificate",
+        "Free cabin AC check",
+        "Free 1 unit of LED work light",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 25 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Mini Excavator",
+      "package_name": "COMPLETE MINI EXCAVATOR REFURBISHMENT PACKAGE",
+      "level": "Complete",
+      "pricing": {
+        "normal_price": "IDR 52,500,000",
+        "promo_price": "IDR 26,250,000",
+        "savings": "IDR 26,250,000"
+      },
+      "service_details": [
+        "Minor engine overhaul (head, injector, turbo)",
+        "Swing motor service",
+        "Travel motor service",
+        "Boom & arm cylinder service",
+        "Hydraulic oil drain",
+        "Fuel system purging",
+        "Joystick control reconditioning",
+        "Rubberized undercoat for chassis"
+      ],
+      "inspection_details": [
+        "Full engine inspection (oil leak, noise, vibration)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler)",
+        "Undercarriage inspection (track, roller, sprocket, idler)",
+        "Swing bearing inspection",
+        "Cabin inspection (AC, indicator panel, alarm)",
+        "Seat & safety belt inspection",
+        "Hydraulic sensor & electrical inspection",
+        "Exhaust system inspection",
+        "70% load test"
+      ],
+      "bonuses": [
+        "Free 15 liters of engine oil",
+        "Free 15 liters of hydraulic oil",
+        "Free 3 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 25 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Excavator",
+      "package_name": "SUPER COMPLETE EXCAVATOR REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 75,000,000",
+        "promo_price": "IDR 37,500,000",
+        "savings": "IDR 37,500,000"
+      },
+      "service_details": [
+        "Full engine overhaul",
+        "Main hydraulic pump overhaul",
+        "Travel motor & final drive reconditioning",
+        "Full undercarriage reconditioning (roller, sprocket, track shoe, idler)",
+        "Electrical system reconditioning (ECU, harness, sensor)",
+        "Full cabin AC reconditioning",
+        "Non-destructive crack test for boom & arm",
+        "Full (100%) load test"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, leaks)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Fuel system inspection (pump, filter, hose)",
+        "Injector & nozzle inspection",
+        "Hydraulic cylinder inspection",
+        "Hydraulic pump inspection (flow & pressure)",
+        "Swing bearing inspection",
+        "Travel brake inspection",
+        "Detailed undercarriage inspection",
+        "Electrical inspection (work lights, wiring)",
+        "Cabin inspection (panel, indicator, alarm)",
+        "Safety switch inspection",
+        "Exhaust system inspection",
+        "Telematics system inspection (GPS/monitoring)",
+        "Oil sample analysis",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 20 liters of engine oil",
+        "Free 20 liters of hydraulic oil",
+        "Free 5 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 25 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Boom Lift",
+      "package_name": "COMPLETE BOOM LIFT REFURBISHMENT PACKAGE",
+      "level": "Complete",
+      "pricing": {
+        "normal_price": "IDR 60,000,000",
+        "promo_price": "IDR 30,000,000",
+        "savings": "IDR 30,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Telescopic cylinder reconditioning",
+        "Hydraulic oil drain",
+        "Control system service (joystick & panel)",
+        "Brake system reconditioning",
+        "Rubberized undercoat for chassis"
+      ],
+      "inspection_details": [
+        "Engine inspection (oil, noise, leaks)",
+        "Hydraulic pump inspection",
+        "Lift cylinder inspection",
+        "Safety sensor inspection",
+        "Electrical system inspection",
+        "Boom structure inspection",
+        "Battery inspection",
+        "Brake system inspection",
+        "Platform & railing inspection",
+        "70% load test"
+      ],
+      "bonuses": [
+        "Free 15 liters of engine oil",
+        "Free 15 liters of hydraulic oil",
+        "Free 2 kg of grease",
+        "Free fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Wheel Loader",
+      "package_name": "COMPLETE WHEEL LOADER REFURBISHMENT PACKAGE",
+      "level": "Complete",
+      "pricing": {
+        "normal_price": "IDR 67,500,000",
+        "promo_price": "IDR 33,750,000",
+        "savings": "IDR 33,750,000"
+      },
+      "service_details": [
+        "Hydraulic pump service",
+        "Bucket cylinder service",
+        "Minor transmission service",
+        "Differential service",
+        "Brake system service",
+        "Greasing bucket linkage",
+        "Hydraulic oil drain",
+        "Fuel system purging"
+      ],
+      "inspection_details": [
+        "Engine inspection (oil, filter, compression)",
+        "Radiator & cooling system inspection",
+        "Fuel system inspection (filter, hose, injector)",
+        "Hydraulic valve inspection",
+        "Transmission oil inspection",
+        "Final drive inspection",
+        "Front & rear axle inspection",
+        "Cabin inspection (panel, indicator)",
+        "Safety switch inspection",
+        "70% load test"
+      ],
+      "bonuses": [
+        "Free 20 liters of engine oil",
+        "Free 20 liters of hydraulic oil",
+        "Free 5 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Vibro Roller",
+      "package_name": "SUPER COMPLETE VIBRO ROLLER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 45,000,000",
+        "promo_price": "IDR 22,500,000",
+        "savings": "IDR 22,500,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Drum vibrator service",
+        "Hydraulic pump service",
+        "Travel motor service",
+        "Brake system service",
+        "Hydraulic oil drain",
+        "Control panel reconditioning",
+        "Steering system reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (noise, leaks, oil)",
+        "Radiator & cooling system inspection",
+        "Hydraulic system inspection (pump, hose, valve)",
+        "Drum roller inspection (thickness, crack)",
+        "Vibration & bearing inspection",
+        "Front/rear tire inspection",
+        "Brake system inspection (master cylinder, wheel cylinder)",
+        "Safety switch & sensor inspection",
+        "80% load test"
+      ],
+      "bonuses": [
+        "Free 15 liters of engine oil",
+        "Free 15 liters of hydraulic oil",
+        "Free 3 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Motor Grader",
+      "package_name": "COMPLETE MOTOR GRADER REFURBISHMENT PACKAGE",
+      "level": "Complete",
+      "pricing": {
+        "normal_price": "IDR 82,500,000",
+        "promo_price": "IDR 41,250,000",
+        "savings": "IDR 41,250,000"
+      },
+      "service_details": [
+        "Hydraulic pump service",
+        "Blade cylinder service",
+        "Minor transmission service",
+        "Differential service",
+        "Brake system service",
+        "Hydraulic oil drain",
+        "Fuel purging",
+        "Circle drive reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, leaks)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection",
+        "Steering system inspection",
+        "Blade & moldboard inspection",
+        "Circle drive & gear inspection",
+        "Transmission oil inspection",
+        "Final drive inspection",
+        "Cabin system inspection (panel, alarm)",
+        "30-point safety check"
+      ],
+      "bonuses": [
+        "Free 20 liters of engine oil",
+        "Free 20 liters of hydraulic oil",
+        "Free 5 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Bulldozer",
+      "package_name": "SUPER COMPLETE BULLDOZER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 90,000,000",
+        "promo_price": "IDR 45,000,000",
+        "savings": "IDR 45,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Blade cylinder service",
+        "Undercarriage reconditioning (track roller, sprocket, idler)",
+        "Final drive reconditioning",
+        "Transmission reconditioning",
+        "Brake system reconditioning",
+        "Steering clutch reconditioning",
+        "Hydraulic oil drain",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, noise, leaks)",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, hose, seal)",
+        "Detailed undercarriage inspection",
+        "Sprocket & track shoe inspection",
+        "Idler & roller inspection",
+        "Brake system inspection (master, disc)",
+        "Steering clutch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 20 liters of engine oil",
+        "Free 20 liters of hydraulic oil",
+        "Free 5 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Tandem Roller",
+      "package_name": "SUPER COMPLETE TANDEM ROLLER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 60,000,000",
+        "promo_price": "IDR 30,000,000",
+        "savings": "IDR 30,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Drum vibrator service",
+        "Hydraulic pump service",
+        "Travel motor service",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Hydraulic oil drain",
+        "Control panel reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (oil, leaks, noise)",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, hose, valve, seal)",
+        "Front & rear drum inspection (wear, crack)",
+        "Vibrator shaft & bearing inspection",
+        "Front & rear tire inspection",
+        "Steering joint inspection",
+        "Brake system inspection (master & wheel cylinder)",
+        "Electrical inspection (lights & battery)",
+        "30-point safety check"
+      ],
+      "bonuses": [
+        "Free 15 liters of engine oil",
+        "Free 15 liters of hydraulic oil",
+        "Free 3 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 25 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Port Equipment",
+      "package_name": "SUPER COMPLETE PORT EQUIPMENT REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 225,000,000",
+        "promo_price": "IDR 112,500,000",
+        "savings": "IDR 112,500,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Lifting cylinder service",
+        "Spreader reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, cylinder)",
+        "Boom & frame structure inspection",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "Undercarriage / wheel inspection",
+        "Electrical inspection (harness & battery)",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 30 liters of engine oil",
+        "Free 50 liters of hydraulic oil",
+        "Free 10 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Wide Dump Truck",
+      "package_name": "COMPLETE WIDE DUMP TRUCK REFURBISHMENT PACKAGE",
+      "level": "Complete",
+      "pricing": {
+        "normal_price": "IDR 75,000,000",
+        "promo_price": "IDR 37,500,000",
+        "savings": "IDR 37,500,000"
+      },
+      "service_details": [
+        "Minor engine service",
+        "Minor transmission service",
+        "Differential service",
+        "Brake system service",
+        "Hydraulic dump system reconditioning",
+        "Hydraulic & transmission oil drain",
+        "Fuel system purging",
+        "Steering system reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (oil leak, compression, noise)",
+        "Cooling system inspection (radiator, fan, oil cooler)",
+        "Front & rear axle inspection",
+        "Tire system inspection (pressure, wear, crack)",
+        "Brake system inspection (disc, master, line)",
+        "Hydraulic dump cylinder inspection",
+        "Cabin inspection (panel, alarm, indicator)",
+        "Safety switch & sensor inspection",
+        "Exhaust system inspection",
+        "30-point safety check"
+      ],
+      "bonuses": [
+        "Free 20 liters of engine oil",
+        "Free 20 liters of hydraulic oil",
+        "Free 5 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 1 day of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Mobile Crane",
+      "package_name": "SUPER COMPLETE MOBILE CRANE REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 150,000,000",
+        "promo_price": "IDR 75,000,000",
+        "savings": "IDR 75,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Boom cylinder service",
+        "Swing motor reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Boom & jib inspection (visual crack test)",
+        "Hydraulic system inspection (pump, valve, hose, seal)",
+        "Swing bearing inspection",
+        "Brake system inspection (disc & master)",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 30 liters of engine oil",
+        "Free 40 liters of hydraulic oil",
+        "Free 8 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 25 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Crawler Crane",
+      "package_name": "SUPER COMPLETE CRAWLER CRANE REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 180,000,000",
+        "promo_price": "IDR 90,000,000",
+        "savings": "IDR 90,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Crawler undercarriage reconditioning (track, roller, sprocket, idler)",
+        "Swing motor reconditioning",
+        "Travel motor reconditioning",
+        "Brake system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, leaks)",
+        "Cooling system inspection (radiator, fan, oil cooler)",
+        "Boom & jib inspection (visual crack test)",
+        "Hydraulic system inspection (pump, valve, hose, seal)",
+        "Swing bearing inspection",
+        "Travel motor & final drive inspection",
+        "Crawler track inspection (wear, alignment)",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 40 liters of engine oil",
+        "Free 60 liters of hydraulic oil",
+        "Free 10 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Rough Terrain Crane",
+      "package_name": "SUPER COMPLETE ROUGH TERRAIN CRANE REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 135,000,000",
+        "promo_price": "IDR 67,500,000",
+        "savings": "IDR 67,500,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Boom cylinder service",
+        "Swing motor reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, hose, seal)",
+        "Boom & jib inspection (visual crack test)",
+        "Swing bearing inspection",
+        "Brake system inspection (disc & master)",
+        "Axle & wheel inspection",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 30 liters of engine oil",
+        "Free 40 liters of hydraulic oil",
+        "Free 8 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Reach Stacker",
+      "package_name": "SUPER COMPLETE REACH STACKER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 225,000,000",
+        "promo_price": "IDR 112,500,000",
+        "savings": "IDR 112,500,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Telescopic boom reconditioning",
+        "Spreader reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, cylinder)",
+        "Telescopic boom inspection (crack test)",
+        "Spreader lock & twist inspection",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "Undercarriage / wheel inspection",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 40 liters of engine oil",
+        "Free 60 liters of hydraulic oil",
+        "Free 10 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Side Loader",
+      "package_name": "SUPER COMPLETE SIDE LOADER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 210,000,000",
+        "promo_price": "IDR 105,000,000",
+        "savings": "IDR 105,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Lifting arm reconditioning",
+        "Hydraulic cylinder reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, hose, seal)",
+        "Lifting arm inspection (wear, crack)",
+        "Chassis frame inspection (visual crack test)",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "Wheel & axle inspection",
+        "Exhaust system inspection",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 40 liters of engine oil",
+        "Free 60 liters of hydraulic oil",
+        "Free 10 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    },
+    {
+      "equipment_type": "Empty Container Handler",
+      "package_name": "SUPER COMPLETE EMPTY CONTAINER HANDLER REFURBISHMENT PACKAGE",
+      "level": "Super Complete",
+      "pricing": {
+        "normal_price": "IDR 240,000,000",
+        "promo_price": "IDR 120,000,000",
+        "savings": "IDR 120,000,000"
+      },
+      "service_details": [
+        "Minor engine overhaul",
+        "Hydraulic pump service",
+        "Mast & spreader reconditioning",
+        "Brake system reconditioning",
+        "Steering system reconditioning",
+        "Control panel reconditioning",
+        "Cabin AC reconditioning",
+        "Electrical system reconditioning"
+      ],
+      "inspection_details": [
+        "Engine inspection (compression, oil, noise)",
+        "Turbo & intercooler inspection",
+        "Cooling system inspection (radiator, oil cooler, fan)",
+        "Hydraulic system inspection (pump, valve, cylinder)",
+        "Mast inspection (crack, alignment)",
+        "Spreader lock & twist inspection",
+        "Safety sensor & limit switch inspection",
+        "Cabin inspection (panel, indicator, alarm)",
+        "Wheel & axle inspection",
+        "40-point safety audit"
+      ],
+      "bonuses": [
+        "Free 50 liters of engine oil",
+        "Free 80 liters of hydraulic oil",
+        "Free 12 kg of grease",
+        "Free 2 units of fuel filter",
+        "Free cabin filter",
+        "Free brief operator training",
+        "Free 2 days of on-site technician",
+        "Free digital report",
+        "Free load test certificate",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Company Car Service Package at 22 TJM AutoCare workshops worth IDR 20 million",
+      "warranty": "1 Month",
+      "recommendation": "Every 2 months / 250 hours"
+    }
+  ]
+}

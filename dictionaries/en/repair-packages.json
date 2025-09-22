@@ -32,32 +32,23 @@
         }
       ]
     },
-    "premium_table": {
+    "repair_slider": {
+      "title": "Refurbishment Packages Tailored to Your Needs",
+      "description": "Explore our range of refurbishment packages designed to restore your heavy equipment to its peak performance at a great value.",
+      "serviceDetails": "Service Details",
+      "inspectionDetails": "Inspection Details",
+      "bonuses": "Bonuses",
+      "specialBonus": "Special Bonus",
+      "getQuote": "Get Quote"
+    },
+    "premium_service": {
       "title": "Premium Service Package Comparison",
-      "tiers": [
-        {
-          "name": "Complete",
-          "features": ["Basic Overhaul", "Fluid Checks", "3-Month Warranty"]
-        },
-        {
-          "name": "Super",
-          "features": [
-            "Everything in Complete",
-            "ECM Calibration",
-            "Filter Replacements",
-            "6-Month Warranty"
-          ]
-        },
-        {
-          "name": "Ultimate",
-          "features": [
-            "Everything in Super",
-            "Engine Dyno Test",
-            "S.O.S Analysis",
-            "12-Month Warranty"
-          ]
-        }
-      ]
+      "description": "Choose from three service levels—Complete, Super, and Ultimate—designed to provide the best performance and value for your unit.",
+      "serviceContent": "Service Content",
+      "fullInspection": "Full Inspection",
+      "additionalInspection": "Additional Inspection",
+      "bonuses": "Bonuses",
+      "getQuote": "Get Quote"
     },
     "testimonial": {
       "title": "What Our Customers Say",

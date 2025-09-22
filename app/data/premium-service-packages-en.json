@@ -1,0 +1,1672 @@
+{
+  "total_packages": 48,
+  "equipment_types": [
+    {
+      "name": "Forklift",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE FORKLIFT COMPLETE",
+          "tiers": [
+            {
+              "capacity": "1-3.5 tons",
+              "normal_price": "IDR 42,000,000",
+              "promo_price": "IDR 14,000,000",
+              "savings": "Save IDR 28,000,000!"
+            },
+            {
+              "capacity": "4-5 tons",
+              "normal_price": "IDR 46,200,000",
+              "promo_price": "IDR 15,400,000",
+              "savings": "Save IDR 30,800,000!"
+            },
+            {
+              "capacity": "7 tons",
+              "normal_price": "IDR 50,820,000",
+              "promo_price": "IDR 16,940,000",
+              "savings": "Save IDR 33,880,000!"
+            }
+          ],
+          "service_content": [
+            "10 liters engine oil + oil filter",
+            "5 liters transmission oil",
+            "15 liters hydraulic oil + hydraulic filter",
+            "2 kg grease"
+          ],
+          "full_inspection": [
+            "Engine compression test",
+            "Injector check",
+            "Fuel pump check",
+            "Cooling system check",
+            "Transmission check",
+            "Mast & fork check",
+            "Hydraulic system check",
+            "Battery & lights check",
+            "Tire thickness check",
+            "Valve check",
+            "Brake function test",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 5 liters of additional oil",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": "Company Car (Passenger Car) Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE FORKLIFT SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "8 tons",
+              "normal_price": "IDR 55,902,000",
+              "promo_price": "IDR 18,634,000",
+              "savings": "Save IDR 37,268,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "Transmission Oil / ... liters",
+            "Radiator flushing",
+            "Oil analysis"
+          ],
+          "additional_inspection": [
+            "Hydraulic cylinder check",
+            "Mast chain check",
+            "Parking brake check"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE FORKLIFT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "10 tons",
+              "normal_price": "IDR 61,492,200",
+              "promo_price": "IDR 20,497,400",
+              "savings": "Save IDR 40,994,800!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Sensor calibration",
+            "Minor engine & transmission overhaul (performed above 10,000 HM)",
+            "Hydraulic pressure test"
+          ],
+          "additional_inspection": [
+            "Mast crack test",
+            "Engine vibration test",
+            "Engine mounting check",
+            "Full safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free technician for 2 working days standby at customer's location"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Mini Excavator",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR COMPLETE",
+          "tiers": [
+            {
+              "capacity": "5-7.5 tons",
+              "normal_price": "IDR 51,000,000",
+              "promo_price": "IDR 17,000,000",
+              "savings": "Save IDR 34,000,000!"
+            }
+          ],
+          "service_content": [
+            "20 liters engine oil + oil filter",
+            "30 liters hydraulic oil + hydraulic filter",
+            "10 liters transmission oil",
+            "3 kg grease",
+            "Filter Flushing"
+          ],
+          "full_inspection": [
+            "Engine compression test",
+            "Injector check",
+            "Hydraulic pump check",
+            "Undercarriage check",
+            "Bucket pin & bushing check",
+            "Cooling system check",
+            "Battery & lights check",
+            "Joystick & pedal check",
+            "Electrical system check",
+            "Swing check",
+            "Boom crack check"
+          ],
+          "bonuses": ["Free 2 kg grease", "Free operator briefing"],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 3 months / 300 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "7 tons",
+              "normal_price": "IDR 56,100,000",
+              "promo_price": "IDR 18,700,000",
+              "savings": "Save IDR 37,400,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "6 liters Final Drive oil",
+            "Radiator flushing",
+            "Oil analysis"
+          ],
+          "additional_inspection": [
+            "Boom & arm check",
+            "Swing motor check",
+            "Cabin check (AC, indicators)",
+            "Brake & parking test"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 10 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "2 Months",
+          "recommendation": "Every 3 months / 300 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "8 tons",
+              "normal_price": "IDR 61,710,000",
+              "promo_price": "IDR 20,570,000",
+              "savings": "Save IDR 41,140,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Boom-arm crack test",
+            "Electronic sensor calibration",
+            "2-day onsite technician",
+            "Minor engine overhaul"
+          ],
+          "additional_inspection": [
+            "Detailed hydraulic leak test",
+            "Hydraulic flow test",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "3 Months",
+          "recommendation": "Every 3 months / 300 hours"
+        }
+      ]
+    },
+    {
+      "name": "Excavator",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR COMPLETE",
+          "tiers": [
+            {
+              "capacity": "10-15 tons",
+              "normal_price": "IDR 49,500,000",
+              "promo_price": "IDR 16,500,000",
+              "savings": "Save IDR 33,000,000!"
+            },
+            {
+              "capacity": "20-30 tons",
+              "normal_price": "IDR 54,450,000",
+              "promo_price": "IDR 18,150,000",
+              "savings": "Save IDR 36,300,000!"
+            },
+            {
+              "capacity": "40-50 tons",
+              "normal_price": "IDR 59,895,000",
+              "promo_price": "IDR 19,965,000",
+              "savings": "Save IDR 39,930,000!"
+            }
+          ],
+          "service_content": [
+            "30 liters engine oil + oil filter",
+            "50 liters hydraulic oil + hydraulic filter",
+            "15 liters transmission oil",
+            "5 kg grease"
+          ],
+          "full_inspection": [
+            "Engine compression test",
+            "Injector & nozzle check",
+            "Diesel pump check",
+            "Turbo & intercooler check",
+            "Engine cooling system check",
+            "Oil leak check",
+            "Undercarriage check",
+            "Main hydraulic hose & pump check",
+            "Cylinder check",
+            "Swing check",
+            "Battery check",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free operator training"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "40 tons",
+              "normal_price": "IDR 65,884,500",
+              "promo_price": "IDR 21,961,500",
+              "savings": "Save IDR 43,923,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "10 liters final drive oil",
+            "Radiator flushing",
+            "Oil analysis"
+          ],
+          "additional_inspection": [
+            "Boom & arm crack check",
+            "Swing motor check",
+            "Cabin check (AC, indicators)"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "50 tons",
+              "normal_price": "IDR 72,472,950",
+              "promo_price": "IDR 24,157,650",
+              "savings": "Save IDR 48,315,300!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "2-day onsite technician (free accommodation in Java and Bali)",
+            "Minor engine overhaul (performed above 10,000 HM)"
+          ],
+          "additional_inspection": [
+            "Detailed hydraulic leak test",
+            "Hydraulic pressure test",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Boom Lift",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT COMPLETE",
+          "tiers": [
+            {
+              "capacity": "16 m",
+              "normal_price": "IDR 75,000,000",
+              "promo_price": "IDR 25,000,000",
+              "savings": "Save IDR 50,000,000!"
+            }
+          ],
+          "service_content": [
+            "15 liters engine oil",
+            "20 liters hydraulic oil",
+            "2 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Hydraulic pump check",
+            "Control panel check",
+            "Lift cylinder check",
+            "Safety sensor check",
+            "Battery check",
+            "Brake test"
+          ],
+          "bonuses": ["Free 5 liters of additional oil", "Free harness kit"],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "20 m",
+              "normal_price": "IDR 97,500,000",
+              "promo_price": "IDR 32,500,000",
+              "savings": "Save IDR 65,000,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "10 liters transmission oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": [
+            "Anemometer check (if applicable)",
+            "Work lights check"
+          ],
+          "bonuses": ["All COMPLETE bonuses"],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "30 m",
+              "normal_price": "IDR 135,000,000",
+              "promo_price": "IDR 45,000,000",
+              "savings": "Save IDR 90,000,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Full safety audit",
+            "Boom structure check",
+            "Platform sensor check"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Wheel Loader",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "1.7 m³",
+              "normal_price": "IDR 66,000,000",
+              "promo_price": "IDR 22,000,000",
+              "savings": "Save IDR 44,000,000!"
+            },
+            {
+              "capacity": "3.0 m³",
+              "normal_price": "IDR 72,600,000",
+              "promo_price": "IDR 24,200,000",
+              "savings": "Save IDR 48,400,000!"
+            },
+            {
+              "capacity": "4-4.5 m³",
+              "normal_price": "IDR 79,860,000",
+              "promo_price": "IDR 26,620,000",
+              "savings": "Save IDR 53,240,000!"
+            }
+          ],
+          "service_content": [
+            "25 liters engine oil + oil filter",
+            "30 liters hydraulic oil + hydraulic filter",
+            "10 liters transmission oil",
+            "4 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check (compression & injector)",
+            "Transmission check",
+            "Bucket check",
+            "Hydraulic system check",
+            "Cooling system check",
+            "Tire check",
+            "Battery check",
+            "Cabin panel check",
+            "Brake check",
+            "Axle check",
+            "Articulation check",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 5 liters of additional oil",
+            "Free cutting edge/bucket teeth"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "4-4.5 m³",
+              "normal_price": "IDR 87,846,000",
+              "promo_price": "IDR 29,282,000",
+              "savings": "Save IDR 58,564,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "8 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": [
+            "Main hydraulic check",
+            "Bucket linkage check"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "7 m³",
+              "normal_price": "IDR 96,630,600",
+              "promo_price": "IDR 32,210,200",
+              "savings": "Save IDR 64,420,400!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Boom & linkage crack test",
+            "Full safety audit",
+            "Hydraulic leak test"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Vibro Roller",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "3 tons",
+              "normal_price": "IDR 57,000,000",
+              "promo_price": "IDR 19,000,000",
+              "savings": "Save IDR 38,000,000!"
+            },
+            {
+              "capacity": "5 tons",
+              "normal_price": "IDR 62,700,000",
+              "promo_price": "IDR 20,900,000",
+              "savings": "Save IDR 41,800,000!"
+            }
+          ],
+          "service_content": [
+            "15 liters engine oil",
+            "20 liters hydraulic oil",
+            "2 kg grease"
+          ],
+          "full_inspection": [
+            "Drum roller check",
+            "Vibration system check",
+            "Hydraulic system check",
+            "Cooling system check",
+            "Battery check",
+            "Field performance test"
+          ],
+          "bonuses": [
+            "Free 5 liters of additional oil",
+            "Free brief operator training"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 3 months / 300 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "10 tons",
+              "normal_price": "IDR 69,000,000",
+              "promo_price": "IDR 23,000,000",
+              "savings": "Save IDR 46,000,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "10 liters transmission oil",
+            "Oil analysis",
+            "Radiator cleaning"
+          ],
+          "additional_inspection": ["Gearbox check", "Drum seal check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 10 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 3 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "12 tons",
+              "normal_price": "IDR 75,900,000",
+              "promo_price": "IDR 25,300,000",
+              "savings": "Save IDR 50,600,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul",
+            "Sensor calibration",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Drum crack test",
+            "Safety audit",
+            "Full load test"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "3 Months",
+          "recommendation": "Every 3 months / 300 hours"
+        }
+      ]
+    },
+    {
+      "name": "Motor Grader",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "125 HP",
+              "normal_price": "IDR 138,000,000",
+              "promo_price": "IDR 46,000,000",
+              "savings": "Save IDR 92,000,000!"
+            },
+            {
+              "capacity": "135 HP",
+              "normal_price": "IDR 151,800,000",
+              "promo_price": "IDR 50,600,000",
+              "savings": "Save IDR 101,200,000!"
+            }
+          ],
+          "service_content": [
+            "40 liters engine oil",
+            "60 liters hydraulic oil",
+            "20 liters transmission oil",
+            "5 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Transmission check",
+            "Blade system check",
+            "Hydraulic system check",
+            "Cooling system check",
+            "Battery check",
+            "Leveling check",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free operator training"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "150 HP",
+              "normal_price": "IDR 166,980,000",
+              "promo_price": "IDR 55,660,000",
+              "savings": "Save IDR 111,320,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "10 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": [
+            "Blade & circle drive check",
+            "Cabin controls check"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "180 HP",
+              "normal_price": "IDR 183,678,000",
+              "promo_price": "IDR 61,226,000",
+              "savings": "Save IDR 122,452,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Blade & frame crack test",
+            "Full safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Bulldozer",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE BULLDOZER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "9 tons",
+              "normal_price": "IDR 63,000,000",
+              "promo_price": "IDR 21,000,000",
+              "savings": "Save IDR 42,000,000!"
+            },
+            {
+              "capacity": "15 tons",
+              "normal_price": "IDR 69,300,000",
+              "promo_price": "IDR 23,100,000",
+              "savings": "Save IDR 46,200,000!"
+            }
+          ],
+          "service_content": [
+            "25 liters engine oil",
+            "30 liters hydraulic oil",
+            "15 liters transmission oil",
+            "4 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Transmission check",
+            "Undercarriage check (track shoe, sprocket, idler, spring)",
+            "Blade check",
+            "Radiator flushing",
+            "Battery check"
+          ],
+          "bonuses": ["Free 10 liters of additional oil", "Free 2 kg grease"],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE BULLDOZER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "20 tons",
+              "normal_price": "IDR 76,230,000",
+              "promo_price": "IDR 25,410,000",
+              "savings": "Save IDR 50,820,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "15 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Detailed undercarriage check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE BULLDOZER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "25 tons",
+              "normal_price": "IDR 83,853,000",
+              "promo_price": "IDR 27,951,000",
+              "savings": "Save IDR 55,902,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": ["Blade crack test", "Full safety audit"],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Tandem Roller",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "4 tons",
+              "normal_price": "IDR 47,250,000",
+              "promo_price": "IDR 15,750,000",
+              "savings": "Save IDR 31,500,000!"
+            },
+            {
+              "capacity": "6 tons",
+              "normal_price": "IDR 51,975,000",
+              "promo_price": "IDR 17,325,000",
+              "savings": "Save IDR 34,650,000!"
+            }
+          ],
+          "service_content": [
+            "15 liters engine oil",
+            "20 liters hydraulic oil",
+            "10 liters transmission oil",
+            "2 kg grease"
+          ],
+          "full_inspection": [
+            "Front & rear drum check",
+            "Vibrator check",
+            "Transmission check",
+            "Cooling system check",
+            "Battery check",
+            "Compaction test"
+          ],
+          "bonuses": [
+            "Free 5 liters of additional oil",
+            "Free operator briefing"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 3 months / 300 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "8 tons",
+              "normal_price": "IDR 57,172,500",
+              "promo_price": "IDR 19,057,500",
+              "savings": "Save IDR 38,115,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "5 liters final drive oil",
+            "Oil analysis",
+            "Radiator cleaning"
+          ],
+          "additional_inspection": [
+            "Gearbox check",
+            "Drum seal check",
+            "Light load test"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 10 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "2 Months",
+          "recommendation": "Every 3 months / 300 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "10 tons",
+              "normal_price": "IDR 62,889,750",
+              "promo_price": "IDR 20,963,250",
+              "savings": "Save IDR 41,926,500!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul",
+            "Full load test",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Drum crack test",
+            "Vibration & noise test",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "3 Months",
+          "recommendation": "Every 3 months / 300 hours"
+        }
+      ]
+    },
+    {
+      "name": "Port Equipment",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT COMPLETE",
+          "tiers": [
+            {
+              "capacity": "standard",
+              "normal_price": "IDR 180,000,000",
+              "promo_price": "IDR 60,000,000",
+              "savings": "Save IDR 120,000,000!"
+            }
+          ],
+          "service_content": [
+            "60 liters engine oil",
+            "100 liters hydraulic oil",
+            "40 liters transmission oil",
+            "10 kg grease"
+          ],
+          "full_inspection": [
+            "Engine compression test",
+            "Injector check",
+            "Fuel pump check",
+            "Cooling system check",
+            "Transmission check",
+            "Mast & fork check",
+            "Hydraulic system check",
+            "Battery & lights check",
+            "Tire thickness check",
+            "Valve check",
+            "Brake function test",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 20 liters of additional oil",
+            "Free operator safety training"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "heavy duty",
+              "normal_price": "IDR 198,000,000",
+              "promo_price": "IDR 66,000,000",
+              "savings": "Save IDR 132,000,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "20 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Cabin controls check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 30 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "super heavy duty",
+              "normal_price": "IDR 217,800,000",
+              "promo_price": "IDR 72,600,000",
+              "savings": "Save IDR 145,200,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": [
+            "Frame & boom crack test",
+            "Full safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Wide Dump Truck",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK COMPLETE",
+          "tiers": [
+            {
+              "capacity": "60 m³",
+              "normal_price": "IDR 55,500,000",
+              "promo_price": "IDR 18,500,000",
+              "savings": "Save IDR 37,000,000!"
+            },
+            {
+              "capacity": "above 60 m³",
+              "normal_price": "IDR 61,050,000",
+              "promo_price": "IDR 20,350,000",
+              "savings": "Save IDR 40,700,000!"
+            }
+          ],
+          "service_content": [
+            "30 liters engine oil",
+            "15 liters transmission oil",
+            "10 liters differential oil",
+            "4 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Transmission check",
+            "Brake & tire check",
+            "Hydraulic dump check",
+            "Axle check",
+            "Suspension & spring check (20 components)",
+            "Checklist documentation"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free 2-day onsite technician in Java and Bali"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "40 m³",
+              "normal_price": "IDR 67,155,000",
+              "promo_price": "IDR 22,385,000",
+              "savings": "Save IDR 44,770,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "15 liters axle oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Chassis check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "50 m³",
+              "normal_price": "IDR 73,870,500",
+              "promo_price": "IDR 24,623,500",
+              "savings": "Save IDR 49,247,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": ["Chassis crack test", "Full safety audit"],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Crane",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE COMPLETE",
+          "tiers": [
+            {
+              "capacity": "25 tons",
+              "normal_price": "IDR 82,500,000",
+              "promo_price": "IDR 27,500,000",
+              "savings": "Save IDR 55,000,000!"
+            },
+            {
+              "capacity": "55 tons",
+              "normal_price": "IDR 90,750,000",
+              "promo_price": "IDR 30,250,000",
+              "savings": "Save IDR 60,500,000!"
+            },
+            {
+              "capacity": "100 tons",
+              "normal_price": "IDR 90,750,000",
+              "promo_price": "IDR 30,250,000",
+              "savings": "Save IDR 60,500,000!"
+            }
+          ],
+          "service_content": [
+            "20 liters engine oil",
+            "30 liters hydraulic oil",
+            "15 liters transmission oil",
+            "3 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Hydraulic system check",
+            "Crane boom check",
+            "Load moment indicator check",
+            "Light load test",
+            "Sling check",
+            "Hoist pull check",
+            "Transmission check",
+            "Swing check"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free safety briefing"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "20 tons",
+              "normal_price": "IDR 99,825,000",
+              "promo_price": "IDR 33,275,000",
+              "savings": "Save IDR 66,550,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "Additional axle oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": [
+            "Detailed safety sensor check",
+            "Cabin check"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 20 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "25 tons",
+              "normal_price": "IDR 109,807,500",
+              "promo_price": "IDR 36,602,500",
+              "savings": "Save IDR 73,205,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician"
+          ],
+          "additional_inspection": ["Boom crack test", "Full safety audit"],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Crawler Crane",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE COMPLETE",
+          "tiers": [
+            {
+              "capacity": "25 tons",
+              "normal_price": "IDR 112,500,000",
+              "promo_price": "IDR 37,500,000",
+              "savings": "Save IDR 75,000,000!"
+            }
+          ],
+          "service_content": [
+            "40 liters engine oil",
+            "60 liters hydraulic oil",
+            "20 liters transmission oil",
+            "6 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Undercarriage (crawler track) check",
+            "Hydraulic system check",
+            "Limit sensor check",
+            "Sling check",
+            "Swing check",
+            "Hoist pull check"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "55 tons",
+              "normal_price": "IDR 123,750,000",
+              "promo_price": "IDR 41,250,000",
+              "savings": "Save IDR 82,500,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "20 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Detailed safety sensor check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 20 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "55 tons",
+              "normal_price": "IDR 149,737,500",
+              "promo_price": "IDR 49,912,500",
+              "savings": "Save IDR 99,825,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician (free accommodation in Java and Bali)"
+          ],
+          "additional_inspection": ["Full safety audit"],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Rough Terrain Crane",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE COMPLETE",
+          "tiers": [
+            {
+              "capacity": "30 tons",
+              "normal_price": "IDR 76,500,000",
+              "promo_price": "IDR 25,500,000",
+              "savings": "Save IDR 51,000,000!"
+            },
+            {
+              "capacity": "60 tons",
+              "normal_price": "IDR 84,150,000",
+              "promo_price": "IDR 28,050,000",
+              "savings": "Save IDR 56,100,000!"
+            }
+          ],
+          "service_content": [
+            "25 liters engine oil",
+            "40 liters hydraulic oil",
+            "15 liters transmission oil",
+            "5 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Hydraulic system check",
+            "Crane boom check",
+            "Load moment indicator check",
+            "Light test check",
+            "Sling check",
+            "Hoist pull check",
+            "Transmission check",
+            "Swing check"
+          ],
+          "bonuses": [
+            "Free 10 liters of additional oil",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "60 tons",
+              "normal_price": "IDR 92,565,000",
+              "promo_price": "IDR 30,855,000",
+              "savings": "Save IDR 61,710,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "10 liters final drive oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Safety sensor check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 15 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "60 tons",
+              "normal_price": "IDR 101,821,500",
+              "promo_price": "IDR 33,940,500",
+              "savings": "Save IDR 67,881,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "2-day onsite technician (free accommodation in Java and Bali)"
+          ],
+          "additional_inspection": [
+            "Boom & jib crack test",
+            "Full safety audit"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Reach Stacker",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE REACH STACKER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "45 tons",
+              "normal_price": "IDR 180,000,000",
+              "promo_price": "IDR 60,000,000",
+              "savings": "Save IDR 120,000,000!"
+            }
+          ],
+          "service_content": [
+            "60 liters engine oil",
+            "120 liters hydraulic oil",
+            "40 liters transmission oil",
+            "10 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Transmission check",
+            "Axle check",
+            "Boom check",
+            "Spreader check",
+            "Safety sensor check",
+            "Container load test"
+          ],
+          "bonuses": [
+            "Free 20 liters of additional oil",
+            "Free operator training"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE REACH STACKER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "50 tons",
+              "normal_price": "IDR 198,000,000",
+              "promo_price": "IDR 66,000,000",
+              "savings": "Save IDR 132,000,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "20 liters additional axle oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": [
+            "Full hydraulic system check",
+            "Joystick & sensor check"
+          ],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 30 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE REACH STACKER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "60 tons",
+              "normal_price": "IDR 217,800,000",
+              "promo_price": "IDR 72,600,000",
+              "savings": "Save IDR 145,200,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul",
+            "2-day onsite technician (free accommodation in Java and Bali)"
+          ],
+          "additional_inspection": ["Boom crack test", "Full safety audit"],
+          "bonuses": ["All SUPER COMPLETE bonuses", "Corporate gift pack"],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    },
+    {
+      "name": "Empty Container Handler",
+      "packages": [
+        {
+          "level": "Complete",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "20 feet",
+              "normal_price": "IDR 195,000,000",
+              "promo_price": "IDR 65,000,000",
+              "savings": "Save IDR 130,000,000!"
+            }
+          ],
+          "service_content": [
+            "40 liters engine oil",
+            "80 liters hydraulic oil",
+            "30 liters transmission oil",
+            "8 kg grease"
+          ],
+          "full_inspection": [
+            "Engine check",
+            "Transmission check",
+            "Axle check",
+            "Boom check",
+            "Spreader check",
+            "Hydraulic system check",
+            "Safety sensor check",
+            "Container load test"
+          ],
+          "bonuses": [
+            "Free 15 liters of additional oil",
+            "Free 2-day onsite technician in Java and Bali"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Super Complete",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER SUPER COMPLETE",
+          "tiers": [
+            {
+              "capacity": "40 feet",
+              "normal_price": "IDR 214,500,000",
+              "promo_price": "IDR 71,500,000",
+              "savings": "Save IDR 143,000,000!"
+            }
+          ],
+          "service_content": [
+            "All COMPLETE package contents",
+            "15 liters additional axle oil",
+            "Oil analysis",
+            "Radiator flushing"
+          ],
+          "additional_inspection": ["Detailed hydraulic check"],
+          "bonuses": [
+            "All COMPLETE bonuses",
+            "Free 25 liters of additional oil",
+            "Free digital report"
+          ],
+          "special_promo_bonus": "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "45 feet",
+              "normal_price": "IDR 235,950,000",
+              "promo_price": "IDR 78,650,000",
+              "savings": "Save IDR 157,300,000!"
+            }
+          ],
+          "service_content": [
+            "All SUPER COMPLETE package contents",
+            "Minor engine overhaul (performed above 10,000 HM)",
+            "Safety sensor calibration"
+          ],
+          "additional_inspection": [
+            "Chassis & boom crack test",
+            "Full safety audit",
+            "Full load container test"
+          ],
+          "bonuses": [
+            "All SUPER COMPLETE bonuses",
+            "Free 2-day onsite technician in Java and Bali",
+            "Corporate gift pack"
+          ],
+          "special_promo_bonus": [
+            "Company Car Service Package at 25 TJM AutoCare Workshops worth IDR 50 million",
+            "20-point AC inspection"
+          ],
+          "warranty": "1 Month",
+          "recommendation": "Every 2 months / 250 hours"
+        }
+      ]
+    }
+  ]
+}

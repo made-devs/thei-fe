@@ -11,8 +11,8 @@
     },
     "director_intro": {
       "subtitle": "DIRECTOR'S WELCOME",
-      "title": "Welcome to TJM Heavy Equipment Indonesia (THEI).",
-      "quote": "We are here as pioneers in transforming the world of heavy equipment in Indonesia, carrying the spirit of 'More Complete, More Efficient, More Professional'.",
+      "title": "A Message from the Director",
+      "quote": "Welcome to THEI Heavy Equipment Indonesia, a part of TJM Group.\nWe are here as pioneers in transforming the Indonesian heavy equipment industry, carrying the spirit of being more complete, more efficient, and more professional.\n\nTHEI is not just a service provider, but a strategic partner that delivers efficiency, innovation, and added value, accompanied by bonuses and promotions worth up to hundreds of millions of rupiah.\nOur program is the only one in Indonesia, and even in the world, designed to provide a different experience for our business partners.\n\nThrough our complete ecosystem: Sales, Spare Parts, Service, Rental, and Trade-In.",
       "video": {
         "id": "dQw4w9WgXcQ",
         "thumbnail": "/about-us/about2.webp",
@@ -21,9 +21,16 @@
     },
     "vision_mission": {
       "vision_title": "Our Vision",
-      "vision_text": "To be the most complete heavy equipment solution provider in Indonesia.",
+      "vision_text": "THEI aims to be the largest and most comprehensive heavy equipment market leader in Indonesia, the official dealer for sales, spare parts, service, rental, and trade-in nationwide.",
       "mission_title": "Our Mission",
-      "mission_text": "To enhance customer efficiency through comprehensive sales, rental, service, spare parts, and the largest after-sales bonus."
+      "mission_points": [
+        "Providing modern, well-maintained heavy equipment with high operating uptime, ready to support national projects.",
+        "Official sales of new units with a complete product selection and warranty.",
+        "Premium & after-sales services: detailed inspections, digital reports, full warranty, and certified technicians.",
+        "Enforcing a safe work system with technicians on standby 24/7.",
+        "Providing added value for corporate clients: exclusive facilities, cumulative bonuses, membership & TJM Auto Care loyalty programs.",
+        "Providing industry experts and strengthening the availability of spare parts needed by customers through our 25 branches."
+      ]
     },
     "core_values": {
       "subtitle": "OUR FOUNDATION",
@@ -32,19 +39,27 @@
       "values": [
         {
           "name": "Integrity",
-          "description": "Upholding honesty and ethical standards in every action."
+          "description": "Upholding honesty, ethics, and transparency in every business aspect to build trust."
         },
         {
-          "name": "Professionalism",
-          "description": "Delivering excellence and expertise in our services."
+          "name": "Safety First",
+          "description": "Prioritizing occupational health and safety (OHS) as a core culture to protect our team, clients, and environment."
         },
         {
-          "name": "Safety",
-          "description": "Prioritizing the well-being of our team and clients above all."
+          "name": "Reliability",
+          "description": "Delivering consistent, high-quality services and products to ensure smooth client operations."
+        },
+        {
+          "name": "Satisfaction",
+          "description": "Committed to understanding and meeting customer needs with the best solutions that exceed expectations."
         },
         {
           "name": "Innovation",
-          "description": "Continuously seeking better solutions and technologies."
+          "description": "Continuously implementing new technologies and methods to improve efficiency and provide cutting-edge solutions."
+        },
+        {
+          "name": "Efficiency",
+          "description": "Focusing on providing cost-effective and time-saving solutions to help clients maximize productivity."
         }
       ]
     },

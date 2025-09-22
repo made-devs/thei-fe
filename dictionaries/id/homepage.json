@@ -110,7 +110,7 @@
         "description": "Berkomitmen pada standar tertinggi untuk keselamatan dan lingkungan."
       },
       {
-        "title": "Bonus Ratusan Juta",
+        "title": "Bonus Ratusan Juta Rupiah",
         "description": "Program purna jual paling menguntungkan di industri dengan keuntungan berlimpah."
       }
     ],
@@ -137,51 +137,51 @@
     }
   },
   "testimonials": {
-    "title": "What Our Clients Say About Us",
-    "subtitle": "Customer Testimonials",
-    "description": "Our clients' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
+    "title": "Apa Kata Klien Kami Tentang Kami",
+    "subtitle": "Testimoni Pelanggan",
+    "description": "Kisah sukses klien kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa yang mereka katakan tentang kemitraan dengan THEI.",
     "list": [
       {
         "name": "Budi Santoso",
         "company": "Project Manager, PT Abadi Jaya",
         "image": "/home/testi1.webp",
-        "quote": "The after-sales support from THEI is outstanding. Whenever there's an issue, their team responds quickly and effectively, minimizing downtime on our site."
+        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan efektif, meminimalkan waktu henti di lokasi kami."
       },
       {
         "name": "Citra Lestari",
         "company": "Operations Director, PT Karya Bersama",
         "image": "/home/testi2.webp",
-        "quote": "The Bundling Solution program has been a great help in managing our maintenance budget. The quality of genuine parts is unquestionable."
+        "quote": "Program Solusi Bundling sangat membantu dalam mengelola anggaran pemeliharaan kami. Kualitas suku cadang asli tidak diragukan lagi."
       },
       {
         "name": "Agus Wijaya",
         "company": "CEO, PT Konstruksi Megah",
         "image": "/home/testi3.webp",
-        "quote": "The reliability of the heavy equipment is key to the success of our projects. THEI not only sells products but also provides comprehensive solutions."
+        "quote": "Keandalan alat berat adalah kunci keberhasilan proyek kami. THEI tidak hanya menjual produk tetapi juga memberikan solusi yang komprehensif."
       }
     ],
     "video_testimonials": {
-      "title": "See Their Success Stories",
+      "title": "Lihat Kisah Sukses Mereka",
       "videos": [
         {
-          "name": "David Lee",
-          "company": "Foreman, Quantum Constructions",
-          "title": "Operational Efficiency Increased by 20%"
+          "name": "Rian Pratama",
+          "company": "Foreman, PT Cipta Karya",
+          "title": "Efisiensi Operasional Meningkat 20%"
         },
         {
-          "name": "Sarah Chen",
-          "company": "Site Manager, Apex Mining",
-          "title": "Downtime Reduced Significantly"
+          "name": "Siti Hartono",
+          "company": "Site Manager, Tambang Jaya",
+          "title": "Waktu Henti Berkurang Secara Signifikan"
         },
         {
-          "name": "Michael Brown",
-          "company": "Lead Engineer, Geo-Infra Solutions",
-          "title": "Unbeatable 24/7 Support"
+          "name": "Joko Susilo",
+          "company": "Lead Engineer, Geo-Infra Solusi",
+          "title": "Dukungan 24/7 yang Tak Terkalahkan"
         },
         {
-          "name": "Emily White",
-          "company": "Logistics Head, Terra Logistics",
-          "title": "Fleet Management Made Easy"
+          "name": "Dewi Anggraini",
+          "company": "Logistics Head, Terra Logistik",
+          "title": "Manajemen Armada Menjadi Mudah"
         }
       ]
     }

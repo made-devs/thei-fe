@@ -1,0 +1,805 @@
+{
+  "repair_packages": [
+    {
+      "equipment_type": "Forklift",
+      "package_name": "PAKET REKONDISI FORKLIFT SUPER HEMAT",
+      "level": "Super Hemat",
+      "pricing": {
+        "normal_price": "Rp13.500.000",
+        "promo_price": "Rp6.750.000",
+        "savings": "Rp6.750.000"
+      },
+      "service_details": [
+        "Service hidrolik lift & tilt cylinder",
+        "Service mast & fork (pelumasan & penyetelan)",
+        "Service engine ringan (ganti filter oli & bahan bakar)",
+        "Greasing seluruh joint mast"
+      ],
+      "inspection_details": [
+        "Inspeksi transmisi & torque converter",
+        "Inspeksi differential",
+        "Inspeksi brake system",
+        "Inspeksi ban / solid tire",
+        "Inspeksi radiator & sistem pendingin",
+        "Inspeksi aki & kelistrikan utama",
+        "Inspeksi safety switch & horn",
+        "Inspeksi sistem exhaust",
+        "Inspeksi seat & seat belt",
+        "Load test ringan"
+      ],
+      "bonuses": [
+        "Free oli mesin 10 liter",
+        "Free grease 2 kg",
+        "Free fuel filter 1 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free laporan inspeksi digital",
+        "Free sertifikat load test",
+        "Free pengecekan AC kabin",
+        "Free lampu kerja LED 1 unit",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Mini Excavator",
+      "package_name": "PAKET REKONDISI MINI EXCAVATOR KOMPLIT",
+      "level": "Komplit",
+      "pricing": {
+        "normal_price": "Rp52.500.000",
+        "promo_price": "Rp26.250.000",
+        "savings": "Rp26.250.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine (head, injector, turbo)",
+        "Service swing motor",
+        "Service travel motor",
+        "Service cylinder boom & arm",
+        "Kuras oli hidrolik",
+        "Purging sistem bahan bakar",
+        "Rekondisi joystick control",
+        "Rubberized undercoat chassis"
+      ],
+      "inspection_details": [
+        "Inspeksi engine full (oil leak, suara, getaran)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi sistem pendingin (radiator, oil cooler)",
+        "Inspeksi undercarriage (track, roller, sprocket, idler)",
+        "Inspeksi swing bearing",
+        "Inspeksi kabin (AC, panel indikator, alarm)",
+        "Inspeksi seat & safety belt",
+        "Inspeksi sensor hidrolik & kelistrikan",
+        "Inspeksi exhaust system",
+        "Load test 70%"
+      ],
+      "bonuses": [
+        "Free oli mesin 15 liter",
+        "Free oli hidrolik 15 liter",
+        "Free grease 3 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Excavator",
+      "package_name": "PAKET REKONDISI EXCAVATOR SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp75.000.000",
+        "promo_price": "Rp37.500.000",
+        "savings": "Rp37.500.000"
+      },
+      "service_details": [
+        "Overhaul penuh engine",
+        "Overhaul pompa hidrolik utama",
+        "Rekondisi travel motor & final drive",
+        "Rekondisi undercarriage full (roller, sprocket, track shoe, idler)",
+        "Rekondisi sistem elektrik (ECU, harness, sensor)",
+        "Rekondisi AC kabin full",
+        "Crack test non-destruktif boom & arm",
+        "Load test penuh (100%)"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, kebocoran)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi sistem pendingin (radiator, oil cooler, fan)",
+        "Inspeksi sistem bahan bakar (pump, filter, hose)",
+        "Inspeksi injector & nozzle",
+        "Inspeksi cylinder hidrolik",
+        "Inspeksi pompa hidrolik (flow & pressure)",
+        "Inspeksi swing bearing",
+        "Inspeksi travel brake",
+        "Inspeksi undercarriage detail",
+        "Inspeksi kelistrikan (lampu kerja, wiring)",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Inspeksi safety switch",
+        "Inspeksi exhaust system",
+        "Inspeksi sistem telematics (GPS/monitoring)",
+        "Analisa oil sample",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 20 liter",
+        "Free oli hidrolik 20 liter",
+        "Free grease 5 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Boom Lift",
+      "package_name": "PAKET REKONDISI BOOM LIFT KOMPLIT",
+      "level": "Komplit",
+      "pricing": {
+        "normal_price": "Rp60.000.000",
+        "promo_price": "Rp30.000.000",
+        "savings": "Rp30.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Rekondisi cylinder telescopic",
+        "Kuras oli hidrolik",
+        "Service sistem kontrol (joystick & panel)",
+        "Rekondisi sistem rem",
+        "Rubberized undercoat chassis"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (oli, suara, kebocoran)",
+        "Inspeksi pompa hidrolik",
+        "Inspeksi cylinder lift",
+        "Inspeksi safety sensor",
+        "Inspeksi sistem kelistrikan",
+        "Inspeksi struktur boom",
+        "Inspeksi aki",
+        "Inspeksi sistem rem",
+        "Inspeksi platform & railing",
+        "Load test 70%"
+      ],
+      "bonuses": [
+        "Free oli mesin 15 liter",
+        "Free oli hidrolik 15 liter",
+        "Free grease 2 kg",
+        "Free fuel filter",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Wheel Loader",
+      "package_name": "PAKET REKONDISI WHEEL LOADER KOMPLIT",
+      "level": "Komplit",
+      "pricing": {
+        "normal_price": "Rp67.500.000",
+        "promo_price": "Rp33.750.000",
+        "savings": "Rp33.750.000"
+      },
+      "service_details": [
+        "Service hydraulic pump",
+        "Service cylinder bucket",
+        "Service transmission ringan",
+        "Service differential",
+        "Service brake system",
+        "Greasing linkage bucket",
+        "Kuras oli hidrolik",
+        "Purging sistem bahan bakar"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (oli, filter, kompresi)",
+        "Inspeksi radiator & cooling system",
+        "Inspeksi fuel system (filter, hose, injector)",
+        "Inspeksi hydraulic valve",
+        "Inspeksi transmission oil",
+        "Inspeksi final drive",
+        "Inspeksi axle depan & belakang",
+        "Inspeksi kabin (panel, indikator)",
+        "Inspeksi safety switch",
+        "Load test 70%"
+      ],
+      "bonuses": [
+        "Free oli mesin 20 liter",
+        "Free oli hidrolik 20 liter",
+        "Free grease 5 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Vibro Roller",
+      "package_name": "PAKET REKONDISI VIBRO ROLLER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp45.000.000",
+        "promo_price": "Rp22.500.000",
+        "savings": "Rp22.500.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service drum vibrator",
+        "Service hydraulic pump",
+        "Service travel motor",
+        "Service brake system",
+        "Kuras oli hidrolik",
+        "Rekondisi control panel",
+        "Rekondisi steering system"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (suara, kebocoran, oli)",
+        "Inspeksi radiator & cooling system",
+        "Inspeksi hydraulic system (pump, hose, valve)",
+        "Inspeksi drum roller (ketebalan, crack)",
+        "Inspeksi vibrasi & bearing",
+        "Inspeksi ban depan/belakang",
+        "Inspeksi brake system (master cylinder, wheel cylinder)",
+        "Inspeksi safety switch & sensor",
+        "Load test 80%"
+      ],
+      "bonuses": [
+        "Free oli mesin 15 liter",
+        "Free oli hidrolik 15 liter",
+        "Free grease 3 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Motor Grader",
+      "package_name": "PAKET REKONDISI MOTOR GRADER KOMPLIT",
+      "level": "Komplit",
+      "pricing": {
+        "normal_price": "Rp82.500.000",
+        "promo_price": "Rp41.250.000",
+        "savings": "Rp41.250.000"
+      },
+      "service_details": [
+        "Service hydraulic pump",
+        "Service cylinder blade",
+        "Service transmission ringan",
+        "Service differential",
+        "Service brake system",
+        "Kuras oli hidrolik",
+        "Purging bahan bakar",
+        "Rekondisi circle drive"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, kebocoran)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi cooling system",
+        "Inspeksi steering system",
+        "Inspeksi blade & moldboard",
+        "Inspeksi circle drive & gear",
+        "Inspeksi transmission oil",
+        "Inspeksi final drive",
+        "Inspeksi sistem kabin (panel, alarm)",
+        "Safety check 30 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 20 liter",
+        "Free oli hidrolik 20 liter",
+        "Free grease 5 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Bulldozer",
+      "package_name": "PAKET REKONDISI BULLDOZER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp90.000.000",
+        "promo_price": "Rp45.000.000",
+        "savings": "Rp45.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Service cylinder blade",
+        "Rekondisi undercarriage (track roller, sprocket, idler)",
+        "Rekondisi final drive",
+        "Rekondisi transmission",
+        "Rekondisi brake system",
+        "Rekondisi steering clutch",
+        "Kuras oli hidrolik",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, suara, kebocoran)",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, hose, seal)",
+        "Inspeksi undercarriage detail",
+        "Inspeksi sprocket & track shoe",
+        "Inspeksi idler & roller",
+        "Inspeksi brake system (master, disc)",
+        "Inspeksi steering clutch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 20 liter",
+        "Free oli hidrolik 20 liter",
+        "Free grease 5 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Tandem Roller",
+      "package_name": "PAKET REKONDISI TANDEM ROLLER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp60.000.000",
+        "promo_price": "Rp30.000.000",
+        "savings": "Rp30.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service drum vibrator",
+        "Service hydraulic pump",
+        "Service travel motor",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Kuras oli hidrolik",
+        "Rekondisi control panel"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (oli, kebocoran, suara)",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, hose, valve, seal)",
+        "Inspeksi drum depan & belakang (aus, crack)",
+        "Inspeksi vibrator shaft & bearing",
+        "Inspeksi ban depan & belakang",
+        "Inspeksi steering joint",
+        "Inspeksi brake system (master & wheel cylinder)",
+        "Inspeksi kelistrikan (lampu & aki)",
+        "Safety check 30 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 15 liter",
+        "Free oli hidrolik 15 liter",
+        "Free grease 3 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Port Equipment",
+      "package_name": "PAKET REKONDISI PORT EQUIPMENT SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp225.000.000",
+        "promo_price": "Rp112.500.000",
+        "savings": "Rp112.500.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Service lifting cylinder",
+        "Rekondisi spreader",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, cylinder)",
+        "Inspeksi struktur boom & frame",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Inspeksi undercarriage / roda",
+        "Inspeksi kelistrikan (harness & aki)",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 30 liter",
+        "Free oli hidrolik 50 liter",
+        "Free grease 10 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Wide Dump Truck",
+      "package_name": "PAKET REKONDISI WIDE DUMP TRUCK KOMPLIT",
+      "level": "Komplit",
+      "pricing": {
+        "normal_price": "Rp75.000.000",
+        "promo_price": "Rp37.500.000",
+        "savings": "Rp37.500.000"
+      },
+      "service_details": [
+        "Service engine ringan",
+        "Service transmission ringan",
+        "Service differential",
+        "Service brake system",
+        "Rekondisi hydraulic dump system",
+        "Kuras oli hidrolik & transmission",
+        "Purging sistem bahan bakar",
+        "Rekondisi steering system"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (oil leak, kompresi, suara)",
+        "Inspeksi cooling system (radiator, fan, oil cooler)",
+        "Inspeksi axle depan & belakang",
+        "Inspeksi sistem ban (tekanan, aus, retak)",
+        "Inspeksi brake system (disc, master, line)",
+        "Inspeksi hydraulic dump cylinder",
+        "Inspeksi kabin (panel, alarm, indikator)",
+        "Inspeksi safety switch & sensor",
+        "Inspeksi exhaust system",
+        "Safety check 30 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 20 liter",
+        "Free oli hidrolik 20 liter",
+        "Free grease 5 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 1 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Mobile Crane",
+      "package_name": "PAKET REKONDISI MOBILE CRANE SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp150.000.000",
+        "promo_price": "Rp75.000.000",
+        "savings": "Rp75.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Service cylinder boom",
+        "Rekondisi swing motor",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi boom & jib (visual crack test)",
+        "Inspeksi hydraulic system (pump, valve, hose, seal)",
+        "Inspeksi swing bearing",
+        "Inspeksi brake system (disc & master)",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 30 liter",
+        "Free oli hidrolik 40 liter",
+        "Free grease 8 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Crawler Crane",
+      "package_name": "PAKET REKONDISI CRAWLER CRANE SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp180.000.000",
+        "promo_price": "Rp90.000.000",
+        "savings": "Rp90.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Rekondisi crawler undercarriage (track, roller, sprocket, idler)",
+        "Rekondisi swing motor",
+        "Rekondisi travel motor",
+        "Rekondisi brake system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, kebocoran)",
+        "Inspeksi cooling system (radiator, fan, oil cooler)",
+        "Inspeksi boom & jib (visual crack test)",
+        "Inspeksi hydraulic system (pump, valve, hose, seal)",
+        "Inspeksi swing bearing",
+        "Inspeksi travel motor & final drive",
+        "Inspeksi crawler track (aus, alignment)",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 40 liter",
+        "Free oli hidrolik 60 liter",
+        "Free grease 10 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Rough Terrain Crane",
+      "package_name": "PAKET REKONDISI ROUGH TERRAIN CRANE SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp135.000.000",
+        "promo_price": "Rp67.500.000",
+        "savings": "Rp67.500.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Service cylinder boom",
+        "Rekondisi swing motor",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, hose, seal)",
+        "Inspeksi boom & jib (visual crack test)",
+        "Inspeksi swing bearing",
+        "Inspeksi brake system (disc & master)",
+        "Inspeksi axle & roda",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 30 liter",
+        "Free oli hidrolik 40 liter",
+        "Free grease 8 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator safety briefing",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Reach Stacker",
+      "package_name": "PAKET REKONDISI REACH STACKER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp225.000.000",
+        "promo_price": "Rp112.500.000",
+        "savings": "Rp112.500.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Rekondisi telescopic boom",
+        "Rekondisi spreader",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, cylinder)",
+        "Inspeksi telescopic boom (crack test)",
+        "Inspeksi spreader lock & twist",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Inspeksi undercarriage / roda",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 40 liter",
+        "Free oli hidrolik 60 liter",
+        "Free grease 10 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Side Loader",
+      "package_name": "PAKET REKONDISI SIDE LOADER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp210.000.000",
+        "promo_price": "Rp105.000.000",
+        "savings": "Rp105.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Rekondisi lifting arm",
+        "Rekondisi hydraulic cylinder",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, hose, seal)",
+        "Inspeksi lifting arm (aus, crack)",
+        "Inspeksi chassis frame (visual crack test)",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Inspeksi roda & axle",
+        "Inspeksi exhaust system",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 40 liter",
+        "Free oli hidrolik 60 liter",
+        "Free grease 10 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    },
+    {
+      "equipment_type": "Empty Container Handler",
+      "package_name": "PAKET REKONDISI EMPTY CONTAINER HANDLER SUPER KOMPLIT",
+      "level": "Super Komplit",
+      "pricing": {
+        "normal_price": "Rp240.000.000",
+        "promo_price": "Rp120.000.000",
+        "savings": "Rp120.000.000"
+      },
+      "service_details": [
+        "Overhaul ringan engine",
+        "Service hydraulic pump",
+        "Rekondisi mast & spreader",
+        "Rekondisi brake system",
+        "Rekondisi steering system",
+        "Rekondisi control panel",
+        "Rekondisi AC kabin",
+        "Rekondisi electrical system"
+      ],
+      "inspection_details": [
+        "Inspeksi engine (kompresi, oli, suara)",
+        "Inspeksi turbo & intercooler",
+        "Inspeksi cooling system (radiator, oil cooler, fan)",
+        "Inspeksi hydraulic system (pump, valve, cylinder)",
+        "Inspeksi mast (crack, alignment)",
+        "Inspeksi spreader lock & twist",
+        "Inspeksi sensor safety & limit switch",
+        "Inspeksi kabin (panel, indikator, alarm)",
+        "Inspeksi roda & axle",
+        "Safety audit 40 titik"
+      ],
+      "bonuses": [
+        "Free oli mesin 50 liter",
+        "Free oli hidrolik 80 liter",
+        "Free grease 12 kg",
+        "Free fuel filter 2 unit",
+        "Free cabin filter",
+        "Free operator training singkat",
+        "Free teknisi onsite 2 hari",
+        "Free laporan digital",
+        "Free sertifikat load test",
+        "Free corporate gift pack"
+      ],
+      "special_bonus": "Paket Service Mobil Perusahaan di 22 Bengkel TJM AutoCare senilai Rp20 juta",
+      "warranty": "1 Bulan",
+      "recommendation": "Setiap 2 bulan sekali / 250 jam"
+    }
+  ]
+}

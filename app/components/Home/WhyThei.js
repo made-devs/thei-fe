@@ -1,30 +1,30 @@
-'use client';
+"use client";
 
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 import {
-  Users,
-  FileText,
-  TrendingUp,
-  Presentation,
+  LayoutGrid, // Menggantikan Users
+  Wrench, // Menggantikan FileText
+  ShieldCheck, // Menggantikan TrendingUp
+  Award, // Menggantikan Presentation
+  Banknote, // Ikon uang, menggantikan Gift
   Package,
   Cog,
-  Award,
-} from 'lucide-react';
+} from "lucide-react";
 
 const iconMap = {
   // English keys
-  'One Stop Solution': <Users size={24} />,
-  '24/7 Field Service': <FileText size={24} />,
-  'Genuine Parts': <TrendingUp size={24} />,
-  'HSSE Certified': <Presentation size={24} />,
-  'Huge Bonuses': <Award size={24} />,
+  "One Stop Solution": <LayoutGrid size={24} />,
+  "24/7 Field Service": <Wrench size={24} />,
+  "Genuine Parts": <ShieldCheck size={24} />,
+  "HSSE Certified": <Award size={24} />,
+  "Hundreds of Millions Rupiah in Bonuses": <Banknote size={24} />,
   // Indonesian keys
-  'Solusi Satu Pintu': <Users size={24} />,
-  'Layanan Lapangan 24/7': <FileText size={24} />,
-  'Suku Cadang Asli': <TrendingUp size={24} />,
-  'Tersertifikasi HSSE': <Presentation size={24} />,
-  'Bonus Ratusan Juta': <Award size={24} />,
+  "Solusi Satu Pintu": <LayoutGrid size={24} />,
+  "Layanan Lapangan 24/7": <Wrench size={24} />,
+  "Suku Cadang Asli": <ShieldCheck size={24} />,
+  "Tersertifikasi HSSE": <Award size={24} />,
+  "Bonus Ratusan Juta Rupiah": <Banknote size={24} />, // Disesuaikan dengan JSON (id)
 };
 
 const WhyThei = ({ dictionary }) => {
@@ -56,7 +56,7 @@ const WhyThei = ({ dictionary }) => {
               <Cog
                 size={20}
                 className="mr-2 animate-spin"
-                style={{ animationDuration: '5s' }}
+                style={{ animationDuration: "5s" }}
               />
               <span>{subtitle}</span>
             </div>

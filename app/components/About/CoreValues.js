@@ -1,21 +1,32 @@
+"use client";
+
+import React from "react";
 import {
   ShieldCheck,
-  Briefcase,
   HeartHandshake,
+  BadgeCheck,
+  Smile,
   Lightbulb,
+  Zap,
   Cog,
-} from 'lucide-react';
+} from "lucide-react";
 
 // Mapping name to icon component for easy lookup
 const iconMap = {
-  Integrity: <ShieldCheck size={40} className="text-yellow-400" />,
+  // Indonesian Keys
   Integritas: <ShieldCheck size={40} className="text-yellow-400" />,
-  Professionalism: <Briefcase size={40} className="text-yellow-400" />,
-  Profesionalisme: <Briefcase size={40} className="text-yellow-400" />,
-  Safety: <HeartHandshake size={40} className="text-yellow-400" />,
-  Keselamatan: <HeartHandshake size={40} className="text-yellow-400" />,
-  Innovation: <Lightbulb size={40} className="text-yellow-400" />,
+  "Keselamatan Utama": <HeartHandshake size={40} className="text-yellow-400" />,
+  Keandalan: <BadgeCheck size={40} className="text-yellow-400" />,
+  Kepuasan: <Smile size={40} className="text-yellow-400" />,
   Inovasi: <Lightbulb size={40} className="text-yellow-400" />,
+  Efisiensi: <Zap size={40} className="text-yellow-400" />,
+  // English Keys
+  Integrity: <ShieldCheck size={40} className="text-yellow-400" />,
+  "Safety First": <HeartHandshake size={40} className="text-yellow-400" />,
+  Reliability: <BadgeCheck size={40} className="text-yellow-400" />,
+  Satisfaction: <Smile size={40} className="text-yellow-400" />,
+  Innovation: <Lightbulb size={40} className="text-yellow-400" />,
+  Efficiency: <Zap size={40} className="text-yellow-400" />,
 };
 
 const CoreValues = ({ dictionary }) => {
@@ -23,8 +34,10 @@ const CoreValues = ({ dictionary }) => {
 
   const ValueCard = ({ value }) => (
     <div className="p-8 bg-slate-50 rounded-lg shadow-sm hover:shadow-lg transition-shadow h-full">
-      <div className="flex justify-center mb-4">{iconMap[value.name]}</div>
-      <h3 className="font-bold text-xl">{value.name}</h3>
+      <div className="flex justify-center mb-4">
+        {iconMap[value.name] || <Cog size={40} className="text-yellow-400" />}
+      </div>
+      <h3 className="font-bold text-xl text-black">{value.name}</h3>
       <p className="mt-2 text-gray-600 text-sm">{value.description}</p>
     </div>
   );
@@ -36,7 +49,7 @@ const CoreValues = ({ dictionary }) => {
           <Cog
             size={20}
             className="mr-2 animate-spin"
-            style={{ animationDuration: '5s' }}
+            style={{ animationDuration: "5s" }}
           />
           <span>{dictionary.subtitle}</span>
         </div>
@@ -47,8 +60,8 @@ const CoreValues = ({ dictionary }) => {
           {dictionary.description}
         </p>
 
-        {/* REVISI: Menggunakan grid 2x2 standar */}
-        <div className="mt-16 max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-8">
+        {/* Updated grid to handle 6 items gracefully */}
+        <div className="mt-16 max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {values.map((value, index) => (
             <ValueCard key={index} value={value} />
           ))}

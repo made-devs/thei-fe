@@ -11,8 +11,8 @@
     },
     "director_intro": {
       "subtitle": "SAMBUTAN DIREKTUR",
-      "title": "Selamat datang di TJM Heavy Equipment Indonesia (THEI).",
-      "quote": "Kami hadir sebagai pionir transformasi dunia alat berat di Indonesia, membawa semangat 'Lebih Lengkap, Lebih Efisien, Lebih Profesional'.",
+      "title": "Pesan dari Direktur",
+      "quote": "Selamat datang di THEI Heavy Equipment Indonesia, bagian dari TJM Group.\nKami hadir sebagai pelopor dalam transformasi industri alat berat Indonesia, membawa semangat menjadi lebih lengkap, lebih efisien, dan lebih profesional.\n\nTHEI bukan sekadar penyedia layanan, tetapi mitra strategis yang menghadirkan efisiensi, inovasi, dan nilai tambah, disertai bonus dan promosi senilai hingga ratusan juta rupiah.\nProgram kami adalah satu-satunya di Indonesia, bahkan di dunia, yang dirancang untuk memberikan pengalaman berbeda bagi mitra bisnis kami.\n\nMelalui ekosistem lengkap kami: Penjualan, Suku Cadang, Servis, Sewa, dan Trade-In.",
       "video": {
         "id": "dQw4w9WgXcQ",
         "thumbnail": "/about-us/about2.webp",
@@ -21,9 +21,16 @@
     },
     "vision_mission": {
       "vision_title": "Visi Kami",
-      "vision_text": "Menjadi penyedia solusi alat berat terlengkap di Indonesia.",
+      "vision_text": "THEI bertujuan menjadi pemimpin pasar alat berat terbesar dan terlengkap di Indonesia, dealer resmi untuk penjualan, suku cadang, servis, sewa, dan trade-in di seluruh negeri.",
       "mission_title": "Misi Kami",
-      "mission_text": "Meningkatkan efisiensi pelanggan melalui layanan sales, rental, service, spare parts, dan after sales bonus terbesar."
+      "mission_points": [
+        "Menyediakan alat berat modern, terawat baik, dengan waktu operasi tinggi, siap mendukung proyek nasional.",
+        "Penjualan resmi unit baru, pilihan produk lengkap, dengan garansi.",
+        "Layanan premium & purna jual: inspeksi detail, laporan digital, garansi penuh, teknisi bersertifikat.",
+        "Menegakkan sistem kerja aman, dengan teknisi siaga 24/7.",
+        "Memberikan nilai tambah bagi klien korporat: fasilitas eksklusif, bonus kumulatif, keanggotaan & program loyalitas TJM Auto Care.",
+        "Menyediakan pakar industri dan memperkuat ketersediaan suku cadang yang dibutuhkan pelanggan melalui 25 cabang kami."
+      ]
     },
     "core_values": {
       "subtitle": "FONDASI KAMI",
@@ -32,19 +39,27 @@
       "values": [
         {
           "name": "Integritas",
-          "description": "Menjunjung tinggi kejujuran dan standar etika dalam setiap tindakan."
+          "description": "Menjunjung tinggi kejujuran, etika, dan transparansi dalam setiap aspek bisnis untuk membangun kepercayaan."
         },
         {
-          "name": "Profesionalisme",
-          "description": "Memberikan keunggulan dan keahlian dalam layanan kami."
+          "name": "Keselamatan Utama",
+          "description": "Memprioritaskan kesehatan dan keselamatan kerja (K3) sebagai budaya utama untuk melindungi tim, klien, dan lingkungan."
         },
         {
-          "name": "Keselamatan",
-          "description": "Memprioritaskan kesejahteraan tim dan klien di atas segalanya."
+          "name": "Keandalan",
+          "description": "Memberikan layanan dan produk yang konsisten dan berkualitas tinggi untuk memastikan operasional klien berjalan lancar."
+        },
+        {
+          "name": "Kepuasan",
+          "description": "Berkomitmen memahami dan memenuhi kebutuhan pelanggan dengan solusi terbaik yang melebihi ekspektasi."
         },
         {
           "name": "Inovasi",
-          "description": "Terus mencari solusi dan teknologi yang lebih baik."
+          "description": "Terus menerapkan teknologi serta metode baru untuk meningkatkan efisiensi dan memberikan solusi terdepan."
+        },
+        {
+          "name": "Efisiensi",
+          "description": "Fokus pada penyediaan solusi yang hemat biaya dan waktu untuk membantu klien memaksimalkan produktivitas."
         }
       ]
     },

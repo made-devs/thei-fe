@@ -1,0 +1,1657 @@
+{
+  "total_packages": 48,
+  "equipment_types": [
+    {
+      "name": "Forklift",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE FORKLIFT KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "1-3,5 ton",
+              "normal_price": "Rp42.000.000",
+              "promo_price": "Rp14.000.000",
+              "savings": "Rp28.000.000"
+            },
+            {
+              "capacity": "4-5 ton",
+              "normal_price": "Rp46.200.000",
+              "promo_price": "Rp15.400.000",
+              "savings": "Rp30.800.000"
+            },
+            {
+              "capacity": "7 ton",
+              "normal_price": "Rp50.820.000",
+              "promo_price": "Rp16.940.000",
+              "savings": "Rp33.880.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 10 liter + filter oli",
+            "Oli transmisi 5 liter",
+            "Oli hidrolik 15 liter + filter hidrolik",
+            "Grease 2 kg"
+          ],
+          "full_inspection": [
+            "Tes kompresi mesin",
+            "Pengecekan injektor",
+            "Pengecekan pompa bahan bakar",
+            "Pengecekan pendingin",
+            "Pengecekan transmisi",
+            "Pengecekan mast & fork",
+            "Pengecekan sistem hidrolik",
+            "Pengecekan Baterai & lampu",
+            "Pengecekan ketebalan ban",
+            "Pengecekan Valve",
+            "Uji fungsi rem",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": [
+            "Free oli tambahan 5 liter",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan (Passenger Car) di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE FORKLIFT SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "8 ton",
+              "normal_price": "Rp55.902.000",
+              "promo_price": "Rp18.634.000",
+              "savings": "Rp37.268.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli Transmisi / ... liter",
+            "Flushing radiator",
+            "Analisa oli"
+          ],
+          "additional_inspection": [
+            "Pengecekan silinder hidrolik",
+            "Pengecekan rantai mast",
+            "Pengecekan rem parkir"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE FORKLIFT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "10 ton",
+              "normal_price": "Rp61.492.200",
+              "promo_price": "Rp20.497.400",
+              "savings": "Rp40.994.800"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Kalibrasi sensor",
+            "Overhaul ringan mesin & transmisi - Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Uji Pressure hidrolik"
+          ],
+          "additional_inspection": [
+            "Crack test mast",
+            "Uji getaran mesin",
+            "Pengecekan Engine Mounting",
+            "Safety audit full"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi 2 hari kerja standby di lokasi customer"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Mini Excavator",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "5-7,5 ton",
+              "normal_price": "Rp51.000.000",
+              "promo_price": "Rp17.000.000",
+              "savings": "Rp34.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 20 liter + filter oli",
+            "Oli hidrolik 30 liter + filter hidrolik",
+            "Oli transmisi 10 liter",
+            "Grease 3 kg",
+            "Flushing Filter"
+          ],
+          "full_inspection": [
+            "Tes kompresi mesin",
+            "Pengecekan injektor",
+            "Pengecekan pompa hidrolik",
+            "Pengecekan undercarriage",
+            "Pengecekan bucket pin & bushing",
+            "Pengecekan sistem pendingin",
+            "Pengecekan aki & lampu",
+            "Pengecekan joystick & pedal",
+            "Pengecekan Electrical",
+            "Pengecekan Swing",
+            "Pengecekan Crack pada boom"
+          ],
+          "bonuses": ["Free grease 2 kg", "Free operator briefing"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "7 ton",
+              "normal_price": "Rp56.100.000",
+              "promo_price": "Rp18.700.000",
+              "savings": "Rp37.400.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli Final Drive 6 liter",
+            "Flushing radiator",
+            "Analisa oli"
+          ],
+          "additional_inspection": [
+            "Pengecekan boom & arm",
+            "Cek swing motor",
+            "Cek kabin (AC, indikator)",
+            "Uji rem & parkir"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 10 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "2 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MINI EXCAVATOR ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "8 ton",
+              "normal_price": "Rp61.710.000",
+              "promo_price": "Rp20.570.000",
+              "savings": "Rp41.140.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Crack test boom-arm",
+            "Kalibrasi sensor elektronik",
+            "Teknisi onsite 2 hari",
+            "Overhaul ringan mesin"
+          ],
+          "additional_inspection": [
+            "Uji kebocoran hidrolik detail",
+            "Uji flow hidrolik",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "3 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        }
+      ]
+    },
+    {
+      "name": "Excavator",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "10-15 ton",
+              "normal_price": "Rp49.500.000",
+              "promo_price": "Rp16.500.000",
+              "savings": "Rp33.000.000"
+            },
+            {
+              "capacity": "20-30 ton",
+              "normal_price": "Rp54.450.000",
+              "promo_price": "Rp18.150.000",
+              "savings": "Rp36.300.000"
+            },
+            {
+              "capacity": "40-50 ton",
+              "normal_price": "Rp59.895.000",
+              "promo_price": "Rp19.965.000",
+              "savings": "Rp39.930.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 30 liter + filter oli",
+            "Oli hidrolik 50 liter + filter hidrolik",
+            "Oli transmisi 15 liter",
+            "Grease 5 kg"
+          ],
+          "full_inspection": [
+            "Tes kompresi mesin",
+            "Pengecekan injektor & nozzle",
+            "Pengecekan pompa solar",
+            "Pengecekan turbo & intercooler",
+            "Pengecekan pendingin Mesin",
+            "Pengecekan kebocoran oli",
+            "Pengecekan undercarriage",
+            "Pengecekan Selang & pompa hidrolik utama",
+            "Pengecekan silinder",
+            "Pengecekan swing",
+            "Pengecekan Baterai",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": ["Free oli tambahan 10 liter", "Free operator training"],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "40 ton",
+              "normal_price": "Rp65.884.500",
+              "promo_price": "Rp21.961.500",
+              "savings": "Rp43.923.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 10 liter",
+            "Flushing radiator",
+            "Analisa oli"
+          ],
+          "additional_inspection": [
+            "pengecekan Crack boom & arm",
+            "pengecekan swing motor",
+            "pengecekan kabin (AC, indikator)"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE EXCAVATOR ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "50 ton",
+              "normal_price": "Rp72.472.950",
+              "promo_price": "Rp24.157.650",
+              "savings": "Rp48.315.300"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Teknisi onsite 2 hari Free akomodasi di wilayah pulau jawa dan bali",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)"
+          ],
+          "additional_inspection": [
+            "Uji kebocoran hidrolik detail",
+            "Uji Pressure hidrolik",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Boom Lift",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "16 m",
+              "normal_price": "Rp75.000.000",
+              "promo_price": "Rp25.000.000",
+              "savings": "Rp50.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 15 liter",
+            "Oli hidrolik 20 liter",
+            "Grease 2 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan engine",
+            "Pengecekan pompa hidrolik",
+            "Pengecekan control panel",
+            "Pengecekan silinder angkat",
+            "Pengecekan safety sensor",
+            "Pengecekan baterai",
+            "Uji rem"
+          ],
+          "bonuses": ["Free oli tambahan 5 liter", "Free harness kit"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "20 m",
+              "normal_price": "Rp97.500.000",
+              "promo_price": "Rp32.500.000",
+              "savings": "Rp65.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli transmisi 10 liter",
+            "Analisa oli",
+            "flushing radiator"
+          ],
+          "additional_inspection": [
+            "Pengecekan anemometer ( tidak ada )",
+            "Pengecekan lampu kerja"
+          ],
+          "bonuses": ["Semua bonus KOMPLIT"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE BOOM LIFT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "30 m",
+              "normal_price": "Rp135.000.000",
+              "promo_price": "Rp45.000.000",
+              "savings": "Rp90.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Safety audit lengkap",
+            "Pengecekan struktur boom",
+            "Pengecekan platform sensor"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Wheel Loader",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "1.7 m³",
+              "normal_price": "Rp66.000.000",
+              "promo_price": "Rp22.000.000",
+              "savings": "Rp44.000.000"
+            },
+            {
+              "capacity": "3.0 m³",
+              "normal_price": "Rp72.600.000",
+              "promo_price": "Rp24.200.000",
+              "savings": "Rp48.400.000"
+            },
+            {
+              "capacity": "4-4.5 m³",
+              "normal_price": "Rp79.860.000",
+              "promo_price": "Rp26.620.000",
+              "savings": "Rp53.240.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 25 liter + filter oli",
+            "Oli hidrolik 30 liter + filter hidrolik",
+            "Oli transmisi 10 liter",
+            "Grease 4 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin (kompresi & injektor)",
+            "Pengecekan transmisi",
+            "Pengecekan bucket",
+            "Pengecekan Hidrolik",
+            "Pengecekan sistem pendingin",
+            "Pengecekan Ban",
+            "Pengecekan Baterai",
+            "Pengecekan panel kabin",
+            "Pengecekan Rem",
+            "Pengecekan Axle",
+            "Pengecekan Articulate",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": [
+            "Free oli tambahan 5 liter",
+            "Free cutting edge/kuku bucket"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "4-4.5 m³",
+              "normal_price": "Rp87.846.000",
+              "promo_price": "Rp29.282.000",
+              "savings": "Rp58.564.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 8 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": [
+            "Pengecekan hidrolik utama",
+            "Pengecekan linkage bucket"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE WHEEL LOADER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "7 m³",
+              "normal_price": "Rp96.630.600",
+              "promo_price": "Rp32.210.200",
+              "savings": "Rp64.420.400"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Crack test boom & linkage",
+            "Safety audit lengkap",
+            "Uji kebocoran hidrolik"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Vibro Roller",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "3 ton",
+              "normal_price": "Rp57.000.000",
+              "promo_price": "Rp19.000.000",
+              "savings": "Rp38.000.000"
+            },
+            {
+              "capacity": "5 ton",
+              "normal_price": "Rp62.700.000",
+              "promo_price": "Rp20.900.000",
+              "savings": "Rp41.800.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 15 liter",
+            "Oli hidrolik 20 liter",
+            "Grease 2 kg"
+          ],
+          "full_inspection": [
+            "Cek drum roller",
+            "Cek sistem getar (vibrator)",
+            "Cek hidrolik",
+            "Cek sistem pendingin",
+            "Cek aki",
+            "Uji kerja lapangan"
+          ],
+          "bonuses": [
+            "Free oli tambahan 5 liter",
+            "Free training operator singkat"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "10 ton",
+              "normal_price": "Rp69.000.000",
+              "promo_price": "Rp23.000.000",
+              "savings": "Rp46.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli transmisi 10 liter",
+            "Analisa oli",
+            "Pembersihan radiator"
+          ],
+          "additional_inspection": ["Cek gearbox", "Cek seal drum"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 10 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE VIBRO ROLLER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "12 ton",
+              "normal_price": "Rp75.900.000",
+              "promo_price": "Rp25.300.000",
+              "savings": "Rp50.600.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin",
+            "Kalibrasi sensor",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Crack test drum",
+            "Safety audit",
+            "Uji full load"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "3 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        }
+      ]
+    },
+    {
+      "name": "Motor Grader",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "125 HP",
+              "normal_price": "Rp138.000.000",
+              "promo_price": "Rp46.000.000",
+              "savings": "Rp92.000.000"
+            },
+            {
+              "capacity": "135 HP",
+              "normal_price": "Rp151.800.000",
+              "promo_price": "Rp50.600.000",
+              "savings": "Rp101.200.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 40 liter",
+            "Oli hidrolik 60 liter",
+            "Oli transmisi 20 liter",
+            "Grease 5 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan transmisi",
+            "Pengecekan sistem blade",
+            "Pengecekan hidrolik",
+            "Pengecekan pendingin",
+            "Pengecekan Baterai",
+            "Pengecekan leveling",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": ["Free oli tambahan 10 liter", "Free operator training"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "150 HP",
+              "normal_price": "Rp166.980.000",
+              "promo_price": "Rp55.660.000",
+              "savings": "Rp111.320.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 10 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": [
+            "Pengecekan blade & circle drive",
+            "Pengecekan kontrol kabin"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MOTOR GRADER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "180 HP",
+              "normal_price": "Rp183.678.000",
+              "promo_price": "Rp61.226.000",
+              "savings": "Rp122.452.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Crack test blade & frame",
+            "Safety audit lengkap"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Bulldozer",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE BULLDOZER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "9 ton",
+              "normal_price": "Rp63.000.000",
+              "promo_price": "Rp21.000.000",
+              "savings": "Rp42.000.000"
+            },
+            {
+              "capacity": "15 ton",
+              "normal_price": "Rp69.300.000",
+              "promo_price": "Rp23.100.000",
+              "savings": "Rp46.200.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 25 liter",
+            "Oli hidrolik 30 liter",
+            "Oli transmisi 15 liter",
+            "Grease 4 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan transmisi",
+            "Pengecekan undercarriage (track shoe, sprocket, idler, spring)",
+            "Pengecekan blade",
+            "Flushing radiator",
+            "Pengecekan Baterai"
+          ],
+          "bonuses": ["Free oli tambahan 10 liter", "Free grease 2 kg"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE BULLDOZER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "20 ton",
+              "normal_price": "Rp76.230.000",
+              "promo_price": "Rp25.410.000",
+              "savings": "Rp50.820.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 15 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Pengecekan undercarriage detail"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE BULLDOZER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "25 ton",
+              "normal_price": "Rp83.853.000",
+              "promo_price": "Rp27.951.000",
+              "savings": "Rp55.902.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": ["Crack test blade", "Safety audit full"],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Tandem Roller",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "4 ton",
+              "normal_price": "Rp47.250.000",
+              "promo_price": "Rp15.750.000",
+              "savings": "Rp31.500.000"
+            },
+            {
+              "capacity": "6 ton",
+              "normal_price": "Rp51.975.000",
+              "promo_price": "Rp17.325.000",
+              "savings": "Rp34.650.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 15 liter",
+            "Oli hidrolik 20 liter",
+            "Oli transmisi 10 liter",
+            "Grease 2 kg"
+          ],
+          "full_inspection": [
+            "Cek drum depan & belakang",
+            "Cek vibrator",
+            "Cek transmisi",
+            "Cek pendingin",
+            "Cek aki",
+            "Uji kompaksi"
+          ],
+          "bonuses": ["Free oli tambahan 5 liter", "Free operator briefing"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "8 ton",
+              "normal_price": "Rp57.172.500",
+              "promo_price": "Rp19.057.500",
+              "savings": "Rp38.115.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 5 liter",
+            "Analisa oli",
+            "Pembersihan radiator"
+          ],
+          "additional_inspection": [
+            "Cek gearbox",
+            "Cek seal drum",
+            "Load test ringan"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 10 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "2 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE TANDEM ROLLER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "10 ton",
+              "normal_price": "Rp62.889.750",
+              "promo_price": "Rp20.963.250",
+              "savings": "Rp41.926.500"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin",
+            "Uji full load",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Crack test drum",
+            "Uji getaran & noise",
+            "Safety audit"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "3 Bulan",
+          "recommendation": "Setiap 3 bulan sekali / 300 jam"
+        }
+      ]
+    },
+    {
+      "name": "Port Equipment",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "standard",
+              "normal_price": "Rp180.000.000",
+              "promo_price": "Rp60.000.000",
+              "savings": "Rp120.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 60 liter",
+            "Oli hidrolik 100 liter",
+            "Oli transmisi 40 liter",
+            "Grease 10 kg"
+          ],
+          "full_inspection": [
+            "Tes kompresi mesin",
+            "Pengecekan injektor",
+            "Pengecekan pompa bahan bakar",
+            "Pengecekan pendingin",
+            "Pengecekan transmisi",
+            "Pengecekan mast & fork",
+            "Pengecekan sistem hidrolik",
+            "Pengecekan aki & lampu",
+            "Pengecekan ketebalan ban",
+            "Pengecekan Valve",
+            "Uji fungsi rem",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": [
+            "Free oli tambahan 20 liter",
+            "Free training operator safety"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "heavy duty",
+              "normal_price": "Rp198.000.000",
+              "promo_price": "Rp66.000.000",
+              "savings": "Rp132.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 20 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Cek kontrol kabin"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 30 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE PORT EQUIPMENT ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "super heavy duty",
+              "normal_price": "Rp217.800.000",
+              "promo_price": "Rp72.600.000",
+              "savings": "Rp145.200.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": [
+            "Crack test frame & boom",
+            "Safety audit lengkap"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Wide Dump Truck",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "60 m³",
+              "normal_price": "Rp55.500.000",
+              "promo_price": "Rp18.500.000",
+              "savings": "Rp37.000.000"
+            },
+            {
+              "capacity": "diatas 60 m³",
+              "normal_price": "Rp61.050.000",
+              "promo_price": "Rp20.350.000",
+              "savings": "Rp40.700.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 30 liter",
+            "Oli transmisi 15 liter",
+            "Oli differential 10 liter",
+            "Grease 4 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan transmisi",
+            "Pengecekan rem & ban",
+            "Pengecekan hidrolik dump",
+            "Pengecekan axle",
+            "Pengecekan kaki-kaki & spring 20 komponen",
+            "Dokumentasi checklist"
+          ],
+          "bonuses": [
+            "Free oli tambahan 10 liter",
+            "Free teknisi onsite 2 hari di wilayah pulau jawa dan bali"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "40 m³",
+              "normal_price": "Rp67.155.000",
+              "promo_price": "Rp22.385.000",
+              "savings": "Rp44.770.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli axle 15 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Pengecekan chassis", "Semua isi KOMPLIT"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE WIDE DUMP TRUCK ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "50 m³",
+              "normal_price": "Rp73.870.500",
+              "promo_price": "Rp24.623.500",
+              "savings": "Rp49.247.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": ["Crack test chassis", "Safety audit full"],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Crane",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "25 ton",
+              "normal_price": "Rp82.500.000",
+              "promo_price": "Rp27.500.000",
+              "savings": "Rp55.000.000"
+            },
+            {
+              "capacity": "55 ton",
+              "normal_price": "Rp90.750.000",
+              "promo_price": "Rp30.250.000",
+              "savings": "Rp60.500.000"
+            },
+            {
+              "capacity": "100 ton",
+              "normal_price": "Rp90.750.000",
+              "promo_price": "Rp30.250.000",
+              "savings": "Rp60.500.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 20 liter",
+            "Oli hidrolik 30 liter",
+            "Oli transmisi 15 liter",
+            "Grease 3 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan hidrolik",
+            "Pengecekan boom crane",
+            "Pengecekan sensor limit indikator",
+            "Load test ringan",
+            "Pengecekan sling",
+            "Pengecekan pulling hoist",
+            "Pengecekan transmisi",
+            "Pengecekan swing"
+          ],
+          "bonuses": ["Free oli tambahan 10 liter", "Free safety briefing"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "20 ton",
+              "normal_price": "Rp99.825.000",
+              "promo_price": "Rp33.275.000",
+              "savings": "Rp66.550.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli axle tambahan",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": [
+            "Pengecekan sensor safety detail",
+            "Pengecekan kabin"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 20 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE MOBILE CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "25 ton",
+              "normal_price": "Rp109.807.500",
+              "promo_price": "Rp36.602.500",
+              "savings": "Rp73.205.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari"
+          ],
+          "additional_inspection": ["Crack test boom", "Safety audit lengkap"],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Crawler Crane",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "25 ton",
+              "normal_price": "Rp112.500.000",
+              "promo_price": "Rp37.500.000",
+              "savings": "Rp75.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 40 liter",
+            "Oli hidrolik 60 liter",
+            "Oli transmisi 20 liter",
+            "Grease 6 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan undercarriage (crawler track)",
+            "Pengecekan hidrolik",
+            "Pengecekan sensor limit",
+            "Pengecekan sling",
+            "Pengecekan swing",
+            "Pengecekan pulling hoist"
+          ],
+          "bonuses": [
+            "Free oli tambahan 10 liter",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "55 ton",
+              "normal_price": "Rp123.750.000",
+              "promo_price": "Rp41.250.000",
+              "savings": "Rp82.500.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 20 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Cek sensor safety detail"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 20 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE CRAWLER CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "55 ton",
+              "normal_price": "Rp149.737.500",
+              "promo_price": "Rp49.912.500",
+              "savings": "Rp99.825.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari free akomodasi di wilayah pulau jawa dan bali"
+          ],
+          "additional_inspection": ["Safety audit lengkap"],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Rough Terrain Crane",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "30 ton",
+              "normal_price": "Rp76.500.000",
+              "promo_price": "Rp25.500.000",
+              "savings": "Rp51.000.000"
+            },
+            {
+              "capacity": "60 ton",
+              "normal_price": "Rp84.150.000",
+              "promo_price": "Rp28.050.000",
+              "savings": "Rp56.100.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 25 liter",
+            "Oli hidrolik 40 liter",
+            "Oli transmisi 15 liter",
+            "Grease 5 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan hidrolik",
+            "Pengecekan boom crane",
+            "Pengecekan sensor limit indikator",
+            "Pengecekan test ringan",
+            "Pengecekan sling",
+            "Pengecekan pulling hoist",
+            "Pengecekan transmisi",
+            "Pengecekan swing"
+          ],
+          "bonuses": [
+            "Free oli tambahan 10 liter",
+            "Free operator safety briefing"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "60 ton",
+              "normal_price": "Rp92.565.000",
+              "promo_price": "Rp30.855.000",
+              "savings": "Rp61.710.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli final drive 10 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Cek sensor safety"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 15 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE ROUGH TERRAIN CRANE ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "60 ton",
+              "normal_price": "Rp101.821.500",
+              "promo_price": "Rp33.940.500",
+              "savings": "Rp67.881.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Teknisi onsite 2 hari free akomodasi di wilayah pulau jawa dan bali"
+          ],
+          "additional_inspection": [
+            "Crack test boom & jib",
+            "Safety audit full"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Reach Stacker",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE REACH STACKER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "45 ton",
+              "normal_price": "Rp180.000.000",
+              "promo_price": "Rp60.000.000",
+              "savings": "Rp120.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 60 liter",
+            "Oli hidrolik 120 liter",
+            "Oli transmisi 40 liter",
+            "Grease 10 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan Transmisi",
+            "Pengecekan Axle",
+            "Pengecekan boom",
+            "Pengecekan spreader",
+            "Pengecekan sensor safety",
+            "Load test kontainer"
+          ],
+          "bonuses": ["Free oli tambahan 20 liter", "Free operator training"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE REACH STACKER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "50 ton",
+              "normal_price": "Rp198.000.000",
+              "promo_price": "Rp66.000.000",
+              "savings": "Rp132.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli axle tambahan 20 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": [
+            "Pengecekan sistem hidrolik penuh",
+            "Pengecekan joystick & sensor"
+          ],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 30 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE REACH STACKER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "60 ton",
+              "normal_price": "Rp217.800.000",
+              "promo_price": "Rp72.600.000",
+              "savings": "Rp145.200.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin",
+            "Teknisi onsite 2 hari free akomodasi di wilayah pulau jawa dan bali"
+          ],
+          "additional_inspection": ["Crack test boom", "Safety audit full"],
+          "bonuses": ["Semua bonus SUPER KOMPLIT", "Gift pack corporate"],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    },
+    {
+      "name": "Empty Container Handler",
+      "packages": [
+        {
+          "level": "Komplit",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "20 feet",
+              "normal_price": "Rp195.000.000",
+              "promo_price": "Rp65.000.000",
+              "savings": "Rp130.000.000"
+            }
+          ],
+          "service_content": [
+            "Oli mesin 40 liter",
+            "Oli hidrolik 80 liter",
+            "Oli transmisi 30 liter",
+            "Grease 8 kg"
+          ],
+          "full_inspection": [
+            "Pengecekan mesin",
+            "Pengecekan Transmisi",
+            "Pengecekan Axle",
+            "Pengecekan boom",
+            "Pengecekan spreader",
+            "Pengecekan hidrolik",
+            "Pengecekan safety sensor",
+            "Load test kontainer"
+          ],
+          "bonuses": [
+            "Free oli tambahan 15 liter",
+            "Free teknisi onsite 2 hari di wilayah pulau jawa dan bali"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Super Komplit",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER SUPER KOMPLIT",
+          "tiers": [
+            {
+              "capacity": "40 feet",
+              "normal_price": "Rp214.500.000",
+              "promo_price": "Rp71.500.000",
+              "savings": "Rp143.000.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi KOMPLIT",
+            "Oli axle tambahan 15 liter",
+            "Analisa oli",
+            "Flushing radiator"
+          ],
+          "additional_inspection": ["Cek hidrolik detail"],
+          "bonuses": [
+            "Semua bonus KOMPLIT",
+            "Free oli tambahan 25 liter",
+            "Free laporan digital"
+          ],
+          "special_promo_bonus": "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        },
+        {
+          "level": "Ultimate",
+          "title": "THEI PREMIUM SERVICE EMPTY CONTAINER ULTIMATE",
+          "tiers": [
+            {
+              "capacity": "45 feet",
+              "normal_price": "Rp235.950.000",
+              "promo_price": "Rp78.650.000",
+              "savings": "Rp157.300.000"
+            }
+          ],
+          "service_content": [
+            "Semua isi SUPER KOMPLIT",
+            "Overhaul ringan mesin (Dilakukan diatas 10.000 HM)",
+            "Kalibrasi sensor safety"
+          ],
+          "additional_inspection": [
+            "Crack test chassis & boom",
+            "Safety audit full",
+            "Uji full load kontainer"
+          ],
+          "bonuses": [
+            "Semua bonus SUPER KOMPLIT",
+            "Free teknisi onsite 2 hari di wilayah pulau jawa dan bali",
+            "Gift pack corporate"
+          ],
+          "special_promo_bonus": [
+            "Paket Service Mobil Perusahaan di 25 Bengkel TJM AutoCare senilai Rp50 juta",
+            "inspeksi Ac 20 titik"
+          ],
+          "warranty": "1 Bulan",
+          "recommendation": "Setiap 2 bulan sekali / 250 jam"
+        }
+      ]
+    }
+  ]
+}
