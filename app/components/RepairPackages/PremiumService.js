@@ -1,17 +1,18 @@
-"use client";
+'use client';
 
-import React, { useState, useMemo } from "react";
-import { CheckCircle, ChevronLeft, ChevronRight } from "lucide-react";
-// Path ini seharusnya tetap berfungsi karena kedalaman foldernya sama
-import dataId from "../../data/premium-service-packages-id.json";
-import dataEn from "../../data/premium-service-packages-en.json";
+import React, { useState, useMemo } from 'react';
+import {
+  ChevronDown,
+  CheckCircle,
+  ChevronLeft,
+  ChevronRight,
+} from 'lucide-react';
+import dataId from '../../data/premium-service-packages-id.json';
+import dataEn from '../../data/premium-service-packages-en.json';
 
 // Helper component untuk merender setiap bagian list
 const ListSection = ({ title, items }) => {
-  // Jangan render jika tidak ada item
-  if (!items || items.length === 0) {
-    return null;
-  }
+  if (!items || items.length === 0) return null;
 
   return (
     <div className="mb-4">
@@ -35,12 +36,12 @@ const PackageCard = ({ aPackage, dictionary }) => {
 
   const borderColor =
     {
-      Ultimate: "border-yellow-400",
-      "Super Komplit": "border-gray-400",
-      "Super Complete": "border-gray-400",
-      Komplit: "border-amber-700",
-      Complete: "border-amber-700",
-    }[aPackage.level] || "border-gray-200";
+      Ultimate: 'border-yellow-400',
+      'Super Komplit': 'border-gray-400',
+      'Super Complete': 'border-gray-400',
+      Komplit: 'border-amber-700',
+      Complete: 'border-amber-700',
+    }[aPackage.level] || 'border-gray-200';
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
@@ -81,7 +82,7 @@ const PackageCard = ({ aPackage, dictionary }) => {
                   {tier.promo_price}
                 </p>
                 <p className="text-sm text-gray-500">
-                  <span className="line-through">{tier.normal_price}</span> -{" "}
+                  <span className="line-through">{tier.normal_price}</span> -{' '}
                   <span className="font-semibold text-red-500">
                     {tier.savings}
                   </span>
@@ -111,7 +112,7 @@ const PackageCard = ({ aPackage, dictionary }) => {
                   key={index}
                   onClick={() => goToSlide(index)}
                   className={`w-2 h-2 rounded-full transition-colors ${
-                    currentIndex === index ? "bg-black" : "bg-gray-300"
+                    currentIndex === index ? 'bg-black' : 'bg-gray-300'
                   }`}
                 ></button>
               ))}
@@ -145,23 +146,23 @@ const PackageCard = ({ aPackage, dictionary }) => {
   );
 };
 
-// Komponen Utama diganti namanya
+// Komponen Utama
 const PremiumService = ({ lang, dictionary }) => {
-  if (!dictionary) {
-    console.error("Dictionary for PremiumService is missing!");
-    return null;
-  }
-
-  const data = useMemo(() => (lang === "en" ? dataEn : dataId), [lang]);
-
+  // Panggil semua Hooks di atas, sebelum return kondisional
+  const data = useMemo(() => (lang === 'en' ? dataEn : dataId), [lang]);
   const [activeCategory, setActiveCategory] = useState(
     data.equipment_types[0].name
   );
-
   const activeEquipment = useMemo(
     () => data.equipment_types.find((eq) => eq.name === activeCategory),
     [activeCategory, data]
   );
+
+  // Lakukan pengecekan setelah semua Hooks dipanggil
+  if (!dictionary) {
+    console.error('Dictionary for PremiumService is missing!');
+    return null;
+  }
 
   return (
     <section className="bg-gray-50 py-20">
@@ -183,8 +184,8 @@ const PremiumService = ({ lang, dictionary }) => {
               onClick={() => setActiveCategory(eq.name)}
               className={`px-4 py-2 text-sm font-semibold rounded-full transition-colors ${
                 activeCategory === eq.name
-                  ? "bg-black text-yellow-400"
-                  : "bg-white text-black hover:bg-gray-200"
+                  ? 'bg-black text-yellow-400'
+                  : 'bg-white text-black hover:bg-gray-200'
               }`}
             >
               {eq.name}

@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import React, { useCallback, useEffect, useState } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
-import dataId from "../../data/repair-packages-id.json";
-import dataEn from "../../data/repair-packages-en.json";
+import React, { useCallback, useEffect, useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
+import dataId from '../../data/repair-packages-id.json';
+import dataEn from '../../data/repair-packages-en.json';
 
 // Helper component untuk merender setiap bagian list
 const ListSection = ({ title, items }) => {
@@ -40,8 +40,8 @@ const RepairPackageCard = ({ aPackage, dictionary }) => (
           {aPackage.pricing.promo_price}
         </p>
         <p className="text-sm text-gray-500">
-          <span className="line-through">{aPackage.pricing.normal_price}</span>{" "}
-          -{" "}
+          <span className="line-through">{aPackage.pricing.normal_price}</span>{' '}
+          -{' '}
           <span className="font-semibold text-red-500">
             Hemat {aPackage.pricing.savings}
           </span>
@@ -78,14 +78,13 @@ const RepairPackageCard = ({ aPackage, dictionary }) => (
 
 // Komponen Slider Utama
 const RepairPackagesSlider = ({ lang, dictionary }) => {
-  if (!dictionary) return null;
-
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+  // FIX: Semua hooks dipanggil di paling atas, sebelum pengecekan apapun.
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
 
-  const data = lang === "en" ? dataEn.repair_packages : dataId.repair_packages;
+  const data = lang === 'en' ? dataEn.repair_packages : dataId.repair_packages;
 
   const scrollPrev = useCallback(
     () => emblaApi && emblaApi.scrollPrev(),
@@ -110,9 +109,12 @@ const RepairPackagesSlider = ({ lang, dictionary }) => {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", onSelect);
+    emblaApi.on('select', onSelect);
+    emblaApi.on('reInit', onSelect);
   }, [emblaApi, onSelect]);
+
+  // FIX: Pengecekan diletakkan setelah semua hooks dipanggil.
+  if (!dictionary) return null;
 
   return (
     <section className="bg-gray-50 py-20">
@@ -161,7 +163,7 @@ const RepairPackagesSlider = ({ lang, dictionary }) => {
               key={index}
               onClick={() => scrollTo(index)}
               className={`w-3 h-3 rounded-full ${
-                selectedIndex === index ? "bg-black" : "bg-gray-300"
+                selectedIndex === index ? 'bg-black' : 'bg-gray-300'
               }`}
             ></button>
           ))}
