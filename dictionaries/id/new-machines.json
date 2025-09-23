@@ -16,8 +16,8 @@
     },
     "types": [
       {
-        "name": "Hydraulic Excavator",
-        "image": "/new-machines/type1.webp",
+        "name": "Forklift",
+        "image": "/new-machines/type11.webp",
         "link": "#"
       },
       {
@@ -25,10 +25,24 @@
         "image": "/new-machines/type2.webp",
         "link": "#"
       },
-      { "name": "Bulldozer", "image": "/new-machines/type3.webp", "link": "#" },
+      {
+        "name": "Excavator",
+        "image": "/new-machines/type1.webp",
+        "link": "#"
+      },
+      {
+        "name": "Aerial Working Platform",
+        "image": "/new-machines/type17.webp",
+        "link": "#"
+      },
       {
         "name": "Wheel Loader",
         "image": "/new-machines/type4.webp",
+        "link": "#"
+      },
+      {
+        "name": "Vibro Roller / Compactor",
+        "image": "/new-machines/type14.webp",
         "link": "#"
       },
       {
@@ -37,13 +51,18 @@
         "link": "#"
       },
       {
-        "name": "Backhoe Loader",
-        "image": "/new-machines/type6.webp",
+        "name": "Bulldozer",
+        "image": "/new-machines/type3.webp",
         "link": "#"
       },
       {
-        "name": "Skid Steer Loader",
-        "image": "/new-machines/type7.webp",
+        "name": "Dump Truck (Standar & Heavy Duty)",
+        "image": "/new-machines/type13.webp",
+        "link": "#"
+      },
+      {
+        "name": "Crane (Mobile, Truck, Rough Terrain)",
+        "image": "/new-machines/type9.webp",
         "link": "#"
       },
       {
@@ -52,18 +71,8 @@
         "link": "#"
       },
       {
-        "name": "Truck Crane",
-        "image": "/new-machines/type9.webp",
-        "link": "#"
-      },
-      {
-        "name": "Rough Terrain Crane",
-        "image": "/new-machines/type10.webp",
-        "link": "#"
-      },
-      {
-        "name": "Forklift (Diesel, LPG, Electric)",
-        "image": "/new-machines/type11.webp",
+        "name": "Backhoe Loader",
+        "image": "/new-machines/type6.webp",
         "link": "#"
       },
       {
@@ -72,18 +81,13 @@
         "link": "#"
       },
       {
-        "name": "Articulated Dump Truck",
-        "image": "/new-machines/type13.webp",
+        "name": "Skid Steer Loader",
+        "image": "/new-machines/type7.webp",
         "link": "#"
       },
       {
-        "name": "Soil Compactor",
-        "image": "/new-machines/type14.webp",
-        "link": "#"
-      },
-      {
-        "name": "Asphalt Paver",
-        "image": "/new-machines/type15.webp",
+        "name": "Concrete Pump & Mixer",
+        "image": "/equipment/equip4.webp",
         "link": "#"
       },
       {
@@ -92,8 +96,18 @@
         "link": "#"
       },
       {
-        "name": "Scissor Lift",
-        "image": "/new-machines/type17.webp",
+        "name": "Reach Stacker",
+        "image": "/new-machines/type12.webp",
+        "link": "#"
+      },
+      {
+        "name": "Empty Container Handler",
+        "image": "/new-machines/type11.webp",
+        "link": "#"
+      },
+      {
+        "name": "Telescopic Crawler Crane",
+        "image": "/new-machines/type8.webp",
         "link": "#"
       }
     ]

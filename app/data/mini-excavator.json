@@ -1,0 +1,88 @@
+{
+  "mini_excavators": [
+    {
+      "model": "ZE18GU",
+      "image": "/equipment/mini-excavator/ze18gu.webp",
+      "basic_technical_data": {
+        "operating_weight": "1800 kg",
+        "rated_power": "11.8 kw",
+        "standard_capacity": "0.04 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "2316 mm",
+        "max_dumping_height": "2429 mm",
+        "max_digging_radius": null
+      }
+    },
+    {
+      "model": "ZE20G",
+      "image": "/equipment/mini-excavator/ze20g.webp",
+      "basic_technical_data": {
+        "operating_weight": "1970 kg",
+        "rated_power": "15.4 kW@2400 rpm",
+        "standard_capacity": "0.04 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "2555 mm",
+        "max_dumping_height": "3630 mm",
+        "max_digging_radius": null
+      }
+    },
+    {
+      "model": "ZE27GU(Cab)",
+      "image": "/equipment/mini-excavator/ze27gu(CAB).webp",
+      "basic_technical_data": {
+        "operating_weight": "2700 kg",
+        "rated_power": "15.4 kW@2400 rpm",
+        "standard_capacity": "0.08 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "2880 mm",
+        "max_dumping_height": "4410 mm",
+        "max_digging_radius": null
+      }
+    },
+    {
+      "model": "ZE27GU(Canopy)",
+      "image": "/equipment/mini-excavator/ze27gu(CANOPY).webp",
+      "basic_technical_data": {
+        "operating_weight": "2650 kg",
+        "rated_power": "15.4 kW@2400 rpm",
+        "standard_capacity": "0.08 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "2880mm",
+        "max_dumping_height": "4410mm",
+        "max_digging_radius": "4910mm"
+      }
+    },
+    {
+      "model": "ZE36GU(Cab)",
+      "image": "/equipment/mini-excavator/ze36gu(CAB).webp",
+      "basic_technical_data": {
+        "operating_weight": "3790 kg",
+        "rated_power": "18.2 kW@2200 rpm",
+        "standard_capacity": "0.1 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "3005mm",
+        "max_dumping_height": "4860mm",
+        "max_digging_radius": null
+      }
+    },
+    {
+      "model": "ZE36GU(Canopy)",
+      "image": "/equipment/mini-excavator/ze36gu(CANOPY).webp",
+      "basic_technical_data": {
+        "operating_weight": "3690 kg",
+        "rated_power": "18.2 kW@2200 rpm",
+        "standard_capacity": "0.1 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "3005mm",
+        "max_dumping_height": "4860mm",
+        "max_digging_radius": "5525mm"
+      }
+    }
+  ]
+}

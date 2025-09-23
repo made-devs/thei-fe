@@ -1,0 +1,314 @@
+{
+  "medium_excavators": [
+    {
+      "model": "ZE135G",
+      "image": "/equipment/excavator/ze135g.webp",
+      "basic_technical_data": {
+        "operating_weight": "14400kg",
+        "rated_power": "100kw/2200rpm",
+        "standard_capacity": "0.55m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "8420 mm",
+        "max_digging_depth": "5505 mm",
+        "max_dumping_height": "8465 mm"
+      }
+    },
+    {
+      "model": "ZE135GF",
+      "image": "/equipment/excavator/ze135gf.webp",
+      "basic_technical_data": {
+        "operating_weight": "16500kg",
+        "rated_power": "86kw/2200rpm",
+        "standard_capacity": "grapple"
+      },
+      "operating_range": {
+        "max_digging_radius": "7850 mm",
+        "max_digging_depth": "4620 mm",
+        "max_dumping_height": "8120mm"
+      }
+    },
+    {
+      "model": "ZE145GU",
+      "image": "/equipment/excavator/ze145gu.webp",
+      "basic_technical_data": {
+        "operating_weight": "15800kg",
+        "rated_power": "90 kW @ 2200 rpm",
+        "standard_capacity": "0.1-0.6m³"
+      },
+      "operating_range": {
+        "max_digging_radius": null,
+        "max_digging_depth": "5505 mm",
+        "max_dumping_height": "9390 mm"
+      }
+    },
+    {
+      "model": "ZE210GLC",
+      "image": "/equipment/excavator/ze210glc.webp",
+      "basic_technical_data": {
+        "operating_weight": "22700kg",
+        "rated_power": "129kw/2200rpm",
+        "standard_capacity": "1.0-1.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9900mm",
+        "max_digging_depth": "6660mm",
+        "max_dumping_height": "10010 mm"
+      }
+    },
+    {
+      "model": "ZE215G",
+      "image": "/equipment/excavator/ze215g.webp",
+      "basic_technical_data": {
+        "operating_weight": "22000kg",
+        "rated_power": "134kw/2100rpm",
+        "standard_capacity": "1.0-1.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9900 mm",
+        "max_digging_depth": "6660 mm",
+        "max_dumping_height": "10010 mm"
+      }
+    },
+    {
+      "model": "ZE215G PRO",
+      "image": "/equipment/excavator/ze215g(PRO).webp",
+      "basic_technical_data": {
+        "operating_weight": "23500kg",
+        "rated_power": "134kw/2050rpm",
+        "standard_capacity": "1.0-1.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9900mm",
+        "max_digging_depth": "6660 mm",
+        "max_dumping_height": "10010 mm"
+      }
+    },
+    {
+      "model": "ZE215G ACE",
+      "image": "/equipment/excavator/ze215g(ACE).webp",
+      "basic_technical_data": {
+        "operating_weight": "22000kg",
+        "rated_power": "133kw/2000rpm",
+        "standard_capacity": "1.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9900mm",
+        "max_digging_depth": "6660mm",
+        "max_dumping_height": "10010 mm"
+      }
+    },
+    {
+      "model": "ZE215GLC",
+      "image": "/equipment/excavator/ze215glc.webp",
+      "basic_technical_data": {
+        "operating_weight": "22000kg",
+        "rated_power": "129kw/2200rpm",
+        "standard_capacity": "HD 1.0 m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9920mm",
+        "max_digging_depth": "6680mm",
+        "max_dumping_height": "9820mm"
+      }
+    },
+    {
+      "model": "ZE225GN",
+      "image": "/equipment/excavator/ze225gn.webp",
+      "basic_technical_data": {
+        "operating_weight": "23300kg",
+        "rated_power": "129kw/2200rpm",
+        "standard_capacity": "1.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9900mm",
+        "max_digging_depth": "6660 mm",
+        "max_dumping_height": "10010 mm"
+      }
+    }
+  ],
+  "large_excavators": [
+    {
+      "model": "ZE335G",
+      "image": "/equipment/excavator/ze335g.webp",
+      "basic_technical_data": {
+        "operating_weight": "33500kg",
+        "rated_power": "209 kW/2100 rpm",
+        "standard_capacity": "1.6m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10625mm",
+        "max_digging_depth": "6940 mm",
+        "max_dumping_height": "9740 mm"
+      }
+    },
+    {
+      "model": "ZE335GLc",
+      "image": "/equipment/excavator/ze335glc.webp",
+      "basic_technical_data": {
+        "operating_weight": "33700 kg",
+        "rated_power": "209 kW/2100 rpm",
+        "standard_capacity": "1.6-1.9m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10625 mm",
+        "max_digging_depth": "6940 mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE335G ACE",
+      "image": "/equipment/excavator/ze335g(ACE).webp",
+      "basic_technical_data": {
+        "operating_weight": "33500kg",
+        "rated_power": "212kw/2000rpm",
+        "standard_capacity": "1.6m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10625mm",
+        "max_digging_depth": "6940mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE375G",
+      "image": "/equipment/excavator/ze375g.webp",
+      "basic_technical_data": {
+        "operating_weight": "37500kg",
+        "rated_power": "242kw/1800rpm",
+        "standard_capacity": "1.6-2.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10010mm",
+        "max_digging_depth": "7075mm",
+        "max_dumping_height": "7110mm"
+      }
+    },
+    {
+      "model": "ZE385G",
+      "image": "/equipment/excavator/ze385g.webp",
+      "basic_technical_data": {
+        "operating_weight": "38000kg",
+        "rated_power": "214kw/2100rpm",
+        "standard_capacity": "1.6-2.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10625 mm",
+        "max_digging_depth": "6940 mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE385G ACE",
+      "image": "/equipment/excavator/ze385g(ACE).webp",
+      "basic_technical_data": {
+        "operating_weight": "38000kg",
+        "rated_power": "212kw",
+        "standard_capacity": "1.6-2.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10870mm",
+        "max_digging_depth": "7075mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE385G Pro",
+      "image": "/equipment/excavator/ze385g(PRO).webp",
+      "basic_technical_data": {
+        "operating_weight": "38000kg",
+        "rated_power": "214kw/2100rpm",
+        "standard_capacity": "1.6-2.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10870mm",
+        "max_digging_depth": "7075mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE385G Pro (Gold)",
+      "image": "/equipment/excavator/ze385g(PRO)(GOLD).webp",
+      "basic_technical_data": {
+        "operating_weight": "38000kg",
+        "rated_power": "241kw/2000rpm",
+        "standard_capacity": "2.0-2.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10870 mm",
+        "max_digging_depth": "7039 mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE500G",
+      "image": "/equipment/excavator/ze500g.webp",
+      "basic_technical_data": {
+        "operating_weight": "51000kg",
+        "rated_power": "298kw/2100rpm",
+        "standard_capacity": "2.65-3.3m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10765mm",
+        "max_digging_depth": "6495mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE550G",
+      "image": "/equipment/excavator/ze550g.webp",
+      "basic_technical_data": {
+        "operating_weight": "53500kg",
+        "rated_power": "277kw/2100rpm",
+        "standard_capacity": "2.8-3.6m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10982mm",
+        "max_digging_depth": "6945mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE750G",
+      "image": "/equipment/excavator/ze750g.webp",
+      "basic_technical_data": {
+        "operating_weight": "76500kg",
+        "rated_power": "563kw/2100rpm",
+        "standard_capacity": "4.6-5.5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "12170mm",
+        "max_digging_depth": "7380mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE900G",
+      "image": "/equipment/excavator/ze900g.webp",
+      "basic_technical_data": {
+        "operating_weight": "92000kg",
+        "rated_power": "563kw/2100rpm",
+        "standard_capacity": "5.5-6.5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "12405mm",
+        "max_digging_depth": "7455mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "ZE1250G",
+      "image": "/equipment/excavator/ze1250g.webp",
+      "basic_technical_data": {
+        "operating_weight": "116000kg",
+        "rated_power": "567kw/1800rpm",
+        "standard_capacity": "7.1-10m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "13800mm",
+        "max_digging_depth": "5380mm",
+        "max_dumping_height": null
+      }
+    }
+  ]
+}
