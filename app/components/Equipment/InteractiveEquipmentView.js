@@ -2,13 +2,17 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-// Impor ikon baru
 import { ChevronRight, ListChecks, MessageSquare } from 'lucide-react';
 import Link from 'next/link';
 
-// Kartu produk sekarang memiliki tombol aksi baru
+// Kartu produk sekarang lebih fleksibel untuk menampilkan data yang berbeda
 const ProductCard = ({ product, categoryName }) => {
+  // Tentukan tipe produk untuk menampilkan data yang benar
   const isForklift = !!product.performance;
+  const isBulldozer = !!product.basic_technical_data?.blade_capacity;
+  const isCrane = !!product.lifting_performance;
+  const isSkidSteer = !!product.dimensions_and_performance;
+
   const displayType = product.subtype
     ? `${categoryName} (${product.subtype})`
     : product.type || categoryName;
@@ -24,13 +28,14 @@ const ProductCard = ({ product, categoryName }) => {
           sizes="(max-width: 1024px) 50vw, 33vw"
         />
       </div>
-      {/* Konten kartu dibuat flex-grow agar tombol selalu di bawah */}
       <div className="p-4 border-t border-gray-100 flex flex-col flex-grow">
         <h3 className="font-bold text-lg text-black">{product.model}</h3>
         <p className="text-sm text-gray-500 mb-4">{displayType}</p>
         <div className="space-y-2 text-xs flex-grow">
+          {/* Tampilkan data sesuai tipe produk */}
           {isForklift ? (
             <>
+              {/* Spesifikasi Forklift */}
               <div className="flex justify-between">
                 <span className="font-semibold text-gray-600">
                   Rated Capacity:
@@ -56,8 +61,93 @@ const ProductCard = ({ product, categoryName }) => {
                 </span>
               </div>
             </>
+          ) : isBulldozer ? (
+            <>
+              {/* Spesifikasi Bulldozer */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Operating Weight:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.operating_weight}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Rated Power:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.rated_power}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Blade Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.blade_capacity}
+                </span>
+              </div>
+            </>
+          ) : isCrane ? (
+            <>
+              {/* Spesifikasi Crane */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Lifting Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.lifting_performance.max_rated_lifting_capacity}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Lifting Height:
+                </span>
+                <span className="font-bold text-black">
+                  {product.lifting_performance.max_lifting_height_of_main_boom}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Jib Height:
+                </span>
+                <span className="font-bold text-black">
+                  {product.lifting_performance.max_lifting_height_of_jib}
+                </span>
+              </div>
+            </>
+          ) : isSkidSteer ? (
+            <>
+              {/* Spesifikasi Skid Steer Loader */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Operating Weight:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.operating_weight}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Rated Power:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.rated_power}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Bucket Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data.bucket_capacity}
+                </span>
+              </div>
+            </>
           ) : (
             <>
+              {/* Spesifikasi Excavator / Lainnya */}
               <div className="flex justify-between">
                 <span className="font-semibold text-gray-600">
                   Operating Weight:
@@ -86,9 +176,8 @@ const ProductCard = ({ product, categoryName }) => {
           )}
         </div>
 
-        {/* --- BAGIAN BARU: Aksi Pengguna --- */}
+        {/* --- BAGIAN AKSI PENGGUNA --- */}
         <div className="mt-4 pt-4 border-t border-gray-100 space-y-3">
-          {/* Opsi Perbandingan */}
           <div className="flex items-center">
             <input
               type="checkbox"
@@ -103,7 +192,6 @@ const ProductCard = ({ product, categoryName }) => {
             </label>
           </div>
 
-          {/* Tombol Inquiry */}
           <Link
             href="/contact"
             className="w-full flex items-center justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-bold text-black bg-yellow-400 hover:bg-yellow-500 transition-colors"
@@ -117,20 +205,14 @@ const ProductCard = ({ product, categoryName }) => {
   );
 };
 
-export default function InteractiveEquipmentView({
-  categories,
-  productData, // Terima objek data produk
-}) {
+export default function InteractiveEquipmentView({ categories, productData }) {
   const [activeCategory, setActiveCategory] = useState(
     categories[0]?.name || ''
   );
-
-  // Inisialisasi state produk berdasarkan kategori aktif pertama
   const [products, setProducts] = useState(productData[activeCategory] || []);
 
   const handleCategoryClick = (categoryName) => {
     setActiveCategory(categoryName);
-    // Ambil data dari objek productData berdasarkan nama kategori
     setProducts(productData[categoryName] || []);
   };
 

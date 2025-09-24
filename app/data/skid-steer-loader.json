@@ -1,0 +1,79 @@
+{
+  "skid_steer_loaders": [
+    {
+      "model": "ZS030R",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/zs030r.webp",
+      "basic_technical_data": {
+        "operating_weight": "1293kg",
+        "rated_power": "18.2kw/3000rpm",
+        "bucket_capacity": "0.18m³"
+      },
+      "dimensions_and_performance": {
+        "width": "910mm",
+        "height": "1810mm",
+        "max_operating_altitude": "3051mm"
+      }
+    },
+    {
+      "model": "ZS080V",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/zs080v.webp",
+      "basic_technical_data": {
+        "operating_weight": "2860kg",
+        "rated_power": "36kw/2700rpm",
+        "bucket_capacity": "0.4m³"
+      },
+      "dimensions_and_performance": {
+        "width": "1725mm",
+        "height": "1998mm",
+        "max_operating_altitude": "3826mm"
+      }
+    },
+    {
+      "model": "ZS085V",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/zs085v.webp",
+      "basic_technical_data": {
+        "operating_weight": "2920kg",
+        "rated_power": "36.2kw/2500rpm",
+        "bucket_capacity": "0.4m³"
+      },
+      "dimensions_and_performance": {
+        "width": "1725mm",
+        "height": "1998mm",
+        "max_operating_altitude": "3826mm"
+      }
+    },
+    {
+      "model": "ZS090V",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/zs090v.webp",
+      "basic_technical_data": {
+        "operating_weight": "2999kg",
+        "rated_power": "47.9kw/2700rpm",
+        "bucket_capacity": "0.44m³"
+      },
+      "dimensions_and_performance": {
+        "width": "1725mm",
+        "height": "1998mm",
+        "max_operating_altitude": "3826mm"
+      }
+    },
+    {
+      "model": "ZS120V",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/zs120v.webp",
+      "basic_technical_data": {
+        "operating_weight": "3900kg",
+        "rated_power": "55.4kw/2400rpm",
+        "bucket_capacity": "0.6m³"
+      },
+      "dimensions_and_performance": {
+        "width": "1846mm",
+        "height": "2065mm",
+        "max_operating_altitude": "4115mm"
+      }
+    }
+  ]
+}

@@ -3,10 +3,14 @@ import EquipmentHero from '@/components/Equipment/EquipmentHero';
 import EquipmentIntro from '@/components/Equipment/EquipmentIntro';
 import MainCta from '@/components/Home/MainCta';
 import InteractiveEquipmentView from '@/components/Equipment/InteractiveEquipmentView';
-// Impor data
+// Impor semua data produk
 import forkliftData from '../../../data/forklift.json';
 import miniExcavatorData from '../../../data/mini-excavator.json';
 import excavatorData from '../../../data/excavator.json';
+import wheelLoaderData from '../../../data/wheel-loader.json';
+import bulldozerData from '../../../data/bulldozer.json';
+import craneData from '../../../data/crane.json';
+import skidSteerLoaderData from '../../../data/skid-steer-loader.json';
 
 export default async function NewMachinesPage({ params }) {
   const { lang } = params;
@@ -17,24 +21,19 @@ export default async function NewMachinesPage({ params }) {
 
   const equipmentCategories = newMachinesDict.types || [];
 
-  // Menambahkan properti 'subtype' saat menggabungkan data
-  const allExcavators = [
-    ...(excavatorData.medium_excavators || []).map((exc) => ({
-      ...exc,
-      subtype: 'Medium',
-    })),
-    ...(excavatorData.large_excavators || []).map((exc) => ({
-      ...exc,
-      subtype: 'Large',
-    })),
-  ];
-
-  // Kumpulkan semua data produk dalam satu objek
+  // Gabungkan semua data produk ke dalam satu objek
   const productData = {
-    Forklift: forkliftData.forklifts || [],
-    'Forklift (Diesel, Listrik, AGV)': forkliftData.forklifts || [],
-    'Mini Excavator': miniExcavatorData.mini_excavators || [],
-    Excavator: allExcavators,
+    Forklift: forkliftData.forklifts,
+    'Mini Excavator': miniExcavatorData.mini_excavators,
+    Excavator: [
+      ...excavatorData.medium_excavators,
+      ...excavatorData.large_excavators,
+    ],
+    'Wheel Loader': wheelLoaderData.wheel_loaders,
+    Bulldozer: bulldozerData.bulldozers,
+    'Crane (Mobile Crane, Truck Crane, Rough Terrain)': craneData.cranes,
+    'Skid Steer Loader': skidSteerLoaderData.skid_steer_loaders,
+    // Tambahkan kategori lain di sini saat datanya sudah ada
   };
 
   return (

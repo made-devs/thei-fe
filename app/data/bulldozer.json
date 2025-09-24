@@ -1,0 +1,64 @@
+{
+  "bulldozers": [
+    {
+      "model": "ZD170G",
+      "type": "Bulldozer",
+      "image": "/equipment/bulldozer/zd170g.webp",
+      "basic_technical_data": {
+        "operating_weight": "16600kg",
+        "rated_power": "140kw/1900rpm",
+        "blade_capacity": "4.5m³"
+      },
+      "dimensions_and_blade": {
+        "width": "3454mm",
+        "height": "3157mm",
+        "blade_type": "Straight Tilt Blade"
+      }
+    },
+    {
+      "model": "ZD170GH",
+      "type": "Bulldozer",
+      "image": "/equipment/bulldozer/zd170gh.webp",
+      "basic_technical_data": {
+        "operating_weight": "17800kg",
+        "rated_power": "162kw/2000rpm",
+        "blade_capacity": "4.7m³"
+      },
+      "dimensions_and_blade": {
+        "width": "3412mm",
+        "height": "1200mm",
+        "blade_type": "Straight Tilt Blade"
+      }
+    },
+    {
+      "model": "ZD260G",
+      "type": "Bulldozer",
+      "image": "/equipment/bulldozer/zd260g.webp",
+      "basic_technical_data": {
+        "operating_weight": "23850kg-24330kg",
+        "rated_power": "187-190kw/1850rpm",
+        "blade_capacity": "6.4m³"
+      },
+      "dimensions_and_blade": {
+        "width": "3725mm",
+        "height": "3370mm",
+        "blade_type": "Straight Tilt Blade"
+      }
+    },
+    {
+      "model": "ZD340G",
+      "type": "Bulldozer",
+      "image": "/equipment/bulldozer/zd340g.webp",
+      "basic_technical_data": {
+        "operating_weight": "35260kg",
+        "rated_power": "257kw/2000rpm",
+        "blade_capacity": "10.5m³"
+      },
+      "dimensions_and_blade": {
+        "width": "4130mm",
+        "height": "3692mm",
+        "blade_type": "Straight Tilt Blade"
+      }
+    }
+  ]
+}

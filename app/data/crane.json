@@ -1,0 +1,856 @@
+{
+  "cranes": [
+    {
+      "model": "ZTC250V532-2",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v532-2.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "1098kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "734kN.m",
+        "max_lifting_height_of_basic_boom": "10.3m",
+        "max_lifting_height_of_main_boom": "41.3m",
+        "max_lifting_height_of_jib": "49.5m"
+      }
+    },
+    {
+      "model": "ZTC250V531-2R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v531-2r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "1098kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "734kN.m",
+        "max_lifting_height_of_basic_boom": "10.3m",
+        "max_lifting_height_of_main_boom": "41.3m",
+        "max_lifting_height_of_jib": "48.9m"
+      }
+    },
+    {
+      "model": "ZTC250V431R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v431r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "960kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "552kN.m",
+        "max_lifting_height_of_basic_boom": "10.9m",
+        "max_lifting_height_of_main_boom": "33.3m",
+        "max_lifting_height_of_jib": "41.1m"
+      }
+    },
+    {
+      "model": "ZTC250V452RZ",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v452rz.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "1112kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "713kN.m",
+        "max_lifting_height_of_basic_boom": "11.4m",
+        "max_lifting_height_of_main_boom": "35.4m",
+        "max_lifting_height_of_jib": "43.5m"
+      }
+    },
+    {
+      "model": "ZTC250V552-1C",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v552-1c.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "1098kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "734kN.m",
+        "max_lifting_height_of_basic_boom": "10.3m",
+        "max_lifting_height_of_main_boom": "41.3m",
+        "max_lifting_height_of_jib": "49.5m"
+      }
+    },
+    {
+      "model": "ZTC250V552-1T",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc250v552-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "25t",
+        "max_load_moment_of_basic_boom": "1098kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "734kN.m",
+        "max_lifting_height_of_basic_boom": "10.3m",
+        "max_lifting_height_of_main_boom": "41.3m",
+        "max_lifting_height_of_jib": "49.5m"
+      }
+    },
+    {
+      "model": "ZTC300V532-1",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc300v532-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "30t",
+        "max_load_moment_of_basic_boom": "1142kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "782kN.m",
+        "max_lifting_height_of_basic_boom": "11.5m",
+        "max_lifting_height_of_main_boom": "42.3m",
+        "max_lifting_height_of_jib": "50.7m"
+      }
+    },
+    {
+      "model": "ZTC300V532-1R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc300v532-1r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "30t",
+        "max_load_moment_of_basic_boom": "1142kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "782kN.m",
+        "max_lifting_height_of_basic_boom": "11.5m",
+        "max_lifting_height_of_main_boom": "42.3m",
+        "max_lifting_height_of_jib": "49.9m"
+      }
+    },
+    {
+      "model": "ZTC300V532W",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc300v532w.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "30t",
+        "max_load_moment_of_basic_boom": "1142kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "782kN.m",
+        "max_lifting_height_of_basic_boom": "11.5m",
+        "max_lifting_height_of_main_boom": "42.3m",
+        "max_lifting_height_of_jib": "49.9m"
+      }
+    },
+    {
+      "model": "ZTC350V431R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc350v431r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "35t",
+        "max_load_moment_of_basic_boom": "1145kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "693kN.m",
+        "max_lifting_height_of_basic_boom": "11.4m",
+        "max_lifting_height_of_main_boom": "35.3m",
+        "max_lifting_height_of_jib": "43m"
+      }
+    },
+    {
+      "model": "ZTC400V552R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc400v552r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "40t",
+        "max_load_moment_of_basic_boom": "1110kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "720kN.m",
+        "max_lifting_height_of_basic_boom": "10.3m",
+        "max_lifting_height_of_main_boom": "41.3m",
+        "max_lifting_height_of_jib": "49.5m"
+      }
+    },
+    {
+      "model": "ZTC500V552-1C",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc500v552-1c.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "50t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "61.5m"
+      }
+    },
+    {
+      "model": "ZTC500V552-1T",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc500v552-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "50t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "61.5m"
+      }
+    },
+    {
+      "model": "ZTC550V532-2R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc550v532-2r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "55t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "61.5m"
+      }
+    },
+    {
+      "model": "ZTC550V532-2",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc550v532-2.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "55t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "61.5m"
+      }
+    },
+    {
+      "model": "ZTC550V552M",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc550v552m.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "55t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "61.5m"
+      }
+    },
+    {
+      "model": "ZTC600V532W",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc600v532w.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "60t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1182kN.m",
+        "max_lifting_height_of_basic_boom": "12.7m",
+        "max_lifting_height_of_main_boom": "46m",
+        "max_lifting_height_of_jib": "60m"
+      }
+    },
+    {
+      "model": "ZTC600V552R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc600v552r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "60t",
+        "max_load_moment_of_basic_boom": "2009kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1305kN.m",
+        "max_lifting_height_of_basic_boom": "13.1m",
+        "max_lifting_height_of_main_boom": "46.7m",
+        "max_lifting_height_of_jib": "62.5m"
+      }
+    },
+    {
+      "model": "ZTC700V552-1C",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc700v552-1c.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "70t",
+        "max_load_moment_of_basic_boom": "2376kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1529kN.m",
+        "max_lifting_height_of_basic_boom": "13.6m",
+        "max_lifting_height_of_main_boom": "48.8m",
+        "max_lifting_height_of_jib": "64.6m"
+      }
+    },
+    {
+      "model": "ZTC700V552-1T",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc700v552-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "70t",
+        "max_load_moment_of_basic_boom": "2376kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1529kN.m",
+        "max_lifting_height_of_basic_boom": "13.6m",
+        "max_lifting_height_of_main_boom": "48.8m",
+        "max_lifting_height_of_jib": "64.6m"
+      }
+    },
+    {
+      "model": "ZTC800V552-1C",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc800v552-1c.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "80t",
+        "max_load_moment_of_basic_boom": "3342kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1854kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "50.9m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZTC800V552-1T",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc800v552-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "80t",
+        "max_load_moment_of_basic_boom": "3342kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1854kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "50.9m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZTC1000V532G",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1000v532g.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "100t",
+        "max_load_moment_of_basic_boom": "3450kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "50.9m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZTC1000V532R",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1000v532r.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "100t",
+        "max_load_moment_of_basic_boom": "3450kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "50.9m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZTC1000V552M",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1000v552m.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "100t",
+        "max_load_moment_of_basic_boom": "3450kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "50.9m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZTC1100V653-1",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1100v653-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "110t",
+        "max_load_moment_of_basic_boom": "3557kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2293kN.m",
+        "max_lifting_height_of_basic_boom": "14.3m",
+        "max_lifting_height_of_main_boom": "61.3m",
+        "max_lifting_height_of_jib": "79m"
+      }
+    },
+    {
+      "model": "ZTC1100V653RN",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1100v653rn.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "110t",
+        "max_load_moment_of_basic_boom": "3739kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2293kN.m",
+        "max_lifting_height_of_basic_boom": "14.3m",
+        "max_lifting_height_of_main_boom": "61.3m",
+        "max_lifting_height_of_jib": "79m"
+      }
+    },
+    {
+      "model": "ZTC1200R643",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1200r643.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "120t",
+        "max_load_moment_of_basic_boom": "3557kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2293kN.m",
+        "max_lifting_height_of_basic_boom": "14.3m",
+        "max_lifting_height_of_main_boom": "61.3m",
+        "max_lifting_height_of_jib": "79m"
+      }
+    },
+    {
+      "model": "ZTC1300V753G",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/ztc1300v753g.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "130t",
+        "max_load_moment_of_basic_boom": "4292kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2117kN.m",
+        "max_lifting_height_of_basic_boom": "15.4m",
+        "max_lifting_height_of_main_boom": "76.5m",
+        "max_lifting_height_of_jib": "94.2m"
+      }
+    },
+    {
+      "model": "ZMC450V532",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc450v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "45t",
+        "max_load_moment_of_basic_boom": "1245kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "807kN.m",
+        "max_lifting_height_of_basic_boom": "11.8m",
+        "max_lifting_height_of_main_boom": "44.1m",
+        "max_lifting_height_of_jib": "52.4m"
+      }
+    },
+    {
+      "model": "ZMC600V532-1",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc600v532-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "60t",
+        "max_load_moment_of_basic_boom": "1764kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1152kN.m",
+        "max_lifting_height_of_basic_boom": "12.8m",
+        "max_lifting_height_of_main_boom": "46.1m",
+        "max_lifting_height_of_jib": "61.6m"
+      }
+    },
+    {
+      "model": "ZMC700V532",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc700v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "70t",
+        "max_load_moment_of_basic_boom": "2205kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1411kN.m",
+        "max_lifting_height_of_basic_boom": "13.6m",
+        "max_lifting_height_of_main_boom": "48.8m",
+        "max_lifting_height_of_jib": "64.6m"
+      }
+    },
+    {
+      "model": "ZMC900V532",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc900v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "90t",
+        "max_load_moment_of_basic_boom": "2965kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1627kN.m",
+        "max_lifting_height_of_basic_boom": "13.9m",
+        "max_lifting_height_of_main_boom": "49.8m",
+        "max_lifting_height_of_jib": "66.1m"
+      }
+    },
+    {
+      "model": "ZMC1100V532",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc1100v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "110t",
+        "max_load_moment_of_basic_boom": "3369kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_basic_boom": "14.2m",
+        "max_lifting_height_of_main_boom": "51m",
+        "max_lifting_height_of_jib": "67.2m"
+      }
+    },
+    {
+      "model": "ZMC1100V633",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc1100v633.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "110t",
+        "max_load_moment_of_basic_boom": "3606kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2293.2kN.m",
+        "max_lifting_height_of_basic_boom": "14.3m",
+        "max_lifting_height_of_main_boom": "61.3m",
+        "max_lifting_height_of_jib": "79m"
+      }
+    },
+    {
+      "model": "ZMC1300V733",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/zmc1300v733.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity": "130t",
+        "max_load_moment_of_basic_boom": "3763.2kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2140.3kN.m",
+        "max_lifting_height_of_basic_boom": "14.5m",
+        "max_lifting_height_of_main_boom": "70.7m",
+        "max_lifting_height_of_jib": "88.4m"
+      }
+    },
+    {
+      "model": "ZRT1500V643A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1500v643a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "136100x2.4kg.m",
+        "max_load_moment_of_main_boom": "3940kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1705kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "60.8m",
+        "max_lifting_height_of_jib": "76.9m"
+      }
+    },
+    {
+      "model": "ZRT1300V552",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1300v552.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "130000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3760kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "50.5m",
+        "max_lifting_height_of_jib": "66.7m"
+      }
+    },
+    {
+      "model": "ZRT1300V532T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1300v532t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "130000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3760kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "50.5m",
+        "max_lifting_height_of_jib": "66.7m"
+      }
+    },
+    {
+      "model": "ZRT1300V532",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1300v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "130000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3760kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1862kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "50.5m",
+        "max_lifting_height_of_jib": "66.7m"
+      }
+    },
+    {
+      "model": "ZRT1200V543A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1200v543a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "110000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3332kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1658kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49.8m",
+        "max_lifting_height_of_jib": "66.5m"
+      }
+    },
+    {
+      "model": "ZRT1100V552",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1100v552.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "110000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3332kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1658kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "66.1m"
+      }
+    },
+    {
+      "model": "ZRT1100V532T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1100v532t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "110000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3332kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1658kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "66.1m"
+      }
+    },
+    {
+      "model": "ZRT1100V532",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1100v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "110000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3332kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1658kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "66.1m"
+      }
+    },
+    {
+      "model": "ZRT1000V543A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1000v543a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "90700x2.4kg.m",
+        "max_load_moment_of_main_boom": "2950kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1500kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "65.7m"
+      }
+    },
+    {
+      "model": "ZRT900V552-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt900v552-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "90000x2.5kg.m",
+        "max_load_moment_of_main_boom": "2950kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1500kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "65.7m"
+      }
+    },
+    {
+      "model": "ZRT900V532-1T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt900v532-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "90000x2.5kg.m",
+        "max_load_moment_of_main_boom": "2950kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1500kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "65.7m"
+      }
+    },
+    {
+      "model": "ZRT900V532-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt900v532-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "90000x2.5kg.m",
+        "max_load_moment_of_main_boom": "2950kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1500kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49m",
+        "max_lifting_height_of_jib": "65.7m"
+      }
+    },
+    {
+      "model": "ZRT800V542A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt800v542a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "72600x2.5kg.m",
+        "max_load_moment_of_main_boom": "2499kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1215kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "46m",
+        "max_lifting_height_of_jib": "62m"
+      }
+    },
+    {
+      "model": "ZRT700V552-1E",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt700v552-1e.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "70000x3kg.m",
+        "max_load_moment_of_main_boom": "2499kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1215kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "46m",
+        "max_lifting_height_of_jib": "62m"
+      }
+    },
+    {
+      "model": "ZRT700V532-1T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt700v532-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "70000x3kg.m",
+        "max_load_moment_of_main_boom": "2499kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1215kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "46m",
+        "max_lifting_height_of_jib": "62m"
+      }
+    },
+    {
+      "model": "ZRT700V532-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt700v532-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "70000x3kg.m",
+        "max_load_moment_of_main_boom": "2499kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1215kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "46m",
+        "max_lifting_height_of_jib": "62m"
+      }
+    },
+    {
+      "model": "ZRT700V532",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt700v532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "70000x2.5kg.m",
+        "max_load_moment_of_main_boom": "2337kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1191kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.3m",
+        "max_lifting_height_of_jib": "61.4m"
+      }
+    },
+    {
+      "model": "ZRT700V542A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt700v542a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "63500x2.5kg.m",
+        "max_load_moment_of_main_boom": "2337kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1160kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.6m",
+        "max_lifting_height_of_jib": "61.6m"
+      }
+    },
+    {
+      "model": "ZRT600V552-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt600v552-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "60000x3kg.m",
+        "max_load_moment_of_main_boom": "2337kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1160kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.6m",
+        "max_lifting_height_of_jib": "61.6m"
+      }
+    },
+    {
+      "model": "ZRT600V532-1T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt600v532-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "60000x3kg.m",
+        "max_load_moment_of_main_boom": "2337kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1160kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.6m",
+        "max_lifting_height_of_jib": "61.6m"
+      }
+    },
+    {
+      "model": "ZRT600V532-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt600v532-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "60000x3kg.m",
+        "max_load_moment_of_main_boom": "2337kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1160kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.6m",
+        "max_lifting_height_of_jib": "61.6m"
+      }
+    },
+    {
+      "model": "ZRT500V452E",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt500v452e.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "50000x3kg.m",
+        "max_load_moment_of_main_boom": "1715kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "826kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "39m",
+        "max_lifting_height_of_jib": "48m"
+      }
+    },
+    {
+      "model": "ZRT500V432T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt500v432t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "50000x3kg.m",
+        "max_load_moment_of_main_boom": "1715kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "826kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "37m",
+        "max_lifting_height_of_jib": "48m"
+      }
+    },
+    {
+      "model": "ZRT500V432",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt500v432.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "50000x3kg.m",
+        "max_load_moment_of_main_boom": "1715kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "826kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "39m",
+        "max_lifting_height_of_jib": "48m"
+      }
+    },
+    {
+      "model": "ZRT450V442A",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt450v442a.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "40000x3kg.m",
+        "max_load_moment_of_main_boom": "1430kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "850kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "37m",
+        "max_lifting_height_of_jib": "43m"
+      }
+    },
+    {
+      "model": "ZRT400V452-1E",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt400v452-1e.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "40000x3kg.m",
+        "max_load_moment_of_main_boom": "1430kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "850kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "37m",
+        "max_lifting_height_of_jib": "43m"
+      }
+    },
+    {
+      "model": "ZRT400V432-1T",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt400v432-1t.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "40000x3kg.m",
+        "max_load_moment_of_main_boom": "1430kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "850kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "37m",
+        "max_lifting_height_of_jib": "43m"
+      }
+    },
+    {
+      "model": "ZRT400V432-1",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt400v432-1.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "40000x3kg.m",
+        "max_load_moment_of_main_boom": "1430kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "850kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "37m",
+        "max_lifting_height_of_jib": "43m"
+      }
+    },
+    {
+      "model": "ZRT1100D533",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt1100d533.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "110000x2.5kg.m",
+        "max_load_moment_of_main_boom": "3381kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1693kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49.2m",
+        "max_lifting_height_of_jib": "66.8m"
+      }
+    },
+    {
+      "model": "ZRT850D542",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt850d542.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "85000x3kg.m",
+        "max_load_moment_of_main_boom": "2700kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1280kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "49.8m",
+        "max_lifting_height_of_jib": "65.7m"
+      }
+    },
+    {
+      "model": "ZRT600E532",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt600e532.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "60000x3.0kg.m",
+        "max_load_moment_of_main_boom": "2116.8kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1197kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "45.1m",
+        "max_lifting_height_of_jib": "61.2m"
+      }
+    },
+    {
+      "model": "ZRT400V432",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/zrt400v432.webp",
+      "lifting_performance": {
+        "max_rated_lifting_capacity_x_working_radius": "40000x2.5kg.m",
+        "max_load_moment_of_main_boom": "1305kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "792kN.m",
+        "max_lifting_height_of_main_boom_fully_extended": "33.9m",
+        "max_lifting_height_of_jib": "47.8m"
+      }
+    }
+  ]
+}

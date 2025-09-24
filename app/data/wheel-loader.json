@@ -1,0 +1,116 @@
+{
+  "wheel_loaders": [
+    {
+      "model": "ZWL62G",
+      "image": "/equipment/wheel-loader/zwl62g.webp",
+      "basic_technical_data": {
+        "operating_weight": "18200kg",
+        "rated_power": "178kW/2200rpm",
+        "rated_load": "6000kg",
+        "rated_bucket_capacity": "3.5m³"
+      },
+      "operating_range": {
+        "max_travel_speed": "14.5/40 km/h",
+        "max_gradeability": "28°",
+        "lift_dump_descend_time": "9.3s",
+        "max_breakout_force": "169kN"
+      },
+      "dimensions": {
+        "overall_length": "8450mm",
+        "overall_height": "3550mm",
+        "bucket_width": "3100mm",
+        "wheelbase": "3350mm",
+        "min_turning_radius": "6300mm"
+      },
+      "engine": {
+        "model": "WP10G240E341",
+        "type": "Turbocharged, in-line, direct injection, water-cooling, four stroke cycles",
+        "displacement": "9.726L"
+      }
+    },
+    {
+      "model": "ZWL75G",
+      "image": "/equipment/wheel-loader/zwl75g.webp",
+      "basic_technical_data": {
+        "operating_weight": "25000kg",
+        "rated_power": "199kW/2200rpm",
+        "rated_load": "7500kg",
+        "rated_bucket_capacity": "5m³"
+      },
+      "operating_range": {
+        "max_travel_speed": "6.75/12.5/25.4/39 km/h",
+        "max_gradeability": "27°",
+        "lift_dump_descend_time": "10.2s",
+        "max_breakout_force": "210kN"
+      },
+      "dimensions": {
+        "overall_length": "9543mm",
+        "overall_height": "3660mm",
+        "bucket_width": "3430mm",
+        "wheelbase": "3550mm",
+        "min_turning_radius": "6430mm"
+      },
+      "engine": {
+        "model": "WP10G270E341",
+        "type": "Turbocharged, in-line, direct injection, water-cooling, four stroke cycles",
+        "displacement": "9.726L"
+      }
+    },
+    {
+      "model": "ZWL75GE",
+      "image": "/equipment/wheel-loader/zwl75ge.webp",
+      "basic_technical_data": {
+        "operating_weight": "25300kg",
+        "rated_power": "320kW",
+        "rated_load": "7500kg",
+        "rated_bucket_capacity": "5m³"
+      },
+      "operating_range": {
+        "max_travel_speed": "39 km/h",
+        "max_gradeability": "27°",
+        "lift_dump_descend_time": "10s",
+        "max_breakout_force": "215kN"
+      },
+      "dimensions": {
+        "overall_length": "9510mm",
+        "overall_height": "3660mm",
+        "bucket_width": "3400mm",
+        "wheelbase": "3650mm",
+        "min_turning_radius": "6240mm"
+      },
+      "engine": {
+        "type": "Electric",
+        "battery_capacity": "423kWh",
+        "nominal_voltage": "618V"
+      }
+    },
+    {
+      "model": "ZWL55GE",
+      "image": "/equipment/wheel-loader/zwl55ge.webp",
+      "basic_technical_data": {
+        "operating_weight": "19200kg",
+        "rated_power": "200kW",
+        "rated_load": "5800kg",
+        "rated_bucket_capacity": "3.5m³"
+      },
+      "operating_range": {
+        "max_travel_speed": "40 km/h",
+        "max_gradeability": "30°",
+        "lift_dump_descend_time": "9.5s",
+        "max_breakout_force": "182kN"
+      },
+      "dimensions": {
+        "overall_length": "8915mm",
+        "overall_height": "3550mm",
+        "bucket_width": "3100mm",
+        "wheelbase": "3450mm",
+        "min_turning_radius": "6140mm"
+      },
+      "engine": {
+        "type": "Electric",
+        "battery_capacity": "282kWh",
+        "nominal_voltage": "618V"
+      }
+    }
+  ]
+}
