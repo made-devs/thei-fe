@@ -1,0 +1,957 @@
+{
+  "concrete_pump_mixers": [
+    {
+      "model": "24X-4Z (Two-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/24x-4z.webp",
+      "boom_data": {
+        "reach_height": "23.20m",
+        "horizontal_reach": "19.70m/17.00m",
+        "reach_depth": "13.80m",
+        "unfolding_height": "4.76m",
+        "sections": 4,
+        "folding_system": "Z",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "100/60m³/h",
+        "max_pressure": "60/100bar",
+        "delivery_cylinder": "Φ230mm",
+        "stroke": "1650mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "32X-4Z",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/32x-4z.webp",
+      "boom_data": {
+        "reach_height": "31.40m",
+        "horizontal_reach": "27.40m/24.40m",
+        "reach_depth": "19.10m",
+        "unfolding_height": "7.36m",
+        "sections": 4,
+        "folding_system": "Z",
+        "end_hose_length": "3.00m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "120m³/h",
+        "max_pressure": "66bar",
+        "delivery_cylinder": "Φ230mm",
+        "stroke": "1650mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "36X-5Z",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/36x-5z.webp",
+      "boom_data": {
+        "reach_height": "35.50m",
+        "horizontal_reach": "31.15/28.46m",
+        "reach_depth": "23.32m",
+        "unfolding_height": "8.52m",
+        "sections": 5,
+        "folding_system": "Z",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "160/100m³/h",
+        "max_pressure": "70/110bar",
+        "delivery_cylinder": "Φ230mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "38X-5RZ (Two-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/38x-5rz.webp",
+      "boom_data": {
+        "reach_height": "37.1m",
+        "horizontal_reach": "32.8m",
+        "reach_depth": "25.6m",
+        "unfolding_height": "8m",
+        "sections": 5,
+        "folding_system": "RZ",
+        "end_hose_length": null,
+        "delivery_line": "125mm"
+      },
+      "pump_data": {
+        "max_output": "100/60m³/h",
+        "max_pressure": "80/150bar",
+        "delivery_cylinder": "Φ230mm",
+        "stroke": "1650mm"
+      },
+      "chassis_data": {
+        "brand": "Multiple Choices"
+      }
+    },
+    {
+      "model": "40X-5RZ (Three-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/40x-5rz.webp",
+      "boom_data": {
+        "reach_height": "39.50m",
+        "horizontal_reach": "35.15/31.50m",
+        "reach_depth": "23.15m",
+        "unfolding_height": "8.13m",
+        "sections": 5,
+        "folding_system": "RZ",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "160/100m³/h",
+        "max_pressure": "70/100bar",
+        "delivery_cylinder": "Φ230",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "43X-5RZ (Four-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/43x-5rz.webp",
+      "boom_data": {
+        "reach_height": "42.30m",
+        "horizontal_reach": "37.65/34.85m",
+        "reach_depth": "29.68m",
+        "unfolding_height": "9.79",
+        "sections": 5,
+        "folding_system": "RZ",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "170m³/h",
+        "max_pressure": "88bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "47X-5RZ (Three-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/47x-5rz.webp",
+      "boom_data": {
+        "reach_height": "47.00m",
+        "horizontal_reach": "42.70/39.90m",
+        "reach_depth": "32.60m",
+        "unfolding_height": "9.70m",
+        "sections": 5,
+        "folding_system": "RZ",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "180/120m³/h",
+        "max_pressure": "93/120bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "49X-6RZ (Four-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/49x-6rz.webp",
+      "boom_data": {
+        "reach_height": "48.6m",
+        "horizontal_reach": "43.6m",
+        "reach_depth": "34.6m",
+        "unfolding_height": "12.9m",
+        "sections": 6,
+        "folding_system": "RZ",
+        "end_hose_length": null,
+        "delivery_line": "125mm"
+      },
+      "pump_data": {
+        "max_output": "180m³/h",
+        "max_pressure": "113bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": {
+        "brand": "Multiple Choices"
+      }
+    },
+    {
+      "model": "49X-6RZ (Three-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/49x-6rz-3-axle.webp",
+      "boom_data": {
+        "reach_height": "48.6m",
+        "horizontal_reach": "43.6m",
+        "reach_depth": "34.6m",
+        "unfolding_height": "12.9m",
+        "sections": 6,
+        "folding_system": "RZ",
+        "end_hose_length": null,
+        "delivery_line": "125mm"
+      },
+      "pump_data": {
+        "max_output": "180/120m³/h",
+        "max_pressure": "83/120bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": {
+        "brand": "Multiple Choices"
+      }
+    },
+    {
+      "model": "56X-6RZ (Four-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/56x-6rz.webp",
+      "boom_data": {
+        "reach_height": "56.00m",
+        "horizontal_reach": "51.00/47.85m",
+        "reach_depth": "40.20m",
+        "unfolding_height": "15.80m",
+        "sections": 6,
+        "folding_system": "RZ",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "180m³/h",
+        "max_pressure": "105bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "63X-7RZ (Four-axles)",
+      "type": "Truck Mounted Pump",
+      "image": "/equipment/concrete-pump/63x-7rz.webp",
+      "boom_data": {
+        "reach_height": "62.20m",
+        "horizontal_reach": "57.00m",
+        "reach_depth": "45.80m",
+        "unfolding_height": "15.83m",
+        "sections": 7,
+        "folding_system": "RZ",
+        "end_hose_length": "3m",
+        "delivery_line": "DN125mm"
+      },
+      "pump_data": {
+        "max_output": "180m³/h",
+        "max_pressure": "113bar",
+        "delivery_cylinder": "Φ260mm",
+        "stroke": "2100mm"
+      },
+      "chassis_data": null
+    },
+    {
+      "model": "6JBJ-R",
+      "type": "Truck Mixer",
+      "image": "/equipment/concrete-pump/6jbj-r.webp",
+      "mixing_drum_parameters": {
+        "agitator_capacity": "6m³",
+        "inclination": "14°",
+        "filling_rate": "56%",
+        "filling_speed": null,
+        "discharging_speed": null,
+        "diameter": "2270mm",
+        "rotation_speed": "0-16rpm",
+        "range_of_slump": null,
+        "water_tank_capacity": "450L",
+        "water_supply_type": null,
+        "water_supply_pressure": "4bar"
+      },
+      "chassis_parameters": {
+        "engine": "CA6DL1-32E5 Model",
+        "rated_power": "238kW",
+        "gearbox": "CA9TB160M Model",
+        "front_axle": "7T",
+        "middle_and_rear_axle": "22T",
+        "emission_standard": "China 5",
+        "driven_by": null
+      }
+    },
+    {
+      "model": "8JBJ-R",
+      "type": "Truck Mixer",
+      "image": "/equipment/concrete-pump/8jbj-r.webp",
+      "mixing_drum_parameters": {
+        "agitator_capacity": "9.9m³",
+        "inclination": "14.3°",
+        "filling_rate": "56.45%",
+        "filling_speed": null,
+        "discharging_speed": null,
+        "diameter": "2270mm",
+        "rotation_speed": "0-16rpm",
+        "range_of_slump": null,
+        "water_tank_capacity": "450L",
+        "water_supply_type": null,
+        "water_supply_pressure": "4bar"
+      },
+      "chassis_parameters": {
+        "engine": "WP10.270E53",
+        "rated_power": "199/1900 kW/r/min",
+        "gearbox": "9JSD135T",
+        "front_axle": "8.5T",
+        "middle_and_rear_axle": "26T",
+        "emission_standard": "CHINA5",
+        "driven_by": null
+      }
+    },
+    {
+      "model": "9JBH-R",
+      "type": "Truck Mixer",
+      "image": "/equipment/concrete-pump/9jbh-r.webp",
+      "mixing_drum_parameters": {
+        "agitator_capacity": "9 m³",
+        "inclination": null,
+        "filling_rate": null,
+        "filling_speed": "≥4 m³/min",
+        "discharging_speed": "≥3 m³/min",
+        "diameter": null,
+        "rotation_speed": "12-16 rpm",
+        "range_of_slump": "50-210 mm",
+        "water_tank_capacity": "450 L",
+        "water_supply_type": "Air Pressure",
+        "water_supply_pressure": null
+      },
+      "chassis_parameters": {
+        "engine": null,
+        "rated_power": "247/2200 kW/r/min",
+        "gearbox": null,
+        "front_axle": null,
+        "middle_and_rear_axle": null,
+        "emission_standard": null,
+        "driven_by": "Flywheel P.T.O"
+      }
+    },
+    {
+      "model": "12JBJ",
+      "type": "Truck Mixer",
+      "image": "/equipment/concrete-pump/12jbj.webp",
+      "mixing_drum_parameters": {
+        "agitator_capacity": "12 m³",
+        "inclination": null,
+        "filling_rate": null,
+        "filling_speed": "≥4 m³/min",
+        "discharging_speed": "≥3 m³/min",
+        "diameter": null,
+        "rotation_speed": "12-16 rpm",
+        "range_of_slump": "50-210 mm",
+        "water_tank_capacity": "450 L",
+        "water_supply_type": "Air Pressure",
+        "water_supply_pressure": null
+      },
+      "chassis_parameters": {
+        "engine": null,
+        "rated_power": "257/1900 kW/r/min",
+        "gearbox": null,
+        "front_axle": null,
+        "middle_and_rear_axle": null,
+        "emission_standard": null,
+        "driven_by": "Flywheel P.T.O"
+      }
+    },
+    {
+      "model": "10JBH",
+      "type": "Truck Mixer",
+      "image": "/equipment/concrete-pump/10jbh.webp",
+      "mixing_drum_parameters": {
+        "agitator_capacity": "11.6m³",
+        "inclination": "14.3°",
+        "filling_rate": "67%",
+        "filling_speed": null,
+        "discharging_speed": null,
+        "diameter": "2350mm",
+        "rotation_speed": "0-16rpm",
+        "range_of_slump": null,
+        "water_tank_capacity": "450L",
+        "water_supply_type": null,
+        "water_supply_pressure": "4bar"
+      },
+      "chassis_parameters": {
+        "engine": "WP10.340E2 Model",
+        "rated_power": "250kW",
+        "gearbox": "HW19709XS Model",
+        "front_axle": "9.5T",
+        "middle_and_rear_axle": "32T",
+        "emission_standard": "CHINA 2",
+        "driven_by": null
+      }
+    },
+    {
+      "model": "HBT50.10.60RS",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt50.10.60rs.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "49/26m³/h",
+        "max_concrete_pumping_pressure": "100/50bar",
+        "pump_cylinder_bore_x_stroke": "Φ100x1250mm",
+        "concrete_cylinder_diameter_x_stroke": "Φ180x1250mm",
+        "hopper_capacity": "500L",
+        "filling_height": "1400mm",
+        "distribution_valve_form": "S-tube valve",
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": "Φ180mm",
+        "strokes_per_minute": null,
+        "max_aggregate_diameter": null
+      },
+      "power_system": {
+        "engine_model": "4BTA3.9-C80",
+        "rated_engine_power_speed": "60/2200kW/(r/min)",
+        "rated_power": null,
+        "emission_standard": "Non-road China 3"
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": null,
+        "dimensions": "5390x2090x2550mm",
+        "total_weight": "4200kg"
+      }
+    },
+    {
+      "model": "HBT60.13.118RS",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt60.13.118rs.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "67/41m³/h",
+        "max_concrete_pumping_pressure": "130/70bar",
+        "pump_cylinder_bore_x_stroke": "Φ125x1710",
+        "concrete_cylinder_diameter_x_stroke": "Φ200x1710",
+        "hopper_capacity": "600L",
+        "filling_height": "1430mm",
+        "distribution_valve_form": "S-tube valve",
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": "Φ180mm",
+        "strokes_per_minute": null,
+        "max_aggregate_diameter": null
+      },
+      "power_system": {
+        "engine_model": "WP4.1NG160E300",
+        "rated_engine_power_speed": "118/2300kW/(r/min)",
+        "rated_power": null,
+        "emission_standard": "Non-road China 3"
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": null,
+        "dimensions": "6700x2100x2700mm",
+        "total_weight": "6390kg"
+      }
+    },
+    {
+      "model": "HBT60.13.90SU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt60.13.90su.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "67/41m³/h",
+        "max_concrete_pumping_pressure": "130/70bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "19.8/12Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "90kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7000mmx2200mmx2300mm",
+        "total_weight": "6950kg"
+      }
+    },
+    {
+      "model": "HBT60.13.118RSD",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt60.13.118rsd.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "67/41m³/h",
+        "max_concrete_pumping_pressure": "130/70bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1710mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1400mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "21/13Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "118kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "6700mmx2100mmx2700mm",
+        "total_weight": "6500kg"
+      }
+    },
+    {
+      "model": "HBT60.16.110SU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt60.16.110su.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "72/44m3/h",
+        "max_concrete_pumping_pressure": "160/90bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "21.2/12.8Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "110kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7000mmx2200mmx2300mm",
+        "total_weight": "7390kg"
+      }
+    },
+    {
+      "model": "HBT80.16.199RSU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt80.16.199rsu.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "81/49m3/h",
+        "max_concrete_pumping_pressure": "160/90bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "23/14Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "199kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "6800mmx2200mmx2700mm",
+        "total_weight": "7540kg"
+      }
+    },
+    {
+      "model": "HBT80.16.174RSU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt80.16.174rsu.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "81/49m3/h",
+        "max_concrete_pumping_pressure": "160/90bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "23/14Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "174kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7200mmx2200mmx2700mm",
+        "total_weight": "7540kg"
+      }
+    },
+    {
+      "model": "HBT100.18.199RSU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt100.18.199rsu.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "93/54m3/h",
+        "max_concrete_pumping_pressure": "180/100bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "27.3/15.8Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "186/199kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7200mmx2200mmx2750mm",
+        "total_weight": "7900kg"
+      }
+    },
+    {
+      "model": "HBT100.18.186RSU",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt100.18.186rsu.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "93/54m3/h",
+        "max_concrete_pumping_pressure": "180/100bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "600L",
+        "filling_height": "1450mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "27.3/15.8Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "186/199kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7200mmx2200mmx2750mm",
+        "total_weight": "7900kg"
+      }
+    },
+    {
+      "model": "HBT105.21.273RSD",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt105.21.273rsd.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "105/65m3/h",
+        "max_concrete_pumping_pressure": "210/130bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "800L",
+        "filling_height": "1400mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Closed",
+        "outlet_diameter": null,
+        "strokes_per_minute": "26/16Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "286/273kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7200mmx2250mmx2940mm",
+        "total_weight": "9700kg"
+      }
+    },
+    {
+      "model": "HBT105.21.286RSD",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt105.21.286rsd.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "105/65m3/h",
+        "max_concrete_pumping_pressure": "210/130bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "800L",
+        "filling_height": "1400mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Closed",
+        "outlet_diameter": null,
+        "strokes_per_minute": "26/16Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "286/273kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7200mmx2250mmx2940mm",
+        "total_weight": "9700kg"
+      }
+    },
+    {
+      "model": "HBT105.21.294RS",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt105.21.294rs.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "101/64m3/h",
+        "max_concrete_pumping_pressure": "210/130bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity": "800L",
+        "filling_height": "1400mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Closed",
+        "outlet_diameter": null,
+        "strokes_per_minute": "25/16Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "294kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7650mmx2250mmx2900mm",
+        "total_weight": "10000kg"
+      }
+    },
+    {
+      "model": "HBT110.26.372RS",
+      "type": "Trailer Pump",
+      "image": "/equipment/concrete-pump/hbt110.26.372rs.webp",
+      "pump_details": {
+        "max_theo_concrete_output": "112/73m3/h",
+        "max_concrete_pumping_pressure": "260/160bar",
+        "pump_cylinder_bore_x_stroke": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx2100mm",
+        "hopper_capacity": "800L",
+        "filling_height": "1410mm",
+        "distribution_valve_form": null,
+        "hydraulic_system_type": "Open",
+        "outlet_diameter": null,
+        "strokes_per_minute": "26.5/16.6Min -1",
+        "max_aggregate_diameter": "50/Φ150mm"
+      },
+      "power_system": {
+        "engine_model": null,
+        "rated_engine_power_speed": null,
+        "rated_power": "2x186kW",
+        "emission_standard": null
+      },
+      "machine_specs": {
+        "inside_diameter_of_delivering_pipe": "Φ125/Φ150mm",
+        "secondary_pipe_diameter": "40/Φ125mm",
+        "dimensions": "7700mmx2430mmx2800mm",
+        "total_weight": "13000kg"
+      }
+    },
+    {
+      "model": "10528R",
+      "type": "City Pump",
+      "image": "/equipment/concrete-pump/10528r.webp",
+      "pumping_unit": {
+        "maximum_theorical_output": "105/70m³/h",
+        "maximum_theorical_pressure": "28/17Mpa",
+        "pumping_frequency": "31/20Min -1",
+        "distribution_valve_type": "S Valve",
+        "concrete_cylinder_diameter_x_stroke": "Φ200mmx1800mm",
+        "hopper_capacity_x_feeding_height": "600Lx1500mm",
+        "outlet_diameter": "Φ160mm",
+        "recommended_concrete_slump": "12-23cm",
+        "pump_cylinder_bore_x_stroke": null,
+        "hydraulic_circuit": null
+      },
+      "power_system": {
+        "rated_power": "186/2100kW/(r/min)",
+        "engine_moment": "1000/1600N.m/(r/min)",
+        "maximum_displacement": "7145cc",
+        "engine_type": null,
+        "emission_standard": null
+      },
+      "hydraulic_system": {
+        "pumping_system_pressure": "35Mpa",
+        "distribution_system_pressure": "19Mpa",
+        "mixing_system_pressure": "12Mpa",
+        "capacity_of_oil_tank": "900L",
+        "cooler_for_hydraulic": "Wind"
+      },
+      "other": {
+        "total_weight": "13105kg",
+        "dimensions": "7120mmx2940mmx2830mm",
+        "wheelbase": null
+      }
+    },
+    {
+      "model": "10026R",
+      "type": "City Pump",
+      "image": "/equipment/concrete-pump/10026r.webp",
+      "pumping_unit": {
+        "maximum_theorical_output": "100/52m³/h",
+        "maximum_theorical_pressure": "26.5/13.5Mpa",
+        "pumping_frequency": "24/13Min -1",
+        "distribution_valve_type": "S Valve",
+        "concrete_cylinder_diameter_x_stroke": "Φ230mmx1600mm",
+        "hopper_capacity_x_feeding_height": "500Lx1430mm",
+        "outlet_diameter": "Φ160mm",
+        "recommended_concrete_slump": "12-23cm",
+        "pump_cylinder_bore_x_stroke": null,
+        "hydraulic_circuit": null
+      },
+      "power_system": {
+        "rated_power": "247/2200kW/(r/min)",
+        "engine_moment": "1550/1200-1500N.m/(r/min)",
+        "maximum_displacement": "7145cc",
+        "engine_type": null,
+        "emission_standard": null
+      },
+      "hydraulic_system": {
+        "pumping_system_pressure": "35Mpa",
+        "distribution_system_pressure": "19Mpa",
+        "mixing_system_pressure": "14Mpa",
+        "capacity_of_oil_tank": "720L",
+        "cooler_for_hydraulic": "Wind"
+      },
+      "other": {
+        "total_weight": "15000kg",
+        "dimensions": "9280mmx2490mmx2990mm",
+        "wheelbase": null
+      }
+    },
+    {
+      "model": "9024R",
+      "type": "City Pump",
+      "image": "/equipment/concrete-pump/9024r.webp",
+      "pumping_unit": {
+        "maximum_theorical_output": "90/45m³/h",
+        "maximum_theorical_pressure": "24/13Mpa",
+        "pumping_frequency": "30/17Min -1",
+        "distribution_valve_type": "S Valve",
+        "concrete_cylinder_diameter_x_stroke": "Φ230mmx1600mm",
+        "hopper_capacity_x_feeding_height": "600Lx1500mm",
+        "outlet_diameter": "Φ160mm",
+        "recommended_concrete_slump": "12-23cm",
+        "pump_cylinder_bore_x_stroke": null,
+        "hydraulic_circuit": null
+      },
+      "power_system": {
+        "rated_power": "199/2300kW/(r/min)",
+        "engine_moment": "1200/1200-1500N.m/(r/min)",
+        "maximum_displacement": "7470cc",
+        "engine_type": null,
+        "emission_standard": null
+      },
+      "hydraulic_system": {
+        "pumping_system_pressure": "35Mpa",
+        "distribution_system_pressure": "19Mpa",
+        "mixing_system_pressure": "12Mpa",
+        "capacity_of_oil_tank": "720L",
+        "cooler_for_hydraulic": "Wind"
+      },
+      "other": {
+        "total_weight": "13800kg",
+        "dimensions": "9100mmx2450mmx3140mm",
+        "wheelbase": null
+      }
+    },
+    {
+      "model": "10022R",
+      "type": "City Pump",
+      "image": "/equipment/concrete-pump/10022r.webp",
+      "pumping_unit": {
+        "maximum_theorical_output": "100/50m3/h",
+        "maximum_theorical_pressure": "22/12Mpa",
+        "pumping_frequency": "23/13Min -1",
+        "distribution_valve_type": "S Valve",
+        "concrete_cylinder_diameter_x_stroke": "Φ230mmx1600mm",
+        "hopper_capacity_x_feeding_height": "600Lx1500mm",
+        "outlet_diameter": "Φ180mm",
+        "recommended_concrete_slump": "12-23cm",
+        "pump_cylinder_bore_x_stroke": null,
+        "hydraulic_circuit": null
+      },
+      "power_system": {
+        "rated_power": "186/2100kW/(r/min)",
+        "engine_moment": "1000/1600N.m/(r/min)",
+        "maximum_displacement": "7145cc",
+        "engine_type": null,
+        "emission_standard": null
+      },
+      "hydraulic_system": {
+        "pumping_system_pressure": "32Mpa",
+        "distribution_system_pressure": "19Mpa",
+        "mixing_system_pressure": "14Mpa",
+        "capacity_of_oil_tank": "720L",
+        "cooler_for_hydraulic": "Wind"
+      },
+      "other": {
+        "total_weight": "13600kg",
+        "dimensions": "9100mmx2450mmx3140mm",
+        "wheelbase": null
+      }
+    },
+    {
+      "model": "10020R",
+      "type": "City Pump",
+      "image": "/equipment/concrete-pump/10020r.webp",
+      "pumping_unit": {
+        "maximum_theorical_output": "100/55m³/h",
+        "maximum_theorical_pressure": "200/110bar",
+        "pumping_frequency": null,
+        "distribution_valve_type": null,
+        "concrete_cylinder_diameter_x_stroke": "Φ200x1650mm",
+        "hopper_capacity_x_feeding_height": null,
+        "outlet_diameter": "Φ180mm",
+        "recommended_concrete_slump": null,
+        "pump_cylinder_bore_x_stroke": "Φ150x1650mm",
+        "hydraulic_circuit": "Open"
+      },
+      "power_system": {
+        "rated_power": "186/2100kW/(r/min)",
+        "engine_moment": null,
+        "maximum_displacement": null,
+        "engine_type": "EQH180-52",
+        "emission_standard": "China 5"
+      },
+      "hydraulic_system": {
+        "pumping_system_pressure": null,
+        "distribution_system_pressure": null,
+        "mixing_system_pressure": null,
+        "capacity_of_oil_tank": null,
+        "cooler_for_hydraulic": null
+      },
+      "other": {
+        "total_weight": "13800kg",
+        "dimensions": "9000x2450x3180mm",
+        "wheelbase": "4900mm"
+      }
+    }
+  ]
+}

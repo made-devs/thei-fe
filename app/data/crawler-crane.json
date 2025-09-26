@@ -1,0 +1,470 @@
+{
+  "crawler_cranes": [
+    {
+      "model": "ZCC2200V",
+      "image": "/equipment/crawler-crane/zcc2200v.webp",
+      "technical_data": {
+        "max_lifting_capacity": "220t",
+        "max_lifting_moment": "1201t.m",
+        "gradeability": "30%",
+        "slewing_speed": "0-1.16r/min",
+        "traveling_speed": "0-1.2km/h",
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC32000",
+      "image": "/equipment/crawler-crane/zcc32000.webp",
+      "technical_data": {
+        "max_lifting_capacity": "2000t",
+        "max_lifting_moment": "32000t.m",
+        "gradeability": "10%",
+        "slewing_speed": "0-0.9r/min",
+        "traveling_speed": "0-0.63km/h",
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC18000",
+      "image": "/equipment/crawler-crane/zcc18000.webp",
+      "technical_data": {
+        "max_lifting_capacity": "1600t",
+        "max_lifting_moment": "18000t.m",
+        "gradeability": "15%",
+        "slewing_speed": "0-0.7r/min",
+        "traveling_speed": "0-0.7km/h",
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC9800W",
+      "image": "/equipment/crawler-crane/zcc9800w.webp",
+      "technical_data": {
+        "max_lifting_capacity": "800t",
+        "max_lifting_moment": "11000t.m",
+        "gradeability": "30%",
+        "slewing_speed": "0-0.7r/min",
+        "traveling_speed": "0-1.0km/h",
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC7200",
+      "image": "/equipment/crawler-crane/zcc7200.webp",
+      "technical_data": {
+        "max_lifting_capacity": "600t",
+        "max_lifting_moment": "7200t.m",
+        "gradeability": "30%",
+        "slewing_speed": "0-1.0r/min",
+        "traveling_speed": "0-0.8km/h",
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC5800",
+      "image": "/equipment/crawler-crane/zcc5800.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC1000V",
+      "image": "/equipment/crawler-crane/zcc1000v.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "425t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "12t",
+        "main_boom_length": "13-64m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "52+19m"
+      }
+    },
+    {
+      "model": "ZCC2600-2",
+      "image": "/equipment/crawler-crane/zcc2600-2.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC1600HD",
+      "image": "/equipment/crawler-crane/zcc1600hd.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC17000E5",
+      "image": "/equipment/crawler-crane/zcc17000e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC17000",
+      "image": "/equipment/crawler-crane/zcc17000.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC12800E5",
+      "image": "/equipment/crawler-crane/zcc12800e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC12800",
+      "image": "/equipment/crawler-crane/zcc12800.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC4000VE5",
+      "image": "/equipment/crawler-crane/zcc4000ve5.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC4000V",
+      "image": "/equipment/crawler-crane/zcc4000v.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC3500V-2E5",
+      "image": "/equipment/crawler-crane/zcc3500v-2e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC3500V-2",
+      "image": "/equipment/crawler-crane/zcc3500v-2.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC3200V-1",
+      "image": "/equipment/crawler-crane/zcc3200v-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCC2200VE5",
+      "image": "/equipment/crawler-crane/zcc2200ve5.webp",
+      "technical_data": {
+        "max_lifting_capacity": "220t",
+        "max_lifting_moment": "1201t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "71.8t",
+        "main_boom_length": "16-85m",
+        "fixed_jib_length": "22-52m",
+        "max_length_of_main_boom_fixed_jib": "55+52m"
+      }
+    },
+    {
+      "model": "ZCC1500V-1EVD",
+      "image": "/equipment/crawler-crane/zcc1500v-1evd.webp",
+      "technical_data": {
+        "max_lifting_capacity": "150t",
+        "max_lifting_moment": "849.6t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "46.1t",
+        "main_boom_length": "16-76m",
+        "fixed_jib_length": "13-31m",
+        "max_length_of_main_boom_fixed_jib": "52+31m"
+      }
+    },
+
+    {
+      "model": "ZCC1100V",
+      "image": "/equipment/crawler-crane/zcc1100v.webp",
+      "technical_data": {
+        "max_lifting_capacity": "110t",
+        "max_lifting_moment": "500t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "12t",
+        "main_boom_length": "13-64m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "52+19m"
+      }
+    },
+    {
+      "model": "ZCC1500V-1E5",
+      "image": "/equipment/crawler-crane/zcc1500v-1e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": "150t",
+        "max_lifting_moment": "849.6t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "46.1t",
+        "main_boom_length": "16-76m",
+        "fixed_jib_length": "13-31m",
+        "max_length_of_main_boom_fixed_jib": "52+31m"
+      }
+    },
+    {
+      "model": "ZCC1500V-1",
+      "image": "/equipment/crawler-crane/zcc1500v-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "150t",
+        "max_lifting_moment": "849.6t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "46.1t",
+        "main_boom_length": "16-76m",
+        "fixed_jib_length": "13-31m",
+        "max_length_of_main_boom_fixed_jib": "52+31m"
+      }
+    },
+    {
+      "model": "ZCC1000V-1E5",
+      "image": "/equipment/crawler-crane/zcc1000v-1e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "412t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "15t",
+        "main_boom_length": "13-61m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "49+19m"
+      }
+    },
+    {
+      "model": "ZCC1000V-1",
+      "image": "/equipment/crawler-crane/zcc1000v-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "412t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "15t",
+        "main_boom_length": "13-61m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "49+19m"
+      }
+    },
+    {
+      "model": "ZCC850V-1EV",
+      "image": "/equipment/crawler-crane/zcc850v-1ev.webp",
+      "technical_data": {
+        "max_lifting_capacity": "85t",
+        "max_lifting_moment": "363t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "15t",
+        "main_boom_length": "13-61m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "49+19m"
+      }
+    },
+    {
+      "model": "ZCC850V-1E5",
+      "image": "/equipment/crawler-crane/zcc850v-1e5.webp",
+      "technical_data": {
+        "max_lifting_capacity": "85t",
+        "max_lifting_moment": "363t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "15t",
+        "main_boom_length": "13-61m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "49+19m"
+      }
+    },
+    {
+      "model": "ZCC850V-1",
+      "image": "/equipment/crawler-crane/zcc850v-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "85t",
+        "max_lifting_moment": "363t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "15t",
+        "main_boom_length": "13-61m",
+        "fixed_jib_length": "7-19m",
+        "max_length_of_main_boom_fixed_jib": "49+19m"
+      }
+    },
+    {
+      "model": "ZCC600V-1",
+      "image": "/equipment/crawler-crane/zcc600v-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "60t",
+        "max_lifting_moment": "222t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "12t",
+        "main_boom_length": "13-52m",
+        "fixed_jib_length": "7-15m",
+        "max_length_of_main_boom_fixed_jib": "43+15m/46+7m"
+      }
+    },
+    {
+      "model": "ZCC500V",
+      "image": "/equipment/crawler-crane/zcc500v.webp",
+      "technical_data": {
+        "max_lifting_capacity": "50t",
+        "max_lifting_moment": "169.6t.m",
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": "5t",
+        "main_boom_length": "46m",
+        "fixed_jib_length": "7m",
+        "max_length_of_main_boom_fixed_jib": "46+7m"
+      }
+    },
+    {
+      "model": "ZCC550V",
+      "image": "/equipment/crawler-crane/zcc550v.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "gradeability": null,
+        "slewing_speed": null,
+        "traveling_speed": null,
+        "max_lifting_capacity_of_fixed_jib": null,
+        "main_boom_length": null,
+        "fixed_jib_length": null,
+        "max_length_of_main_boom_fixed_jib": null
+      }
+    }
+  ]
+}

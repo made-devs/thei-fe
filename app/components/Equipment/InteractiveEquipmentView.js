@@ -1,17 +1,26 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { ChevronRight, ListChecks, MessageSquare } from 'lucide-react';
-import Link from 'next/link';
+import { useState } from "react";
+import Image from "next/image";
+import { ChevronRight, ListChecks, MessageSquare } from "lucide-react";
+import Link from "next/link";
 
 // Kartu produk sekarang lebih fleksibel untuk menampilkan data yang berbeda
 const ProductCard = ({ product, categoryName }) => {
   // Tentukan tipe produk untuk menampilkan data yang benar
-  const isForklift = !!product.performance;
+  const isForklift = !!product.performance?.rated_capacity;
   const isBulldozer = !!product.basic_technical_data?.blade_capacity;
   const isCrane = !!product.lifting_performance;
   const isSkidSteer = !!product.dimensions_and_performance;
+  const isBoomLift = !!product.size?.work_height;
+  const isTelehandler = !!product.size_and_performance;
+  const isCrawlerCrane =
+    !!product.technical_data && categoryName.includes("Crawler Crane");
+  // Tambahkan pengecekan untuk tipe-tipe baru
+  const isTruckMountedPump = product.type === "Truck Mounted Pump";
+  const isTruckMixer = product.type === "Truck Mixer";
+  const isTrailerPump = product.type === "Trailer Pump";
+  const isCityPump = product.type === "City Pump";
 
   const displayType = product.subtype
     ? `${categoryName} (${product.subtype})`
@@ -21,8 +30,10 @@ const ProductCard = ({ product, categoryName }) => {
     <div className="group flex flex-col bg-white rounded-lg shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden border border-gray-200">
       <div className="relative h-48 w-full overflow-hidden">
         <Image
-          src={product.image || 'https://placehold.co/600x400?text=No+Image'}
-          alt={product.model || 'Equipment'}
+          src={
+            product.image || "https://placehold.co/600x400?text=No+Image.png"
+          }
+          alt={product.model || "Equipment"}
           fill
           className="object-contain p-4 transition-transform duration-300 group-hover:scale-110"
           sizes="(max-width: 1024px) 50vw, 33vw"
@@ -57,7 +68,7 @@ const ProductCard = ({ product, categoryName }) => {
                   Engine Type:
                 </span>
                 <span className="font-bold text-black">
-                  {product.power.controller || 'Internal Combustion'}
+                  {product.power.controller || "Internal Combustion"}
                 </span>
               </div>
             </>
@@ -145,15 +156,131 @@ const ProductCard = ({ product, categoryName }) => {
                 </span>
               </div>
             </>
-          ) : (
+          ) : isBoomLift ? (
             <>
-              {/* Spesifikasi Excavator / Lainnya */}
+              {/* Spesifikasi Boom Lift */}
               <div className="flex justify-between">
                 <span className="font-semibold text-gray-600">
-                  Operating Weight:
+                  Work Height:
                 </span>
                 <span className="font-bold text-black">
-                  {product.basic_technical_data.operating_weight}
+                  {product.size.work_height}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Platform Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.performance.platform_capacity}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Horizontal Outreach:
+                </span>
+                <span className="font-bold text-black">
+                  {product.size.horizontal_outreach}
+                </span>
+              </div>
+            </>
+          ) : isTelehandler ? (
+            <>
+              {/* Spesifikasi Telehandler */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Rated Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.size_and_performance.rated_capacity}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Lift Height:
+                </span>
+                <span className="font-bold text-black">
+                  {product.size_and_performance.max_lift_height}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Forward Reach:
+                </span>
+                <span className="font-bold text-black">
+                  {product.size_and_performance.max_forward_reach}
+                </span>
+              </div>
+            </>
+          ) : isCrawlerCrane ? (
+            <>
+              {/* Spesifikasi Crawler Crane */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Lifting Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.technical_data.max_lifting_capacity}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Lifting Moment:
+                </span>
+                <span className="font-bold text-black">
+                  {product.technical_data.max_lifting_moment}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Main Boom Length:
+                </span>
+                <span className="font-bold text-black">
+                  {product.technical_data.main_boom_length}
+                </span>
+              </div>
+            </>
+          ) : isTruckMountedPump ? (
+            <>
+              {/* Spesifikasi Truck Mounted Pump */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Reach Height:
+                </span>
+                <span className="font-bold text-black">
+                  {product.boom_data?.reach_height}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">Max Output:</span>
+                <span className="font-bold text-black">
+                  {product.pump_data?.max_output}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Pressure:
+                </span>
+                <span className="font-bold text-black">
+                  {product.pump_data?.max_pressure}
+                </span>
+              </div>
+            </>
+          ) : isTruckMixer ? (
+            <>
+              {/* Spesifikasi Truck Mixer */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Agitator Capacity:
+                </span>
+                <span className="font-bold text-black">
+                  {product.mixing_drum_parameters?.agitator_capacity}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">Engine:</span>
+                <span className="font-bold text-black">
+                  {product.chassis_parameters?.engine}
                 </span>
               </div>
               <div className="flex justify-between">
@@ -161,7 +288,79 @@ const ProductCard = ({ product, categoryName }) => {
                   Rated Power:
                 </span>
                 <span className="font-bold text-black">
-                  {product.basic_technical_data.rated_power}
+                  {product.chassis_parameters?.rated_power}
+                </span>
+              </div>
+            </>
+          ) : isTrailerPump ? (
+            <>
+              {/* Spesifikasi Trailer Pump */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">Max Output:</span>
+                <span className="font-bold text-black">
+                  {product.pump_details?.max_theo_concrete_output}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Pressure:
+                </span>
+                <span className="font-bold text-black">
+                  {product.pump_details?.max_concrete_pumping_pressure}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Engine Model:
+                </span>
+                <span className="font-bold text-black">
+                  {product.power_system?.engine_model || "N/A"}
+                </span>
+              </div>
+            </>
+          ) : isCityPump ? (
+            <>
+              {/* Spesifikasi City Pump */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">Max Output:</span>
+                <span className="font-bold text-black">
+                  {product.pumping_unit?.maximum_theorical_output}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Max Pressure:
+                </span>
+                <span className="font-bold text-black">
+                  {product.pumping_unit?.maximum_theorical_pressure}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Rated Power:
+                </span>
+                <span className="font-bold text-black">
+                  {product.power_system?.rated_power}
+                </span>
+              </div>
+            </>
+          ) : (
+            <>
+              {/* Spesifikasi Default (Excavator, dll) - Dibuat lebih aman */}
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Operating Weight:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data?.operating_weight}
+                </span>
+              </div>
+              <div className="flex justify-between">
+                <span className="font-semibold text-gray-600">
+                  Rated Power:
+                </span>
+                <span className="font-bold text-black">
+                  {product.basic_technical_data?.rated_power}
                 </span>
               </div>
               <div className="flex justify-between">
@@ -169,7 +368,7 @@ const ProductCard = ({ product, categoryName }) => {
                   Digging Depth:
                 </span>
                 <span className="font-bold text-black">
-                  {product.operating_range.max_digging_depth}
+                  {product.operating_range?.max_digging_depth}
                 </span>
               </div>
             </>
@@ -207,9 +406,11 @@ const ProductCard = ({ product, categoryName }) => {
 
 export default function InteractiveEquipmentView({ categories, productData }) {
   const [activeCategory, setActiveCategory] = useState(
-    categories[0]?.name || ''
+    categories[0]?.name || ""
   );
-  const [products, setProducts] = useState(productData[activeCategory] || []);
+  const [products, setProducts] = useState(
+    productData[categories[0]?.name] || []
+  );
 
   const handleCategoryClick = (categoryName) => {
     setActiveCategory(categoryName);
@@ -230,8 +431,8 @@ export default function InteractiveEquipmentView({ categories, productData }) {
                     onClick={() => handleCategoryClick(category.name)}
                     className={`w-full text-left px-4 py-2 rounded-md transition-colors flex justify-between items-center ${
                       activeCategory === category.name
-                        ? 'bg-yellow-400 font-bold text-black'
-                        : 'hover:bg-gray-100 text-gray-700'
+                        ? "bg-yellow-400 font-bold text-black"
+                        : "hover:bg-gray-100 text-gray-700"
                     }`}
                   >
                     <span>{category.name}</span>

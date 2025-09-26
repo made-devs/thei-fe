@@ -1,0 +1,184 @@
+{
+  "telescopic_crawler_cranes": [
+    {
+      "model": "ZCT3500V853",
+      "image": "/equipment/telescopic-crawler-crane/zct300v432.webp",
+      "technical_data": {
+        "max_lifting_capacity": "350t",
+        "max_lifting_moment": "1060t.m",
+        "main_boom_length": "82.1m",
+        "max_length_of_main_boom_with_fixed_jib": "82.1+37.5m"
+      }
+    },
+    {
+      "model": "ZCT3500V843",
+      "image": "/equipment/telescopic-crawler-crane/zct3500v843.webp",
+      "technical_data": {
+        "max_lifting_capacity": "350t",
+        "max_lifting_moment": "1060t.m",
+        "main_boom_length": "82.1m",
+        "max_length_of_main_boom_with_fixed_jib": "82.1+37.5m"
+      }
+    },
+    {
+      "model": "ZCT1500V653",
+      "image": "/equipment/telescopic-crawler-crane/zct1500v653.webp",
+      "technical_data": {
+        "max_lifting_capacity": "150t",
+        "max_lifting_moment": "533t.m",
+        "main_boom_length": "65m",
+        "max_length_of_main_boom_with_fixed_jib": "65+17.5m"
+      }
+    },
+    {
+      "model": "ZCT1500V633",
+      "image": "/equipment/telescopic-crawler-crane/zct1500v633.webp",
+      "technical_data": {
+        "max_lifting_capacity": "150t",
+        "max_lifting_moment": "533t.m",
+        "main_boom_length": "65m",
+        "max_length_of_main_boom_with_fixed_jib": "65+17.5m"
+      }
+    },
+    {
+      "model": "ZCT1200V633",
+      "image": "/equipment/telescopic-crawler-crane/zct1200v633.webp",
+      "technical_data": {
+        "max_lifting_capacity": "120t",
+        "max_lifting_moment": "450t.m",
+        "main_boom_length": "65.7m",
+        "max_length_of_main_boom_with_fixed_jib": "65.7+17.5m"
+      }
+    },
+    {
+      "model": "ZCT1000V502EV",
+      "image": "/equipment/telescopic-crawler-crane/zct1000v502ev.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "352t.m",
+        "main_boom_length": "50m",
+        "max_length_of_main_boom_with_fixed_jib": "50+16m"
+      }
+    },
+    {
+      "model": "ZCT1000V552.1",
+      "image": "/equipment/telescopic-crawler-crane/zct1000v552.1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "315t.m",
+        "main_boom_length": "47m",
+        "max_length_of_main_boom_with_fixed_jib": "47+14.2m"
+      }
+    },
+    {
+      "model": "ZCT1000V532",
+      "image": "/equipment/telescopic-crawler-crane/zct1000v532.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_moment": "352t.m",
+        "main_boom_length": "50m",
+        "max_length_of_main_boom_with_fixed_jib": "50+16m"
+      }
+    },
+    {
+      "model": "ZCT600V532",
+      "image": "/equipment/telescopic-crawler-crane/zct600v532.webp",
+      "technical_data": {
+        "max_lifting_capacity": "60t",
+        "max_lifting_moment": "225t.m",
+        "main_boom_length": "46m",
+        "max_length_of_main_boom_with_fixed_jib": "46+16m"
+      }
+    },
+    {
+      "model": "ZCT500V542",
+      "image": "/equipment/telescopic-crawler-crane/zct500v542.webp",
+      "technical_data": {
+        "max_lifting_capacity": "50t",
+        "max_lifting_moment": "185t.m",
+        "main_boom_length": "45.5m",
+        "max_length_of_main_boom_with_fixed_jib": "45.5+9.5m"
+      }
+    },
+    {
+      "model": "ZCT300V502EV",
+      "image": "/equipment/telescopic-crawler-crane/zct300v502ev.webp",
+      "technical_data": {
+        "max_lifting_capacity": "30t",
+        "max_lifting_moment": "125.5t.m",
+        "main_boom_length": "43m",
+        "max_length_of_main_boom_with_fixed_jib": "43+8m"
+      }
+    },
+    {
+      "model": "ZCT300V532-1",
+      "image": "/equipment/telescopic-crawler-crane/zct300v532-1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "30t",
+        "max_lifting_moment": "125.5t.m",
+        "main_boom_length": "43m",
+        "max_length_of_main_boom_with_fixed_jib": "43+8m"
+      }
+    },
+    {
+      "model": "ZCT300V442",
+      "image": "/equipment/telescopic-crawler-crane/zct300v442.webp",
+      "technical_data": {
+        "max_lifting_capacity": "30t",
+        "max_lifting_moment": "1127kN.m",
+        "main_boom_length": "35m",
+        "max_length_of_main_boom_with_fixed_jib": "35+8m"
+      }
+    },
+    {
+      "model": "ZCT160V442",
+      "image": "/equipment/telescopic-crawler-crane/zct160v442.webp",
+      "technical_data": {
+        "max_lifting_capacity": "16t",
+        "max_lifting_moment": "51.2t.m",
+        "main_boom_length": "9.5-31.1m",
+        "max_length_of_main_boom_with_fixed_jib": "31.1+6m"
+      }
+    },
+    {
+      "model": "ZCT900",
+      "image": "/equipment/telescopic-crawler-crane/zct900.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "main_boom_length": null,
+        "max_length_of_main_boom_with_fixed_jib": null
+      }
+    },
+    {
+      "model": "ZCT900V532.1",
+      "image": "/equipment/telescopic-crawler-crane/zct900v532.1.webp",
+      "technical_data": {
+        "max_lifting_capacity": "90t",
+        "max_lifting_moment": "315t.m",
+        "main_boom_length": "12.1-47m",
+        "max_length_of_main_boom_with_fixed_jib": "47+14.2m"
+      }
+    },
+    {
+      "model": "ZCT300V532",
+      "image": "/equipment/telescopic-crawler-crane/zct300v532.webp",
+      "technical_data": {
+        "max_lifting_capacity": "30t",
+        "max_lifting_moment": "1127KN.m",
+        "main_boom_length": "10.7-35m",
+        "max_length_of_main_boom_with_fixed_jib": "35+8m"
+      }
+    },
+    {
+      "model": "ZCT300V432",
+      "image": "/equipment/telescopic-crawler-crane/zct300v432.webp",
+      "technical_data": {
+        "max_lifting_capacity": null,
+        "max_lifting_moment": null,
+        "main_boom_length": null,
+        "max_length_of_main_boom_with_fixed_jib": null
+      }
+    }
+  ]
+}

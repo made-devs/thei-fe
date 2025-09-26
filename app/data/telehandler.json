@@ -1,0 +1,310 @@
+{
+  "telehandlers": [
+    {
+      "model": "ZTH4525R",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth4525r.webp",
+      "size_and_performance": {
+        "overall_length": "9.28m",
+        "overall_width": "2.48m",
+        "overall_height": "3.15m",
+        "wheelbase": "3.07m",
+        "min_ground_clearance": "0.35m",
+        "rated_capacity": "4500kg",
+        "max_lift_height": "24.8m",
+        "lift_capacity_at_max_height": "2000kg",
+        "max_forward_reach": "19m",
+        "lift_capacity_at_max_reach": "300kg",
+        "weight": "17000kg",
+        "max_traction_force": "82KN",
+        "turning_radius_outside": "4.2m",
+        "frame_leveling_angle": null
+      },
+      "power_and_transmission": {
+        "engine": "CumminsQSF3.8_02/CumminsF4.5/CumminsF3.8_01",
+        "rated_power": "93/89/90kw",
+        "max_torque": "500Nm",
+        "cylinder": "4",
+        "displacement": "3800/4500/3800ml",
+        "transmission": "Hydrostatic",
+        "max_drive_speed": "32km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "107-280L/min-bar",
+        "hydraulic_tank_capacity": "150L",
+        "fuel_tank_capacity": "140L"
+      },
+      "tire_and_fork": {
+        "tire_type": "445/65-22.5",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "118°"
+      },
+      "working_speed": {
+        "boom_up_down": "37/23s",
+        "boom_extend_retract": "38/36s",
+        "fork_lift": "6s",
+        "fork_retract": "5s",
+        "rotate_speed": "2.3/min",
+        "outrigger_lowering": "6s",
+        "outrigger_retracting": "5s"
+      }
+    },
+    {
+      "model": "ZTH4518R",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth4518r.webp",
+      "size_and_performance": {
+        "overall_length": "7.33m",
+        "overall_width": "2.45m",
+        "overall_height": "3.11m",
+        "wheelbase": "2.6m",
+        "min_ground_clearance": "0.35m",
+        "rated_capacity": "4500kg",
+        "max_lift_height": "18m",
+        "lift_capacity_at_max_height": "3000kg",
+        "max_forward_reach": "15.1m",
+        "lift_capacity_at_max_reach": "600kg",
+        "weight": "14500kg",
+        "max_traction_force": "92KN",
+        "turning_radius_outside": "3.6m",
+        "frame_leveling_angle": null
+      },
+      "power_and_transmission": {
+        "engine": "CumminsQSF3.8_02/CumminsF4.5/CumminsF3.8_01",
+        "rated_power": "93/89/90kw",
+        "max_torque": "500Nm",
+        "cylinder": "4",
+        "displacement": "3800/4500/3800ml",
+        "transmission": "Hydrostatic",
+        "max_drive_speed": "35km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "107-280L/min-bar",
+        "hydraulic_tank_capacity": "150L",
+        "fuel_tank_capacity": "140L"
+      },
+      "tire_and_fork": {
+        "tire_type": "405/70-20 18PR",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "118°"
+      },
+      "working_speed": {
+        "boom_up_down": "26/19s",
+        "boom_extend_retract": "19/19s",
+        "fork_lift": "6s",
+        "fork_retract": "5s",
+        "rotate_speed": "2.3/min",
+        "outrigger_lowering": "6s",
+        "outrigger_retracting": "5s"
+      }
+    },
+    {
+      "model": "ZTH4018",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth4018.webp",
+      "size_and_performance": {
+        "overall_length": "6.48m",
+        "overall_width": "2.29m",
+        "overall_height": "2.57m",
+        "wheelbase": "3.07m",
+        "min_ground_clearance": "0.42m& 1ft.5in",
+        "rated_capacity": "4000kg",
+        "max_lift_height": "17.6m",
+        "lift_capacity_at_max_height": "2500kg",
+        "max_forward_reach": "13.4m",
+        "lift_capacity_at_max_reach": "850kg",
+        "weight": "12700kg",
+        "max_traction_force": "71KN",
+        "turning_radius_outside": "3.8m",
+        "frame_leveling_angle": "±10°"
+      },
+      "power_and_transmission": {
+        "engine": "Cummins QSF3.8/Cummins F3.8",
+        "rated_power": "73/55KW",
+        "max_torque": "420/400Nm",
+        "cylinder": "4",
+        "displacement": "3760ml",
+        "transmission": "Hydraulic",
+        "max_drive_speed": "30/25km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "150L/min.280bar",
+        "hydraulic_tank_capacity": "145L",
+        "fuel_tank_capacity": "145L"
+      },
+      "tire_and_fork": {
+        "tire_type": "400/80R24",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "126°"
+      },
+      "working_speed": {
+        "boom_up_down": "18/13s",
+        "boom_extend_retract": "17/17s",
+        "fork_lift": "5s",
+        "fork_retract": "5s",
+        "rotate_speed": null,
+        "outrigger_lowering": null,
+        "outrigger_retracting": null
+      }
+    },
+    {
+      "model": "ZTH4014",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth4014.webp",
+      "size_and_performance": {
+        "overall_length": "6.31m",
+        "overall_width": "2.28m",
+        "overall_height": "2.57m",
+        "wheelbase": "3.07m",
+        "min_ground_clearance": "0.42m",
+        "rated_capacity": "4000kg",
+        "max_lift_height": "13.8m",
+        "lift_capacity_at_max_height": "3000kg",
+        "max_forward_reach": "9.3m",
+        "lift_capacity_at_max_reach": "1500kg",
+        "weight": "11800kg",
+        "max_traction_force": "72KN",
+        "turning_radius_outside": "3.8m",
+        "frame_leveling_angle": "±10°"
+      },
+      "power_and_transmission": {
+        "engine": "Cummins QSF3.8/Cummins F3.8",
+        "rated_power": "73/55KW",
+        "max_torque": "420/400Nm",
+        "cylinder": "4",
+        "displacement": "3760ml",
+        "transmission": "Hydrostatic",
+        "max_drive_speed": "30/25km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "135L/min280bar",
+        "hydraulic_tank_capacity": "145L",
+        "fuel_tank_capacity": "145L"
+      },
+      "tire_and_fork": {
+        "tire_type": "400/80R24",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "126°"
+      },
+      "working_speed": {
+        "boom_up_down": "18/13s",
+        "boom_extend_retract": "17/15s",
+        "fork_lift": "5s",
+        "fork_retract": "5s",
+        "rotate_speed": null,
+        "outrigger_lowering": null,
+        "outrigger_retracting": null
+      }
+    },
+    {
+      "model": "ZTH3513",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth3513.webp",
+      "size_and_performance": {
+        "overall_length": "5.84m",
+        "overall_width": "2.28m",
+        "overall_height": "2.55m",
+        "wheelbase": "3.07m",
+        "min_ground_clearance": "0.42m",
+        "rated_capacity": "3500kg",
+        "max_lift_height": "12.7m",
+        "lift_capacity_at_max_height": "3500kg",
+        "max_forward_reach": "8.75m",
+        "lift_capacity_at_max_reach": "1000kg",
+        "weight": "9880kg",
+        "max_traction_force": "82KN",
+        "turning_radius_outside": "3.8m",
+        "frame_leveling_angle": "±10°"
+      },
+      "power_and_transmission": {
+        "engine": "Cummins QSF3.8/Cummins F3.8",
+        "rated_power": "73/55KW",
+        "max_torque": "420/400Nm",
+        "cylinder": "4",
+        "displacement": "3760ml",
+        "transmission": "Hydrostatic",
+        "max_drive_speed": "32.5/22.5km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "132-70L/min-bar",
+        "hydraulic_tank_capacity": "145L",
+        "fuel_tank_capacity": "145L"
+      },
+      "tire_and_fork": {
+        "tire_type": "400/70R24",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "126°"
+      },
+      "working_speed": {
+        "boom_up_down": "15/12s",
+        "boom_extend_retract": "17/15s",
+        "fork_lift": "5s",
+        "fork_retract": "5s",
+        "rotate_speed": null,
+        "outrigger_lowering": null,
+        "outrigger_retracting": null
+      }
+    },
+    {
+      "model": "ZTH3507",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/zth3507.webp",
+      "size_and_performance": {
+        "overall_length": "4.84m",
+        "overall_width": "2.29m",
+        "overall_height": "2.57m",
+        "wheelbase": "3.04m",
+        "min_ground_clearance": "0.44m",
+        "rated_capacity": "3500kg",
+        "max_lift_height": "7m",
+        "lift_capacity_at_max_height": "3000kg",
+        "max_forward_reach": "3.95m",
+        "lift_capacity_at_max_reach": "1200kg",
+        "weight": "7965kg",
+        "max_traction_force": "66KN",
+        "turning_radius_outside": "3.98m",
+        "frame_leveling_angle": null
+      },
+      "power_and_transmission": {
+        "engine": "WEICHAI WP4.1/Cummins F3.8",
+        "rated_power": "72/90KW",
+        "max_torque": "460/500Nm",
+        "cylinder": "4",
+        "displacement": "4088/3760ml",
+        "transmission": "Hydraulic",
+        "max_drive_speed": "40km/h",
+        "steering": "Front wheels/4WS/Crab"
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Piston pump",
+        "hydraulic_flow_pressure": "150-270L/min-bar",
+        "hydraulic_tank_capacity": "145L",
+        "fuel_tank_capacity": "145L"
+      },
+      "tire_and_fork": {
+        "tire_type": "460/70R24",
+        "fork_size": "1220mmx122mmx50mm",
+        "fork_rotary": "142°"
+      },
+      "working_speed": {
+        "boom_up_down": "8/8s",
+        "boom_extend_retract": "8/9s",
+        "fork_lift": "5s",
+        "fork_retract": "4s",
+        "rotate_speed": null,
+        "outrigger_lowering": null,
+        "outrigger_retracting": null
+      }
+    }
+  ]
+}

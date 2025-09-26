@@ -1,0 +1,1756 @@
+{
+  "boom_lifts": [
+    {
+      "model": "ZA42J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za42j.webp",
+      "size": {
+        "work_height": "44.03m",
+        "platform_height": "42.03m",
+        "horizontal_outreach": "21.9m",
+        "up_and_over_height": "24.5m",
+        "stowed_length": "12.6m",
+        "stowed_width": "2.49m",
+        "stowed_height": "3.1m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "4.1m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "275kg/454kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%",
+        "axles_oscillation": "0",
+        "turning_radius_inside": "/",
+        "turning_radius_outside": "9.5m/6.7m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.8",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2607-CR-TI-EW02/Kubota V3307-DI-T-MAR1-ET02",
+        "engine_power": null,
+        "fuel_tank_capacity": "170L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "350L",
+        "hydraulic_tank_capacity": "250L"
+      },
+      "tire": {
+        "type": "445/50D710 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "23200kg"
+      }
+    },
+    {
+      "model": "ZA26J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za26j.webp",
+      "size": {
+        "work_height": "28.2m",
+        "platform_height": "26.2m",
+        "horizontal_outreach": "19.4m",
+        "up_and_over_height": "9.48m",
+        "stowed_length": "11.75m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.82m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.05m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "drive_speed": "5.0km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.2m",
+        "turning_radius_inside": "3.14m",
+        "turning_radius_outside": "6.48m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.422m",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2607-CR-TI-EW02/Kubota V3307-DI-T-MAR1-ET02",
+        "engine_power": null,
+        "fuel_tank_capacity": "150L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "263L",
+        "hydraulic_tank_capacity": "180L"
+      },
+      "tire": {
+        "type": "Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "18800kg"
+      }
+    },
+    {
+      "model": "ZA14J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za14j.webp",
+      "size": {
+        "work_height": "15.80m",
+        "platform_height": "13.80m",
+        "horizontal_outreach": "8.30m",
+        "up_and_over_height": "7.55m",
+        "stowed_length": "6.57m",
+        "stowed_width": "2.30m",
+        "stowed_height": "2.27m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.36m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "300kg",
+        "drive_speed": "6.8km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.1m",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "355° non-continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0",
+        "max_working_slope": null,
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2403 36kw/2600rpm",
+        "engine_power": null,
+        "fuel_tank_capacity": "65L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "150L",
+        "hydraulic_tank_capacity": "76L"
+      },
+      "tire": {
+        "type": "315/55 D20 Foam-filled Tires 33x..."
+      },
+      "weight": {
+        "gross": "7100kg"
+      }
+    },
+    {
+      "model": "ZA16J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za16j.webp",
+      "size": {
+        "work_height": "18m",
+        "platform_height": "16m",
+        "horizontal_outreach": "9.97m",
+        "up_and_over_height": "8m",
+        "stowed_length": "7.95m",
+        "stowed_width": "2.27m",
+        "stowed_height": "2.23m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.36m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "250kg/360kg",
+        "drive_speed": "6km/h",
+        "gradeability": "45% (25°)",
+        "axles_oscillation": "0.1m",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "KubotaV2403",
+        "engine_power": null,
+        "fuel_tank_capacity": "150L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "110L",
+        "hydraulic_tank_capacity": "80L"
+      },
+      "tire": {
+        "type": null
+      },
+      "weight": {
+        "gross": null
+      }
+    },
+    {
+      "model": "ZA20J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za20j.webp",
+      "size": {
+        "work_height": "21.38m",
+        "platform_height": "19.38m",
+        "horizontal_outreach": "12.3m",
+        "up_and_over_height": "8.25m",
+        "stowed_length": "8.82m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44/1.83m",
+        "platform_width": "0.91/0.76m",
+        "wheelbase": "2.52m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "250kg/360kg",
+        "drive_speed": "6.1km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.2m",
+        "turning_radius_inside": "2.51m",
+        "turning_radius_outside": "5.47m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.4m",
+        "max_working_slope": null,
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2403 36kw/2600rpm",
+        "engine_power": null,
+        "fuel_tank_capacity": "150L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "160L",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "33x12/D610 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "10000kg"
+      }
+    },
+    {
+      "model": "ZA24J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za24j.webp",
+      "size": {
+        "work_height": "26.23m",
+        "platform_height": "24.23m",
+        "horizontal_outreach": "18.9m",
+        "up_and_over_height": "9.29m",
+        "stowed_length": "11.27m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.82m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.05m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "drive_speed": "5.0km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.2m",
+        "turning_radius_inside": "3.14m",
+        "turning_radius_outside": "6.48m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.022m",
+        "max_working_slope": "4°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2607-CR-TI-EW02/Kubota V3307-DI-T-MAR1-ET02",
+        "engine_power": null,
+        "fuel_tank_capacity": "150L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "240L",
+        "hydraulic_tank_capacity": "180L"
+      },
+      "tire": {
+        "type": "15-625 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "18140kg"
+      }
+    },
+    {
+      "model": "ZA32J",
+      "type": "Diesel Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za32j.webp",
+      "size": {
+        "work_height": "34.04m",
+        "platform_height": "32.04m",
+        "horizontal_outreach": "21.15m",
+        "up_and_over_height": "14.47m",
+        "stowed_length": "12.75m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.89m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.81m",
+        "ground_clearance": "0.42m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%",
+        "axles_oscillation": "0.2m",
+        "turning_radius_inside": "4.79m/2.09m",
+        "turning_radius_outside": "8.13m/5.6m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.19m",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "diesel_engine": "Kubota V2607-CR-TI-EW02/Kubota V3307-DI-T-MAR1-ET02",
+        "engine_power": null,
+        "fuel_tank_capacity": "150L",
+        "auxiliary_power": "12V",
+        "control_voltage": "12V",
+        "hydraulic_system_capacity": "300L",
+        "hydraulic_tank_capacity": "200L"
+      },
+      "tire": {
+        "type": "445/50D710 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "19800kg"
+      }
+    },
+    {
+      "model": "ZA14NJE-Li",
+      "type": "Electric Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za14nje-li.webp",
+      "size": {
+        "work_height": "16m",
+        "platform_height": "14m",
+        "horizontal_outreach": "8.14m",
+        "up_and_over_height": "7.74m",
+        "stowed_length": "6.5m",
+        "stowed_width": "1.75m",
+        "stowed_height": "2m",
+        "platform_length": "1.52m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.05m",
+        "ground_clearance": "0.20m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "drive_speed": "6.1km/h / 5.4km/h",
+        "gradeability": "30%(17°)",
+        "axles_oscillation": null,
+        "turning_radius_inside": "0.79m",
+        "turning_radius_outside": "3.15m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_working_slope": "3/4°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "48V/315Ah Li-ion battery",
+        "charger": "48V/40A",
+        "drive_motor": "AC 32V/4hp",
+        "lift_motor": "AC 32V/10hp",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "30L"
+      },
+      "tire": {
+        "type": "240/55D17.5 Foam-filled tire"
+      },
+      "weight": {
+        "gross": "6700kg"
+      }
+    },
+    {
+      "model": "ZA14NJE",
+      "type": "Electric Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za14nje.webp",
+      "size": {
+        "work_height": "16m",
+        "platform_height": "14m",
+        "horizontal_outreach": "8.14m",
+        "up_and_over_height": "7.74m",
+        "stowed_length": "6.5m",
+        "stowed_width": "1.75m",
+        "stowed_height": "2m",
+        "platform_length": "1.52m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.05m",
+        "ground_clearance": "0.20m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "drive_speed": "6.1km/h / 5.4km/h",
+        "gradeability": "30%(17°)",
+        "axles_oscillation": null,
+        "turning_radius_inside": "0.79m",
+        "turning_radius_outside": "3.15m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_working_slope": "3/4°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "24x2V/320Ah",
+        "charger": "48V/40A",
+        "drive_motor": "AC 32V/4hp",
+        "lift_motor": "AC 32V/10hp",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "30L"
+      },
+      "tire": {
+        "type": "250-15 Solid Tire"
+      },
+      "weight": {
+        "gross": "6700kg"
+      }
+    },
+    {
+      "model": "ZA10RJE",
+      "type": "Electric Articulating Boom Lifts",
+      "image": "/equipment/boom_lift/za10rje.webp",
+      "size": {
+        "work_height": "11.55m",
+        "platform_height": "9.55m",
+        "horizontal_outreach": "6.85m",
+        "up_and_over_height": "4.6m",
+        "stowed_length": "5.5m",
+        "stowed_width": "1.19m",
+        "stowed_height": "1.98m",
+        "platform_length": "1.17m",
+        "platform_width": "0.76m",
+        "wheelbase": "1.65m",
+        "ground_clearance": "0.1m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "drive_speed": "5km/h",
+        "gradeability": "35%(19°)",
+        "axles_oscillation": null,
+        "turning_radius_inside": "1.7m",
+        "turning_radius_outside": "3.25m",
+        "turntable_swing": "±90°",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_working_slope": null,
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "24x2V/330Ah",
+        "charger": "48V/35A",
+        "drive_motor": "AC 32V/3.3kW",
+        "lift_motor": "DC 48V/4.5kW",
+        "auxiliary_power": "Electric pumpDC",
+        "hydraulic_tank_capacity": "15L"
+      },
+      "tire": {
+        "type": "Non-marking tire"
+      },
+      "weight": {
+        "gross": "6550kg"
+      }
+    },
+    {
+      "model": "ZA20JEH",
+      "type": "Range-extended hybrid articulating boom lifts",
+      "image": "/equipment/boom_lift/za20jeh.webp",
+      "size": {
+        "work_height": "21.38m",
+        "platform_height": "19.38m",
+        "horizontal_outreach": "12.1m",
+        "up_and_over_height": "8.25m",
+        "stowed_length": "8.8m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "250/360kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%",
+        "axles_oscillation": "0.2m",
+        "turning_radius_inside": "2.78m",
+        "turning_radius_outside": "5.49m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.64m",
+        "max_working_slope": "3°/5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "48V/314Ah Li-ion battery(Li)",
+        "charger": "48V/60A",
+        "drive_motor": "AC32V",
+        "lift_motor": "AC32V",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "9750kg"
+      }
+    },
+    {
+      "model": "ZA16JERT",
+      "type": "Range-extended hybrid articulating boom lifts",
+      "image": "/equipment/boom_lift/za16jert.webp",
+      "size": {
+        "work_height": "17.8m",
+        "platform_height": "15.8m",
+        "horizontal_outreach": "9.72m",
+        "up_and_over_height": "8m",
+        "stowed_length": "7.7m",
+        "stowed_width": "2.3m",
+        "stowed_height": "2.23m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.36m",
+        "ground_clearance": "0.36m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "drive_speed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.20m",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360° non-continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.2m",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "24x2V/320Ah",
+        "charger": "48V/35A",
+        "drive_motor": "AC 32V",
+        "lift_motor": "AC 32V",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "30L"
+      },
+      "tire": {
+        "type": "33x12 Foam-filled tire"
+      },
+      "weight": {
+        "gross": "7300kg"
+      }
+    },
+    {
+      "model": "ZA16JERT-Li",
+      "type": "Range-extended hybrid articulating boom lifts",
+      "image": "/equipment/boom_lift/za16jert-li.webp",
+      "size": {
+        "work_height": "17.8m",
+        "platform_height": "15.8m",
+        "horizontal_outreach": "9.72m",
+        "up_and_over_height": "8m",
+        "stowed_length": "7.7m",
+        "stowed_width": "2.3m",
+        "stowed_height": "2.23m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.36m",
+        "ground_clearance": "0.36m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "drive_speed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "axles_oscillation": "0.20m",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360° non-continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.2m",
+        "max_working_slope": "5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "48V/315Ah Li-ion battery",
+        "charger": "48V/60A",
+        "drive_motor": "AC 32V",
+        "lift_motor": "AC 32V",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "30L"
+      },
+      "tire": {
+        "type": "33x12 Foam-filled tire"
+      },
+      "weight": {
+        "gross": "7300kg"
+      }
+    },
+    {
+      "model": "ZA20JERT",
+      "type": "Range-extended hybrid articulating boom lifts",
+      "image": "/equipment/boom_lift/za20jert.webp",
+      "size": {
+        "work_height": "21.38m",
+        "platform_height": "19.38m",
+        "horizontal_outreach": "12.1m",
+        "up_and_over_height": "8.25m",
+        "stowed_length": "8.8m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "250kg/360kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%",
+        "axles_oscillation": "0.20m",
+        "turning_radius_inside": "2.78m",
+        "turning_radius_outside": "5.49m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.64m",
+        "max_working_slope": "3°/5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "24x2V/440Ah",
+        "charger": "48V/60A",
+        "drive_motor": "AC 32V",
+        "lift_motor": "AC 32V",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "33x12 D610 Foam-filled tire"
+      },
+      "weight": {
+        "gross": "9250kg"
+      }
+    },
+    {
+      "model": "ZA20JERT-Li",
+      "type": "Range-extended hybrid articulating boom lifts",
+      "image": "/equipment/boom_lift/za20jert-li.webp",
+      "size": {
+        "work_height": "21.38m",
+        "platform_height": "19.38m",
+        "horizontal_outreach": "12.1m",
+        "up_and_over_height": "8.25m",
+        "stowed_length": "8.8m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "250kg/360kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%",
+        "axles_oscillation": "0.20m",
+        "turning_radius_inside": "2.78m",
+        "turning_radius_outside": "5.49m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0.64m",
+        "max_working_slope": "3°/5°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "48V/315Ah Li-ion battery",
+        "charger": "48V/60A",
+        "drive_motor": "AC 32V",
+        "lift_motor": "AC 32V",
+        "auxiliary_power": "12V DC Electrical pump",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "33x12 D610 Foam-filled tire"
+      },
+      "weight": {
+        "gross": "9250kg"
+      }
+    },
+    {
+      "model": "ZT51JEH",
+      "type": "Range-extended hybrid telescopic boom lifts",
+      "image": "/equipment/boom_lift/zt51jeh.webp",
+      "size": {
+        "work_height": "50.6m",
+        "platform_height": "48.6m",
+        "horizontal_outreach": "25m",
+        "stowed_length_with_platform": "14.2m",
+        "stowed_length_without_platform": "2.44m",
+        "stowed_width": "2.5m",
+        "stowed_height": "3.06m",
+        "platform_length": "0.91m",
+        "wheelbase": "5.36m/4.69m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed": "4.5km/h",
+        "gradeability": "45%(24°)",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.95m",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "80V/606Ah",
+        "charger": "80V/80A",
+        "drive_motor": "6.5KW",
+        "lift_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "300L"
+      },
+      "tire": {
+        "type": "Foam filled tire"
+      },
+      "weight": {
+        "gross": "26000kg"
+      }
+    },
+    {
+      "model": "ZT42JEH",
+      "type": "Range-extended hybrid telescopic boom lifts",
+      "image": "/equipment/boom_lift/zt42jeh.webp",
+      "size": {
+        "work_height": "44m",
+        "platform_height": "42m",
+        "horizontal_outreach": "25m",
+        "stowed_length_with_platform": "16.22m",
+        "stowed_length_without_platform": "2.44m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.86m",
+        "platform_length": "0.91m",
+        "wheelbase": "3.81/4.15m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed": "5km/h",
+        "gradeability": "45%(24°)",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.67m",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "80V/460Ah",
+        "charger": "80V/80A",
+        "drive_motor": "5.4KW",
+        "lift_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "245L"
+      },
+      "tire": {
+        "type": "Foam filled tire"
+      },
+      "weight": {
+        "gross": "22120kg"
+      }
+    },
+    {
+      "model": "ZT26JEH",
+      "type": "Range-extended hybrid telescopic boom lifts",
+      "image": "/equipment/boom_lift/zt26jeh.webp",
+      "size": {
+        "work_height": "28.7m",
+        "platform_height": "26.7m",
+        "horizontal_outreach": "22.1m",
+        "stowed_length_with_platform": "11.91m",
+        "stowed_length_without_platform": "2.44m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.82m",
+        "platform_length": "0.91m",
+        "platform_width": "2.80m",
+        "ground_clearance": "0.41m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.61m",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "80V/460Ah",
+        "charger": "80V/80A",
+        "drive_motor": "5.2KW",
+        "lift_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "120L"
+      },
+      "tire": {
+        "type": "Foam filled tire/Solid tire"
+      },
+      "weight": {
+        "gross": "17000kg"
+      }
+    },
+    {
+      "model": "ZT21JEH",
+      "type": "Range-extended hybrid telescopic boom lifts",
+      "image": "/equipment/boom_lift/zt21jeh.webp",
+      "size": {
+        "work_height": "22.95m",
+        "platform_height": "20.95m",
+        "horizontal_outreach": "15.5m",
+        "stowed_length_with_platform": "9.4m(6.8m)",
+        "stowed_length_without_platform": "2.44m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.7m",
+        "platform_length": "0.91m",
+        "wheelbase": "2.52m",
+        "ground_clearance": "0.33m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed": "5.2km/h",
+        "gradeability": "45%(24°)",
+        "allowable_tilting_angle_when_driving": "2.69m",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "1.7m",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "battery": "51.52V/315Ah",
+        "charger": "48V/60A",
+        "drive_motor": "3.3KW",
+        "lift_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "10600KG"
+      }
+    },
+    {
+      "model": "ZT82J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt82j.webp",
+      "size": {
+        "work_height": "82.3m",
+        "platform_height": "80.3m",
+        "horizontal_outreach": "35.9m",
+        "stowed_length": "17.5m",
+        "stowed_width": "2.8m",
+        "stowed_height": "3.27m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "6.26/7.25m",
+        "tread": "6.2/5.4m",
+        "ground_clearance": "0.5m"
+      },
+      "performance": {
+        "platform_capacity": "230/300/450kg",
+        "drive_speed_stowed": "4km/h",
+        "gradeability": "35%(19°)",
+        "turning_radius_inside": "11.17/3.41m",
+        "turning_radius_outside": "13.91/9.05m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "2.35m",
+        "jib_range_of_articulation": "125° (-55°~75°)",
+        "max_wind_speed": "12.5m.s"
+      },
+      "power": {
+        "engine": "Cummins F4.5",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "740L",
+        "drive_mode": "4WD",
+        "steering_mode": "4WS/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "Foam-filled tires"
+      },
+      "weight": {
+        "gross": "48800kg"
+      }
+    },
+    {
+      "model": "ZT72J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt72j.webp",
+      "size": {
+        "work_height": "72.3m",
+        "platform_height": "70.3m",
+        "horizontal_outreach": "32.6m",
+        "stowed_length": "16.5m",
+        "stowed_width": "2.5m",
+        "stowed_height": "3.16m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "6.2/5.4m",
+        "tread": "6.2/5.4m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "230/300/450kg",
+        "drive_speed_stowed": "4.5km/h",
+        "gradeability": "40%(22°)",
+        "turning_radius_inside": "7.42/2.69m",
+        "turning_radius_outside": "9.8/7.39m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "2.1m",
+        "jib_range_of_articulation": "125° (-55°~75°)",
+        "max_wind_speed": "12.5m.s"
+      },
+      "power": {
+        "engine": "Cummins QSF3.8",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "480L",
+        "drive_mode": "4WD",
+        "steering_mode": "4WS/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "Foam-filled tires"
+      },
+      "weight": {
+        "gross": "38300kg"
+      }
+    },
+    {
+      "model": "ZT51J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt51j.webp",
+      "size": {
+        "work_height": "50.6m",
+        "platform_height": "48.6m",
+        "horizontal_outreach": "25m&82ft",
+        "stowed_length": "14.2m",
+        "stowed_width": "2.5m",
+        "stowed_height": "3.06m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "5.357m/4.69m",
+        "tread": "2.5m/5.15m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "4.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "6.79m/2.57m",
+        "turning_radius_outside": "8.43m/6.39m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.95m",
+        "jib_range_of_articulation": "125° (-55°~75°)",
+        "max_wind_speed": "12.5m.s"
+      },
+      "power": {
+        "engine": "Cummins QSF3.8",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "320L",
+        "drive_mode": "4WD",
+        "steering_mode": "4WS/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "Foam-filled tires"
+      },
+      "weight": {
+        "gross": "25200kg"
+      }
+    },
+    {
+      "model": "ZT32J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt32j.webp",
+      "size": {
+        "work_height": "34.3m",
+        "platform_height": "32.3m",
+        "horizontal_outreach": "19.2m",
+        "stowed_length": "12.9m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.75m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.8m",
+        "tread": "2.49m",
+        "ground_clearance": "0.41m"
+      },
+      "performance": {
+        "platform_capacity": "300/454Kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "3.5m",
+        "turning_radius_outside": "6.1m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.52m",
+        "jib_range_of_articulation": "135° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "KUBOTA V2607 (StageV)/KUBOTA V330...",
+        "fuel_tank_capacity": "150L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "150L",
+        "drive_mode": "4WD",
+        "steering_mode": "Front-wheel"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "18060kg"
+      }
+    },
+    {
+      "model": "ZT23J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt23j.webp",
+      "size": {
+        "work_height": "25.1m",
+        "platform_height": "23.1m",
+        "horizontal_outreach": "18.1m",
+        "stowed_length": "10.5m",
+        "stowed_width": "2.45m",
+        "stowed_height": "2.75m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.36m",
+        "tread": "2.45m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/450Kg",
+        "drive_speed_stowed": "6km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.4m",
+        "turning_radius_outside": "5.4m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.65m",
+        "jib_range_of_articulation": "130°(-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "Kubota V2403 (STAGE V) Kubota V2403(...)",
+        "fuel_tank_capacity": "150L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "150L",
+        "drive_mode": "4WD",
+        "steering_mode": "Front wheel"
+      },
+      "tire": {
+        "type": "385/65-24 Solid Tires"
+      },
+      "weight": {
+        "gross": "12500kg"
+      }
+    },
+    {
+      "model": "ZT14J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt14j.webp",
+      "size": {
+        "work_height": "16.6m",
+        "platform_height": "14.6m",
+        "horizontal_outreach": "12.7m",
+        "stowed_length": "9.6m",
+        "stowed_width": "2.28m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.36m",
+        "tread": "2.28m",
+        "ground_clearance": "0.36m"
+      },
+      "performance": {
+        "platform_capacity": "300/450Kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "0.9m",
+        "jib_range_of_articulation": null,
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "Kubota V2403 (STAGE V) Kubota V2403(...)",
+        "fuel_tank_capacity": "150L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "90L",
+        "drive_mode": "4WD",
+        "steering_mode": "Front-wheel"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8500kg"
+      }
+    },
+    {
+      "model": "ZT26J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt26j.webp",
+      "size": {
+        "work_height": "28.7m",
+        "platform_height": "26.7m",
+        "horizontal_outreach": "22.1m",
+        "stowed_length": "11.91m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.82m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.8m",
+        "tread": "2.49m",
+        "ground_clearance": "0.40m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "3.5m",
+        "turning_radius_outside": "6.1m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.75m",
+        "jib_range_of_articulation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "KUBOTA V2607 (StageV)/KUBOTA V3307(Stage III)",
+        "fuel_tank_capacity": "150L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "150L",
+        "drive_mode": "4WD",
+        "steering_mode": "Front-wheel"
+      },
+      "tire": {
+        "type": "385/65-24 Solid Tires"
+      },
+      "weight": {
+        "gross": "17400kg"
+      }
+    },
+    {
+      "model": "ZT38J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt38j.webp",
+      "size": {
+        "work_height": "40.11m",
+        "platform_height": "38.1m",
+        "horizontal_outreach": "25m",
+        "stowed_length": "14.95m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.86m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.81m",
+        "tread": "2.46/4.07m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.5m",
+        "turning_radius_outside": "5.65m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.33m",
+        "jib_range_of_articulation": "135° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "KUBOTA V2607 (StageV)/KUBOTA V3307(Stage III)",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "250L",
+        "drive_mode": "4WD",
+        "steering_mode": "Four wheels/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "IN445/50D710 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "20900kg"
+      }
+    },
+    {
+      "model": "ZT42J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt42j.webp",
+      "size": {
+        "work_height": "44m",
+        "platform_height": "42m",
+        "horizontal_outreach": "25m",
+        "stowed_length": "14.95m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.86m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.81m",
+        "tread": "2.46/4.07m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.5m&8ft",
+        "turning_radius_outside": "5.65m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.67m",
+        "jib_range_of_articulation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "KUBOTA V2607 (StageV)/KUBOTA V3307(Stage III)",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "250L",
+        "drive_mode": "4WD",
+        "steering_mode": "Four wheels/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "IN445/50 D710 Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "22050kg"
+      }
+    },
+    {
+      "model": "ZT58J",
+      "type": "Diesel Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt58j.webp",
+      "size": {
+        "work_height": "58.8m",
+        "platform_height": "56.8m",
+        "horizontal_outreach": "25.5m",
+        "stowed_length": "14.4m",
+        "stowed_width": "2.5m",
+        "stowed_height": "3.06m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "5.357/4.69m",
+        "tread": "2.5/5.15m",
+        "ground_clearance": "0.40m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "4.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "6.79/2.57m",
+        "turning_radius_outside": "8.43/6.39m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "2.25m",
+        "jib_range_of_articulation": "125° (-55°~70°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "Cummins QSF3.8",
+        "fuel_tank_capacity": "200L",
+        "control_voltage": "12V DC",
+        "hydraulic_tank_capacity": "400L",
+        "drive_mode": "4WD",
+        "steering_mode": "Four wheels/Front wheel/Crab"
+      },
+      "tire": {
+        "type": "Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "29600kg"
+      }
+    },
+    {
+      "model": "ZT42JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt42je.webp",
+      "size": {
+        "work_height": "44m",
+        "platform_height": "42m",
+        "horizontal_outreach": "25m",
+        "stowed_length": "14.95m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.86m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.81/4.15m",
+        "tread": "2.46/4.07m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454Kg",
+        "drive_speed_stowed": "5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "6.96/2.15m",
+        "turning_radius_outside": "9.26m/5.71m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.4m",
+        "jib_rotation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "80V/80A",
+        "drive_motor": "5.4KW",
+        "lifting_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "250L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "22120kg"
+      }
+    },
+    {
+      "model": "ZT38JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt38je.webp",
+      "size": {
+        "work_height": "40.11m",
+        "platform_height": "38.1m",
+        "horizontal_outreach": "25m",
+        "stowed_length": "14.95m",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.86m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "3.81m/4.15m",
+        "tread": "2.46/4.07m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "300/454Kg",
+        "drive_speed_stowed": "5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.15m/6.96m",
+        "turning_radius_outside": "9.26m/5.71m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.46m",
+        "jib_rotation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "80V/80A",
+        "drive_motor": "5.4KW",
+        "lifting_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "250L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "20800kg"
+      }
+    },
+    {
+      "model": "ZT32JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt32je.webp",
+      "size": {
+        "work_height": "34.3m",
+        "platform_height": "32.3m",
+        "horizontal_outreach": "19.2m",
+        "stowed_length": "12.9m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.75m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.8m",
+        "tread": "2.49m",
+        "ground_clearance": "0.41m"
+      },
+      "performance": {
+        "platform_capacity": "300/454Kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "3.5m",
+        "turning_radius_outside": "6.1m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.52m",
+        "jib_rotation": "135° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "6KW",
+        "drive_motor": "5.2KW",
+        "lifting_motor": "30KW",
+        "auxiliary_power": "2KW",
+        "hydraulic_tank_capacity": "125L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "18060kg"
+      }
+    },
+    {
+      "model": "ZT23JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt23je.webp",
+      "size": {
+        "work_height": "25.1m",
+        "platform_height": "23.1m",
+        "horizontal_outreach": "18.1m",
+        "stowed_length": "10.3m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.76m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "tread": "2.49m",
+        "ground_clearance": "0.41m"
+      },
+      "performance": {
+        "platform_capacity": "300kg/454kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.72m",
+        "turning_radius_outside": "5.88m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.61m",
+        "jib_rotation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "5KW/80V",
+        "drive_motor": "4.2KW",
+        "lifting_motor": "21KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "120L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "13200kg"
+      }
+    },
+    {
+      "model": "ZT21JE-Li",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt21je-li.webp",
+      "size": {
+        "work_height": "22.95m",
+        "platform_height": "20.95m",
+        "horizontal_outreach": "15.5m",
+        "stowed_length": "9.4m(6.8m)",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.7m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "tread": "2.46m",
+        "ground_clearance": "0.33m"
+      },
+      "performance": {
+        "platform_capacity": "300kg/454kg",
+        "drive_speed_stowed": "5.2km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.69m",
+        "turning_radius_outside": "5.45m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.7m",
+        "jib_rotation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/60A",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8600KG"
+      }
+    },
+    {
+      "model": "ZT21JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt21je.webp",
+      "size": {
+        "work_height": "22.95m",
+        "platform_height": "20.95m",
+        "horizontal_outreach": "15.5m",
+        "stowed_length": "9.4m(6.8m)",
+        "stowed_width": "2.46m",
+        "stowed_height": "2.7m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.52m",
+        "tread": "2.46m",
+        "ground_clearance": "0.33m"
+      },
+      "performance": {
+        "platform_capacity": "300kg/454kg",
+        "drive_speed_stowed": "5.2km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.69m",
+        "turning_radius_outside": "5.45m",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.7m",
+        "jib_rotation": "130° (-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/60A",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8600KG"
+      }
+    },
+    {
+      "model": "ZT18JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt18je.webp",
+      "size": {
+        "work_height": "20.6m",
+        "platform_height": "18.6m",
+        "horizontal_outreach": "13.3m",
+        "stowed_length": "9.74m(7.6m)",
+        "stowed_width": "2.28m",
+        "stowed_height": "2.57m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.52m",
+        "tread": "2.28m",
+        "ground_clearance": "0.33m"
+      },
+      "performance": {
+        "platform_capacity": "300kg",
+        "drive_speed_stowed": "5.2km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.69m",
+        "turning_radius_outside": "5.45m",
+        "turntable_swing": "360°continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.7m",
+        "jib_rotation": "135°(-60°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/60A",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8600KG"
+      }
+    },
+    {
+      "model": "ZT18JE-Li",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt18je-li.webp",
+      "size": {
+        "work_height": "20.6m",
+        "platform_height": "18.6m",
+        "horizontal_outreach": "13.3m",
+        "stowed_length": "9.74m(7.6m)",
+        "stowed_width": "2.28m",
+        "stowed_height": "2.57m",
+        "platform_length": "1.83m",
+        "platform_width": "0.76m",
+        "wheelbase": "2.52m",
+        "tread": "2.28m",
+        "ground_clearance": "0.33m"
+      },
+      "performance": {
+        "platform_capacity": "300kg",
+        "drive_speed_stowed": "5.2km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.69m",
+        "turning_radius_outside": "5.45m",
+        "turntable_swing": "360°continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.7m",
+        "jib_rotation": "135°(-60°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/60A",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8600KG"
+      }
+    },
+    {
+      "model": "ZT14JE-Li",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt14je-li.webp",
+      "size": {
+        "work_height": "16.6m",
+        "platform_height": "14.6m",
+        "horizontal_outreach": "12.7m",
+        "stowed_length": "9.6m",
+        "stowed_width": "2.28m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.36m",
+        "tread": "2.28m",
+        "ground_clearance": "0.36m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360°continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "0.9m",
+        "jib_rotation": "135°(-60°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/60A(Lithium)",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8500kg"
+      }
+    },
+    {
+      "model": "ZT14JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt14je.webp",
+      "size": {
+        "work_height": "16.6m",
+        "platform_height": "14.6m",
+        "horizontal_outreach": "12.7m",
+        "stowed_length": "9.6m",
+        "stowed_width": "2.28m",
+        "stowed_height": "2.52m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.36m",
+        "tread": "2.28m",
+        "ground_clearance": "0.36m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "2.06m",
+        "turning_radius_outside": "4.78m",
+        "turntable_swing": "360°continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "0.9m",
+        "jib_rotation": "130°(-60°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "48V/40A(Lead Acid)",
+        "drive_motor": "3.3KW",
+        "lifting_motor": "10KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "75L"
+      },
+      "tire": {
+        "type": "Foam-filled tire"
+      },
+      "weight": {
+        "gross": "8500kg"
+      }
+    },
+    {
+      "model": "ZT26JE",
+      "type": "Electric Telescopic Boom Lifts",
+      "image": "/equipment/boom_lift/zt26je.webp",
+      "size": {
+        "work_height": "28.70m",
+        "platform_height": "26.70m",
+        "horizontal_outreach": "22.1m",
+        "stowed_length": "11.91m",
+        "stowed_width": "2.49m",
+        "stowed_height": "2.82m",
+        "platform_length": "2.44m",
+        "platform_width": "0.91m",
+        "wheelbase": "2.80m",
+        "tread": "2.49m",
+        "ground_clearance": "0.41m"
+      },
+      "performance": {
+        "platform_capacity": "300/454kg",
+        "drive_speed_stowed": "5.5km/h",
+        "gradeability": "45%(24°)",
+        "turning_radius_inside": "3.11m",
+        "turning_radius_outside": "6.16m",
+        "turntable_swing": "360°continuous",
+        "platform_rotation": "±90°",
+        "tail_swing": "1.61m",
+        "jib_rotation": "130°(-55°~75°)",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "charger": "5KW/80V",
+        "drive_motor": "5.2KW",
+        "lifting_motor": "30KW",
+        "auxiliary_power": "12V DC",
+        "hydraulic_tank_capacity": "120L"
+      },
+      "tire": {
+        "type": "Foam-filled Tires"
+      },
+      "weight": {
+        "gross": "16800kg"
+      }
+    }
+  ]
+}
