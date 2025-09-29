@@ -1,14 +1,16 @@
-import { getDictionary } from '@/lib/dictionary';
-import ContactHero from '@/components/Contact/ContactHero';
-import ContactInfo from '@/components/Contact/ContactInfo';
-import ContactForm from '@/components/Contact/ContactForm';
-import CustomerService from '@/components/Contact/CustomerService';
-import MapLoader from '@/components/Branches/MapLoader';
+import { getDictionary } from "@/lib/dictionary";
+import ContactHero from "@/components/Contact/ContactHero";
+import ContactInfo from "@/components/Contact/ContactInfo";
+import ContactForm from "@/components/Contact/ContactForm";
+import CustomerService from "@/components/Contact/CustomerService";
+import MapLoader from "@/components/Branches/MapLoader";
 
-export default async function ContactPage({ params: { lang } }) {
-  const dictionary = await getDictionary(lang, 'contact');
+export default async function ContactPage({ params }) {
+  const { lang } = await params;
+
+  const dictionary = await getDictionary(lang, "contact");
   const pageDict = dictionary.contact_page || {};
-  const branchesDict = await getDictionary(lang, 'branches');
+  const branchesDict = await getDictionary(lang, "branches");
 
   return (
     <>

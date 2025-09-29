@@ -1,14 +1,15 @@
 // /app/[lang]/promotions/page.js
 
-import { getDictionary } from '@/lib/dictionary';
-import PromoHero from '@/components/Promotions/PromoHero';
-import PromoPackages from '@/components/Promotions/PromoPackages';
-import CollaborationBenefits from '@/components/Promotions/CollaborationBenefits';
-import PartnerTestimonial from '@/components/Promotions/PartnerTestimonial';
-import MainCta from '@/components/Home/MainCta';
+import { getDictionary } from "@/lib/dictionary";
+import PromoHero from "@/components/Promotions/PromoHero";
+import PromoPackages from "@/components/Promotions/PromoPackages";
+import CollaborationBenefits from "@/components/Promotions/CollaborationBenefits";
+import PartnerTestimonial from "@/components/Promotions/PartnerTestimonial";
+import MainCta from "@/components/Home/MainCta";
 
-export default async function PromotionsPage({ params: { lang } }) {
-  const dictionary = await getDictionary(lang, 'promotions');
+export default async function PromotionsPage({ params }) {
+  const { lang } = await params;
+  const dictionary = await getDictionary(lang, "promotions");
   const promoDict = dictionary.promotions_page || {};
 
   return (

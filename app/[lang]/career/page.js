@@ -1,13 +1,15 @@
 // Filepath: app/[lang]/career/page.js
-import { getDictionary } from '@/lib/dictionary';
-import MainCta from '@/components/Home/MainCta';
-import CareerHero from '@/components/Career/CareerHero';
-import WhyJoin from '@/components/Career/WhyJoin';
-import OpenPositions from '@/components/Career/OpenPositions';
-import TrainingPrograms from '@/components/Career/TrainingPrograms';
+import { getDictionary } from "@/lib/dictionary";
+import MainCta from "@/components/Home/MainCta";
+import CareerHero from "@/components/Career/CareerHero";
+import WhyJoin from "@/components/Career/WhyJoin";
+import OpenPositions from "@/components/Career/OpenPositions";
+import TrainingPrograms from "@/components/Career/TrainingPrograms";
 
-export default async function CareerPage({ params: { lang } }) {
-  const dictionary = await getDictionary(lang, 'career');
+export default async function CareerPage({ params }) {
+  const { lang } = await params;
+
+  const dictionary = await getDictionary(lang, "career");
   const pageDict = dictionary.career_page || {};
   const commonDict = dictionary || {};
 

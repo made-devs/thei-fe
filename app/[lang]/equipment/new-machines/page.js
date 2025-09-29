@@ -19,7 +19,7 @@ import telescopicCrawlerCraneData from "../../../data/telescopic-crawler-crane.j
 import concretePumpMixerData from "../../../data/concrete-pump-mixer.json";
 
 export default async function NewMachinesPage({ params }) {
-  const { lang } = params;
+  const { lang } = await params;
   const dictionary = await getDictionary(lang, "new-machines");
   const newMachinesDict = dictionary.new_machines_page || {};
 

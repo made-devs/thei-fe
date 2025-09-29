@@ -5,7 +5,8 @@ import ServiceCategoryGrid from "@/components/Service/ServiceCategoryGrid";
 import QualityGallery from "@/components/Service/QualityGallery";
 import MainCta from "@/components/Home/MainCta";
 
-export default async function ServicePage({ params: { lang } }) {
+export default async function ServicePage({ params }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang, "service");
   const serviceDict = dictionary.service_page || {};
   const commonDict = dictionary || {};

@@ -7,7 +7,8 @@ import CustomerProof from "@/components/RepairPackages/CustomerProof";
 import MainCta from "@/components/Home/MainCta";
 import RepairPackagesSlider from "@/components/RepairPackages/RepairPackageCard";
 
-export default async function RepairPackagesPage({ params: { lang } }) {
+export default async function RepairPackagesPage({ params }) {
+  const { lang } = await params;
   const dictionary = await getDictionary(lang, "repair-packages");
   const pageDict = dictionary.repair_packages_page || {};
   const commonDict = dictionary || {};
