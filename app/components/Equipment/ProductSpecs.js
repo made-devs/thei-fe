@@ -1,11 +1,27 @@
 import React from "react";
 
+// Helper untuk memformat nilai yang mungkin objek
+const formatSpecValue = (value) => {
+  if (typeof value === "object" && value !== null) {
+    if (value.restricted && value.unrestricted) {
+      return `${value.unrestricted} / ${value.restricted}`;
+    }
+    if (value.indoor || value.outdoor) {
+      return `${value.indoor || "-"} / ${value.outdoor || "-"}`;
+    }
+    return JSON.stringify(value);
+  }
+  return value;
+};
+
 const SpecItem = ({ label, value }) => {
-  if (!value) return null;
+  const formattedValue = formatSpecValue(value);
+  if (!formattedValue) return null;
+
   return (
     <div className="flex justify-between">
       <span className="font-semibold text-gray-600">{label}:</span>
-      <span className="font-bold text-black">{value}</span>
+      <span className="font-bold text-black">{formattedValue}</span>
     </div>
   );
 };
@@ -23,6 +39,9 @@ const ProductSpecs = ({ product, categoryName }) => {
   const isTruckMixer = product.type === "Truck Mixer";
   const isTrailerPump = product.type === "Trailer Pump";
   const isCityPump = product.type === "City Pump";
+  const isAWP =
+    product.type?.includes("Lift") ||
+    product.type === "Aerial Working Platform";
 
   if (isForklift) {
     return (
@@ -209,6 +228,30 @@ const ProductSpecs = ({ product, categoryName }) => {
         <SpecItem
           label="Rated Power"
           value={product.power_system?.rated_power}
+        />
+      </>
+    );
+  }
+  if (isAWP) {
+    return (
+      <>
+        <SpecItem
+          label="Work Height"
+          value={
+            product.size?.work_height ||
+            product.size_and_dimensions?.work_height
+          }
+        />
+        <SpecItem
+          label="Platform Capacity"
+          value={product.performance?.platform_capacity}
+        />
+        <SpecItem
+          label="Gross Weight"
+          value={
+            product.weight_and_pressure?.gross_weight ||
+            product.weight?.gross_weight
+          }
         />
       </>
     );

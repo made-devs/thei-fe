@@ -3,6 +3,7 @@ import EquipmentHero from "@/components/Equipment/EquipmentHero";
 import EquipmentIntro from "@/components/Equipment/EquipmentIntro";
 import MainCta from "@/components/Home/MainCta";
 import InteractiveEquipmentView from "@/components/Equipment/InteractiveEquipmentView";
+
 // Impor semua data produk yang ada
 import forkliftData from "../../../data/forklift.json";
 import miniExcavatorData from "../../../data/mini-excavator.json";
@@ -15,8 +16,9 @@ import boomLiftData from "../../../data/boom-lift.json";
 import telehandlerData from "../../../data/telehandler.json";
 import crawlerCraneData from "../../../data/crawler-crane.json";
 import telescopicCrawlerCraneData from "../../../data/telescopic-crawler-crane.json";
-// Impor data concrete yang sudah digabung
 import concretePumpMixerData from "../../../data/concrete-pump-mixer.json";
+// 1. Impor data baru Anda di sini
+import aerialWorkingPlatformData from "../../../data/aerial-working-platform.json";
 
 export default async function NewMachinesPage({ params }) {
   const { lang } = await params;
@@ -44,8 +46,10 @@ export default async function NewMachinesPage({ params }) {
     "Crawler Crane": crawlerCraneData.crawler_cranes,
     "Telescopic Crawler Crane":
       telescopicCrawlerCraneData.telescopic_crawler_cranes,
-    // Gunakan satu sumber data untuk semua concrete machinery
     "Concrete Pump & Mixer": concretePumpMixerData.concrete_pump_mixers,
+    // 2. Tambahkan data baru ke dalam productData
+    "Aerial Working Platform":
+      aerialWorkingPlatformData.aerial_working_platforms,
   };
 
   return (

@@ -1,0 +1,3365 @@
+{
+  "aerial_working_platforms": [
+    {
+      "model": "ZX23AE",
+      "type": "Spider Lift",
+      "image": "/equipment/spider-lift/zx23ae.webp",
+      "size": {
+        "work_height": "22.6m",
+        "platform_height": "20.6m",
+        "horizontal_outreach": "11.2m",
+        "up_and_over_height": "7.8m",
+        "below_ground_reach": "5.2m",
+        "stowed_length_with_platform": "6.04m",
+        "stowed_length_without_platform": "5.5m",
+        "stowed_width": "0.98m",
+        "stowed_height": "1.99m",
+        "platform_length": "1.3m",
+        "platform_width": "0.7m",
+        "crawler_size": "1.95m × 0.25m",
+        "max_length_outrigger_ext_standard": "5.49m",
+        "max_width_outrigger_ext_standard": "5.29m",
+        "max_length_outrigger_ext_narrow": "6.88m",
+        "max_width_outrigger_ext_narrow": "2.64m",
+        "outrigger_pad_diameter": "0.24m × 0.2m",
+        "approach_angle": "18°",
+        "departure_angle": "15°"
+      },
+      "performance": {
+        "platform_capacity": {
+          "restricted": "200kg",
+          "unrestricted": "120kg"
+        },
+        "drive_speed": "1.9km/h",
+        "gradeability": "19.8°/36%",
+        "allowable_tilting_angle_driving": "8.5°/15%",
+        "turntable_swing": "400° non-continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_leveling_angle": "13°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "type": "Electric",
+        "battery_capacity": "200Ah/48V"
+      },
+      "undercarriage": {
+        "crawler_type": "Non-marking rubber track"
+      },
+      "weight_and_pressure": {
+        "gross_weight": "3000kg",
+        "ground_pressure_driving": "29.5N/m²",
+        "ground_pressure_working_standard": "2.17N/m²",
+        "ground_pressure_working_narrow": "3.36N/m²",
+        "pressure_on_single_outrigger": "24kN"
+      }
+    },
+    {
+      "model": "ZX27AE",
+      "type": "Spider Lift",
+      "image": "/equipment/spider-lift/zx27ae.webp",
+      "size": {
+        "work_height": "27.2m",
+        "platform_height": "25.2m",
+        "horizontal_outreach": "15.2m",
+        "up_and_over_height": "8.3m",
+        "below_ground_reach": "7.2m",
+        "stowed_length_with_platform": "6.2m",
+        "stowed_length_without_platform": "5.6m",
+        "stowed_width": "0.98m",
+        "stowed_height": "1.99m",
+        "platform_length": "1.3m",
+        "platform_width": "0.7m",
+        "crawler_size": "2.05m × 0.25m",
+        "max_length_outrigger_ext_standard": "5.7m",
+        "max_width_outrigger_ext_standard": "5.5m",
+        "max_length_outrigger_ext_narrow": "7.2m",
+        "max_width_outrigger_ext_narrow": "2.68m",
+        "outrigger_pad_diameter": "0.24m × 0.2m",
+        "approach_angle": "18°",
+        "departure_angle": "15°"
+      },
+      "performance": {
+        "platform_capacity": {
+          "restricted": "230kg",
+          "unrestricted": "120kg"
+        },
+        "drive_speed": "2.0km/h",
+        "gradeability": "19.8°/36%",
+        "allowable_tilting_angle_driving": "8.5°/15%",
+        "turntable_swing": "400° non-continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_leveling_angle": "13°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "type": "Electric",
+        "battery_capacity": "200Ah/48V"
+      },
+      "undercarriage": {
+        "crawler_type": "Non-marking rubber track"
+      },
+      "weight_and_pressure": {
+        "gross_weight": "4400kg",
+        "ground_pressure_driving": "36.3N/m²",
+        "ground_pressure_working_standard": "2.81N/m²",
+        "ground_pressure_working_narrow": "4.26N/m²",
+        "pressure_on_single_outrigger": "28kN"
+      }
+    },
+    {
+      "model": "ZX37T",
+      "type": "Spider Lift",
+      "image": "/equipment/spider-lift/zx37t.webp",
+      "size": {
+        "work_height": "37.3m",
+        "platform_height": "35.3m",
+        "horizontal_outreach": "15.7m",
+        "up_and_over_height": "5.7m",
+        "below_ground_reach": "7.9m",
+        "stowed_length_with_platform": "7.9m",
+        "stowed_length_without_platform": "7.9m",
+        "stowed_width": "1.2m",
+        "stowed_length": "1.99m",
+        "platform_length": "1.8m",
+        "platform_width": "0.7m",
+        "platform_height_stowed": "1.1m",
+        "crawler_size": "2.43m × 0.3m",
+        "max_length_outrigger_ext_standard": "5.55m",
+        "max_width_outrigger_ext_standard": "5.4m",
+        "max_length_outrigger_ext_narrow": "7.35m",
+        "max_width_outrigger_ext_narrow": "2.68m",
+        "outrigger_pad_diameter": "0.24m × 0.2m",
+        "approach_angle": "19°",
+        "departure_angle": "24°"
+      },
+      "performance": {
+        "platform_capacity": {
+          "restricted": "230kg/330kg",
+          "unrestricted": "120kg"
+        },
+        "drive_speed": "2km/h",
+        "gradeability": "19.8°/36%",
+        "allowable_tilting_angle_driving": "8.5°/15%",
+        "turntable_swing": "360° continuous",
+        "platform_rotation": "±90°",
+        "h_tail_swing": "0m",
+        "max_leveling_angle": "13°",
+        "max_wind_speed": "12.5m/s"
+      },
+      "power": {
+        "engine": "Yanmar",
+        "auxiliary_power": "Electric pump",
+        "hydraulic_tank_capacity": "110L"
+      },
+      "undercarriage": {
+        "crawler_type": "Non-marking rubber track"
+      },
+      "weight_and_pressure": {
+        "gross_weight": "8400kg",
+        "ground_pressure_driving": "36.9N/m²",
+        "ground_pressure_working_standard": "2.81N/m²",
+        "ground_pressure_working_narrow": "4.26N/m²",
+        "pressure_on_single_outrigger": "47kN"
+      }
+    },
+    {
+      "model": "ZS0407E",
+      "type": "Full-electric scissor Lift",
+      "image": "/equipment/scissor-lift/zs0407e.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "6.2m",
+          "outdoor": "5.6m"
+        },
+        "platform_height_elevated": {
+          "indoor": "4.2m",
+          "outdoor": "3.6m"
+        },
+        "platform_height_stowed": "0.95m",
+        "platform_length": "1.29m",
+        "platform_width": "0.7m",
+        "platform_extension": "0.6m",
+        "overall_height_rails_up": "2.05m",
+        "overall_height_rails_down": "1.7m",
+        "overall_length": "1.44m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.05m",
+        "ground_clearance_stowed": "0.06m&2.4in",
+        "ground_clearance_raised": "0.017m"
+      },
+      "performance": {
+        "platform_capacity": "240kg",
+        "deck_extension_capacity": "100kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.4m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/1.2KW",
+        "drive_motor": "24V/0.45KW",
+        "up_down_time": {
+          "up": "25s",
+          "down": "25s"
+        },
+        "gradeability": "30%(17°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Rear wheels",
+        "drive": "Rear wheels",
+        "tire_size": "Ø230mmX80mm"
+      },
+      "power": {
+        "battery": "2x12V/85Ah(TIANPENG)",
+        "charger": "24V/15A"
+      },
+      "weight": {
+        "gross_weight": "920kg"
+      }
+    },
+    {
+      "model": "ZS0607E",
+      "type": "Full-electric scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607e.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": "6.4m"
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": "4.4m"
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/1.8KW",
+        "drive_motor": "24V/0.65KW",
+        "up_down_time": {
+          "up": "25s",
+          "down": "25s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Front wheels",
+        "drive": "Front wheels",
+        "tire_size": "Ø323mmX100mm"
+      },
+      "power": {
+        "battery": "2x12V/170Ah(TIANPENG)",
+        "charger": "24V/15A"
+      },
+      "weight": {
+        "gross_weight": "1455kg"
+      }
+    },
+    {
+      "model": "ZS0407DC",
+      "type": "Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0407dc.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "6.5m",
+          "outdoor": "5.6m"
+        },
+        "platform_height_elevated": {
+          "indoor": "4.5m",
+          "outdoor": "3.6m"
+        },
+        "platform_height_stowed": "0.95m",
+        "platform_length": "1.29m",
+        "platform_width": "0.7m",
+        "platform_extension": "0.6m",
+        "overall_height_rails_up": "2.05m",
+        "overall_height_rails_down": "1.7m",
+        "overall_length": "1.44m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.05m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.017m"
+      },
+      "performance": {
+        "platform_capacity": "240kg",
+        "deck_extension_capacity": "100kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.4m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/1.2KW",
+        "drive_motor": "2x0.45KW",
+        "up_down_time": {
+          "up": "23s",
+          "down": "25s"
+        },
+        "gradeability": "30% (17°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels",
+        "tire": "solid tire"
+      },
+      "power": {
+        "battery": "2x12V/85Ah(HOPPECKE)",
+        "charger": "24V/15A"
+      },
+      "weight": {
+        "gross_weight": "895kg"
+      }
+    },
+    {
+      "model": "ZS0407DC-Li",
+      "type": "Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0407dc-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "6.5m",
+          "outdoor": "5.6m"
+        },
+        "platform_height_elevated": {
+          "indoor": "4.5m",
+          "outdoor": "3.6m"
+        },
+        "platform_height_stowed": "0.95m",
+        "platform_length": "1.29m",
+        "platform_width": "0.7m",
+        "platform_extension": "0.6m",
+        "overall_height_rails_up": "2.05m",
+        "overall_height_rails_down": "1.7m",
+        "overall_length": "1.44m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.05m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.017m"
+      },
+      "performance": {
+        "platform_capacity": "240kg",
+        "deck_extension_capacity": "100kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.4m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/1.2KW",
+        "drive_motor": "24V/0.45KW",
+        "up_down_time": {
+          "up": "23s",
+          "down": "25s"
+        },
+        "gradeability": "30% (17°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels",
+        "tire": "solid tire"
+      },
+      "power": {
+        "battery": "72Ah Li-ion",
+        "charger": "24V/15A"
+      },
+      "weight": {
+        "gross_weight": "895kg"
+      }
+    },
+    {
+      "model": "ZS0607ACW",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607acw.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24/0.65KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø323mmx100mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1620kg"
+      }
+    },
+    {
+      "model": "ZS0607AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": "6.4m"
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": "4.4m"
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24/0.65KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø323mmx100mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1455kg"
+      }
+    },
+    {
+      "model": "ZS0808AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": "7.8m"
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": "5.8m"
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.49m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2090kg"
+      }
+    },
+    {
+      "model": "ZS0812AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2550kg"
+      }
+    },
+    {
+      "model": "ZS1012AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2930kg"
+      }
+    },
+    {
+      "model": "ZS1212AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.80m",
+          "outdoor": "10m"
+        },
+        "platform_height_elevated": {
+          "indoor": "11.80m",
+          "outdoor": "8m"
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": "1 (CE)"
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3000kg"
+      }
+    },
+    {
+      "model": "ZS1414AC",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414ac.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": "10.5m"
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": "8.5m"
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmX127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3310kg"
+      }
+    },
+    {
+      "model": "ZS0607ACW-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607acw-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/0.65KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø323mmx100mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1620kg"
+      }
+    },
+    {
+      "model": "ZS0607AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": "6.4m"
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": "4.4m"
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/0.65KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø323mmx100mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1455kg"
+      }
+    },
+    {
+      "model": "ZS0808AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": "7.8m"
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": "5.8m"
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.4m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/0.75KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2090kg"
+      }
+    },
+    {
+      "model": "ZS0812AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2550kg"
+      }
+    },
+    {
+      "model": "ZS1012AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "1.86m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2930kg"
+      }
+    },
+    {
+      "model": "ZS1008AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1008ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "12m",
+          "outdoor": "9m"
+        },
+        "platform_height_elevated": {
+          "indoor": "10m",
+          "outdoor": "7m"
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.3m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "55s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "Solid Tires"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3150kg"
+      }
+    },
+    {
+      "model": "ZS1212AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.80m",
+          "outdoor": "10m"
+        },
+        "platform_height_elevated": {
+          "indoor": "11.80m",
+          "outdoor": "8m"
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "2.99m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": "1 (CE)"
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "3000kg"
+      }
+    },
+    {
+      "model": "ZS1414AC-Li",
+      "type": "AC Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414ac-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": "10.5m"
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": "8.5m"
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": "24V/2x0.75KW",
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "3310kg"
+      }
+    },
+    {
+      "model": "ZS0607HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": "6.4m"
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": "4.4m"
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø323mmx100mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah(TIANPENG)x",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1455kg"
+      }
+    },
+    {
+      "model": "ZS0808HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10m",
+          "outdoor": "7.8m"
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": "5.8m"
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.49m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2060kg"
+      }
+    },
+    {
+      "model": "ZS0812HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.3m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2320kg"
+      }
+    },
+    {
+      "model": "ZS1012HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2900kg"
+      }
+    },
+    {
+      "model": "ZS1212HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.80m",
+          "outdoor": "10m"
+        },
+        "platform_height_elevated": {
+          "indoor": "11.80m",
+          "outdoor": "8m"
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "1.99m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": "1 (CE)"
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3000kg"
+      }
+    },
+    {
+      "model": "ZS1414HA",
+      "type": "HA Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414ha.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": "10.5m"
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": "8.5m"
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2.0m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "260kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "4km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3310kg"
+      }
+    },
+    {
+      "model": "ZS0607HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": "6.4m"
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": "4.4m"
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø305mmx114mm"
+      },
+      "power": {
+        "battery": "160Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1425kg"
+      }
+    },
+    {
+      "model": "ZS0808HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": "7.8m"
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": "5.8m"
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.49m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2060kg"
+      }
+    },
+    {
+      "model": "ZS0812HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.3m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2320kg"
+      }
+    },
+    {
+      "model": "ZS1012HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "1.86m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2900kg"
+      }
+    },
+    {
+      "model": "ZS1212HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.8m",
+          "outdoor": "10m"
+        },
+        "platform_height_elevated": {
+          "indoor": "11.8m",
+          "outdoor": "8m"
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "1.99m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": "1 (CE)"
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2970kg"
+      }
+    },
+    {
+      "model": "ZS1414HA-Li",
+      "type": "HA-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414ha-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": "10.5m"
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": "8.5m"
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2.0m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "lifting_motor": "24V/3.3KW",
+        "drive_motor": null,
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "3280kg"
+      }
+    },
+    {
+      "model": "ZS0607HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "up_down_drive_motor": "24V/3.3KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø305mmx114mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1425kg"
+      }
+    },
+    {
+      "model": "ZS0808HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.49m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "up_down_drive_motor": "24V/3.3KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x12V/160Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2060kg"
+      }
+    },
+    {
+      "model": "ZS0812HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2320kg"
+      }
+    },
+    {
+      "model": "ZS1012HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.53m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2900kg"
+      }
+    },
+    {
+      "model": "ZS1212HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "2.00m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": 0
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2970kg"
+      }
+    },
+    {
+      "model": "ZS1414HD",
+      "type": "HD Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414hd.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2.00m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Front Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "4x6V/190Ah(TIANPENG)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "3280kg"
+      }
+    },
+    {
+      "model": "ZS0607HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0607hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.05m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.20m",
+        "overall_height_rails_down": "1.79m",
+        "overall_length": "1.85m",
+        "overall_width": "0.76m",
+        "wheelbase": "1.37m",
+        "ground_clearance_stowed": "0.06m",
+        "ground_clearance_raised": "0.016m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "1.6m",
+        "up_down_drive_motor": "24V/3.3KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø305mmx114mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1425kg"
+      }
+    },
+    {
+      "model": "ZS0808HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0808hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "0.81m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "2.49m",
+        "overall_width": "0.81m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.1m",
+        "up_down_drive_motor": "24V/3.3KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "135Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2060kg"
+      }
+    },
+    {
+      "model": "ZS0812HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0812hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "10.00m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "8.00m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.26m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.4m",
+        "overall_height_rails_down": "1.73m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "31s",
+          "down": "40s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "2320kg"
+      }
+    },
+    {
+      "model": "ZS1012HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1012hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "9.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.39m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.53m",
+        "overall_height_rails_down": "2m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "60s",
+          "down": "35s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2900kg"
+      }
+    },
+    {
+      "model": "ZS1212HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1212hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "11.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.52m",
+        "platform_length": "2.30m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.66m",
+        "overall_height_rails_down": "2.00m",
+        "overall_length": "2.49m",
+        "overall_width": "1.15m",
+        "wheelbase": "1.85m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": "0 (NA)"
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.2m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "2970kg"
+      }
+    },
+    {
+      "model": "ZS1414HD-Li",
+      "type": "HD-Li Series Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1414hd-li.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15.7m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "13.7m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.54m",
+        "platform_length": "2.67m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.68m",
+        "overall_height_rails_down": "2.00m",
+        "overall_length": "2.87m",
+        "overall_width": "1.4m",
+        "wheelbase": "2.22m",
+        "ground_clearance_stowed": "0.11m",
+        "ground_clearance_raised": "0.02m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "3.5km/h",
+        "drive_speed_raised": "0.8km/h",
+        "turning_radius_inside": "0.1m",
+        "turning_radius_outside": "2.6m",
+        "up_down_drive_motor": "24V/4.5KW",
+        "up_down_time": {
+          "up": "88s",
+          "down": "60s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.5°",
+          "vertical": "3°"
+        },
+        "control": "Proportional Control",
+        "drive": "Front Wheels",
+        "brake": "Rear Wheels",
+        "tire_size": "ø381mmx127mm"
+      },
+      "power": {
+        "battery": "230Ah Li-ion",
+        "charger": "24V/30A",
+        "charger_option": "24V/60A"
+      },
+      "weight": {
+        "gross_weight": "3280kg"
+      }
+    },
+    {
+      "model": "ZS0508C",
+      "type": "Crawler Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0508c.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "6.5m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "4.5m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "0.99m",
+        "platform_length": "1.29m",
+        "platform_width": "0.7m",
+        "platform_extension": "0.6m",
+        "overall_height_rails_up": "2.1m",
+        "overall_height_rails_down": "1.74m",
+        "overall_length": "1.46m",
+        "overall_width": "0.81m",
+        "ground_clearance": "0.07m"
+      },
+      "performance": {
+        "platform_capacity": "240kg",
+        "deck_extension_capacity": "100kg",
+        "max_workers": {
+          "indoor": 1,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "2km/h",
+        "drive_speed_raised": "0km/h",
+        "turning_radius": "0m",
+        "drive_motor": "24V/2x0.77KW",
+        "up_down_time": {
+          "up": "23s",
+          "down": "25s"
+        },
+        "gradeability": "25%(14°)",
+        "max_working_slope": {
+          "lateral": "1.7°",
+          "vertical": "1.7°"
+        },
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels"
+      },
+      "power": {
+        "battery": "2x12V/115Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "895kg"
+      }
+    },
+    {
+      "model": "ZS0610C",
+      "type": "Crawler Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0610c.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "8.80m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "6.80m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.12m",
+        "platform_length": "1.94m",
+        "platform_width": "0.95m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.26m",
+        "overall_height_rails_down": "1.77m",
+        "overall_length": "2.1m",
+        "overall_width": "1.05m",
+        "ground_clearance": "0.127m"
+      },
+      "performance": {
+        "platform_capacity": "250kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": 1
+        },
+        "drive_speed_stowed": "2km/h",
+        "drive_speed_raised": "0km/h",
+        "turning_radius": "0m",
+        "drive_motor": "24V/2x1.8KW",
+        "up_down_time": {
+          "up": "34s",
+          "down": "30s"
+        },
+        "gradeability": "30%(17°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "2°"
+        },
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels"
+      },
+      "power": {
+        "battery": "4x12V/240Ah 4x12V/240Ah (US)",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1700kg"
+      }
+    },
+    {
+      "model": "ZS0612C",
+      "type": "Crawler Scissor Lift",
+      "image": "/equipment/scissor-lift/zs0612c.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "7.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "5.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.13m",
+        "platform_length": "1.65m",
+        "platform_width": "0.74m",
+        "platform_extension": "0.9m",
+        "overall_height_rails_up": "2.27m",
+        "overall_height_rails_down": "1.88m",
+        "overall_length": "2.19m",
+        "overall_width": "1.15m",
+        "ground_clearance": "0.08m"
+      },
+      "performance": {
+        "platform_capacity": "230kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "2km/h",
+        "drive_speed_raised": "0km/h",
+        "turning_radius": "0m",
+        "drive_motor": "24V/2x2KW",
+        "up_down_time": {
+          "up": "20s",
+          "down": "24s"
+        },
+        "gradeability": "30%(17°)",
+        "max_working_slope": {
+          "lateral": "12°",
+          "vertical": "7°"
+        },
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels"
+      },
+      "power": {
+        "battery": "4x12V/240Ah",
+        "charger": "24V/30A"
+      },
+      "weight": {
+        "gross_weight": "1900kg"
+      }
+    },
+    {
+      "model": "ZS1216C",
+      "type": "Crawler Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1216c.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "11.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.62m",
+        "platform_length": "2.3m",
+        "platform_width": "1.12m",
+        "platform_extension": "0.91m",
+        "overall_height_rails_up": "2.76m",
+        "overall_height_rails_down": "2.23m",
+        "overall_length": "2.75m",
+        "overall_width": "1.6m",
+        "ground_clearance": "0.15m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "max_workers": {
+          "indoor": 2,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "2km/h",
+        "drive_speed_raised": "0km/h",
+        "turning_radius": "0m",
+        "drive_motor": "48V/2x4KW",
+        "up_down_time": {
+          "up": "62s",
+          "down": "42s"
+        },
+        "gradeability": "30%(17°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "Rear Wheels",
+        "brake": "Rear Wheels"
+      },
+      "power": {
+        "battery": "8x6V/240Ah",
+        "charger": "48V/35A"
+      },
+      "weight": {
+        "gross_weight": "3850kg"
+      }
+    },
+    {
+      "model": "ZS1018RT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1018rt.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "12m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "10m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.5m",
+        "platform_length": "2.9m",
+        "platform_width": "1.52m",
+        "platform_extension": "1.5m",
+        "overall_height_rails_up": "2.6m",
+        "overall_height_rails_down": "1.9m",
+        "overall_length": "3.71/3.14m",
+        "overall_width": "1.77m",
+        "wheelbase": "2.29m",
+        "ground_clearance": "0.24m"
+      },
+      "performance": {
+        "platform_capacity": "500kg",
+        "deck_extension_capacity": "113kg",
+        "drive_height": "Full Height",
+        "max_workers": {
+          "indoor": 4,
+          "outdoor": 2
+        },
+        "drive_speed_stowed": "5km/h",
+        "drive_speed_raised": "0.4km/h",
+        "turning_radius_inside": "2m",
+        "turning_radius_outside": "4.2m",
+        "up_down_time": {
+          "up": "45s",
+          "down": "45s"
+        },
+        "gradeability": "40%(22°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "4WD",
+        "tire": "Solid tire"
+      },
+      "power": {
+        "engine": "D1105",
+        "engine_power": null,
+        "fuel_tank_capacity": null,
+        "diesel_tank": null
+      },
+      "weight": {
+        "gross_weight": "4600/4000kg"
+      }
+    },
+    {
+      "model": "ZS1218RT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1218rt.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "14.3m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "12.3m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.65m",
+        "platform_length": "2.9m",
+        "platform_width": "1.52m",
+        "platform_extension": "1.5m",
+        "overall_height_rails_up": "2.75m",
+        "overall_height_rails_down": "2.05m",
+        "overall_length": "3.71/3.14m",
+        "overall_width": "1.77m",
+        "wheelbase": "2.29m",
+        "ground_clearance": "0.24m"
+      },
+      "performance": {
+        "platform_capacity": "450kg",
+        "deck_extension_capacity": "113kg",
+        "drive_height": "Full height",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": 2
+        },
+        "drive_speed_stowed": "5km/h",
+        "drive_speed_raised": "0.4km/h",
+        "turning_radius_inside": "2m",
+        "turning_radius_outside": "4.2m",
+        "up_down_time": {
+          "up": "55s",
+          "down": "45s"
+        },
+        "gradeability": "40%(22°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "4WD",
+        "tire": "Solid tire"
+      },
+      "power": {
+        "engine": "D1105",
+        "engine_power": null,
+        "fuel_tank_capacity": null,
+        "diesel_tank": null
+      },
+      "weight": {
+        "gross_weight": "5200kg"
+      }
+    },
+    {
+      "model": "ZS1023RT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1023rt.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "12m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "10m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.63m",
+        "platform_length": "3.98m",
+        "platform_width": "1.83m",
+        "platform_extension": "1.3m",
+        "overall_height_rails_up": "2.74m",
+        "overall_height_rails_down": "2.05m",
+        "overall_length": "4.88m/3.98m",
+        "overall_width": "2.3m",
+        "wheelbase": "2.9m",
+        "ground_clearance": "0.275m"
+      },
+      "performance": {
+        "platform_capacity": "1150kg",
+        "deck_extension_capacity": "230kg",
+        "drive_height": "10m",
+        "max_workers": {
+          "indoor": 7,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "6.5km/h",
+        "drive_speed_raised": "0.5km/h",
+        "turning_radius_inside": "2.75m",
+        "turning_radius_outside": "5.8m",
+        "up_down_time": {
+          "up": "45s",
+          "down": "40s"
+        },
+        "gradeability": "50%(28°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "4WD",
+        "tire": "33x12-20/8 Solid Tire"
+      },
+      "power": {
+        "engine": "V2403-CR-E5B-ZML-2",
+        "engine_power": "36.8kw/2700rpm",
+        "fuel_tank_capacity": "105L",
+        "diesel_tank": "100L"
+      },
+      "weight": {
+        "gross_weight": "7350kg/6450kg"
+      }
+    },
+    {
+      "model": "ZS1323RT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1323rt.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "15m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "13m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.83m",
+        "platform_length": "3.98m",
+        "platform_width": "1.83m",
+        "platform_extension": "1.3m",
+        "overall_height_rails_up": "2.95m",
+        "overall_height_rails_down": "2.26m",
+        "overall_length": "4.88m/3.98m",
+        "overall_width": "2.3m",
+        "wheelbase": "2.9m",
+        "ground_clearance": "0.275m"
+      },
+      "performance": {
+        "platform_capacity": "680kg",
+        "deck_extension_capacity": "230kg",
+        "drive_height": "13m",
+        "max_workers": {
+          "indoor": 7,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "6.5km/h",
+        "drive_speed_raised": "0.5km/h",
+        "turning_radius_inside": "2.75m",
+        "turning_radius_outside": "5.8m",
+        "up_down_time": {
+          "up": "48s",
+          "down": "52s"
+        },
+        "gradeability": "50%(28°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "4WD",
+        "tire": "33x12-20/8 Solid Tire"
+      },
+      "power": {
+        "engine": "V2403-CR-E5B-ZML-2",
+        "engine_power": "36.8kw/2700rpm",
+        "fuel_tank_capacity": "105L",
+        "diesel_tank": "100L"
+      },
+      "weight": {
+        "gross_weight": "7850kg/6950kg"
+      }
+    },
+    {
+      "model": "ZS1623RT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1623rt.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "18m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "16m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "2.03m",
+        "platform_length": "3.98m",
+        "platform_width": "1.83m",
+        "platform_extension": "1.3m",
+        "overall_height_rails_up": "3.16m",
+        "overall_height_rails_down": "2.47m",
+        "overall_length": "4.88m",
+        "overall_width": "2.3m",
+        "wheelbase": "2.9m",
+        "ground_clearance": "0.275m"
+      },
+      "performance": {
+        "platform_capacity": "680kg",
+        "deck_extension_capacity": "230kg",
+        "drive_height": "9m",
+        "max_workers": {
+          "indoor": 4,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "6.5km/h",
+        "drive_speed_raised": "0.5km/h",
+        "turning_radius_inside": "2.75m",
+        "turning_radius_outside": "5.8m",
+        "up_down_time": {
+          "up": "60s",
+          "down": "65s"
+        },
+        "gradeability": "40%(22°)",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "4WD",
+        "tire": "33x12-20/8 Solid Tire"
+      },
+      "power": {
+        "engine": "Kubota V2403-M-DI",
+        "engine_power": "36kw/2600rpm",
+        "fuel_tank_capacity": "105L",
+        "diesel_tank": "100L"
+      },
+      "weight": {
+        "gross_weight": "8650kg"
+      }
+    },
+    {
+      "model": "ZS1218ERT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs1218ert.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "13.8m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "11.8m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "1.65m",
+        "platform_length": "2.75m",
+        "platform_width": "1.52m",
+        "platform_extension": "1.2m",
+        "overall_height_rails_up": "2.74m",
+        "overall_height_rails_down": "2.05m",
+        "overall_length": "3.5m",
+        "overall_width": "1.75m",
+        "wheelbase": "1.95m",
+        "ground_clearance": "0.24m"
+      },
+      "performance": {
+        "platform_capacity": "350kg",
+        "deck_extension_capacity": "113kg",
+        "drive_height": "Full height",
+        "max_workers": {
+          "indoor": 3,
+          "outdoor": 2
+        },
+        "drive_speed_stowed": "6km/h",
+        "drive_speed_raised": "0.5km/h",
+        "turning_radius_inside": "2m",
+        "turning_radius_outside": "4.2m",
+        "up_down_time": {
+          "up": "55s",
+          "down": "50s"
+        },
+        "gradeability": "40%",
+        "max_working_slope": {
+          "lateral": "2°",
+          "vertical": "3°"
+        },
+        "drive": "Rear Wheels",
+        "tire": "Ø675mmX280mm"
+      },
+      "power": {
+        "battery": "8x6V/240Ah",
+        "charger": "48V/35A"
+      },
+      "weight": {
+        "gross_weight": "4900kg"
+      }
+    },
+    {
+      "model": "ZS2023ERT",
+      "type": "Rough Terrain Scissor Lift",
+      "image": "/equipment/scissor-lift/zs2023ert.webp",
+      "size_and_dimensions": {
+        "work_height": {
+          "indoor": "22m",
+          "outdoor": null
+        },
+        "platform_height_elevated": {
+          "indoor": "20m",
+          "outdoor": null
+        },
+        "platform_height_stowed": "2.8m",
+        "platform_length": "4.56m",
+        "platform_width": "2.2m",
+        "platform_extension": "2.7m",
+        "overall_height_rails_up": "3.91m",
+        "overall_height_rails_down": "3m",
+        "overall_length": "4.95m",
+        "overall_width": "2.25m",
+        "wheelbase": "3.3m",
+        "ground_clearance": "0.4m"
+      },
+      "performance": {
+        "platform_capacity": "750kg",
+        "deck_extension_capacity": "750kg",
+        "drive_height": "Full height",
+        "max_workers": {
+          "indoor": 4,
+          "outdoor": null
+        },
+        "drive_speed_stowed": "5km/h",
+        "drive_speed_raised": "0.4km/h",
+        "turning_radius_inside": "1.3m",
+        "turning_radius_outside": "3.4m",
+        "up_down_time": {
+          "up": "90s",
+          "down": "75s"
+        },
+        "gradeability": "30%",
+        "max_working_slope": {
+          "lateral": "3°",
+          "vertical": "3°"
+        },
+        "drive": "&&",
+        "tire": "ø914mmX355mm"
+      },
+      "power": {
+        "battery": "80V/460Ah",
+        "charger": "80V/80A"
+      },
+      "weight": {
+        "gross_weight": "14500kg"
+      }
+    }
+  ]
+}

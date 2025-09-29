@@ -3,6 +3,7 @@
 import React from "react";
 import Image from "next/image";
 import { X } from "lucide-react";
+import { specMap } from "../../data/comparison-spec-map"; // Impor specMap dari file baru
 
 // Helper untuk mengambil nilai dari nested object dengan aman
 const getSpec = (obj, path) => {
@@ -13,29 +14,6 @@ const ComparisonModal = ({ isOpen, onClose, products }) => {
   if (!isOpen || !products || products.length === 0) {
     return null;
   }
-
-  // Definisikan semua kemungkinan spesifikasi dan path datanya
-  const specMap = [
-    {
-      label: "Operating Weight",
-      path: "basic_technical_data.operating_weight",
-    },
-    { label: "Rated Power", path: "basic_technical_data.rated_power" },
-    {
-      label: "Standard Capacity",
-      path: "basic_technical_data.standard_capacity",
-    },
-    { label: "Blade Capacity", path: "basic_technical_data.blade_capacity" },
-    { label: "Rated Capacity", path: "performance.rated_capacity" },
-    { label: "Lifting Height", path: "performance.lifting_height" },
-    { label: "Work Height", path: "size.work_height" },
-    { label: "Platform Capacity", path: "performance.platform_capacity" },
-    { label: "Horizontal Outreach", path: "size.horizontal_outreach" },
-    {
-      label: "Max Lifting Capacity",
-      path: "lifting_performance.max_rated_lifting_capacity",
-    },
-  ];
 
   // Filter hanya spesifikasi yang relevan dengan produk yang dibandingkan
   const relevantSpecs = specMap.filter((spec) =>
