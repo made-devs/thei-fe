@@ -61,6 +61,7 @@ export default async function NewMachinesPage({ params }) {
       <InteractiveEquipmentView
         categories={equipmentCategories}
         productData={productData}
+        lang={lang}
       />
 
       {homeDictionary.main_cta && (
