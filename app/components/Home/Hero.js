@@ -21,7 +21,7 @@ const Hero = ({ dictionary, currentLocale }) => {
       />
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="relative z-10 h-full flex flex-col items-center justify-center p-4">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           {/* Teks Utama (Ukuran diperbesar) */}
           <h1 className="text-white text-3xl md:text-5xl font-bold leading-tight">
             {heroDict.main_copy}

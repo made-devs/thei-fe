@@ -2,6 +2,7 @@
   "medium_excavators": [
     {
       "model": "ZE135G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze135g.webp",
       "basic_technical_data": {
         "operating_weight": "14400kg",
@@ -16,6 +17,7 @@
     },
     {
       "model": "ZE135GF",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze135gf.webp",
       "basic_technical_data": {
         "operating_weight": "16500kg",
@@ -30,6 +32,7 @@
     },
     {
       "model": "ZE145GU",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze145gu.webp",
       "basic_technical_data": {
         "operating_weight": "15800kg",
@@ -44,6 +47,7 @@
     },
     {
       "model": "ZE210GLC",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze210glc.webp",
       "basic_technical_data": {
         "operating_weight": "22700kg",
@@ -58,6 +62,7 @@
     },
     {
       "model": "ZE215G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze215g.webp",
       "basic_technical_data": {
         "operating_weight": "22000kg",
@@ -72,6 +77,7 @@
     },
     {
       "model": "ZE215G PRO",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze215g(PRO).webp",
       "basic_technical_data": {
         "operating_weight": "23500kg",
@@ -86,6 +92,7 @@
     },
     {
       "model": "ZE215G ACE",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze215g(ACE).webp",
       "basic_technical_data": {
         "operating_weight": "22000kg",
@@ -100,6 +107,7 @@
     },
     {
       "model": "ZE215GLC",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze215glc.webp",
       "basic_technical_data": {
         "operating_weight": "22000kg",
@@ -114,6 +122,7 @@
     },
     {
       "model": "ZE225GN",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze225gn.webp",
       "basic_technical_data": {
         "operating_weight": "23300kg",
@@ -130,6 +139,7 @@
   "large_excavators": [
     {
       "model": "ZE335G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze335g.webp",
       "basic_technical_data": {
         "operating_weight": "33500kg",
@@ -144,6 +154,7 @@
     },
     {
       "model": "ZE335GLc",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze335glc.webp",
       "basic_technical_data": {
         "operating_weight": "33700 kg",
@@ -158,6 +169,7 @@
     },
     {
       "model": "ZE335G ACE",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze335g(ACE).webp",
       "basic_technical_data": {
         "operating_weight": "33500kg",
@@ -172,6 +184,7 @@
     },
     {
       "model": "ZE375G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze375g.webp",
       "basic_technical_data": {
         "operating_weight": "37500kg",
@@ -186,6 +199,7 @@
     },
     {
       "model": "ZE385G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze385g.webp",
       "basic_technical_data": {
         "operating_weight": "38000kg",
@@ -200,6 +214,7 @@
     },
     {
       "model": "ZE385G ACE",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze385g(ACE).webp",
       "basic_technical_data": {
         "operating_weight": "38000kg",
@@ -214,6 +229,7 @@
     },
     {
       "model": "ZE385G Pro",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze385g(PRO).webp",
       "basic_technical_data": {
         "operating_weight": "38000kg",
@@ -228,6 +244,7 @@
     },
     {
       "model": "ZE385G Pro (Gold)",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze385g(PRO)(GOLD).webp",
       "basic_technical_data": {
         "operating_weight": "38000kg",
@@ -242,6 +259,7 @@
     },
     {
       "model": "ZE500G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze500g.webp",
       "basic_technical_data": {
         "operating_weight": "51000kg",
@@ -256,6 +274,7 @@
     },
     {
       "model": "ZE550G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze550g.webp",
       "basic_technical_data": {
         "operating_weight": "53500kg",
@@ -270,6 +289,7 @@
     },
     {
       "model": "ZE750G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze750g.webp",
       "basic_technical_data": {
         "operating_weight": "76500kg",
@@ -284,6 +304,7 @@
     },
     {
       "model": "ZE900G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze900g.webp",
       "basic_technical_data": {
         "operating_weight": "92000kg",
@@ -298,6 +319,7 @@
     },
     {
       "model": "ZE1250G",
+      "type": "Excavator",
       "image": "/equipment/excavator/ze1250g.webp",
       "basic_technical_data": {
         "operating_weight": "116000kg",

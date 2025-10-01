@@ -3,7 +3,7 @@
     {
       "model": "FB15Z",
       "image": "/equipment/forklift/fb15z.webp",
-      "type": "Electric forklift",
+      "type": "Electric Forklift",
       "performance": {
         "rated_capacity": "1500 kg",
         "load_centre": "500 mm",
@@ -47,7 +47,7 @@
     {
       "model": "FB20Z",
       "image": "/equipment/forklift/fb20z.webp",
-      "type": "Electric forklift",
+      "type": "Electric Forklift",
       "performance": {
         "rated_capacity": "2000 kg",
         "load_centre": "500 mm",
@@ -91,7 +91,7 @@
     {
       "model": "FB25Z",
       "image": "/equipment/forklift/fb25z.webp",
-      "type": "Electric forklift",
+      "type": "Electric Forklift",
       "performance": {
         "rated_capacity": "2500 kg",
         "load_centre": "500 mm",
@@ -135,7 +135,7 @@
     {
       "model": "FB30Z",
       "image": "/equipment/forklift/fb30z.webp",
-      "type": "Electric forklift",
+      "type": "Electric Forklift",
       "performance": {
         "rated_capacity": "3000 kg",
         "load_centre": "500 mm",
@@ -179,7 +179,7 @@
     {
       "model": "FB35Z",
       "image": "/equipment/forklift/fb35z.webp",
-      "type": "Electric forklift",
+      "type": "Electric Forklift",
       "performance": {
         "rated_capacity": "3500 kg",
         "load_centre": "500 mm",
@@ -223,7 +223,7 @@
     {
       "model": "FD50Z",
       "image": "/equipment/forklift/fd50z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "5000Kg",
         "load_centre": "600 mm",
@@ -267,7 +267,7 @@
     {
       "model": "FD60Z",
       "image": "/equipment/forklift/fd60z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "6000Kg",
         "load_centre": "600 mm",
@@ -311,7 +311,7 @@
     {
       "model": "FD70Z",
       "image": "/equipment/forklift/fd70z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "7000Kg",
         "load_centre": "600 mm",
@@ -355,7 +355,7 @@
     {
       "model": "FD100Z",
       "image": "/equipment/forklift/fd100z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "10000Kg",
         "load_centre": "600 mm",
@@ -399,7 +399,7 @@
     {
       "model": "FD15Z",
       "image": "/equipment/forklift/fd15z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "1500Kg",
         "load_centre": "500 mm",
@@ -443,7 +443,7 @@
     {
       "model": "FD18Z",
       "image": "/equipment/forklift/fd18z.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "1800Kg",
         "load_centre": "500 mm",
@@ -487,7 +487,7 @@
     {
       "model": "FD20H",
       "image": "/equipment/forklift/fd20h.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "2000Kg",
         "load_centre": "500mm",
@@ -531,7 +531,7 @@
     {
       "model": "FD25H",
       "image": "/equipment/forklift/fd25h.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "2500Kg",
         "load_centre": "500mm",
@@ -575,7 +575,7 @@
     {
       "model": "FD30H",
       "image": "/equipment/forklift/fd30h.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "3000Kg",
         "load_centre": "500mm",
@@ -619,7 +619,7 @@
     {
       "model": "FD35H",
       "image": "/equipment/forklift/fd35h.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "3500Kg",
         "load_centre": "500mm",
@@ -663,7 +663,7 @@
     {
       "model": "FD40mini",
       "image": "/equipment/forklift/fd40mini.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "4000Kg",
         "load_centre": "500mm",
@@ -707,7 +707,7 @@
     {
       "model": "FD45mini",
       "image": "/equipment/forklift/fd45mini.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "4500Kg",
         "load_centre": "500mm",
@@ -751,7 +751,7 @@
     {
       "model": "FD50mini",
       "image": "/equipment/forklift/fd50mini.webp",
-      "type": "Internal combustion forklift",
+      "type": "Internal Combustion Forklift",
       "performance": {
         "rated_capacity": "5000Kg",
         "load_centre": "500mm",

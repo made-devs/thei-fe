@@ -3,6 +3,7 @@
     {
       "model": "ZE18GU",
       "image": "/equipment/mini-excavator/ze18gu.webp",
+      "type": "Mini Excavator",
       "basic_technical_data": {
         "operating_weight": "1800 kg",
         "rated_power": "11.8 kw",
@@ -16,6 +17,7 @@
     },
     {
       "model": "ZE20G",
+      "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze20g.webp",
       "basic_technical_data": {
         "operating_weight": "1970 kg",
@@ -30,6 +32,7 @@
     },
     {
       "model": "ZE27GU(Cab)",
+      "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze27gu(CAB).webp",
       "basic_technical_data": {
         "operating_weight": "2700 kg",
@@ -44,6 +47,7 @@
     },
     {
       "model": "ZE27GU(Canopy)",
+      "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze27gu(CANOPY).webp",
       "basic_technical_data": {
         "operating_weight": "2650 kg",
@@ -58,6 +62,7 @@
     },
     {
       "model": "ZE36GU(Cab)",
+      "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze36gu(CAB).webp",
       "basic_technical_data": {
         "operating_weight": "3790 kg",
@@ -72,6 +77,7 @@
     },
     {
       "model": "ZE36GU(Canopy)",
+      "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze36gu(CANOPY).webp",
       "basic_technical_data": {
         "operating_weight": "3690 kg",

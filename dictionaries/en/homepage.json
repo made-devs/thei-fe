@@ -1,6 +1,6 @@
 {
   "hero": {
-    "main_copy": "Sales • Trade-In • Rental • Repair • Parts • After Sales",
+    "main_copy": "Sales • Spare Parts • Service • Rental • Trade-In",
     "sub_copy_line1": "Bonus After Sales up to Rp200 Million",
     "sub_copy_line2": "24/7 Service",
     "sub_copy_line3": "Genuine Parts",
@@ -37,50 +37,110 @@
     "packages": [
       {
         "name": "SILVER",
-        "price": "Rp20 jt",
-        "description": "Basic service package to maintain your vehicle's essential performance.",
-        "features": ["Oil", "Spooring", "AC Basic", "Lamp Polishing", "Fogging"]
-      },
-      {
-        "name": "GOLD",
-        "price": "Rp50 jt",
-        "description": "Comprehensive maintenance for extra comfort and protection.",
+        "price": "Promo Nilai 10.000K",
+        "description": "11 Layanan terlengkap untuk proteksi dan servis dasar kendaraan Anda.",
         "features": [
-          "AC Super Freeze",
-          "Anti-Rust",
-          "Body Polishing",
-          "Undercarriage Service",
-          "Oil",
-          "Fogging"
+          "Engine Scanner (1x/Tahun)",
+          "Tune Up 65 Komponen + Carbon Cleaner (1x/Tahun)",
+          "Service Kaki-Kaki Komplit (1x/Tahun)",
+          "Anti Karat Flinkcoat Undercarriage (1x/Tahun)",
+          "Quick Service TJM Express (1x/Tahun)",
+          "Spooring (1x/Tahun)",
+          "Diskon Sparepart 15% (di luar bonus)",
+          "Inspeksi Shaking Machine Kaki-Kaki (Unlimited)",
+          "Inspeksi Mesin (Unlimited/Tahun)",
+          "Inspeksi Transmisi (Unlimited/Tahun)",
+          "Konsultasi Teknis TJM Auto Care (Unlimited)"
         ]
       },
       {
-        "name": "EXCLUSIVE",
-        "price": "Rp150 jt",
-        "description": "Premium services for advanced restoration and protection.",
+        "name": "GOLD",
+        "price": "Promo Nilai 20.000K",
+        "description": "15 Layanan terlengkap untuk servis premium dan perlindungan yang lebih komprehensif.",
         "features": [
-          "Nano Ceramic",
-          "Anti-Rust",
-          "Overhaul",
-          "AC Super Freeze",
-          "Spooring",
-          "etc."
+          "Engine Scanner (3x/Tahun)",
+          "Tune Up 65 Komponen + Carbon Cleaner",
+          "Service Kaki-Kaki Komplit (2x/Tahun)",
+          "Anti Karat Flinkcoat Undercarriage (1x/Tahun)",
+          "Quick Service TJM Express (2x/Tahun)",
+          "Spooring (2x/Tahun)",
+          "Car Wash Snow (10x/Tahun)",
+          "Service AC Super Dingin (2x/Tahun)",
+          "Fogging & Disinfectant (3x/Tahun)",
+          "Engine Detailing/Cuci Mesin (2x/Tahun)",
+          "Diskon Sparepart 25% (di luar bonus)",
+          "Inspeksi Shaking Machine Kaki-Kaki (Unlimited)",
+          "Inspeksi Mesin, Transmisi (Unlimited/Tahun)",
+          "Konsultasi Teknis TJM Auto Care (Unlimited)"
+        ]
+      },
+      {
+        "name": "PLATINUM",
+        "price": "Promo Nilai 50.000K",
+        "description": "16 Layanan terlengkap untuk pemeliharaan superior dengan fitur Coating Kaca.",
+        "features": [
+          "Engine Scanner (5x/Tahun)",
+          "Tune Up 65 Komponen + Carbon Cleaner",
+          "Service Kaki-Kaki Komplit (3x/Tahun)",
+          "Anti Karat Flinkcoat Undercarriage (2x/Tahun)",
+          "Quick Service TJM Express (3x/Tahun)",
+          "Coating Kaca (1x/Tahun)",
+          "Spooring (Unlimited 6 Bulan)",
+          "Car Wash Snow (20x/Tahun)",
+          "Service AC Super Dingin (3x/Tahun)",
+          "Fogging & Disinfectant (Unlimited)",
+          "Full Detailing Interior & Eksterior (2x/Tahun)",
+          "Diskon Sparepart 35% (di luar bonus)",
+          "Inspeksi Shaking Machine Kaki-Kaki, Mesin, Transmisi (Unlimited/Tahun)",
+          "Konsultasi Teknis TJM Auto Care (Unlimited)"
         ]
       },
       {
         "name": "DIAMOND",
-        "price": "Rp200 jt",
-        "description": "The total solution for peak performance and complete peace of mind.",
+        "price": "Promo Nilai 200.000K",
+        "description": "19 Layanan terlengkap untuk solusi total dengan inspeksi kelistrikan dan AC tak terbatas.",
         "features": [
-          "All Exclusive Package",
-          "+ Engine Rebuild",
-          "Tune Up",
-          "Understeel",
-          "Premium Coating",
-          "Transmission",
-          "Brakes",
-          "Tires",
-          "Safety Kit"
+          "FREE Engine Scanner (Sepuasnya)",
+          "Tune Up 65 Komponen + Carbon Cleaner (4x/Tahun)",
+          "Service Kaki-Kaki Komplit (4x/Tahun)",
+          "Anti Karat Flinkcoat Undercarriage (2x/Tahun)",
+          "Quick Service TJM Express (4x/Tahun)",
+          "Coating Kaca (2x/Tahun)",
+          "Spooring (Unlimited 1 Tahun)",
+          "Car Wash Snow (50x/Tahun)",
+          "Service AC Super Dingin (4x/Tahun)",
+          "Fogging & Disinfectant (Unlimited)",
+          "Full Detailing Interior & Eksterior (4x/Tahun)",
+          "Radiator Ultra Flush (2x/Tahun)",
+          "Battery Maintenance & Fogging Terminal (Unlimited)",
+          "Diskon Sparepart 45% (di luar bonus)",
+          "Inspeksi Shaking Machine Kaki-Kaki, Mesin, Transmisi, Kelistrikan & AC (Unlimited/Tahun)",
+          "Konsultasi Teknis TJM Auto Care (Unlimited)"
+        ]
+      },
+      {
+        "name": "EXCLUSIVE",
+        "price": "Promo Nilai 250.000K",
+        "description": "22 Layanan terlengkap dan paling premium, mencakup Nano Coating dan Body & Paint Touch Up.",
+        "features": [
+          "Engine Scanner (Unlimited)",
+          "Tune Up 65 Komponen + Carbon Cleaner (6x/Tahun)",
+          "Service Kaki-Kaki Komplit (6x/Tahun)",
+          "Anti Karat Flinkcoat Undercarriage (3x/Tahun)",
+          "Quick Service TJM Express (6x/Tahun)",
+          "Coating Kaca (3x/Tahun)",
+          "Spooring (Unlimited 1 Tahun)",
+          "Car Wash Snow (100x/Tahun)",
+          "Service AC Super Dingin (6x/Tahun)",
+          "Fogging & Disinfectant (Unlimited)",
+          "Full Detailing Interior & Eksterior (6x/Tahun)",
+          "Radiator Ultra Flush (4x/Tahun)",
+          "Battery Maintenance & Fogging Terminal (Unlimited)",
+          "Body & Paint Touch Up (2x/Tahun)",
+          "Diskon Sparepart 50% (di luar bonus)",
+          "Nano Coating + Full Detailing (2x/Tahun)",
+          "Inspeksi Shaking Machine Kaki-Kaki, Mesin, Transmisi, Kelistrikan & AC, Chassis & Body Lengkap (Unlimited/Tahun)",
+          "Konsultasi Teknis TJM Auto Care (Unlimited)"
         ]
       }
     ],
