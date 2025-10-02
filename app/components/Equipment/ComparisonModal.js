@@ -10,6 +10,14 @@ const getSpec = (obj, path) => {
   return path.split(".").reduce((acc, part) => acc && acc[part], obj);
 };
 
+// Helper untuk render value spesifikasi
+const renderSpecValue = (value) => {
+  if (typeof value === "object" && value !== null && !Array.isArray(value)) {
+    return Object.values(value).filter(Boolean).join(" / ");
+  }
+  return value ?? "-";
+};
+
 const ComparisonModal = ({ isOpen, onClose, products }) => {
   if (!isOpen || !products || products.length === 0) {
     return null;
@@ -77,7 +85,7 @@ const ComparisonModal = ({ isOpen, onClose, products }) => {
                       index % 2 === 0 ? "bg-gray-50" : "bg-white"
                     }`}
                   >
-                    {getSpec(product, spec.path) || "-"}
+                    {renderSpecValue(getSpec(product, spec.path))}
                   </div>
                 ))}
               </React.Fragment>

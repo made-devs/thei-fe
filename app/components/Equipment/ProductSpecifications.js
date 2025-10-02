@@ -8,10 +8,32 @@ const formatLabel = (key) => {
 
 const SpecItem = ({ label, value }) => {
   if (!value) return null;
+
+  // Jika value adalah objek, render isinya secara rekursif
+  if (typeof value === 'object' && value !== null && !Array.isArray(value)) {
+    return (
+      <div className="pl-4 border-l-2 border-gray-200 mt-2">
+        <span className="text-gray-600 font-semibold">{label}:</span>
+        <div className="space-y-1 mt-1">
+          {Object.entries(value).map(([nestedKey, nestedValue]) => (
+            <SpecItem
+              key={nestedKey}
+              label={formatLabel(nestedKey)}
+              value={nestedValue}
+            />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  // Jika value adalah string atau angka, render seperti biasa
   return (
-    <div className="flex justify-between py-3 border-b border-gray-200">
+    <div className="flex justify-between py-2 border-b border-gray-100">
       <span className="text-gray-600">{label}:</span>
-      <span className="font-bold text-black text-right">{value}</span>
+      <span className="font-semibold text-black text-right">
+        {String(value)}
+      </span>
     </div>
   );
 };
@@ -27,7 +49,7 @@ const SpecificationSection = ({ title, data }) => {
       <h3 className="text-xl font-bold text-black pb-2 mb-2 border-b">
         {title}
       </h3>
-      <div className="space-y-2 text-sm">
+      <div className="space-y-1 text-sm">
         {Object.entries(data).map(([key, value]) => (
           <SpecItem key={key} label={formatLabel(key)} value={value} />
         ))}

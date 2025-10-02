@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, Download, Mail } from 'lucide-react';
 import { mainSpecConfig } from '../../data/hero-spec-config';
 
 // Helper untuk mendapatkan value dari nested object
@@ -35,10 +35,18 @@ const ProductHero = ({ product, lang }) => {
   const specsConfig = mainSpecConfig[categoryKey] || mainSpecConfig.default;
 
   const mainSpecs = specsConfig
-    .map((spec) => ({
-      label: spec.label,
-      value: getValueByPath(product, spec.path),
-    }))
+    .map((spec) => {
+      let value = getValueByPath(product, spec.path);
+      // Jika value object, gabungkan jadi string
+      if (
+        typeof value === 'object' &&
+        value !== null &&
+        !Array.isArray(value)
+      ) {
+        value = Object.values(value).filter(Boolean).join(' / ');
+      }
+      return { label: spec.label, value };
+    })
     .filter((spec) => spec.value);
 
   return (
@@ -60,9 +68,9 @@ const ProductHero = ({ product, lang }) => {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 items-center">
+        <div className="grid lg:grid-cols-2 gap-8 items-stretch">
           {/* Kolom Kiri: Teks dan Spesifikasi */}
-          <div className="text-left py-8 lg:py-16">
+          <div className="text-left py-8 lg:py-16 flex flex-col justify-center">
             <p className="font-semibold text-black">{product.type}</p>
             <h1 className="text-5xl lg:text-6xl font-extrabold text-black mt-2 leading-tight">
               {product.model}
@@ -82,22 +90,48 @@ const ProductHero = ({ product, lang }) => {
                 />
               ))}
             </div>
+
+            {/* Tombol aksi */}
+            <div className="mt-10 flex gap-4">
+              <Link
+                href={`/request-quote?model=${encodeURIComponent(
+                  product.model
+                )}`}
+                className="inline-flex items-center px-6 py-3 bg-black hover:bg-gray-900 text-yellow-400 font-semibold rounded-lg shadow transition"
+              >
+                <Mail size={18} className="mr-2" />
+                Request Quote
+              </Link>
+              {product.brochure && (
+                <a
+                  href={product.brochure}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center px-6 py-3 border border-black text-yellow-400 font-semibold rounded-lg hover:bg-gray-900 transition"
+                >
+                  <Download size={18} className="mr-2" />
+                  Download Brochure
+                </a>
+              )}
+            </div>
           </div>
 
           {/* Kolom Kanan: Gambar Produk */}
-          <div className="relative h-80 lg:h-full w-full self-end">
-            <Image
-              src={product.image || '/placeholder.png'}
-              alt={product.model}
-              fill
-              className="object-contain"
-              style={{
-                filter: 'drop-shadow(0 25px 25px rgb(0 0 0 / 0.25))',
-                objectPosition: 'center bottom',
-              }}
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              priority
-            />
+          <div className="relative flex items-center justify-end h-[420px] lg:h-full w-full">
+            <div className="relative w-full max-w-[520px] h-[320px] lg:h-[420px] flex items-center justify-end ml-auto transition-transform duration-300 hover:scale-105">
+              <Image
+                src={product.image || '/placeholder.png'}
+                alt={product.model}
+                fill
+                className="object-contain"
+                style={{
+                  filter: 'drop-shadow(0 35px 55px rgba(0,0,0,0.65))',
+                  objectPosition: 'center',
+                }}
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
+            </div>
           </div>
         </div>
       </div>

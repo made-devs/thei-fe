@@ -121,4 +121,15 @@ export const mainSpecConfig = {
       path: 'mixing_drum_parameters.agitator_capacity',
     },
   ],
+  'vibro-roller': [
+    {
+      label: 'Operating Mass (kg)',
+      path: 'basic_technical_data.operating_mass_kg',
+    },
+    { label: 'Rated Power (kW)', path: 'basic_technical_data.rated_power_kw' },
+    {
+      label: 'Vibration Frequency (Hz)',
+      path: 'basic_technical_data.vibration_frequency_hz',
+    },
+  ],
 };

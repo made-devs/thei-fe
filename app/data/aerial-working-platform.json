@@ -3,7 +3,7 @@
     {
       "model": "ZX23AE",
       "type": "Spider Lift",
-      "image": "/equipment/spider-lift/zx23ae.webp",
+      "image": "/equipment/scissor-lift/zx23ae.webp",
       "size": {
         "work_height": "22.6m",
         "platform_height": "20.6m",
@@ -57,7 +57,7 @@
     {
       "model": "ZX27AE",
       "type": "Spider Lift",
-      "image": "/equipment/spider-lift/zx27ae.webp",
+      "image": "/equipment/scissor-lift/zx27ae.webp",
       "size": {
         "work_height": "27.2m",
         "platform_height": "25.2m",
@@ -111,7 +111,7 @@
     {
       "model": "ZX37T",
       "type": "Spider Lift",
-      "image": "/equipment/spider-lift/zx37t.webp",
+      "image": "/equipment/scissor-lift/zx37t.webp",
       "size": {
         "work_height": "37.3m",
         "platform_height": "35.3m",

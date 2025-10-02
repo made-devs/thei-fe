@@ -1,0 +1,615 @@
+{
+  "motor_graders": [
+    {
+      "model": "STG140C-8S",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg140c-8s.webp",
+      "power_system_specification": {
+        "supplier": "DONGFENG CUMMINS",
+        "emission": "CHINA II",
+        "model": "6BTA5.9-C150-Ⅱ",
+        "rated_power_kw": "112",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "655"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "8765x2460x3310",
+        "front_rear_axle_base_mm": "6154",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "395"
+      },
+      "load_spec": {
+        "standard_with_counterweight_kg": "13000"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660 (12ft) (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "420",
+        "max_depth_of_cut_mm": "630",
+        "blade_tip_range_degrees": "25°-75°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "5/8/12/19/28/41",
+        "reverse_speed_kmh": "5/12/28",
+        "steering_angle_front_wheel_degrees": "±45°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±25°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "13.00-24(16PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "350"
+      }
+    },
+    {
+      "model": "STG170C-8S",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg170c-8s.webp",
+      "power_system_specification": {
+        "supplier": "WEICHAI",
+        "emission": "CHINAⅢ",
+        "model": "WP6G180E330",
+        "rated_power_kw": "132.5",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "750"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "8775x2740x3348",
+        "front_rear_axle_base_mm": "6310",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_without_counterweight_kg": "14730"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660(12ft)(standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "480",
+        "max_depth_of_cut_mm": "630",
+        "blade_tip_range_degrees": "25°-75°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "5/8/10/18/26/40",
+        "reverse_speed_kmh": "5/10/26",
+        "steering_angle_front_wheel_degrees": "±45°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±27°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "17.5-25(12PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "350"
+      }
+    },
+    {
+      "model": "STG190C-10S (Euro Ⅱ)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg190c-10s-euro-ii.webp",
+      "power_system_specification": {
+        "supplier": "DONGFENG CUMMINS",
+        "emission": "Euro II",
+        "model": "6BTAA5.9-C190",
+        "rated_power_kw": "142",
+        "rated_rotation_speed_rpm": "2000",
+        "peak_torque_nm": "800"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9510x2740x3500",
+        "front_rear_axle_base_mm": "6650",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_with_counterweight_kg": "15600"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660 (12ft) (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "505",
+        "max_depth_of_cut_mm": "715",
+        "blade_tip_range_degrees": "27°-77°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "5/9/12/19/24/40",
+        "reverse_speed_kmh": "5/12/24",
+        "steering_angle_front_wheel_degrees": "±48°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±25°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "17.5-25(12PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "400"
+      }
+    },
+    {
+      "model": "STG190C-10S (Euro Ⅲ)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg190c-10s-euro-iii.webp",
+      "power_system_specification": {
+        "supplier": "DONGFENG CUMMINS",
+        "emission": "Euro III",
+        "model": "QSB6.7-C190-30",
+        "rated_power_kw": "142",
+        "rated_rotation_speed_rpm": "2000",
+        "peak_torque_nm": "931"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9510x2740x3500",
+        "front_rear_axle_base_mm": "6650",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_with_counterweight_kg": "15800"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660 (12ft) (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "505",
+        "max_depth_of_cut_mm": "715",
+        "blade_tip_range_degrees": "27°-77°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "5/9/12/19/23/38",
+        "reverse_speed_kmh": "5/12/23",
+        "steering_angle_front_wheel_degrees": "±48°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±25°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "17.5-25(12PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "400"
+      }
+    },
+    {
+      "model": "STG190C-8S (Weichai)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg190c-8s-weichai.webp",
+      "power_system_specification": {
+        "supplier": "WEICHAI",
+        "emission": "ChinaⅢ",
+        "model": "WP6G200E330",
+        "rated_power_kw": "147",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "900"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9340x2740x3348",
+        "front_rear_axle_base_mm": "6310",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "15800"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660(12ft)(standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "480",
+        "max_depth_of_cut_mm": "630",
+        "blade_tip_range_degrees": "25°-75°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "6/10/13/21/27/42",
+        "reverse_speed_kmh": "6/13/27",
+        "steering_angle_front_wheel_degrees": "±45°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±27°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "17.5-25(12PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "350"
+      }
+    },
+    {
+      "model": "STG190C-8S (Dongfeng)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg190c-8s-dongfeng.webp",
+      "power_system_specification": {
+        "supplier": "DONGFENG CUMMINS",
+        "emission": "EU II",
+        "model": "6BTAA5.9-C190",
+        "rated_power_kw": "142",
+        "rated_rotation_speed_rpm": "2000",
+        "peak_torque_nm": "800"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9340x2740x3348",
+        "front_rear_axle_base_mm": "6310",
+        "middle_rear_wheel_base_mm": "1538",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "15800"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660(12ft)(standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "480",
+        "max_depth_of_cut_mm": "630",
+        "blade_tip_range_degrees": "25°-75°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "5/9/12/19/24/38",
+        "reverse_speed_kmh": "5/12/24",
+        "steering_angle_front_wheel_degrees": "±45°",
+        "tilt_angle_front_wheel_degrees": "±17°",
+        "articulated_steering_angle_degrees": "±27°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "17.5-25(12PR)(standard)"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "350"
+      }
+    },
+    {
+      "model": "STG230C-10S (Stage II)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg230c-10s-stage-ii.webp",
+      "power_system_specification": {
+        "supplier": "DONGFENG CUMMINS",
+        "emission": "Stage II",
+        "model": "6CTAA8.3",
+        "rated_power_kw": "179",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": null
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9510x2740x3500",
+        "dimensions_with_rear_ripper_lwh_mm": "10350x2740x3500",
+        "dimensions_with_front_dozer_rear_ripper_lwh_mm": "11230x2740x3500",
+        "front_rear_axle_base_mm": null,
+        "middle_rear_wheel_base_mm": null,
+        "clearance_rear_axle_to_ground_mm": null
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "16800",
+        "operating_mass_with_rear_ripper_kg": "17400",
+        "operating_mass_with_front_dozer_rear_ripper_kg": "18450"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": null,
+        "turning_angle_degrees": null,
+        "max_lift_above_ground_mm": "505",
+        "max_depth_of_cut_mm": null,
+        "blade_tip_range_degrees": null
+      },
+      "running_specification": {
+        "gears": null,
+        "forward_speed_kmh": "6/10/13/21/27/42",
+        "reverse_speed_kmh": "6/13/27",
+        "steering_angle_front_wheel_degrees": null,
+        "tilt_angle_front_wheel_degrees": null,
+        "articulated_steering_angle_degrees": null,
+        "oscillation_angle_front_axle_degrees": null,
+        "model_of_tire": null
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "400"
+      }
+    },
+    {
+      "model": "STG230C-10S (CHINA III)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg230c-10s-china-iii.webp",
+      "power_system_specification": {
+        "supplier": "SANY DEUTZ",
+        "emission": "China III",
+        "model": "D07",
+        "rated_power_kw": "180",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": null
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9510x2740x3500",
+        "dimensions_with_rear_ripper_lwh_mm": "10350x2740x3500",
+        "dimensions_with_front_dozer_rear_ripper_lwh_mm": "11230x2740x3500",
+        "front_rear_axle_base_mm": null,
+        "middle_rear_wheel_base_mm": null,
+        "clearance_rear_axle_to_ground_mm": null
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "16800",
+        "operating_mass_with_rear_ripper_kg": "17400",
+        "operating_mass_with_front_dozer_rear_ripper_kg": "18450"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": null,
+        "turning_angle_degrees": null,
+        "max_lift_above_ground_mm": "505",
+        "max_depth_of_cut_mm": null,
+        "blade_tip_range_degrees": null
+      },
+      "running_specification": {
+        "gears": null,
+        "forward_speed_kmh": "6/10/13/21/27/42",
+        "reverse_speed_kmh": "6/13/27",
+        "steering_angle_front_wheel_degrees": null,
+        "tilt_angle_front_wheel_degrees": null,
+        "articulated_steering_angle_degrees": null,
+        "oscillation_angle_front_axle_degrees": null,
+        "model_of_tire": null
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "400"
+      }
+    },
+    {
+      "model": "STG230C-10S (Euro V)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg230c-10s-euro-v.webp",
+      "power_system_specification": {
+        "supplier": "SDEC",
+        "emission": "Euro V",
+        "model": "SC7H",
+        "rated_power_kw": "177",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": null
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9510x2740x3500",
+        "dimensions_with_rear_ripper_lwh_mm": "10350x2740x3500",
+        "dimensions_with_front_dozer_rear_ripper_lwh_mm": "11230x2740x3500",
+        "front_rear_axle_base_mm": null,
+        "middle_rear_wheel_base_mm": null,
+        "clearance_rear_axle_to_ground_mm": null
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "16800",
+        "operating_mass_with_rear_ripper_kg": "17400",
+        "operating_mass_with_front_dozer_rear_ripper_kg": "18500"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": null,
+        "turning_angle_degrees": null,
+        "max_lift_above_ground_mm": "505",
+        "max_depth_of_cut_mm": null,
+        "blade_tip_range_degrees": null
+      },
+      "running_specification": {
+        "gears": null,
+        "forward_speed_kmh": "6/10/13/21/27/42",
+        "reverse_speed_kmh": "6/13/27",
+        "steering_angle_front_wheel_degrees": null,
+        "tilt_angle_front_wheel_degrees": null,
+        "articulated_steering_angle_degrees": null,
+        "oscillation_angle_front_axle_degrees": null,
+        "model_of_tire": null
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "400"
+      }
+    },
+    {
+      "model": "STG230C-8S",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg230c-8s.webp",
+      "power_system_specification": {
+        "supplier": "HUNAN DEUTZ",
+        "emission": "ChinaⅢ",
+        "model": "D07S3-245E0",
+        "rated_power_kw": "180",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "885"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9340x2545x3350",
+        "dimensions_with_front_blade_rear_counterweight_lwh_mm": "10280x2545x3350",
+        "dimensions_with_front_blade_rear_ripper_lwh_mm": "11295x2545x3350",
+        "front_rear_axle_base_mm": "6280",
+        "middle_rear_wheel_base_mm": "1527",
+        "clearance_rear_axle_to_ground_mm": "410"
+      },
+      "load_specification": {
+        "standard_with_front_counterweight_kg": "16800",
+        "load_with_front_blade_rear_counterweight_kg": "17800",
+        "load_with_front_blade_rear_ripper_kg": "18220"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (14ft) (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "470",
+        "max_depth_of_cut_mm": "630",
+        "blade_tip_range_degrees": "26°-79°"
+      },
+      "running_specification": {
+        "gears": "6 forward and 3 reverse",
+        "forward_speed_kmh": "6/10/13/21/27/40",
+        "reverse_speed_kmh": "6/13/27",
+        "steering_angle_front_wheel_degrees": "±40°",
+        "tilt_angle_front_wheel_degrees": "±15°",
+        "articulated_steering_angle_degrees": "±25°",
+        "oscillation_angle_front_axle_degrees": "±16°",
+        "model_of_tire": "14.0-24 16PR"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "310"
+      }
+    },
+    {
+      "model": "STG265C-10",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/stg265c-10.webp",
+      "power_system_specification": {
+        "supplier": "Hunan-Deutz",
+        "emission": "Euro III",
+        "model": "D09",
+        "rated_power_kw": "200",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": null
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9700x2860x3580",
+        "dimensions_with_rear_ripper_lwh_mm": "10800x2860x3580",
+        "dimensions_with_front_dozer_rear_ripper_lwh_mm": "11620x2860x3580",
+        "front_rear_axle_base_mm": null,
+        "middle_rear_wheel_base_mm": null,
+        "clearance_rear_axle_to_ground_mm": null
+      },
+      "load_specification": {
+        "standard_with_front_rear_counterweight_kg": "19300",
+        "operating_mass_with_rear_ripper_kg": "20200",
+        "operating_mass_with_front_dozer_rear_ripper_kg": "21000"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (standard)",
+        "height_of_blade_mm": "610",
+        "tilt_angle_degrees": null,
+        "turning_angle_degrees": null,
+        "max_lift_above_ground_mm": "515",
+        "max_depth_of_cut_mm": null,
+        "blade_tip_range_degrees": null
+      },
+      "running_specification": {
+        "gears": null,
+        "forward_speed_kmh": "6/9/14/21/30/42",
+        "reverse_speed_kmh": "6/15/34",
+        "steering_angle_front_wheel_degrees": null,
+        "tilt_angle_front_wheel_degrees": null,
+        "articulated_steering_angle_degrees": null,
+        "oscillation_angle_front_axle_degrees": null,
+        "model_of_tire": null
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "140",
+        "max_capacity_fuel_tank_l": "380"
+      }
+    },
+    {
+      "model": "SMG200C-10",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/smg200c-10.webp",
+      "power_system_specification": {
+        "supplier": "Cummins",
+        "emission": "Stage III",
+        "model": "QSC 8.3",
+        "rated_power_hp": "205-217",
+        "rated_power_kw": null,
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "980"
+      },
+      "dimensions": {
+        "standard_lwh_mm": "9005x2662x3485",
+        "dimensions_with_front_counterweight_rear_ripper_lwh_mm": "10700x2662x3485",
+        "front_rear_axle_base_mm": null,
+        "middle_rear_wheel_base_mm": null,
+        "clearance_rear_axle_to_ground_mm": null
+      },
+      "load_specification": {
+        "standard_without_counterweight_kg": "17000",
+        "operating_mass_with_front_counterweight_rear_ripper_kg": "19600"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "3660 (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": null,
+        "turning_angle_degrees": null,
+        "max_lift_above_ground_mm": "460",
+        "max_depth_of_cut_mm": null,
+        "blade_tip_range_degrees": null
+      },
+      "running_specification": {
+        "gears": null,
+        "forward_speed_kmh": "4/5.5/8/11/17.2/23.4/32.3/46.8",
+        "reverse_speed_kmh": "3.2/6/8.7/13.6/25.3/37",
+        "steering_angle_front_wheel_degrees": null,
+        "tilt_angle_front_wheel_degrees": null,
+        "articulated_steering_angle_degrees": null,
+        "oscillation_angle_front_axle_degrees": null,
+        "model_of_tire": "17.5-25 12PR"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "120",
+        "max_capacity_fuel_tank_l": "380"
+      }
+    },
+    {
+      "model": "SMG200 (PDJ10000157)",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/smg200-pdj10000157.webp",
+      "power_system_specification": {
+        "supplier": "CUMMINS",
+        "emission": "EPA Tier4(F)",
+        "model": "QSL9",
+        "rated_power_kw": "186",
+        "rated_rotation_speed_rpm": "2200",
+        "peak_torque_nm": "1085"
+      },
+      "dimensions": {
+        "basic_lwh_mm": "9187x2667x3498",
+        "typically_equipped_lwh_mm": "10572x2667x3498",
+        "with_front_dozer_plate_rear_ripper_lwh_mm": "11554x2740x3498",
+        "front_rear_axle_base_mm": "6300",
+        "middle_rear_wheel_base_mm": "1524",
+        "min_ground_clearance_mm": "370"
+      },
+      "load_specification": {
+        "weight_of_basic_type_kg": "17960 (14ft blade)"
+      },
+      "operating_device_specification": {
+        "length_of_blade_mm": "4270 (14ft) (standard)",
+        "height_of_blade_mm": "620",
+        "tilt_angle_degrees": "±90°",
+        "turning_angle_degrees": "360°",
+        "max_lift_above_ground_mm": "480",
+        "max_depth_of_cut_mm": "715",
+        "blade_tip_range_degrees": "Front 40°, rear 5°"
+      },
+      "running_specification": {
+        "gears": "8 forward and 6 reverse",
+        "forward_speed_kmh": "4.0/5.4/8.0/10.9/19.1/23.4/32.3/46.8",
+        "reverse_speed_kmh": "3.2/5.9/8.7/13.5/25.3/37",
+        "steering_angle_front_wheel_degrees": "Left 50°, right 50°",
+        "tilt_angle_front_wheel_degrees": "Left 17°, right 17°",
+        "articulated_steering_angle_degrees": "Left 22°, right 22°",
+        "oscillation_angle_front_axle_degrees": "Up 16°, down 16°",
+        "min_turning_radius_m": "7.5",
+        "model_of_tire": "17.5R25"
+      },
+      "tank_capacity": {
+        "max_capacity_hydraulic_oil_tank_l": "115",
+        "max_capacity_fuel_tank_l": "340"
+      }
+    }
+  ]
+}
