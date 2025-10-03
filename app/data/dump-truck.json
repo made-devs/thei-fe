@@ -1,0 +1,280 @@
+{
+  "dump_trucks": [
+    {
+      "model": "SYZ425C-8S(V)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz425c-8sv.webp",
+      "vehicle": {
+        "rudder_direction": "Left",
+        "curb_weight": "42 T",
+        "full_load_weight": "55 T",
+        "dimension_lwh": "9340x2540x3665 mm",
+        "wheel_base": "2000+2300+1400 mm"
+      },
+      "truck": {
+        "cargo_capacity": "25 m³",
+        "cargo_empty": "6200x2300x1800 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C5-462E1",
+        "emission_standard": "Euro V",
+        "gear_box": "Fast 12JSDX240TB",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "315/80 R22.5",
+        "fuel_tank": "400 L",
+        "rated_power": "360 kW"
+      }
+    },
+    {
+      "model": "SYZ434C-8S(V)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz434c-8sv.webp",
+      "vehicle": {
+        "rudder_direction": "Left",
+        "curb_weight": "42 T",
+        "full_load_weight": "78 T",
+        "dimension_lwh": "10690x2540x3950 mm",
+        "wheel_base": "2000+3800+1400 mm"
+      },
+      "truck": {
+        "cargo_capacity": "34 m³",
+        "cargo_empty": "7600x2300x1650 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C5-490E1",
+        "emission_standard": "Euro V",
+        "gear_box": "Fast 12JSDX240TA",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "315/80 R22.5",
+        "fuel_tank": "600 L",
+        "rated_power": "360 kW"
+      }
+    },
+    {
+      "model": "SYZ438C-8S(V)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz438c-8sv.webp",
+      "vehicle": {
+        "rudder_direction": "Left",
+        "curb_weight": "42 T",
+        "full_load_weight": "78 T",
+        "dimension_lwh": "11290x2540x3950 mm",
+        "wheel_base": "2000+4200+1400 mm"
+      },
+      "truck": {
+        "cargo_capacity": "38 m³",
+        "cargo_empty": "8200x2300x2000 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C5-490E1",
+        "emission_standard": "Euro V",
+        "gear_box": "Fast 12JSDX240TA",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "315/80 R22.5",
+        "fuel_tank": "600 L",
+        "rated_power": "360 kW"
+      }
+    },
+    {
+      "model": "SYZ324C-8Y(R)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz324c-8yr.webp",
+      "vehicle": {
+        "rudder_direction": "Right",
+        "curb_weight": "16.2 T",
+        "full_load_weight": "55 T",
+        "dimension_lwh": "8800x2540x3540 mm",
+        "wheel_base": "4000+1400 mm"
+      },
+      "truck": {
+        "cargo_capacity": "24 m³",
+        "cargo_empty": "5800x2300x1800 mm"
+      },
+      "chassis": {
+        "motor": "Yuchai YC6MK400-33",
+        "emission_standard": "Euro II",
+        "gear_box": "Fast 12JSDX240TB",
+        "front_axle": "9T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R20",
+        "fuel_tank": "300 L",
+        "rated_power": "294 kW"
+      }
+    },
+    {
+      "model": "SYZ331-8S(R)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz331-8sr.webp",
+      "vehicle": {
+        "rudder_direction": "Right",
+        "curb_weight": "18.6 T",
+        "full_load_weight": "55 T",
+        "dimension_lwh": "9200x2690x3730 mm",
+        "wheel_base": "4150+1500 mm"
+      },
+      "truck": {
+        "cargo_capacity": "31 m³",
+        "cargo_empty": "6200x2500x2000 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C3-462E1",
+        "emission_standard": "Euro III",
+        "gear_box": "Fast 12JSD240TB",
+        "front_axle": "9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R24",
+        "fuel_tank": "400 L",
+        "rated_power": "340 kW"
+      }
+    },
+    {
+      "model": "SYZ436C-9S(R)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz436c-9sr.webp",
+      "vehicle": {
+        "rudder_direction": "Right",
+        "curb_weight": "22.5 T",
+        "full_load_weight": "66 T",
+        "dimension_lwh": "10160x2690x3780 mm",
+        "wheel_base": "2000+3350+1500 mm"
+      },
+      "truck": {
+        "cargo_capacity": "36 m³",
+        "cargo_empty": "7200x2500x2000 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C3-462E1",
+        "emission_standard": "Euro III",
+        "gear_box": "Fast 12JSDX240TB",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R24",
+        "fuel_tank": "400 L",
+        "rated_power": "340 kW"
+      }
+    },
+    {
+      "model": "SYZ440C-8S(R)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz440c-8sr.webp",
+      "vehicle": {
+        "rudder_direction": "Right",
+        "curb_weight": "20 T",
+        "full_load_weight": "66 T",
+        "dimension_lwh": "11090x2690x3780 mm",
+        "wheel_base": "2000+3950+1500 mm"
+      },
+      "truck": {
+        "cargo_capacity": "40 m³",
+        "cargo_empty": "8000x2500x2000 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C3-462E1",
+        "emission_standard": "Euro III",
+        "gear_box": "Fast 12JSDX240TB",
+        "front_axle": "9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R24",
+        "fuel_tank": "400 L",
+        "rated_power": "340 kW"
+      }
+    },
+    {
+      "model": "SYZ448C-9S(R)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz448c-9sr.webp",
+      "vehicle": {
+        "rudder_direction": "Right",
+        "curb_weight": "24.3 T",
+        "full_load_weight": "66 T",
+        "dimension_lwh": "11950x2690x3980 mm",
+        "wheel_base": "2000+4850+1500 mm"
+      },
+      "truck": {
+        "cargo_capacity": "48 m³",
+        "cargo_empty": "8800x2500x2200 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C3-462E1",
+        "emission_standard": "Euro III",
+        "gear_box": "Fast 12JSD240TB",
+        "front_axle": "9.5T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R24",
+        "fuel_tank": "400 L",
+        "rated_power": "340 kW"
+      }
+    },
+    {
+      "model": "SYZ320C-8S(V)",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/syz320c-8sv.webp",
+      "vehicle": {
+        "rudder_direction": "Left",
+        "curb_weight": "18.5 T",
+        "full_load_weight": "55 T",
+        "dimension_lwh": "9000x2540x3750 mm",
+        "wheel_base": "4150+1500 mm"
+      },
+      "truck": {
+        "cargo_capacity": "20 m³",
+        "cargo_empty": "5800x2350x1500 mm"
+      },
+      "chassis": {
+        "motor": "Sany Power D12C3-462E1",
+        "rated_power": "340 kW",
+        "emission_standard": "Euro III",
+        "gear_box": "Fast 12JSDX240T",
+        "front_axle": "9T",
+        "middle_rear_axle": "2x16T",
+        "tyre": "12.00R24",
+        "fuel_tank": "300 L"
+      }
+    },
+    {
+      "model": "SYZ432C-8LRBEVSD",
+      "type": "Electric Dump Truck",
+      "image": "/equipment/dump-truck/syz432c-8lrbevsd.webp",
+      "chassis": {
+        "motor": "LVKON EM310H46-A",
+        "rated_peak_power": "315/460 kW",
+        "battery": "CATL Lithium iron phosphate battery",
+        "rated_power": "282 kW",
+        "charging_method": "Swapping",
+        "gear_box": "LVKON 4AMT (with Force extractor)",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "cab": "Sany Cab CB329",
+        "tyre": "12.00R24"
+      },
+      "truck": {
+        "cargo_capacity": "32 m³",
+        "cargo_empty": "7000x2500x1800 mm"
+      }
+    },
+    {
+      "model": "SYZ437C-8LRBEVSD",
+      "type": "Electric Dump Truck",
+      "image": "/equipment/dump-truck/syz437c-8lrbevsd.webp",
+      "chassis": {
+        "motor": "LVKON EM310H46-A",
+        "rated_peak_power": "315/460 kW",
+        "battery": "CATL Lithium iron phosphate battery",
+        "rated_power": "282 kW",
+        "charging_method": "Swapping",
+        "gear_box": "LVKON 4AMT (with Force extractor)",
+        "front_axle": "2x9.5T",
+        "middle_rear_axle": "2x16T",
+        "cab": "Sany Cab CB329",
+        "tyre": "12.00R24"
+      },
+      "truck": {
+        "cargo_capacity": "38 m³",
+        "cargo_empty": "7600x2500x2000 mm"
+      }
+    }
+  ]
+}

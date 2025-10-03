@@ -23,10 +23,19 @@ const ComparisonModal = ({ isOpen, onClose, products }) => {
     return null;
   }
 
+  // Ambil kategori dari produk pertama
+  const category = products[0]?.category;
+  const categoryKey = (category || "").toLowerCase().replace(/ /g, "-");
+  // Ambil daftar spesifikasi untuk kategori tersebut
+  const specList = specMap[categoryKey] || [];
+
   // Filter hanya spesifikasi yang relevan dengan produk yang dibandingkan
-  const relevantSpecs = specMap.filter((spec) =>
+  const relevantSpecs = specList.filter((spec) =>
     products.some((p) => getSpec(p, spec.path))
   );
+
+  // console.log("category:", category);
+  // console.log("specList:", specMap[categoryKey]);
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50">

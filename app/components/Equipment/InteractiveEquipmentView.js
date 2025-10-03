@@ -1,29 +1,58 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { ChevronRight } from "lucide-react";
 import ProductCard from "./ProductCard";
 import ComparisonBar from "./ComparisonBar";
-import ComparisonModal from "./ComparisonModal"; // Import modal
+import ComparisonModal from "./ComparisonModal";
+
+// Helper untuk mengubah nama kategori menjadi format URL-friendly
+const slugify = (text) =>
+  text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, "-") // Ganti spasi dengan -
+    .replace(/[^\w\-]+/g, "") // Hapus karakter non-word
+    .replace(/\-\-+/g, "-") // Ganti -- jadi -
+    .replace(/^-+/, "") // Hapus - di awal
+    .replace(/-+$/, ""); // Hapus - di akhir
 
 export default function InteractiveEquipmentView({
   categories,
   productData,
   lang,
 }) {
-  const [activeCategory, setActiveCategory] = useState(
-    categories[0]?.name || ""
-  );
+  const router = useRouter();
+  const searchParams = useSearchParams();
+  const categoryParam = searchParams.get("category");
+
+  // Fungsi untuk mencari nama kategori asli dari parameter URL
+  const findCategoryNameBySlug = (slug) => {
+    const category = categories.find((cat) => slugify(cat.name) === slug);
+    return category ? category.name : null;
+  };
+
+  const initialCategoryName =
+    findCategoryNameBySlug(categoryParam) || categories[0]?.name || "";
+
+  const [activeCategory, setActiveCategory] = useState(initialCategoryName);
   const [products, setProducts] = useState(
-    productData[categories[0]?.name] || []
+    productData[initialCategoryName] || []
   );
   const [compareList, setCompareList] = useState([]);
-  const [isCompareModalOpen, setIsCompareModalOpen] = useState(false); // State untuk modal
+  const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
 
   const handleCategoryClick = (categoryName) => {
     setActiveCategory(categoryName);
     setProducts(productData[categoryName] || []);
-    setCompareList([]);
+    setCompareList([]); // Reset compare list saat ganti kategori
+
+    // Update URL dengan kategori yang baru dipilih
+    const newUrl = `/${lang}/equipment/new-machines?category=${slugify(
+      categoryName
+    )}`;
+    router.push(newUrl, { scroll: false });
   };
 
   const handleCompareChange = (product) => {
@@ -100,12 +129,12 @@ export default function InteractiveEquipmentView({
         compareList={compareList}
         onRemove={handleCompareChange}
         onClear={clearCompareList}
-        onCompareClick={() => setIsCompareModalOpen(true)} // Buka modal saat diklik
+        onCompareClick={() => setIsCompareModalOpen(true)}
       />
 
       <ComparisonModal
         isOpen={isCompareModalOpen}
-        onClose={() => setIsCompareModalOpen(false)} // Tutup modal
+        onClose={() => setIsCompareModalOpen(false)}
         products={compareList}
       />
     </section>

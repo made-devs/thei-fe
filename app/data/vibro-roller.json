@@ -908,7 +908,7 @@
         "min_turning_outer_diameter_mm": "13500"
       },
       "engine_data": {
-        "tire_specification": "23.1-26",
+        "tire_specification": null,
         "brand": "SHANGCHAI",
         "model": "SC7H210G4",
         "emission": "CHINA IV",
@@ -924,147 +924,227 @@
       "model": "STR30C-8",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str30c-8.webp",
-      "operating_mass_kg": "3000",
-      "front_rear_load_distribution_kg": "1450/1550",
-      "static_linear_pressure_n_cm_kpa": "118/126",
-      "vibration_frequency_hz": "55/67",
-      "amplitude_mm": "0.5",
-      "exciting_force_kn": "28/46",
-      "drum_diameter_width_mm": "700/1200",
-      "theoretical_vibration_gradeability_percent": "30",
-      "engine_brand_and_model": "Yanmar 3TNV88-BDTYC",
-      "emission_stage": "Stage III",
-      "rated_power_speed_kw": "28.1",
-      "fuel_tank_volume_l": "40"
+      "load_data": {
+        "operating_mass_kg": "3000",
+        "front_rear_load_distribution_kg": "1450/1550",
+        "static_linear_pressure_n_cm_kpa": "118/126"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "55/67",
+        "amplitude_mm": "0.5",
+        "exciting_force_kn": "28/46",
+        "drum_diameter_width_mm": "700/1200"
+      },
+      "maneuverability_data": {
+        "theoretical_vibration_gradeability_percent": "30"
+      },
+      "engine_data": {
+        "brand_and_model": "Yanmar 3TNV88-BDTYC",
+        "emission_stage": "Stage III",
+        "rated_power_speed_kw": "28.1"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "40"
+      }
     },
     {
       "model": "SZR30C-8",
       "type": "Combination Roller",
       "image": "/equipment/vibro-roller/szr30c-8.webp",
-      "operating_mass_kg": "2900",
-      "front_rear_load_distribution_kg": "1400/1500",
-      "static_linear_pressure_n_cm_kpa": "118/490(kPa)",
-      "vibration_frequency_hz": "55/67",
-      "amplitude_mm": "0.5",
-      "exciting_force_kn": "28/46",
-      "drum_diameter_width_mm": "700/1200",
-      "theoretical_vibration_gradeability_percent": "30",
-      "engine_brand_and_model": "Yanmar 3TNV88-BDTYC",
-      "emission_stage": "Stage III",
-      "rated_power_speed_kw": "28.1",
-      "fuel_tank_volume_l": "40"
+      "load_data": {
+        "operating_mass_kg": "2900",
+        "front_rear_load_distribution_kg": "1400/1500",
+        "static_linear_pressure_n_cm_kpa": "118/490(kPa)"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "55/67",
+        "amplitude_mm": "0.5",
+        "exciting_force_kn": "28/46",
+        "drum_diameter_width_mm": "700/1200"
+      },
+      "maneuverability_data": {
+        "theoretical_vibration_gradeability_percent": "30"
+      },
+      "engine_data": {
+        "brand_and_model": "Yanmar 3TNV88-BDTYC",
+        "emission_stage": "Stage III",
+        "rated_power_speed_kw": "28.1"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "40"
+      }
     },
     {
       "model": "STR50C-8K",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str50c-8k.webp",
-      "engine_brand_and_model": "Kubota V2607",
-      "emission_stage": "Non-Road China IV",
-      "rated_power_speed_kw_rpm": "36/2000",
-      "operating_mass_kg": "4500",
-      "front_rear_load_distribution_kg": "2250",
-      "static_linear_pressure_n_cm": "160",
-      "front_wheel_vibration_frequency_hz": "50/60",
-      "amplitude_of_front_wheel_mm": "0.5",
-      "exciting_force_of_front_wheel_kn": "47/68",
-      "rear_wheel_vibration_frequency_hz": "50/60",
-      "amplitude_of_rear_wheel_mm": "0.5",
-      "exciting_force_of_rear_wheel_kn": "47/68",
-      "drum_diameter_width_mm": "900/1380",
-      "theoretical_gradeability_vibrating_static_percent": "40/30",
-      "fuel_tank_volume_l": "68"
+      "load_data": {
+        "operating_mass_kg": "4500",
+        "front_rear_load_distribution_kg": "2250",
+        "static_linear_pressure_n_cm": "160"
+      },
+      "compaction_data": {
+        "front_wheel_vibration_frequency_hz": "50/60",
+        "amplitude_of_front_wheel_mm": "0.5",
+        "exciting_force_of_front_wheel_kn": "47/68",
+        "rear_wheel_vibration_frequency_hz": "50/60",
+        "amplitude_of_rear_wheel_mm": "0.5",
+        "exciting_force_of_rear_wheel_kn": "47/68",
+        "drum_diameter_width_mm": "900/1380"
+      },
+      "maneuverability_data": {
+        "theoretical_gradeability_vibrating_static_percent": "40/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Kubota V2607",
+        "emission_stage": "Non-Road China IV",
+        "rated_power_speed_kw_rpm": "36/2000"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "68"
+      }
     },
     {
       "model": "SZR50C-8K",
       "type": "Combination Roller",
       "image": "/equipment/vibro-roller/szr50c-8k.webp",
-      "engine_brand_and_model": "Kubota V2607",
-      "emission_stage": "Non-Road China IV",
-      "rated_power_speed_kw_rpm": "36/2000",
-      "operating_mass_kg": "4500",
-      "front_rear_load_distribution_kg": "2250",
-      "static_linear_pressure_n_cm": "160",
-      "front_wheel_vibration_frequency_hz": "50/60",
-      "amplitude_of_front_wheel_mm": "0.5",
-      "exciting_force_of_front_wheel_kn": "47/68",
-      "rear_wheel_vibration_frequency_hz": null,
-      "amplitude_of_rear_wheel_mm": null,
-      "exciting_force_of_rear_wheel_kn": null,
-      "drum_diameter_width_mm": "900/1380",
-      "theoretical_gradeability_vibrating_static_percent": "40/30",
-      "fuel_tank_volume_l": "68"
+      "load_data": {
+        "operating_mass_kg": "4500",
+        "front_rear_load_distribution_kg": "2250",
+        "static_linear_pressure_n_cm": "160"
+      },
+      "compaction_data": {
+        "front_wheel_vibration_frequency_hz": "50/60",
+        "amplitude_of_front_wheel_mm": "0.5",
+        "exciting_force_of_front_wheel_kn": "47/68",
+        "rear_wheel_vibration_frequency_hz": null,
+        "amplitude_of_rear_wheel_mm": null,
+        "exciting_force_of_rear_wheel_kn": null,
+        "drum_diameter_width_mm": "900/1380"
+      },
+      "maneuverability_data": {
+        "theoretical_gradeability_vibrating_static_percent": "40/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Kubota V2607",
+        "emission_stage": "Non-Road China IV",
+        "rated_power_speed_kw_rpm": "36/2000"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "68"
+      }
     },
     {
       "model": "STR110C-10",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str110c-10.webp",
-      "operating_weight_kg": "11500",
-      "front_rear_distributed_load_kg": "5750/5750",
-      "static_linear_pressure_n_cm": "296/296",
-      "vibration_frequency_hz": "50/61",
-      "amplitude_mm": "0.75/0.3",
-      "exciting_force_kn": "140/94",
-      "travelling_speed_kmh": "0-12",
-      "operation_speed_kmh": "0-8",
-      "theoretical_gradeability_static_vibrating_percent": "35/30",
-      "engine_brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
-      "emission_stage": "Euro III",
-      "rated_power_speed_kw_rpm": "119/2200",
-      "fuel_tank_volume_l": "210"
+      "load_data": {
+        "operating_weight_kg": "11500",
+        "front_rear_distributed_load_kg": "5750/5750",
+        "static_linear_pressure_n_cm": "296/296"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "50/61",
+        "amplitude_mm": "0.75/0.3",
+        "exciting_force_kn": "140/94"
+      },
+      "maneuverability_data": {
+        "travelling_speed_kmh": "0-12",
+        "operation_speed_kmh": "0-8",
+        "theoretical_gradeability_static_vibrating_percent": "35/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
+        "emission_stage": "Euro III",
+        "rated_power_speed_kw_rpm": "119/2200"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "210"
+      }
     },
     {
       "model": "STR120C-10",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str120c-10.webp",
-      "operating_weight_kg": "12000",
-      "front_rear_distributed_load_kg": "6000/6000",
-      "static_linear_pressure_n_cm": "296/296",
-      "vibration_frequency_hz": "50/61",
-      "amplitude_mm": "0.75/0.3",
-      "exciting_force_kn": "140/94",
-      "travelling_speed_kmh": "0-12",
-      "operation_speed_kmh": "0-8",
-      "theoretical_gradeability_static_vibrating_percent": "35/30",
-      "engine_brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
-      "emission_stage": "Euro III",
-      "rated_power_speed_kw_rpm": "119/2200",
-      "fuel_tank_volume_l": "210"
+      "load_data": {
+        "operating_weight_kg": "12000",
+        "front_rear_distributed_load_kg": "6000/6000",
+        "static_linear_pressure_n_cm": "296/296"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "50/61",
+        "amplitude_mm": "0.75/0.3",
+        "exciting_force_kn": "140/94"
+      },
+      "maneuverability_data": {
+        "travelling_speed_kmh": "0-12",
+        "operation_speed_kmh": "0-8",
+        "theoretical_gradeability_static_vibrating_percent": "35/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
+        "emission_stage": "Euro III",
+        "rated_power_speed_kw_rpm": "119/2200"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "210"
+      }
     },
     {
       "model": "STR130C-10",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str130c-10.webp",
-      "operating_weight_kg": "13000",
-      "front_rear_distributed_load_kg": "6500/6500",
-      "static_linear_pressure_n_cm": "298/298",
-      "vibration_frequency_hz": "51/67",
-      "amplitude_mm": "0.65/0.3",
-      "exciting_force_kn": "163/117",
-      "travelling_speed_kmh": "0-12",
-      "operation_speed_kmh": "0-8",
-      "theoretical_gradeability_static_vibrating_percent": "35/30",
-      "engine_brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
-      "emission_stage": "Euro III",
-      "rated_power_speed_kw_rpm": "119/2200",
-      "fuel_tank_volume_l": "210"
+      "load_data": {
+        "operating_weight_kg": "13000",
+        "front_rear_distributed_load_kg": "6500/6500",
+        "static_linear_pressure_n_cm": "298/298"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "51/67",
+        "amplitude_mm": "0.65/0.3",
+        "exciting_force_kn": "163/117"
+      },
+      "maneuverability_data": {
+        "travelling_speed_kmh": "0-12",
+        "operation_speed_kmh": "0-8",
+        "theoretical_gradeability_static_vibrating_percent": "35/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Dongfeng Cummins QSB4.5-C160-30",
+        "emission_stage": "Euro III",
+        "rated_power_speed_kw_rpm": "119/2200"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "210"
+      }
     },
     {
       "model": "STR140C-10",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str140c-10.webp",
-      "operating_weight_kg": "13600",
-      "front_rear_distributed_load_kg": "6800/6800",
-      "static_linear_pressure_n_cm": "312/312",
-      "vibration_frequency_hz": "51/67",
-      "amplitude_mm": "0.65/0.3",
-      "exciting_force_kn": "163/117",
-      "travelling_speed_kmh": "0-12",
-      "operation_speed_kmh": "0-8",
-      "theoretical_gradeability_static_vibrating_percent": "35/30",
-      "engine_brand_and_model": "Dongfeng Cummins FQSB4.5-C160-30",
-      "emission_stage": "Euro III",
-      "rated_power_speed_kw_rpm": "119/2200",
-      "fuel_tank_volume_l": "210"
+      "load_data": {
+        "operating_weight_kg": "13600",
+        "front_rear_distributed_load_kg": "6800/6800",
+        "static_linear_pressure_n_cm": "312/312"
+      },
+      "compaction_data": {
+        "vibration_frequency_hz": "51/67",
+        "amplitude_mm": "0.65/0.3",
+        "exciting_force_kn": "163/117"
+      },
+      "maneuverability_data": {
+        "travelling_speed_kmh": "0-12",
+        "operation_speed_kmh": "0-8",
+        "theoretical_gradeability_static_vibrating_percent": "35/30"
+      },
+      "engine_data": {
+        "brand_and_model": "Dongfeng Cummins FQSB4.5-C160-30",
+        "emission_stage": "Euro III",
+        "rated_power_speed_kw_rpm": "119/2200"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "210"
+      }
     },
     {
       "model": "SPR160C-8",
@@ -1140,39 +1220,59 @@
       "model": "SPR260C-10",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr260c-10.webp",
-      "engine_brand_and_model": "SDEC SC7H190G3",
-      "emission_stage": "Non-road China III",
-      "rated_net_power_speed_kw_rpm": "138/2200",
-      "maximum_operating_mass_kg": "26000",
-      "single_tire_load_t": "2.88",
-      "compaction_width_mm": "2368",
-      "tire_overlap_mm": "63",
-      "theoretical_gradeability_percent": "25",
-      "operation_speed_kmh": "0-5.5 / 0-8 / 0-10 / 0-14",
-      "transition_speed_kmh": "0-14",
-      "minimum_ground_clearance_mm": "360",
-      "wheelbase_mm": "4080",
-      "fuel_tank_volume_l": "180",
-      "transportation_dimensions_lwh_mm": "5200x2363x3260"
+      "engine_data": {
+        "brand_and_model": "SDEC SC7H190G3",
+        "emission_stage": "Non-road China III",
+        "rated_net_power_speed_kw_rpm": "138/2200"
+      },
+      "compaction_data": {
+        "maximum_operating_mass_kg": "26000",
+        "single_tire_load_t": "2.88",
+        "compaction_width_mm": "2368",
+        "tire_overlap_mm": "63"
+      },
+      "maneuverability_data": {
+        "theoretical_gradeability_percent": "25",
+        "operation_speed_kmh": "0-5.5 / 0-8 / 0-10 / 0-14",
+        "transition_speed_kmh": "0-14",
+        "minimum_ground_clearance_mm": "360",
+        "wheelbase_mm": "4080"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "180"
+      },
+      "dimensions": {
+        "transportation_dimensions_lwh_mm": "5200x2363x3260"
+      }
     },
     {
       "model": "SPR300C-10",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr300c-10.webp",
-      "engine_brand_and_model": "SDEC SC7H190G3",
-      "emission_stage": "Non-road China III",
-      "rated_net_power_speed_kw_rpm": "138/2200",
-      "maximum_operating_mass_kg": "30000",
-      "single_tire_load_t": "3.33",
-      "compaction_width_mm": "2368",
-      "tire_overlap_mm": "63",
-      "theoretical_gradeability_percent": "25",
-      "operation_speed_kmh": "0-5.5 / 0-8 / 0-10 / 0-14",
-      "transition_speed_kmh": "0-14",
-      "minimum_ground_clearance_mm": "360",
-      "wheelbase_mm": "4080",
-      "fuel_tank_volume_l": "180",
-      "transportation_dimensions_lwh_mm": "5200x2363x3260"
+      "engine_data": {
+        "brand_and_model": "SDEC SC7H190G3",
+        "emission_stage": "Non-road China III",
+        "rated_net_power_speed_kw_rpm": "138/2200"
+      },
+      "compaction_data": {
+        "maximum_operating_mass_kg": "30000",
+        "single_tire_load_t": "3.33",
+        "compaction_width_mm": "2368",
+        "tire_overlap_mm": "63"
+      },
+      "maneuverability_data": {
+        "theoretical_gradeability_percent": "25",
+        "operation_speed_kmh": "0-5.5 / 0-8 / 0-10 / 0-14",
+        "transition_speed_kmh": "0-14",
+        "minimum_ground_clearance_mm": "360",
+        "wheelbase_mm": "4080"
+      },
+      "capacities_data": {
+        "fuel_tank_volume_l": "180"
+      },
+      "dimensions": {
+        "transportation_dimensions_lwh_mm": "5200x2363x3260"
+      }
     }
   ]
 }

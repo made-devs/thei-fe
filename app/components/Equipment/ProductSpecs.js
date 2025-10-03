@@ -27,6 +27,11 @@ const SpecItem = ({ label, value }) => {
 };
 
 const ProductSpecs = ({ product, categoryName }) => {
+  // Normalisasi tipe dan kategori
+  const type = product.type?.toLowerCase() || "";
+  const category = categoryName?.toLowerCase() || "";
+
+  // Boolean kategori
   const isForklift = !!product.performance?.rated_capacity;
   const isBulldozer = !!product.basic_technical_data?.blade_capacity;
   const isCrane = !!product.lifting_performance;
@@ -34,15 +39,21 @@ const ProductSpecs = ({ product, categoryName }) => {
   const isBoomLift = !!product.size?.work_height;
   const isTelehandler = !!product.size_and_performance;
   const isCrawlerCrane =
-    !!product.technical_data && categoryName.includes("Crawler Crane");
+    !!product.technical_data && category.includes("crawler crane");
   const isTruckMountedPump = product.type === "Truck Mounted Pump";
   const isTruckMixer = product.type === "Truck Mixer";
   const isTrailerPump = product.type === "Trailer Pump";
   const isCityPump = product.type === "City Pump";
   const isAWP =
-    product.type?.includes("Lift") ||
-    product.type === "Aerial Working Platform";
+    type.includes("lift") || product.type === "Aerial Working Platform";
+  const isVibroRoller = category.includes("vibro") || type.includes("roller");
+  const isMotorGrader =
+    category.includes("motor grader") || type.includes("motor grader");
+  const isDumpTruck =
+    type.toLowerCase().includes("dump truck") ||
+    type.toLowerCase().includes("electric dump truck");
 
+  // Forklift
   if (isForklift) {
     return (
       <>
@@ -61,6 +72,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Bulldozer
   if (isBulldozer) {
     return (
       <>
@@ -79,6 +92,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Crane
   if (isCrane) {
     return (
       <>
@@ -97,6 +112,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Skid Steer
   if (isSkidSteer) {
     return (
       <>
@@ -115,6 +132,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Boom Lift
   if (isBoomLift) {
     return (
       <>
@@ -130,6 +149,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Telehandler
   if (isTelehandler) {
     return (
       <>
@@ -148,6 +169,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Crawler Crane
   if (isCrawlerCrane) {
     return (
       <>
@@ -166,6 +189,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Truck Mounted Pump
   if (isTruckMountedPump) {
     return (
       <>
@@ -181,6 +206,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Truck Mixer
   if (isTruckMixer) {
     return (
       <>
@@ -196,6 +223,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Trailer Pump
   if (isTrailerPump) {
     return (
       <>
@@ -214,6 +243,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // City Pump
   if (isCityPump) {
     return (
       <>
@@ -232,6 +263,8 @@ const ProductSpecs = ({ product, categoryName }) => {
       </>
     );
   }
+
+  // Aerial Working Platform
   if (isAWP) {
     return (
       <>
@@ -253,6 +286,125 @@ const ProductSpecs = ({ product, categoryName }) => {
             product.weight?.gross_weight
           }
         />
+      </>
+    );
+  }
+
+  // Vibro Roller (by type)
+  if (isVibroRoller) {
+    if (type.includes("single drum")) {
+      return (
+        <>
+          <SpecItem
+            label="Operating Mass (kg)"
+            value={product.load_data?.operating_mass_kg}
+          />
+          <SpecItem
+            label="Centrifugal Force (kN)"
+            value={product.compaction_data?.centrifugal_force_kn}
+          />
+          <SpecItem
+            label="Drum Width (mm)"
+            value={product.compaction_data?.width_of_vibrating_drum_mm}
+          />
+        </>
+      );
+    }
+    if (type.includes("tandem") || type.includes("combination")) {
+      return (
+        <>
+          <SpecItem
+            label="Operating Mass (kg)"
+            value={
+              product.load_data?.operating_mass_kg ||
+              product.load_data?.operating_weight_kg
+            }
+          />
+          <SpecItem
+            label="Exciting Force (kN)"
+            value={
+              product.compaction_data?.exciting_force_kn ||
+              product.compaction_data?.exciting_force_of_front_wheel_kn
+            }
+          />
+          <SpecItem
+            label="Drum Width (mm)"
+            value={product.compaction_data?.drum_diameter_width_mm}
+          />
+        </>
+      );
+    }
+    if (type.includes("pneumatic")) {
+      return (
+        <>
+          <SpecItem
+            label="Max Operating Weight (kg)"
+            value={
+              product.compaction_data?.max_operating_weight_kg ||
+              product.compaction_data?.maximum_operating_mass_kg
+            }
+          />
+          <SpecItem
+            label="Compaction Width (mm)"
+            value={product.compaction_data?.compaction_width_mm}
+          />
+          <SpecItem
+            label="Tire Overlap (mm)"
+            value={
+              product.compaction_data?.tire_overlap_mm ||
+              product.compaction_data?.overlap_mm
+            }
+          />
+        </>
+      );
+    }
+  }
+
+  // Motor Grader
+  if (isMotorGrader) {
+    return (
+      <>
+        <SpecItem
+          label="Operating Weight"
+          value={
+            product.load_spec?.standard_with_counterweight_kg ||
+            product.load_specification?.standard_with_counterweight_kg ||
+            product.load_specification?.standard_without_counterweight_kg ||
+            product.load_specification
+              ?.standard_with_front_rear_counterweight_kg ||
+            product.load_specification?.weight_of_basic_type_kg
+          }
+        />
+        <SpecItem
+          label="Rated Power (kW)"
+          value={
+            product.power_system_specification?.rated_power_kw ||
+            product.power_system_specification?.rated_power_hp
+          }
+        />
+        <SpecItem
+          label="Blade Length (mm)"
+          value={product.operating_device_specification?.length_of_blade_mm}
+        />
+      </>
+    );
+  }
+
+  // Dump Truck
+  if (isDumpTruck) {
+    return (
+      <>
+        <SpecItem
+          label="Cargo Capacity"
+          value={product.truck?.cargo_capacity}
+        />
+        <SpecItem
+          label="Full Load Weight"
+          value={
+            product.vehicle?.full_load_weight || product.full_load_weight || "-"
+          }
+        />
+        <SpecItem label="Rated Power" value={product.chassis?.rated_power} />
       </>
     );
   }
