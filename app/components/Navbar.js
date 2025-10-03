@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React, { useState } from "react";
+import Link from "next/link";
 import {
   Search,
   ShoppingCart,
@@ -16,15 +16,24 @@ import {
   Youtube,
   Twitter,
   ChevronDown,
-} from 'lucide-react';
-import LanguageSwitcher from './language-switcher';
+} from "lucide-react";
+import LanguageSwitcher from "./language-switcher";
+
+const getShortAddress = (address, wordCount = 10) => {
+  if (!address) return "";
+  const words = address.split(" ");
+  if (words.length <= wordCount) return address;
+  return words.slice(0, wordCount).join(" ") + " ...";
+};
 
 const Navbar = ({ dictionary, currentLocale }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [showAddressTooltip, setShowAddressTooltip] = useState(false);
   const navDict = dictionary.navigation || {};
   const contactInfo = dictionary.contact_info || {};
 
   const mainNavLinks = [
+    { name: navDict.home, href: `/${currentLocale}` },
     { name: navDict.equipment, href: `/${currentLocale}/equipment` },
     { name: navDict.parts, href: `/${currentLocale}/parts` },
     { name: navDict.service, href: `/${currentLocale}/service` },
@@ -69,16 +78,27 @@ const Navbar = ({ dictionary, currentLocale }) => {
                 <Mail size={16} />
                 <span>{contactInfo.email}</span>
               </a>
-              <div className="flex items-center space-x-2">
+              <div
+                className="flex items-center space-x-2 relative"
+                onMouseEnter={() => setShowAddressTooltip(true)}
+                onMouseLeave={() => setShowAddressTooltip(false)}
+              >
                 <MapPin size={16} />
-                <span>{contactInfo.address}</span>
+                <span className="cursor-pointer">
+                  {getShortAddress(contactInfo.address)}
+                </span>
+                {showAddressTooltip && (
+                  <div className="absolute left-0 top-full mt-2 z-50 bg-black text-white text-xs rounded px-4 py-2 shadow-lg whitespace-pre-line max-w-xs">
+                    {contactInfo.address}
+                  </div>
+                )}
               </div>
             </div>
             <div className="relative flex items-center text-yellow-400">
               <div
                 className="absolute inset-0 bg-black"
                 style={{
-                  clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)',
+                  clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0% 100%)",
                 }}
               ></div>
               <div className="relative flex items-center space-x-4 pl-14 pr-8">
@@ -89,40 +109,40 @@ const Navbar = ({ dictionary, currentLocale }) => {
                   aria-label="Facebook"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  {' '}
-                  <Facebook size={18} />{' '}
+                  {" "}
+                  <Facebook size={18} />{" "}
                 </a>
                 <a
                   href="#"
                   aria-label="Twitter"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  {' '}
-                  <Twitter size={18} />{' '}
+                  {" "}
+                  <Twitter size={18} />{" "}
                 </a>
                 <a
                   href="#"
                   aria-label="Instagram"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  {' '}
-                  <Instagram size={18} />{' '}
+                  {" "}
+                  <Instagram size={18} />{" "}
                 </a>
                 <a
                   href="#"
                   aria-label="LinkedIn"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  {' '}
-                  <Linkedin size={18} />{' '}
+                  {" "}
+                  <Linkedin size={18} />{" "}
                 </a>
                 <a
                   href="#"
                   aria-label="YouTube"
                   className="hover:opacity-70 transition-opacity"
                 >
-                  {' '}
-                  <Youtube size={18} />{' '}
+                  {" "}
+                  <Youtube size={18} />{" "}
                 </a>
               </div>
             </div>

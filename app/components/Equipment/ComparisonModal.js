@@ -34,9 +34,6 @@ const ComparisonModal = ({ isOpen, onClose, products }) => {
     products.some((p) => getSpec(p, spec.path))
   );
 
-  // console.log("category:", category);
-  // console.log("specList:", specMap[categoryKey]);
-
   return (
     <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50">
       <div className="bg-white rounded-lg shadow-2xl w-full max-w-6xl max-h-[90vh] flex flex-col">

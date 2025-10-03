@@ -1,5 +1,6 @@
 {
   "navigation": {
+    "home": "HOME",
     "about_us": "ABOUT THEI",
     "branches": "BRANCHES",
     "equipment": "PRODUCT",
@@ -15,8 +16,8 @@
   "contact_info": {
     "whatsapp_display": "0851 9588 6789",
     "whatsapp_link": "6285195886789",
-    "email": "tjmheavyequipment@gmail.com",
-    "address": "Pekanbaru, Riau – Indonesia"
+    "email": "admin@tjmheavyequipment.com",
+    "address": "Posh, Blk. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Medan Satria, Bekasi City, West Java 17132"
   },
   "footer": {
     "company_name": "TJM Heavy Equipment Indonesia",

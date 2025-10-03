@@ -85,7 +85,8 @@
       }
     ],
     "button_text": "Pilih Paket",
-    "what_included": "Yang termasuk:"
+    "what_included": "Yang termasuk:",
+    "whatsapp_message_template": "Halo, saya tertarik dengan paket THEI servis {package}. Mohon info lebih lanjut."
   },
   "why_thei": {
     "subtitle": "Mengapa Memilih Kami",

@@ -145,7 +145,8 @@
       }
     ],
     "button_text": "Choose Package",
-    "what_included": "What included:"
+    "what_included": "What included:",
+    "whatsapp_message_template": "Hello, I am interested in THEI service package {package}. Please provide more information."
   },
   "why_thei": {
     "subtitle": "Why Choose Us",

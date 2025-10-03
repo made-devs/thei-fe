@@ -1,18 +1,18 @@
-'use client';
-import React, { useState, useRef, useCallback, useEffect } from 'react';
-import Image from 'next/image';
-import { Check, Cog, ChevronLeft, ChevronRight } from 'lucide-react'; // 1. Tambah ikon panah
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
+"use client";
+import React, { useState, useRef, useCallback, useEffect } from "react";
+import Image from "next/image";
+import { Check, Cog, ChevronLeft, ChevronRight } from "lucide-react"; // 1. Tambah ikon panah
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 // Komponen harga gak berubah
 const PriceDisplay = ({ priceString }) => {
-  const number = parseInt(priceString.replace(/[^0-9]/g, ''), 10);
+  const number = parseInt(priceString.replace(/[^0-9]/g, ""), 10);
   const fullPrice = number * 1000;
-  const formatted = new Intl.NumberFormat('id-ID').format(fullPrice);
-  const parts = formatted.split('.');
+  const formatted = new Intl.NumberFormat("id-ID").format(fullPrice);
+  const parts = formatted.split(".");
   const mainDigits = parts[0];
-  const trailingDigits = `.${parts.slice(1).join('.')},-`;
+  const trailingDigits = `.${parts.slice(1).join(".")},-`;
 
   return (
     <div className="flex items-baseline">
@@ -27,7 +27,7 @@ const PriceDisplay = ({ priceString }) => {
   );
 };
 
-const HighlightPromo = ({ dictionary }) => {
+const HighlightPromo = ({ dictionary, phoneNumber }) => {
   const packages = dictionary.packages || [];
   const [selectedImage, setSelectedImage] = useState(null);
 
@@ -47,7 +47,7 @@ const HighlightPromo = ({ dictionary }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
-      align: 'start',
+      align: "start",
       slidesToScroll: 1,
     },
     [autoplay.current]
@@ -73,7 +73,7 @@ const HighlightPromo = ({ dictionary }) => {
               <Cog
                 size={20}
                 className="mr-2 animate-spin"
-                style={{ animationDuration: '5s' }}
+                style={{ animationDuration: "5s" }}
               />
               <span>{dictionary.subtitle}</span>
             </div>
@@ -92,7 +92,7 @@ const HighlightPromo = ({ dictionary }) => {
             <div className="overflow-hidden py-4" ref={emblaRef}>
               <div className="flex">
                 {packages.map((pkg, index) => {
-                  const isDiamond = pkg.name === 'DIAMOND';
+                  const isDiamond = pkg.name === "DIAMOND";
                   const largeImagePath =
                     pkg.largeSrc || `/promo/promo${index + 1}.webp`;
 
@@ -104,8 +104,8 @@ const HighlightPromo = ({ dictionary }) => {
                       <div
                         className={`bg-white rounded-lg shadow-lg flex flex-col h-full relative text-left transition-transform duration-300 ${
                           isDiamond
-                            ? 'lg:scale-102 border-4 border-yellow-400'
-                            : ''
+                            ? "lg:scale-102 border-4 border-yellow-400"
+                            : ""
                         }`}
                       >
                         <div className="p-6 flex flex-col flex-grow">
@@ -144,9 +144,22 @@ const HighlightPromo = ({ dictionary }) => {
                           <button
                             className={`w-full py-2 my-2 font-bold rounded-lg transition-colors ${
                               isDiamond
-                                ? 'bg-yellow-400 text-black hover:bg-yellow-500'
-                                : 'bg-gray-800 text-white hover:bg-gray-700'
+                                ? "bg-yellow-400 text-black hover:bg-yellow-500"
+                                : "bg-gray-800 text-white hover:bg-gray-700"
                             }`}
+                            onClick={() => {
+                              const phone = phoneNumber || "6285195886789"; // fallback if prop not provided
+                              const text = encodeURIComponent(
+                                (
+                                  dictionary.whatsapp_message_template ||
+                                  "Halo, saya tertarik dengan paket THEI servis {package}. Mohon info lebih lanjut."
+                                ).replace("{package}", pkg.name)
+                              );
+                              window.open(
+                                `https://wa.me/${phone}?text=${text}`,
+                                "_blank"
+                              );
+                            }}
                           >
                             {dictionary.button_text}
                           </button>

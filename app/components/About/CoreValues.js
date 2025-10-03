@@ -14,31 +14,33 @@ import {
 // Mapping name to icon component for easy lookup
 const iconMap = {
   // Indonesian Keys
-  Integritas: <ShieldCheck size={40} className="text-yellow-400" />,
-  "Keselamatan Utama": <HeartHandshake size={40} className="text-yellow-400" />,
-  Keandalan: <BadgeCheck size={40} className="text-yellow-400" />,
-  Kepuasan: <Smile size={40} className="text-yellow-400" />,
-  Inovasi: <Lightbulb size={40} className="text-yellow-400" />,
-  Efisiensi: <Zap size={40} className="text-yellow-400" />,
+  Integritas: <ShieldCheck size={40} className="text-black" />,
+  "Keselamatan Utama": <HeartHandshake size={40} className="text-black" />,
+  Keandalan: <BadgeCheck size={40} className="text-black" />,
+  Kepuasan: <Smile size={40} className="text-black" />,
+  Inovasi: <Lightbulb size={40} className="text-black" />,
+  Efisiensi: <Zap size={40} className="text-black" />,
   // English Keys
-  Integrity: <ShieldCheck size={40} className="text-yellow-400" />,
-  "Safety First": <HeartHandshake size={40} className="text-yellow-400" />,
-  Reliability: <BadgeCheck size={40} className="text-yellow-400" />,
-  Satisfaction: <Smile size={40} className="text-yellow-400" />,
-  Innovation: <Lightbulb size={40} className="text-yellow-400" />,
-  Efficiency: <Zap size={40} className="text-yellow-400" />,
+  Integrity: <ShieldCheck size={40} className="text-black" />,
+  "Safety First": <HeartHandshake size={40} className="text-black" />,
+  Reliability: <BadgeCheck size={40} className="text-black" />,
+  Satisfaction: <Smile size={40} className="text-black" />,
+  Innovation: <Lightbulb size={40} className="text-black" />,
+  Efficiency: <Zap size={40} className="text-black" />,
 };
 
 const CoreValues = ({ dictionary }) => {
   const values = dictionary.values || [];
 
   const ValueCard = ({ value }) => (
-    <div className="p-8 bg-slate-50 rounded-lg shadow-sm hover:shadow-lg transition-shadow h-full">
+    <div className="group p-8 bg-yellow-400 rounded-lg shadow-lg transition-all duration-200 h-full hover:shadow-2xl hover:-translate-y-2">
       <div className="flex justify-center mb-4">
-        {iconMap[value.name] || <Cog size={40} className="text-yellow-400" />}
+        <span className="inline-block transition-transform duration-300 group-hover:scale-125">
+          {iconMap[value.name] || <Cog size={40} className="text-black" />}
+        </span>
       </div>
       <h3 className="font-bold text-xl text-black">{value.name}</h3>
-      <p className="mt-2 text-gray-600 text-sm">{value.description}</p>
+      <p className="mt-2 text-black text-sm">{value.description}</p>
     </div>
   );
 
