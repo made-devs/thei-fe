@@ -8,7 +8,7 @@ const EquipmentIntro = ({ dictionary }) => {
   }
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white pt-20 pb-10 lg:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px] text-center">
         {/* Subtitle and Cog Icon */}
         {dictionary.subtitle && (

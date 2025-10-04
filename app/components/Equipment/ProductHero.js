@@ -1,23 +1,23 @@
 'use client';
-
+import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, Download, Mail } from 'lucide-react';
+import { ChevronRight } from 'lucide-react';
 import { mainSpecConfig } from '../../data/hero-spec-config';
+import { categorySpecSections } from './ProductHero/specSectionsConfig';
+import TabNavigation from './ProductHero/TabNavigation';
+import OverviewTab from './ProductHero/OverviewTab';
+import SpecsTab from './ProductHero/SpecsTab';
+import QuoteTab from './ProductHero/QuoteTab';
+import DownloadTab from './ProductHero/DownloadTab';
 
 // Helper untuk mendapatkan value dari nested object
 const getValueByPath = (obj, path) =>
   path.split('.').reduce((acc, key) => acc?.[key], obj);
 
-// Komponen kecil untuk menampilkan satu item spesifikasi
-const SpecItem = ({ value, label }) => (
-  <div className="text-left">
-    <p className="text-4xl font-bold text-black">{value}</p>
-    <p className="text-sm text-gray-800 mt-1">{label}</p>
-  </div>
-);
-
 const ProductHero = ({ product, lang }) => {
+  const [activeTab, setActiveTab] = useState('overview');
+
   // Fallback jika data produk tidak ada
   if (!product) {
     return null;
@@ -30,14 +30,13 @@ const ProductHero = ({ product, lang }) => {
     { name: product.model, link: '#' },
   ];
 
-  // Logika dinamis untuk mendapatkan spesifikasi utama
+  // Logika dinamis untuk mendapatkan spesifikasi utama (untuk Overview)
   const categoryKey = product.category.toLowerCase().replace(/ /g, '-');
   const specsConfig = mainSpecConfig[categoryKey] || mainSpecConfig.default;
 
   const mainSpecs = specsConfig
     .map((spec) => {
       let value = getValueByPath(product, spec.path);
-      // Jika value object, gabungkan jadi string
       if (
         typeof value === 'object' &&
         value !== null &&
@@ -49,8 +48,39 @@ const ProductHero = ({ product, lang }) => {
     })
     .filter((spec) => spec.value);
 
+  // Konfigurasi spesifikasi untuk tab Specs
+  const sectionsForCategory = categorySpecSections[categoryKey] || [];
+  const specSections = sectionsForCategory.map((config) => ({
+    title: config.title,
+    data: product[config.dataKey],
+  }));
+
+  // Tabs configuration
+  const tabs = [
+    { id: 'overview', label: 'Overview' },
+    { id: 'specs', label: 'Specs' },
+    { id: 'quote', label: 'Request Quote' },
+    { id: 'download', label: 'Download PDF' },
+  ];
+
+  // Render tab content
+  const renderTabContent = () => {
+    switch (activeTab) {
+      case 'overview':
+        return <OverviewTab product={product} mainSpecs={mainSpecs} />;
+      case 'specs':
+        return <SpecsTab specSections={specSections} />;
+      case 'quote':
+        return <QuoteTab product={product} />;
+      case 'download':
+        return <DownloadTab product={product} />;
+      default:
+        return null;
+    }
+  };
+
   return (
-    <section className="bg-gradient-to-br from-yellow-300 to-yellow-500 pt-8 pb-10 lg:pt-12 overflow-hidden">
+    <section className="bg-gradient-to-br from-yellow-300 to-yellow-500 pt-8 pb-20 lg:pt-12 overflow-hidden">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1280px]">
         {/* Breadcrumbs */}
         <div className="flex items-center text-sm text-gray-800 mb-4">
@@ -68,57 +98,21 @@ const ProductHero = ({ product, lang }) => {
           ))}
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8 items-stretch">
-          {/* Kolom Kiri: Teks dan Spesifikasi */}
-          <div className="text-left py-8 lg:py-16 flex flex-col justify-center">
-            <p className="font-semibold text-black">{product.type}</p>
-            <h1 className="text-5xl lg:text-6xl font-extrabold text-black mt-2 leading-tight">
-              {product.model}
-            </h1>
-            <p className="mt-4 text-lg text-gray-800 max-w-lg">
-              {product.description ||
-                `The latest generation of ${product.category.toLowerCase()}, designed for maximum efficiency and power.`}
-            </p>
-
-            {/* Menampilkan spesifikasi utama yang sudah dinamis */}
-            <div className="mt-10 flex items-center gap-10">
-              {mainSpecs.slice(0, 3).map((spec) => (
-                <SpecItem
-                  key={spec.label}
-                  value={spec.value}
-                  label={spec.label}
-                />
-              ))}
-            </div>
-
-            {/* Tombol aksi */}
-            <div className="mt-10 flex gap-4">
-              <Link
-                href={`/request-quote?model=${encodeURIComponent(
-                  product.model
-                )}`}
-                className="inline-flex items-center px-6 py-3 bg-black hover:bg-gray-900 text-yellow-400 font-semibold rounded-lg shadow transition"
-              >
-                <Mail size={18} className="mr-2" />
-                Request Quote
-              </Link>
-              {product.brochure && (
-                <a
-                  href={product.brochure}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center px-6 py-3 border border-black text-yellow-400 font-semibold rounded-lg hover:bg-gray-900 transition"
-                >
-                  <Download size={18} className="mr-2" />
-                  Download Brochure
-                </a>
-              )}
-            </div>
+        {/* Tab Navigation di center atas */}
+        <div className="flex justify-center mb-8">
+          <div className="w-full max-w-[40rem]">
+            <TabNavigation
+              tabs={tabs}
+              activeTab={activeTab}
+              setActiveTab={setActiveTab}
+            />
           </div>
+        </div>
 
-          {/* Kolom Kanan: Gambar Produk */}
-          <div className="relative flex items-center justify-end h-[420px] lg:h-full w-full">
-            <div className="relative w-full max-w-[520px] h-[320px] lg:h-[420px] flex items-center justify-end ml-auto transition-transform duration-300 hover:scale-105">
+        <div className="grid lg:grid-cols-2 gap-8 items-stretch">
+          {/* Kolom Kiri: Gambar Produk */}
+          <div className="relative flex items-center justify-start h-[420px] lg:h-full w-full">
+            <div className="relative w-full max-w-[520px] h-[320px] lg:h-[420px] flex items-center justify-start mr-auto transition-transform duration-300 hover:scale-105">
               <Image
                 src={product.image || '/placeholder.png'}
                 alt={product.model}
@@ -132,6 +126,11 @@ const ProductHero = ({ product, lang }) => {
                 priority
               />
             </div>
+          </div>
+
+          {/* Kolom Kanan: Tab Content */}
+          <div className="rounded-lg p-6 lg:p-8">
+            <div className="min-h-[400px]">{renderTabContent()}</div>
           </div>
         </div>
       </div>
