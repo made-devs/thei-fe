@@ -50,6 +50,12 @@
       "bonuses": "Bonuses",
       "getQuote": "Get Quote"
     },
+    "retail_slider": {
+      "title": "Retail Repair Packages",
+      "subtitle": "Flexible per-unit service packages for various equipment types.",
+      "get_quote_button": "Get Quote",
+      "bonus_title": "Bonuses"
+    },
     "testimonial": {
       "title": "What Our Customers Say",
       "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",

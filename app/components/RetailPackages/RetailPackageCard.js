@@ -1,140 +1,96 @@
-'use client';
+"use client";
 
-import React, { useState, useCallback, useEffect } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import Image from 'next/image';
-
-// Hardcoded retail package data (EN)
-const retailPackages = [
-  {
-    equipment_type: 'EXCAVATOR',
-    starting_price: 'RP 1.750K',
-    area_note: '*JABODETABEK AREA ONLY',
-    services: [
-      'HYDRAULIC PUMP LIGHT : RP1.750K',
-      'OVERHAUL HYDRAULIC PUMP : RP1.750K',
-      'SWING MOTOR : RP1.750K',
-      'TRAVEL MOTOR : RP1.750K',
-      'FINAL DRIVE : RP1.750K',
-      'UNDERCARRIAGE SET : RP1.750K',
-      'BOOM & ARM CYLINDER : RP1.750K',
-      'BUCKET CYLINDER : RP1.750K',
-      'OVERHAUL LIGHT ENGINE : RP1.750K',
-      'OVERHAUL COMPLETE ENGINE : RP1.750K',
-    ],
-    bonuses: [
-      '40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)',
-      'MOBILE SERVICE',
-    ],
-  },
-  {
-    equipment_type: 'FORKLIFT',
-    starting_price: 'RP 1.500K',
-    area_note: null,
-    services: [
-      'HYDRAULIC LIFT & TILT CYLINDER : RP1.500K',
-      'MAST & FORK : RP1.500K',
-      'ENGINE LIGHT : RP1.500K',
-      'BRAKE SYSTEM : RP1.500K',
-      'OVERHAUL COMPLETE ENGINE : RP1.500K',
-      'TRANSMISSION / TORQUE CONVERTER : RP1.500K',
-      'DIFFERENTIAL : RP1.500K',
-      'STEERING SYSTEM : RP1.500K',
-      'AC CABIN : RP1.500K',
-      'LOAD TEST : RP1.500K',
-    ],
-    bonuses: [
-      '25-POINT INSPECTION (TRANSMISSION, DIFFERENTIAL, BRAKE, RADIATOR, BATTERY, SAFETY SWITCH, SEAT BELT, EXHAUST)',
-      'MOBILE SERVICE',
-    ],
-  },
-  {
-    equipment_type: 'MINI EXCAVATOR',
-    starting_price: 'RP 1.750K',
-    area_note: '*JABODETABEK AREA ONLY',
-    services: [
-      'HYDRAULIC PUMP LIGHT : RP1.750K',
-      'OVERHAUL HYDRAULIC PUMP : RP1.750K',
-      'SWING MOTOR : RP1.750K',
-      'TRAVEL MOTOR : RP1.750K',
-      'FINAL DRIVE : RP1.750K',
-      'UNDERCARRIAGE : RP1.750K',
-      'BOOM & ARM CYLINDER : RP1.750K',
-      'OVERHAUL LIGHT ENGINE : RP1.750K',
-      'OVERHAUL COMPLETE ENGINE : RP1.750K',
-    ],
-    bonuses: [
-      '40-POINT INSPECTION (ENGINE, TURBO, COOLING, UNDERCARRIAGE, SWING, CABIN, SENSOR, EXHAUST)',
-      'MOBILE SERVICE',
-    ],
-  },
-];
+import React, { useState, useCallback, useEffect } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Wrench,
+  Gift,
+  CheckCircle,
+} from "lucide-react";
 
 const CARD_WIDTH = 320; // px
 
-// Card untuk satu service
-const ServiceCard = ({ service, area_note }) => (
+// Card untuk satu service dengan desain baru
+const ServiceCard = ({ service, area_note, dictionary }) => (
   <div
-    className="bg-white rounded-lg shadow-md border-t-4 border-yellow-400 flex flex-col h-full mx-2"
+    className="group bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full mx-2 overflow-hidden border border-gray-200"
     style={{
       width: `${CARD_WIDTH}px`,
       minWidth: `${CARD_WIDTH}px`,
       maxWidth: `${CARD_WIDTH}px`,
     }}
   >
-    {/* Placeholder image */}
-    <div className="w-full h-32 bg-gray-200 rounded-t-md flex items-center justify-center mb-4">
-      <Image
-        src="/placeholder-service.svg"
-        alt="Service Illustration"
-        width={64}
-        height={64}
-        className="opacity-60 object-contain"
-        priority={false}
+    <div className="w-full h-40 bg-gray-100 flex items-center justify-center relative overflow-hidden">
+      <div className="absolute inset-0 bg-yellow-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+      <Wrench
+        className="h-16 w-16 text-gray-300 group-hover:text-yellow-500 transition-colors duration-300"
+        strokeWidth={1.5}
       />
     </div>
-    <div className="flex-1 flex flex-col px-6 pb-6">
-      <h4 className="font-bold text-black text-base mb-2">
-        {service.split(':')[0]}
+    <div className="flex-1 flex flex-col p-6">
+      <h4 className="font-bold text-black text-base mb-2 flex-grow">
+        {service.name}
       </h4>
-      <p className="text-lg font-bold text-yellow-600 mb-2">
-        {service.split(':')[1]}
-      </p>
-      {area_note && <p className="text-xs text-gray-500 italic">{area_note}</p>}
-      <div className="flex-grow" />
-      <button className="mt-4 w-full bg-yellow-400 text-black font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors">
-        GET QUOTE
+      <p className="text-xl font-bold text-yellow-600 mb-3">{service.price}</p>
+      {area_note && (
+        <p className="text-xs text-gray-500 italic mb-4">{area_note}</p>
+      )}
+      <button className="mt-auto w-full bg-yellow-400 text-black font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors transform hover:scale-105 duration-300">
+        {dictionary.get_quote_button}
       </button>
     </div>
   </div>
 );
 
-// Card untuk bonus
-const BonusCard = ({ bonuses }) => (
-  <div className="bg-gray-50 rounded-lg shadow-inner p-6 flex flex-col h-full border border-yellow-400">
-    <h4 className="font-bold text-black mb-2">BONUS</h4>
-    <ul className="list-disc pl-5 text-gray-700 text-sm space-y-1">
+// Card untuk bonus dengan desain baru
+const BonusCard = ({ bonuses, dictionary }) => (
+  <div className="bg-yellow-50/50 rounded-lg p-6 flex flex-col h-full border-2 border-dashed border-yellow-400">
+    <div className="flex items-center mb-3">
+      <Gift className="h-6 w-6 text-yellow-600 mr-3" />
+      <h4 className="font-bold text-black text-lg">{dictionary.bonus_title}</h4>
+    </div>
+    <ul className="text-gray-700 text-sm space-y-2">
       {bonuses.map((bonus, idx) => (
-        <li key={idx}>{bonus}</li>
+        <li key={idx} className="flex items-start">
+          <CheckCircle className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
+          <span>{bonus}</span>
+        </li>
       ))}
     </ul>
   </div>
 );
 
-const RetailPackagesTabsSlider = () => {
+const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   const [activeTab, setActiveTab] = useState(0);
-  const activePackage = retailPackages[activeTab];
+
+  // Fallback jika packages kosong
+  if (!packages || packages.length === 0) {
+    return null;
+  }
+
+  const activePackage = packages[activeTab];
 
   // Embla setup
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
-    slidesToScroll: 1,
-    align: 'start',
+    slidesToScroll: "auto",
+    align: "start",
     dragFree: true,
   });
+
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
+
+  const scrollPrev = useCallback(
+    () => emblaApi && emblaApi.scrollPrev(),
+    [emblaApi]
+  );
+  const scrollNext = useCallback(
+    () => emblaApi && emblaApi.scrollNext(),
+    [emblaApi]
+  );
 
   const onSelect = useCallback(() => {
     if (!emblaApi) return;
@@ -145,13 +101,12 @@ const RetailPackagesTabsSlider = () => {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    emblaApi.on('select', onSelect);
-    emblaApi.on('reInit', onSelect);
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
   }, [emblaApi, onSelect]);
 
-  // Reset slider position when tab changes
   useEffect(() => {
-    if (emblaApi) emblaApi.scrollTo(0);
+    if (emblaApi) emblaApi.scrollTo(0, true);
   }, [activeTab, emblaApi]);
 
   return (
@@ -159,24 +114,22 @@ const RetailPackagesTabsSlider = () => {
       <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
         <div className="text-center mb-12">
           <h2 className="text-4xl lg:text-5xl font-bold text-black mb-4">
-            RETAIL SERVICE PACKAGES
+            {dictionary.title}
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Choose individual repair services that fit your equipment needs.
-            Professional service with guaranteed quality.
+            {dictionary.subtitle}
           </p>
         </div>
 
-        {/* Tabs */}
-        <div className="flex justify-center mb-8 space-x-4">
-          {retailPackages.map((pkg, idx) => (
+        <div className="flex justify-center mb-8 space-x-2 md:space-x-4 flex-wrap">
+          {packages.map((pkg, idx) => (
             <button
-              key={pkg.equipment_type}
+              key={pkg.id}
               onClick={() => setActiveTab(idx)}
-              className={`px-6 py-2 rounded-t-lg font-bold text-base transition-colors ${
+              className={`px-4 md:px-6 py-2 rounded-full font-bold text-sm md:text-base transition-all duration-300 m-1 ${
                 activeTab === idx
-                  ? 'bg-yellow-400 text-black shadow'
-                  : 'bg-white text-gray-700 border border-b-0'
+                  ? "bg-yellow-400 text-black shadow-md scale-105"
+                  : "bg-white text-gray-700 hover:bg-gray-100"
               }`}
             >
               {pkg.equipment_type}
@@ -184,40 +137,38 @@ const RetailPackagesTabsSlider = () => {
           ))}
         </div>
 
-        {/* Embla Carousel */}
-        <div className="relative max-w-[1000px] mx-auto">
-          <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex">
+        <div className="relative max-w-full lg:max-w-6xl mx-auto">
+          <div className="overflow-hidden py-4" ref={emblaRef}>
+            <div className="flex -mx-2">
               {activePackage.services.map((service, idx) => (
-                <div key={idx}>
+                <div key={idx} className="flex-shrink-0">
                   <ServiceCard
                     service={service}
                     area_note={activePackage.area_note}
+                    dictionary={dictionary}
                   />
                 </div>
               ))}
             </div>
           </div>
-          {/* Prev/Next Buttons */}
           <button
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-4 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 disabled:opacity-50 z-10"
-            onClick={() => emblaApi && emblaApi.scrollPrev()}
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-4 bg-white text-black p-2 rounded-full shadow-lg hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-opacity"
+            onClick={scrollPrev}
             disabled={!prevBtnEnabled}
           >
             <ChevronLeft size={24} />
           </button>
           <button
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-4 bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 disabled:opacity-50 z-10"
-            onClick={() => emblaApi && emblaApi.scrollNext()}
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-4 bg-white text-black p-2 rounded-full shadow-lg hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-opacity"
+            onClick={scrollNext}
             disabled={!nextBtnEnabled}
           >
             <ChevronRight size={24} />
           </button>
         </div>
 
-        {/* Bonus Card */}
-        <div className="max-w-2xl mx-auto mt-10">
-          <BonusCard bonuses={activePackage.bonuses} />
+        <div className="max-w-3xl mx-auto mt-12">
+          <BonusCard bonuses={activePackage.bonuses} dictionary={dictionary} />
         </div>
       </div>
     </section>

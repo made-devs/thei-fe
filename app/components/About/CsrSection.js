@@ -1,9 +1,9 @@
-'use client';
-import { useState, useEffect, useCallback } from 'react';
-import { Check, Cog, ChevronUp, ChevronDown } from 'lucide-react';
-import Image from 'next/image';
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
+"use client";
+import { useState, useEffect, useCallback } from "react";
+import { Check, Cog, ChevronUp, ChevronDown } from "lucide-react";
+import Image from "next/image";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 
 const CsrSection = ({ dictionary }) => {
   const images = dictionary.images || [];
@@ -17,9 +17,9 @@ const CsrSection = ({ dictionary }) => {
 
   // Carousel untuk thumbnail, diatur secara vertikal
   const [thumbViewportRef, emblaThumbsApi] = useEmblaCarousel({
-    axis: 'y',
-    containScroll: 'keepSnaps',
-    align: 'start',
+    axis: "y",
+    containScroll: "keepSnaps",
+    align: "start",
     loop: true,
   });
 
@@ -40,8 +40,8 @@ const CsrSection = ({ dictionary }) => {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    emblaApi.on('select', onSelect);
-    emblaApi.on('reInit', onSelect);
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
   }, [emblaApi, onSelect]);
 
   // Tombol navigasi untuk mengontrol carousel thumbnail
@@ -60,7 +60,7 @@ const CsrSection = ({ dictionary }) => {
 
   return (
     // STRATEGI 2: Ganti background color
-    <section className="bg-slate-50 py-20">
+    <section className="bg-gray-50 py-12 lg:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         {/* Grid Konten Utama */}
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -116,8 +116,8 @@ const CsrSection = ({ dictionary }) => {
                       <div
                         className={`relative w-full h-full rounded-md overflow-hidden cursor-pointer transition-all duration-300 ${
                           activeIndex === index
-                            ? 'ring-2 ring-yellow-400'
-                            : 'opacity-60 hover:opacity-100'
+                            ? "ring-2 ring-yellow-400"
+                            : "opacity-60 hover:opacity-100"
                         }`}
                       >
                         <Image
@@ -144,21 +144,21 @@ const CsrSection = ({ dictionary }) => {
           </div>
 
           {/* Kolom Kanan: Header dan Checklist */}
-          <div className="pl-[3rem]">
+          <div className="pl-0 md:pl-[3rem]">
             {/* Header Section */}
-            <div className="text-left mb-8">
+            <div className="text-left mb-6 lg:mb-8">
               <div className="flex items-center justify-start text-sm font-bold uppercase text-yellow-400 mb-2">
                 <Cog
                   size={20}
                   className="mr-2 animate-spin"
-                  style={{ animationDuration: '5s' }}
+                  style={{ animationDuration: "5s" }}
                 />
                 <span>{dictionary.subtitle}</span>
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
                 {dictionary.title}
               </h2>
-              <p className="mt-4 text-gray-600 max-w-3xl">
+              <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl">
                 {dictionary.description}
               </p>
             </div>
@@ -171,7 +171,9 @@ const CsrSection = ({ dictionary }) => {
                     size={24}
                     className="text-green-500 mr-4 flex-shrink-0 mt-1"
                   />
-                  <span className="text-base text-gray-700">{activity}</span>
+                  <span className="text-sm sm:text-base text-gray-700">
+                    {activity}
+                  </span>
                 </li>
               ))}
             </ul>

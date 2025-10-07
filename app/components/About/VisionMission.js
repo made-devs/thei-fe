@@ -26,7 +26,7 @@ const VisionMission = ({ dictionary }) => {
   const vision_mission = dictionary;
 
   return (
-    <section className="bg-gray-50 py-20">
+    <section className="bg-white py-12 lg:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Bagian Visi dengan Ikon */}
@@ -38,7 +38,7 @@ const VisionMission = ({ dictionary }) => {
               <h2 className="text-black font-bold uppercase tracking-wider text-sm mb-2">
                 {vision_mission.vision_title}
               </h2>
-              <p className="text-2xl font-semibold text-gray-800">
+              <p className="text-sm sm:text-base lg:text-lg font-semibold text-gray-800">
                 {vision_mission.vision_text}
               </p>
             </div>
@@ -54,12 +54,14 @@ const VisionMission = ({ dictionary }) => {
                 {vision_mission.mission_title}
               </h2>
               {/* Mengubah dari paragraf menjadi daftar */}
-              <ul className="space-y-3 text-gray-700">
+              <ul className="space-y-2 lg:space-y-3 text-gray-700">
                 {vision_mission.mission_points &&
                   vision_mission.mission_points.map((point, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <CheckIcon />
-                      <span>{point}</span>
+                      <span className="text-sm sm:text-base lg:text-lg">
+                        {point}
+                      </span>
                     </li>
                   ))}
               </ul>

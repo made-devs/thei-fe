@@ -1,9 +1,9 @@
-'use client';
-import React, { useCallback, useEffect, useState, useMemo } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import useEmblaCarousel from 'embla-carousel-react';
-import { Cog, ArrowRight, ArrowLeft, PlayCircle } from 'lucide-react';
+"use client";
+import React, { useCallback, useEffect, useState, useMemo } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import useEmblaCarousel from "embla-carousel-react";
+import { Cog, ArrowRight, ArrowLeft, PlayCircle } from "lucide-react";
 
 const News = ({ dictionary, currentLocale }) => {
   const articles = useMemo(
@@ -17,8 +17,8 @@ const News = ({ dictionary, currentLocale }) => {
 
   // Carousel for Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: 'start',
-    containScroll: 'trimSnaps',
+    align: "start",
+    containScroll: "trimSnaps",
     loop: true,
   });
   const videoScrollPrev = useCallback(
@@ -32,7 +32,7 @@ const News = ({ dictionary, currentLocale }) => {
 
   // Carousel for Articles
   const [articleEmblaRef, articleEmblaApi] = useEmblaCarousel({
-    align: 'start',
+    align: "start",
     slidesToScroll: 1,
     loop: true,
   });
@@ -51,6 +51,22 @@ const News = ({ dictionary, currentLocale }) => {
     [articleEmblaApi]
   );
 
+  // Tambahkan state untuk index aktif video
+  const [videoActiveIdx, setVideoActiveIdx] = useState(0);
+
+  // Sinkronkan dots dengan embla video
+  useEffect(() => {
+    if (!videoEmblaApi) return;
+    const onSelect = () =>
+      setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
+    videoEmblaApi.on("select", onSelect);
+    // Set index saat embla siap
+    onSelect();
+    return () => {
+      videoEmblaApi.off("select", onSelect);
+    };
+  }, [videoEmblaApi]);
+
   const onSelect = useCallback(() => {
     if (!articleEmblaApi) return;
     setSelectedIndex(articleEmblaApi.selectedScrollSnap());
@@ -60,8 +76,8 @@ const News = ({ dictionary, currentLocale }) => {
     if (!articleEmblaApi) return;
     onSelect();
     setScrollSnaps(articleEmblaApi.scrollSnapList());
-    articleEmblaApi.on('select', onSelect);
-    articleEmblaApi.on('reInit', onSelect);
+    articleEmblaApi.on("select", onSelect);
+    articleEmblaApi.on("reInit", onSelect);
   }, [articleEmblaApi, onSelect]);
 
   return (
@@ -75,7 +91,7 @@ const News = ({ dictionary, currentLocale }) => {
                 <Cog
                   size={20}
                   className="mr-2 animate-spin"
-                  style={{ animationDuration: '5s' }}
+                  style={{ animationDuration: "5s" }}
                 />
                 <span>{dictionary.subtitle}</span>
               </div>
@@ -125,6 +141,22 @@ const News = ({ dictionary, currentLocale }) => {
                     </div>
                   ))}
                 </div>
+              </div>
+              {/* DOTS INDICATOR MOBILE */}
+              <div className="flex justify-center mt-6 space-x-2 md:hidden">
+                {eventVideos.map((_, idx) => (
+                  <button
+                    key={idx}
+                    type="button"
+                    aria-label={`Go to video ${idx + 1}`}
+                    onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
+                    className={`h-2 rounded-full transition-all duration-200 focus:outline-none ${
+                      videoActiveIdx === idx
+                        ? "w-6 bg-yellow-400"
+                        : "w-2 bg-gray-300"
+                    }`}
+                  />
+                ))}
               </div>
               <button
                 className="absolute top-[calc(50%-2.5rem)] -left-4 transform -translate-y-1/2 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md z-10 hidden lg:flex"
@@ -212,8 +244,8 @@ const News = ({ dictionary, currentLocale }) => {
               onClick={() => scrollTo(index)}
               className={`h-2 rounded-full transition-all ${
                 index === selectedIndex
-                  ? 'w-6 bg-yellow-400'
-                  : 'w-2 bg-gray-300'
+                  ? "w-6 bg-yellow-400"
+                  : "w-2 bg-gray-300"
               }`}
             />
           ))}

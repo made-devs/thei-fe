@@ -50,6 +50,12 @@
       "bonuses": "Bonus",
       "getQuote": "Minta Penawaran"
     },
+    "retail_slider": {
+      "title": "Paket Perbaikan Retail",
+      "subtitle": "Paket layanan per unit yang fleksibel untuk berbagai jenis peralatan.",
+      "get_quote_button": "Minta Penawaran",
+      "bonus_title": "Bonus"
+    },
     "testimonial": {
       "title": "What Our Customers Say",
       "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",

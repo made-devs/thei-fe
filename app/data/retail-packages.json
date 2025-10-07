@@ -1,0 +1,598 @@
+{
+  "en": {
+    "retail_packages": [
+      {
+        "id": "excavator",
+        "equipment_type": "EXCAVATOR",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP LIGHT", "price": "RP 1.750K" },
+          { "name": "OVERHAUL HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "SWING MOTOR", "price": "RP 1.750K" },
+          { "name": "TRAVEL MOTOR", "price": "RP 1.750K" },
+          { "name": "FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "UNDERCARRIAGE SET", "price": "RP 1.750K" },
+          { "name": "BOOM & ARM CYLINDER", "price": "RP 1.750K" },
+          { "name": "BUCKET CYLINDER", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "forklift",
+        "equipment_type": "FORKLIFT",
+        "area_note": null,
+        "services": [
+          { "name": "HYDRAULIC LIFT & TILT CYLINDER", "price": "RP 1.500K" },
+          { "name": "MAST & FORK", "price": "RP 1.500K" },
+          { "name": "ENGINE LIGHT", "price": "RP 1.500K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.500K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.500K" },
+          { "name": "TRANSMISSION / TORQUE CONVERTER", "price": "RP 1.500K" },
+          { "name": "DIFFERENTIAL", "price": "RP 1.500K" },
+          { "name": "STEERING SYSTEM", "price": "RP 1.500K" },
+          { "name": "AC CABIN", "price": "RP 1.500K" },
+          { "name": "LOAD TEST", "price": "RP 1.500K" }
+        ],
+        "bonuses": [
+          "25-POINT INSPECTION (TRANSMISSION, DIFFERENTIAL, BRAKE, RADIATOR, BATTERY, SAFETY SWITCH, SEAT BELT, EXHAUST)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "mini_excavator",
+        "equipment_type": "MINI EXCAVATOR",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP LIGHT", "price": "RP 1.750K" },
+          { "name": "OVERHAUL HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "SWING MOTOR", "price": "RP 1.750K" },
+          { "name": "TRAVEL MOTOR", "price": "RP 1.750K" },
+          { "name": "FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "UNDERCARRIAGE", "price": "RP 1.750K" },
+          { "name": "BOOM & ARM CYLINDER", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40-POINT INSPECTION (ENGINE, TURBO, COOLING, UNDERCARRIAGE, SWING, CABIN, SENSOR, EXHAUST)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "boom_lift",
+        "equipment_type": "BOOM LIFT",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP LIGHT", "price": "RP 1.750K" },
+          { "name": "OVERHAUL HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "SWING MOTOR", "price": "RP 1.750K" },
+          { "name": "TRAVEL MOTOR", "price": "RP 1.750K" },
+          { "name": "BOOM CYLINDER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "scissor_lift",
+        "equipment_type": "SCISSOR LIFT",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "HYDRAULIC CYLINDER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "MECHANICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "25-POINT INSPECTION (TRANSMISSION, DIFFERENTIAL, BRAKE, RADIATOR, BATTERY, SAFETY SWITCH, SEAT BELT, EXHAUST)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "aerial_work_platform",
+        "equipment_type": "AERIAL WORK PLATFORM",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "HYDRAULIC CYLINDER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "MECHANICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "25-POINT INSPECTION (TRANSMISSION, DIFFERENTIAL, BRAKE, RADIATOR, BATTERY, SAFETY SWITCH, SEAT BELT, EXHAUST)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "vibro_compactor",
+        "equipment_type": "VIBRO COMPACTOR",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "VIBRATION PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "TRAVEL PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "DRUM VIBRATION", "price": "RP 1.750K" },
+          { "name": "HYDRAULIC SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "dozer",
+        "equipment_type": "DOZER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "OVERHAUL HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "STEERING & BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION", "price": "RP 1.750K" },
+          { "name": "TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "UNDERCARRIAGE SET", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "wheel_loader",
+        "equipment_type": "WHEEL LOADER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "DIFFERENTIAL/FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "mobile_crane",
+        "equipment_type": "MOBILE CRANE",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TELESCOPIC CYLINDER", "price": "RP 1.750K" },
+          { "name": "SWING MOTOR", "price": "RP 1.750K" },
+          { "name": "WINCH MOTOR", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "tandem_roller",
+        "equipment_type": "TANDEM ROLLER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "VIBRATION PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "TRAVEL PUMP/MOTOR", "price": "RP 1.750K" },
+          { "name": "DRUM VIBRATION", "price": "RP 1.750K" },
+          { "name": "HYDRAULIC SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "motor_grader",
+        "equipment_type": "MOTOR GRADER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TANDEM DRIVE", "price": "RP 1.750K" },
+          { "name": "CIRCLE DRIVE", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "reach_stacker",
+        "equipment_type": "REACH STACKER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "empty_container_handler",
+        "equipment_type": "EMPTY CONTAINER HANDLER",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "side_loader_forklift",
+        "equipment_type": "SIDE LOADER FORKLIFT",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      },
+      {
+        "id": "wide_dump_truck",
+        "equipment_type": "WIDE DUMP TRUCK",
+        "area_note": "*JABODETABEK AREA ONLY",
+        "services": [
+          { "name": "HYDRAULIC PUMP", "price": "RP 1.750K" },
+          { "name": "TRANSMISSION", "price": "RP 1.750K" },
+          { "name": "BRAKE SYSTEM", "price": "RP 1.750K" },
+          { "name": "SUSPENSION SYSTEM", "price": "RP 1.750K" },
+          { "name": "ELECTRICAL SYSTEM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL LIGHT ENGINE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL COMPLETE ENGINE", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "40+ POINT INSPECTION (ENGINE, TURBO, FUEL, INJECTOR, SWING, BRAKE, UNDERCARRIAGE, SAFETY AUDIT)",
+          "MOBILE SERVICE"
+        ]
+      }
+    ]
+  },
+  "id": {
+    "retail_packages": [
+      {
+        "id": "excavator",
+        "equipment_type": "EXCAVATOR",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "MOTOR SWING", "price": "RP 1.750K" },
+          { "name": "MOTOR TRAVEL", "price": "RP 1.750K" },
+          { "name": "FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "SET UNDERCARRIAGE", "price": "RP 1.750K" },
+          { "name": "SILINDER BOOM & ARM", "price": "RP 1.750K" },
+          { "name": "SILINDER BUCKET", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "forklift",
+        "equipment_type": "FORKLIFT",
+        "area_note": null,
+        "services": [
+          { "name": "SILINDER LIFT & TILT HIDROLIK", "price": "RP 1.500K" },
+          { "name": "MAST & GARPU", "price": "RP 1.500K" },
+          { "name": "MESIN RINGAN", "price": "RP 1.500K" },
+          { "name": "SISTEM REM", "price": "RP 1.500K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.500K" },
+          { "name": "TRANSMISI / TORQUE CONVERTER", "price": "RP 1.500K" },
+          { "name": "GARDAN", "price": "RP 1.500K" },
+          { "name": "SISTEM KEMUDI", "price": "RP 1.500K" },
+          { "name": "AC KABIN", "price": "RP 1.500K" },
+          { "name": "UJI BEBAN", "price": "RP 1.500K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 25 TITIK (TRANSMISI, GARDAN, REM, RADIATOR, BATERAI, SAKLAR KESELAMATAN, SABUK PENGAMAN, KNALPOT)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "mini_excavator",
+        "equipment_type": "MINI EXCAVATOR",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "MOTOR SWING", "price": "RP 1.750K" },
+          { "name": "MOTOR TRAVEL", "price": "RP 1.750K" },
+          { "name": "FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "UNDERCARRIAGE", "price": "RP 1.750K" },
+          { "name": "SILINDER BOOM & ARM", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40 TITIK (MESIN, TURBO, PENDINGIN, UNDERCARRIAGE, SWING, KABIN, SENSOR, KNALPOT)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "boom_lift",
+        "equipment_type": "BOOM LIFT",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "MOTOR SWING", "price": "RP 1.750K" },
+          { "name": "MOTOR TRAVEL", "price": "RP 1.750K" },
+          { "name": "SILINDER BOOM", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "scissor_lift",
+        "equipment_type": "SCISSOR LIFT",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA/MOTOR HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SILINDER HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "SISTEM MEKANIK", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 25 TITIK (TRANSMISI, GARDAN, REM, RADIATOR, BATERAI, SAKLAR KESELAMATAN, SABUK PENGAMAN, KNALPOT)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "aerial_work_platform",
+        "equipment_type": "AERIAL WORK PLATFORM",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA/MOTOR HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SILINDER HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "SISTEM MEKANIK", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 25 TITIK (TRANSMISI, GARDAN, REM, RADIATOR, BATERAI, SAKLAR KESELAMATAN, SABUK PENGAMAN, KNALPOT)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "vibro_compactor",
+        "equipment_type": "VIBRO COMPACTOR",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA/MOTOR VIBRASI", "price": "RP 1.750K" },
+          { "name": "POMPA/MOTOR TRAVEL", "price": "RP 1.750K" },
+          { "name": "DRUM VIBRASI", "price": "RP 1.750K" },
+          { "name": "SISTEM HIDROLIK", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "dozer",
+        "equipment_type": "DOZER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "OVERHAUL POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SISTEM KEMUDI & REM", "price": "RP 1.750K" },
+          { "name": "TRANSMISI", "price": "RP 1.750K" },
+          { "name": "TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "SET UNDERCARRIAGE", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "wheel_loader",
+        "equipment_type": "WHEEL LOADER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TRANSMISI/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "GARDAN/FINAL DRIVE", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "mobile_crane",
+        "equipment_type": "MOBILE CRANE",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "SILINDER TELESKOPIK", "price": "RP 1.750K" },
+          { "name": "MOTOR SWING", "price": "RP 1.750K" },
+          { "name": "MOTOR WINCH", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "tandem_roller",
+        "equipment_type": "TANDEM ROLLER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA/MOTOR VIBRASI", "price": "RP 1.750K" },
+          { "name": "POMPA/MOTOR TRAVEL", "price": "RP 1.750K" },
+          { "name": "DRUM VIBRASI", "price": "RP 1.750K" },
+          { "name": "SISTEM HIDROLIK", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "motor_grader",
+        "equipment_type": "MOTOR GRADER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TANDEM DRIVE", "price": "RP 1.750K" },
+          { "name": "CIRCLE DRIVE", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "TRANSMISI", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "reach_stacker",
+        "equipment_type": "REACH STACKER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TRANSMISI/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "empty_container_handler",
+        "equipment_type": "EMPTY CONTAINER HANDLER",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TRANSMISI/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "side_loader_forklift",
+        "equipment_type": "SIDE LOADER FORKLIFT",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TRANSMISI/TORQUE CONVERTER", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "SPREADER", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      },
+      {
+        "id": "wide_dump_truck",
+        "equipment_type": "WIDE DUMP TRUCK",
+        "area_note": "*HANYA UNTUK AREA JABODETABEK",
+        "services": [
+          { "name": "POMPA HIDROLIK", "price": "RP 1.750K" },
+          { "name": "TRANSMISI", "price": "RP 1.750K" },
+          { "name": "SISTEM REM", "price": "RP 1.750K" },
+          { "name": "SISTEM SUSPENSI", "price": "RP 1.750K" },
+          { "name": "SISTEM KELISTRIKAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN RINGAN", "price": "RP 1.750K" },
+          { "name": "OVERHAUL MESIN LENGKAP", "price": "RP 1.750K" }
+        ],
+        "bonuses": [
+          "INSPEKSI 40+ TITIK (MESIN, TURBO, BAHAN BAKAR, INJECTOR, SWING, REM, UNDERCARRIAGE, AUDIT KESELAMATAN)",
+          "LAYANAN KUNJUNGAN (MOBILE SERVICE)"
+        ]
+      }
+    ]
+  }
+}

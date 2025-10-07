@@ -49,9 +49,7 @@ export default function InteractiveEquipmentView({
     setCompareList([]); // Reset compare list saat ganti kategori
 
     // Update URL dengan kategori yang baru dipilih
-    const newUrl = `/${lang}/equipment/new-machines?category=${slugify(
-      categoryName
-    )}`;
+    const newUrl = `/${lang}/products?category=${slugify(categoryName)}`;
     router.push(newUrl, { scroll: false });
   };
 
@@ -75,11 +73,39 @@ export default function InteractiveEquipmentView({
   };
 
   return (
-    <section className="bg-gray-50 py-16">
+    <section
+      className={`bg-gray-50 py-12 lg:py-16 ${
+        compareList.length > 0 ? "pt-32 lg:pt-16" : ""
+      }`}
+    >
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-          <div className="lg:col-span-1 bg-white p-6 rounded-lg shadow-sm h-fit">
-            <h2 className="text-xl font-bold mb-4 border-b pb-3">Categories</h2>
+        {/* Mobile: Horizontal Tabs */}
+        <div className="lg:hidden mb-6">
+          <div className="overflow-x-auto">
+            <div className="flex space-x-2 pb-2">
+              {categories.map((category) => (
+                <button
+                  key={category.name}
+                  onClick={() => handleCategoryClick(category.name)}
+                  className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors ${
+                    activeCategory === category.name
+                      ? "bg-yellow-400 text-black"
+                      : "bg-white text-gray-700 hover:bg-gray-100"
+                  }`}
+                >
+                  {category.name}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Desktop: Original Grid Layout */}
+        <div className="hidden lg:grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="lg:col-span-1 bg-white p-4 lg:p-6 rounded-lg shadow-sm h-fit">
+            <h2 className="text-lg sm:text-xl font-bold mb-4 border-b pb-3">
+              Categories
+            </h2>
             <ul className="space-y-2">
               {categories.map((category) => (
                 <li key={category.name}>
@@ -103,7 +129,7 @@ export default function InteractiveEquipmentView({
 
           <div className="lg:col-span-3">
             {products.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6">
                 {products.map((product) => (
                   <ProductCard
                     key={product.model}
@@ -116,12 +142,35 @@ export default function InteractiveEquipmentView({
               </div>
             ) : (
               <div className="flex items-center justify-center h-full bg-white rounded-lg p-10">
-                <p className="text-gray-500">
+                <p className="text-sm sm:text-base text-gray-500">
                   Produk untuk kategori ini akan segera hadir.
                 </p>
               </div>
             )}
           </div>
+        </div>
+
+        {/* Mobile: Products Grid */}
+        <div className="lg:hidden">
+          {products.length > 0 ? (
+            <div className="grid grid-cols-1 gap-4">
+              {products.map((product) => (
+                <ProductCard
+                  key={product.model}
+                  product={{ ...product, category: activeCategory }}
+                  lang={lang}
+                  onCompareChange={handleCompareChange}
+                  compareList={compareList}
+                />
+              ))}
+            </div>
+          ) : (
+            <div className="flex items-center justify-center bg-white rounded-lg p-6">
+              <p className="text-sm text-gray-500 text-center">
+                Produk untuk kategori ini akan segera hadir.
+              </p>
+            </div>
+          )}
         </div>
       </div>
 

@@ -1,7 +1,7 @@
-'use client';
-import { useState } from 'react';
-import Image from 'next/image';
-import { PlayCircle, Cog, X } from 'lucide-react';
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import { PlayCircle, Cog, X } from "lucide-react";
 
 const DirectorIntro = ({ dictionary }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -9,7 +9,7 @@ const DirectorIntro = ({ dictionary }) => {
 
   return (
     <>
-      <section className="bg-white py-20">
+      <section className="bg-white py-12 lg:py-20">
         <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
           {/* Main container with side-by-side layout on large screens */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
@@ -19,14 +19,14 @@ const DirectorIntro = ({ dictionary }) => {
                 <Cog
                   size={20}
                   className="mr-2 animate-spin"
-                  style={{ animationDuration: '5s' }}
+                  style={{ animationDuration: "5s" }}
                 />
                 <span>{dictionary.subtitle}</span>
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-black">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
                 {dictionary.title}
               </h2>
-              <p className="mt-4 text-lg text-gray-600">
+              <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-600">
                 &quot;{dictionary.quote}&quot;
               </p>
             </div>

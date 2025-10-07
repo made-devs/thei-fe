@@ -36,22 +36,37 @@ const WhyThei = ({ dictionary }) => {
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         {/* Horizontal Features List at the top */}
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-20 text-center">
-          {features.map((feature, index) => (
-            <div key={index} className="flex flex-col items-center">
-              <div className="bg-yellow-400 w-16 h-16 flex items-center justify-center rounded-full mb-4">
-                <div className="text-black">
-                  {iconMap[feature.title] || <Package size={32} />}
+          {features.map((feature, index) => {
+            // Cek jika baris terakhir dan hanya satu icon (mobile)
+            const isLastRowSingle =
+              features.length % 2 === 1 && index === features.length - 1;
+
+            return (
+              <div
+                key={index}
+                className={
+                  isLastRowSingle
+                    ? "flex flex-col items-center col-span-2 md:col-span-1"
+                    : "flex flex-col items-center"
+                }
+              >
+                <div className="bg-yellow-400 w-16 h-16 flex items-center justify-center rounded-full mb-4">
+                  <div className="text-black">
+                    {iconMap[feature.title] || <Package size={32} />}
+                  </div>
                 </div>
+                <h3 className="font-bold text-md text-black">
+                  {feature.title}
+                </h3>
               </div>
-              <h3 className="font-bold text-md text-black">{feature.title}</h3>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Main Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Kolom Kiri: Teks */}
-          <div className="text-left pr-[3rem]">
+          <div className="text-left pr-0 lg:pr-[3rem]">
             <div className="flex items-center text-sm font-bold uppercase text-yellow-400 mb-2">
               <Cog
                 size={20}
@@ -67,13 +82,15 @@ const WhyThei = ({ dictionary }) => {
 
             {/* Stats Section */}
             <div className="pt-8 border-t border-gray-200">
-              <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div className="flex flex-row md:grid md:grid-cols-3 gap-3 md:gap-8 justify-center text-center overflow-x-auto whitespace-nowrap md:overflow-visible md:whitespace-normal">
                 {stats.map((stat, index) => (
-                  <div key={index} className="relative">
-                    <h3 className="text-4xl font-bold text-black">
+                  <div key={index} className="relative min-w-[90px] md:min-w-0">
+                    <h3 className="text-2xl md:text-4xl font-bold text-black">
                       {stat.value}
                     </h3>
-                    <p className="text-gray-500 text-sm mt-2">{stat.label}</p>
+                    <p className="text-gray-500 text-sm md:text-sm mt-2">
+                      {stat.label}
+                    </p>
                     {index < stats.length - 1 && (
                       <div className="hidden md:block absolute top-1/2 right-0 -translate-y-1/2 h-16 w-px bg-gray-200"></div>
                     )}

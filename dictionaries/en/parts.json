@@ -6,7 +6,7 @@
       "image": "/parts/banner.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
-        { "name": "Parts", "link": "/parts" }
+        { "name": "Spare Parts", "link": "/spare-parts" }
       ]
     },
     "features_section": {

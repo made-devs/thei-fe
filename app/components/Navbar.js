@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
+import React, { useState } from "react";
+import Link from "next/link";
 import {
   Search,
   ShoppingCart,
@@ -11,15 +11,15 @@ import {
   Mail,
   MapPin,
   ChevronDown, // <-- Tambahkan ini
-} from 'lucide-react';
-import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
-import LanguageSwitcher from './language-switcher';
+} from "lucide-react";
+import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
+import LanguageSwitcher from "./language-switcher";
 
 const getShortAddress = (address, wordCount = 10) => {
-  if (!address) return '';
-  const words = address.split(' ');
+  if (!address) return "";
+  const words = address.split(" ");
   if (words.length <= wordCount) return address;
-  return words.slice(0, wordCount).join(' ') + ' ...';
+  return words.slice(0, wordCount).join(" ") + " ...";
 };
 
 const Navbar = ({ dictionary, currentLocale }) => {
@@ -45,7 +45,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
           name: navDict.rental,
           href: `/${currentLocale}/products/rental`,
         },
-        { name: navDict.parts, href: `/${currentLocale}/parts` },
+        { name: navDict.parts, href: `/${currentLocale}/spare-parts` },
         {
           name: navDict.trade_in,
           href: `/${currentLocale}/trade-in`,
@@ -139,7 +139,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <div
                 className="absolute inset-0 bg-black"
                 style={{
-                  clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)',
+                  clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0% 100%)",
                 }}
               ></div>
               <div className="relative flex items-center space-x-4 pl-14 pr-8">

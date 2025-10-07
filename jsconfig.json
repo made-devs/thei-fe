@@ -5,8 +5,8 @@
       // FIX: Hapus "src/" dari path ini
       "@/components/*": ["app/components/*"],
       "@/lib/*": ["lib/*"],
+      "@/data/*": ["app/data/*"],
       "@/i18n-config": ["i18n-config.js"]
     }
   }
 }
-

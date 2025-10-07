@@ -65,11 +65,11 @@ const HighlightPromo = ({ dictionary, phoneNumber }) => {
 
   return (
     <>
-      <section className="bg-black pt-[5rem] pb-20">
+      <section className="bg-black pt-8 sm:pt-20 pb-20">
         <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
           {/* Header Section */}
           <div className="text-center mb-16">
-            <div className="flex items-center justify-center text-sm font-bold uppercase text-yellow-400 mb-2">
+            <div className="flex items-center justify-center text-xs sm:text-sm font-bold uppercase text-yellow-400 mb-2">
               <Cog
                 size={20}
                 className="mr-2 animate-spin"
@@ -77,12 +77,12 @@ const HighlightPromo = ({ dictionary, phoneNumber }) => {
               />
               <span>{dictionary.subtitle}</span>
             </div>
-            <h2 className="text-4xl font-bold leading-[2.5rem] text-yellow-400">
+            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-tight text-yellow-400">
               {dictionary.title_line1}
               <br />
               {dictionary.title_line2}
             </h2>
-            <p className="mt-4 text-gray-300 max-w-2xl mx-auto">
+            <p className="mt-4 text-xs sm:text-sm md:text-base text-gray-300 max-w-2xl mx-auto">
               {dictionary.description}
             </p>
           </div>
@@ -192,14 +192,16 @@ const HighlightPromo = ({ dictionary, phoneNumber }) => {
 
             {/* 5. Tombol panah navigasi */}
             <button
-              className="absolute top-1/2 -translate-y-1/2 left-0 z-10 flex items-center justify-center h-12 w-12 rounded-full bg-white/20 hover:bg-white/40 text-white transition -ml-4"
+              className="absolute top-1/2 -translate-y-1/2 left-0 z-10 flex items-center justify-center h-12 w-12 rounded-full
+                bg-yellow-400 text-black hover:bg-black hover:text-yellow-400 border-2 border-yellow-400 transition -ml-4"
               onClick={scrollPrev}
               aria-label="Previous slide"
             >
               <ChevronLeft size={24} />
             </button>
             <button
-              className="absolute top-1/2 -translate-y-1/2 right-0 z-10 flex items-center justify-center h-12 w-12 rounded-full bg-white/20 hover:bg-white/40 text-white transition -mr-4"
+              className="absolute top-1/2 -translate-y-1/2 right-0 z-10 flex items-center justify-center h-12 w-12 rounded-full
+                bg-yellow-400 text-black hover:bg-black hover:text-yellow-400 border-2 border-yellow-400 transition -mr-4"
               onClick={scrollNext}
               aria-label="Next slide"
             >
