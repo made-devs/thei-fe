@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from 'react';
+import Link from 'next/link';
 import {
   Search,
   ShoppingCart,
@@ -10,20 +10,16 @@ import {
   Phone,
   Mail,
   MapPin,
-  Facebook,
-  Instagram,
-  Linkedin,
-  Youtube,
-  Twitter,
-  ChevronDown,
-} from "lucide-react";
-import LanguageSwitcher from "./language-switcher";
+  ChevronDown, // <-- Tambahkan ini
+} from 'lucide-react';
+import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
+import LanguageSwitcher from './language-switcher';
 
 const getShortAddress = (address, wordCount = 10) => {
-  if (!address) return "";
-  const words = address.split(" ");
+  if (!address) return '';
+  const words = address.split(' ');
   if (words.length <= wordCount) return address;
-  return words.slice(0, wordCount).join(" ") + " ...";
+  return words.slice(0, wordCount).join(' ') + ' ...';
 };
 
 const Navbar = ({ dictionary, currentLocale }) => {
@@ -33,25 +29,70 @@ const Navbar = ({ dictionary, currentLocale }) => {
   const contactInfo = dictionary.contact_info || {};
 
   const mainNavLinks = [
-    { name: navDict.home, href: `/${currentLocale}` },
-    { name: navDict.equipment, href: `/${currentLocale}/equipment` },
-    { name: navDict.parts, href: `/${currentLocale}/parts` },
-    { name: navDict.service, href: `/${currentLocale}/service` },
-    { name: navDict.promotions, href: `/${currentLocale}/promotions` },
-    { name: navDict.trade_in, href: `/${currentLocale}/trade-in` },
     {
-      name: navDict.company,
+      name: navDict.home,
+      href: `/${currentLocale}`,
+    },
+    {
+      name: navDict.solutions,
       isDropdown: true,
       items: [
-        { name: navDict.about_us, href: `/${currentLocale}/about` },
-        { name: navDict.branches, href: `/${currentLocale}/branches` },
         {
-          name: navDict.why_buy_forklift,
-          href: `/${currentLocale}/why-buy-forklift`,
+          name: navDict.products,
+          href: `/${currentLocale}/products`,
         },
-        { name: navDict.news, href: `/${currentLocale}/news` },
+        {
+          name: navDict.rental,
+          href: `/${currentLocale}/products/rental`,
+        },
+        { name: navDict.parts, href: `/${currentLocale}/parts` },
+        {
+          name: navDict.trade_in,
+          href: `/${currentLocale}/trade-in`,
+        },
       ],
     },
+    {
+      name: navDict.services,
+      isDropdown: true,
+      items: [
+        {
+          name: navDict.service_support,
+          href: `/${currentLocale}/service`,
+        },
+        {
+          name: navDict.repair_premium,
+          href: `/${currentLocale}/repair-packages`,
+        },
+      ],
+    },
+    {
+      name: navDict.about_thei,
+      isDropdown: true,
+      items: [
+        {
+          name: navDict.company_profile,
+          href: `/${currentLocale}/about`,
+        },
+        {
+          name: navDict.news,
+          href: `/${currentLocale}/news`,
+        },
+        {
+          name: navDict.career_training,
+          href: `/${currentLocale}/career-training`,
+        },
+        {
+          name: navDict.branches,
+          href: `/${currentLocale}/branches`,
+        },
+      ],
+    },
+    {
+      name: navDict.promotions,
+      href: `/${currentLocale}/promotions`,
+    },
+    { name: navDict.contact, href: `/${currentLocale}/contact` },
   ];
 
   return (
@@ -98,51 +139,38 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <div
                 className="absolute inset-0 bg-black"
                 style={{
-                  clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0% 100%)",
+                  clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)',
                 }}
               ></div>
               <div className="relative flex items-center space-x-4 pl-14 pr-8">
                 <LanguageSwitcher currentLocale={currentLocale} />
                 <div className="w-px h-5 bg-yellow-400 opacity-50"></div>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/"
                   aria-label="Facebook"
                   className="hover:opacity-70 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {" "}
-                  <Facebook size={18} />{" "}
+                  <FaFacebook size={18} />
                 </a>
                 <a
-                  href="#"
-                  aria-label="Twitter"
-                  className="hover:opacity-70 transition-opacity"
-                >
-                  {" "}
-                  <Twitter size={18} />{" "}
-                </a>
-                <a
-                  href="#"
+                  href="https://www.instagram.com/tjmheavyequipment/"
                   aria-label="Instagram"
                   className="hover:opacity-70 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {" "}
-                  <Instagram size={18} />{" "}
+                  <FaInstagram size={18} />
                 </a>
                 <a
-                  href="#"
-                  aria-label="LinkedIn"
+                  href="https://www.tiktok.com/@tjmheavyequipment_"
+                  aria-label="TikTok"
                   className="hover:opacity-70 transition-opacity"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  {" "}
-                  <Linkedin size={18} />{" "}
-                </a>
-                <a
-                  href="#"
-                  aria-label="YouTube"
-                  className="hover:opacity-70 transition-opacity"
-                >
-                  {" "}
-                  <Youtube size={18} />{" "}
+                  <FaTiktok size={18} />
                 </a>
               </div>
             </div>

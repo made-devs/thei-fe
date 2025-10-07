@@ -1,7 +1,8 @@
 // /app/components/Footer.js
 import React from 'react';
 import Link from 'next/link';
-import { Facebook, Linkedin, Instagram, Youtube } from 'lucide-react';
+// Ganti import lucide-react dengan react-icons
+import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = ({ dictionary, currentLocale }) => {
   const footerDict = dictionary.footer || {};
@@ -88,17 +89,32 @@ const Footer = ({ dictionary, currentLocale }) => {
                   {footerDict.follow_us}
                 </h4>
                 <div className="flex space-x-4">
-                  <a href="#" className="text-gray-400 hover:text-white">
-                    <Facebook size={20} />
+                  <a
+                    href="https://www.facebook.com/"
+                    className="text-gray-400 hover:text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Facebook"
+                  >
+                    <FaFacebook size={20} />
                   </a>
-                  <a href="#" className="text-gray-400 hover:text-white">
-                    <Linkedin size={20} />
+                  <a
+                    href="https://www.instagram.com/tjmheavyequipment/"
+                    className="text-gray-400 hover:text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Instagram"
+                  >
+                    <FaInstagram size={20} />
                   </a>
-                  <a href="#" className="text-gray-400 hover:text-white">
-                    <Instagram size={20} />
-                  </a>
-                  <a href="#" className="text-gray-400 hover:text-white">
-                    <Youtube size={20} />
+                  <a
+                    href="https://www.tiktok.com/@tjmheavyequipment_"
+                    className="text-gray-400 hover:text-white"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="TikTok"
+                  >
+                    <FaTiktok size={20} />
                   </a>
                 </div>
               </div>

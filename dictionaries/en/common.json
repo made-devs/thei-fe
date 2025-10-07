@@ -1,17 +1,23 @@
 {
   "navigation": {
     "home": "HOME",
-    "about_us": "ABOUT THEI",
-    "branches": "BRANCHES",
-    "equipment": "PRODUCT",
+    "about_thei": "ABOUT THEI",
+    "branches": "OUR BRANCHES",
+    "products": "PRODUCTS",
     "parts": "PARTS",
-    "service": "SERVICE",
-    "promotions": "PROMOTIONS",
+    "services": "SERVICES",
+    "promotions": "PROMO",
     "trade_in": "TRADE-IN",
     "why_buy_forklift": "WHY BUY FORKLIFT",
     "news": "NEWS & EVENTS",
     "buy_parts": "BUY PARTS",
-    "company": "ABOUT US"
+    "company_profile": "COMPANY PROFILE",
+    "solutions": "SOLUTIONS",
+    "rental": "RENTAL",
+    "service_support": "SERVICE & SUPPORT",
+    "repair_premium": "REPAIR & PREMIUM PACKAGES",
+    "career_training": "CAREER & TRAINING",
+    "contact": "CONTACT"
   },
   "contact_info": {
     "whatsapp_display": "0851 9588 6789",

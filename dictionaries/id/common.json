@@ -1,23 +1,29 @@
 {
   "navigation": {
     "home": "BERANDA",
-    "about_us": "TENTANG THEI",
-    "branches": "CABANG",
-    "equipment": "PRODUK",
+    "about_thei": "TENTANG THEI",
+    "branches": "CABANG KAMI",
+    "products": "PRODUK",
     "parts": "SUKU CADANG",
-    "service": "LAYANAN",
-    "promotions": "PROMOSI",
+    "services": "LAYANAN",
+    "promotions": "PROMO",
     "trade_in": "TUKAR TAMBAH",
     "why_buy_forklift": "MENGAPA BELI FORKLIFT",
     "news": "BERITA & ACARA",
     "buy_parts": "BELI SUKU CADANG",
-    "company": "TENTANG KAMI"
+    "company_profile": "PROFIL PERUSAHAAN",
+    "solutions": "SOLUSI",
+    "rental": "RENTAL",
+    "service_support": "SERVICE & SUPPORT",
+    "repair_premium": "PAKET REPAIR & PREMIUM",
+    "career_training": "KARIR & PELATIHAN",
+    "contact": "KONTAK"
   },
   "contact_info": {
     "whatsapp_display": "0851 9588 6789",
     "whatsapp_link": "6285195886789",
     "email": "tjmheavyequipment@gmail.com",
-    "address": "Posh, Blk. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Medan Satria, Bekasi City, West Java 17132"
+    "address": "Posh, Blk. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Medan Satria, Kota Bekasi, Jawa Barat 17132"
   },
   "footer": {
     "company_name": "TJM Heavy Equipment Indonesia",
@@ -26,15 +32,15 @@
     "solutions_links_title": "SOLUSI KAMI",
     "company_links": {
       "about": "Tentang THEI",
-      "branches": "Cabang",
-      "career": "Karir",
+      "branches": "Cabang Kami",
+      "career": "Karir & Pelatihan",
       "news": "Berita & Acara"
     },
     "solutions_links": {
-      "equipment": "Alat Berat",
+      "equipment": "Peralatan",
       "parts": "Suku Cadang",
       "service": "Layanan",
-      "promotions": "Promosi",
+      "promotions": "Promo",
       "trade_in": "Tukar Tambah",
       "why_buy_forklift": "Mengapa Beli Forklift",
       "contact": "Kontak"
@@ -42,7 +48,7 @@
     "copyright": "© {year} TJM Heavy Equipment Indonesia. Hak Cipta Dilindungi."
   },
   "main_cta": {
-    "title": "MARI TEMUKAN SOLUSI TERBAIK UNTUK MENINGKATKAN BISNIS ANDA KE DEPAN.",
+    "title": "MARI TEMUKAN SOLUSI TERBAIK UNTUK MEMAJUKAN BISNIS ANDA.",
     "cta_button": "HUBUNGI KAMI SEKARANG"
   }
 }
