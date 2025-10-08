@@ -1,14 +1,18 @@
-// /app/[lang]/layout.js
+// /src/app/[lang]/layout.js
 
 import "./globals.css";
-import { Plus_Jakarta_Sans } from "next/font/google"; // 1. Impor font
-import { i18n } from "../../i18n-config";
-import { getLayoutDictionary } from "../../lib/dictionary";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import FloatingActionButton from "../components/General/FloatingActionButton";
+import { Plus_Jakarta_Sans } from "next/font/google";
 
-// 2. Inisialisasi font dengan subset yang dibutuhkan
+// ✅ FIX: Dari src/app/[lang]/ ke root (naik 3 level)
+import { i18n } from "../../../i18n-config";
+
+// ✅ FIX: Pakai alias @/ lebih clean
+import { getLayoutDictionary } from "@/lib/dictionary";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import FloatingActionButton from "@/components/General/FloatingActionButton";
+
+// Inisialisasi font dengan subset yang dibutuhkan
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
 export async function generateStaticParams() {

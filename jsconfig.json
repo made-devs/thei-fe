@@ -2,11 +2,14 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      // FIX: Hapus "src/" dari path ini
-      "@/components/*": ["app/components/*"],
-      "@/lib/*": ["lib/*"],
-      "@/data/*": ["app/data/*"],
+      // Update semua paths dengan src/
+      "@/components/*": ["src/components/*"],
+      "@/lib/*": ["src/lib/*"],
+      "@/data/*": ["src/data/*"],
+      "@/app/*": ["src/app/*"],
       "@/i18n-config": ["i18n-config.js"]
     }
-  }
+  },
+  "include": ["src/**/*", "next-env.d.ts", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

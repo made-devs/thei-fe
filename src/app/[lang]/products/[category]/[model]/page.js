@@ -1,10 +1,9 @@
 // app/[lang]/equipment/new-machines/[category]/[model]/page.js
 
-import { getDictionary } from "../../../../../lib/dictionary";
-import { getAllProducts, getProduct } from "../../../../../lib/product-data";
-import ProductHero from "../../../../components/Equipment/ProductHero";
-import ProductSpecifications from "../../../../components/Equipment/ProductSpecifications";
-import MainCta from "../../../../components/Home/MainCta";
+import { getDictionary } from "@/lib/dictionary";
+import { getAllProducts, getProduct } from "@/lib/product-data";
+import ProductHero from "@/components/Equipment/ProductHero";
+import MainCta from "@/components/Home/MainCta";
 import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {

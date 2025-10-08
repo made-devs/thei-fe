@@ -1,23 +1,23 @@
 // lib/product-data.js
 import "server-only";
 
-// Impor semua data JSON produk
-import forkliftData from "../app/data/forklift.json";
-import miniExcavatorData from "../app/data/mini-excavator.json";
-import excavatorData from "../app/data/excavator.json";
-import wheelLoaderData from "../app/data/wheel-loader.json";
-import bulldozerData from "../app/data/bulldozer.json";
-import craneData from "../app/data/crane.json";
-import skidSteerLoaderData from "../app/data/skid-steer-loader.json";
-import boomLiftData from "../app/data/boom-lift.json";
-import telehandlerData from "../app/data/telehandler.json";
-import crawlerCraneData from "../app/data/crawler-crane.json";
-import telescopicCrawlerCraneData from "../app/data/telescopic-crawler-crane.json";
-import concretePumpMixerData from "../app/data/concrete-pump-mixer.json";
-import aerialWorkingPlatformData from "../app/data/aerial-working-platform.json";
-import vibroRollerData from "../app/data/vibro-roller.json";
-import motorGraderData from "../app/data/motor-grader.json"; // 1. Impor data baru
-import dumpTruckData from "../app/data/dump-truck.json"; // Tambahkan ini
+// Update import paths: ganti ../ jadi @/data/
+import forkliftData from "@/data/forklift.json";
+import miniExcavatorData from "@/data/mini-excavator.json";
+import excavatorData from "@/data/excavator.json";
+import wheelLoaderData from "@/data/wheel-loader.json";
+import bulldozerData from "@/data/bulldozer.json";
+import craneData from "@/data/crane.json";
+import skidSteerLoaderData from "@/data/skid-steer-loader.json";
+import boomLiftData from "@/data/boom-lift.json";
+import telehandlerData from "@/data/telehandler.json";
+import crawlerCraneData from "@/data/crawler-crane.json";
+import telescopicCrawlerCraneData from "@/data/telescopic-crawler-crane.json";
+import concretePumpMixerData from "@/data/concrete-pump-mixer.json";
+import aerialWorkingPlatformData from "@/data/aerial-working-platform.json";
+import vibroRollerData from "@/data/vibro-roller.json";
+import motorGraderData from "@/data/motor-grader.json";
+import dumpTruckData from "@/data/dump-truck.json";
 
 const allProductsData = {
   forklift: forkliftData.forklifts,
@@ -39,7 +39,7 @@ const allProductsData = {
   "aerial-working-platform": aerialWorkingPlatformData.aerial_working_platforms,
   "vibro-roller": vibroRollerData.vibro_rollers,
   "motor-grader": motorGraderData.motor_graders,
-  "dump-truck": dumpTruckData.dump_trucks, // Tambahkan ini
+  "dump-truck": dumpTruckData.dump_trucks,
 };
 
 // Fungsi untuk mendapatkan semua produk dengan kategori

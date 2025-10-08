@@ -6,22 +6,22 @@ import InteractiveEquipmentView from "@/components/Equipment/InteractiveEquipmen
 import { Suspense } from "react";
 
 // Import data produk dari berbagai kategori alat berat
-import forkliftData from "../../data/forklift.json";
-import miniExcavatorData from "../../data/mini-excavator.json";
-import excavatorData from "../../data/excavator.json";
-import aerialWorkingPlatformData from "../../data/aerial-working-platform.json";
-import wheelLoaderData from "../../data/wheel-loader.json";
-import vibroRollerData from "../../data/vibro-roller.json";
-import bulldozerData from "../../data/bulldozer.json";
-import craneData from "../../data/crane.json";
-import skidSteerLoaderData from "../../data/skid-steer-loader.json";
-import boomLiftData from "../../data/boom-lift.json";
-import telehandlerData from "../../data/telehandler.json";
-import crawlerCraneData from "../../data/crawler-crane.json";
-import telescopicCrawlerCraneData from "../../data/telescopic-crawler-crane.json";
-import concretePumpMixerData from "../../data/concrete-pump-mixer.json";
-import motorGraderData from "../../data/motor-grader.json";
-import dumpTruckData from "../../data/dump-truck.json";
+import forkliftData from "@/data/forklift.json";
+import miniExcavatorData from "@/data/mini-excavator.json";
+import excavatorData from "@/data/excavator.json";
+import aerialWorkingPlatformData from "@/data/aerial-working-platform.json";
+import wheelLoaderData from "@/data/wheel-loader.json";
+import vibroRollerData from "@/data/vibro-roller.json";
+import bulldozerData from "@/data/bulldozer.json";
+import craneData from "@/data/crane.json";
+import skidSteerLoaderData from "@/data/skid-steer-loader.json";
+import boomLiftData from "@/data/boom-lift.json";
+import telehandlerData from "@/data/telehandler.json";
+import crawlerCraneData from "@/data/crawler-crane.json";
+import telescopicCrawlerCraneData from "@/data/telescopic-crawler-crane.json";
+import concretePumpMixerData from "@/data/concrete-pump-mixer.json";
+import motorGraderData from "@/data/motor-grader.json";
+import dumpTruckData from "@/data/dump-truck.json";
 
 // Komponen utama halaman "New Machines"
 export default async function NewMachinesPage({ params }) {
