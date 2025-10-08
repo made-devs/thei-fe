@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Link from "next/link";
+import Image from "next/image"; // Tambahkan import Image
 
 const ReusableEquipmentCard = ({
   title,
@@ -28,15 +29,15 @@ const ReusableEquipmentCard = ({
             <div className="img">
               {/* Gambar utama */}
               {image && (
-                <img
+                <Image
                   src={image}
                   alt={title}
+                  fill
                   style={{
-                    width: "100%",
-                    height: "100%",
                     objectFit: "cover",
                     borderRadius: 5,
                   }}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               )}
               <div className="circle"></div>

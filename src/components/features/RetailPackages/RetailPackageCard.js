@@ -65,14 +65,7 @@ const BonusCard = ({ bonuses, dictionary }) => (
 const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   const [activeTab, setActiveTab] = useState(0);
 
-  // Fallback jika packages kosong
-  if (!packages || packages.length === 0) {
-    return null;
-  }
-
-  const activePackage = packages[activeTab];
-
-  // Embla setup
+  // Embla setup - pindahkan hooks ke atas sebelum early return
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
     slidesToScroll: "auto",
@@ -108,6 +101,13 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   useEffect(() => {
     if (emblaApi) emblaApi.scrollTo(0, true);
   }, [activeTab, emblaApi]);
+
+  // Fallback jika packages kosong - pindahkan setelah hooks
+  if (!packages || packages.length === 0) {
+    return null;
+  }
+
+  const activePackage = packages[activeTab];
 
   return (
     <section className="bg-gray-50 py-20">

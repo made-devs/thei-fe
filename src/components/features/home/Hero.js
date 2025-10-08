@@ -52,7 +52,6 @@ const Hero = ({ dictionary, currentLocale }) => {
     }, 2500);
 
     return () => clearInterval(interval);
-    // eslint-disable-next-line
   }, [subTexts.length, activeIdx]);
 
   // Animate in on mount and when activeIdx changes (for manual trigger)
@@ -66,7 +65,6 @@ const Hero = ({ dictionary, currentLocale }) => {
       duration: 0.35,
       ease: "power2.out",
     });
-    // eslint-disable-next-line
   }, [activeIdx]);
 
   return (

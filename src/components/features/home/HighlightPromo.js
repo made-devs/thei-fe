@@ -10,7 +10,8 @@ import {
   ArrowRight,
   Sparkles,
 } from "lucide-react";
-import Link from "next/link"; // Tambahkan ini jika belum ada
+import Link from "next/link";
+import Image from "next/image"; // Tambahkan import Image
 
 export default function HighlightPromo({ dictionary, currentLocale }) {
   const [hoveredId, setHoveredId] = useState(null);
@@ -169,12 +170,14 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
 
                     {/* Card Image with 4:5 Aspect Ratio */}
                     <div className="relative aspect-[4/5]">
-                      <img
+                      <Image
                         src={promo.image}
                         alt={promo.title}
-                        className={`w-full h-full object-cover transition-transform duration-700 ${
+                        fill
+                        className={`object-cover transition-transform duration-700 ${
                           hoveredId === promo.id ? "scale-110" : "scale-100"
                         }`}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
                       {/* Overlay gradient: sepertiga bawah lebih pekat */}
                       <div

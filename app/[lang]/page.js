@@ -31,8 +31,8 @@ export default async function HomePage({ params }) {
             THEI - TJM Heavy Equipment Indonesia
           </h1>
           <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-300 tracking-wide px-4">
-            Indonesia's One-Stop Solution for Heavy Equipment Rental, Service &
-            Sales
+            Indonesia&apos;s One-Stop Solution for Heavy Equipment Rental,
+            Service &amp; Sales
           </p>
         </div>
         <div className="h-px w-1/3 mx-auto bg-yellow-400 opacity-60 rounded" />
