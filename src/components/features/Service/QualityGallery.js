@@ -1,8 +1,8 @@
-'use client';
-import { useCallback } from 'react';
-import Image from 'next/image';
-import useEmblaCarousel from 'embla-carousel-react';
-import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
+"use client";
+import { useCallback } from "react";
+import Image from "next/image";
+import useEmblaCarousel from "embla-carousel-react";
+import { PlayCircle, ArrowLeft, ArrowRight } from "lucide-react";
 
 const QualityGallery = ({ dictionary }) => {
   // FIX: Panggil semua hooks di level paling atas, sebelum kondisi apapun.
@@ -20,10 +20,10 @@ const QualityGallery = ({ dictionary }) => {
   if (!dictionary || !dictionary.media_items) return null;
 
   return (
-    <section className="bg-white py-20">
+    <section className="bg-white py-12 sm:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-black">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {dictionary.title}
           </h2>
         </div>
@@ -43,13 +43,13 @@ const QualityGallery = ({ dictionary }) => {
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 896px"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-start justify-end p-6">
-                    <h3 className="font-bold text-white text-xl">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col items-start justify-end p-4 sm:p-6">
+                    <h3 className="font-bold text-white text-lg sm:text-xl lg:text-2xl">
                       {item.title}
                     </h3>
                   </div>
                   {/* Tampilkan ikon Play hanya untuk video */}
-                  {item.type === 'video' && (
+                  {item.type === "video" && (
                     <div className="absolute inset-0 bg-black/40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <PlayCircle
                         size={80}

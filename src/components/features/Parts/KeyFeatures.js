@@ -1,4 +1,4 @@
-import { MessageSquare, Truck, ShieldCheck, Tag } from 'lucide-react';
+import { MessageSquare, Truck, ShieldCheck, Tag } from "lucide-react";
 
 const iconMap = {
   MessageSquare: <MessageSquare size={32} className="text-yellow-400" />,
@@ -14,7 +14,9 @@ const KeyFeatures = ({ dictionary }) => {
     <section className="bg-white py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-black">{dictionary.title}</h2>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+            {dictionary.title}
+          </h2>
         </div>
         <div className="flex flex-wrap justify-center gap-8">
           {dictionary.features.map((feature) => (
@@ -27,9 +29,10 @@ const KeyFeatures = ({ dictionary }) => {
                   <ShieldCheck size={32} className="text-yellow-400" />
                 )}
               </div>
-              <h3 className="font-bold text-xl text-black">{feature.name}</h3>
-              {/* Menghapus h-20 agar tinggi paragraf dinamis */}
-              <p className="mt-2 text-gray-600 text-sm">
+              <h3 className="font-bold text-lg sm:text-xl lg:text-2xl text-black">
+                {feature.name}
+              </h3>
+              <p className="mt-2 text-gray-600 text-sm sm:text-base lg:text-lg">
                 {feature.description}
               </p>
             </div>

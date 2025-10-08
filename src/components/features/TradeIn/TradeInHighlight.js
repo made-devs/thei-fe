@@ -1,8 +1,8 @@
-'use client';
+"use client";
 import {
   ReactCompareSlider,
   ReactCompareSliderImage,
-} from 'react-compare-slider';
+} from "react-compare-slider";
 
 const TradeInHighlight = ({ dictionary }) => {
   // Jangan render jika data tidak lengkap
@@ -11,13 +11,13 @@ const TradeInHighlight = ({ dictionary }) => {
   }
 
   return (
-    <section className="bg-slate-50 py-20">
+    <section className="bg-slate-50 py-12 sm:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {dictionary.title}
           </h2>
-          <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
+          <p className="mt-4 text-gray-600 text-sm sm:text-base lg:text-lg max-w-3xl mx-auto">
             {dictionary.description}
           </p>
         </div>

@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
 const PartsCategoryGrid = ({ dictionary }) => {
   if (!dictionary || !dictionary.categories) return null;
@@ -8,8 +8,10 @@ const PartsCategoryGrid = ({ dictionary }) => {
     <section className="bg-gray-50 py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1280px]">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-black">{dictionary.title}</h2>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+            {dictionary.title}
+          </h2>
+          <p className="mt-4 text-gray-600 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">
             {dictionary.description}
           </p>
         </div>
@@ -30,7 +32,7 @@ const PartsCategoryGrid = ({ dictionary }) => {
                 />
               </div>
               <div className="p-4 text-center border-t border-gray-100">
-                <h3 className="font-bold text-black group-hover:text-yellow-500 transition-colors text-sm">
+                <h3 className="font-bold text-black group-hover:text-yellow-500 transition-colors text-sm sm:text-base lg:text-lg">
                   {category.name}
                 </h3>
               </div>

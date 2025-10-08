@@ -1,7 +1,7 @@
-'use client';
-import { useState } from 'react';
-import Image from 'next/image';
-import { PlayCircle, X } from 'lucide-react';
+"use client";
+import { useState } from "react";
+import Image from "next/image";
+import { PlayCircle, X } from "lucide-react";
 
 const PartsPromo = ({ dictionary }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -10,14 +10,16 @@ const PartsPromo = ({ dictionary }) => {
   if (!promoData) return null;
 
   // dQw4w9WgXcQ is the Rickroll video ID
-  const videoId = promoData.video_id || 'dQw4w9WgXcQ';
+  const videoId = promoData.video_id || "dQw4w9WgXcQ";
 
   return (
     <>
       <section className="bg-white py-20">
         <div className="container mx-auto px-6 lg:px-8 max-w-[1024px] text-center">
-          <h2 className="text-3xl font-bold text-black">{promoData.title}</h2>
-          <p className="mt-4 text-gray-600 max-w-2xl mx-auto">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+            {promoData.title}
+          </h2>
+          <p className="mt-4 text-gray-600 text-sm sm:text-base lg:text-lg max-w-2xl mx-auto">
             {promoData.description}
           </p>
           <div
@@ -26,7 +28,7 @@ const PartsPromo = ({ dictionary }) => {
           >
             <Image
               src="/parts/thumbnail.webp"
-              alt={promoData.video_placeholder || 'Promo Video Thumbnail'}
+              alt={promoData.video_placeholder || "Promo Video Thumbnail"}
               fill
               className="object-cover transition-transform duration-300 group-hover:scale-105"
             />

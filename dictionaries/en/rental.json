@@ -6,8 +6,7 @@
       "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
-        { "name": "Equipment", "link": "/equipment" },
-        { "name": "Rental", "link": "/equipment/rental" }
+        { "name": "Rental", "link": "/rental" }
       ]
     },
     "categories": {

@@ -1,6 +1,6 @@
-'use client';
-import { ReactCompareSlider } from 'react-compare-slider';
-import Image from 'next/image';
+"use client";
+import { ReactCompareSlider } from "react-compare-slider";
+import Image from "next/image";
 
 const BeforeAfterSlider = ({ dictionary }) => {
   if (!dictionary || !dictionary.image_before || !dictionary.image_after) {
@@ -20,10 +20,10 @@ const BeforeAfterSlider = ({ dictionary }) => {
   );
 
   return (
-    <section className="bg-slate-50 py-20">
+    <section className="bg-slate-50 py-12 sm:py-20">
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             {dictionary.title}
           </h2>
         </div>

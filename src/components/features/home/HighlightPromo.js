@@ -7,12 +7,12 @@ import {
   ChevronRight,
   Clock,
   Tag,
-  Zap,
   ArrowRight,
   Sparkles,
 } from "lucide-react";
+import Link from "next/link"; // Tambahkan ini jika belum ada
 
-export default function HighlightPromo() {
+export default function HighlightPromo({ dictionary, currentLocale }) {
   const [hoveredId, setHoveredId] = useState(null);
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
@@ -21,7 +21,7 @@ export default function HighlightPromo() {
       skipSnaps: false,
       dragFree: false,
     },
-    [Autoplay({ delay: 5000, stopOnInteraction: true })]
+    [Autoplay({ delay: 5000, stopOnInteraction: true, stopOnMouseEnter: true })]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -55,69 +55,18 @@ export default function HighlightPromo() {
     return () => emblaApi.off("select", onSelect);
   }, [emblaApi, onSelect]);
 
-  // Mock data - nanti dari dictionary
-  const promos = [
-    {
-      id: "promo-1",
-      badge: "BEST VALUE",
-      title: "Paket Bundling Forklift Premium",
-      description: "Unit baru + Service 1 tahun + Training operator",
-      discount: "Hemat 50 Juta",
-      validUntil: "3 Hari Lagi",
-      image:
-        "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800",
-      isFeatured: true,
-      urgent: true,
-    },
-    {
-      id: "promo-2",
-      badge: "FLASH SALE",
-      title: "Rental Excavator Diskon 40%",
-      description: "Khusus proyek infrastruktur",
-      discount: "40% OFF",
-      validUntil: "5 Hari Lagi",
-      image:
-        "https://images.unsplash.com/photo-1607083206968-13611e3d76db?w=800",
-      isFeatured: false,
-      urgent: true,
-    },
-    {
-      id: "promo-3",
-      badge: "FREE BONUS",
-      title: "Gratis Oli & Filter Premium",
-      description: "Setiap pembelian suku cadang",
-      discount: "Bonus 5 Juta",
-      validUntil: "2 Minggu",
-      image:
-        "https://images.unsplash.com/photo-1607082349566-187342175e2f?w=800",
-      isFeatured: false,
-      urgent: false,
-    },
-    {
-      id: "promo-4",
-      badge: "SPECIAL",
-      title: "Service Package Platinum",
-      description: "Perawatan lengkap all-in",
-      discount: "Diskon 25%",
-      validUntil: "1 Bulan",
-      image:
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800",
-      isFeatured: false,
-      urgent: false,
-    },
-    {
-      id: "promo-5",
-      badge: "HOT DEAL",
-      title: "Trade-In Unit Lama",
-      description: "Nilai tukar tinggi + bonus",
-      discount: "Best Price",
-      validUntil: "3 Bulan",
-      image:
-        "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800",
-      isFeatured: false,
-      urgent: false,
-    },
-  ];
+  // Data dari dictionary
+  const promos = dictionary?.promos || [];
+  const sectionBadge = dictionary?.section_badge || "Promo Bulan Ini";
+  const title = dictionary?.title || "Penawaran";
+  const titleHighlight = dictionary?.title_highlight || "Terbatas";
+  const description =
+    dictionary?.description ||
+    "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda";
+  const viewAllText = dictionary?.view_all_text || "Lihat Semua Promo";
+  const viewAllLink = dictionary?.view_all_link || "/promotions";
+  const ctaFeatured = dictionary?.cta_featured || "Ambil Promo";
+  const ctaRegular = dictionary?.cta_regular || "Lihat Detail";
 
   const getBadgeStyle = (badge) => {
     const styles = {
@@ -130,6 +79,11 @@ export default function HighlightPromo() {
     return styles[badge] || "from-yellow-400 to-orange-500";
   };
 
+  // Return null jika tidak ada data
+  if (!promos || promos.length === 0) {
+    return null;
+  }
+
   return (
     <section className="bg-black py-12 sm:py-16 lg:py-20 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
@@ -138,27 +92,30 @@ export default function HighlightPromo() {
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
             <Sparkles className="w-4 h-4 text-yellow-400 animate-pulse" />
             <span className="text-yellow-400 font-bold text-sm uppercase tracking-wider">
-              Promo Bulan Ini
+              {sectionBadge}
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
-            Penawaran <span className="text-yellow-400">Terbatas</span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-4">
+            {title} <span className="text-yellow-400">{titleHighlight}</span>
           </h2>
-          <p className="text-gray-400 text-base sm:text-lg max-w-2xl mx-auto">
-            Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas
-            bisnis Anda
+          <p className="text-sm sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto">
+            {description}
           </p>
         </div>
 
         {/* Carousel Container */}
         <div className="relative">
           {/* Embla Viewport */}
-          <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex gap-6 touch-pan-y">
-              {promos.map((promo, index) => (
+          <div className="overflow-hidden p-5 sm:p-18" ref={emblaRef}>
+            <div className="flex -ml-4">
+              {promos.map((promo) => (
                 <div
                   key={promo.id}
-                  className="flex-[0_0_100%] min-w-0 sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
+                  className="
+                    flex-[0_0_100%] min-w-0 pl-4
+                    sm:flex-[0_0_50%] sm:pl-4
+                    lg:flex-[0_0_33.3333%] lg:pl-4
+                  "
                   onMouseEnter={() => setHoveredId(promo.id)}
                   onMouseLeave={() => setHoveredId(null)}
                 >
@@ -170,7 +127,7 @@ export default function HighlightPromo() {
                     }`}
                   >
                     {/* Corner Ribbon for Featured */}
-                    {promo.isFeatured && (
+                    {promo.is_featured && (
                       <div className="absolute top-0 right-0 z-20">
                         <div className="relative">
                           <div className="absolute top-0 right-0 w-28 h-28 overflow-hidden">
@@ -191,7 +148,7 @@ export default function HighlightPromo() {
                       <div
                         className={`bg-gradient-to-r ${getBadgeStyle(
                           promo.badge
-                        )} text-white px-3 py-1.5 rounded-full text-xs font-bold shadow-lg flex items-center gap-1`}
+                        )} text-white px-3 py-1.5 rounded-full text-[10px] font-bold shadow-lg flex items-center gap-1`}
                       >
                         <Tag className="w-3 h-3" />
                         {promo.badge}
@@ -210,8 +167,8 @@ export default function HighlightPromo() {
                       </div>
                     )}
 
-                    {/* Square Image */}
-                    <div className="relative aspect-square">
+                    {/* Card Image with 4:5 Aspect Ratio */}
+                    <div className="relative aspect-[4/5]">
                       <img
                         src={promo.image}
                         alt={promo.title}
@@ -219,14 +176,14 @@ export default function HighlightPromo() {
                           hoveredId === promo.id ? "scale-110" : "scale-100"
                         }`}
                       />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-
-                      {/* Discount Badge on Image */}
-                      <div className="absolute bottom-4 left-4">
-                        <div className="bg-yellow-400 text-black px-4 py-2 rounded-xl text-xl font-black transform -rotate-2 shadow-lg">
-                          {promo.discount}
-                        </div>
-                      </div>
+                      {/* Overlay gradient: sepertiga bawah lebih pekat */}
+                      <div
+                        className="absolute inset-0 pointer-events-none"
+                        style={{
+                          background:
+                            "linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.85) 33%, rgba(0,0,0,0.5) 66%, transparent 100%)",
+                        }}
+                      />
                     </div>
 
                     {/* Content */}
@@ -235,34 +192,31 @@ export default function HighlightPromo() {
                       <div className="flex items-center gap-2 text-yellow-300 text-sm mb-2">
                         <Clock className="w-4 h-4" />
                         <span className="font-semibold">
-                          {promo.validUntil}
+                          {promo.valid_until}
                         </span>
                       </div>
 
-                      <h3 className="text-xl font-bold text-white mb-2 line-clamp-2">
+                      <h3 className="text-sm sm:text-xl font-bold text-white mb-2 line-clamp-2">
                         {promo.title}
                       </h3>
-                      <p className="text-gray-300 text-sm mb-4 line-clamp-2">
+                      <p className="text-xs sm:text-base lg:text-lg text-gray-300 mb-4 line-clamp-2">
                         {promo.description}
                       </p>
 
                       {/* CTA Button */}
-                      <button
-                        className={`
-                        w-full font-semibold py-3 px-4 rounded-lg transition-all 
-                        flex items-center justify-center gap-2 group
-                        ${
-                          promo.isFeatured
+                      <Link
+                        href={`/${currentLocale}${promo.cta_link}`}
+                        className={`w-full font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm sm:text-base ${
+                          promo.is_featured
                             ? "bg-yellow-400 hover:bg-yellow-500 text-black shadow-lg shadow-yellow-400/20"
                             : "bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20"
-                        }
-                      `}
+                        }`}
                       >
                         <span>
-                          {promo.isFeatured ? "Ambil Promo" : "Lihat Detail"}
+                          {promo.is_featured ? ctaFeatured : ctaRegular}
                         </span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -296,8 +250,8 @@ export default function HighlightPromo() {
                 onClick={() => scrollTo(index)}
                 className={`transition-all ${
                   index === selectedIndex
-                    ? "w-8 h-3 bg-yellow-400"
-                    : "w-3 h-3 bg-gray-600 hover:bg-gray-500"
+                    ? "w-6 h-2 bg-yellow-400"
+                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
                 } rounded-full`}
                 aria-label={`Go to slide ${index + 1}`}
               />
@@ -307,20 +261,13 @@ export default function HighlightPromo() {
 
         {/* View All Button */}
         <div className="text-center mt-10 sm:mt-12">
-          <button
-            className="
-            inline-flex items-center gap-2
-            bg-transparent hover:bg-yellow-400/10
-            border-2 border-yellow-400 hover:border-yellow-400
-            text-yellow-400 hover:text-yellow-400
-            font-bold px-8 py-3.5 rounded-xl
-            transition-all duration-300
-            group
-          "
+          <Link
+            href={`/${currentLocale}${viewAllLink}`}
+            className="inline-flex items-center gap-2 bg-transparent hover:bg-yellow-400/10 border-2 border-yellow-400 hover:border-yellow-400 text-yellow-400 hover:text-yellow-400 font-bold px-8 py-3.5 rounded-xl transition-all duration-300 group"
           >
-            <span>Lihat Semua Promo</span>
+            <span>{viewAllText}</span>
             <ChevronRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

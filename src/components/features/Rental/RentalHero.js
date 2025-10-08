@@ -1,7 +1,7 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ChevronRight } from 'lucide-react';
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 // Menerima prop 'lang'
 const RentalHero = ({ dictionary, lang }) => {
@@ -11,7 +11,7 @@ const RentalHero = ({ dictionary, lang }) => {
     <section className="relative h-[60vh] flex items-center justify-center text-white text-center">
       <Image
         src="/equipment/equip6.webp"
-        alt={dictionary.title || 'Rental Heavy Equipment'}
+        alt={dictionary.title || "Rental Heavy Equipment"}
         fill
         className="object-cover"
         priority
@@ -19,20 +19,19 @@ const RentalHero = ({ dictionary, lang }) => {
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative z-10 p-4 flex flex-col items-center">
-        <p className="font-semibold tracking-widest uppercase text-yellow-400">
+        <p className="font-semibold tracking-widest uppercase text-yellow-400 text-sm sm:text-base">
           {dictionary.subtitle}
         </p>
-        <h1 className="text-5xl lg:text-6xl font-bold mt-2 max-w-4xl">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-2 max-w-4xl">
           {dictionary.title}
         </h1>
-        <div className="flex items-center justify-center text-sm mt-8">
+        <div className="flex items-center justify-center text-xs sm:text-sm mt-8">
           {(dictionary.breadcrumbs || []).map((crumb, index) => (
             <React.Fragment key={crumb.name}>
               {index > 0 && <ChevronRight size={16} className="mx-1" />}
               {index === dictionary.breadcrumbs.length - 1 ? (
                 <span className="font-semibold">{crumb.name}</span>
               ) : (
-                // Menggunakan 'lang' untuk membuat link yang benar
                 <Link
                   href={`/${lang}${crumb.link}`}
                   className="hover:underline"

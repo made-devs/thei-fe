@@ -1,5 +1,5 @@
 // Filepath: app/components/Rental/RentalFacilities.js
-import Image from 'next/image';
+import Image from "next/image";
 import {
   Truck,
   Clock3,
@@ -8,16 +8,58 @@ import {
   MapPin,
   HardHat,
   Users,
-} from 'lucide-react';
+} from "lucide-react";
 
 const iconMap = {
-  Truck: <Truck size={24} className="text-yellow-400" />,
-  Clock3: <Clock3 size={24} className="text-yellow-400" />,
-  Wrench: <Wrench size={24} className="text-yellow-400" />,
-  Repeat: <Repeat size={24} className="text-yellow-400" />,
-  MapPin: <MapPin size={24} className="text-yellow-400" />,
-  HardHat: <HardHat size={24} className="text-yellow-400" />,
-  Users: <Users size={24} className="text-yellow-400" />,
+  Truck: (
+    <Truck
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  Clock3: (
+    <Clock3
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  Wrench: (
+    <Wrench
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  Repeat: (
+    <Repeat
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  MapPin: (
+    <MapPin
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  HardHat: (
+    <HardHat
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
+  Users: (
+    <Users
+      size={20}
+      smSize={24}
+      className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5"
+    />
+  ),
 };
 
 const RentalFacilities = ({ dictionary }) => {
@@ -28,18 +70,20 @@ const RentalFacilities = ({ dictionary }) => {
       <div className="container mx-auto px-6 lg:px-8 max-w-[1280px]">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-3xl font-bold text-black mb-8">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-black mb-8">
               {dictionary.title}
             </h2>
             {/* Change from vertical stack to a 2-column grid */}
             <div className="grid sm:grid-cols-2 gap-6">
               {dictionary.items.map((facility) => (
-                <div key={facility.name} className="flex items-start">
-                  <div className="flex-shrink-0 bg-gray-200 rounded-full p-3">
+                <div key={facility.name} className="flex items-center">
+                  <div className="flex-shrink-0 bg-gray-200 rounded-full p-2 sm:p-3">
                     {iconMap[facility.icon]}
                   </div>
-                  <div className="ml-4">
-                    <h3 className="font-semibold text-lg">{facility.name}</h3>
+                  <div className="ml-3 sm:ml-4 flex items-center">
+                    <h3 className="font-semibold text-sm sm:text-lg">
+                      {facility.name}
+                    </h3>
                   </div>
                 </div>
               ))}

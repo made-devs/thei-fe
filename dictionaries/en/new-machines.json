@@ -6,8 +6,7 @@
       "image": "/equipment/equip6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
-        { "name": "Equipment", "link": "/equipment" },
-        { "name": "New Machines", "link": "/equipment/new-machines" }
+        { "name": "Products", "link": "/products" }
       ]
     },
     "intro": {

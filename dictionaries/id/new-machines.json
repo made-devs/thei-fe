@@ -5,9 +5,8 @@
       "title": "Jelajahi Lini Mesin Baru Kami",
       "image": "/equipment/equip6.webp",
       "breadcrumbs": [
-        { "name": "Home", "link": "/" },
-        { "name": "Alat Berat", "link": "/equipment" },
-        { "name": "Mesin Baru", "link": "/equipment/new-machines" }
+        { "name": "Beranda", "link": "/" },
+        { "name": "Produk", "link": "/produk" }
       ]
     },
     "intro": {

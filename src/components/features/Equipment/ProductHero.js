@@ -26,7 +26,7 @@ const ProductHero = ({ product, lang }) => {
   // Menyiapkan data breadcrumbs secara dinamis
   const breadcrumbs = [
     { name: "Home", link: `/${lang}` },
-    { name: "Products", link: `/${lang}/equipment/new-machines` },
+    { name: "Products", link: `/${lang}/products` },
     { name: product.model, link: "#" },
   ];
 
