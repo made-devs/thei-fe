@@ -2,14 +2,21 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      // Update semua paths dengan src/
+      // Component aliases (masih di src/)
       "@/components/*": ["src/components/*"],
+      "@/components/ui/*": ["src/components/ui/*"],
+      "@/components/layout/*": ["src/components/layout/*"],
+      "@/components/features/*": ["src/components/features/*"],
+
+      // Other aliases (masih di src/)
       "@/lib/*": ["src/lib/*"],
       "@/data/*": ["src/data/*"],
-      "@/app/*": ["src/app/*"],
+
+      // App di root sekarang
+      "@/app/*": ["app/*"],
       "@/i18n-config": ["i18n-config.js"]
     }
   },
-  "include": ["src/**/*", "next-env.d.ts", ".next/types/**/*.ts"],
+  "include": ["app/**/*", "src/**/*", "next-env.d.ts", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

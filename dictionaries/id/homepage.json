@@ -28,65 +28,78 @@
     ]
   },
   "highlight_promo": {
-    "title_line1": "Tingkatkan Bisnis Anda",
-    "title_line2": "dengan Keahlian Kami",
-    "subtitle": "Promo Unggulan Kami",
-    "description": "Jelajahi paket layanan pilihan kami yang dirancang untuk menjaga peralatan Anda dalam kondisi puncak dan memaksimalkan efisiensi operasional Anda.",
-    "view_all": "Lihat Detail",
-    "best_value": "Paling Untung",
-    "packages": [
+    "section_badge": "Promo Bulan Ini",
+    "title": "Penawaran",
+    "title_highlight": "Terbatas",
+    "description": "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda",
+
+    "promos": [
       {
-        "name": "SILVER",
-        "price": "Rp20 jt",
-        "description": "Paket servis dasar untuk menjaga performa esensial kendaraan Anda.",
-        "features": ["Oli", "Spooring", "AC Basic", "Poles Lampu", "Fogging"]
+        "id": "promo-bundling-jan",
+        "badge": "BEST VALUE",
+        "title": "Paket Bundling Forklift Premium",
+        "description": "Unit baru + Service 1 tahun + Training operator bersertifikat",
+        "discount": "Hemat 50 Juta",
+        "valid_until": "3 Hari Lagi",
+        "image": "/promo/bundling-forklift-jan.jpg",
+        "is_featured": true,
+        "urgent": true,
+        "cta_link": "/contact?promo=bundling-forklift"
       },
       {
-        "name": "GOLD",
-        "price": "Rp50 jt",
-        "description": "Perawatan menyeluruh untuk kenyamanan dan perlindungan ekstra.",
-        "features": [
-          "AC Super Beku",
-          "Anti Karat",
-          "Poles Body",
-          "Servis Kaki-kaki",
-          "Oli",
-          "Fogging"
-        ]
+        "id": "promo-excavator-flash",
+        "badge": "FLASH SALE",
+        "title": "Rental Excavator Diskon 40%",
+        "description": "Khusus proyek infrastruktur lebih dari 3 bulan",
+        "discount": "40% OFF",
+        "valid_until": "5 Hari Lagi",
+        "image": "/promo/excavator-flash.jpg",
+        "is_featured": false,
+        "urgent": true,
+        "cta_link": "/rental?promo=excavator40"
       },
       {
-        "name": "EXCLUSIVE",
-        "price": "Rp150 jt",
-        "description": "Layanan premium untuk restorasi dan perlindungan tingkat lanjut.",
-        "features": [
-          "Nano Ceramic",
-          "Anti Karat",
-          "Overhaul",
-          "AC Super Beku",
-          "Spooring",
-          "dll."
-        ]
+        "id": "promo-parts-bonus",
+        "badge": "FREE BONUS",
+        "title": "Gratis Oli & Filter Premium",
+        "description": "Setiap pembelian suku cadang minimal Rp 5 juta",
+        "discount": "Bonus 5 Juta",
+        "valid_until": "2 Minggu",
+        "image": "/promo/parts-bonus.jpg",
+        "is_featured": false,
+        "urgent": false,
+        "cta_link": "/spare-parts?promo=free-parts"
       },
       {
-        "name": "DIAMOND",
-        "price": "Rp200 jt",
-        "description": "Solusi total untuk performa puncak dan ketenangan pikiran sepenuhnya.",
-        "features": [
-          "Semua Paket Exclusive",
-          "+ Engine Rebuild",
-          "Tune Up",
-          "Understeel",
-          "Premium Coating",
-          "Transmisi",
-          "Rem",
-          "Ban",
-          "Safety Kit"
-        ]
+        "id": "promo-service-platinum",
+        "badge": "SPECIAL",
+        "title": "Service Package Platinum",
+        "description": "Perawatan lengkap all-in dengan teknisi bersertifikat",
+        "discount": "Diskon 25%",
+        "valid_until": "1 Bulan",
+        "image": "/promo/service-platinum.jpg",
+        "is_featured": false,
+        "urgent": false,
+        "cta_link": "/repair-packages?package=platinum"
+      },
+      {
+        "id": "promo-tradein-bonus",
+        "badge": "HOT DEAL",
+        "title": "Trade-In Unit Lama",
+        "description": "Nilai tukar tinggi + bonus corporate gift pack",
+        "discount": "Best Price",
+        "valid_until": "3 Bulan",
+        "image": "/promo/tradein-bonus.jpg",
+        "is_featured": false,
+        "urgent": false,
+        "cta_link": "/trade-in"
       }
     ],
-    "button_text": "Pilih Paket",
-    "what_included": "Yang termasuk:",
-    "whatsapp_message_template": "Halo, saya tertarik dengan paket THEI servis {package}. Mohon info lebih lanjut."
+
+    "view_all_text": "Lihat Semua Promo",
+    "view_all_link": "/promotions",
+    "cta_featured": "Ambil Promo",
+    "cta_regular": "Lihat Detail"
   },
   "why_thei": {
     "subtitle": "Mengapa Memilih Kami",
