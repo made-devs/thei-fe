@@ -1,9 +1,9 @@
 import { getDictionary } from "@/lib/dictionary";
-import MainCta from "@/components/Home/MainCta";
-import ForkliftHero from "@/components/WhyBuyForklift/ForkliftHero";
-import BenefitsCarousel from "@/components/WhyBuyForklift/BenefitsCarousel";
-import BonusGallery from "@/components/WhyBuyForklift/BonusGallery";
-import TestimonialVideo from "@/components/WhyBuyForklift/TestimonialVideo";
+import MainCta from "@/components/features/home/MainCta";
+import ForkliftHero from "@/components/features/WhyBuyForklift/ForkliftHero";
+import BenefitsCarousel from "@/components/features/WhyBuyForklift/BenefitsCarousel";
+import BonusGallery from "@/components/features/WhyBuyForklift/BonusGallery";
+import TestimonialVideo from "@/components/features/WhyBuyForklift/TestimonialVideo";
 
 export default async function WhyBuyForkliftPage({ params }) {
   const { lang } = await params;
