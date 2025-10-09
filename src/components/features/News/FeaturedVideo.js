@@ -38,13 +38,13 @@ const FeaturedVideo = ({ dictionary }) => {
 
   return (
     <>
-      <section className="bg-gray-50 py-20">
-        <div className="container mx-auto px-6 lg:px-8 max-w-[1280px]">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-black mb-4">
+      <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1280px]">
+          <div className="text-center mb-8 sm:mb-12">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4">
               {dictionary.title}
             </h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
+            <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-3xl mx-auto">
               {dictionary.description}
             </p>
           </div>
@@ -79,7 +79,7 @@ const FeaturedVideo = ({ dictionary }) => {
                           />
                         </div>
                       </div>
-                      <h3 className="mt-4 text-center font-semibold text-gray-800">
+                      <h3 className="mt-4 text-center font-semibold text-gray-800 text-sm sm:text-base lg:text-lg">
                         {video.title}
                       </h3>
                     </div>

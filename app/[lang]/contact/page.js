@@ -1,22 +1,22 @@
-import { getDictionary } from "@/lib/dictionary";
-import ContactHero from "@/components/features/Contact/ContactHero";
-import ContactInfo from "@/components/features/Contact/ContactInfo";
-import ContactForm from "@/components/features/Contact/ContactForm";
-import CustomerService from "@/components/features/Contact/CustomerService";
-import MapLoader from "@/components/features/Branches/MapLoader";
+import { getDictionary } from '@/lib/dictionary';
+import PageHero from '@/components/ui/PageHero'; // Ganti import dari ContactHero ke PageHero
+import ContactInfo from '@/components/features/Contact/ContactInfo';
+import ContactForm from '@/components/features/Contact/ContactForm';
+import CustomerService from '@/components/features/Contact/CustomerService';
+import MapLoader from '@/components/features/Branches/MapLoader';
 
 export default async function ContactPage({ params }) {
   const { lang } = await params;
 
-  const dictionary = await getDictionary(lang, "contact");
+  const dictionary = await getDictionary(lang, 'contact');
   const pageDict = dictionary.contact_page || {};
-  const branchesDict = await getDictionary(lang, "branches");
+  const branchesDict = await getDictionary(lang, 'branches');
 
   return (
     <>
-      <ContactHero dictionary={pageDict.hero} />
+      <PageHero dictionary={pageDict.hero} />{' '}
+      {/* Ganti ContactHero dengan PageHero */}
       <MapLoader dictionary={branchesDict.branches_page.interactive_map} />
-
       {/* Contact Form Section */}
       <div className="bg-gray-50 py-20">
         <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">

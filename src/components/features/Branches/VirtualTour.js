@@ -11,9 +11,9 @@ const VirtualTour = ({ dictionary }) => {
 
   return (
     <>
-      <section className="bg-gray-50 py-20">
-        <div className="container mx-auto px-6 lg:px-8 max-w-[1280px] text-center">
-          <h2 className="text-3xl font-bold text-black mb-8">
+      <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1280px] text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-8">
             {dictionary.title}
           </h2>
           <div

@@ -14,17 +14,23 @@ const CustomerProof = ({ dictionary }) => {
 
   return (
     <>
-      <section className="bg-white py-20">
-        <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+      <section className="bg-white py-12 sm:py-16 lg:py-20">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+          <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center">
             <div className="text-center lg:text-left">
-              <h2 className="text-3xl font-bold mb-4">{dictionary.title}</h2>
-              <blockquote className="border-l-4 border-yellow-400 pl-6 italic text-lg text-gray-700">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4">
+                {dictionary.title}
+              </h2>
+              <blockquote className="border-l-4 border-yellow-400 pl-6 italic text-base sm:text-lg text-gray-700">
                 <p>&quot;{dictionary.quote}&quot;</p>
               </blockquote>
               <div className="mt-6">
-                <p className="font-bold">{dictionary.name}</p>
-                <p className="text-sm text-gray-500">{dictionary.company}</p>
+                <p className="font-bold text-sm sm:text-base">
+                  {dictionary.name}
+                </p>
+                <p className="text-xs sm:text-sm text-gray-500">
+                  {dictionary.company}
+                </p>
               </div>
             </div>
             <div

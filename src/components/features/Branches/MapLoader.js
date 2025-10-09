@@ -1,10 +1,10 @@
-"use client";
+'use client';
 
-import dynamic from "next/dynamic";
+import dynamic from 'next/dynamic';
 
 // Gunakan dynamic import di dalam Client Component
 const InteractiveMap = dynamic(
-  () => import("@/components/features/Branches/InteractiveMap"),
+  () => import('@/components/features/Branches/InteractiveMap'),
   {
     ssr: false,
     // Placeholder yang akan ditampilkan saat peta sedang dimuat

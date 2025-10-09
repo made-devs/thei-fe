@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from 'react';
+import Link from 'next/link';
 import {
   Search,
   ShoppingCart,
@@ -10,20 +10,21 @@ import {
   Phone,
   Mail,
   MapPin,
-  ChevronDown, // <-- Tambahkan ini
-} from "lucide-react";
-import { FaFacebook, FaInstagram, FaTiktok } from "react-icons/fa";
-import LanguageSwitcher from "../language-switcher";
+  ChevronDown,
+} from 'lucide-react';
+import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
+import LanguageSwitcher from '../language-switcher';
 
 const getShortAddress = (address, wordCount = 10) => {
-  if (!address) return "";
-  const words = address.split(" ");
+  if (!address) return '';
+  const words = address.split(' ');
   if (words.length <= wordCount) return address;
-  return words.slice(0, wordCount).join(" ") + " ...";
+  return words.slice(0, wordCount).join(' ') + ' ...';
 };
 
 const Navbar = ({ dictionary, currentLocale }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
   const [showAddressTooltip, setShowAddressTooltip] = useState(false);
   const navDict = dictionary.navigation || {};
   const contactInfo = dictionary.contact_info || {};
@@ -139,7 +140,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <div
                 className="absolute inset-0 bg-black"
                 style={{
-                  clipPath: "polygon(10% 0, 100% 0, 100% 100%, 0% 100%)",
+                  clipPath: 'polygon(10% 0, 100% 0, 100% 100%, 0% 100%)',
                 }}
               ></div>
               <div className="relative flex items-center space-x-4 pl-14 pr-8">
@@ -256,7 +257,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
           <div className="flex justify-end items-center">
             <button
               onClick={() => setIsMenuOpen(true)}
-              className="bg-yellow-400 p-2"
+              className="bg-yellow-400 p-2 hover:bg-yellow-500 transition-colors"
             >
               <Menu size={24} />
             </button>
@@ -265,56 +266,97 @@ const Navbar = ({ dictionary, currentLocale }) => {
         <div className="w-full h-[5px] bg-yellow-400"></div>
       </div>
 
-      {isMenuOpen && (
-        <div className="lg:hidden fixed inset-0 bg-white z-50 flex flex-col">
-          <div className="mx-auto px-4 flex w-full justify-between items-center h-[60px] border-b">
-            <Link href={`/${currentLocale}`} className="flex items-center">
-              <div className="bg-yellow-400 px-3 py-1">
-                <span className="text-black font-extrabold text-xl tracking-wider">
-                  THEI
-                </span>
-              </div>
-              <div className="bg-black px-2 py-1">
-                <span className="text-white font-bold text-xl">ID</span>
-              </div>
-            </Link>
-            <button onClick={() => setIsMenuOpen(false)}>
-              <X size={24} />
-            </button>
-          </div>
-          <div className="flex-grow p-6 overflow-y-auto">
-            <nav className="flex flex-col space-y-6 text-lg font-bold text-black">
-              {mainNavLinks.map((link) =>
-                link.isDropdown ? (
-                  <div key={link.name}>
-                    <span className="text-gray-500">{link.name}</span>
-                    <div className="flex flex-col space-y-4 mt-2 pl-4">
-                      {link.items.map((item) => (
-                        <Link
-                          key={item.name}
-                          href={item.href}
-                          onClick={() => setIsMenuOpen(false)}
-                          className="text-black font-semibold"
-                        >
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                ) : (
-                  <Link
-                    key={link.name}
-                    href={link.href}
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    {link.name}
-                  </Link>
-                )
-              )}
-            </nav>
-          </div>
+      {/* Backdrop dengan blur */}
+      <div
+        className={`lg:hidden fixed inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-300 z-40 ${
+          isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+        onClick={() => setIsMenuOpen(false)}
+      />
+
+      {/* Slide Menu dari Kanan */}
+      <div
+        className={`lg:hidden fixed top-0 right-0 h-full w-80 bg-white border-l-4 border-yellow-400 transition-transform duration-300 ease-out z-50 ${
+          isMenuOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+      >
+        {/* Header Menu */}
+        <div className="px-4 flex w-full justify-between items-center h-[60px] border-b-2 border-gray-200">
+          <Link
+            href={`/${currentLocale}`}
+            className="flex items-center"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <div className="bg-yellow-400 px-3 py-1">
+              <span className="text-black font-extrabold text-xl tracking-wider">
+                THEI
+              </span>
+            </div>
+            <div className="bg-black px-2 py-1">
+              <span className="text-white font-bold text-xl">ID</span>
+            </div>
+          </Link>
+          <button
+            onClick={() => setIsMenuOpen(false)}
+            className="hover:bg-gray-100 p-2 rounded-lg transition-colors"
+          >
+            <X size={24} />
+          </button>
         </div>
-      )}
+
+        {/* Menu Items */}
+        <div className="p-6 overflow-y-auto h-[calc(100vh-60px)]">
+          <nav className="space-y-2">
+            {mainNavLinks.map((link, idx) =>
+              link.isDropdown ? (
+                <div key={link.name}>
+                  <button
+                    onClick={() =>
+                      setOpenDropdown(openDropdown === idx ? null : idx)
+                    }
+                    className="w-full text-left px-4 py-3 text-black font-bold text-lg hover:bg-yellow-400 hover:text-black rounded-lg transition-all flex justify-between items-center group"
+                  >
+                    <span>{link.name}</span>
+                    <ChevronDown
+                      size={20}
+                      className={`transition-transform duration-200 ${
+                        openDropdown === idx ? 'rotate-180' : ''
+                      }`}
+                    />
+                  </button>
+
+                  {/* Dropdown Items */}
+                  <div
+                    className={`overflow-hidden transition-all duration-200 ${
+                      openDropdown === idx ? 'max-h-96 mt-1' : 'max-h-0'
+                    }`}
+                  >
+                    {link.items.map((item) => (
+                      <Link
+                        key={item.name}
+                        href={item.href}
+                        onClick={() => setIsMenuOpen(false)}
+                        className="block pl-8 pr-4 py-2 text-gray-700 hover:text-black hover:bg-yellow-100 rounded-lg transition-colors font-semibold"
+                      >
+                        {item.name}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  onClick={() => setIsMenuOpen(false)}
+                  className="block px-4 py-3 text-black font-bold text-lg hover:bg-yellow-400 rounded-lg transition-all"
+                >
+                  {link.name}
+                </Link>
+              )
+            )}
+          </nav>
+        </div>
+      </div>
     </div>
   );
 };

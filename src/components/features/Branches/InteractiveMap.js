@@ -59,14 +59,18 @@ const InteractiveMap = ({ dictionary }) => {
   if (!dictionary || !dictionary.branches) return null;
 
   return (
-    <section className="bg-white py-20">
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-black">{dictionary.title}</h2>
+    <section className="bg-white py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black">
+            {dictionary.title}
+          </h2>
         </div>
-        <div className="grid lg:grid-cols-2 gap-12 items-start">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-start">
           {/* Kolom Peta Leaflet */}
-          <div className="relative w-full h-[65vh] bg-gray-100 rounded-lg overflow-hidden shadow-md">
+          <div className="relative w-full h-[50vh] sm:h-[60vh] lg:h-[65vh] bg-gray-100 rounded-lg overflow-hidden shadow-md z-0">
+            {' '}
+            {/* Tambahkan z-0 untuk memastikan map di bawah navbar */}
             <MapContainer
               ref={mapRef}
               center={mapCenter}
@@ -102,21 +106,33 @@ const InteractiveMap = ({ dictionary }) => {
             </MapContainer>
           </div>
           {/* Kolom Daftar Cabang */}
-          <div className="w-full h-[65vh] overflow-y-auto space-y-4 pr-4">
+          <div className="w-full h-[50vh] sm:h-[60vh] lg:h-[65vh] overflow-y-auto space-y-4 sm:space-y-6 py-4 px-4">
+            {' '}
+            {/* Ubah pr-4 menjadi px-4 untuk padding simetris */}
             {dictionary.branches.map((branch) => (
               <div
                 key={branch.id}
                 ref={(el) => (cardRefs.current[branch.id] = el)}
-                className={`p-6 border rounded-lg transition-all duration-300 cursor-pointer ${
+                className={`p-4 sm:p-6 border rounded-lg transition-all duration-300 cursor-pointer ${
                   activeBranch?.id === branch.id
                     ? 'border-yellow-400 bg-yellow-50 shadow-lg scale-105' // Tambah scale untuk efek "pop"
                     : 'border-gray-200 bg-white hover:bg-gray-50'
                 }`}
                 onClick={() => setActiveBranch(branch)}
               >
-                <h3 className="font-bold text-lg text-black">{branch.city}</h3>
-                <p className="text-sm text-gray-600 mt-2">{branch.address}</p>
-                <div className="flex flex-wrap gap-4 mt-4 text-sm">
+                <h3 className="font-bold text-base sm:text-lg text-black text-center">
+                  {' '}
+                  {/* Tambahkan text-center untuk center judul */}
+                  {branch.city}
+                </h3>
+                <p className="text-sm sm:text-base text-gray-600 mt-2 text-center">
+                  {' '}
+                  {/* Tambahkan text-center untuk center alamat */}
+                  {branch.address}
+                </p>
+                <div className="flex flex-wrap justify-center gap-4 mt-4 text-sm">
+                  {' '}
+                  {/* Tambahkan justify-center untuk center link */}
                   <a
                     href={branch.map_link}
                     target="_blank"

@@ -1,9 +1,9 @@
-"use client";
+'use client';
 
-import React, { useCallback, useEffect, useState } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import { ChevronLeft, ChevronRight, CheckCircle } from "lucide-react";
-import repairPackagesData from "@/data/repair-packages.json";
+import React, { useCallback, useEffect, useState } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import { ChevronLeft, ChevronRight, CheckCircle } from 'lucide-react';
+import repairPackagesData from '@/data/repair-packages.json';
 
 // Helper component untuk merender setiap bagian list
 const ListSection = ({ title, items }) => {
@@ -11,7 +11,9 @@ const ListSection = ({ title, items }) => {
 
   return (
     <div className="mb-4">
-      <h4 className="font-semibold text-gray-800 mb-2">{title}</h4>
+      <h4 className="font-semibold text-gray-800 mb-2 text-sm sm:text-base">
+        {title}
+      </h4>
       <ul className="space-y-2">
         {items.map((item, index) => (
           <li key={index} className="flex items-start text-sm text-gray-600">
@@ -28,19 +30,19 @@ const ListSection = ({ title, items }) => {
 const RepairPackageCard = ({ aPackage, dictionary }) => (
   // flex-shrink-0 dan w-full/md:w-1/2/lg:w-1/3 adalah kunci untuk Embla
   <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/3 min-w-0 px-4">
-    <div className="flex flex-col bg-white h-full rounded-lg shadow-lg p-6 border-t-8 border-yellow-400">
-      <h3 className="text-xl font-bold text-black">
+    <div className="flex flex-col bg-white h-full rounded-lg shadow-lg p-4 sm:p-6 border-t-8 border-yellow-400">
+      <h3 className="text-lg sm:text-xl font-bold text-black">
         {aPackage.equipment_type}
       </h3>
       <p className="text-xs text-gray-500 uppercase mb-4">{aPackage.level}</p>
 
       <div className="bg-gray-50 p-4 rounded-md mb-6 text-center">
-        <p className="text-3xl font-bold text-black">
+        <p className="text-2xl sm:text-3xl font-bold text-black">
           {aPackage.pricing.promo_price}
         </p>
         <p className="text-sm text-gray-500">
-          <span className="line-through">{aPackage.pricing.normal_price}</span>{" "}
-          -{" "}
+          <span className="line-through">{aPackage.pricing.normal_price}</span>{' '}
+          -{' '}
           <span className="font-semibold text-red-500">
             Hemat {aPackage.pricing.savings}
           </span>
@@ -59,7 +61,7 @@ const RepairPackageCard = ({ aPackage, dictionary }) => (
         />
         <ListSection title={dictionary.bonuses} items={aPackage.bonuses} />
         <div>
-          <h4 className="font-semibold text-gray-800 mb-2">
+          <h4 className="font-semibold text-gray-800 mb-2 text-sm sm:text-base">
             {dictionary.specialBonus}
           </h4>
           <p className="text-sm text-gray-600">{aPackage.special_bonus}</p>
@@ -78,7 +80,7 @@ const RepairPackageCard = ({ aPackage, dictionary }) => (
 // Komponen Slider Utama
 const RepairPackagesSlider = ({ lang, dictionary }) => {
   // FIX: Semua hooks dipanggil di paling atas, sebelum pengecekan apapun.
-  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: "start" });
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -108,21 +110,21 @@ const RepairPackagesSlider = ({ lang, dictionary }) => {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", onSelect);
+    emblaApi.on('select', onSelect);
+    emblaApi.on('reInit', onSelect);
   }, [emblaApi, onSelect]);
 
   // FIX: Pengecekan diletakkan setelah semua hooks dipanggil.
   if (!dictionary) return null;
 
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black mb-4">
+    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4">
             {dictionary.title}
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
             {dictionary.description}
           </p>
         </div>
@@ -162,7 +164,7 @@ const RepairPackagesSlider = ({ lang, dictionary }) => {
               key={index}
               onClick={() => scrollTo(index)}
               className={`w-3 h-3 rounded-full ${
-                selectedIndex === index ? "bg-black" : "bg-gray-300"
+                selectedIndex === index ? 'bg-black' : 'bg-gray-300'
               }`}
             ></button>
           ))}

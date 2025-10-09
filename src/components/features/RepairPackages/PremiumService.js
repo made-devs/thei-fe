@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import React, { useState, useMemo } from "react";
+import React, { useState, useMemo, useEffect } from 'react';
 import {
   ChevronDown,
   CheckCircle,
   ChevronLeft,
   ChevronRight,
-} from "lucide-react";
-import dataId from "@/data/premium-service-packages-id.json";
-import dataEn from "@/data/premium-service-packages-en.json";
+} from 'lucide-react';
+import dataId from '@/data/premium-service-packages-id.json';
+import dataEn from '@/data/premium-service-packages-en.json';
 
 // Helper component untuk merender setiap bagian list
 const ListSection = ({ title, items }) => {
@@ -16,7 +16,9 @@ const ListSection = ({ title, items }) => {
 
   return (
     <div className="mb-4">
-      <h4 className="font-semibold text-gray-800 mb-2">{title}</h4>
+      <h4 className="font-semibold text-gray-800 mb-2 text-sm sm:text-base">
+        {title}
+      </h4>
       <ul className="space-y-2">
         {items.map((item, index) => (
           <li key={index} className="flex items-start text-sm text-gray-600">
@@ -30,18 +32,23 @@ const ListSection = ({ title, items }) => {
 };
 
 // Komponen untuk Kartu Paket
-const PackageCard = ({ aPackage, dictionary }) => {
+const PackageCard = ({ aPackage, dictionary, resetTrigger }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const tiers = aPackage.tiers || [];
 
+  // Reset currentIndex ketika resetTrigger berubah (kategori berubah)
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [resetTrigger]);
+
   const borderColor =
     {
-      Ultimate: "border-yellow-400",
-      "Super Komplit": "border-gray-400",
-      "Super Complete": "border-gray-400",
-      Komplit: "border-amber-700",
-      Complete: "border-amber-700",
-    }[aPackage.level] || "border-gray-200";
+      Ultimate: 'border-yellow-400',
+      'Super Komplit': 'border-gray-400',
+      'Super Complete': 'border-gray-400',
+      Komplit: 'border-amber-700',
+      Complete: 'border-amber-700',
+    }[aPackage.level] || 'border-gray-200';
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) =>
@@ -59,30 +66,37 @@ const PackageCard = ({ aPackage, dictionary }) => {
     setCurrentIndex(index);
   };
 
+  // Pastikan currentIndex tidak melebihi jumlah tiers
+  const safeCurrentIndex = Math.min(currentIndex, tiers.length - 1);
+
   return (
     <div
-      className={`flex flex-col bg-white rounded-lg shadow-lg p-6 border-t-8 ${borderColor}`}
+      className={`flex flex-col bg-white rounded-lg shadow-lg p-4 sm:p-6 border-t-8 ${borderColor}`}
     >
-      <h3 className="text-xl font-bold text-black">{aPackage.level}</h3>
+      <h3 className="text-lg sm:text-xl font-bold text-black">
+        {aPackage.level}
+      </h3>
       <p className="text-xs text-gray-500 uppercase mb-4">{aPackage.title}</p>
 
       <div className="relative w-full mb-6">
         <div className="overflow-hidden rounded-md mx-8">
           <div
             className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+            style={{ transform: `translateX(-${safeCurrentIndex * 100}%)` }}
           >
             {tiers.map((tier, index) => (
               <div
                 key={index}
                 className="flex-shrink-0 w-full bg-gray-50 p-3 text-center"
               >
-                <p className="font-bold text-gray-800">{tier.capacity}</p>
-                <p className="text-2xl font-bold text-black">
+                <p className="font-bold text-gray-800 text-sm sm:text-base">
+                  {tier.capacity}
+                </p>
+                <p className="text-xl sm:text-2xl font-bold text-black">
                   {tier.promo_price}
                 </p>
                 <p className="text-sm text-gray-500">
-                  <span className="line-through">{tier.normal_price}</span> -{" "}
+                  <span className="line-through">{tier.normal_price}</span> -{' '}
                   <span className="font-semibold text-red-500">
                     {tier.savings}
                   </span>
@@ -112,7 +126,7 @@ const PackageCard = ({ aPackage, dictionary }) => {
                   key={index}
                   onClick={() => goToSlide(index)}
                   className={`w-2 h-2 rounded-full transition-colors ${
-                    currentIndex === index ? "bg-black" : "bg-gray-300"
+                    safeCurrentIndex === index ? 'bg-black' : 'bg-gray-300'
                   }`}
                 ></button>
               ))}
@@ -149,7 +163,7 @@ const PackageCard = ({ aPackage, dictionary }) => {
 // Komponen Utama
 const PremiumService = ({ lang, dictionary }) => {
   // Panggil semua Hooks di atas, sebelum return kondisional
-  const data = useMemo(() => (lang === "en" ? dataEn : dataId), [lang]);
+  const data = useMemo(() => (lang === 'en' ? dataEn : dataId), [lang]);
   const [activeCategory, setActiveCategory] = useState(
     data.equipment_types[0].name
   );
@@ -160,32 +174,32 @@ const PremiumService = ({ lang, dictionary }) => {
 
   // Lakukan pengecekan setelah semua Hooks dipanggil
   if (!dictionary) {
-    console.error("Dictionary for PremiumService is missing!");
+    console.error('Dictionary for PremiumService is missing!');
     return null;
   }
 
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black mb-4">
+    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4">
             {dictionary.title}
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
             {dictionary.description}
           </p>
         </div>
 
-        {/* Filter Tabs */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
+        {/* Filter Tabs - Scrollable Horizontal */}
+        <div className="flex overflow-x-auto gap-2 mb-12 scrollbar-hide px-2">
           {data.equipment_types.map((eq) => (
             <button
               key={eq.name}
               onClick={() => setActiveCategory(eq.name)}
-              className={`px-4 py-2 text-sm font-semibold rounded-full transition-colors ${
+              className={`px-4 py-2 text-sm font-semibold rounded-full transition-colors whitespace-nowrap flex-shrink-0 ${
                 activeCategory === eq.name
-                  ? "bg-black text-yellow-400"
-                  : "bg-white text-black hover:bg-gray-200"
+                  ? 'bg-black text-yellow-400'
+                  : 'bg-white text-black hover:bg-gray-200'
               }`}
             >
               {eq.name}
@@ -194,9 +208,14 @@ const PremiumService = ({ lang, dictionary }) => {
         </div>
 
         {/* Package Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {activeEquipment?.packages.map((pkg, index) => (
-            <PackageCard key={index} aPackage={pkg} dictionary={dictionary} />
+            <PackageCard
+              key={`${activeCategory}-${index}`} // Tambahkan key yang unik per kategori
+              aPackage={pkg}
+              dictionary={dictionary}
+              resetTrigger={activeCategory} // Pass activeCategory sebagai resetTrigger
+            />
           ))}
         </div>
       </div>

@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import React, { useState, useCallback, useEffect } from "react";
-import useEmblaCarousel from "embla-carousel-react";
+import React, { useState, useCallback, useEffect } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
 import {
   ChevronLeft,
   ChevronRight,
   Wrench,
   Gift,
   CheckCircle,
-} from "lucide-react";
+} from 'lucide-react';
 
 const CARD_WIDTH = 320; // px
 
@@ -29,11 +29,13 @@ const ServiceCard = ({ service, area_note, dictionary }) => (
         strokeWidth={1.5}
       />
     </div>
-    <div className="flex-1 flex flex-col p-6">
-      <h4 className="font-bold text-black text-base mb-2 flex-grow">
+    <div className="flex-1 flex flex-col p-4 sm:p-6">
+      <h4 className="font-bold text-black text-sm sm:text-base mb-2 flex-grow">
         {service.name}
       </h4>
-      <p className="text-xl font-bold text-yellow-600 mb-3">{service.price}</p>
+      <p className="text-lg sm:text-xl font-bold text-yellow-600 mb-3">
+        {service.price}
+      </p>
       {area_note && (
         <p className="text-xs text-gray-500 italic mb-4">{area_note}</p>
       )}
@@ -46,10 +48,12 @@ const ServiceCard = ({ service, area_note, dictionary }) => (
 
 // Card untuk bonus dengan desain baru
 const BonusCard = ({ bonuses, dictionary }) => (
-  <div className="bg-yellow-50/50 rounded-lg p-6 flex flex-col h-full border-2 border-dashed border-yellow-400">
+  <div className="bg-yellow-50/50 rounded-lg p-4 sm:p-6 flex flex-col h-full border-2 border-dashed border-yellow-400">
     <div className="flex items-center mb-3">
       <Gift className="h-6 w-6 text-yellow-600 mr-3" />
-      <h4 className="font-bold text-black text-lg">{dictionary.bonus_title}</h4>
+      <h4 className="font-bold text-black text-base sm:text-lg">
+        {dictionary.bonus_title}
+      </h4>
     </div>
     <ul className="text-gray-700 text-sm space-y-2">
       {bonuses.map((bonus, idx) => (
@@ -62,14 +66,14 @@ const BonusCard = ({ bonuses, dictionary }) => (
   </div>
 );
 
-const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
+const RetailPackagesSlider = ({ dictionary, packages }) => {
   const [activeTab, setActiveTab] = useState(0);
 
-  // Embla setup - pindahkan hooks ke atas sebelum early return
+  // Embla setup - perbaiki typo embbaApi menjadi emblaApi
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
-    slidesToScroll: "auto",
-    align: "start",
+    slidesToScroll: 'auto',
+    align: 'start',
     dragFree: true,
   });
 
@@ -94,15 +98,15 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", onSelect);
+    emblaApi.on('select', onSelect);
+    emblaApi.on('reInit', onSelect);
   }, [emblaApi, onSelect]);
 
   useEffect(() => {
     if (emblaApi) emblaApi.scrollTo(0, true);
   }, [activeTab, emblaApi]);
 
-  // Fallback jika packages kosong - pindahkan setelah hooks
+  // Fallback jika packages kosong
   if (!packages || packages.length === 0) {
     return null;
   }
@@ -110,13 +114,13 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   const activePackage = packages[activeTab];
 
   return (
-    <section className="bg-gray-50 py-20">
-      <div className="container mx-auto px-4 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl lg:text-5xl font-bold text-black mb-4">
+    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4">
             {dictionary.title}
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-gray-600 max-w-3xl mx-auto text-sm sm:text-base">
             {dictionary.subtitle}
           </p>
         </div>
@@ -128,8 +132,8 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
               onClick={() => setActiveTab(idx)}
               className={`px-4 md:px-6 py-2 rounded-full font-bold text-sm md:text-base transition-all duration-300 m-1 ${
                 activeTab === idx
-                  ? "bg-yellow-400 text-black shadow-md scale-105"
-                  : "bg-white text-gray-700 hover:bg-gray-100"
+                  ? 'bg-yellow-400 text-black shadow-md scale-105'
+                  : 'bg-white text-gray-700 hover:bg-gray-100'
               }`}
             >
               {pkg.equipment_type}
@@ -167,7 +171,7 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
           </button>
         </div>
 
-        <div className="max-w-3xl mx-auto mt-12">
+        <div className="max-w-3xl mx-auto mt-8 sm:mt-12">
           <BonusCard bonuses={activePackage.bonuses} dictionary={dictionary} />
         </div>
       </div>
@@ -175,4 +179,4 @@ const RetailPackagesTabsSlider = ({ dictionary, packages }) => {
   );
 };
 
-export default RetailPackagesTabsSlider;
+export default RetailPackagesSlider;

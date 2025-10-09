@@ -1,7 +1,7 @@
-"use client";
-import { useState, useCallback, useEffect } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+'use client';
+import { useState, useCallback, useEffect } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import {
   ChevronLeft,
   ChevronRight,
@@ -9,16 +9,29 @@ import {
   Tag,
   ArrowRight,
   Sparkles,
-} from "lucide-react";
-import Link from "next/link";
-import Image from "next/image"; // Tambahkan import Image
+} from 'lucide-react';
+import Link from 'next/link';
+import Image from 'next/image'; // Tambahkan import Image
 
 export default function HighlightPromo({ dictionary, currentLocale }) {
+  // Pindahkan definisi promos ke atas, setelah props
+  const promos = dictionary?.promos || [];
+  const sectionBadge = dictionary?.section_badge || 'Promo Bulan Ini';
+  const title = dictionary?.title || 'Penawaran';
+  const titleHighlight = dictionary?.title_highlight || 'Terbatas';
+  const description =
+    dictionary?.description ||
+    'Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda';
+  const viewAllText = dictionary?.view_all_text || 'Lihat Semua Promo';
+  const viewAllLink = dictionary?.view_all_link || '/promotions';
+  const ctaFeatured = dictionary?.cta_featured || 'Ambil Promo';
+  const ctaRegular = dictionary?.cta_regular || 'Lihat Detail';
+
   const [hoveredId, setHoveredId] = useState(null);
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
-      align: "start",
+      align: 'start',
       skipSnaps: false,
       dragFree: false,
     },
@@ -51,33 +64,22 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
   useEffect(() => {
     if (!emblaApi) return;
     onSelect();
-    setScrollSnaps(emblaApi.scrollSnapList());
-    emblaApi.on("select", onSelect);
-    return () => emblaApi.off("select", onSelect);
-  }, [emblaApi, onSelect]);
-
-  // Data dari dictionary
-  const promos = dictionary?.promos || [];
-  const sectionBadge = dictionary?.section_badge || "Promo Bulan Ini";
-  const title = dictionary?.title || "Penawaran";
-  const titleHighlight = dictionary?.title_highlight || "Terbatas";
-  const description =
-    dictionary?.description ||
-    "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda";
-  const viewAllText = dictionary?.view_all_text || "Lihat Semua Promo";
-  const viewAllLink = dictionary?.view_all_link || "/promotions";
-  const ctaFeatured = dictionary?.cta_featured || "Ambil Promo";
-  const ctaRegular = dictionary?.cta_regular || "Lihat Detail";
+    const snaps = emblaApi.scrollSnapList();
+    // Batasi snap points ke jumlah promos untuk menghindari dots ekstra dari loop
+    setScrollSnaps(snaps.slice(0, promos.length));
+    emblaApi.on('select', onSelect);
+    return () => emblaApi.off('select', onSelect);
+  }, [emblaApi, onSelect, promos.length]);
 
   const getBadgeStyle = (badge) => {
     const styles = {
-      "BEST VALUE": "from-yellow-400 to-orange-500",
-      "FLASH SALE": "from-red-500 to-pink-600",
-      "FREE BONUS": "from-green-500 to-emerald-600",
-      SPECIAL: "from-purple-500 to-indigo-600",
-      "HOT DEAL": "from-orange-500 to-red-600",
+      'BEST VALUE': 'from-yellow-400 to-orange-500',
+      'FLASH SALE': 'from-red-500 to-pink-600',
+      'FREE BONUS': 'from-green-500 to-emerald-600',
+      SPECIAL: 'from-purple-500 to-indigo-600',
+      'HOT DEAL': 'from-orange-500 to-red-600',
     };
-    return styles[badge] || "from-yellow-400 to-orange-500";
+    return styles[badge] || 'from-yellow-400 to-orange-500';
   };
 
   // Return null jika tidak ada data
@@ -123,8 +125,8 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                   <div
                     className={`relative rounded-2xl overflow-hidden transition-all duration-300 h-full ${
                       hoveredId === promo.id
-                        ? "shadow-2xl shadow-yellow-400/30 scale-105"
-                        : "shadow-lg shadow-black/50"
+                        ? 'shadow-2xl shadow-yellow-400/30 scale-105'
+                        : 'shadow-lg shadow-black/50'
                     }`}
                   >
                     {/* Corner Ribbon for Featured */}
@@ -175,7 +177,7 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                         alt={promo.title}
                         fill
                         className={`object-cover transition-transform duration-700 ${
-                          hoveredId === promo.id ? "scale-110" : "scale-100"
+                          hoveredId === promo.id ? 'scale-110' : 'scale-100'
                         }`}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
@@ -184,7 +186,7 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                         className="absolute inset-0 pointer-events-none"
                         style={{
                           background:
-                            "linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.85) 33%, rgba(0,0,0,0.5) 66%, transparent 100%)",
+                            'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.85) 33%, rgba(0,0,0,0.5) 66%, transparent 100%)',
                         }}
                       />
                     </div>
@@ -211,8 +213,8 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                         href={`/${currentLocale}${promo.cta_link}`}
                         className={`w-full font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm sm:text-base ${
                           promo.is_featured
-                            ? "bg-yellow-400 hover:bg-yellow-500 text-black shadow-lg shadow-yellow-400/20"
-                            : "bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20"
+                            ? 'bg-yellow-400 hover:bg-yellow-500 text-black shadow-lg shadow-yellow-400/20'
+                            : 'bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20'
                         }`}
                       >
                         <span>
@@ -253,8 +255,8 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                 onClick={() => scrollTo(index)}
                 className={`transition-all ${
                   index === selectedIndex
-                    ? "w-6 h-2 bg-yellow-400"
-                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
+                    ? 'w-6 h-2 bg-yellow-400'
+                    : 'w-2 h-2 bg-gray-600 hover:bg-gray-500'
                 } rounded-full`}
                 aria-label={`Go to slide ${index + 1}`}
               />

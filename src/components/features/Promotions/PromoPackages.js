@@ -15,11 +15,15 @@ const PriceDisplay = ({ priceString }) => {
 
   return (
     <div className="flex items-baseline">
-      <span className="text-lg font-bold text-black mr-1 self-start">Rp</span>
-      <span className="text-3xl font-extrabold text-black leading-none">
+      <span className="text-sm sm:text-lg font-bold text-black mr-1 self-start">
+        Rp
+      </span>
+      <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-black leading-none">
         {mainDigits}
       </span>
-      <span className="text-lg font-bold text-black">{trailingDigits}</span>
+      <span className="text-sm sm:text-lg font-bold text-black">
+        {trailingDigits}
+      </span>
     </div>
   );
 };
@@ -28,13 +32,15 @@ const PromoPackages = ({ dictionary }) => {
   if (!dictionary || !dictionary.list) return null;
 
   return (
-    <section className="bg-gray-100 py-20">
-      <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-black">{dictionary.title}</h2>
+    <section className="bg-gray-100 py-12 sm:py-16 lg:py-20">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black">
+            {dictionary.title}
+          </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-stretch">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 items-stretch">
           {dictionary.list.map((pkg, index) => {
             const isDiamond = pkg.name === 'DIAMOND';
             return (
@@ -46,23 +52,25 @@ const PromoPackages = ({ dictionary }) => {
                     : 'hover:scale-105'
                 }`}
               >
-                <div className="p-6 flex flex-col flex-grow">
+                <div className="p-4 sm:p-6 flex flex-col flex-grow">
                   {isDiamond && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-4 py-1 rounded-full">
+                    <div className="absolute -top-3 sm:-top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-3 sm:px-4 py-1 rounded-full">
                       {dictionary.best_value}
                     </div>
                   )}
-                  <h3 className="text-xl font-bold text-black">{pkg.name}</h3>
-                  <p className="text-gray-600 text-xs mt-2 h-10">
+                  <h3 className="text-lg sm:text-xl font-bold text-black">
+                    {pkg.name}
+                  </h3>
+                  <p className="text-gray-600 text-xs sm:text-sm mt-2 h-8 sm:h-10">
                     {pkg.description}
                   </p>
 
-                  <div className="my-4">
+                  <div className="my-3 sm:my-4">
                     <PriceDisplay priceString={pkg.price} />
                   </div>
 
                   <button
-                    className={`w-full py-2.5 my-2 font-bold rounded-lg transition-colors ${
+                    className={`w-full py-2 sm:py-2.5 my-2 font-bold rounded-lg transition-colors text-sm sm:text-base ${
                       isDiamond
                         ? 'bg-yellow-400 text-black hover:bg-yellow-500'
                         : 'bg-gray-800 text-white hover:bg-black'
@@ -71,20 +79,20 @@ const PromoPackages = ({ dictionary }) => {
                     {dictionary.button_text}
                   </button>
 
-                  <hr className="my-4 border-gray-200" />
+                  <hr className="my-3 sm:my-4 border-gray-200" />
 
                   <div className="flex-grow">
-                    <p className="text-xs font-semibold mb-3 text-black">
+                    <p className="text-xs sm:text-sm font-semibold mb-3 text-black">
                       {dictionary.what_included}
                     </p>
                     <ul className="space-y-2">
                       {pkg.features.map((feature, fIndex) => (
                         <li key={fIndex} className="flex items-start">
                           <Check
-                            size={16}
-                            className="text-green-500 mr-2 flex-shrink-0 mt-0.5"
+                            size={14}
+                            className="text-green-500 mr-2 flex-shrink-0 mt-0.5 sm:w-4 sm:h-4"
                           />
-                          <span className="text-gray-600 text-xs">
+                          <span className="text-gray-600 text-xs sm:text-sm">
                             {feature}
                           </span>
                         </li>
