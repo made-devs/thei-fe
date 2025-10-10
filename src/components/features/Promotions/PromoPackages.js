@@ -1,111 +1,310 @@
 'use client';
-import React from 'react';
-import Image from 'next/image';
-import { Check } from 'lucide-react';
 
-const PriceDisplay = ({ priceString }) => {
-  if (!priceString) return null;
-  const number = parseInt(priceString.replace(/[^0-9]/g, ''), 10);
-  const fullPrice = number * 1000000;
-  const formatted = new Intl.NumberFormat('id-ID').format(fullPrice);
-
-  const parts = formatted.split('.');
-  const mainDigits = parts[0];
-  const trailingDigits = `.${parts.slice(1).join('.')},-`;
-
-  return (
-    <div className="flex items-baseline">
-      <span className="text-sm sm:text-lg font-bold text-black mr-1 self-start">
-        Rp
-      </span>
-      <span className="text-xl sm:text-2xl lg:text-3xl font-extrabold text-black leading-none">
-        {mainDigits}
-      </span>
-      <span className="text-sm sm:text-lg font-bold text-black">
-        {trailingDigits}
-      </span>
-    </div>
-  );
-};
+import React, { useState } from 'react';
+import {
+  ChevronLeft,
+  ChevronRight,
+  MessageCircle,
+  Eye,
+  Bookmark,
+  Share2,
+  Clock,
+  MapPin,
+  X,
+  Sparkles,
+} from 'lucide-react';
 
 const PromoPackages = ({ dictionary }) => {
-  if (!dictionary || !dictionary.list) return null;
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const [savedPromos, setSavedPromos] = useState([]);
+  const [activeFilter, setActiveFilter] = useState('Semua');
+  const [selectedPromo, setSelectedPromo] = useState(null); // State untuk modal detail
+
+  // Data promo dari dictionary
+  const allPromos = dictionary?.list || [];
+
+  // Hardcoded data untuk header
+  const sectionBadge = 'Exclusive Offers';
+  const title = 'Best Deals,';
+  const titleHighlight = 'Maximum Benefits.';
+  const description =
+    'Discover our latest promotions on heavy equipment with unbeatable discounts and benefits.';
+
+  const filters = [
+    'Semua',
+    'Excavator',
+    'Bulldozer',
+    'Crane',
+    'Loader',
+    '<2JT',
+    '<5JT',
+    'Flash Sale',
+  ];
+
+  const nextSlide = () => {
+    setCurrentSlide((prev) => (prev + 1) % allPromos.length);
+  };
+
+  const prevSlide = () => {
+    setCurrentSlide((prev) => (prev - 1 + allPromos.length) % allPromos.length);
+  };
+
+  const toggleSave = (promoId) => {
+    setSavedPromos((prev) =>
+      prev.includes(promoId)
+        ? prev.filter((id) => id !== promoId)
+        : [...prev, promoId]
+    );
+  };
+
+  const sendWhatsApp = (promo) => {
+    const messages = {
+      Excavator: `Halo, mau sewa excavator ${
+        promo.title || 'ini'
+      }. Untuk berapa hari dan area mana?`,
+      Bulldozer: `Halo, saya tertarik bulldozer ${
+        promo.title || 'ini'
+      }. Masih ready stock? Bisa COD?`,
+      Crane: `Halo, saya mau rental crane ${
+        promo.title || 'ini'
+      }. Kapasitas berapa ton yang tersedia?`,
+      Loader: `Halo, mau booking loader ${
+        promo.title || 'ini'
+      }. Kapan slot terdekat yang available?`,
+    };
+
+    const message =
+      messages[promo.category] ||
+      `Halo, saya tertarik dengan promo alat berat ini. Bisa info lebih lanjut?`;
+    const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(waUrl, '_blank');
+  };
+
+  const openDetail = (promo) => {
+    setSelectedPromo(promo);
+  };
+
+  const closeDetail = () => {
+    setSelectedPromo(null);
+  };
 
   return (
-    <section className="bg-gray-100 py-12 sm:py-16 lg:py-20">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
-        <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black">
-            {dictionary.title}
-          </h2>
+    <div className="min-h-screen bg-gray-50">
+      {/* Header */}
+      <div className="text-center mb-8  sm:mb-12">
+        <div className="inline-flex items-center mt-10 gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
+          <Sparkles className="w-4 h-4 text-yellow-400 animate-pulse" />
+          <span className="text-yellow-400 font-bold text-sm uppercase tracking-wider">
+            {sectionBadge}
+          </span>
         </div>
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 mb-4">
+          {title} <span className="text-yellow-400">{titleHighlight}</span>
+        </h2>
+        <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-2xl mx-auto">
+          {description}
+        </p>
+      </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 items-stretch">
-          {dictionary.list.map((pkg, index) => {
-            const isDiamond = pkg.name === 'DIAMOND';
-            return (
-              <div
-                key={index}
-                className={`bg-white rounded-lg shadow-lg flex flex-col relative text-left transition-transform duration-300 ${
-                  isDiamond
-                    ? 'lg:scale-105 border-4 border-yellow-400'
-                    : 'hover:scale-105'
-                }`}
-              >
-                <div className="p-4 sm:p-6 flex flex-col flex-grow">
-                  {isDiamond && (
-                    <div className="absolute -top-3 sm:-top-4 left-1/2 -translate-x-1/2 bg-yellow-400 text-black text-xs font-bold px-3 sm:px-4 py-1 rounded-full">
-                      {dictionary.best_value}
-                    </div>
+      {/* Bento Grid */}
+      <section className="max-w-7xl mx-auto px-4 py-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-auto">
+          {allPromos.map((promo) => (
+            <div
+              key={promo.id}
+              className={`relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] ${
+                promo.size === 'large' ? 'col-span-2 row-span-2' : 'col-span-1'
+              }`}
+            >
+              {/* Image */}
+              <img
+                src={promo.image}
+                alt={promo.title || 'Promo Alat Berat'}
+                className="w-full h-full object-cover"
+              />
+
+              {/* Overlay & Content */}
+              {promo.size === 'large' ? (
+                // Large Card - Tampilkan semua info
+                <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/80 to-transparent p-6 flex flex-col justify-end">
+                  {promo.badge && (
+                    <span className="absolute top-4 left-4 px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-full">
+                      {promo.badge}
+                    </span>
                   )}
-                  <h3 className="text-lg sm:text-xl font-bold text-black">
-                    {pkg.name}
-                  </h3>
-                  <p className="text-gray-600 text-xs sm:text-sm mt-2 h-8 sm:h-10">
-                    {pkg.description}
-                  </p>
-
-                  <div className="my-3 sm:my-4">
-                    <PriceDisplay priceString={pkg.price} />
-                  </div>
 
                   <button
-                    className={`w-full py-2 sm:py-2.5 my-2 font-bold rounded-lg transition-colors text-sm sm:text-base ${
-                      isDiamond
-                        ? 'bg-yellow-400 text-black hover:bg-yellow-500'
-                        : 'bg-gray-800 text-white hover:bg-black'
-                    }`}
+                    onClick={() => toggleSave(promo.id)}
+                    className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition"
                   >
-                    {dictionary.button_text}
+                    <Bookmark
+                      className={`w-5 h-5 ${
+                        savedPromos.includes(promo.id)
+                          ? 'fill-white text-white'
+                          : 'text-white'
+                      }`}
+                    />
                   </button>
 
-                  <hr className="my-3 sm:my-4 border-gray-200" />
+                  <div className="flex items-center gap-2 mb-2 text-white">
+                    <span className="px-2 py-1 bg-red-500 rounded text-xs font-bold">
+                      {promo.discount} OFF
+                    </span>
+                    <span className="text-xs flex items-center gap-1">
+                      <Clock className="w-3 h-3" />
+                      {promo.expiry}
+                    </span>
+                  </div>
 
-                  <div className="flex-grow">
-                    <p className="text-xs sm:text-sm font-semibold mb-3 text-black">
-                      {dictionary.what_included}
-                    </p>
-                    <ul className="space-y-2">
-                      {pkg.features.map((feature, fIndex) => (
-                        <li key={fIndex} className="flex items-start">
-                          <Check
-                            size={14}
-                            className="text-green-500 mr-2 flex-shrink-0 mt-0.5 sm:w-4 sm:h-4"
-                          />
-                          <span className="text-gray-600 text-xs sm:text-sm">
-                            {feature}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
+                  <h3 className="text-xl font-bold text-yellow-400 mb-1">
+                    {promo.title}
+                  </h3>
+
+                  <div className="flex items-center gap-2 text-white mb-3">
+                    <MapPin className="w-4 h-4" />
+                    <span className="text-xs">{promo.location}</span>
+                    <Eye className="w-4 h-4 ml-2" />
+                    <span className="text-xs">{promo.views}</span>
+                  </div>
+
+                  {/* Kondisi: Jika ada price, tampilkan harga; jika tidak, tampilkan description */}
+                  {promo.price ? (
+                    <div className="flex items-center gap-2 mb-3">
+                      <span className="text-sm line-through text-gray-300">
+                        {promo.originalPrice}
+                      </span>
+                      <span className="text-2xl font-bold text-white">
+                        {promo.price}
+                      </span>
+                    </div>
+                  ) : (
+                    promo.description && (
+                      <p className="text-base text-white mb-3">
+                        {promo.description}
+                      </p>
+                    )
+                  )}
+
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => openDetail(promo)}
+                      className="flex-1 bg-black hover:bg-gray-800 text-yellow-400 px-4 py-2 rounded-lg text-sm font-semibold transition"
+                    >
+                      Detail
+                    </button>
+                    <button
+                      onClick={() => sendWhatsApp(promo)}
+                      className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-1 transition"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                      Chat
+                    </button>
                   </div>
                 </div>
-              </div>
-            );
-          })}
+              ) : (
+                // Small Card - Tampilkan detail lengkap dengan font kecil
+                <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/70 to-transparent p-3 flex flex-col justify-end">
+                  {promo.badge && (
+                    <span className="absolute top-2 left-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded-full">
+                      {promo.badge}
+                    </span>
+                  )}
+
+                  <button
+                    onClick={() => toggleSave(promo.id)}
+                    className="absolute top-2 right-2 p-1 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition"
+                  >
+                    <Bookmark
+                      className={`w-3 h-3 ${
+                        savedPromos.includes(promo.id)
+                          ? 'fill-white text-white'
+                          : 'text-white'
+                      }`}
+                    />
+                  </button>
+
+                  <div className="flex items-center gap-1 mb-1 text-white">
+                    <span className="px-1 py-0.5 bg-red-500 rounded text-xs font-bold">
+                      {promo.discount} OFF
+                    </span>
+                    <span className="text-xs flex items-center gap-0.5">
+                      <Clock className="w-2.5 h-2.5" />
+                      {promo.expiry}
+                    </span>
+                  </div>
+
+                  <h4 className="text-sm font-bold text-yellow-400 mb-1">
+                    {promo.title}
+                  </h4>
+
+                  <div className="flex items-center gap-1 text-white mb-2">
+                    <MapPin className="w-3 h-3" />
+                    <span className="text-xs">{promo.location}</span>
+                    <Eye className="w-3 h-3 ml-1" />
+                    <span className="text-xs">{promo.views}</span>
+                  </div>
+
+                  {/* Kondisi: Jika ada price, tampilkan harga; jika tidak, tampilkan description */}
+                  {promo.price ? (
+                    <div className="flex items-center gap-1 mb-2">
+                      <span className="text-xs line-through text-gray-300">
+                        {promo.originalPrice}
+                      </span>
+                      <span className="text-lg font-bold text-white">
+                        {promo.price}
+                      </span>
+                    </div>
+                  ) : (
+                    promo.description && (
+                      <p className="text-xs text-white mb-2">
+                        {promo.description}
+                      </p>
+                    )
+                  )}
+
+                  <div className="flex flex-col gap-1">
+                    <button
+                      onClick={() => openDetail(promo)}
+                      className="w-full bg-black hover:bg-gray-800 text-yellow-400 px-2 py-1 rounded text-xs font-semibold transition"
+                    >
+                      Detail
+                    </button>
+                    <button
+                      onClick={() => sendWhatsApp(promo)}
+                      className="w-full bg-yellow-400 hover:bg-yellow-500 text-black px-2 py-1 rounded text-xs font-semibold flex items-center justify-center gap-0.5 transition"
+                    >
+                      <MessageCircle className="w-3 h-3" />
+                      Chat
+                    </button>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
         </div>
-      </div>
-    </section>
+      </section>
+
+      {/* Modal Detail - Pop up image promo */}
+      {selectedPromo && (
+        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
+          <div className="relative bg-white rounded-lg overflow-hidden shadow-2xl">
+            <button
+              onClick={closeDetail}
+              className="absolute top-4 right-4 p-2 bg-black/50 text-white rounded-full hover:bg-black/70 transition z-10"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <img
+              src={selectedPromo.image}
+              alt={selectedPromo.title}
+              className="h-screen w-auto object-contain"
+            />
+          </div>
+        </div>
+      )}
+    </div>
   );
 };
 

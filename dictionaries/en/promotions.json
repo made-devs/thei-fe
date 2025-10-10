@@ -3,70 +3,103 @@
     "hero": {
       "subtitle": "Exclusive Offers",
       "title": "Best Deals, Maximum Benefits.",
+      "image": "/banner-slider6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Promotions", "link": "/promotions" }
       ]
     },
-    "packages": {
-      "title": "Featured Service Packages",
-      "best_value": "Best Value",
-      "button_text": "Choose Package",
-      "what_included": "What's included:",
+    "promo_cards": {
       "list": [
         {
-          "name": "SILVER",
-          "price": "Rp20 jt",
-          "description": "Basic service package to maintain essential performance.",
-          "features": [
-            "Oil",
-            "Spooring",
-            "Basic AC",
-            "Lamp Polishing",
-            "Fogging"
-          ]
+          "id": "f1",
+          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 250,000,000,-",
+          "discount": "30%",
+          "image": "/promo/promo1.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "BEST DEAL",
+          "size": "large",
+          "expiry": "5 days left",
+          "views": 856,
+          "location": "All Locations",
+          "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service."
         },
         {
-          "name": "GOLD",
-          "price": "Rp50 jt",
-          "description": "Comprehensive maintenance for extra comfort and protection.",
-          "features": [
-            "Super Freeze AC",
-            "Anti-Rust",
-            "Body Polishing",
-            "Undercarriage Service",
-            "Oil",
-            "Fogging"
-          ]
+          "id": "f2",
+          "title": "Heavy Equipment Service Promo (All Types) Up to Rp 70,000,000,-",
+          "discount": "70%",
+          "image": "/promo/promo2.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Bulldozer",
+          "badge": "HOT",
+          "size": "large",
+          "expiry": "3 days left",
+          "views": 1420,
+          "location": "All Locations",
+          "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities."
         },
         {
-          "name": "EXCLUSIVE",
-          "price": "Rp150 jt",
-          "description": "Premium services for advanced restoration and protection.",
-          "features": [
-            "Nano Ceramic",
-            "Anti-Rust",
-            "Overhaul",
-            "Super Freeze AC",
-            "Spooring",
-            "etc."
-          ]
+          "id": "r1",
+          "title": "Heavy Equipment Rental Promo (All Types) Up to Rp 100,000,000,-",
+          "discount": "15%",
+          "image": "/promo/promo3.webp",
+          "price": null,
+          "originalPrice": "",
+          "category": "Crane",
+          "badge": "",
+          "size": "small",
+          "expiry": "2 days left",
+          "views": 234,
+          "location": "Jakarta",
+          "description": "We provide complete solutions: big discounts up to 50 million, 24/7 VIP hotline service, free pick-up and delivery, up to GPS unit monitoring."
         },
         {
-          "name": "DIAMOND",
-          "price": "Rp200 jt",
-          "description": "The total solution for peak performance and complete peace of mind.",
-          "features": [
-            "All Exclusive Package Items",
-            "+ Engine Rebuild",
-            "Tune Up",
-            "Understeel",
-            "Premium Coating",
-            "Transmission",
-            "Brakes",
-            "Tires",
-            "Safety Kit"
-          ]
+          "id": "r2",
+          "title": "Heavy Equipment Trade-In Promo (All Types) Up to Rp 50,000,000,-",
+          "discount": "25%",
+          "image": "/promo/promo4.webp",
+          "price": null,
+          "originalPrice": "",
+          "category": "Loader",
+          "badge": "",
+          "size": "small",
+          "expiry": "1 day left",
+          "views": 156,
+          "location": "All Locations",
+          "description": "Get trade-in discounts up to 50 million rupiah for your new unit. We also provide free inspection and old unit pick-up bonuses. Time to upgrade with the best value!"
+        },
+        {
+          "id": "r3",
+          "title": "Silver Grade Service Promo Worth Rp 10,000,000,-",
+          "discount": "10%",
+          "image": "/promo/promo-silver.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Bulldozer",
+          "badge": "",
+          "size": "small",
+          "expiry": "4 days left",
+          "views": 89,
+          "location": "All Locations",
+          "description": "With a total promo value of 10 million rupiah, you will get various free annual services such as engine scanner, carbon tune-up, undercarriage service, and anti-rust."
+        },
+        {
+          "id": "r4",
+          "title": "Gold Grade Service Promo Worth Rp 20,000,000,-",
+          "discount": "18%",
+          "image": "/promo/promo-gold.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "",
+          "size": "small",
+          "expiry": "3 days left",
+          "views": 312,
+          "location": "All Locations",
+          "description": "With a total benefit of 20 million rupiah, you get dozens of services starting from engine scanner 3x per year, AC and undercarriage service, up to free washing and 25% spare parts discount."
         }
       ]
     },

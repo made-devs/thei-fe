@@ -3,64 +3,103 @@
     "hero": {
       "subtitle": "Penawaran Eksklusif",
       "title": "Penawaran Terbaik, Keuntungan Maksimal.",
+      "image": "/banner-slider6.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Promosi", "link": "/promotions" }
       ]
     },
-    "packages": {
-      "title": "Paket Servis Unggulan",
-      "best_value": "Paling Untung",
-      "button_text": "Pilih Paket",
-      "what_included": "Yang termasuk:",
+    "promo_cards": {
       "list": [
         {
-          "name": "SILVER",
-          "price": "Rp20 jt",
-          "description": "Paket servis dasar untuk menjaga performa esensial.",
-          "features": ["Oli", "Spooring", "AC Basic", "Poles Lampu", "Fogging"]
+          "id": "f1",
+          "title": "Promo Pembelian Alat Berat (All Type) S/D Rp 250.000.000,-",
+          "discount": "30%",
+          "image": "/promo/promo1.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "BEST DEAL",
+          "size": "large",
+          "expiry": "5 hari lagi",
+          "views": 856,
+          "location": "Semua Lokasi",
+          "description": "Promo Grand Opening THEI! Hemat puluhan juta dengan diskon alat berat hingga 30%. Dapatkan juga bonus lengkap: gratis training operator, bebas ongkir Jabodetabek, paket hadiah eksklusif, dan layanan purna jual VIP."
         },
         {
-          "name": "GOLD",
-          "price": "Rp50 jt",
-          "description": "Perawatan menyeluruh untuk kenyamanan dan perlindungan ekstra.",
-          "features": [
-            "AC Super Beku",
-            "Anti Karat",
-            "Poles Body",
-            "Servis Kaki-kaki",
-            "Oli",
-            "Fogging"
-          ]
+          "id": "f2",
+          "title": "Promo Service Alat Berat (All Type) S/D Rp 70.000.000,-",
+          "discount": "70%",
+          "image": "/promo/promo2.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Bulldozer",
+          "badge": "HOT",
+          "size": "large",
+          "expiry": "3 hari lagi",
+          "views": 1420,
+          "location": "Semua Lokasi",
+          "description": "Nikmati diskon service besar-besaran hingga 70% dan potongan harga sparepart hingga 30%. Dapatkan juga bonus gratis belasan titik inspeksi (area Jabodetabek) dan bebas biaya akomodasi teknisi di 25 kota besar."
         },
         {
-          "name": "EXCLUSIVE",
-          "price": "Rp150 jt",
-          "description": "Layanan premium untuk restorasi dan perlindungan tingkat lanjut.",
-          "features": [
-            "Nano Ceramic",
-            "Anti Karat",
-            "Overhaul",
-            "AC Super Beku",
-            "Spooring",
-            "dll."
-          ]
+          "id": "r1",
+          "title": "Promo Rental Alat Berat (All Type) S/D Rp 100.000.000,-",
+          "discount": "15%",
+          "image": "/promo/promo3.webp",
+          "price": null,
+          "originalPrice": "",
+          "category": "Crane",
+          "badge": "",
+          "size": "small",
+          "expiry": "2 hari lagi",
+          "views": 234,
+          "location": "Jakarta",
+          "description": "Kami menyediakan solusi lengkap: diskon besar hingga 50 juta, layanan VIP hotline 24/7, gratis antar-jemput, hingga monitoring unit via GPS."
         },
         {
-          "name": "DIAMOND",
-          "price": "Rp200 jt",
-          "description": "Solusi total untuk performa puncak dan ketenangan pikiran.",
-          "features": [
-            "Semua Paket Exclusive",
-            "+ Engine Rebuild",
-            "Tune Up",
-            "Understeel",
-            "Premium Coating",
-            "Transmisi",
-            "Rem",
-            "Ban",
-            "Safety Kit"
-          ]
+          "id": "r2",
+          "title": "Promo Trade-In Alat Berat (All Type) S/D Rp 50.000.000,-",
+          "discount": "25%",
+          "image": "/promo/promo4.webp",
+          "price": null,
+          "originalPrice": "",
+          "category": "Loader",
+          "badge": "",
+          "size": "small",
+          "expiry": "1 hari lagi",
+          "views": 156,
+          "location": "Semua Lokasi",
+          "description": "Dapatkan diskon trade-in hingga 50 juta rupiah untuk unit baru Anda. Kami juga berikan bonus inspeksi dan penjemputan unit lama secara gratis. Saatnya upgrade dengan nilai terbaik!"
+        },
+        {
+          "id": "r3",
+          "title": "Promo Service Grade Silver Senilai Rp 10.000.000,-",
+          "discount": "10%",
+          "image": "/promo/promo-silver.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Bulldozer",
+          "badge": "",
+          "size": "small",
+          "expiry": "4 hari lagi",
+          "views": 89,
+          "location": "Semua Lokasi",
+          "description": "Dengan total nilai promo mencapai 10 juta rupiah, Anda akan mendapatkan beragam service tahunan gratis seperti engine scanner, tune-up karbon, service kaki-kaki, dan anti karat."
+        },
+        {
+          "id": "r4",
+          "title": "Promo Service Grade Silver Senilai Rp 20.000.000,-",
+          "discount": "18%",
+          "image": "/promo/promo-gold.webp",
+          "price": null,
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "",
+          "size": "small",
+          "expiry": "3 hari lagi",
+          "views": 312,
+          "location": "Semua Lokasi",
+          "description": "Dengan total keuntungan senilai 20 juta rupiah, Anda mendapatkan lusinan layanan mulai dari engine scanner 3x setahun, service AC dan kaki-kaki, hingga gratis cuci unit dan diskon sparepart 25%."
         }
       ]
     },
