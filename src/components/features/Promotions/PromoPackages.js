@@ -1,6 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
 import {
   ChevronLeft,
   ChevronRight,
@@ -14,7 +16,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 
-const PromoPackages = ({ dictionary }) => {
+const PromoPackages = ({ dictionary, lang }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [savedPromos, setSavedPromos] = useState([]);
   const [activeFilter, setActiveFilter] = useState('Semua');
@@ -119,9 +121,11 @@ const PromoPackages = ({ dictionary }) => {
               }`}
             >
               {/* Image */}
-              <img
+              <Image
                 src={promo.image}
                 alt={promo.title || 'Promo Alat Berat'}
+                width={500}
+                height={400}
                 className="w-full h-full object-cover"
               />
 
@@ -188,12 +192,12 @@ const PromoPackages = ({ dictionary }) => {
                   )}
 
                   <div className="flex gap-2">
-                    <button
-                      onClick={() => openDetail(promo)}
-                      className="flex-1 bg-black hover:bg-gray-800 text-yellow-400 px-4 py-2 rounded-lg text-sm font-semibold transition"
+                    <Link
+                      href={`/${lang}/promotions/${promo.slug}`}
+                      className="flex-1 bg-black hover:bg-gray-800 text-yellow-400 px-4 py-2 rounded-lg text-sm font-semibold transition text-center"
                     >
                       Detail
-                    </button>
+                    </Link>
                     <button
                       onClick={() => sendWhatsApp(promo)}
                       className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-1 transition"
@@ -265,12 +269,12 @@ const PromoPackages = ({ dictionary }) => {
                   )}
 
                   <div className="flex flex-col gap-1">
-                    <button
-                      onClick={() => openDetail(promo)}
-                      className="w-full bg-black hover:bg-gray-800 text-yellow-400 px-2 py-1 rounded text-xs font-semibold transition"
+                    <Link
+                      href={`/${lang}/promotions/${promo.slug}`}
+                      className="w-full bg-black hover:bg-gray-800 text-yellow-400 px-2 py-1 rounded text-xs font-semibold transition text-center"
                     >
                       Detail
-                    </button>
+                    </Link>
                     <button
                       onClick={() => sendWhatsApp(promo)}
                       className="w-full bg-yellow-400 hover:bg-yellow-500 text-black px-2 py-1 rounded text-xs font-semibold flex items-center justify-center gap-0.5 transition"
@@ -296,10 +300,12 @@ const PromoPackages = ({ dictionary }) => {
             >
               <X className="w-6 h-6" />
             </button>
-            <img
+            <Image
               src={selectedPromo.image}
               alt={selectedPromo.title}
-              className="h-screen w-auto object-contain"
+              width={1200}
+              height={800}
+              className="w-full h-full object-contain"
             />
           </div>
         </div>

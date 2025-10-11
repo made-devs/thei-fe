@@ -1,22 +1,22 @@
-"use client";
+'use client';
 
-import { useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { ChevronRight } from "lucide-react";
-import ProductCard from "./ProductCard";
-import ComparisonBar from "./ComparisonBar";
-import ComparisonModal from "./ComparisonModal";
+import { useState, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { ChevronRight, ChevronDown } from 'lucide-react';
+import ProductCard from './ProductCard';
+import ComparisonBar from './ComparisonBar';
+import ComparisonModal from './ComparisonModal';
 
 // Helper untuk mengubah nama kategori menjadi format URL-friendly
 const slugify = (text) =>
   text
     .toString()
     .toLowerCase()
-    .replace(/\s+/g, "-") // Ganti spasi dengan -
-    .replace(/[^\w\-]+/g, "") // Hapus karakter non-word
-    .replace(/\-\-+/g, "-") // Ganti -- jadi -
-    .replace(/^-+/, "") // Hapus - di awal
-    .replace(/-+$/, ""); // Hapus - di akhir
+    .replace(/\s+/g, '-') // Ganti spasi dengan -
+    .replace(/[^\w\-]+/g, '') // Hapus karakter non-word
+    .replace(/\-\-+/g, '-') // Ganti -- jadi -
+    .replace(/^-+/, '') // Hapus - di awal
+    .replace(/-+$/, ''); // Hapus - di akhir
 
 export default function InteractiveEquipmentView({
   categories,
@@ -25,7 +25,7 @@ export default function InteractiveEquipmentView({
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const categoryParam = searchParams.get("category");
+  const categoryParam = searchParams.get('category');
 
   // Fungsi untuk mencari nama kategori asli dari parameter URL
   const findCategoryNameBySlug = (slug) => {
@@ -34,7 +34,7 @@ export default function InteractiveEquipmentView({
   };
 
   const initialCategoryName =
-    findCategoryNameBySlug(categoryParam) || categories[0]?.name || "";
+    findCategoryNameBySlug(categoryParam) || categories[0]?.name || '';
 
   const [activeCategory, setActiveCategory] = useState(initialCategoryName);
   const [products, setProducts] = useState(
@@ -42,15 +42,57 @@ export default function InteractiveEquipmentView({
   );
   const [compareList, setCompareList] = useState([]);
   const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
+  const [hoveredCategory, setHoveredCategory] = useState(null); // State untuk hover
+  const [selectedType, setSelectedType] = useState(null); // State untuk filter type
+
+  // Fungsi untuk mendapatkan unique types dari produk kategori
+  const getUniqueTypes = (categoryName) => {
+    const categoryProducts = productData[categoryName] || [];
+    const types = [...new Set(categoryProducts.map((product) => product.type))];
+    return types;
+  };
+
+  // Filter produk berdasarkan type jika ada
+  useEffect(() => {
+    let filtered = productData[activeCategory] || [];
+    if (selectedType) {
+      filtered = filtered.filter((product) => product.type === selectedType);
+    }
+    setProducts(filtered);
+  }, [activeCategory, selectedType, productData]);
 
   const handleCategoryClick = (categoryName) => {
     setActiveCategory(categoryName);
-    setProducts(productData[categoryName] || []);
-    setCompareList([]); // Reset compare list saat ganti kategori
+    setSelectedType(null); // Reset filter type saat ganti kategori
+    setHoveredCategory(null); // Reset hover
 
     // Update URL dengan kategori yang baru dipilih
     const newUrl = `/${lang}/products?category=${slugify(categoryName)}`;
     router.push(newUrl, { scroll: false });
+  };
+
+  const handleTypeClick = (type, categoryName) => {
+    // Ganti kategori dulu jika berbeda
+    if (categoryName !== activeCategory) {
+      setActiveCategory(categoryName);
+      // Update URL
+      const newUrl = `/${lang}/products?category=${slugify(categoryName)}`;
+      router.push(newUrl, { scroll: false });
+    }
+    setSelectedType(type);
+    setHoveredCategory(null); // Tutup submenu setelah klik
+  };
+
+  const handleAllTypesClick = (categoryName) => {
+    // Ganti kategori dulu jika berbeda
+    if (categoryName !== activeCategory) {
+      setActiveCategory(categoryName);
+      // Update URL
+      const newUrl = `/${lang}/products?category=${slugify(categoryName)}`;
+      router.push(newUrl, { scroll: false });
+    }
+    setSelectedType(null);
+    setHoveredCategory(null);
   };
 
   const handleCompareChange = (product) => {
@@ -75,7 +117,7 @@ export default function InteractiveEquipmentView({
   return (
     <section
       className={`bg-gray-50 py-12 lg:py-16 ${
-        compareList.length > 0 ? "pt-32 lg:pt-16" : ""
+        compareList.length > 0 ? 'pt-32 lg:pt-16' : ''
       }`}
     >
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
@@ -89,8 +131,8 @@ export default function InteractiveEquipmentView({
                   onClick={() => handleCategoryClick(category.name)}
                   className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                     activeCategory === category.name
-                      ? "bg-yellow-400 text-black"
-                      : "bg-white text-gray-700 hover:bg-gray-100"
+                      ? 'bg-yellow-400 text-black'
+                      : 'bg-white text-gray-700 hover:bg-gray-100'
                   }`}
                 >
                   {category.name}
@@ -102,28 +144,88 @@ export default function InteractiveEquipmentView({
 
         {/* Desktop: Original Grid Layout */}
         <div className="hidden lg:grid grid-cols-1 lg:grid-cols-4 gap-8">
-          <div className="lg:col-span-1 bg-white p-4 lg:p-6 rounded-lg shadow-sm h-fit">
+          <div className="lg:col-span-1 bg-white p-4 lg:p-6 rounded-lg shadow-sm h-fit relative">
             <h2 className="text-lg sm:text-xl font-bold mb-4 border-b pb-3">
               Categories
             </h2>
             <ul className="space-y-2">
-              {categories.map((category) => (
-                <li key={category.name}>
-                  <button
-                    onClick={() => handleCategoryClick(category.name)}
-                    className={`w-full text-left px-4 py-2 rounded-md transition-colors flex justify-between items-center ${
-                      activeCategory === category.name
-                        ? "bg-yellow-400 font-bold text-black"
-                        : "hover:bg-gray-100 text-gray-700"
-                    }`}
+              {categories.map((category) => {
+                const types = getUniqueTypes(category.name);
+                const hasMultipleTypes = types.length > 1;
+
+                return (
+                  <li
+                    key={category.name}
+                    className="relative group"
+                    onMouseEnter={() =>
+                      hasMultipleTypes && setHoveredCategory(category.name)
+                    }
+                    onMouseLeave={() => setHoveredCategory(null)}
                   >
-                    <span>{category.name}</span>
-                    {activeCategory === category.name && (
-                      <ChevronRight size={18} />
+                    <button
+                      onClick={() => handleCategoryClick(category.name)}
+                      className={`w-full text-left px-4 py-2 rounded-md transition-colors flex justify-between items-center ${
+                        activeCategory === category.name
+                          ? 'bg-yellow-400 font-bold text-black'
+                          : 'hover:bg-gray-100 text-gray-700'
+                      }`}
+                    >
+                      <span>{category.name}</span>
+                      {hasMultipleTypes &&
+                        (activeCategory === category.name ||
+                          hoveredCategory === category.name) && (
+                          <ChevronRight size={18} />
+                        )}
+                    </button>
+
+                    {/* Invisible bridge untuk smooth hover - hanya jika ada multiple types */}
+                    {hasMultipleTypes && hoveredCategory === category.name && (
+                      <div className="absolute left-full top-0 h-full w-3 z-10" />
                     )}
-                  </button>
-                </li>
-              ))}
+
+                    {/* Submenu untuk types saat hover - hanya jika ada multiple types */}
+                    {hasMultipleTypes && hoveredCategory === category.name && (
+                      <div className="absolute left-full top-0 ml-3 bg-white border border-gray-200 rounded-lg shadow-lg p-4 w-64 z-20">
+                        <h3 className="text-sm font-semibold mb-2 text-gray-800">
+                          Types
+                        </h3>
+                        <ul className="space-y-1">
+                          <li key="all-types">
+                            <button
+                              onClick={() => handleAllTypesClick(category.name)}
+                              className={`w-full text-left px-2 py-1 rounded text-sm transition-colors ${
+                                !selectedType &&
+                                activeCategory === category.name
+                                  ? 'bg-yellow-400 text-black font-medium'
+                                  : 'hover:bg-gray-100 text-gray-700'
+                              }`}
+                            >
+                              All Types
+                            </button>
+                          </li>
+                          {types.map((type) => (
+                            <li key={type}>
+                              <button
+                                onClick={() =>
+                                  handleTypeClick(type, category.name)
+                                }
+                                className={`w-full text-left px-2 py-1 rounded text-sm transition-colors ${
+                                  selectedType === type &&
+                                  activeCategory === category.name
+                                    ? 'bg-yellow-400 text-black font-medium'
+                                    : 'hover:bg-gray-100 text-gray-700'
+                                }`}
+                              >
+                                {type}
+                              </button>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    )}
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
