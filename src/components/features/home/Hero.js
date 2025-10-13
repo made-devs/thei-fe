@@ -1,8 +1,8 @@
-"use client";
-import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import { gsap } from "gsap";
+'use client';
+import React, { useEffect, useRef, useState } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import { gsap } from 'gsap';
 
 const Hero = ({ dictionary, currentLocale }) => {
   const heroDict = dictionary || {};
@@ -21,15 +21,15 @@ const Hero = ({ dictionary, currentLocale }) => {
 
   // GSAP animasi slide in/out hanya di mobile
   useEffect(() => {
-    if (typeof window === "undefined" || window.innerWidth >= 640) return;
+    if (typeof window === 'undefined' || window.innerWidth >= 640) return;
     if (subTexts.length <= 1) return;
 
     const animateOut = () => {
       gsap.to(textRef.current, {
-        x: "-100%",
+        x: '-100%',
         opacity: 0,
         duration: 0.35,
-        ease: "power2.in",
+        ease: 'power2.in',
         onComplete: () => {
           setActiveIdx((prev) => (prev + 1) % subTexts.length);
         },
@@ -39,8 +39,8 @@ const Hero = ({ dictionary, currentLocale }) => {
     const animateIn = () => {
       gsap.fromTo(
         textRef.current,
-        { x: "100%", opacity: 0 },
-        { x: "0%", opacity: 1, duration: 0.35, ease: "power2.out" }
+        { x: '100%', opacity: 0 },
+        { x: '0%', opacity: 1, duration: 0.35, ease: 'power2.out' }
       );
     };
 
@@ -56,16 +56,16 @@ const Hero = ({ dictionary, currentLocale }) => {
 
   // Animate in on mount and when activeIdx changes (for manual trigger)
   useEffect(() => {
-    if (typeof window === "undefined" || window.innerWidth >= 640) return;
+    if (typeof window === 'undefined' || window.innerWidth >= 640) return;
     if (subTexts.length <= 1) return;
-    gsap.set(textRef.current, { x: "100%", opacity: 0 });
+    gsap.set(textRef.current, { x: '100%', opacity: 0 });
     gsap.to(textRef.current, {
-      x: "0%",
+      x: '0%',
       opacity: 1,
       duration: 0.35,
-      ease: "power2.out",
+      ease: 'power2.out',
     });
-  }, [activeIdx]);
+  }, [activeIdx, subTexts.length]);
 
   return (
     <div className="relative h-[70vh] sm:h-[85vh] overflow-hidden flex items-center justify-center text-center">
@@ -92,7 +92,7 @@ const Hero = ({ dictionary, currentLocale }) => {
             <p
               ref={textRef}
               className="text-yellow-400 text-base sm:hidden font-semibold tracking-wider uppercase m-0 w-full absolute left-0 top-0"
-              style={{ minHeight: "3rem" }}
+              style={{ minHeight: '3rem' }}
             >
               {subTexts[activeIdx]}
             </p>
