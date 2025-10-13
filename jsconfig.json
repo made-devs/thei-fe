@@ -12,6 +12,9 @@
       "@/lib/*": ["src/lib/*"],
       "@/data/*": ["src/data/*"],
 
+      // Tambahkan alias untuk dictionaries
+      "@/dictionaries/*": ["dictionaries/*"],
+
       // App di root sekarang
       "@/app/*": ["app/*"],
       "@/i18n-config": ["i18n-config.js"]
