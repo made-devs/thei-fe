@@ -35,23 +35,12 @@ const Navbar = ({ dictionary, currentLocale }) => {
       href: `/${currentLocale}`,
     },
     {
-      name: navDict.solutions,
-      isDropdown: true,
-      items: [
-        {
-          name: navDict.products,
-          href: `/${currentLocale}/products`,
-        },
-        {
-          name: navDict.rental,
-          href: `/${currentLocale}/rental`,
-        },
-        { name: navDict.parts, href: `/${currentLocale}/spare-parts` },
-        {
-          name: navDict.trade_in,
-          href: `/${currentLocale}/trade-in`,
-        },
-      ],
+      name: navDict.products,
+      href: `/${currentLocale}/products`,
+    },
+    {
+      name: navDict.parts,
+      href: `/${currentLocale}/spare-parts`,
     },
     {
       name: navDict.services,
@@ -66,6 +55,14 @@ const Navbar = ({ dictionary, currentLocale }) => {
           href: `/${currentLocale}/repair-packages`,
         },
       ],
+    },
+    {
+      name: navDict.rental,
+      href: `/${currentLocale}/rental`,
+    },
+    {
+      name: navDict.trade_in,
+      href: `/${currentLocale}/trade-in`,
     },
     {
       name: navDict.about_thei,
@@ -226,10 +223,13 @@ const Navbar = ({ dictionary, currentLocale }) => {
               <button className="p-2 hover:bg-gray-100 rounded-full">
                 <Search size={18} className="text-gray-700" />
               </button>
-              <button className="flex items-center space-x-2 bg-yellow-400 text-black px-5 py-2.5 rounded font-semibold hover:bg-yellow-500 transition-colors">
+              <Link
+                href={`/${currentLocale}/spare-parts`}
+                className="flex items-center space-x-2 bg-yellow-400 text-black px-5 py-2.5 rounded font-semibold hover:bg-yellow-500 transition-colors"
+              >
                 <ShoppingCart size={20} />
                 <span>{navDict.buy_parts}</span>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
