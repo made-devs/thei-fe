@@ -33,57 +33,6 @@
     "title_highlight": "Terbatas",
     "description": "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda",
 
-    "promos": [
-      {
-        "id": "promo-bundling-jan",
-        "badge": "BEST VALUE",
-        "title": "Promo Pembelian Alat Berat s/d Rp 285.000.000",
-        "description": "Cashback & diskon besar hingga 30%, corporate gift pack eksklusif, training operator gratis, free delivery, dan layanan after-sales VIP",
-        "discount": "Hemat 50 Juta",
-        "valid_until": "3 Hari Lagi",
-        "image": "/promo/promo1.webp",
-        "is_featured": true,
-        "urgent": true,
-        "cta_link": "/contact?promo=bundling-forklift"
-      },
-      {
-        "id": "promo-excavator-flash",
-        "badge": "HOT DEAL",
-        "title": "Promo Servis Alat Berat s/d Rp 70.000.000",
-        "description": "Diskon service & sparepart hingga 70%, gratis member card, fasilitas menginap teknisi, serta layanan inspeksi lengkap.",
-        "discount": "40% OFF",
-        "valid_until": "5 Hari Lagi",
-        "image": "/promo/promo2.webp",
-        "is_featured": false,
-        "urgent": true,
-        "cta_link": "/rental?promo=excavator40"
-      },
-      {
-        "id": "promo-parts-bonus",
-        "badge": "HOT DEAL",
-        "title": "Promo rental Alat Berat s/d Rp 100.000.000",
-        "description": "Diskon rental hingga Rp50 juta, gratis antar-jemput unit, 24/7 service truck, GPS monitoring, safety kit lengkap, dan branding logo customer.",
-        "discount": "Bonus 5 Juta",
-        "valid_until": "2 Minggu",
-        "image": "/promo/promo3.webp",
-        "is_featured": false,
-        "urgent": false,
-        "cta_link": "/spare-parts?promo=free-parts"
-      },
-      {
-        "id": "promo-service-platinum",
-        "badge": "HOT DEAL",
-        "title": "Promo Trade-In Alat Berat s/d Rp 50.000.000",
-        "description": "Diskon hingga Rp50 juta, inspeksi gratis, estimasi cepat, dan pickup unit lama tanpa biaya.",
-        "discount": "Diskon 25%",
-        "valid_until": "1 Bulan",
-        "image": "/promo/promo4.webp",
-        "is_featured": false,
-        "urgent": false,
-        "cta_link": "/repair-packages?package=platinum"
-      }
-    ],
-
     "view_all_text": "Lihat Semua Promo",
     "view_all_link": "/promotions",
     "cta_featured": "Ambil Promo",

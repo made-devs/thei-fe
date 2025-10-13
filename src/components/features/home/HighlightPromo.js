@@ -15,17 +15,25 @@ import Image from 'next/image'; // Tambahkan import Image
 
 export default function HighlightPromo({ dictionary, currentLocale }) {
   // Pindahkan definisi promos ke atas, setelah props
-  const promos = dictionary?.promos || [];
-  const sectionBadge = dictionary?.section_badge || 'Promo Bulan Ini';
-  const title = dictionary?.title || 'Penawaran';
-  const titleHighlight = dictionary?.title_highlight || 'Terbatas';
+  const promos = dictionary?.list || [];
+
+  // Tambahkan field tambahan untuk carousel - ambil hanya 4 teratas
+  const enhancedPromos = promos.slice(0, 4).map((promo) => ({
+    ...promo,
+    is_featured: promo.size === 'large', // Misalnya, large dianggap featured
+    urgent: promo.badge === 'HOT' || promo.badge === 'FLASH SALE',
+    valid_until: promo.expiry || promo.location, // Gunakan location jika expiry kosong
+  }));
+
+  const sectionBadge = 'Promo Bulan Ini'; // Hardcoded atau ambil dari dictionary jika ada
+  const title = 'Penawaran';
+  const titleHighlight = 'Terbatas';
   const description =
-    dictionary?.description ||
     'Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda';
-  const viewAllText = dictionary?.view_all_text || 'Lihat Semua Promo';
-  const viewAllLink = dictionary?.view_all_link || '/promotions';
-  const ctaFeatured = dictionary?.cta_featured || 'Ambil Promo';
-  const ctaRegular = dictionary?.cta_regular || 'Lihat Detail';
+  const viewAllText = 'Lihat Semua Promo';
+  const viewAllLink = '/promotions';
+  const ctaFeatured = 'Ambil Promo';
+  const ctaRegular = 'Lihat Detail';
 
   const [hoveredId, setHoveredId] = useState(null);
   const [emblaRef, emblaApi] = useEmblaCarousel(
@@ -65,25 +73,25 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
     if (!emblaApi) return;
     onSelect();
     const snaps = emblaApi.scrollSnapList();
-    // Batasi snap points ke jumlah promos untuk menghindari dots ekstra dari loop
-    setScrollSnaps(snaps.slice(0, promos.length));
+    setScrollSnaps(snaps.slice(0, enhancedPromos.length));
     emblaApi.on('select', onSelect);
     return () => emblaApi.off('select', onSelect);
-  }, [emblaApi, onSelect, promos.length]);
+  }, [emblaApi, onSelect, enhancedPromos.length]);
 
   const getBadgeStyle = (badge) => {
     const styles = {
-      'BEST VALUE': 'from-yellow-400 to-orange-500',
+      'BEST DEAL': 'from-yellow-400 to-orange-500',
+      HOT: 'from-red-500 to-pink-600',
       'FLASH SALE': 'from-red-500 to-pink-600',
-      'FREE BONUS': 'from-green-500 to-emerald-600',
+      DIAMOND: 'from-purple-500 to-indigo-600',
+      EXCLUSIVE: 'from-purple-500 to-indigo-600',
       SPECIAL: 'from-purple-500 to-indigo-600',
-      'HOT DEAL': 'from-orange-500 to-red-600',
     };
     return styles[badge] || 'from-yellow-400 to-orange-500';
   };
 
   // Return null jika tidak ada data
-  if (!promos || promos.length === 0) {
+  if (!enhancedPromos || enhancedPromos.length === 0) {
     return null;
   }
 
@@ -111,7 +119,7 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
           {/* Embla Viewport */}
           <div className="overflow-hidden p-5 sm:p-18" ref={emblaRef}>
             <div className="flex -ml-4">
-              {promos.map((promo) => (
+              {enhancedPromos.map((promo) => (
                 <div
                   key={promo.id}
                   className="
@@ -129,47 +137,6 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
                         : 'shadow-lg shadow-black/50'
                     }`}
                   >
-                    {/* Corner Ribbon for Featured */}
-                    {promo.is_featured && (
-                      <div className="absolute top-0 right-0 z-20">
-                        <div className="relative">
-                          <div className="absolute top-0 right-0 w-28 h-28 overflow-hidden">
-                            <div
-                              className={`absolute top-5 -right-7 bg-gradient-to-r ${getBadgeStyle(
-                                promo.badge
-                              )} text-white text-xs font-bold py-1.5 px-10 transform rotate-45 shadow-lg`}
-                            >
-                              FEATURED
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    )}
-
-                    {/* Badge */}
-                    <div className="absolute top-4 left-4 z-20">
-                      <div
-                        className={`bg-gradient-to-r ${getBadgeStyle(
-                          promo.badge
-                        )} text-white px-3 py-1.5 rounded-full text-[10px] font-bold shadow-lg flex items-center gap-1`}
-                      >
-                        <Tag className="w-3 h-3" />
-                        {promo.badge}
-                      </div>
-                    </div>
-
-                    {/* Urgent Indicator */}
-                    {promo.urgent && (
-                      <div className="absolute top-4 right-4 z-20">
-                        <div className="flex items-center gap-1 bg-red-600 px-2 py-1 rounded-full">
-                          <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
-                          <span className="text-white text-xs font-bold">
-                            SEGERA
-                          </span>
-                        </div>
-                      </div>
-                    )}
-
                     {/* Card Image with 4:5 Aspect Ratio */}
                     <div className="relative aspect-[4/5]">
                       <Image
@@ -210,16 +177,11 @@ export default function HighlightPromo({ dictionary, currentLocale }) {
 
                       {/* CTA Button */}
                       <Link
-                        href={`/${currentLocale}${promo.cta_link}`}
-                        className={`w-full font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm sm:text-base ${
-                          promo.is_featured
-                            ? 'bg-yellow-400 hover:bg-yellow-500 text-black shadow-lg shadow-yellow-400/20'
-                            : 'bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20'
+                        href={`/${currentLocale}/promotions/${promo.slug}`}
+                        className={`w-full font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm sm:text-base bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20'
                         }`}
                       >
-                        <span>
-                          {promo.is_featured ? ctaFeatured : ctaRegular}
-                        </span>
+                        <span>{ctaRegular}</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                       </Link>
                     </div>

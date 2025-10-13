@@ -14,7 +14,7 @@
         {
           "id": "f1",
           "slug": "heavy-equipment-purchase-promo",
-          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 250,000,000,-",
+          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 285,000,000,-",
           "discount": "30%",
           "image": "/promo/promo1.webp",
           "price": null,
@@ -22,8 +22,6 @@
           "category": "Excavator",
           "badge": "BEST DEAL",
           "size": "large",
-          "expiry": "5 days left",
-          "views": 856,
           "location": "All Locations",
           "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service.",
           "details": [
@@ -56,8 +54,6 @@
           "category": "Bulldozer",
           "badge": "HOT",
           "size": "large",
-          "expiry": "3 days left",
-          "views": 1420,
           "location": "All Locations",
           "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities.",
           "details": [
@@ -90,8 +86,6 @@
           "category": "Crane",
           "badge": "",
           "size": "small",
-          "expiry": "2 days left",
-          "views": 234,
           "location": "Jakarta",
           "description": "We provide complete solutions: big discounts up to 50 million, 24/7 VIP hotline service, free pick-up and delivery, up to GPS unit monitoring.",
           "details": [
@@ -120,8 +114,6 @@
           "category": "Loader",
           "badge": "",
           "size": "small",
-          "expiry": "1 day left",
-          "views": 156,
           "location": "All Locations",
           "description": "Get trade-in discounts up to 50 million rupiah for your new unit. We also provide free inspection and old unit pick-up bonuses. Time to upgrade with the best value!",
           "details": [
@@ -150,8 +142,6 @@
           "category": "Bulldozer",
           "badge": "",
           "size": "small",
-          "expiry": "4 days left",
-          "views": 89,
           "location": "All Locations",
           "description": "With a total promo value of 10 million rupiah, you will get various free annual services such as engine scanner, carbon tune-up, undercarriage service, and anti-rust.",
           "details": [
@@ -184,8 +174,6 @@
           "category": "Excavator",
           "badge": "",
           "size": "small",
-          "expiry": "3 days left",
-          "views": 312,
           "location": "All Locations",
           "description": "With a total benefit of 20 million rupiah, you get dozens of services starting from engine scanner 3x per year, AC and undercarriage service, up to free washing and 25% spare parts discount.",
           "details": [
@@ -204,6 +192,78 @@
             {
               "title": "25% Spare Parts Discount",
               "description": "Special pricing on all genuine parts."
+            }
+          ]
+        },
+        {
+          "id": "r5",
+          "slug": "diamond-grade-service-promo",
+          "title": "Diamond Grade Promo (Min. 1 Machine Purchase)",
+          "discount": null,
+          "image": "/promo/promo-diamond.webp",
+          "price": "Rp200,000,000",
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "DIAMOND",
+          "size": "small",
+          "location": "All Locations",
+          "description": "Diamond Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine. Total benefits up to Rp200,000,000.",
+          "details": [
+            {
+              "title": "Unlimited Free Engine Scanner",
+              "description": "Use as much as you need for accurate engine diagnostics."
+            },
+            {
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "4x per year to keep your machine in top performance."
+            },
+            {
+              "title": "Free Complete Undercarriage Service",
+              "description": "4x per year to ensure comfort and safety."
+            },
+            {
+              "title": "Free Full Interior & Exterior Detailing",
+              "description": "4x per year, always keep your machine clean and fresh."
+            },
+            {
+              "title": "45% Spare Parts Discount",
+              "description": "Big savings for spare parts purchases outside the bonus."
+            }
+          ]
+        },
+        {
+          "id": "r6",
+          "slug": "exclusive-grade-service-promo",
+          "title": "Exclusive Grade Promo (Min. 1 Machine Purchase)",
+          "discount": null,
+          "image": "/promo/promo-exclusive.webp",
+          "price": "Rp250,000,000",
+          "originalPrice": null,
+          "category": "Forklift",
+          "badge": "EXCLUSIVE",
+          "size": "small",
+          "location": "All Locations",
+          "description": "Exclusive Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine. Total benefits up to Rp250,000,000.",
+          "details": [
+            {
+              "title": "Unlimited Free Engine Scanner",
+              "description": "Use as much as you need for accurate engine diagnostics."
+            },
+            {
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "6x per year to keep your machine in top performance."
+            },
+            {
+              "title": "Free Complete Undercarriage Service",
+              "description": "6x per year to ensure comfort and safety."
+            },
+            {
+              "title": "Free Full Interior & Exterior Detailing",
+              "description": "6x per year, always keep your machine clean and fresh."
+            },
+            {
+              "title": "50% Spare Parts Discount",
+              "description": "Big savings for spare parts purchases outside the bonus."
             }
           ]
         }

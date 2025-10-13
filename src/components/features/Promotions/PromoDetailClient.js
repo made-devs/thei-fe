@@ -6,8 +6,9 @@ import { Star, Wrench } from 'lucide-react';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
-export default function PromoDetailClient({ promo }) {
+export default function PromoDetailClient({ promo, lang }) {
   const [isLoadingImage, setIsLoadingImage] = useState(true);
+  const [aspectRatio, setAspectRatio] = useState(1); // Default square
   const mainRef = useRef(null);
 
   // Animasi saat komponen pertama kali dimuat
@@ -28,22 +29,35 @@ export default function PromoDetailClient({ promo }) {
     setIsLoadingImage(true);
   }, [promo]);
 
+  // Template pesan berdasarkan bahasa
+  const whatsappMessage =
+    lang === 'en'
+      ? `Hello, I'm interested in the promo "${promo.title}". Can you provide more information?`
+      : `Halo, saya tertarik dengan promo "${promo.title}". Bisa info lebih lanjut?`;
+
   return (
     <main ref={mainRef} className="bg-black text-white">
       {/* Konten Detail Promo */}
       <section className="page-element py-16">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               {/* Kolom Kiri: Gambar Promo */}
               <div className="relative">
-                <div className="relative aspect-square bg-gray-900 rounded-lg overflow-hidden">
+                <div
+                  className="relative bg-gray-900 rounded-lg overflow-hidden"
+                  style={{ aspectRatio }}
+                >
                   <Image
                     src={promo.image}
                     alt={promo.title}
                     fill
                     className="object-cover"
-                    onLoad={() => setIsLoadingImage(false)}
+                    onLoad={(e) => {
+                      setIsLoadingImage(false);
+                      const img = e.target;
+                      setAspectRatio(img.naturalWidth / img.naturalHeight);
+                    }}
                   />
                 </div>
               </div>
@@ -97,10 +111,16 @@ export default function PromoDetailClient({ promo }) {
 
                 {/* CTA Button */}
                 <Link
-                  href={`/kontak?promo=${promo.slug}`}
+                  href={`https://wa.me/6285195886789?text=${encodeURIComponent(
+                    whatsappMessage
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block w-full text-center bg-yellow-400 text-black font-jakarta font-bold text-base px-10 py-4 rounded-lg transition-all duration-300 ease-in-out hover:bg-white hover:text-yellow-600 hover:-translate-y-1 hover:shadow-lg"
                 >
-                  Claim This Promo Now
+                  {lang === 'en'
+                    ? 'Chat WhatsApp Now'
+                    : 'Chat WhatsApp Sekarang'}
                 </Link>
               </div>
             </div>

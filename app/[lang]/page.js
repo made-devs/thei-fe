@@ -1,22 +1,23 @@
 // Filepath: app/[lang]/page.js
 
 // Ganti import ke getDictionary
-import { getDictionary } from "@/lib/dictionary";
-import Hero from "@/components/features/home/Hero";
-import HighlightPromo from "@/components/features/home/HighlightPromo";
-import MainCta from "@/components/features/home/MainCta";
-import News from "@/components/features/home/News";
-import NewsTicker from "@/components/features/home/NewsTicker";
+import { getDictionary } from '@/lib/dictionary';
+import Hero from '@/components/features/home/Hero';
+import HighlightPromo from '@/components/features/home/HighlightPromo';
+import MainCta from '@/components/features/home/MainCta';
+import News from '@/components/features/home/News';
+import NewsTicker from '@/components/features/home/NewsTicker';
 // import PopularEquipment from '../components/Home/PopularEquipment';
-import Testimonials from "@/components/features/home/Testimonials";
-import WhyThei from "@/components/features/home/WhyThei";
+import Testimonials from '@/components/features/home/Testimonials';
+import WhyThei from '@/components/features/home/WhyThei';
 // ...impor komponen lainnya
 
 export default async function HomePage({ params }) {
   const { lang } = await params;
   // Panggil fungsi yang baru dengan nama halaman 'homepage'
-  const dictionary = await getDictionary(lang, "homepage");
-  const newsListDict = await getDictionary(lang, "news/list");
+  const dictionary = await getDictionary(lang, 'homepage');
+  const newsListDict = await getDictionary(lang, 'news/list');
+  const promoDict = await getDictionary(lang, 'promotions');
 
   const newsDataForHomePage = {
     ...dictionary.news,
@@ -37,7 +38,7 @@ export default async function HomePage({ params }) {
         </div>
         <div className="h-px w-1/3 mx-auto bg-yellow-400 opacity-60 rounded" />
         <HighlightPromo
-          dictionary={dictionary.highlight_promo}
+          dictionary={promoDict.promotions_page.promo_cards}
           currentLocale={lang}
         />
       </div>

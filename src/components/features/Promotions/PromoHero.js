@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ChevronRight, Clock, MapPin, Eye, Tag } from 'lucide-react';
+import { ChevronRight, MapPin, Tag } from 'lucide-react';
 
 const PromoHero = ({ promo }) => {
   if (!promo) return null;
@@ -45,23 +45,15 @@ const PromoHero = ({ promo }) => {
         )}
 
         {/* Title */}
-        <h1 className="font-teko text-4xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-2 sm:mt-4 max-w-4xl leading-tight">
           {promo.title}
         </h1>
 
         {/* Meta Info */}
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-6 mt-6 text-sm">
           <div className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-full backdrop-blur-sm">
-            <Clock size={16} className="text-yellow-400" />
-            <span>{promo.expiry}</span>
-          </div>
-          <div className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-full backdrop-blur-sm">
             <MapPin size={16} className="text-yellow-400" />
             <span>{promo.location}</span>
-          </div>
-          <div className="flex items-center gap-2 bg-black/40 px-3 py-1.5 rounded-full backdrop-blur-sm">
-            <Eye size={16} className="text-yellow-400" />
-            <span>{promo.views} views</span>
           </div>
           {promo.discount && (
             <div className="flex items-center gap-2 bg-yellow-400 text-black px-3 py-1.5 rounded-full font-bold">

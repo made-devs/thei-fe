@@ -13,7 +13,7 @@
       "list": [
         {
           "id": "f1",
-          "title": "Promo Pembelian Alat Berat (All Type) S/D Rp 250.000.000,-",
+          "title": "Promo Pembelian Alat Berat (All Type) S/D Rp 285.000.000,-",
           "discount": "30%",
           "image": "/promo/promo1.webp",
           "price": null,
@@ -100,6 +100,44 @@
           "views": 312,
           "location": "Semua Lokasi",
           "description": "Dengan total keuntungan senilai 20 juta rupiah, Anda mendapatkan lusinan layanan mulai dari engine scanner 3x setahun, service AC dan kaki-kaki, hingga gratis cuci unit dan diskon sparepart 25%."
+        },
+        {
+          "id": "r5",
+          "slug": "diamond-grade-service-promo",
+          "title": "Promo Grade Diamond (Min. 1 Unit Mesin)",
+          "discount": null,
+          "image": "/promo/promo-diamond.webp",
+          "price": "Rp200.000.000",
+          "originalPrice": null,
+          "category": "Excavator",
+          "badge": "DIAMOND",
+          "size": "small",
+          "expiry": null,
+          "views": 0,
+          "location": "All Locations",
+          "description": "Promo Grade Diamond: Paket servis dan inspeksi super lengkap untuk pembelian minimal 1 unit mesin. Total benefit hingga Rp200.000.000.",
+          "details": [
+            {
+              "title": "Free Engine Scanner Sepuasnya",
+              "description": "Bebas pakai, tanpa batas untuk diagnosa mesin."
+            },
+            {
+              "title": "Tune Up 65 Komponen + Carbon Cleaner",
+              "description": "4x per tahun, menjaga performa mesin tetap optimal."
+            },
+            {
+              "title": "Free Service Kaki-Kaki Super Komplit",
+              "description": "4x per tahun, memastikan kenyamanan dan keamanan berkendara."
+            },
+            {
+              "title": "Free Full Detailing Interior & Eksterior",
+              "description": "4x per tahun, kendaraan selalu tampil bersih dan prima."
+            },
+            {
+              "title": "Diskon Sparepart 45%",
+              "description": "Potongan harga besar untuk pembelian sparepart di luar bonus."
+            }
+          ]
         }
       ]
     },
