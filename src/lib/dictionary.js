@@ -87,18 +87,16 @@ export const getArticle = async (locale, slug) => {
 // --- Fungsi untuk mendapatkan semua slug artikel (untuk generateStaticParams) ---
 export const getAllArticleSlugs = async () => {
   const slugs = [];
-  const locale = i18n.defaultLocale;
-  try {
-    // Update path: ganti ../../ ke @
-    const listModule = await import(`@/dictionaries/${locale}/news/list.json`);
-    const articles = listModule.default.articles || [];
-    articles.forEach((article) => {
-      i18n.locales.forEach((loc) => {
+  for (const loc of i18n.locales) {
+    try {
+      const listModule = await import(`@/dictionaries/${loc}/news/list.json`);
+      const articles = listModule.default.articles || [];
+      articles.forEach((article) => {
         slugs.push({ lang: loc, slug: article.slug });
       });
-    });
-  } catch (error) {
-    console.error(`Could not load article list for locale "${locale}"`, error);
+    } catch (error) {
+      console.error(`Could not load article list for locale "${loc}"`, error);
+    }
   }
   return slugs;
 };
