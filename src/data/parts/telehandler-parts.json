@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Filter Oli Telehandler",
+    "type": "Filter",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 180,000",
+    "image": "/parts/telehandler-filter-oli.webp",
+    "description": "Filter oli untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Telehandler",
+    "type": "Filter",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 150,000",
+    "image": "/parts/telehandler-filter-udara.webp",
+    "description": "Filter udara untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Tire Telehandler",
+    "type": "Tire",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 2,500,000",
+    "image": "/parts/telehandler-tire.webp",
+    "description": "Tire untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Hose Telehandler",
+    "type": "Hydraulic",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 400,000",
+    "image": "/parts/telehandler-hydraulic-hose.webp",
+    "description": "Hydraulic hose untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Telehandler",
+    "type": "Hydraulic",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 350,000",
+    "image": "/parts/telehandler-seal-kit.webp",
+    "description": "Seal kit untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Sensor Telehandler",
+    "type": "Sensor",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 300,000",
+    "image": "/parts/telehandler-sensor.webp",
+    "description": "Sensor untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Switch Telehandler",
+    "type": "Sensor",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 200,000",
+    "image": "/parts/telehandler-switch.webp",
+    "description": "Switch untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Aerial Work Platform",
+    "type": "Filter",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 200,000",
+    "image": "/parts/awp-filter-oli.webp",
+    "description": "Filter oli untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Aerial Work Platform",
+    "type": "Filter",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 170,000",
+    "image": "/parts/awp-filter-udara.webp",
+    "description": "Filter udara untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Tire Aerial Work Platform",
+    "type": "Tire",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 1,800,000",
+    "image": "/parts/awp-tire.webp",
+    "description": "Tire untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Hose Aerial Work Platform",
+    "type": "Hydraulic",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 450,000",
+    "image": "/parts/awp-hydraulic-hose.webp",
+    "description": "Hydraulic hose untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Aerial Work Platform",
+    "type": "Hydraulic",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 400,000",
+    "image": "/parts/awp-seal-kit.webp",
+    "description": "Seal kit untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Sensor Aerial Work Platform",
+    "type": "Sensor",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 350,000",
+    "image": "/parts/awp-sensor.webp",
+    "description": "Sensor untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Switch Aerial Work Platform",
+    "type": "Sensor",
+    "subType": "Aerial Work Platform",
+    "category": "Telehandler",
+    "price": "Rp 250,000",
+    "image": "/parts/awp-switch.webp",
+    "description": "Switch untuk aerial work platform.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Hose Kit Telehandler",
+    "type": "Hydraulic",
+    "subType": "Telehandler",
+    "category": "Telehandler",
+    "price": "Rp 500,000",
+    "image": "/parts/telehandler-hydraulic-hose-kit.webp",
+    "description": "Hydraulic hose kit untuk telehandler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

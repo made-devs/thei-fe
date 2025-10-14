@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Drum Bearing Vibro Roller",
+    "type": "Bearing",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 1,000,000",
+    "image": "/parts/vibro-roller-drum-bearing.webp",
+    "description": "Drum bearing untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Mount Vibro Roller",
+    "type": "Rubber Mount",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 300,000",
+    "image": "/parts/vibro-roller-rubber-mount.webp",
+    "description": "Rubber mount untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Vibro Roller",
+    "type": "Filter",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 250,000",
+    "image": "/parts/vibro-roller-filter-set.webp",
+    "description": "Filter set untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Pump Seal Vibro Roller",
+    "type": "Hydraulic",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 400,000",
+    "image": "/parts/vibro-roller-hydraulic-pump-seal.webp",
+    "description": "Hydraulic pump seal untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Drum Bearing Spare Vibro Roller",
+    "type": "Bearing",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 950,000",
+    "image": "/parts/vibro-roller-drum-bearing-spare.webp",
+    "description": "Drum bearing spare untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Mount Kit Vibro Roller",
+    "type": "Rubber Mount",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 350,000",
+    "image": "/parts/vibro-roller-rubber-mount-kit.webp",
+    "description": "Rubber mount kit untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Vibro Roller",
+    "type": "Filter",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 150,000",
+    "image": "/parts/vibro-roller-filter-oli.webp",
+    "description": "Filter oli untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Seal Kit Vibro Roller",
+    "type": "Hydraulic",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 450,000",
+    "image": "/parts/vibro-roller-hydraulic-seal-kit.webp",
+    "description": "Hydraulic seal kit untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bearing Replacement Vibro Roller",
+    "type": "Bearing",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 800,000",
+    "image": "/parts/vibro-roller-bearing-replacement.webp",
+    "description": "Bearing replacement untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Mount Heavy Duty Vibro Roller",
+    "type": "Rubber Mount",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 400,000",
+    "image": "/parts/vibro-roller-rubber-mount-heavy.webp",
+    "description": "Rubber mount heavy duty untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Vibro Roller",
+    "type": "Filter",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 120,000",
+    "image": "/parts/vibro-roller-filter-udara.webp",
+    "description": "Filter udara untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Pump Seal Spare Vibro Roller",
+    "type": "Hydraulic",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 380,000",
+    "image": "/parts/vibro-roller-hydraulic-pump-seal-spare.webp",
+    "description": "Hydraulic pump seal spare untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Drum Bearing Kit Vibro Roller",
+    "type": "Bearing",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 1,200,000",
+    "image": "/parts/vibro-roller-drum-bearing-kit.webp",
+    "description": "Drum bearing kit untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Mount Set Vibro Roller",
+    "type": "Rubber Mount",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 500,000",
+    "image": "/parts/vibro-roller-rubber-mount-set.webp",
+    "description": "Rubber mount set untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hydraulic Vibro Roller",
+    "type": "Filter",
+    "subType": "Vibro Roller",
+    "category": "Vibro Roller",
+    "price": "Rp 180,000",
+    "image": "/parts/vibro-roller-filter-hydraulic.webp",
+    "description": "Filter hydraulic untuk vibro roller.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

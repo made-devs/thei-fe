@@ -36,21 +36,12 @@ export default async function NewMachinesPage({ params }) {
   // Ambil dictionary untuk homepage (untuk CTA di bawah)
   const homeDictionary = await getDictionary(lang, 'homepage');
 
-  // Data promo dummy untuk equipment (bisa diambil dari dictionary atau API)
-  const equipmentPromos = [
-    {
-      id: 'p1',
-      title: 'Promo Grand Opening',
-      tagline: 'Pembelian Alat Berat (All Type) S/D Rp 250.000.000,-',
-      discount: '30%',
-      image: '/promo/promo-products.webp', // Ganti dengan path gambar yang sesuai
-      description:
-        'Promo Grand Opening THEI! Hemat puluhan juta dengan diskon alat berat hingga 30%. Dapatkan juga bonus lengkap: gratis training operator, bebas ongkir Jabodetabek, paket hadiah eksklusif, dan layanan purna jual VIP. Penawaran paling menguntungkan untuk bisnis Anda!',
-      imageDetail: '/promo/promo1.webp',
-      expiry: '7 hari lagi',
-      views: 2450,
-    },
-  ];
+  // Ambil data promo dari promotions.json, filter berdasarkan ID 'f1'
+  const promotionsDict = await getDictionary(lang, 'promotions');
+  const equipmentPromos =
+    promotionsDict.promotions_page?.promo_cards?.list?.filter(
+      (promo) => promo.id === 'f1'
+    ) || [];
 
   // Ambil daftar kategori alat berat dari dictionary
   const equipmentCategories = newMachinesDict.types || [];

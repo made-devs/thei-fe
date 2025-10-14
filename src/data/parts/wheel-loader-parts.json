@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Filter Set Oli Wheel Loader",
+    "type": "Filter",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 250,000",
+    "image": "/parts/wheel-loader-filter-oli.webp",
+    "description": "Filter set oli untuk mesin wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Udara Wheel Loader",
+    "type": "Filter",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 150,000",
+    "image": "/parts/wheel-loader-filter-udara.webp",
+    "description": "Filter set udara untuk wheel loader, mencegah debu.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Solar Wheel Loader",
+    "type": "Filter",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 200,000",
+    "image": "/parts/wheel-loader-filter-solar.webp",
+    "description": "Filter set solar untuk sistem bahan bakar wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Transmisi Wheel Loader",
+    "type": "Filter",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 300,000",
+    "image": "/parts/wheel-loader-filter-transmisi.webp",
+    "description": "Filter set transmisi untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal & Gasket Set Wheel Loader",
+    "type": "Seal",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 400,000",
+    "image": "/parts/wheel-loader-seal-gasket.webp",
+    "description": "Seal dan gasket set untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Kampas Rem Wheel Loader",
+    "type": "Brake Components",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 350,000",
+    "image": "/parts/wheel-loader-kampas-rem.webp",
+    "description": "Kampas rem untuk sistem pengereman wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Steering Cylinder Seal Kit Wheel Loader",
+    "type": "Steering",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 500,000",
+    "image": "/parts/wheel-loader-steering-seal.webp",
+    "description": "Seal kit untuk steering cylinder wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Transmission Coupling Wheel Loader",
+    "type": "Transmission",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 600,000",
+    "image": "/parts/wheel-loader-transmission-coupling.webp",
+    "description": "Transmission coupling untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bearing Wheel Loader",
+    "type": "Bearing",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 450,000",
+    "image": "/parts/wheel-loader-bearing.webp",
+    "description": "Bearing untuk wheel loader, tahan beban.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Universal Joint Wheel Loader",
+    "type": "Bearing",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 550,000",
+    "image": "/parts/wheel-loader-universal-joint.webp",
+    "description": "Universal joint untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Tambahan Wheel Loader",
+    "type": "Filter",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 180,000",
+    "image": "/parts/wheel-loader-filter-oli-tambahan.webp",
+    "description": "Filter oli tambahan untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Tambahan Wheel Loader",
+    "type": "Seal",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 350,000",
+    "image": "/parts/wheel-loader-seal-kit-tambahan.webp",
+    "description": "Seal kit tambahan untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Brake Pad Wheel Loader",
+    "type": "Brake Components",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 400,000",
+    "image": "/parts/wheel-loader-brake-pad.webp",
+    "description": "Brake pad untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Steering Seal Kit Wheel Loader",
+    "type": "Steering",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 450,000",
+    "image": "/parts/wheel-loader-steering-seal-kit.webp",
+    "description": "Steering seal kit untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Transmission Bearing Wheel Loader",
+    "type": "Transmission",
+    "subType": "Wheel Loader",
+    "category": "Wheel Loader",
+    "price": "Rp 500,000",
+    "image": "/parts/wheel-loader-transmission-bearing.webp",
+    "description": "Transmission bearing untuk wheel loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

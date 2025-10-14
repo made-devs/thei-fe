@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Hydraulic Seal Kit Boom Lift",
+    "type": "Hydraulic",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 450,000",
+    "image": "/parts/boom-lift-hydraulic-seal-kit.webp",
+    "description": "Hydraulic seal kit untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Control Switch Boom Lift",
+    "type": "Control",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 300,000",
+    "image": "/parts/boom-lift-control-switch.webp",
+    "description": "Control switch untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Joystick Boom Lift",
+    "type": "Control",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 800,000",
+    "image": "/parts/boom-lift-joystick.webp",
+    "description": "Joystick untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Boom Lift",
+    "type": "Filter",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 250,000",
+    "image": "/parts/boom-lift-filter-set.webp",
+    "description": "Filter set untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Seal Kit AWP",
+    "type": "Hydraulic",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 500,000",
+    "image": "/parts/awp-hydraulic-seal-kit.webp",
+    "description": "Hydraulic seal kit untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Control Switch AWP",
+    "type": "Control",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 350,000",
+    "image": "/parts/awp-control-switch.webp",
+    "description": "Control switch untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Joystick AWP",
+    "type": "Control",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 900,000",
+    "image": "/parts/awp-joystick.webp",
+    "description": "Joystick untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set AWP",
+    "type": "Filter",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 280,000",
+    "image": "/parts/awp-filter-set.webp",
+    "description": "Filter set untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Seal Replacement Boom Lift",
+    "type": "Hydraulic",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 400,000",
+    "image": "/parts/boom-lift-hydraulic-seal-replacement.webp",
+    "description": "Hydraulic seal replacement untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Control Switch Spare Boom Lift",
+    "type": "Control",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 320,000",
+    "image": "/parts/boom-lift-control-switch-spare.webp",
+    "description": "Control switch spare untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Joystick Replacement Boom Lift",
+    "type": "Control",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 750,000",
+    "image": "/parts/boom-lift-joystick-replacement.webp",
+    "description": "Joystick replacement untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Boom Lift",
+    "type": "Filter",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 150,000",
+    "image": "/parts/boom-lift-filter-oli.webp",
+    "description": "Filter oli untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Seal Complete Kit AWP",
+    "type": "Hydraulic",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 600,000",
+    "image": "/parts/awp-hydraulic-seal-complete.webp",
+    "description": "Hydraulic seal complete kit untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Control Joystick Kit AWP",
+    "type": "Control",
+    "subType": "AWP",
+    "category": "Boom Lift",
+    "price": "Rp 1,200,000",
+    "image": "/parts/awp-control-joystick-kit.webp",
+    "description": "Control joystick kit untuk AWP.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Complete Set Boom Lift",
+    "type": "Filter",
+    "subType": "Boom Lift",
+    "category": "Boom Lift",
+    "price": "Rp 300,000",
+    "image": "/parts/boom-lift-filter-complete.webp",
+    "description": "Filter complete set untuk boom lift.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

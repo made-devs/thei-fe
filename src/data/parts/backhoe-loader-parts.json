@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Filter Set Backhoe Loader",
+    "type": "Filter",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 300,000",
+    "image": "/parts/backhoe-loader-filter-set.webp",
+    "description": "Filter set untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pin Backhoe Loader",
+    "type": "Bearing",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 200,000",
+    "image": "/parts/backhoe-loader-pin.webp",
+    "description": "Pin untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bushing Backhoe Loader",
+    "type": "Bearing",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 150,000",
+    "image": "/parts/backhoe-loader-bushing.webp",
+    "description": "Bushing untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Cylinder Backhoe Loader",
+    "type": "Seal",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 400,000",
+    "image": "/parts/backhoe-loader-seal-kit.webp",
+    "description": "Seal kit cylinder untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bucket Teeth Backhoe Loader",
+    "type": "Bucket",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 500,000",
+    "image": "/parts/backhoe-loader-bucket-teeth.webp",
+    "description": "Bucket teeth untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Backhoe Loader",
+    "type": "Filter",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 150,000",
+    "image": "/parts/backhoe-loader-filter-oli.webp",
+    "description": "Filter oli untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pin & Bushing Kit Backhoe Loader",
+    "type": "Bearing",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 350,000",
+    "image": "/parts/backhoe-loader-pin-bushing-kit.webp",
+    "description": "Pin & bushing kit untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Cylinder Backhoe Loader",
+    "type": "Seal",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 300,000",
+    "image": "/parts/backhoe-loader-seal-cylinder.webp",
+    "description": "Seal cylinder untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bucket Teeth Replacement Backhoe Loader",
+    "type": "Bucket",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 450,000",
+    "image": "/parts/backhoe-loader-bucket-teeth-replacement.webp",
+    "description": "Bucket teeth replacement untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Backhoe Loader",
+    "type": "Filter",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 120,000",
+    "image": "/parts/backhoe-loader-filter-udara.webp",
+    "description": "Filter udara untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bushing Spare Backhoe Loader",
+    "type": "Bearing",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 180,000",
+    "image": "/parts/backhoe-loader-bushing-spare.webp",
+    "description": "Bushing spare untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Spare Backhoe Loader",
+    "type": "Seal",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 350,000",
+    "image": "/parts/backhoe-loader-seal-kit-spare.webp",
+    "description": "Seal kit spare untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bucket Teeth Set Backhoe Loader",
+    "type": "Bucket",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 600,000",
+    "image": "/parts/backhoe-loader-bucket-teeth-set.webp",
+    "description": "Bucket teeth set untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hydraulic Backhoe Loader",
+    "type": "Filter",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 200,000",
+    "image": "/parts/backhoe-loader-filter-hydraulic.webp",
+    "description": "Filter hydraulic untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pin Replacement Backhoe Loader",
+    "type": "Bearing",
+    "subType": "Backhoe Loader",
+    "category": "Backhoe Loader",
+    "price": "Rp 220,000",
+    "image": "/parts/backhoe-loader-pin-replacement.webp",
+    "description": "Pin replacement untuk backhoe loader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

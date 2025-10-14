@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Kampas Rem Dump Truck Standard",
+    "type": "Brake Components",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 500,000",
+    "image": "/parts/dump-truck-kampas-rem.webp",
+    "description": "Kampas rem untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Kampas Kopling Dump Truck Standard",
+    "type": "Brake Components",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 400,000",
+    "image": "/parts/dump-truck-kampas-kopling.webp",
+    "description": "Kampas kopling untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Dump Truck Standard",
+    "type": "Filter",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 150,000",
+    "image": "/parts/dump-truck-filter-oli.webp",
+    "description": "Filter oli untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Dump Truck Standard",
+    "type": "Filter",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 100,000",
+    "image": "/parts/dump-truck-filter-udara.webp",
+    "description": "Filter udara untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Solar Dump Truck Standard",
+    "type": "Filter",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 200,000",
+    "image": "/parts/dump-truck-filter-solar.webp",
+    "description": "Filter solar untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Shock Absorber Dump Truck Standard",
+    "type": "Shock Absorber",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 800,000",
+    "image": "/parts/dump-truck-shock-absorber.webp",
+    "description": "Shock absorber untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bearing Roda Dump Truck Standard",
+    "type": "Bearing",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 600,000",
+    "image": "/parts/dump-truck-bearing-roda.webp",
+    "description": "Bearing roda untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Lampu Dump Truck Standard",
+    "type": "Lighting",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 300,000",
+    "image": "/parts/dump-truck-lampu.webp",
+    "description": "Lampu untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Aksesoris Kabin Dump Truck Standard",
+    "type": "Lighting",
+    "subType": "Standard",
+    "category": "Dump Truck",
+    "price": "Rp 250,000",
+    "image": "/parts/dump-truck-aksesoris-kabin.webp",
+    "description": "Aksesoris kabin untuk dump truck standard.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Kampas Rem Dump Truck Heavy Duty",
+    "type": "Brake Components",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 700,000",
+    "image": "/parts/dump-truck-kampas-rem-heavy.webp",
+    "description": "Kampas rem untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Dump Truck Heavy Duty",
+    "type": "Filter",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 200,000",
+    "image": "/parts/dump-truck-filter-oli-heavy.webp",
+    "description": "Filter oli untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Shock Absorber Dump Truck Heavy Duty",
+    "type": "Shock Absorber",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 1,200,000",
+    "image": "/parts/dump-truck-shock-absorber-heavy.webp",
+    "description": "Shock absorber untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bearing Roda Dump Truck Heavy Duty",
+    "type": "Bearing",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 900,000",
+    "image": "/parts/dump-truck-bearing-roda-heavy.webp",
+    "description": "Bearing roda untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Lampu Dump Truck Heavy Duty",
+    "type": "Lighting",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 500,000",
+    "image": "/parts/dump-truck-lampu-heavy.webp",
+    "description": "Lampu untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Aksesoris Kabin Dump Truck Heavy Duty",
+    "type": "Lighting",
+    "subType": "Heavy Duty",
+    "category": "Dump Truck",
+    "price": "Rp 400,000",
+    "image": "/parts/dump-truck-aksesoris-kabin-heavy.webp",
+    "description": "Aksesoris kabin untuk dump truck heavy duty.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

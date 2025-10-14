@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Piston Concrete Pump",
+    "type": "Piston",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 1,500,000",
+    "image": "/parts/concrete-pump-piston.webp",
+    "description": "Piston untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Wear Plate Concrete Pump",
+    "type": "Piston",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 800,000",
+    "image": "/parts/concrete-pump-wear-plate.webp",
+    "description": "Wear plate untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Pompa Concrete Pump",
+    "type": "Seal",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 600,000",
+    "image": "/parts/concrete-pump-seal-kit.webp",
+    "description": "Seal kit pompa untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Hidrolik Concrete Pump",
+    "type": "Filter",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 250,000",
+    "image": "/parts/concrete-pump-filter-oli.webp",
+    "description": "Filter oli hidrolik untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Hose Concrete Pump",
+    "type": "Hose",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 400,000",
+    "image": "/parts/concrete-pump-rubber-hose.webp",
+    "description": "Rubber hose untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Clamp Concrete Pump",
+    "type": "Hose",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 150,000",
+    "image": "/parts/concrete-pump-clamp.webp",
+    "description": "Clamp untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Piston Spare Concrete Pump",
+    "type": "Piston",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 1,400,000",
+    "image": "/parts/concrete-pump-piston-spare.webp",
+    "description": "Piston spare untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Wear Plate Replacement Concrete Pump",
+    "type": "Piston",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 750,000",
+    "image": "/parts/concrete-pump-wear-plate-replacement.webp",
+    "description": "Wear plate replacement untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Pompa Spare Concrete Pump",
+    "type": "Seal",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 550,000",
+    "image": "/parts/concrete-pump-seal-kit-spare.webp",
+    "description": "Seal kit pompa spare untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hidrolik Concrete Pump",
+    "type": "Filter",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 300,000",
+    "image": "/parts/concrete-pump-filter-hidrolik.webp",
+    "description": "Filter hidrolik untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Rubber Hose Kit Concrete Pump",
+    "type": "Hose",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 500,000",
+    "image": "/parts/concrete-pump-rubber-hose-kit.webp",
+    "description": "Rubber hose kit untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Clamp Set Concrete Pump",
+    "type": "Hose",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 200,000",
+    "image": "/parts/concrete-pump-clamp-set.webp",
+    "description": "Clamp set untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Piston Wear Plate Kit Concrete Pump",
+    "type": "Piston",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 2,000,000",
+    "image": "/parts/concrete-pump-piston-wear-kit.webp",
+    "description": "Piston wear plate kit untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Replacement Concrete Pump",
+    "type": "Seal",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 450,000",
+    "image": "/parts/concrete-pump-seal-replacement.webp",
+    "description": "Seal replacement untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Concrete Pump",
+    "type": "Filter",
+    "subType": "Concrete Pump",
+    "category": "Concrete Pump",
+    "price": "Rp 350,000",
+    "image": "/parts/concrete-pump-filter-set.webp",
+    "description": "Filter set untuk concrete pump.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

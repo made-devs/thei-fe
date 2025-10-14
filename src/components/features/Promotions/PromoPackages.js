@@ -84,24 +84,9 @@ const PromoPackages = ({ dictionary, lang }) => {
   };
 
   const sendWhatsApp = (promo) => {
-    const messages = {
-      Excavator: `Halo, mau sewa excavator ${
-        promo.title || 'ini'
-      }. Untuk berapa hari dan area mana?`,
-      Bulldozer: `Halo, saya tertarik bulldozer ${
-        promo.title || 'ini'
-      }. Masih ready stock? Bisa COD?`,
-      Crane: `Halo, saya mau rental crane ${
-        promo.title || 'ini'
-      }. Kapasitas berapa ton yang tersedia?`,
-      Loader: `Halo, mau booking loader ${
-        promo.title || 'ini'
-      }. Kapan slot terdekat yang available?`,
-    };
-
-    const message =
-      messages[promo.category] ||
-      `Halo, saya tertarik dengan promo alat berat ini. Bisa info lebih lanjut?`;
+    const message = `Halo, saya tertarik dengan promo ${
+      promo.title || 'alat berat ini'
+    }. Bisa info lebih lanjut?`;
     const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
       message
     )}`;

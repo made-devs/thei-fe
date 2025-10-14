@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Blade Cutting Edge Motor Grader",
+    "type": "Blade",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 1,200,000",
+    "image": "/parts/motor-grader-blade-cutting-edge.webp",
+    "description": "Blade cutting edge untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Cylinder Motor Grader",
+    "type": "Seal",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 350,000",
+    "image": "/parts/motor-grader-seal-cylinder.webp",
+    "description": "Seal cylinder untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hose Hidrolik Motor Grader",
+    "type": "Seal",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 400,000",
+    "image": "/parts/motor-grader-hose-hidrolik.webp",
+    "description": "Hose hidrolik untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Motor Grader",
+    "type": "Filter",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 300,000",
+    "image": "/parts/motor-grader-filter-set.webp",
+    "description": "Filter set untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pump Hidrolik Motor Grader",
+    "type": "Pump",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 2,000,000",
+    "image": "/parts/motor-grader-pump-hidrolik.webp",
+    "description": "Pump hidrolik untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "King Pin Motor Grader",
+    "type": "Bearing",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 800,000",
+    "image": "/parts/motor-grader-king-pin.webp",
+    "description": "King pin untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Bearing Motor Grader",
+    "type": "Bearing",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 600,000",
+    "image": "/parts/motor-grader-bearing.webp",
+    "description": "Bearing untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Blade Edge Replacement Motor Grader",
+    "type": "Blade",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 1,000,000",
+    "image": "/parts/motor-grader-blade-edge.webp",
+    "description": "Replacement edge untuk blade motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Kit Cylinder Motor Grader",
+    "type": "Seal",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 450,000",
+    "image": "/parts/motor-grader-seal-kit.webp",
+    "description": "Seal kit cylinder untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Motor Grader",
+    "type": "Filter",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 200,000",
+    "image": "/parts/motor-grader-filter-oli.webp",
+    "description": "Filter oli untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pump Hidrolik Spare Motor Grader",
+    "type": "Pump",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 1,800,000",
+    "image": "/parts/motor-grader-pump-spare.webp",
+    "description": "Pump hidrolik spare untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "King Pin Bearing Motor Grader",
+    "type": "Bearing",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 700,000",
+    "image": "/parts/motor-grader-king-pin-bearing.webp",
+    "description": "King pin bearing untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hose Hidrolik Kit Motor Grader",
+    "type": "Seal",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 500,000",
+    "image": "/parts/motor-grader-hose-kit.webp",
+    "description": "Hose hidrolik kit untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Udara Motor Grader",
+    "type": "Filter",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 150,000",
+    "image": "/parts/motor-grader-filter-udara.webp",
+    "description": "Filter udara untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Pump Bearing Motor Grader",
+    "type": "Pump",
+    "subType": "Motor Grader",
+    "category": "Motor Grader",
+    "price": "Rp 900,000",
+    "image": "/parts/motor-grader-pump-bearing.webp",
+    "description": "Pump bearing untuk motor grader.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

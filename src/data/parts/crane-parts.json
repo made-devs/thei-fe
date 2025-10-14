@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Wire Rope Crane Mobile",
+    "type": "Wire Rope",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 5,000,000",
+    "image": "/parts/crane-wire-rope-mobile.webp",
+    "description": "Wire rope untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hook Block Crane Mobile",
+    "type": "Wire Rope",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 2,000,000",
+    "image": "/parts/crane-hook-block-mobile.webp",
+    "description": "Hook block untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Engine Crane Mobile",
+    "type": "Filter",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 300,000",
+    "image": "/parts/crane-filter-engine-mobile.webp",
+    "description": "Filter engine untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hydraulic Crane Mobile",
+    "type": "Filter",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 400,000",
+    "image": "/parts/crane-filter-hydraulic-mobile.webp",
+    "description": "Filter hydraulic untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Cylinder Telescopic Boom Crane Mobile",
+    "type": "Seal",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 600,000",
+    "image": "/parts/crane-seal-cylinder-mobile.webp",
+    "description": "Seal cylinder telescopic boom untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Limit Switch Crane Mobile",
+    "type": "Limit Switch",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 250,000",
+    "image": "/parts/crane-limit-switch-mobile.webp",
+    "description": "Limit switch untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Solenoid Crane Mobile",
+    "type": "Limit Switch",
+    "subType": "Mobile",
+    "category": "Crane",
+    "price": "Rp 350,000",
+    "image": "/parts/crane-solenoid-mobile.webp",
+    "description": "Solenoid untuk crane mobile.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Wire Rope Crane Truck",
+    "type": "Wire Rope",
+    "subType": "Truck",
+    "category": "Crane",
+    "price": "Rp 6,000,000",
+    "image": "/parts/crane-wire-rope-truck.webp",
+    "description": "Wire rope untuk crane truck.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hook Block Crane Truck",
+    "type": "Wire Rope",
+    "subType": "Truck",
+    "category": "Crane",
+    "price": "Rp 2,500,000",
+    "image": "/parts/crane-hook-block-truck.webp",
+    "description": "Hook block untuk crane truck.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Engine Crane Truck",
+    "type": "Filter",
+    "subType": "Truck",
+    "category": "Crane",
+    "price": "Rp 350,000",
+    "image": "/parts/crane-filter-engine-truck.webp",
+    "description": "Filter engine untuk crane truck.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Cylinder Telescopic Boom Crane Truck",
+    "type": "Seal",
+    "subType": "Truck",
+    "category": "Crane",
+    "price": "Rp 700,000",
+    "image": "/parts/crane-seal-cylinder-truck.webp",
+    "description": "Seal cylinder telescopic boom untuk crane truck.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Limit Switch Crane Truck",
+    "type": "Limit Switch",
+    "subType": "Truck",
+    "category": "Crane",
+    "price": "Rp 300,000",
+    "image": "/parts/crane-limit-switch-truck.webp",
+    "description": "Limit switch untuk crane truck.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Wire Rope Crane Rough Terrain",
+    "type": "Wire Rope",
+    "subType": "Rough Terrain",
+    "category": "Crane",
+    "price": "Rp 7,000,000",
+    "image": "/parts/crane-wire-rope-rough.webp",
+    "description": "Wire rope untuk crane rough terrain.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hydraulic Crane Rough Terrain",
+    "type": "Filter",
+    "subType": "Rough Terrain",
+    "category": "Crane",
+    "price": "Rp 450,000",
+    "image": "/parts/crane-filter-hydraulic-rough.webp",
+    "description": "Filter hydraulic untuk crane rough terrain.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal Cylinder Telescopic Boom Crane Rough Terrain",
+    "type": "Seal",
+    "subType": "Rough Terrain",
+    "category": "Crane",
+    "price": "Rp 800,000",
+    "image": "/parts/crane-seal-cylinder-rough.webp",
+    "description": "Seal cylinder telescopic boom untuk crane rough terrain.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Solenoid Crane Rough Terrain",
+    "type": "Limit Switch",
+    "subType": "Rough Terrain",
+    "category": "Crane",
+    "price": "Rp 400,000",
+    "image": "/parts/crane-solenoid-rough.webp",
+    "description": "Solenoid untuk crane rough terrain.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

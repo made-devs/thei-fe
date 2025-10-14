@@ -116,20 +116,6 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
 
                   {/* Content */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-white">
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="px-3 py-1 bg-yellow-400 text-black rounded-full text-sm font-bold">
-                        {promo.discount} OFF
-                      </span>
-                      <span className="px-3 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs flex items-center gap-1">
-                        <Clock className="w-3 h-3" />
-                        {promo.expiry}
-                      </span>
-                      <span className="px-3 py-1 bg-black/30 backdrop-blur-sm rounded-full text-xs flex items-center gap-1">
-                        <Eye className="w-3 h-3" />
-                        {promo.views}
-                      </span>
-                    </div>
-
                     <h2 className="text-3xl md:text-4xl font-bold mb-2 text-yellow-300 drop-shadow-lg">
                       {promo.title}
                     </h2>

@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Track Shoe Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 2,500,000",
+    "image": "/parts/bulldozer-track-shoe.webp",
+    "description": "Track shoe untuk bulldozer, tahan lama.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Track Pin Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 300,000",
+    "image": "/parts/bulldozer-track-pin.webp",
+    "description": "Track pin untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Track Bushing Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 400,000",
+    "image": "/parts/bulldozer-track-bushing.webp",
+    "description": "Track bushing untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Track Sprocket Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 1,800,000",
+    "image": "/parts/bulldozer-track-sprocket.webp",
+    "description": "Track sprocket untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Track Idler Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 1,200,000",
+    "image": "/parts/bulldozer-track-idler.webp",
+    "description": "Track idler untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Cutting Edge Blade Bulldozer",
+    "type": "Blade",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 1,500,000",
+    "image": "/parts/bulldozer-cutting-edge.webp",
+    "description": "Cutting edge untuk blade bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "End Bit Blade Bulldozer",
+    "type": "Blade",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 800,000",
+    "image": "/parts/bulldozer-end-bit.webp",
+    "description": "End bit untuk blade bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Seal & Gasket Bulldozer",
+    "type": "Seal",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 350,000",
+    "image": "/parts/bulldozer-seal-gasket.webp",
+    "description": "Seal dan gasket untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oil Bulldozer",
+    "type": "Filter",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 200,000",
+    "image": "/parts/bulldozer-filter-oil.webp",
+    "description": "Filter oil untuk mesin bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Fuel Bulldozer",
+    "type": "Filter",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 250,000",
+    "image": "/parts/bulldozer-filter-fuel.webp",
+    "description": "Filter fuel untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Hydraulic Bulldozer",
+    "type": "Filter",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 300,000",
+    "image": "/parts/bulldozer-filter-hydraulic.webp",
+    "description": "Filter hydraulic untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hose Hydraulic Bulldozer",
+    "type": "Hose",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 450,000",
+    "image": "/parts/bulldozer-hose-hydraulic.webp",
+    "description": "Hose hydraulic untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Track Roller Bulldozer",
+    "type": "Track",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 1,000,000",
+    "image": "/parts/bulldozer-track-roller.webp",
+    "description": "Track roller tambahan untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Blade Edge Replacement Bulldozer",
+    "type": "Blade",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 1,200,000",
+    "image": "/parts/bulldozer-blade-edge.webp",
+    "description": "Replacement edge untuk blade bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Hose Kit Bulldozer",
+    "type": "Hose",
+    "subType": "Bulldozer",
+    "category": "Bulldozer",
+    "price": "Rp 500,000",
+    "image": "/parts/bulldozer-hydraulic-hose-kit.webp",
+    "description": "Hydraulic hose kit untuk bulldozer.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]

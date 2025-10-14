@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Twist Lock Component Reach Stacker",
+    "type": "Twist Lock",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 1,500,000",
+    "image": "/parts/reach-stacker-twist-lock.webp",
+    "description": "Twist lock component untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Reach Stacker",
+    "type": "Filter",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 400,000",
+    "image": "/parts/reach-stacker-filter-set.webp",
+    "description": "Filter set untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hose Hydraulic Reach Stacker",
+    "type": "Hydraulic",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 600,000",
+    "image": "/parts/reach-stacker-hose-hydraulic.webp",
+    "description": "Hose hydraulic untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Sensor Reach Stacker",
+    "type": "Electronics",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 800,000",
+    "image": "/parts/reach-stacker-sensor.webp",
+    "description": "Sensor untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Electronic Parts Reach Stacker",
+    "type": "Electronics",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 1,200,000",
+    "image": "/parts/reach-stacker-electronic-parts.webp",
+    "description": "Electronic parts untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Twist Lock Component Container Handler",
+    "type": "Twist Lock",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 1,800,000",
+    "image": "/parts/container-handler-twist-lock.webp",
+    "description": "Twist lock component untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Set Container Handler",
+    "type": "Filter",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 450,000",
+    "image": "/parts/container-handler-filter-set.webp",
+    "description": "Filter set untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hose Hydraulic Container Handler",
+    "type": "Hydraulic",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 700,000",
+    "image": "/parts/container-handler-hose-hydraulic.webp",
+    "description": "Hose hydraulic untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Sensor Container Handler",
+    "type": "Electronics",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 900,000",
+    "image": "/parts/container-handler-sensor.webp",
+    "description": "Sensor untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Electronic Parts Container Handler",
+    "type": "Electronics",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 1,400,000",
+    "image": "/parts/container-handler-electronic-parts.webp",
+    "description": "Electronic parts untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Twist Lock Spare Reach Stacker",
+    "type": "Twist Lock",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 1,300,000",
+    "image": "/parts/reach-stacker-twist-lock-spare.webp",
+    "description": "Twist lock spare untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Filter Oli Reach Stacker",
+    "type": "Filter",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 200,000",
+    "image": "/parts/reach-stacker-filter-oli.webp",
+    "description": "Filter oli untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Hydraulic Hose Kit Reach Stacker",
+    "type": "Hydraulic",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 750,000",
+    "image": "/parts/reach-stacker-hydraulic-hose-kit.webp",
+    "description": "Hydraulic hose kit untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Electronic Control Unit Container Handler",
+    "type": "Electronics",
+    "subType": "Container Handler",
+    "category": "Reach Stacker",
+    "price": "Rp 2,000,000",
+    "image": "/parts/container-handler-ecu.webp",
+    "description": "Electronic control unit untuk container handler.",
+    "availability": "In Stock",
+    "fastMoving": true
+  },
+  {
+    "name": "Twist Lock Kit Complete Reach Stacker",
+    "type": "Twist Lock",
+    "subType": "Reach Stacker",
+    "category": "Reach Stacker",
+    "price": "Rp 2,500,000",
+    "image": "/parts/reach-stacker-twist-lock-kit.webp",
+    "description": "Twist lock kit complete untuk reach stacker.",
+    "availability": "In Stock",
+    "fastMoving": true
+  }
+]
