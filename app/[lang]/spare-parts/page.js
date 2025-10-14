@@ -1,3 +1,4 @@
+import { Suspense } from 'react'; // Tambah import Suspense
 import { getDictionary } from '@/lib/dictionary';
 import MainCta from '@/components/features/home/MainCta';
 import PageHero from '@/components/ui/PageHero'; // Ganti import dari PartsHero ke PageHero
@@ -69,11 +70,19 @@ export default async function PartsPage({ params }) {
     <>
       <PageHero dictionary={partsDict.hero} />{' '}
       {/* Ganti PartsHero dengan PageHero */}
-      <InteractivePartsView
-        categories={categories}
-        partsData={partsData}
-        lang={lang}
-      />{' '}
+      <Suspense
+        fallback={
+          <div className="container mx-auto px-6 py-12 text-center">
+            Loading...
+          </div>
+        }
+      >
+        <InteractivePartsView
+          categories={categories}
+          partsData={partsData}
+          lang={lang}
+        />{' '}
+      </Suspense>
       {/* Tambahkan InteractivePartsView setelah PageHero */}
       <PartsCategoryGrid dictionary={partsDict.category_section} />
       <KeyFeatures dictionary={partsDict.features_section} />
