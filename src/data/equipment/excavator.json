@@ -2,6 +2,7 @@
   "medium_excavators": [
     {
       "model": "ZE135G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze135g.webp",
       "basic_technical_data": {
@@ -17,6 +18,7 @@
     },
     {
       "model": "ZE135GF",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze135gf.webp",
       "basic_technical_data": {
@@ -32,6 +34,7 @@
     },
     {
       "model": "ZE145GU",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze145gu.webp",
       "basic_technical_data": {
@@ -47,6 +50,7 @@
     },
     {
       "model": "ZE210GLC",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze210glc.webp",
       "basic_technical_data": {
@@ -62,6 +66,7 @@
     },
     {
       "model": "ZE215G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze215g.webp",
       "basic_technical_data": {
@@ -77,6 +82,7 @@
     },
     {
       "model": "ZE215G PRO",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze215g(PRO).webp",
       "basic_technical_data": {
@@ -92,6 +98,7 @@
     },
     {
       "model": "ZE215G ACE",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze215g(ACE).webp",
       "basic_technical_data": {
@@ -107,6 +114,7 @@
     },
     {
       "model": "ZE215GLC",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze215glc.webp",
       "basic_technical_data": {
@@ -122,6 +130,7 @@
     },
     {
       "model": "ZE225GN",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze225gn.webp",
       "basic_technical_data": {
@@ -139,6 +148,7 @@
   "large_excavators": [
     {
       "model": "ZE335G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze335g.webp",
       "basic_technical_data": {
@@ -154,6 +164,7 @@
     },
     {
       "model": "ZE335GLc",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze335glc.webp",
       "basic_technical_data": {
@@ -169,6 +180,7 @@
     },
     {
       "model": "ZE335G ACE",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze335g(ACE).webp",
       "basic_technical_data": {
@@ -184,6 +196,7 @@
     },
     {
       "model": "ZE375G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze375g.webp",
       "basic_technical_data": {
@@ -199,6 +212,7 @@
     },
     {
       "model": "ZE385G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze385g.webp",
       "basic_technical_data": {
@@ -214,6 +228,7 @@
     },
     {
       "model": "ZE385G ACE",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze385g(ACE).webp",
       "basic_technical_data": {
@@ -229,6 +244,7 @@
     },
     {
       "model": "ZE385G Pro",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze385g(PRO).webp",
       "basic_technical_data": {
@@ -244,6 +260,7 @@
     },
     {
       "model": "ZE385G Pro (Gold)",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze385g(PRO)(GOLD).webp",
       "basic_technical_data": {
@@ -259,6 +276,7 @@
     },
     {
       "model": "ZE500G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze500g.webp",
       "basic_technical_data": {
@@ -274,6 +292,7 @@
     },
     {
       "model": "ZE550G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze550g.webp",
       "basic_technical_data": {
@@ -289,6 +308,7 @@
     },
     {
       "model": "ZE750G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze750g.webp",
       "basic_technical_data": {
@@ -304,6 +324,7 @@
     },
     {
       "model": "ZE900G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze900g.webp",
       "basic_technical_data": {
@@ -319,6 +340,7 @@
     },
     {
       "model": "ZE1250G",
+      "brand": "Zoomlion",
       "type": "Excavator",
       "image": "/equipment/excavator/ze1250g.webp",
       "basic_technical_data": {

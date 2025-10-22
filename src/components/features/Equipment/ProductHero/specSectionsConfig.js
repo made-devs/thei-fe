@@ -94,4 +94,21 @@ export const categorySpecSections = {
     { title: 'Running Specification', dataKey: 'running_specification' },
     { title: 'Tank Capacity', dataKey: 'tank_capacity' },
   ],
+  'backhoe-loader': [
+    { title: 'Engine', dataKey: 'engine' },
+    { title: 'Transmission', dataKey: 'transmission' },
+    { title: 'Weights', dataKey: 'weights' },
+    { title: 'Hydraulic System', dataKey: 'hydraulic_system' },
+    { title: 'Backhoe Performance', dataKey: 'backhoe_performance' },
+    { title: 'Loader Performance', dataKey: 'loader_performance' },
+    { title: 'Dimensions', dataKey: 'dimensions' },
+  ],
+  'reach-stacker': [
+    { title: 'Engine', dataKey: 'engine' },
+    { title: 'Transmission', dataKey: 'transmission' },
+    { title: 'Drive Axle', dataKey: 'drive_axle' },
+    { title: 'Hydraulic System', dataKey: 'hydraulic_system' },
+    { title: 'Performance', dataKey: 'performance' },
+    { title: 'Dimensions & Weight', dataKey: 'dimensions_and_weight' },
+  ],
 };

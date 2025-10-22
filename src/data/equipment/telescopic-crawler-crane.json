@@ -2,6 +2,7 @@
   "telescopic_crawler_cranes": [
     {
       "model": "ZCT3500V853",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v432.webp",
       "technical_data": {
         "max_lifting_capacity": "350t",
@@ -12,6 +13,7 @@
     },
     {
       "model": "ZCT3500V843",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct3500v843.webp",
       "technical_data": {
         "max_lifting_capacity": "350t",
@@ -22,6 +24,7 @@
     },
     {
       "model": "ZCT1500V653",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1500v653.webp",
       "technical_data": {
         "max_lifting_capacity": "150t",
@@ -32,6 +35,7 @@
     },
     {
       "model": "ZCT1500V633",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1500v633.webp",
       "technical_data": {
         "max_lifting_capacity": "150t",
@@ -42,6 +46,7 @@
     },
     {
       "model": "ZCT1200V633",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1200v633.webp",
       "technical_data": {
         "max_lifting_capacity": "120t",
@@ -52,6 +57,7 @@
     },
     {
       "model": "ZCT1000V502EV",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1000v502ev.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -62,6 +68,7 @@
     },
     {
       "model": "ZCT1000V552.1",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1000v552.1.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -72,6 +79,7 @@
     },
     {
       "model": "ZCT1000V532",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct1000v532.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -82,6 +90,7 @@
     },
     {
       "model": "ZCT600V532",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct600v532.webp",
       "technical_data": {
         "max_lifting_capacity": "60t",
@@ -92,6 +101,7 @@
     },
     {
       "model": "ZCT500V542",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct500v542.webp",
       "technical_data": {
         "max_lifting_capacity": "50t",
@@ -102,6 +112,7 @@
     },
     {
       "model": "ZCT300V502EV",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v502ev.webp",
       "technical_data": {
         "max_lifting_capacity": "30t",
@@ -112,6 +123,7 @@
     },
     {
       "model": "ZCT300V532-1",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v532-1.webp",
       "technical_data": {
         "max_lifting_capacity": "30t",
@@ -122,6 +134,7 @@
     },
     {
       "model": "ZCT300V442",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v442.webp",
       "technical_data": {
         "max_lifting_capacity": "30t",
@@ -132,6 +145,7 @@
     },
     {
       "model": "ZCT160V442",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct160v442.webp",
       "technical_data": {
         "max_lifting_capacity": "16t",
@@ -142,6 +156,7 @@
     },
     {
       "model": "ZCT900",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct900.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -152,6 +167,7 @@
     },
     {
       "model": "ZCT900V532.1",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct900v532.1.webp",
       "technical_data": {
         "max_lifting_capacity": "90t",
@@ -162,6 +178,7 @@
     },
     {
       "model": "ZCT300V532",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v532.webp",
       "technical_data": {
         "max_lifting_capacity": "30t",
@@ -172,6 +189,7 @@
     },
     {
       "model": "ZCT300V432",
+      "brand": "Zoomlion",
       "image": "/equipment/telescopic-crawler-crane/zct300v432.webp",
       "technical_data": {
         "max_lifting_capacity": null,

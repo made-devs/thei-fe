@@ -2,6 +2,7 @@
   "telehandlers": [
     {
       "model": "ZTH4525R",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth4525r.webp",
       "size_and_performance": {
@@ -53,6 +54,7 @@
     },
     {
       "model": "ZTH4518R",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth4518r.webp",
       "size_and_performance": {
@@ -104,6 +106,7 @@
     },
     {
       "model": "ZTH4018",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth4018.webp",
       "size_and_performance": {
@@ -155,6 +158,7 @@
     },
     {
       "model": "ZTH4014",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth4014.webp",
       "size_and_performance": {
@@ -206,6 +210,7 @@
     },
     {
       "model": "ZTH3513",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth3513.webp",
       "size_and_performance": {
@@ -257,6 +262,7 @@
     },
     {
       "model": "ZTH3507",
+      "brand": "Zoomlion",
       "type": "Telehandler",
       "image": "/equipment/telehandler/zth3507.webp",
       "size_and_performance": {

@@ -2,6 +2,7 @@
   "crawler_cranes": [
     {
       "model": "ZCC2200V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc2200v.webp",
       "technical_data": {
         "max_lifting_capacity": "220t",
@@ -17,6 +18,7 @@
     },
     {
       "model": "ZCC32000",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc32000.webp",
       "technical_data": {
         "max_lifting_capacity": "2000t",
@@ -32,6 +34,7 @@
     },
     {
       "model": "ZCC18000",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc18000.webp",
       "technical_data": {
         "max_lifting_capacity": "1600t",
@@ -47,6 +50,7 @@
     },
     {
       "model": "ZCC9800W",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc9800w.webp",
       "technical_data": {
         "max_lifting_capacity": "800t",
@@ -62,6 +66,7 @@
     },
     {
       "model": "ZCC7200",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc7200.webp",
       "technical_data": {
         "max_lifting_capacity": "600t",
@@ -77,6 +82,7 @@
     },
     {
       "model": "ZCC5800",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc5800.webp",
       "technical_data": {
         "max_lifting_capacity_standard": "450t",
@@ -113,6 +119,7 @@
     },
     {
       "model": "ZCC1000V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1000v.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -128,6 +135,7 @@
     },
     {
       "model": "ZCC2600-2",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc2600-2.webp",
       "technical_data": {
         "max_lifting_capacity": "260t",
@@ -155,6 +163,7 @@
     },
     {
       "model": "ZCC1600HD",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1600hd.webp",
       "technical_data": {
         "max_lifting_capacity": "160t",
@@ -174,6 +183,7 @@
     },
     {
       "model": "ZCC17000E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc17000e5.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -189,6 +199,7 @@
     },
     {
       "model": "ZCC17000",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc17000.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -204,6 +215,7 @@
     },
     {
       "model": "ZCC12800E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc12800e5.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -219,6 +231,7 @@
     },
     {
       "model": "ZCC12800",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc12800.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -234,6 +247,7 @@
     },
     {
       "model": "ZCC4000VE5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc4000ve5.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -249,6 +263,7 @@
     },
     {
       "model": "ZCC4000V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc4000v.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -264,6 +279,7 @@
     },
     {
       "model": "ZCC3500V-2E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc3500v-2e5.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -279,6 +295,7 @@
     },
     {
       "model": "ZCC3500V-2",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc3500v-2.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -294,6 +311,7 @@
     },
     {
       "model": "ZCC3200V-1",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc3200v-1.webp",
       "technical_data": {
         "max_lifting_capacity": null,
@@ -309,6 +327,7 @@
     },
     {
       "model": "ZCC2200VE5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc2200ve5.webp",
       "technical_data": {
         "max_lifting_capacity": "220t",
@@ -324,6 +343,7 @@
     },
     {
       "model": "ZCC1500V-1EVD",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1500v-1evd.webp",
       "technical_data": {
         "max_lifting_capacity": "150t",
@@ -340,6 +360,7 @@
 
     {
       "model": "ZCC1100V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1100v.webp",
       "technical_data": {
         "max_lifting_capacity": "110t",
@@ -355,6 +376,7 @@
     },
     {
       "model": "ZCC1500V-1E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1500v-1e5.webp",
       "technical_data": {
         "max_lifting_capacity": "150t",
@@ -370,6 +392,7 @@
     },
     {
       "model": "ZCC1500V-1",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1500v-1.webp",
       "technical_data": {
         "max_lifting_capacity": "150t",
@@ -385,6 +408,7 @@
     },
     {
       "model": "ZCC1000V-1E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1000v-1e5.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -400,6 +424,7 @@
     },
     {
       "model": "ZCC1000V-1",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc1000v-1.webp",
       "technical_data": {
         "max_lifting_capacity": "100t",
@@ -415,6 +440,7 @@
     },
     {
       "model": "ZCC850V-1EV",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc850v-1ev.webp",
       "technical_data": {
         "max_lifting_capacity": "85t",
@@ -430,6 +456,7 @@
     },
     {
       "model": "ZCC850V-1E5",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc850v-1e5.webp",
       "technical_data": {
         "max_lifting_capacity": "85t",
@@ -445,6 +472,7 @@
     },
     {
       "model": "ZCC850V-1",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc850v-1.webp",
       "technical_data": {
         "max_lifting_capacity": "85t",
@@ -460,6 +488,7 @@
     },
     {
       "model": "ZCC600V-1",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc600v-1.webp",
       "technical_data": {
         "max_lifting_capacity": "60t",
@@ -475,6 +504,7 @@
     },
     {
       "model": "ZCC500V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc500v.webp",
       "technical_data": {
         "max_lifting_capacity": "50t",
@@ -490,6 +520,7 @@
     },
     {
       "model": "ZCC550V",
+      "brand": "Zoomlion",
       "image": "/equipment/crawler-crane/zcc550v.webp",
       "technical_data": {
         "max_lifting_moment": "209t·m",

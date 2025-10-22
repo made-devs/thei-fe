@@ -2,6 +2,7 @@
   "vibro_rollers": [
     {
       "model": "SSR140AC-8",
+      "brand": "Sany",
       "type": "Single Drum Roller (Single Drive)",
       "image": "/equipment/vibro-roller/ssr140ac-8.webp",
       "load_data": {
@@ -42,6 +43,7 @@
     },
     {
       "model": "SSR160AC-8",
+      "brand": "Sany",
       "type": "Single Drum Roller (Single Drive)",
       "image": "/equipment/vibro-roller/ssr160ac-8.webp",
       "load_data": {
@@ -82,6 +84,7 @@
     },
     {
       "model": "SSR200AC-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller (Single Drive)",
       "image": "/equipment/vibro-roller/ssr200ac-8h.webp",
       "load_data": {
@@ -122,6 +125,7 @@
     },
     {
       "model": "SSR220AC-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller (Single Drive)",
       "image": "/equipment/vibro-roller/ssr220ac-8h.webp",
       "load_data": {
@@ -162,6 +166,7 @@
     },
     {
       "model": "SSR260AC-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller (Single Drive)",
       "image": "/equipment/vibro-roller/ssr260ac-8h.webp",
       "load_data": {
@@ -202,6 +207,7 @@
     },
     {
       "model": "SSR80C-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller (Dual Drive)",
       "image": "/equipment/vibro-roller/ssr80c-8h.webp",
       "load_data": {
@@ -242,6 +248,7 @@
     },
     {
       "model": "SSR100C-10S",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr100c-10s.webp",
       "load_data": {
@@ -282,6 +289,7 @@
     },
     {
       "model": "SSR120C-10S(ISUZU)",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr120c-10s(isuzu).webp",
       "load_data": {
@@ -322,6 +330,7 @@
     },
     {
       "model": "SSR120C-10S (Euro Ⅱ)",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr120c-10s-euro-ii.webp",
       "load_data": {
@@ -362,6 +371,7 @@
     },
     {
       "model": "SSR120C-10S (Euro Ⅲ)",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr120c-10s-euro-iii.webp",
       "load_data": {
@@ -402,6 +412,7 @@
     },
     {
       "model": "SSR120HT",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr120ht.webp",
       "load_data": {
@@ -442,6 +453,7 @@
     },
     {
       "model": "SSR130C-10H",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr130c-10h.webp",
       "load_data": {
@@ -482,6 +494,7 @@
     },
     {
       "model": "SSR140C-8",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr140c-8.webp",
       "load_data": {
@@ -522,6 +535,7 @@
     },
     {
       "model": "SSR150C-8",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr150c-8.webp",
       "load_data": {
@@ -562,6 +576,7 @@
     },
     {
       "model": "SSR160C-10S",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr160c-10s.webp",
       "load_data": {
@@ -602,6 +617,7 @@
     },
     {
       "model": "SSR160C-8",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr160c-8.webp",
       "load_data": {
@@ -642,6 +658,7 @@
     },
     {
       "model": "SSR180C-8",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr180c-8.webp",
       "load_data": {
@@ -682,6 +699,7 @@
     },
     {
       "model": "SSR200C-10S",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr200c-10s.webp",
       "load_data": {
@@ -722,6 +740,7 @@
     },
     {
       "model": "SSR200C-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr200c-8h.webp",
       "load_data": {
@@ -762,6 +781,7 @@
     },
     {
       "model": "SSR220C-10S",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr220c-10s.webp",
       "load_data": {
@@ -802,6 +822,7 @@
     },
     {
       "model": "SSR220C-8H",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr220c-8h.webp",
       "load_data": {
@@ -842,6 +863,7 @@
     },
     {
       "model": "SSR260C-8",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr260c-8.webp",
       "load_data": {
@@ -882,6 +904,7 @@
     },
     {
       "model": "SSR200C-10H",
+      "brand": "Sany",
       "type": "Single Drum Roller",
       "image": "/equipment/vibro-roller/ssr200c-10h.webp",
       "load_data": {
@@ -922,6 +945,7 @@
     },
     {
       "model": "STR30C-8",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str30c-8.webp",
       "load_data": {
@@ -949,6 +973,7 @@
     },
     {
       "model": "SZR30C-8",
+      "brand": "Sany",
       "type": "Combination Roller",
       "image": "/equipment/vibro-roller/szr30c-8.webp",
       "load_data": {
@@ -976,6 +1001,7 @@
     },
     {
       "model": "STR50C-8K",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str50c-8k.webp",
       "load_data": {
@@ -1006,6 +1032,7 @@
     },
     {
       "model": "SZR50C-8K",
+      "brand": "Sany",
       "type": "Combination Roller",
       "image": "/equipment/vibro-roller/szr50c-8k.webp",
       "load_data": {
@@ -1036,6 +1063,7 @@
     },
     {
       "model": "STR110C-10",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str110c-10.webp",
       "load_data": {
@@ -1064,6 +1092,7 @@
     },
     {
       "model": "STR120C-10",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str120c-10.webp",
       "load_data": {
@@ -1092,6 +1121,7 @@
     },
     {
       "model": "STR130C-10",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str130c-10.webp",
       "load_data": {
@@ -1120,6 +1150,7 @@
     },
     {
       "model": "STR140C-10",
+      "brand": "Sany",
       "type": "Tandem Roller",
       "image": "/equipment/vibro-roller/str140c-10.webp",
       "load_data": {
@@ -1148,6 +1179,7 @@
     },
     {
       "model": "SPR160C-8",
+      "brand": "Sany",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr160c-8.webp",
       "compaction_data": {
@@ -1183,6 +1215,7 @@
     },
     {
       "model": "SPR200C-8",
+      "brand": "Sany",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr200c-8.webp",
       "compaction_data": {
@@ -1218,6 +1251,7 @@
     },
     {
       "model": "SPR260C-10",
+      "brand": "Sany",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr260c-10.webp",
       "engine_data": {
@@ -1247,6 +1281,7 @@
     },
     {
       "model": "SPR300C-10",
+      "brand": "Sany",
       "type": "Pneumatic Tyre Roller",
       "image": "/equipment/vibro-roller/spr300c-10.webp",
       "engine_data": {

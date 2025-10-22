@@ -2,6 +2,7 @@
   "cranes": [
     {
       "model": "ZTC250V532-2",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v532-2.webp",
       "lifting_performance": {
@@ -15,6 +16,7 @@
     },
     {
       "model": "ZTC250V531-2R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v531-2r.webp",
       "lifting_performance": {
@@ -28,6 +30,7 @@
     },
     {
       "model": "ZTC250V431R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v431r.webp",
       "lifting_performance": {
@@ -41,6 +44,7 @@
     },
     {
       "model": "ZTC250V452RZ",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v452rz.webp",
       "lifting_performance": {
@@ -54,6 +58,7 @@
     },
     {
       "model": "ZTC250V552-1C",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v552-1c.webp",
       "lifting_performance": {
@@ -67,6 +72,7 @@
     },
     {
       "model": "ZTC250V552-1T",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc250v552-1t.webp",
       "lifting_performance": {
@@ -80,6 +86,7 @@
     },
     {
       "model": "ZTC300V532-1",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc300v532-1.webp",
       "lifting_performance": {
@@ -106,6 +113,7 @@
     },
     {
       "model": "ZTC300V532W",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc300v532w.webp",
       "lifting_performance": {
@@ -119,6 +127,7 @@
     },
     {
       "model": "ZTC350V431R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc350v431r.webp",
       "lifting_performance": {
@@ -132,6 +141,7 @@
     },
     {
       "model": "ZTC400V552R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc400v552r.webp",
       "lifting_performance": {
@@ -145,6 +155,7 @@
     },
     {
       "model": "ZTC500V552-1C",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc500v552-1c.webp",
       "lifting_performance": {
@@ -158,6 +169,7 @@
     },
     {
       "model": "ZTC500V552-1T",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc500v552-1t.webp",
       "lifting_performance": {
@@ -171,6 +183,7 @@
     },
     {
       "model": "ZTC550V532-2R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc550v532-2r.webp",
       "lifting_performance": {
@@ -184,6 +197,7 @@
     },
     {
       "model": "ZTC550V532-2",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc550v532-2.webp",
       "lifting_performance": {
@@ -197,6 +211,7 @@
     },
     {
       "model": "ZTC550V552M",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc550v552m.webp",
       "lifting_performance": {
@@ -210,6 +225,7 @@
     },
     {
       "model": "ZTC600V532W",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc600v532w.webp",
       "lifting_performance": {
@@ -223,6 +239,7 @@
     },
     {
       "model": "ZTC600V552R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc600v552r.webp",
       "lifting_performance": {
@@ -236,6 +253,7 @@
     },
     {
       "model": "ZTC700V552-1C",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc700v552-1c.webp",
       "lifting_performance": {
@@ -249,6 +267,7 @@
     },
     {
       "model": "ZTC700V552-1T",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc700v552-1t.webp",
       "lifting_performance": {
@@ -262,6 +281,7 @@
     },
     {
       "model": "ZTC800V552-1C",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc800v552-1c.webp",
       "lifting_performance": {
@@ -275,6 +295,7 @@
     },
     {
       "model": "ZTC800V552-1T",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc800v552-1t.webp",
       "lifting_performance": {
@@ -288,6 +309,7 @@
     },
     {
       "model": "ZTC1000V532G",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1000v532g.webp",
       "lifting_performance": {
@@ -301,6 +323,7 @@
     },
     {
       "model": "ZTC1000V532R",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1000v532r.webp",
       "lifting_performance": {
@@ -314,6 +337,7 @@
     },
     {
       "model": "ZTC1000V552M",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1000v552m.webp",
       "lifting_performance": {
@@ -327,6 +351,7 @@
     },
     {
       "model": "ZTC1100V653-1",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1100v653-1.webp",
       "lifting_performance": {
@@ -340,6 +365,7 @@
     },
     {
       "model": "ZTC1100V653RN",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1100v653rn.webp",
       "lifting_performance": {
@@ -353,6 +379,7 @@
     },
     {
       "model": "ZTC1200R643",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1200r643.webp",
       "lifting_performance": {
@@ -366,6 +393,7 @@
     },
     {
       "model": "ZTC1300V753G",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/ztc1300v753g.webp",
       "lifting_performance": {
@@ -379,6 +407,7 @@
     },
     {
       "model": "ZMC450V532",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc450v532.webp",
       "lifting_performance": {
@@ -392,6 +421,7 @@
     },
     {
       "model": "ZMC600V532-1",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc600v532-1.webp",
       "lifting_performance": {
@@ -405,6 +435,7 @@
     },
     {
       "model": "ZMC700V532",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc700v532.webp",
       "lifting_performance": {
@@ -418,6 +449,7 @@
     },
     {
       "model": "ZMC900V532",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc900v532.webp",
       "lifting_performance": {
@@ -431,6 +463,7 @@
     },
     {
       "model": "ZMC1100V532",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc1100v532.webp",
       "lifting_performance": {
@@ -444,6 +477,7 @@
     },
     {
       "model": "ZMC1100V633",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc1100v633.webp",
       "lifting_performance": {
@@ -457,6 +491,7 @@
     },
     {
       "model": "ZMC1300V733",
+      "brand": "Zoomlion",
       "type": "Truck Crane",
       "image": "/equipment/crane/zmc1300v733.webp",
       "lifting_performance": {
@@ -470,6 +505,7 @@
     },
     {
       "model": "ZRT1500V643A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1500v643a.webp",
       "lifting_performance": {
@@ -482,6 +518,7 @@
     },
     {
       "model": "ZRT1300V552",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1300v552.webp",
       "lifting_performance": {
@@ -494,6 +531,7 @@
     },
     {
       "model": "ZRT1300V532T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1300v532t.webp",
       "lifting_performance": {
@@ -506,6 +544,7 @@
     },
     {
       "model": "ZRT1300V532",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1300v532.webp",
       "lifting_performance": {
@@ -518,6 +557,7 @@
     },
     {
       "model": "ZRT1200V543A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1200v543a.webp",
       "lifting_performance": {
@@ -530,6 +570,7 @@
     },
     {
       "model": "ZRT1100V552",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1100v552.webp",
       "lifting_performance": {
@@ -542,6 +583,7 @@
     },
     {
       "model": "ZRT1100V532T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1100v532t.webp",
       "lifting_performance": {
@@ -554,6 +596,7 @@
     },
     {
       "model": "ZRT1100V532",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1100v532.webp",
       "lifting_performance": {
@@ -566,6 +609,7 @@
     },
     {
       "model": "ZRT1000V543A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1000v543a.webp",
       "lifting_performance": {
@@ -578,6 +622,7 @@
     },
     {
       "model": "ZRT900V552-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt900v552-1.webp",
       "lifting_performance": {
@@ -590,6 +635,7 @@
     },
     {
       "model": "ZRT900V532-1T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt900v532-1t.webp",
       "lifting_performance": {
@@ -602,6 +648,7 @@
     },
     {
       "model": "ZRT900V532-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt900v532-1.webp",
       "lifting_performance": {
@@ -614,6 +661,7 @@
     },
     {
       "model": "ZRT800V542A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt800v542a.webp",
       "lifting_performance": {
@@ -626,6 +674,7 @@
     },
     {
       "model": "ZRT700V552-1E",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt700v552-1e.webp",
       "lifting_performance": {
@@ -638,6 +687,7 @@
     },
     {
       "model": "ZRT700V532-1T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt700v532-1t.webp",
       "lifting_performance": {
@@ -650,6 +700,7 @@
     },
     {
       "model": "ZRT700V532-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt700v532-1.webp",
       "lifting_performance": {
@@ -662,6 +713,7 @@
     },
     {
       "model": "ZRT700V532",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt700v532.webp",
       "lifting_performance": {
@@ -674,6 +726,7 @@
     },
     {
       "model": "ZRT700V542A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt700v542a.webp",
       "lifting_performance": {
@@ -686,6 +739,7 @@
     },
     {
       "model": "ZRT600V552-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt600v552-1.webp",
       "lifting_performance": {
@@ -698,6 +752,7 @@
     },
     {
       "model": "ZRT600V532-1T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt600v532-1t.webp",
       "lifting_performance": {
@@ -710,6 +765,7 @@
     },
     {
       "model": "ZRT600V532-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt600v532-1.webp",
       "lifting_performance": {
@@ -722,6 +778,7 @@
     },
     {
       "model": "ZRT500V452E",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt500v452e.webp",
       "lifting_performance": {
@@ -734,6 +791,7 @@
     },
     {
       "model": "ZRT500V432T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt500v432t.webp",
       "lifting_performance": {
@@ -746,6 +804,7 @@
     },
     {
       "model": "ZRT500V432",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt500v432.webp",
       "lifting_performance": {
@@ -758,6 +817,7 @@
     },
     {
       "model": "ZRT450V442A",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt450v442a.webp",
       "lifting_performance": {
@@ -770,6 +830,7 @@
     },
     {
       "model": "ZRT400V452-1E",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt400v452-1e.webp",
       "lifting_performance": {
@@ -782,6 +843,7 @@
     },
     {
       "model": "ZRT400V432-1T",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt400v432-1t.webp",
       "lifting_performance": {
@@ -794,6 +856,7 @@
     },
     {
       "model": "ZRT400V432-1",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt400v432-1.webp",
       "lifting_performance": {
@@ -806,6 +869,7 @@
     },
     {
       "model": "ZRT1100D533",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt1100d533.webp",
       "lifting_performance": {
@@ -818,6 +882,7 @@
     },
     {
       "model": "ZRT850D542",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt850d542.webp",
       "lifting_performance": {
@@ -830,6 +895,7 @@
     },
     {
       "model": "ZRT600E532",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt600e532.webp",
       "lifting_performance": {
@@ -842,6 +908,7 @@
     },
     {
       "model": "ZRT400V432",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
       "image": "/equipment/crane/zrt400v432.webp",
       "lifting_performance": {

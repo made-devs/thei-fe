@@ -2,6 +2,7 @@
   "concrete_pump_mixers": [
     {
       "model": "24X-4Z (Two-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/24x-4z.webp",
       "boom_data": {
@@ -24,6 +25,7 @@
     },
     {
       "model": "32X-4Z",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/32x-4z.webp",
       "boom_data": {
@@ -46,6 +48,7 @@
     },
     {
       "model": "36X-5Z",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/36x-5z.webp",
       "boom_data": {
@@ -68,6 +71,7 @@
     },
     {
       "model": "38X-5RZ (Two-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/38x-5rz.webp",
       "boom_data": {
@@ -92,6 +96,7 @@
     },
     {
       "model": "40X-5RZ (Three-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/40x-5rz.webp",
       "boom_data": {
@@ -114,6 +119,7 @@
     },
     {
       "model": "43X-5RZ (Four-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/43x-5rz.webp",
       "boom_data": {
@@ -136,6 +142,7 @@
     },
     {
       "model": "47X-5RZ (Three-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/47x-5rz.webp",
       "boom_data": {
@@ -158,6 +165,7 @@
     },
     {
       "model": "49X-6RZ (Four-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/49x-6rz.webp",
       "boom_data": {
@@ -182,6 +190,7 @@
     },
     {
       "model": "49X-6RZ (Three-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/49x-6rz-3-axle.webp",
       "boom_data": {
@@ -206,6 +215,7 @@
     },
     {
       "model": "56X-6RZ (Four-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/56x-6rz.webp",
       "boom_data": {
@@ -228,6 +238,7 @@
     },
     {
       "model": "63X-7RZ (Four-axles)",
+      "brand": "Zoomlion",
       "type": "Truck Mounted Pump",
       "image": "/equipment/concrete-pump/63x-7rz.webp",
       "boom_data": {
@@ -250,6 +261,7 @@
     },
     {
       "model": "6JBJ-R",
+      "brand": "Zoomlion",
       "type": "Truck Mixer",
       "image": "/equipment/concrete-pump/6jbj-r.webp",
       "mixing_drum_parameters": {
@@ -277,6 +289,7 @@
     },
     {
       "model": "8JBJ-R",
+      "brand": "Zoomlion",
       "type": "Truck Mixer",
       "image": "/equipment/concrete-pump/8jbj-r.webp",
       "mixing_drum_parameters": {
@@ -304,6 +317,7 @@
     },
     {
       "model": "9JBH-R",
+      "brand": "Zoomlion",
       "type": "Truck Mixer",
       "image": "/equipment/concrete-pump/9jbh-r.webp",
       "mixing_drum_parameters": {
@@ -331,6 +345,7 @@
     },
     {
       "model": "12JBJ",
+      "brand": "Zoomlion",
       "type": "Truck Mixer",
       "image": "/equipment/concrete-pump/12jbj.webp",
       "mixing_drum_parameters": {
@@ -358,6 +373,7 @@
     },
     {
       "model": "10JBH",
+      "brand": "Zoomlion",
       "type": "Truck Mixer",
       "image": "/equipment/concrete-pump/10jbh.webp",
       "mixing_drum_parameters": {
@@ -385,6 +401,7 @@
     },
     {
       "model": "HBT50.10.60RS",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt50.10.60rs.webp",
       "pump_details": {
@@ -415,6 +432,7 @@
     },
     {
       "model": "HBT60.13.118RS",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt60.13.118rs.webp",
       "pump_details": {
@@ -445,6 +463,7 @@
     },
     {
       "model": "HBT60.13.90SU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt60.13.90su.webp",
       "pump_details": {
@@ -475,6 +494,7 @@
     },
     {
       "model": "HBT60.13.118RSD",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt60.13.118rsd.webp",
       "pump_details": {
@@ -505,6 +525,7 @@
     },
     {
       "model": "HBT60.16.110SU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt60.16.110su.webp",
       "pump_details": {
@@ -535,6 +556,7 @@
     },
     {
       "model": "HBT80.16.199RSU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt80.16.199rsu.webp",
       "pump_details": {
@@ -565,6 +587,7 @@
     },
     {
       "model": "HBT80.16.174RSU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt80.16.174rsu.webp",
       "pump_details": {
@@ -595,6 +618,7 @@
     },
     {
       "model": "HBT100.18.199RSU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt100.18.199rsu.webp",
       "pump_details": {
@@ -625,6 +649,7 @@
     },
     {
       "model": "HBT100.18.186RSU",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt100.18.186rsu.webp",
       "pump_details": {
@@ -655,6 +680,7 @@
     },
     {
       "model": "HBT105.21.273RSD",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt105.21.273rsd.webp",
       "pump_details": {
@@ -685,6 +711,7 @@
     },
     {
       "model": "HBT105.21.286RSD",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt105.21.286rsd.webp",
       "pump_details": {
@@ -715,6 +742,7 @@
     },
     {
       "model": "HBT105.21.294RS",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt105.21.294rs.webp",
       "pump_details": {
@@ -745,6 +773,7 @@
     },
     {
       "model": "HBT110.26.372RS",
+      "brand": "Zoomlion",
       "type": "Trailer Pump",
       "image": "/equipment/concrete-pump/hbt110.26.372rs.webp",
       "pump_details": {
@@ -775,6 +804,7 @@
     },
     {
       "model": "10528R",
+      "brand": "Zoomlion",
       "type": "City Pump",
       "image": "/equipment/concrete-pump/10528r.webp",
       "pumping_unit": {
@@ -811,6 +841,7 @@
     },
     {
       "model": "10026R",
+      "brand": "Zoomlion",
       "type": "City Pump",
       "image": "/equipment/concrete-pump/10026r.webp",
       "pumping_unit": {
@@ -847,6 +878,7 @@
     },
     {
       "model": "9024R",
+      "brand": "Zoomlion",
       "type": "City Pump",
       "image": "/equipment/concrete-pump/9024r.webp",
       "pumping_unit": {
@@ -883,6 +915,7 @@
     },
     {
       "model": "10022R",
+      "brand": "Zoomlion",
       "type": "City Pump",
       "image": "/equipment/concrete-pump/10022r.webp",
       "pumping_unit": {
@@ -919,6 +952,7 @@
     },
     {
       "model": "10020R",
+      "brand": "Zoomlion",
       "type": "City Pump",
       "image": "/equipment/concrete-pump/10020r.webp",
       "pumping_unit": {

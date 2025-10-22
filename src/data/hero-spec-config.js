@@ -132,4 +132,19 @@ export const mainSpecConfig = {
       path: 'basic_technical_data.vibration_frequency_hz',
     },
   ],
+  'backhoe-loader': [
+    { label: 'Operating Weight', path: 'weights.operating_maximum' },
+    { label: 'Net Power', path: 'engine.net_power' },
+    {
+      label: 'Max Digging Depth',
+      path: 'backhoe_performance.max_digging_depth_std_stick',
+    },
+    { label: 'Bucket Capacity', path: 'loader_performance.rated_capacity' },
+  ],
+  'reach-stacker': [
+    { label: 'Max Loading Capacity', path: 'performance.max_loading_capacity' },
+    { label: 'Max Lifting Height', path: 'performance.max_lifting_height' },
+    { label: 'Overall Weight', path: 'dimensions_and_weight.overall_weight' },
+    { label: 'Engine', path: 'engine' },
+  ],
 };

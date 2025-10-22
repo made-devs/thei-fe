@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
 // Helper untuk memformat nilai yang mungkin objek
 const formatSpecValue = (value) => {
-  if (typeof value === "object" && value !== null) {
+  if (typeof value === 'object' && value !== null) {
     if (value.restricted && value.unrestricted) {
       return `${value.unrestricted} / ${value.restricted}`;
     }
     if (value.indoor || value.outdoor) {
-      return `${value.indoor || "-"} / ${value.outdoor || "-"}`;
+      return `${value.indoor || '-'} / ${value.outdoor || '-'}`;
     }
     return JSON.stringify(value);
   }
@@ -28,8 +28,8 @@ const SpecItem = ({ label, value }) => {
 
 const ProductSpecs = ({ product, categoryName }) => {
   // Normalisasi tipe dan kategori
-  const type = product.type?.toLowerCase() || "";
-  const category = categoryName?.toLowerCase() || "";
+  const type = product.type?.toLowerCase() || '';
+  const category = categoryName?.toLowerCase() || '';
 
   // Boolean kategori
   const isForklift = !!product.performance?.rated_capacity;
@@ -39,19 +39,63 @@ const ProductSpecs = ({ product, categoryName }) => {
   const isBoomLift = !!product.size?.work_height;
   const isTelehandler = !!product.size_and_performance;
   const isCrawlerCrane =
-    !!product.technical_data && category.includes("crawler crane");
-  const isTruckMountedPump = product.type === "Truck Mounted Pump";
-  const isTruckMixer = product.type === "Truck Mixer";
-  const isTrailerPump = product.type === "Trailer Pump";
-  const isCityPump = product.type === "City Pump";
+    !!product.technical_data && category.includes('crawler crane');
+  const isTruckMountedPump = product.type === 'Truck Mounted Pump';
+  const isTruckMixer = product.type === 'Truck Mixer';
+  const isTrailerPump = product.type === 'Trailer Pump';
+  const isCityPump = product.type === 'City Pump';
   const isAWP =
-    type.includes("lift") || product.type === "Aerial Working Platform";
-  const isVibroRoller = category.includes("vibro") || type.includes("roller");
+    type.includes('lift') || product.type === 'Aerial Working Platform';
+  const isVibroRoller = category.includes('vibro') || type.includes('roller');
   const isMotorGrader =
-    category.includes("motor grader") || type.includes("motor grader");
+    category.includes('motor grader') || type.includes('motor grader');
   const isDumpTruck =
-    type.toLowerCase().includes("dump truck") ||
-    type.toLowerCase().includes("electric dump truck");
+    type.toLowerCase().includes('dump truck') ||
+    type.toLowerCase().includes('electric dump truck');
+  const isBackhoeLoader =
+    category.includes('backhoe') || type.includes('backhoe');
+  const isReachStacker =
+    category.includes('reach stacker') || type.includes('reach stacker');
+
+  // Reach Stacker - Tambah di atas forklift
+  if (isReachStacker) {
+    return (
+      <>
+        <SpecItem
+          label="Max Loading Capacity"
+          value={product.performance?.max_loading_capacity}
+        />
+        <SpecItem
+          label="Max Lifting Height"
+          value={product.performance?.max_lifting_height}
+        />
+        <SpecItem
+          label="Overall Weight"
+          value={product.dimensions_and_weight?.overall_weight}
+        />
+      </>
+    );
+  }
+
+  // Backhoe Loader
+  if (isBackhoeLoader) {
+    return (
+      <>
+        <SpecItem
+          label="Operating Weight"
+          value={
+            product.weights?.operating_nominal ||
+            product.weights?.operating_maximum
+          }
+        />
+        <SpecItem label="Net Power" value={product.engine?.net_power} />
+        <SpecItem
+          label="Max Digging Depth"
+          value={product.backhoe_performance?.max_digging_depth_std_stick}
+        />
+      </>
+    );
+  }
 
   // Forklift
   if (isForklift) {
@@ -67,7 +111,7 @@ const ProductSpecs = ({ product, categoryName }) => {
         />
         <SpecItem
           label="Engine Type"
-          value={product.power.controller || "Internal Combustion"}
+          value={product.power.controller || 'Internal Combustion'}
         />
       </>
     );
@@ -238,7 +282,7 @@ const ProductSpecs = ({ product, categoryName }) => {
         />
         <SpecItem
           label="Engine Model"
-          value={product.power_system?.engine_model || "N/A"}
+          value={product.power_system?.engine_model || 'N/A'}
         />
       </>
     );
@@ -292,7 +336,7 @@ const ProductSpecs = ({ product, categoryName }) => {
 
   // Vibro Roller (by type)
   if (isVibroRoller) {
-    if (type.includes("single drum")) {
+    if (type.includes('single drum')) {
       return (
         <>
           <SpecItem
@@ -310,7 +354,7 @@ const ProductSpecs = ({ product, categoryName }) => {
         </>
       );
     }
-    if (type.includes("tandem") || type.includes("combination")) {
+    if (type.includes('tandem') || type.includes('combination')) {
       return (
         <>
           <SpecItem
@@ -334,7 +378,7 @@ const ProductSpecs = ({ product, categoryName }) => {
         </>
       );
     }
-    if (type.includes("pneumatic")) {
+    if (type.includes('pneumatic')) {
       return (
         <>
           <SpecItem
@@ -401,7 +445,7 @@ const ProductSpecs = ({ product, categoryName }) => {
         <SpecItem
           label="Full Load Weight"
           value={
-            product.vehicle?.full_load_weight || product.full_load_weight || "-"
+            product.vehicle?.full_load_weight || product.full_load_weight || '-'
           }
         />
         <SpecItem label="Rated Power" value={product.chassis?.rated_power} />

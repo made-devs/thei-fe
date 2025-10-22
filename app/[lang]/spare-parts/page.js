@@ -4,7 +4,6 @@ import MainCta from '@/components/features/home/MainCta';
 import PageHero from '@/components/ui/PageHero'; // Ganti import dari PartsHero ke PageHero
 import InteractivePartsView from '@/components/features/Parts/InteractivePartsView'; // Tambahkan import InteractivePartsView
 import KeyFeatures from '@/components/features/Parts/KeyFeatures';
-import PartsCategoryGrid from '@/components/features/Parts/PartsCategoryGrid';
 import FastMovers from '@/components/features/Parts/FastMovers';
 
 // Import data parts
@@ -84,7 +83,6 @@ export default async function PartsPage({ params }) {
         />{' '}
       </Suspense>
       {/* Tambahkan InteractivePartsView setelah PageHero */}
-      <PartsCategoryGrid dictionary={partsDict.category_section} />
       <KeyFeatures dictionary={partsDict.features_section} />
       <FastMovers dictionary={partsDict.fast_movers_section} />
       <MainCta dictionary={commonDict.main_cta} />

@@ -2,6 +2,7 @@
   "skid_steer_loaders": [
     {
       "model": "ZS030R",
+      "brand": "Zoomlion",
       "type": "Skid Steer Loader",
       "image": "/equipment/skid-steer-loader/zs030r.webp",
       "basic_technical_data": {
@@ -17,6 +18,7 @@
     },
     {
       "model": "ZS080V",
+      "brand": "Zoomlion",
       "type": "Skid Steer Loader",
       "image": "/equipment/skid-steer-loader/zs080v.webp",
       "basic_technical_data": {
@@ -32,6 +34,7 @@
     },
     {
       "model": "ZS085V",
+      "brand": "Zoomlion",
       "type": "Skid Steer Loader",
       "image": "/equipment/skid-steer-loader/zs085v.webp",
       "basic_technical_data": {
@@ -47,6 +50,7 @@
     },
     {
       "model": "ZS090V",
+      "brand": "Zoomlion",
       "type": "Skid Steer Loader",
       "image": "/equipment/skid-steer-loader/zs090v.webp",
       "basic_technical_data": {
@@ -62,6 +66,7 @@
     },
     {
       "model": "ZS120V",
+      "brand": "Zoomlion",
       "type": "Skid Steer Loader",
       "image": "/equipment/skid-steer-loader/zs120v.webp",
       "basic_technical_data": {

@@ -2,6 +2,7 @@
   "dump_trucks": [
     {
       "model": "SYZ425C-8S(V)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz425c-8sv.webp",
       "vehicle": {
@@ -28,6 +29,7 @@
     },
     {
       "model": "SYZ434C-8S(V)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz434c-8sv.webp",
       "vehicle": {
@@ -54,6 +56,7 @@
     },
     {
       "model": "SYZ438C-8S(V)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz438c-8sv.webp",
       "vehicle": {
@@ -80,6 +83,7 @@
     },
     {
       "model": "SYZ324C-8Y(R)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz324c-8yr.webp",
       "vehicle": {
@@ -106,6 +110,7 @@
     },
     {
       "model": "SYZ331-8S(R)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz331-8sr.webp",
       "vehicle": {
@@ -132,6 +137,7 @@
     },
     {
       "model": "SYZ436C-9S(R)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz436c-9sr.webp",
       "vehicle": {
@@ -158,6 +164,7 @@
     },
     {
       "model": "SYZ440C-8S(R)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz440c-8sr.webp",
       "vehicle": {
@@ -184,6 +191,7 @@
     },
     {
       "model": "SYZ448C-9S(R)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz448c-9sr.webp",
       "vehicle": {
@@ -210,6 +218,7 @@
     },
     {
       "model": "SYZ320C-8S(V)",
+      "brand": "Sany",
       "type": "Dump Truck",
       "image": "/equipment/dump-truck/syz320c-8sv.webp",
       "vehicle": {
@@ -236,6 +245,7 @@
     },
     {
       "model": "SYZ432C-8LRBEVSD",
+      "brand": "Sany",
       "type": "Electric Dump Truck",
       "image": "/equipment/dump-truck/syz432c-8lrbevsd.webp",
       "chassis": {
@@ -257,6 +267,7 @@
     },
     {
       "model": "SYZ437C-8LRBEVSD",
+      "brand": "Sany",
       "type": "Electric Dump Truck",
       "image": "/equipment/dump-truck/syz437c-8lrbevsd.webp",
       "chassis": {

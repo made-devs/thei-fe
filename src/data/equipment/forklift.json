@@ -2,6 +2,7 @@
   "forklifts": [
     {
       "model": "FB15Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fb15z.webp",
       "type": "Electric Forklift",
       "performance": {
@@ -46,6 +47,7 @@
     },
     {
       "model": "FB20Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fb20z.webp",
       "type": "Electric Forklift",
       "performance": {
@@ -90,6 +92,7 @@
     },
     {
       "model": "FB25Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fb25z.webp",
       "type": "Electric Forklift",
       "performance": {
@@ -134,6 +137,7 @@
     },
     {
       "model": "FB30Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fb30z.webp",
       "type": "Electric Forklift",
       "performance": {
@@ -178,6 +182,7 @@
     },
     {
       "model": "FB35Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fb35z.webp",
       "type": "Electric Forklift",
       "performance": {
@@ -222,6 +227,7 @@
     },
     {
       "model": "FD50Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd50z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -266,6 +272,7 @@
     },
     {
       "model": "FD60Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd60z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -310,6 +317,7 @@
     },
     {
       "model": "FD70Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd70z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -354,6 +362,7 @@
     },
     {
       "model": "FD100Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd100z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -398,6 +407,7 @@
     },
     {
       "model": "FD15Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd15z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -442,6 +452,7 @@
     },
     {
       "model": "FD18Z",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd18z.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -486,6 +497,7 @@
     },
     {
       "model": "FD20H",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd20h.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -530,6 +542,7 @@
     },
     {
       "model": "FD25H",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd25h.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -574,6 +587,7 @@
     },
     {
       "model": "FD30H",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd30h.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -618,6 +632,7 @@
     },
     {
       "model": "FD35H",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd35h.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -662,6 +677,7 @@
     },
     {
       "model": "FD40mini",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd40mini.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -706,6 +722,7 @@
     },
     {
       "model": "FD45mini",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd45mini.webp",
       "type": "Internal Combustion Forklift",
       "performance": {
@@ -750,6 +767,7 @@
     },
     {
       "model": "FD50mini",
+      "brand": "Zoomlion",
       "image": "/equipment/forklift/fd50mini.webp",
       "type": "Internal Combustion Forklift",
       "performance": {

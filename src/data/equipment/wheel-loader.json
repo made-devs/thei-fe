@@ -2,6 +2,7 @@
   "wheel_loaders": [
     {
       "model": "ZWL62G",
+      "brand": "Zoomlion",
       "image": "/equipment/wheel-loader/zwl62g.webp",
       "basic_technical_data": {
         "operating_weight": "18200kg",
@@ -30,6 +31,7 @@
     },
     {
       "model": "ZWL75G",
+      "brand": "Zoomlion",
       "image": "/equipment/wheel-loader/zwl75g.webp",
       "basic_technical_data": {
         "operating_weight": "25000kg",
@@ -58,6 +60,7 @@
     },
     {
       "model": "ZWL75GE",
+      "brand": "Zoomlion",
       "image": "/equipment/wheel-loader/zwl75ge.webp",
       "basic_technical_data": {
         "operating_weight": "25300kg",
@@ -86,6 +89,7 @@
     },
     {
       "model": "ZWL55GE",
+      "brand": "Zoomlion",
       "image": "/equipment/wheel-loader/zwl55ge.webp",
       "basic_technical_data": {
         "operating_weight": "19200kg",

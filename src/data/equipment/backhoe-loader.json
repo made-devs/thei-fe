@@ -1,0 +1,61 @@
+{
+  "backhoe_loaders": [
+    {
+      "id": "bh-cat-426",
+      "model": "426",
+      "brand": "Caterpillar",
+      "type": "Backhoe Loader",
+      "year": 2024,
+      "description": "Compact backhoe loader dengan performa digging dan loading yang excellent, cocok untuk konstruksi urban dan rental.",
+      "image": "/equipment/backhoe-loader/426.webp",
+      "engine": {
+        "model_name": "Cat 3054C Mechanical Turbo",
+        "net_power": "66.4 kW",
+        "max_torque": "394 N-m @ 1,400 rpm",
+        "fuel_type": "Diesel",
+        "fuel_capacity": "90 L"
+      },
+      "weights": {
+        "operating_nominal": "8425 kg",
+        "operating_maximum": "11000 kg"
+      },
+      "hydraulic_system": {
+        "type": "Closed Center",
+        "max_pump_capacity": "132 l/min",
+        "system_pressure": "250 bar"
+      },
+      "transmission": {
+        "type": "Power Shuttle",
+        "max_travel_speed_forward": "40 km/h",
+        "max_travel_speed_reverse": "40 km/h"
+      },
+      "backhoe_performance": {
+        "max_digging_depth_std_stick": "4707 mm",
+        "max_digging_depth_e_stick_extended": "5697 mm",
+        "bucket_dig_force_std_stick": "57.22 kN",
+        "stick_dig_force_std_stick": "35.3 kN"
+      },
+      "loader_performance": {
+        "rated_capacity": "1 m³",
+        "tilt_breakout_force": "60.47 kN",
+        "lift_breakout_force": "53.95 kN",
+        "dump_height_max_angle": "2766 mm",
+        "lift_capacity_max_height": "3496 kg"
+      },
+      "dimensions": {
+        "overall_transportation_length": "5677 mm",
+        "overall_width": "2346 mm",
+        "height_to_top_of_cab_canopy": "2895 mm"
+      },
+      "noise_level": {
+        "inside_cab": "80 dB(A)",
+        "outside_cab": "104 dB(A)"
+      },
+      "maintenance_interval": {
+        "oil_change": "500 hours",
+        "filter_replacement": "500 hours",
+        "major_service": "2000 hours"
+      }
+    }
+  ]
+}

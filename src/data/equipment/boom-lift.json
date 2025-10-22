@@ -2,6 +2,7 @@
   "boom_lifts": [
     {
       "model": "ZA42J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za42j.webp",
       "size": {
@@ -48,6 +49,7 @@
     },
     {
       "model": "ZA26J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za26j.webp",
       "size": {
@@ -94,6 +96,7 @@
     },
     {
       "model": "ZA14J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za14j.webp",
       "size": {
@@ -140,6 +143,7 @@
     },
     {
       "model": "ZA16J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za16j.webp",
       "size": {
@@ -186,6 +190,7 @@
     },
     {
       "model": "ZA20J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za20j.webp",
       "size": {
@@ -232,6 +237,7 @@
     },
     {
       "model": "ZA24J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za24j.webp",
       "size": {
@@ -278,6 +284,7 @@
     },
     {
       "model": "ZA32J",
+      "brand": "Zoomlion",
       "type": "Diesel Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za32j.webp",
       "size": {
@@ -324,6 +331,7 @@
     },
     {
       "model": "ZA14NJE-Li",
+      "brand": "Zoomlion",
       "type": "Electric Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za14nje-li.webp",
       "size": {
@@ -369,6 +377,7 @@
     },
     {
       "model": "ZA14NJE",
+      "brand": "Zoomlion",
       "type": "Electric Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za14nje.webp",
       "size": {
@@ -414,6 +423,7 @@
     },
     {
       "model": "ZA10RJE",
+      "brand": "Zoomlion",
       "type": "Electric Articulating Boom Lifts",
       "image": "/equipment/boom_lift/za10rje.webp",
       "size": {
@@ -459,6 +469,7 @@
     },
     {
       "model": "ZA20JEH",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid articulating boom lifts",
       "image": "/equipment/boom_lift/za20jeh.webp",
       "size": {
@@ -504,6 +515,7 @@
     },
     {
       "model": "ZA16JERT",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid articulating boom lifts",
       "image": "/equipment/boom_lift/za16jert.webp",
       "size": {
@@ -549,6 +561,7 @@
     },
     {
       "model": "ZA16JERT-Li",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid articulating boom lifts",
       "image": "/equipment/boom_lift/za16jert-li.webp",
       "size": {
@@ -594,6 +607,7 @@
     },
     {
       "model": "ZA20JERT",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid articulating boom lifts",
       "image": "/equipment/boom_lift/za20jert.webp",
       "size": {
@@ -639,6 +653,7 @@
     },
     {
       "model": "ZA20JERT-Li",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid articulating boom lifts",
       "image": "/equipment/boom_lift/za20jert-li.webp",
       "size": {
@@ -684,6 +699,7 @@
     },
     {
       "model": "ZT51JEH",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid telescopic boom lifts",
       "image": "/equipment/boom_lift/zt51jeh.webp",
       "size": {
@@ -723,6 +739,7 @@
     },
     {
       "model": "ZT42JEH",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid telescopic boom lifts",
       "image": "/equipment/boom_lift/zt42jeh.webp",
       "size": {
@@ -762,6 +779,7 @@
     },
     {
       "model": "ZT26JEH",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid telescopic boom lifts",
       "image": "/equipment/boom_lift/zt26jeh.webp",
       "size": {
@@ -801,6 +819,7 @@
     },
     {
       "model": "ZT21JEH",
+      "brand": "Zoomlion",
       "type": "Range-extended hybrid telescopic boom lifts",
       "image": "/equipment/boom_lift/zt21jeh.webp",
       "size": {
@@ -841,6 +860,7 @@
     },
     {
       "model": "ZT82J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt82j.webp",
       "size": {
@@ -885,6 +905,7 @@
     },
     {
       "model": "ZT72J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt72j.webp",
       "size": {
@@ -929,6 +950,7 @@
     },
     {
       "model": "ZT51J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt51j.webp",
       "size": {
@@ -973,6 +995,7 @@
     },
     {
       "model": "ZT32J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt32j.webp",
       "size": {
@@ -1017,6 +1040,7 @@
     },
     {
       "model": "ZT23J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt23j.webp",
       "size": {
@@ -1061,6 +1085,7 @@
     },
     {
       "model": "ZT14J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt14j.webp",
       "size": {
@@ -1105,6 +1130,7 @@
     },
     {
       "model": "ZT26J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt26j.webp",
       "size": {
@@ -1149,6 +1175,7 @@
     },
     {
       "model": "ZT38J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt38j.webp",
       "size": {
@@ -1193,6 +1220,7 @@
     },
     {
       "model": "ZT42J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt42j.webp",
       "size": {
@@ -1237,6 +1265,7 @@
     },
     {
       "model": "ZT58J",
+      "brand": "Zoomlion",
       "type": "Diesel Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt58j.webp",
       "size": {
@@ -1281,6 +1310,7 @@
     },
     {
       "model": "ZT42JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt42je.webp",
       "size": {
@@ -1324,6 +1354,7 @@
     },
     {
       "model": "ZT38JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt38je.webp",
       "size": {
@@ -1367,6 +1398,7 @@
     },
     {
       "model": "ZT32JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt32je.webp",
       "size": {
@@ -1410,6 +1442,7 @@
     },
     {
       "model": "ZT23JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt23je.webp",
       "size": {
@@ -1453,6 +1486,7 @@
     },
     {
       "model": "ZT21JE-Li",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt21je-li.webp",
       "size": {
@@ -1496,6 +1530,7 @@
     },
     {
       "model": "ZT21JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt21je.webp",
       "size": {
@@ -1539,6 +1574,7 @@
     },
     {
       "model": "ZT18JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt18je.webp",
       "size": {
@@ -1582,6 +1618,7 @@
     },
     {
       "model": "ZT18JE-Li",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt18je-li.webp",
       "size": {
@@ -1625,6 +1662,7 @@
     },
     {
       "model": "ZT14JE-Li",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt14je-li.webp",
       "size": {
@@ -1668,6 +1706,7 @@
     },
     {
       "model": "ZT14JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt14je.webp",
       "size": {
@@ -1711,6 +1750,7 @@
     },
     {
       "model": "ZT26JE",
+      "brand": "Zoomlion",
       "type": "Electric Telescopic Boom Lifts",
       "image": "/equipment/boom_lift/zt26je.webp",
       "size": {

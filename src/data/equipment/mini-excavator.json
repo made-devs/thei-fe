@@ -2,6 +2,7 @@
   "mini_excavators": [
     {
       "model": "ZE18GU",
+      "brand": "Zoomlion",
       "image": "/equipment/mini-excavator/ze18gu.webp",
       "type": "Mini Excavator",
       "basic_technical_data": {
@@ -17,6 +18,7 @@
     },
     {
       "model": "ZE20G",
+      "brand": "Zoomlion",
       "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze20g.webp",
       "basic_technical_data": {
@@ -32,6 +34,7 @@
     },
     {
       "model": "ZE27GU(Cab)",
+      "brand": "Zoomlion",
       "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze27gu(CAB).webp",
       "basic_technical_data": {
@@ -47,6 +50,7 @@
     },
     {
       "model": "ZE27GU(Canopy)",
+      "brand": "Zoomlion",
       "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze27gu(CANOPY).webp",
       "basic_technical_data": {
@@ -62,6 +66,7 @@
     },
     {
       "model": "ZE36GU(Cab)",
+      "brand": "Zoomlion",
       "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze36gu(CAB).webp",
       "basic_technical_data": {
@@ -77,6 +82,7 @@
     },
     {
       "model": "ZE36GU(Canopy)",
+      "brand": "Zoomlion",
       "type": "Mini Excavator",
       "image": "/equipment/mini-excavator/ze36gu(CANOPY).webp",
       "basic_technical_data": {

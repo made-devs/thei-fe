@@ -2,6 +2,7 @@
   "aerial_working_platforms": [
     {
       "model": "ZX23AE",
+      "brand": "Zoomlion",
       "type": "Spider Lift",
       "image": "/equipment/scissor-lift/zx23ae.webp",
       "size": {
@@ -56,6 +57,7 @@
     },
     {
       "model": "ZX27AE",
+      "brand": "Zoomlion",
       "type": "Spider Lift",
       "image": "/equipment/scissor-lift/zx27ae.webp",
       "size": {
@@ -110,6 +112,7 @@
     },
     {
       "model": "ZX37T",
+      "brand": "Zoomlion",
       "type": "Spider Lift",
       "image": "/equipment/scissor-lift/zx37t.webp",
       "size": {
@@ -166,6 +169,7 @@
     },
     {
       "model": "ZS0407E",
+      "brand": "Zoomlion",
       "type": "Full-electric scissor Lift",
       "image": "/equipment/scissor-lift/zs0407e.webp",
       "size_and_dimensions": {
@@ -225,6 +229,7 @@
     },
     {
       "model": "ZS0607E",
+      "brand": "Zoomlion",
       "type": "Full-electric scissor Lift",
       "image": "/equipment/scissor-lift/zs0607e.webp",
       "size_and_dimensions": {
@@ -284,6 +289,7 @@
     },
     {
       "model": "ZS0407DC",
+      "brand": "Zoomlion",
       "type": "Scissor Lift",
       "image": "/equipment/scissor-lift/zs0407dc.webp",
       "size_and_dimensions": {
@@ -344,6 +350,7 @@
     },
     {
       "model": "ZS0407DC-Li",
+      "brand": "Zoomlion",
       "type": "Scissor Lift",
       "image": "/equipment/scissor-lift/zs0407dc-li.webp",
       "size_and_dimensions": {
@@ -404,6 +411,7 @@
     },
     {
       "model": "ZS0607ACW",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607acw.webp",
       "size_and_dimensions": {
@@ -464,6 +472,7 @@
     },
     {
       "model": "ZS0607AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607ac.webp",
       "size_and_dimensions": {
@@ -524,6 +533,7 @@
     },
     {
       "model": "ZS0808AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808ac.webp",
       "size_and_dimensions": {
@@ -584,6 +594,7 @@
     },
     {
       "model": "ZS0812AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812ac.webp",
       "size_and_dimensions": {
@@ -644,6 +655,7 @@
     },
     {
       "model": "ZS1012AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012ac.webp",
       "size_and_dimensions": {
@@ -704,6 +716,7 @@
     },
     {
       "model": "ZS1212AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212ac.webp",
       "size_and_dimensions": {
@@ -764,6 +777,7 @@
     },
     {
       "model": "ZS1414AC",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414ac.webp",
       "size_and_dimensions": {
@@ -824,6 +838,7 @@
     },
     {
       "model": "ZS0607ACW-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607acw-li.webp",
       "size_and_dimensions": {
@@ -884,6 +899,7 @@
     },
     {
       "model": "ZS0607AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607ac-li.webp",
       "size_and_dimensions": {
@@ -944,6 +960,7 @@
     },
     {
       "model": "ZS0808AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808ac-li.webp",
       "size_and_dimensions": {
@@ -1005,6 +1022,7 @@
     },
     {
       "model": "ZS0812AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812ac-li.webp",
       "size_and_dimensions": {
@@ -1066,6 +1084,7 @@
     },
     {
       "model": "ZS1012AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012ac-li.webp",
       "size_and_dimensions": {
@@ -1127,6 +1146,7 @@
     },
     {
       "model": "ZS1008AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1008ac-li.webp",
       "size_and_dimensions": {
@@ -1187,6 +1207,7 @@
     },
     {
       "model": "ZS1212AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212ac-li.webp",
       "size_and_dimensions": {
@@ -1248,6 +1269,7 @@
     },
     {
       "model": "ZS1414AC-Li",
+      "brand": "Zoomlion",
       "type": "AC Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414ac-li.webp",
       "size_and_dimensions": {
@@ -1309,6 +1331,7 @@
     },
     {
       "model": "ZS0607HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607ha.webp",
       "size_and_dimensions": {
@@ -1369,6 +1392,7 @@
     },
     {
       "model": "ZS0808HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808ha.webp",
       "size_and_dimensions": {
@@ -1429,6 +1453,7 @@
     },
     {
       "model": "ZS0812HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812ha.webp",
       "size_and_dimensions": {
@@ -1489,6 +1514,7 @@
     },
     {
       "model": "ZS1012HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012ha.webp",
       "size_and_dimensions": {
@@ -1549,6 +1575,7 @@
     },
     {
       "model": "ZS1212HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212ha.webp",
       "size_and_dimensions": {
@@ -1609,6 +1636,7 @@
     },
     {
       "model": "ZS1414HA",
+      "brand": "Zoomlion",
       "type": "HA Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414ha.webp",
       "size_and_dimensions": {
@@ -1669,6 +1697,7 @@
     },
     {
       "model": "ZS0607HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607ha-li.webp",
       "size_and_dimensions": {
@@ -1729,6 +1758,7 @@
     },
     {
       "model": "ZS0808HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808ha-li.webp",
       "size_and_dimensions": {
@@ -1790,6 +1820,7 @@
     },
     {
       "model": "ZS0812HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812ha-li.webp",
       "size_and_dimensions": {
@@ -1850,6 +1881,7 @@
     },
     {
       "model": "ZS1012HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012ha-li.webp",
       "size_and_dimensions": {
@@ -1911,6 +1943,7 @@
     },
     {
       "model": "ZS1212HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212ha-li.webp",
       "size_and_dimensions": {
@@ -1972,6 +2005,7 @@
     },
     {
       "model": "ZS1414HA-Li",
+      "brand": "Zoomlion",
       "type": "HA-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414ha-li.webp",
       "size_and_dimensions": {
@@ -2033,6 +2067,7 @@
     },
     {
       "model": "ZS0607HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607hd.webp",
       "size_and_dimensions": {
@@ -2092,6 +2127,7 @@
     },
     {
       "model": "ZS0808HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808hd.webp",
       "size_and_dimensions": {
@@ -2151,6 +2187,7 @@
     },
     {
       "model": "ZS0812HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812hd.webp",
       "size_and_dimensions": {
@@ -2210,6 +2247,7 @@
     },
     {
       "model": "ZS1012HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012hd.webp",
       "size_and_dimensions": {
@@ -2269,6 +2307,7 @@
     },
     {
       "model": "ZS1212HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212hd.webp",
       "size_and_dimensions": {
@@ -2328,6 +2367,7 @@
     },
     {
       "model": "ZS1414HD",
+      "brand": "Zoomlion",
       "type": "HD Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414hd.webp",
       "size_and_dimensions": {
@@ -2387,6 +2427,7 @@
     },
     {
       "model": "ZS0607HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0607hd-li.webp",
       "size_and_dimensions": {
@@ -2446,6 +2487,7 @@
     },
     {
       "model": "ZS0808HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0808hd-li.webp",
       "size_and_dimensions": {
@@ -2506,6 +2548,7 @@
     },
     {
       "model": "ZS0812HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs0812hd-li.webp",
       "size_and_dimensions": {
@@ -2565,6 +2608,7 @@
     },
     {
       "model": "ZS1012HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1012hd-li.webp",
       "size_and_dimensions": {
@@ -2625,6 +2669,7 @@
     },
     {
       "model": "ZS1212HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1212hd-li.webp",
       "size_and_dimensions": {
@@ -2685,6 +2730,7 @@
     },
     {
       "model": "ZS1414HD-Li",
+      "brand": "Zoomlion",
       "type": "HD-Li Series Scissor Lift",
       "image": "/equipment/scissor-lift/zs1414hd-li.webp",
       "size_and_dimensions": {
@@ -2745,6 +2791,7 @@
     },
     {
       "model": "ZS0508C",
+      "brand": "Zoomlion",
       "type": "Crawler Scissor Lift",
       "image": "/equipment/scissor-lift/zs0508c.webp",
       "size_and_dimensions": {
@@ -2799,6 +2846,7 @@
     },
     {
       "model": "ZS0610C",
+      "brand": "Zoomlion",
       "type": "Crawler Scissor Lift",
       "image": "/equipment/scissor-lift/zs0610c.webp",
       "size_and_dimensions": {
@@ -2853,6 +2901,7 @@
     },
     {
       "model": "ZS0612C",
+      "brand": "Zoomlion",
       "type": "Crawler Scissor Lift",
       "image": "/equipment/scissor-lift/zs0612c.webp",
       "size_and_dimensions": {
@@ -2907,6 +2956,7 @@
     },
     {
       "model": "ZS1216C",
+      "brand": "Zoomlion",
       "type": "Crawler Scissor Lift",
       "image": "/equipment/scissor-lift/zs1216c.webp",
       "size_and_dimensions": {
@@ -2961,6 +3011,7 @@
     },
     {
       "model": "ZS1018RT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1018rt.webp",
       "size_and_dimensions": {
@@ -3019,6 +3070,7 @@
     },
     {
       "model": "ZS1218RT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1218rt.webp",
       "size_and_dimensions": {
@@ -3077,6 +3129,7 @@
     },
     {
       "model": "ZS1023RT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1023rt.webp",
       "size_and_dimensions": {
@@ -3135,6 +3188,7 @@
     },
     {
       "model": "ZS1323RT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1323rt.webp",
       "size_and_dimensions": {
@@ -3193,6 +3247,7 @@
     },
     {
       "model": "ZS1623RT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1623rt.webp",
       "size_and_dimensions": {
@@ -3251,6 +3306,7 @@
     },
     {
       "model": "ZS1218ERT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs1218ert.webp",
       "size_and_dimensions": {
@@ -3307,6 +3363,7 @@
     },
     {
       "model": "ZS2023ERT",
+      "brand": "Zoomlion",
       "type": "Rough Terrain Scissor Lift",
       "image": "/equipment/scissor-lift/zs2023ert.webp",
       "size_and_dimensions": {

@@ -1,26 +1,26 @@
 // app/components/Equipment/ProductCard.js
 
-"use client";
+'use client';
 
-import Image from "next/image";
-import Link from "next/link";
-import { ListChecks, MessageSquare } from "lucide-react";
-import ProductSpecs from "./ProductSpecs"; // Import komponen baru
+import Image from 'next/image';
+import Link from 'next/link';
+import { ListChecks, MessageSquare } from 'lucide-react';
+import ProductSpecs from './ProductSpecs'; // Import komponen baru
 
 // Helper untuk mengubah nama kategori menjadi format URL-friendly (kebab-case)
 const slugify = (text) =>
   text
     .toString()
     .toLowerCase()
-    .replace(/\s+/g, "-") // Ganti spasi dengan -
-    .replace(/[^\w\-]+/g, "") // Hapus karakter non-word
-    .replace(/\-\-+/g, "-") // Ganti -- jadi -
-    .replace(/^-+/, "") // Hapus - di awal
-    .replace(/-+$/, ""); // Hapus - di akhir
+    .replace(/\s+/g, '-') // Ganti spasi dengan -
+    .replace(/[^\w\-]+/g, '') // Hapus karakter non-word
+    .replace(/\-\-+/g, '-') // Ganti -- jadi -
+    .replace(/^-+/, '') // Hapus - di awal
+    .replace(/-+$/, ''); // Hapus - di akhir
 
 // Kartu produk sekarang lebih fleksibel untuk menampilkan data yang berbeda
 const ProductCard = ({ product, lang, onCompareChange, compareList }) => {
-  const categoryName = product.category || "";
+  const categoryName = product.category || '';
 
   const displayType = product.subtype
     ? `${categoryName} (${product.subtype})`
@@ -37,9 +37,9 @@ const ProductCard = ({ product, lang, onCompareChange, compareList }) => {
       <div className="relative h-32 sm:h-48 w-full overflow-hidden">
         <Image
           src={
-            product.image || "https://placehold.co/600x400?text=No+Image.png"
+            product.image || 'https://placehold.co/600x400?text=No+Image.png'
           }
-          alt={product.model || "Equipment"}
+          alt={product.model || 'Equipment'}
           fill
           className="object-contain p-2 sm:p-4 transition-transform duration-300 group-hover:scale-110"
           sizes="(max-width: 1024px) 50vw, 33vw"
@@ -49,6 +49,11 @@ const ProductCard = ({ product, lang, onCompareChange, compareList }) => {
         <h3 className="font-bold text-sm sm:text-lg text-black">
           {product.model}
         </h3>
+        {product.brand && (
+          <p className="text-xs sm:text-sm text-gray-400 italic mb-1">
+            {product.brand}
+          </p>
+        )}
         <p className="text-xs sm:text-sm text-gray-500 mb-2 sm:mb-4">
           {displayType}
         </p>
@@ -71,7 +76,7 @@ const ProductCard = ({ product, lang, onCompareChange, compareList }) => {
             <label
               htmlFor={`compare-${product.model}`}
               className={`ml-2 text-xs sm:text-sm cursor-pointer ${
-                isDisabled && !isSelected ? "text-gray-400" : "text-gray-600"
+                isDisabled && !isSelected ? 'text-gray-400' : 'text-gray-600'
               }`}
             >
               Add to Compare

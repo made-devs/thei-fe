@@ -1,6 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
-import PageHero from '@/components/ui/PageHero'; // Ganti import dari EquipmentHero ke PageHero
-import HeroPromos from '@/components/ui/HeroPromos'; // Import komponen baru
+import PageHero from '@/components/ui/PageHero';
+import HeroPromos from '@/components/ui/HeroPromos';
 import EquipmentIntro from '@/components/features/Equipment/EquipmentIntro';
 import MainCta from '@/components/features/home/MainCta';
 import InteractiveEquipmentView from '@/components/features/Equipment/InteractiveEquipmentView';
@@ -23,6 +23,8 @@ import telescopicCrawlerCraneData from '@/data/equipment/telescopic-crawler-cran
 import concretePumpMixerData from '@/data/equipment/concrete-pump-mixer.json';
 import motorGraderData from '@/data/equipment/motor-grader.json';
 import dumpTruckData from '@/data/equipment/dump-truck.json';
+import backhoeLoaderData from '@/data/equipment/backhoe-loader.json';
+import reachStackerData from '@/data/equipment/reach-staker.json'; // Tambah import reach stacker
 
 // Komponen utama halaman "New Machines"
 export default async function NewMachinesPage({ params }) {
@@ -68,14 +70,14 @@ export default async function NewMachinesPage({ params }) {
     'Telescopic Crawler Crane':
       telescopicCrawlerCraneData.telescopic_crawler_cranes,
     'Concrete Pump & Mixer': concretePumpMixerData.concrete_pump_mixers,
-    'Dump Truck': dumpTruckData.dump_trucks, // Tambahkan ini
+    'Dump Truck': dumpTruckData.dump_trucks,
+    'Backhoe Loader': backhoeLoaderData.backhoe_loaders,
+    'Reach Stacker': reachStackerData.reach_stackers, // Tambah reach stacker
   };
 
   return (
     <>
-      {newMachinesDict.hero && (
-        <PageHero dictionary={newMachinesDict.hero} /> // Ganti EquipmentHero dengan PageHero
-      )}
+      {newMachinesDict.hero && <PageHero dictionary={newMachinesDict.hero} />}
 
       <HeroPromos promos={equipmentPromos} />
 

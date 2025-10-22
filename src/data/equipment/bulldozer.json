@@ -2,6 +2,7 @@
   "bulldozers": [
     {
       "model": "ZD170G",
+      "brand": "Zoomlion",
       "type": "Bulldozer",
       "image": "/equipment/bulldozer/zd170g.webp",
       "basic_technical_data": {
@@ -17,6 +18,7 @@
     },
     {
       "model": "ZD170GH",
+      "brand": "Zoomlion",
       "type": "Bulldozer",
       "image": "/equipment/bulldozer/zd170gh.webp",
       "basic_technical_data": {
@@ -32,6 +34,7 @@
     },
     {
       "model": "ZD260G",
+      "brand": "Zoomlion",
       "type": "Bulldozer",
       "image": "/equipment/bulldozer/zd260g.webp",
       "basic_technical_data": {
@@ -47,6 +50,7 @@
     },
     {
       "model": "ZD340G",
+      "brand": "Zoomlion",
       "type": "Bulldozer",
       "image": "/equipment/bulldozer/zd340g.webp",
       "basic_technical_data": {

@@ -18,6 +18,8 @@ import aerialWorkingPlatformData from '@/data/equipment/aerial-working-platform.
 import vibroRollerData from '@/data/equipment/vibro-roller.json';
 import motorGraderData from '@/data/equipment/motor-grader.json';
 import dumpTruckData from '@/data/equipment/dump-truck.json';
+import backhoeLoaderData from '@/data/equipment/backhoe-loader.json'; // Tambah import
+import reachStackerData from '@/data/equipment/reach-staker.json'; // Tambah import
 
 const allProductsData = {
   forklift: forkliftData.forklifts,
@@ -40,6 +42,8 @@ const allProductsData = {
   'vibro-roller': vibroRollerData.vibro_rollers,
   'motor-grader': motorGraderData.motor_graders,
   'dump-truck': dumpTruckData.dump_trucks,
+  'backhoe-loader': backhoeLoaderData.backhoe_loaders, // Tambah data
+  'reach-stacker': reachStackerData.reach_stackers, // Tambah data
 };
 
 // Fungsi untuk mendapatkan semua produk dengan kategori

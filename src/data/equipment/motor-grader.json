@@ -2,6 +2,7 @@
   "motor_graders": [
     {
       "model": "STG140C-8S",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg140c-8s.webp",
       "power_system_specification": {
@@ -47,6 +48,7 @@
     },
     {
       "model": "STG170C-8S",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg170c-8s.webp",
       "power_system_specification": {
@@ -92,6 +94,7 @@
     },
     {
       "model": "STG190C-10S (Euro Ⅱ)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg190c-10s-euro-ii.webp",
       "power_system_specification": {
@@ -137,6 +140,7 @@
     },
     {
       "model": "STG190C-10S (Euro Ⅲ)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg190c-10s-euro-iii.webp",
       "power_system_specification": {
@@ -182,6 +186,7 @@
     },
     {
       "model": "STG190C-8S (Weichai)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg190c-8s-weichai.webp",
       "power_system_specification": {
@@ -227,6 +232,7 @@
     },
     {
       "model": "STG190C-8S (Dongfeng)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg190c-8s-dongfeng.webp",
       "power_system_specification": {
@@ -272,6 +278,7 @@
     },
     {
       "model": "STG230C-10S (Stage II)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg230c-10s-stage-ii.webp",
       "power_system_specification": {
@@ -321,6 +328,7 @@
     },
     {
       "model": "STG230C-10S (CHINA III)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg230c-10s-china-iii.webp",
       "power_system_specification": {
@@ -370,6 +378,7 @@
     },
     {
       "model": "STG230C-10S (Euro V)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg230c-10s-euro-v.webp",
       "power_system_specification": {
@@ -419,6 +428,7 @@
     },
     {
       "model": "STG230C-8S",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg230c-8s.webp",
       "power_system_specification": {
@@ -468,6 +478,7 @@
     },
     {
       "model": "STG265C-10",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/stg265c-10.webp",
       "power_system_specification": {
@@ -517,6 +528,7 @@
     },
     {
       "model": "SMG200C-10",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/smg200c-10.webp",
       "power_system_specification": {
@@ -565,6 +577,7 @@
     },
     {
       "model": "SMG200 (PDJ10000157)",
+      "brand": "Sany",
       "type": "Motor Grader",
       "image": "/equipment/motor-grader/smg200-pdj10000157.webp",
       "power_system_specification": {

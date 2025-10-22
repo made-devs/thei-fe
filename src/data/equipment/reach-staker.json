@@ -1,0 +1,642 @@
+{
+  "reach_stackers": [
+    {
+      "id": "rs-sany-srsc1009-6e",
+      "model": "SRSC1009-6E",
+      "brand": "SANY",
+      "type": "Below 40T Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc1009-6e.webp",
+      "engine": "CUMMINS QSB6.7",
+      "transmission": "DANA 13.7HR32334",
+      "drive_axle": "KESSLER D81 PL488",
+      "hydraulic_system": "PERMCO Double Gear Pump P257 + PT257C",
+      "performance": {
+        "max_loading_capacity": "10 T",
+        "max_lifting_height": "16200 mm",
+        "spreader": "SANY SDJE100H"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "39 T",
+        "wheel_base": "5000 mm",
+        "min_turning_radius": "6800 mm",
+        "tyre": "14.00-24 28PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc3532h1-l",
+      "model": "SRSC3532H1-L",
+      "brand": "SANY",
+      "type": "Below 40T Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc3532h1-l.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "35 T",
+        "max_lifting_height": "13910 mm",
+        "spreader": "SANY SDJS320D"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45e2a",
+      "model": "SRSC45E2A",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45e2a.webp",
+      "engine": "DM380H46",
+      "transmission": "Unknown/Not Specified",
+      "drive_axle": "SANY XWF-510",
+      "hydraulic_system": "SP1V0190TPEP-R00C-MDD1F11TCS",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "71 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "ChaoYang/ADVANCE/Continental"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4535g5",
+      "model": "SRSC4535G5",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4535g5.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA 157TE30510-7",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450G"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "76.5 T",
+        "wheel_base": "6500 mm",
+        "min_turning_radius": "8600 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4535g5-s",
+      "model": "SRSC4535G5-S",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4535g5-s.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA 157TE30510-7",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450G"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "76.5 T",
+        "wheel_base": "6500 mm",
+        "min_turning_radius": "8600 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4535h1",
+      "model": "SRSC4535H1",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4535h1.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P32105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "76.5 T",
+        "wheel_base": "6500 mm",
+        "min_turning_radius": "8800 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4535h4-65",
+      "model": "SRSC4535H4-65",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4535h4-65.webp",
+      "engine": "CUMMINS QSL9",
+      "transmission": "DANA 15.7TE32418",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "76.5 T",
+        "wheel_base": "6500 mm",
+        "min_turning_radius": "8800 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4540g5",
+      "model": "SRSC4540G5",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4540g5.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA TE30",
+      "drive_axle": "KESSLER D102",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450G5"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "80.5 T",
+        "wheel_base": "7000 mm",
+        "min_turning_radius": "8800 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4540g5-75",
+      "model": "SRSC4540G5-75",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4540g5-75.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA 157TE30510-7",
+      "drive_axle": "KESSLER D106 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450G"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "88 T",
+        "wheel_base": "7500 mm",
+        "min_turning_radius": "9700 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4540g5-s",
+      "model": "SRSC4540G5-S",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4540g5-s.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA TE30",
+      "drive_axle": "KESSLER D106",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450G5"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "82 T",
+        "wheel_base": "7000 mm",
+        "min_turning_radius": "8800 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4540h4",
+      "model": "SRSC4540H4",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4540h4.webp",
+      "engine": "QSL9 261kW Tier4F",
+      "transmission": "DANA 15.7 TE32418",
+      "drive_axle": "KESSLER D106 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "89 T",
+        "wheel_base": "7000 mm",
+        "min_turning_radius": "9500 mm",
+        "tyre": "18.00-33 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4545h1",
+      "model": "SRSC4545H1",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4545h1.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D106 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "13600 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "96.5 T",
+        "wheel_base": "8000 mm",
+        "min_turning_radius": "10600 mm",
+        "tyre": "21.00-35 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc4545h4",
+      "model": "SRSC4545H4",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc4545h4.webp",
+      "engine": "CUMMINS QSL9",
+      "transmission": "DANA 15.7TE32418",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "13600 mm",
+        "spreader": "SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "96.5 T",
+        "wheel_base": "8000 mm",
+        "min_turning_radius": "10600 mm",
+        "tyre": "21.00-35 36PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45e3",
+      "model": "SRSC45E3",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45e3.webp",
+      "engine": "ELECTRIC MOTOR PMSM",
+      "transmission": "SANY DWF-510/KESSLER D102",
+      "drive_axle": "N/A",
+      "hydraulic_system": "FULLY ELECTRIC",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "Unknown/Not Specified"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "73 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45e5",
+      "model": "SRSC45E5",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45e5.webp",
+      "engine": "ELECTRIC MOTOR PMSM",
+      "transmission": "KESSLER D102",
+      "drive_axle": "N/A",
+      "hydraulic_system": "ELECTRIC",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "Unknown/Not Specified"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "73 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45e",
+      "model": "SRSC45E",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45e.webp",
+      "engine": "MOTOR ETM4200",
+      "transmission": "N/A",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "N/A",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "74 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45g5",
+      "model": "SRSC45G5",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45g5.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA 15.5TE30",
+      "drive_axle": "KESSLER D102",
+      "hydraulic_system": "PARKER",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H-R1"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72.5 T",
+        "wheel_base": "6042 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45g59",
+      "model": "SRSC45G59",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45g59.webp",
+      "engine": "VOLVO TAD1181VE",
+      "transmission": "DANA 157TE30510-7",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H9"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "73 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45h1",
+      "model": "SRSC45H1",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45h1.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45h2",
+      "model": "SRSC45H2",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45h2.webp",
+      "engine": "CUMMINS QSM11",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45h3",
+      "model": "SRSC45H3",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45h3.webp",
+      "engine": "VOLVO TAD1171VE",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45v4",
+      "model": "SRSC45V4",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45v4.webp",
+      "engine": "CUMMINS QSL9 T4F",
+      "transmission": "DANA 15.7 TE30",
+      "drive_axle": "KESSLER D102",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H-R1"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6053 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45h9",
+      "model": "SRSC45H9",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45h9.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 16.7TE30510",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H9"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "73 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45t",
+      "model": "SRSC45T",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45t.webp",
+      "engine": "VOLVO TAD1151",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "9300 mm",
+        "spreader": "SANY SDJ450T"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "65 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45v",
+      "model": "SRSC45V",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45v.webp",
+      "engine": "VOLVO TAD1151VE",
+      "transmission": "DANA 15.5HR36432-36",
+      "drive_axle": "SANY XWF-510",
+      "hydraulic_system": "PARKER",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H-R1"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "71 T",
+        "wheel_base": "6042 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45v3",
+      "model": "SRSC45V3",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45v3.webp",
+      "engine": "Deutz D12S3-381E1",
+      "transmission": "DANA 15.5HR36432-36",
+      "drive_axle": "SANY XWF-510",
+      "hydraulic_system": "PARKER",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H-R1"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "71 T",
+        "wheel_base": "6042 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45v1a",
+      "model": "SRSC45V1A",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45v1a.webp",
+      "engine": "VOLVO TAD1151VE",
+      "transmission": "DANA 15.5HR36000",
+      "drive_axle": "KESSLER D102",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450H-R1"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "71 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc1009-6e-45t",
+      "model": "SRSC1009-6E (45T)",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc1009-6e-45t.webp",
+      "engine": "CUMMINS QSB 6.7",
+      "transmission": "DANA 13.7HR32334",
+      "drive_axle": "KESSLER D81 PL488",
+      "hydraulic_system": "PERMCO DOUBLE GEAR PUMP P257 -PT257C",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "16200 mm",
+        "spreader": "SANY SDJE100H"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "39 T",
+        "wheel_base": "5000 mm",
+        "min_turning_radius": "6800 mm",
+        "tyre": "14.00-24 28PR"
+      }
+    },
+    {
+      "id": "rs-sany-srsc45h4-v2",
+      "model": "SRSC45H4",
+      "brand": "SANY",
+      "type": "Over 40t Reach Stacker",
+      "image": "/equipment/reach-stacker/srsc45h4-v2.webp",
+      "engine": "CUMMINS QSL9 IV",
+      "transmission": "DANA 15.7TE32418",
+      "drive_axle": "KESSLER D102 PL341",
+      "hydraulic_system": "PARKER P2105R",
+      "performance": {
+        "max_loading_capacity": "45 T",
+        "max_lifting_height": "15100 mm",
+        "spreader": "SANY SDJ450FA"
+      },
+      "dimensions_and_weight": {
+        "overall_weight": "72 T",
+        "wheel_base": "6000 mm",
+        "min_turning_radius": "8000 mm",
+        "tyre": "18.00-25 40PR"
+      }
+    }
+  ]
+}
