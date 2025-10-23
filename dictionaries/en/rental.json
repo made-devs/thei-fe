@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Ready-to-Use Fleet",
       "title": "Flexible Rental Solutions for Your Project",
-      "image": "/equipment/equip6.webp",
+      "image": "/banner-rental.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Rental", "link": "/rental" }
@@ -56,7 +56,7 @@
     },
     "facilities": {
       "title": "More Than Just Renting, It's a Guarantee of Peace of Mind",
-      "image": "/banner-slider2.webp",
+      "image": "/rental/rental.webp",
       "items": [
         { "name": "Free Delivery", "icon": "Truck" },
         { "name": "SLA Response <3 Hours", "icon": "Clock3" },

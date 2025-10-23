@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "HUBUNGI KAMI",
       "title": "Tim Ahli Kami Siap Membantu Anda",
-      "image": "/contact.webp",
+      "image": "/banner-contact.webp",
       "breadcrumbs": [{ "name": "Home", "link": "/" }, { "name": "Kontak" }]
     },
     "contact_info": {

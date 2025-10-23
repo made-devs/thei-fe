@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "FIND YOUR POTENTIAL",
       "title": "Grow With THEI",
-      "image": "/career.webp",
+      "image": "/banner-career.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "About Us", "link": "/about" },
@@ -30,32 +30,36 @@
       "subtitle": "BECOME ONE OF US",
       "title": "Open Positions",
       "description": "We are always looking for the best talent to join us. Find the position that best fits your skills and interests.",
-      "image": "/career.webp",
       "positions": [
         {
           "title": "Heavy Equipment Mechanic",
           "location": "All Branches",
-          "type": "Full-time"
+          "type": "Full-time",
+          "image": "/career/mechanic.webp"
         },
         {
           "title": "Service Advisor",
           "location": "Jakarta, Surabaya",
-          "type": "Full-time"
+          "type": "Full-time",
+          "image": "/career/service-advisor.webp"
         },
         {
           "title": "Parts Sales Consultant",
           "location": "Pekanbaru, Balikpapan",
-          "type": "Full-time"
+          "type": "Full-time",
+          "image": "/career/parts-consultant.webp"
         },
         {
           "title": "Operational Admin",
           "location": "Head Office (Jakarta)",
-          "type": "Full-time"
+          "type": "Full-time",
+          "image": "/career/admin.webp"
         },
         {
           "title": "Marketing Executive",
           "location": "Bandung, Medan",
-          "type": "Full-time"
+          "type": "Full-time",
+          "image": "/career/marketing.webp"
         }
       ],
       "cta": "View Details & Apply"

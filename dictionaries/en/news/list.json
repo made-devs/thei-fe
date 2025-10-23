@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Latest Insights from THEI",
       "title": "News & Events",
-      "image": "/news.webp",
+      "image": "/banner-news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "News & Events" }

@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Penawaran Eksklusif",
       "title": "Penawaran Terbaik, Keuntungan Maksimal.",
-      "image": "/banner-slider6.webp",
+      "image": "/banner-promo.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Promosi", "link": "/promotions" }

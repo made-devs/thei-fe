@@ -16,7 +16,7 @@ const MainCta = ({ dictionary }) => {
         <div className="relative h-[50vh] rounded-xl overflow-hidden shadow-2xl">
           {/* Gambar Background */}
           <Image
-            src="/banner-slider1.webp" // Pastikan gambar ini ada di folder public
+            src="/cta1.webp" // Pastikan gambar ini ada di folder public
             alt="Heavy equipment yard"
             fill
             className="object-cover"

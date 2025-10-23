@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Wawasan Terbaru dari THEI",
       "title": "Berita & Acara",
-      "image": "/news.webp",
+      "image": "/banner-news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Berita & Acara" }

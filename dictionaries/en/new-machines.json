@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "TOP QUALITY AND PERFORMANCE",
       "title": "Explore Our New Machine Lineup",
-      "image": "/equipment/equip6.webp",
+      "image": "/product-banner.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Products", "link": "/products" }

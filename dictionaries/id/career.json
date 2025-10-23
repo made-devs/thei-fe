@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "TEMUKAN POTENSI ANDA",
       "title": "Bertumbuh Bersama THEI",
-      "image": "/career.webp",
+      "image": "/banner-career.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Tentang Kami", "link": "/about" },

@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Armada Siap Pakai",
       "title": "Solusi Rental Fleksibel untuk Proyek Anda",
-      "image": "/equipment/equip6.webp",
+      "image": "/banner-rental.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Rental", "link": "/rental" }
@@ -56,7 +56,7 @@
     },
     "facilities": {
       "title": "Bukan Sekadar Sewa, Ini Jaminan Ketenangan Anda",
-      "image": "/banner-slider2.webp",
+      "image": "/rental/rental.webp",
 
       "items": [
         { "name": "Gratis Pengiriman", "icon": "Truck" },

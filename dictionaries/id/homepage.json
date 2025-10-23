@@ -1,12 +1,16 @@
 {
+  "header": {
+    "title": "THEI - TJM Heavy Equipment Indonesia",
+    "subtitle": "Solusi Satu Pintu Indonesia untuk Sewa, Servis & Penjualan Alat Berat"
+  },
   "hero": {
-    "main_copy": "Sales • Trade-In • Rental • Repair • Parts • After Sales",
-    "sub_copy_line1": "Bonus After Sales hingga Rp200 Juta",
+    "main_copy": "Penjualan • Suku Cadang • Servis • Sewa • Tukar Tambah",
+    "sub_copy_line1": "Bonus Purna Jual hingga Rp200 Juta",
     "sub_copy_line2": "Layanan 24/7",
     "sub_copy_line3": "Suku Cadang Asli",
     "cta": {
       "quote": "Minta Penawaran",
-      "explore": "Jelajahi Equipment",
+      "explore": "Jelajahi Produk",
       "book": "Pesan Servis",
       "branch": "Cari Cabang"
     },
@@ -21,7 +25,7 @@
   },
   "news_ticker": {
     "items": [
-      "THEI dianugerahi sebagai Distributor Nasional Terbaik 2025.",
+      "THEI Dianugerahi sebagai Distributor Nasional Terbaik 2025.",
       "Diskon 20% untuk semua suku cadang asli hingga akhir bulan!",
       "Pameran alat berat terbesar akan segera hadir di Jakarta Convention Center.",
       "Program Tukar Tambah: Tukarkan alat berat lama Anda dengan yang baru dan dapatkan penawaran spesial."
@@ -32,54 +36,6 @@
     "title": "Penawaran",
     "title_highlight": "Terbatas",
     "description": "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda",
-
-    "promos": [
-      {
-        "id": "promo-opening-pembelian",
-        "badge": "HOT DEAL",
-        "title": "Promo Pembelian Alat Berat S/D Rp 250.000.000",
-        "description": "Cashback & diskon besar hingga 30%, corporate gift pack eksklusif, training operator gratis, free delivery, dan layanan after-sales VIP.",
-        "valid_until": "30 Hari Lagi",
-        "image": "/promo/promo1.webp",
-        "is_featured": false,
-        "urgent": true,
-        "cta_link": "/contact?promo=bundling-forklift"
-      },
-      {
-        "id": "promo-opening-servis",
-        "badge": "HOT DEAL",
-        "title": "Promo Servis Alat Berat S/D Rp 70.000.000",
-        "description": "Diskon service & sparepart hingga 70%, gratis member card, fasilitas menginap teknisi, serta layanan inspeksi lengkap.",
-        "valid_until": "30 Hari Lagi",
-        "image": "/promo/promo2.webp",
-        "is_featured": false,
-        "urgent": false,
-        "cta_link": "/rental?promo=excavator40"
-      },
-      {
-        "id": "promo-opening-rental",
-        "badge": "HOT DEAL",
-        "title": "Promo Rental Alat Berat S/D Rp 100.000.000",
-        "description": "Diskon rental hingga Rp50 juta, gratis antar-jemput unit, 24/7 service truck, GPS monitoring, safety kit lengkap, dan branding logo customer.",
-        "valid_until": "30 Hari Lagi",
-        "image": "/promo/promo3.webp",
-        "is_featured": false,
-        "urgent": false,
-        "cta_link": "/spare-parts?promo=free-parts"
-      },
-      {
-        "id": "promo-opening-trade-in",
-        "badge": "HOT DEAL",
-        "title": "Promo Trade-in S/D Rp 50.000.000",
-        "description": "Diskon Trade-In hingga Rp50 juta, inspeksi gratis, estimasi cepat, dan pickup unit lama tanpa biaya.",
-        "valid_until": "30 Hari Lagi",
-        "image": "/promo/promo4.webp",
-        "is_featured": false,
-        "urgent": false,
-        "cta_link": "/repair-packages?package=platinum"
-      }
-    ],
-
     "view_all_text": "Lihat Semua Promo",
     "view_all_link": "/promotions",
     "cta_featured": "Ambil Promo",
@@ -89,7 +45,7 @@
     "subtitle": "Mengapa Memilih Kami",
     "title": "Mengapa Klien Kami Percaya Kami Berbeda",
     "description": "Kami tidak hanya menyediakan alat berat, tetapi solusi lengkap untuk mendukung kesuksesan proyek Anda dengan standar internasional dan layanan purna jual yang andal.",
-    "image_url": "/home/news2.webp",
+    "image_url": "/whychooseus.webp",
     "features": [
       {
         "title": "Solusi Satu Pintu",

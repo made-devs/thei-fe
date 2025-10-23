@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; // Tambah import Image
 import {
   Search,
   ShoppingCart,
@@ -179,18 +180,20 @@ const Navbar = ({ dictionary, currentLocale }) => {
         <div className="bg-white border-b border-gray-200 relative">
           <div className="max-w-[1440px] mx-auto px-6 h-[80px] flex items-center justify-between">
             <Link href={`/${currentLocale}`} className="flex items-center">
-              <div className="bg-yellow-400 px-4 py-2 rounded-l-md">
-                <span className="text-black font-bold text-xl">THEI</span>
-              </div>
-              <div className="bg-black px-3 py-2 rounded-r-md">
-                <span className="text-white font-bold text-xl">ID</span>
-              </div>
+              {/* Ganti text logo dengan Image */}
+              <Image
+                src="/logo.webp"
+                alt="THEI Logo"
+                width={120}
+                height={40}
+                className="object-contain"
+              />
             </Link>
             <nav className="flex items-center space-x-8">
               {mainNavLinks.map((link) =>
                 link.isDropdown ? (
                   <div key={link.name} className="relative group">
-                    <button className="text-gray-800 font-semibold hover:text-yellow-500 transition-colors flex items-center">
+                    <button className="text-gray-800 font-semibold text-sm hover:text-yellow-500 transition-colors flex items-center">
                       <span>{link.name}</span>
                       <ChevronDown size={16} className="ml-1" />
                     </button>
@@ -200,7 +203,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
                           <Link
                             key={item.name}
                             href={item.href}
-                            className="block px-4 py-2 text-gray-800 hover:bg-yellow-50 hover:text-black"
+                            className="block px-4 py-2 text-sm text-gray-800 hover:bg-yellow-50 hover:text-black"
                           >
                             {item.name}
                           </Link>
@@ -212,7 +215,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
                   <Link
                     key={link.name}
                     href={link.href}
-                    className="text-gray-800 font-semibold hover:text-yellow-500 transition-colors"
+                    className="text-gray-800 text-sm font-semibold hover:text-yellow-500 transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -244,14 +247,14 @@ const Navbar = ({ dictionary, currentLocale }) => {
           </div>
           <div className="flex justify-center">
             <Link href={`/${currentLocale}`} className="flex items-center">
-              <div className="bg-yellow-400 px-3 py-1">
-                <span className="text-black font-extrabold text-lg tracking-wider">
-                  THEI
-                </span>
-              </div>
-              <div className="bg-black px-2 py-1">
-                <span className="text-white font-bold text-lg">ID</span>
-              </div>
+              {/* Ganti text logo dengan Image */}
+              <Image
+                src="/logo.webp"
+                alt="THEI Logo"
+                width={100}
+                height={30}
+                className="object-contain"
+              />
             </Link>
           </div>
           <div className="flex justify-end items-center">
@@ -287,14 +290,14 @@ const Navbar = ({ dictionary, currentLocale }) => {
             className="flex items-center"
             onClick={() => setIsMenuOpen(false)}
           >
-            <div className="bg-yellow-400 px-3 py-1">
-              <span className="text-black font-extrabold text-xl tracking-wider">
-                THEI
-              </span>
-            </div>
-            <div className="bg-black px-2 py-1">
-              <span className="text-white font-bold text-xl">ID</span>
-            </div>
+            {/* Ganti text logo dengan Image */}
+            <Image
+              src="/logo.webp"
+              alt="THEI Logo"
+              width={100}
+              height={30}
+              className="object-contain"
+            />
           </Link>
           <button
             onClick={() => setIsMenuOpen(false)}

@@ -5,6 +5,7 @@
       "title": "Layanan Profesional, Uptime Maksimal",
       "description": "Jaga performa puncak alat berat Anda dengan dukungan teknisi ahli dan solusi servis komprehensif kami yang siap 24/7.",
       "cta": "Jadwalkan Servis Sekarang",
+      "image": "/service-banner.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Layanan & Dukungan", "link": "/service" }

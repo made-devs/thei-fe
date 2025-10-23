@@ -1,4 +1,8 @@
 {
+  "header": {
+    "title": "THEI - TJM Heavy Equipment Indonesia",
+    "subtitle": "Indonesia's One-Stop Solution for Heavy Equipment Rental, Service & Sales"
+  },
   "hero": {
     "main_copy": "Sales • Spare Parts • Service • Rental • Trade-In",
     "sub_copy_line1": "Bonus After Sales up to Rp200 Million",
@@ -28,21 +32,20 @@
     ]
   },
   "highlight_promo": {
-    "section_badge": "Promo Bulan Ini",
-    "title": "Penawaran",
-    "title_highlight": "Terbatas",
-    "description": "Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda",
-
-    "view_all_text": "Lihat Semua Promo",
+    "section_badge": "This Month's Promo",
+    "title": "Offers",
+    "title_highlight": "Limited",
+    "description": "Don't miss the golden opportunity to increase your business productivity",
+    "view_all_text": "View All Promos",
     "view_all_link": "/promotions",
-    "cta_featured": "Ambil Promo",
-    "cta_regular": "Lihat Detail"
+    "cta_featured": "Take Promo",
+    "cta_regular": "View Details"
   },
   "why_thei": {
     "subtitle": "Why Choose Us",
     "title": "Why Our Clients Believe We're Different",
     "description": "We provide not just heavy equipment, but a complete solution to support the success of your project with international standards and reliable after-sales service.",
-    "image_url": "/home/news2.webp",
+    "image_url": "/whychooseus.webp",
     "features": [
       {
         "title": "One Stop Solution",

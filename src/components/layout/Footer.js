@@ -1,6 +1,7 @@
 // /app/components/Footer.js
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image'; // Tambah import Image
 // Ganti import lucide-react dengan react-icons
 import { FaFacebook, FaInstagram, FaTiktok } from 'react-icons/fa';
 
@@ -22,13 +23,15 @@ const Footer = ({ dictionary, currentLocale }) => {
           {/* Kolom 1: Logo, Nama, Kontak */}
           <div className="lg:col-span-5 space-y-6">
             <Link href={`/${currentLocale}`} className="inline-block">
-              <div className="flex items-center">
-                <div className="bg-yellow-400 px-3 py-1.5 rounded-l-md">
-                  <span className="text-black font-bold text-lg">THEI</span>
-                </div>
-                <div className="bg-black px-2.5 py-1.5 rounded-r-md">
-                  <span className="text-white font-bold text-lg">ID</span>
-                </div>
+              {/* Tambah bg putih, border semi-rounded */}
+              <div className="bg-white p-3 rounded-lg border border-gray-300 shadow-sm">
+                <Image
+                  src="/logo.webp"
+                  alt="THEI Logo"
+                  width={120}
+                  height={40}
+                  className="object-contain"
+                />
               </div>
             </Link>
             <h3 className="font-bold text-lg">{footerDict.company_name}</h3>

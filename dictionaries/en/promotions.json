@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Exclusive Offers",
       "title": "Best Deals, Maximum Benefits.",
-      "image": "/banner-slider6.webp",
+      "image": "/banner-promo.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Promotions", "link": "/promotions" }

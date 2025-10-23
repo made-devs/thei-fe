@@ -14,7 +14,6 @@ export default async function ServicePage({ params }) {
   return (
     <>
       <PageHero dictionary={serviceDict.hero} />{' '}
-      {/* Ganti ServiceHero dengan PageHero */}
       <BeforeAfterSlider
         dictionary={serviceDict.quality_gallery.before_after}
       />

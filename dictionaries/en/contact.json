@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "CONTACT US",
       "title": "Our Expert Team is Ready to Help You",
-      "image": "/contact.webp",
+      "image": "/banner-contact.webp",
       "breadcrumbs": [{ "name": "Home", "link": "/" }, { "name": "Contact" }]
     },
     "contact_info": {

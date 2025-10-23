@@ -1,20 +1,20 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image'; // Tambah import Image
+import Image from 'next/image';
 import {
   ChevronLeft,
   ChevronRight,
   MessageCircle,
   Eye,
-  Clock,
   X,
+  Sparkles,
 } from 'lucide-react';
 
 const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [savedPromos, setSavedPromos] = useState([]);
-  const [selectedPromo, setSelectedPromo] = useState(null); // State untuk modal detail
+  const [selectedPromoImage, setSelectedPromoImage] = useState(null);
+  const [hoveredId, setHoveredId] = useState(null);
 
   // Auto-slide setiap 5 detik - hanya jika lebih dari 1 promo
   useEffect(() => {
@@ -32,14 +32,6 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
 
   const prevSlide = () => {
     setCurrentSlide((prev) => (prev - 1 + promos.length) % promos.length);
-  };
-
-  const toggleSave = (id) => {
-    setSavedPromos((prev) =>
-      prev.includes(id)
-        ? prev.filter((promoId) => promoId !== id)
-        : [...prev, id]
-    );
   };
 
   const sendWhatsApp = (promo) => {
@@ -67,24 +59,22 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
     window.open(waUrl, '_blank');
   };
 
-  const openDetail = (promo) => {
-    setSelectedPromo(promo);
-  };
-
-  const closeDetail = () => {
-    setSelectedPromo(null);
-  };
-
   if (!promos || promos.length === 0) return null;
 
   return (
     <>
-      <section className="bg-white py-6 mt-[3rem]">
-        <div className="max-w-7xl mx-auto px-4 relative">
-          {/* Judul dan Deskripsi - Sesuaikan ukuran font dengan EquipmentIntro */}
+      <section className="bg-gradient-to-b from-gray-50 to-white py-12 sm:py-16 lg:py-20">
+        <div className="w-full">
+          {/* Judul dan Deskripsi */}
           {title && (
-            <div className="text-center mb-6">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
+            <div className="text-center mb-12 sm:mb-16 px-4 sm:px-6 lg:px-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
+                <Sparkles className="w-4 h-4 text-yellow-400" />
+                <span className="text-yellow-600 font-bold text-xs sm:text-sm uppercase tracking-wider">
+                  Special Offers
+                </span>
+              </div>
+              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-black mb-4">
                 {title}
               </h2>
               {description && (
@@ -95,130 +85,167 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
             </div>
           )}
 
-          {/* Slider */}
-          <div className="relative rounded-2xl overflow-hidden shadow-xl mx-8 md:mx-12">
-            <div className="relative h-80 md:h-96">
-              {promos.map((promo, index) => (
-                <div
-                  key={promo.id}
-                  className={`absolute inset-0 transition-opacity duration-500 ${
-                    index === currentSlide ? 'opacity-100' : 'opacity-0'
-                  }`}
-                >
+          {/* Cards Container - Full Width */}
+          <div className="flex flex-col gap-6 sm:gap-8 px-4 sm:px-6 lg:px-0">
+            {promos.map((promo, index) => (
+              <div
+                key={promo.id}
+                onMouseEnter={() => setHoveredId(promo.id)}
+                onMouseLeave={() => setHoveredId(null)}
+                className={`group mx-auto w-full md:max-w-4xl flex flex-col md:flex-row rounded-2xl overflow-hidden bg-white transition-all duration-300 ${
+                  hoveredId === promo.id
+                    ? 'shadow-2xl shadow-black/20 md:scale-105'
+                    : 'shadow-lg shadow-black/10'
+                }`}
+              >
+                {/* Image Container - Top Mobile / Kiri Desktop (4:5 Aspect Ratio) */}
+                <div className="relative aspect-video md:aspect-[4/5] w-full md:w-[40%] overflow-hidden bg-gray-200 flex-shrink-0">
                   <Image
                     src={promo.image}
                     alt={promo.title}
                     fill
-                    className="object-cover"
+                    className="object-cover transition-transform duration-500 group-hover:scale-110 cursor-pointer"
+                    sizes="(max-width: 768px) 100vw, 40vw"
+                    onClick={() => setSelectedPromoImage(promo.image)}
                   />
-                  {/* Gradasi lebih pekat di bawah untuk readability */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent" />
 
-                  {/* Content */}
-                  <div className="absolute bottom-0 left-0 right-0 p-6 md:p-8 text-white">
-                    <h2 className="text-3xl md:text-4xl font-bold mb-2 text-yellow-300 drop-shadow-lg">
+                  {/* Badge */}
+                  <div className="absolute top-2 left-2 sm:top-3 sm:left-3 bg-yellow-400 text-black px-2 sm:px-3 py-1 rounded-full font-bold text-xs sm:text-sm">
+                    {promo.badge || 'HOT DEAL'}
+                  </div>
+
+                  {/* Discount Tag jika ada */}
+                  {promo.discount && (
+                    <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-red-500 text-white px-2 py-1 rounded-full font-bold text-xs">
+                      -{promo.discount}
+                    </div>
+                  )}
+
+                  {/* Overlay gradient */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                </div>
+
+                {/* Content Container - Bottom Mobile / Kanan Desktop */}
+                <div className="flex-1 flex flex-col p-3 sm:p-4 md:p-8 w-full md:w-[60%] justify-between">
+                  {/* Top Section */}
+                  <div>
+                    {/* Title */}
+                    <h3 className="font-bold text-base sm:text-lg md:text-2xl text-black mb-1 sm:mb-2 line-clamp-2 group-hover:text-yellow-600 transition-colors">
                       {promo.title}
-                    </h2>
-                    <p className="text-lg md:text-xl mb-4 text-gray-200 drop-shadow-md">
-                      {promo.tagline}
-                    </p>
+                    </h3>
 
-                    {/* Kondisi: Jika ada price, tampilkan harga; jika tidak, tampilkan description */}
-                    {promo.price ? (
-                      <div className="flex items-center gap-4 mb-4">
-                        <div>
-                          {promo.originalPrice && (
-                            <span className="text-sm line-through text-gray-400 drop-shadow-sm">
-                              {promo.originalPrice}
-                            </span>
-                          )}
-                          <div className="text-3xl font-bold drop-shadow-lg">
-                            {promo.price}
-                          </div>
-                        </div>
-                      </div>
-                    ) : (
-                      promo.description && (
-                        <p className="text-base md:text-base md:pr-[7rem] mb-4 text-gray-200 drop-shadow-md">
-                          {promo.description}
-                        </p>
-                      )
+                    {/* Tagline */}
+                    {promo.tagline && (
+                      <p className="text-xs sm:text-sm text-gray-500 mb-2 line-clamp-1">
+                        {promo.tagline}
+                      </p>
                     )}
 
-                    <div className="flex gap-3">
+                    {/* Description */}
+                    {promo.description && (
+                      <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 line-clamp-2 md:line-clamp-3">
+                        {promo.description}
+                      </p>
+                    )}
+                  </div>
+
+                  {/* Bottom Section */}
+                  <div>
+                    {/* Price Section */}
+                    {promo.price && (
+                      <div className="mb-3 sm:mb-4 md:mb-6 pb-3 sm:pb-4 md:pb-6 border-b border-gray-200">
+                        {promo.originalPrice && (
+                          <p className="text-xs sm:text-sm text-gray-400 line-through mb-1">
+                            {promo.originalPrice}
+                          </p>
+                        )}
+                        <p className="text-xl sm:text-2xl md:text-3xl font-bold text-yellow-600">
+                          {promo.price}
+                        </p>
+                      </div>
+                    )}
+
+                    {/* CTA Buttons */}
+                    <div className="flex gap-2 sm:gap-3">
                       <button
                         onClick={() => sendWhatsApp(promo)}
-                        className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black px-6 py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition drop-shadow-lg"
+                        className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 sm:py-3 md:py-3.5 px-2 sm:px-4 md:px-6 rounded-lg flex items-center justify-center gap-1 sm:gap-2 transition-all duration-300 shadow-md hover:shadow-lg text-xs sm:text-sm md:text-base"
                       >
-                        <MessageCircle className="w-5 h-5" />
-                        Chat WhatsApp
+                        <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" />
+                        <span>Chat</span>
                       </button>
                       <button
-                        onClick={() => openDetail(promo)}
-                        className="px-6 py-3 bg-black/30 backdrop-blur-sm hover:bg-black/40 rounded-lg font-semibold transition drop-shadow-lg"
+                        onClick={() => setSelectedPromoImage(promo.image)}
+                        className="flex-1 bg-black hover:bg-gray-800 text-white font-bold py-2 sm:py-3 md:py-3.5 px-2 sm:px-4 md:px-6 rounded-lg flex items-center justify-center gap-1 sm:gap-2 transition-all duration-300 shadow-md hover:shadow-lg text-xs sm:text-sm md:text-base"
                       >
-                        Detail
+                        <Eye className="w-4 h-4 sm:w-5 sm:h-5" />
+                        <span>Detail</span>
                       </button>
                     </div>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
+          </div>
 
-            {/* Dots - Sembunyikan jika hanya 1 promo */}
-            {promos.length > 1 && (
-              <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2">
+          {/* Carousel Controls - Hanya tampil di mobile */}
+          {promos.length > 1 && (
+            <div className="flex md:hidden justify-center gap-3 sm:gap-4 mt-8 px-4">
+              <button
+                onClick={prevSlide}
+                className="p-2 bg-black hover:bg-gray-800 text-yellow-400 rounded-full transition-all shadow-lg"
+              >
+                <ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />
+              </button>
+              <div className="flex gap-2 items-center">
                 {promos.map((_, index) => (
                   <button
                     key={index}
                     onClick={() => setCurrentSlide(index)}
-                    className={`w-2 h-2 rounded-full transition drop-shadow-sm ${
+                    className={`h-2 rounded-full transition-all ${
                       index === currentSlide
-                        ? 'bg-yellow-400 w-8'
-                        : 'bg-black/50'
+                        ? 'bg-yellow-400 w-6'
+                        : 'bg-gray-300 w-2'
                     }`}
                   />
                 ))}
               </div>
-            )}
-          </div>
-
-          {/* Slider Controls - Sembunyikan jika hanya 1 promo */}
-          {promos.length > 1 && (
-            <>
-              <button
-                onClick={prevSlide}
-                className="absolute left-0 top-1/2 -translate-y-1/2 p-2 bg-yellow-400/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 transition drop-shadow-lg"
-              >
-                <ChevronLeft className="w-6 h-6 text-black" />
-              </button>
               <button
                 onClick={nextSlide}
-                className="absolute right-0 top-1/2 -translate-y-1/2 p-2 bg-yellow-400/80 backdrop-blur-sm rounded-full hover:bg-yellow-400 transition drop-shadow-lg"
+                className="p-2 bg-black hover:bg-gray-800 text-yellow-400 rounded-full transition-all shadow-lg"
               >
-                <ChevronRight className="w-6 h-6 text-black" />
+                <ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />
               </button>
-            </>
+            </div>
           )}
         </div>
       </section>
 
-      {/* Modal Detail - Hanya gambar */}
-      {selectedPromo && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-          <div className="relative bg-white rounded-lg overflow-hidden shadow-2xl">
+      {/* Modal Full Screen Image */}
+      {selectedPromoImage && (
+        <div
+          className="fixed inset-0 bg-black/95 backdrop-blur-sm flex items-center justify-center z-50 p-4"
+          onClick={() => setSelectedPromoImage(null)}
+        >
+          <div
+            className="relative w-full h-screen max-h-[90vh] rounded-xl overflow-hidden"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Close Button */}
             <button
-              onClick={closeDetail}
-              className="absolute top-4 right-4 p-2 bg-black/50 text-white rounded-full hover:bg-black/70 transition z-10"
+              onClick={() => setSelectedPromoImage(null)}
+              className="absolute top-4 right-4 p-2 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full transition-all z-10 shadow-lg"
             >
               <X className="w-6 h-6" />
             </button>
+
+            {/* Full Screen Image */}
             <Image
-              src={selectedPromo.imageDetail || selectedPromo.image}
-              alt={selectedPromo.title}
-              width={700}
-              height={500}
-              className="object-cover"
+              src={selectedPromoImage}
+              alt="Promo Detail"
+              fill
+              className="object-contain"
+              sizes="100vw"
             />
           </div>
         </div>

@@ -13,27 +13,27 @@ import {
 import Link from 'next/link';
 import Image from 'next/image'; // Tambahkan import Image
 
-export default function HighlightPromo({ dictionary, currentLocale }) {
-  // Pindahkan definisi promos ke atas, setelah props
-  const promos = dictionary?.list || [];
+export default function HighlightPromo({ dictionary, promos, currentLocale }) {
+  // ✅ dictionary sekarang berisi highlight_promo config
+  // ✅ promos berisi array promo dari promotions
+
+  const sectionBadge = dictionary?.section_badge || "This Month's Promo";
+  const title = dictionary?.title || 'Offers';
+  const titleHighlight = dictionary?.title_highlight || 'Limited';
+  const description =
+    dictionary?.description ||
+    "Don't miss the golden opportunity to increase your business productivity";
+  const viewAllText = dictionary?.view_all_text || 'View All Promos';
+  const viewAllLink = dictionary?.view_all_link || '/promotions';
+  const ctaRegular = dictionary?.cta_regular || 'View Details';
 
   // Tambahkan field tambahan untuk carousel - ambil hanya 4 teratas
-  const enhancedPromos = promos.slice(0, 4).map((promo) => ({
+  const enhancedPromos = (promos || []).slice(0, 4).map((promo) => ({
     ...promo,
-    is_featured: promo.size === 'large', // Misalnya, large dianggap featured
+    is_featured: promo.size === 'large',
     urgent: promo.badge === 'HOT' || promo.badge === 'FLASH SALE',
-    valid_until: promo.expiry || promo.location, // Gunakan location jika expiry kosong
+    valid_until: promo.valid_until || promo.expiry || 'Limited Time',
   }));
-
-  const sectionBadge = 'Promo Bulan Ini'; // Hardcoded atau ambil dari dictionary jika ada
-  const title = 'Penawaran';
-  const titleHighlight = 'Terbatas';
-  const description =
-    'Jangan lewatkan kesempatan emas untuk meningkatkan produktivitas bisnis Anda';
-  const viewAllText = 'Lihat Semua Promo';
-  const viewAllLink = '/promotions';
-  const ctaFeatured = 'Ambil Promo';
-  const ctaRegular = 'Lihat Detail';
 
   const [hoveredId, setHoveredId] = useState(null);
   const [emblaRef, emblaApi] = useEmblaCarousel(

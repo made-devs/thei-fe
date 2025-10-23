@@ -4,7 +4,7 @@
       "subtitle": "OUR BRANCHES",
       "title": "Extensive Network, Local Service",
       "description": "Find our expert support in 8 major cities across Indonesia, ready to serve wherever your project is located.",
-      "image": "/contact.webp",
+      "image": "/banner-branches.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Our Branches" }
@@ -14,83 +14,91 @@
       "title": "Explore Our Branch Network",
       "branches": [
         {
-          "id": "jabodetabek",
-          "city": "Jabodetabek",
-          "address": "Jl. Raya Cilandak KKO No.1, RT.13/RW.5, Ragunan, Ps. Minggu, South Jakarta",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "id": "bekasi",
+          "city": "Head Office (Bekasi)",
+          "address": "POSH, Blk. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17132",
+          "map_link": "https://maps.app.goo.gl/wKEDzHN1bQ2upQSk7",
           "phone": "(021) 782-2373",
-          "coords": { "lat": -6.29, "lng": 106.82 }
+          "coords": { "lat": -6.190499938188441, "lng": 106.97722606940688 }
+        },
+        {
+          "id": "tangsel",
+          "city": "Tangerang Selatan",
+          "address": "Jl. W R Supratman No.39, Cemp. Putih, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15412",
+          "map_link": "https://maps.app.goo.gl/ve1XsgSHyZQNztun8",
+          "phone": "(022) 520-1234",
+          "coords": { "lat": -6.297683719636832, "lng": 106.74834275406597 }
+        },
+        {
+          "id": "jaktim",
+          "city": "Jakarta Timur",
+          "address": "Jl. Setu Cipayung No.15, RT.4/RW.4, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870",
+          "map_link": "https://maps.app.goo.gl/qMYhBndHrDBpjtPp9",
+          "phone": "(024) 760-5678",
+          "coords": { "lat": -6.326481096738293, "lng": 106.90315476755978 }
+        },
+        {
+          "id": "jakbar",
+          "city": "Jakarta Barat",
+          "address": "Daan Mogot Rd Kecamatan No.10-16, RT.3/RW.13, East Cengkareng, Cengkareng, West Jakarta City, Jawa Barat 11730",
+          "map_link": "https://maps.app.goo.gl/GhWLjVXB9FcUjXcNA",
+          "phone": "(031) 888-9999",
+          "coords": { "lat": -6.154675518027079, "lng": 106.74688063872225 }
+        },
+        {
+          "id": "bogor",
+          "city": "Bogor",
+          "address": "Jl. A. Yani No 2, RT.01/RW.05, Tanah Sareal, Kec. Tanah Sareal, Kota Bogor, Jawa Barat 16161",
+          "map_link": "https://maps.app.goo.gl/MPEkEGoTNmvGoJ5x5",
+          "phone": "(061) 794-1111",
+          "coords": { "lat": -6.568831466255837, "lng": 106.80500171174002 }
         },
         {
           "id": "bandung",
           "city": "Bandung",
-          "address": "Jl. Soekarno Hatta No. 438, Bandung City, West Java",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(022) 520-1234",
-          "coords": { "lat": -6.94, "lng": 107.62 }
-        },
-        {
-          "id": "semarang",
-          "city": "Semarang",
-          "address": "Jl. Jenderal Sudirman No. 320, Semarang City, Central Java",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(024) 760-5678",
-          "coords": { "lat": -6.98, "lng": 110.41 }
+          "address": "Jl. Moch. Ramdan No.102, Ciateul, Kec. Regol, Kota Bandung, Jawa Barat 40252",
+          "map_link": "https://maps.app.goo.gl/ubsKkFzWBFjNihxp7",
+          "phone": "(0761) 858-222",
+          "coords": { "lat": -6.936687918244335, "lng": 107.60961454729389 }
         },
         {
           "id": "surabaya",
           "city": "Surabaya",
-          "address": "Jl. Raya Surabaya-Malang KM 48, Pandaan, Pasuruan, East Java",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(031) 888-9999",
-          "coords": { "lat": -7.54, "lng": 112.71 }
+          "address": "Jl. Barata Jaya XIX No.67, Baratajaya, Kec. Gubeng, Kota Surabaya, Jawa Timur 60284",
+          "map_link": "https://maps.app.goo.gl/VMtYz4pUZhSdNM976",
+          "phone": "(0542) 761-888",
+          "coords": { "lat": -7.302763589405038, "lng": 112.75926762339336 }
         },
         {
           "id": "medan",
           "city": "Medan",
-          "address": "Jl. Medan-Tanjung Morawa KM 12.5, Deli Serdang Regency, North Sumatra",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(061) 794-1111",
-          "coords": { "lat": 3.59, "lng": 98.67 }
-        },
-        {
-          "id": "pekanbaru",
-          "city": "Pekanbaru",
-          "address": "Jl. Jend. Sudirman No. 450, Pekanbaru City, Riau",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(0761) 858-222",
-          "coords": { "lat": 0.51, "lng": 101.45 }
-        },
-        {
-          "id": "balikpapan",
-          "city": "Balikpapan",
-          "address": "Jl. Mulawarman No. 21, Batakan, East Balikpapan, East Kalimantan",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(0542) 761-888",
-          "coords": { "lat": -1.27, "lng": 116.83 }
-        },
-        {
-          "id": "makassar",
-          "city": "Makassar",
-          "address": "Jl. Urip Sumoharjo KM. 6, Tello Baru, Panakkukang, Makassar, South Sulawesi",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
+          "address": "Jl. Teuku Umar No.1, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20112",
+          "map_link": "https://maps.app.goo.gl/sKeWcN9VdsGnjjj48",
           "phone": "(0411) 448-888",
-          "coords": { "lat": -5.14, "lng": 119.43 }
+          "coords": { "lat": 3.586079199974142, "lng": 98.67122635216138 }
+        },
+        {
+          "id": "medan2",
+          "city": "Medan 2",
+          "address": "Jl. Sikambing No.8, Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20111",
+          "map_link": "https://maps.app.goo.gl/i5eghg9UKeJhHVUP8",
+          "phone": "(0411) 448-888",
+          "coords": { "lat": 3.60024848030637, "lng": 98.66815982517446 }
         }
       ]
     },
     "virtual_tour": {
       "title": "Visit Our Facilities, Virtually",
-      "video_thumbnail": "/commitment.webp",
+      "video_thumbnail": "/branches/branches5.webp",
       "video_id": "dQw4w9WgXcQ"
     },
     "facility_gallery": {
       "title": "Professional Standards at Every Location",
       "images": [
-        "/home/news4.webp",
-        "/home/news5.webp",
-        "/equipment/equip1.webp",
-        "/equipment/equip3.webp"
+        "/branches/branches1.webp",
+        "/branches/branches2.webp",
+        "/branches/branches3.webp",
+        "/branches/branches4.webp"
       ]
     },
     "main_cta": {

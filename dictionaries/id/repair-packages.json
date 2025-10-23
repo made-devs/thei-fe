@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "Special Repair Offers",
       "title": "Repair & Premium Service Packages",
-      "image": "/banner-slider3.webp",
+      "image": "/repair-banner.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
         { "name": "Promotions", "link": "/promotions" },
