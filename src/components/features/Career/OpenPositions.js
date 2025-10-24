@@ -1,30 +1,67 @@
 'use client';
 
-import { useState } from 'react';
-import { MapPin, Briefcase, ArrowRight } from 'lucide-react';
+import { useState, useCallback, useEffect } from 'react';
+import { MapPin, Briefcase } from 'lucide-react';
 import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 
 const OpenPositions = ({ dictionary }) => {
-  // ✅ Pindah useState ke atas, sebelum conditional logic
   const [selectedIndex, setSelectedIndex] = useState(0);
+  const [formData, setFormData] = useState({
+    nama: '',
+    domisili: '',
+    bagian: '',
+  });
+
+  const selectedPosition = dictionary?.positions[selectedIndex];
+  const images = selectedPosition?.images || [];
+
+  // Auto-update bagian saat selectedIndex berubah
+  useEffect(() => {
+    if (selectedPosition) {
+      setFormData((prev) => ({
+        ...prev,
+        bagian: selectedPosition.title,
+      }));
+    }
+  }, [selectedIndex, selectedPosition]);
+
+  // Setup Embla Carousel jika ada lebih dari 1 gambar
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    {
+      loop: images.length > 1,
+      align: 'start',
+      slidesToScroll: 1,
+    },
+    images.length > 1
+      ? [Autoplay({ delay: 4000, stopOnInteraction: true })]
+      : []
+  );
+
+  const scrollPrev = useCallback(() => {
+    if (emblaApi) emblaApi.scrollPrev();
+  }, [emblaApi]);
+
+  const scrollNext = useCallback(() => {
+    if (emblaApi) emblaApi.scrollNext();
+  }, [emblaApi]);
+
+  const handleFormChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prev) => ({ ...prev, [name]: value }));
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    const message = `Nama: ${formData.nama}\nDomisili: ${formData.domisili}\nBagian yang dilamar: ${formData.bagian}\nSaya ingin melamar posisi ini.`;
+    const waUrl = `https://wa.me/6285195886789?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(waUrl, '_blank');
+  };
 
   if (!dictionary) return null;
-
-  // Ambil data position yang dipilih
-  const selectedPosition = dictionary.positions[selectedIndex];
-
-  // Generate unsplash placeholder image berdasarkan index
-  const getPlaceholderImage = (index) => {
-    const unsplashIds = [
-      'photo-1552664730-d307ca884978', // mechanic
-      'photo-1552664730-d307ca884978', // service advisor
-      'photo-1552664730-d307ca884978', // parts consultant
-      'photo-1552664730-d307ca884978', // admin
-      'photo-1552664730-d307ca884978', // marketing
-    ];
-    const id = unsplashIds[index] || 'photo-1552664730-d307ca884978';
-    return `https://images.unsplash.com/${id}?w=800&h=600&fit=crop&q=80`;
-  };
 
   return (
     <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
@@ -41,98 +78,138 @@ const OpenPositions = ({ dictionary }) => {
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 items-stretch">
-          {/* Kolom Daftar Lowongan */}
-          <div className="space-y-4 flex flex-col">
+        {/* Kolom Daftar Lowongan - Center Horizontal */}
+        <div className="mb-12 flex justify-center overflow-x-auto">
+          <div className="flex gap-3 pb-4">
             {dictionary.positions.map((pos, index) => (
               <button
                 key={index}
                 onClick={() => setSelectedIndex(index)}
-                className={`p-4 sm:p-6 rounded-lg border-2 transition-all text-left flex justify-between items-center ${
+                className={`px-4 sm:px-6 py-3 rounded-lg border-2 transition-all text-left whitespace-nowrap flex-shrink-0 ${
                   selectedIndex === index
                     ? 'border-yellow-400 bg-yellow-50 shadow-lg'
                     : 'border-gray-200 bg-white hover:border-yellow-300 hover:shadow-md'
                 }`}
               >
-                <div>
-                  <h3
-                    className={`font-bold text-base sm:text-lg ${
-                      selectedIndex === index ? 'text-black' : 'text-gray-800'
-                    }`}
-                  >
-                    {pos.title}
-                  </h3>
-                  <div className="flex items-center space-x-4 text-xs sm:text-sm text-gray-500 mt-2">
-                    <div className="flex items-center gap-2">
-                      <MapPin size={14} className="sm:w-4 sm:h-4" />
-                      <span>{pos.location}</span>
-                    </div>
-                    <div className="flex items-center gap-2">
-                      <Briefcase size={14} className="sm:w-4 sm:h-4" />
-                      <span>{pos.type}</span>
-                    </div>
-                  </div>
-                </div>
-                <ArrowRight
-                  size={20}
-                  className={`sm:w-6 sm:h-6 transition-colors flex-shrink-0 ${
-                    selectedIndex === index
-                      ? 'text-yellow-600'
-                      : 'text-gray-400'
+                <h3
+                  className={`font-bold text-sm sm:text-base ${
+                    selectedIndex === index ? 'text-black' : 'text-gray-800'
                   }`}
-                />
+                >
+                  {pos.title}
+                </h3>
               </button>
             ))}
           </div>
-
-          {/* Kolom Poster/Gambar - Dynamic */}
-          <div className="relative h-[50vh] sm:h-[60vh] rounded-lg overflow-hidden shadow-lg bg-gray-200">
-            <Image
-              key={selectedIndex}
-              src={getPlaceholderImage(selectedIndex)}
-              alt={selectedPosition?.title || 'Position Image'}
-              fill
-              className="object-cover transition-opacity duration-300"
-              priority={selectedIndex === 0}
-              unoptimized={true} // Pakai unoptimized karena unsplash CDN
-            />
-            {/* Overlay dengan info */}
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex flex-col justify-end p-6">
-              <h3 className="text-white font-bold text-xl sm:text-2xl">
-                {selectedPosition?.title}
-              </h3>
-              <p className="text-yellow-300 text-sm sm:text-base mt-2">
-                {selectedPosition?.location}
-              </p>
-            </div>
-
-            {/* Indicator dots */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-10">
-              {dictionary.positions.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setSelectedIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-all ${
-                    selectedIndex === index
-                      ? 'bg-yellow-400 w-6'
-                      : 'bg-white/50 hover:bg-white'
-                  }`}
-                  aria-label={`Go to position ${index + 1}`}
-                />
-              ))}
-            </div>
-          </div>
         </div>
 
-        {/* CTA Button */}
-        <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-3.5 rounded-lg transition-all group">
-            <span>{dictionary.cta}</span>
-            <ArrowRight
-              size={20}
-              className="group-hover:translate-x-1 transition-transform"
-            />
-          </button>
+        {/* Card: Image + Form */}
+        <div className="mx-auto max-w-4xl bg-white rounded-lg shadow-lg overflow-hidden">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
+            {/* Kolom Poster/Gambar - Sisi Kiri */}
+            <div className="relative w-full aspect-[4/5] bg-gray-200">
+              {images.length > 1 ? (
+                <div
+                  className="embla overflow-hidden w-full h-full"
+                  ref={emblaRef}
+                >
+                  <div className="embla__container flex h-full">
+                    {images.map((img, imgIndex) => (
+                      <div
+                        key={imgIndex}
+                        className="embla__slide min-w-0 w-full relative flex-[0_0_100%]"
+                      >
+                        <Image
+                          src={img}
+                          alt={`${selectedPosition?.title} - Image ${
+                            imgIndex + 1
+                          }`}
+                          fill
+                          className="object-cover"
+                          sizes="(max-width: 768px) 100vw, 50vw"
+                          priority={imgIndex === 0}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                  <button
+                    onClick={scrollPrev}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-10"
+                  >
+                    ‹
+                  </button>
+                  <button
+                    onClick={scrollNext}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-10"
+                  >
+                    ›
+                  </button>
+                </div>
+              ) : (
+                <Image
+                  src={images[0] || '/placeholder.webp'}
+                  alt={selectedPosition?.title || 'Position Image'}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  priority
+                />
+              )}
+            </div>
+
+            {/* Form Lamaran - Sisi Kanan */}
+            <div className="p-6 sm:p-8 flex flex-col justify-center min-h-[500px]">
+              <h3 className="text-lg sm:text-xl font-bold mb-6 text-black">
+                {dictionary.form.title}
+              </h3>
+              <form onSubmit={handleFormSubmit} className="space-y-4">
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {dictionary.form.nama_label}
+                  </label>
+                  <input
+                    type="text"
+                    name="nama"
+                    value={formData.nama}
+                    onChange={handleFormChange}
+                    required
+                    className="w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {dictionary.form.domisili_label}
+                  </label>
+                  <input
+                    type="text"
+                    name="domisili"
+                    value={formData.domisili}
+                    onChange={handleFormChange}
+                    required
+                    className="w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-transparent text-sm"
+                  />
+                </div>
+                <div>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    {dictionary.form.bagian_label}
+                  </label>
+                  <input
+                    type="text"
+                    name="bagian"
+                    value={formData.bagian}
+                    readOnly
+                    className="w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 bg-gray-100 text-sm text-gray-700"
+                  />
+                </div>
+                <button
+                  type="submit"
+                  className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-3 px-4 rounded-md transition-colors mt-6"
+                >
+                  {dictionary.form.submit_button}
+                </button>
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </section>

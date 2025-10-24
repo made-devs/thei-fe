@@ -20,76 +20,91 @@
       "benefits": [
         {
           "icon": "TrendingUp",
+          "image": "/tradein/benefit1.webp",
           "title": "High & Transparent Trade-In Value",
           "description": "Your old unit is valued competitively with an official appraisal system. Max trade-in age is 10 years (e.g., a 2015 forklift)."
         },
         {
           "icon": "Zap",
+          "image": "/tradein/benefit2.webp",
           "title": "Upgrade to New Technology",
           "description": "Instantly switch to the latest units (diesel, electric, gasoline) that are more energy-efficient and eco-friendly."
         },
         {
           "icon": "PiggyBank",
+          "image": "/tradein/benefit3.webp",
           "title": "Save on Initial Capital",
           "description": "The value of your old equipment automatically becomes a discount on the new unit purchase, easing your business cash flow."
         },
         {
           "icon": "FastForward",
+          "image": "/tradein/benefit4.webp",
           "title": "Fast & Easy Process",
           "description": "All processes from appraisal, documentation, to the handover of units are handled entirely by the THEI team."
         },
         {
           "icon": "ThumbsUp",
+          "image": "/tradein/benefit5.webp",
           "title": "Hassle-Free Selling",
           "description": "No need to waste time and energy advertising or selling your old equipment to third parties."
         },
         {
           "icon": "ShieldCheck",
+          "image": "/tradein/benefit6.webp",
           "title": "Longer New Unit Warranty",
           "description": "The new unit from trade-in receives an additional promotional value of IDR 20 million from THEI."
         },
         {
           "icon": "CreditCard",
+          "image": "/tradein/benefit7.webp",
           "title": "Installment Scheme Options",
           "description": "The new unit can be purchased through a flexible financing (leasing) scheme after the trade-in process."
         },
         {
           "icon": "Wrench",
+          "image": "/tradein/benefit8.webp",
           "title": "Free Initial Service Period",
           "description": "Get a bonus of free filter components for services at 250, 500, 750, and 1000 usage hours."
         },
         {
           "icon": "ClipboardCheck",
+          "image": "/tradein/benefit9.webp",
           "title": "Market Price Certainty",
           "description": "Transparent appraisal value based on unit condition, working hours, and service history."
         },
         {
           "icon": "LineChart",
+          "image": "/tradein/benefit10.webp",
           "title": "Improve Fleet Efficiency",
           "description": "A smart solution for time efficiency and rejuvenating older units in your fleet."
         },
         {
           "icon": "Award",
+          "image": "/tradein/benefit11.webp",
           "title": "Promo Support from TJM Auto Care",
           "description": "Every new trade-in unit is automatically enrolled in TJM's premium after-sales program (standby technicians, etc.)."
         },
         {
           "icon": "Gift",
+          "image": "/tradein/benefit12.webp",
           "title": "Free Corporate Gift Pack",
           "description": "Receive an exclusive package including uniforms, helmets, vests, and a safety kit with your company's branding."
         },
         {
           "icon": "Briefcase",
+          "image": "/tradein/benefit13.webp",
           "title": "Added Value for Your Company",
           "description": "Get a bonus Corporate Business consultation at Sentinel Law Firm as an added value."
         },
         {
           "icon": "Truck",
+          "image": "/tradein/benefit14.webp",
           "title": "Free Delivery in Jabodetabek Area",
           "description": "Enjoy free delivery service for your new unit within the Jabodetabek area."
         },
         {
           "icon": "Users",
+          "image": "/tradein/benefit15.webp",
           "title": "Free Operator Training",
           "description": "We provide free basic training for your new unit's operator to get them ready to work."
         }

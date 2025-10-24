@@ -81,7 +81,11 @@ export default function PromoDetailClient({ promo, lang }) {
 
                 {/* Details List */}
                 {promo.details && promo.details.length > 0 && (
-                  <div className="space-y-4 mb-8">
+                  <div
+                    className={`space-y-4 mb-8 ${
+                      promo.details.length > 5 ? 'max-h-96 overflow-y-auto' : ''
+                    }`}
+                  >
                     {promo.details.map((item, index) => (
                       <div
                         key={index}

@@ -1,7 +1,8 @@
-"use client";
+'use client';
 
-import React, { useCallback } from "react";
-import useEmblaCarousel from "embla-carousel-react";
+import React, { useCallback } from 'react';
+import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
 import {
   TrendingUp,
   Zap,
@@ -20,7 +21,7 @@ import {
   Users,
   ArrowLeft,
   ArrowRight,
-} from "lucide-react";
+} from 'lucide-react';
 
 const iconMap = {
   TrendingUp: <TrendingUp size={32} className="text-yellow-500" />,
@@ -43,7 +44,7 @@ const iconMap = {
 const BenefitsSection = ({ dictionary }) => {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
-    align: "start",
+    align: 'start',
     slidesToScroll: 1,
   });
 
@@ -95,9 +96,25 @@ const BenefitsSection = ({ dictionary }) => {
                 className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.33%] pl-4"
               >
                 <div className="bg-gray-50 p-4 sm:p-8 rounded-lg h-full flex flex-col">
+                  {/* Image Section */}
+                  {benefit.image && (
+                    <div className="relative w-full aspect-[4/5] mb-4 rounded-lg overflow-hidden">
+                      <Image
+                        src={benefit.image}
+                        alt={benefit.title}
+                        fill
+                        className="object-cover"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      />
+                    </div>
+                  )}
+
+                  {/* Icon */}
                   <div className="flex-shrink-0 bg-white p-3 rounded-full shadow-md w-max mb-4">
                     {iconMap[benefit.icon]}
                   </div>
+
+                  {/* Content */}
                   <div>
                     <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-black">
                       {benefit.title}

@@ -35,24 +35,9 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
   };
 
   const sendWhatsApp = (promo) => {
-    const messages = {
-      Makanan: `Halo, mau order promo ${
-        promo.title || 'ini'
-      }. Untuk berapa orang dan jam berapa tersedia?`,
-      Fashion: `Halo, saya tertarik promo ${
-        promo.title || 'ini'
-      }. Masih ready stock? Bisa COD?`,
-      Elektronik: `Halo, saya mau beli promo ${
-        promo.title || 'ini'
-      }. Garansi resmi kan? Bisa cicilan?`,
-      Service: `Halo, mau booking promo ${
-        promo.title || 'ini'
-      }. Kapan slot terdekat yang available?`,
-    };
-
-    const message =
-      messages[promo.category] ||
-      `Halo, saya tertarik dengan promo ini. Bisa info lebih lanjut?`;
+    const message = `Halo, saya tertarik dengan promo ${
+      promo.title || 'ini'
+    }. Bisa info lebih lanjut?`;
     const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
       message
     )}`;

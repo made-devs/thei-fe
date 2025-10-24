@@ -4,6 +4,23 @@ import { useState } from 'react';
 
 const ContactForm = ({ dictionary }) => {
   const [requestType, setRequestType] = useState('quote');
+  const [name, setName] = useState('');
+  const [company, setCompany] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [partNumber, setPartNumber] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const waMessage = `Request Type: ${requestType}\nName: ${name}\nCompany: ${company}\nEmail: ${email}\nPhone: ${phone}${
+      requestType === 'parts' ? `\nPart Number: ${partNumber}` : ''
+    }\nMessage: ${message}`;
+    const waUrl = `https://wa.me/6285195886789?text=${encodeURIComponent(
+      waMessage
+    )}`;
+    window.open(waUrl, '_blank');
+  };
 
   if (!dictionary) return null;
 
@@ -16,7 +33,7 @@ const ContactForm = ({ dictionary }) => {
         {dictionary.description}
       </p>
 
-      <form className="space-y-4 sm:space-y-6">
+      <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
         <div>
           <label
             htmlFor="requestType"
@@ -31,10 +48,12 @@ const ContactForm = ({ dictionary }) => {
             onChange={(e) => setRequestType(e.target.value)}
             className="mt-1 block w-full pl-3 pr-10 py-2 text-sm sm:text-base border-gray-300 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 rounded-md"
           >
-            <option value="quote">{dictionary.options.quote}</option>
-            <option value="service">{dictionary.options.service}</option>
-            <option value="parts">{dictionary.options.parts}</option>
-            <option value="emergency">{dictionary.options.emergency}</option>
+            <option value="Request Quote">{dictionary.options.quote}</option>
+            <option value="Book Service">{dictionary.options.service}</option>
+            <option value="Order Parts">{dictionary.options.parts}</option>
+            <option value="Emergency Service">
+              {dictionary.options.emergency}
+            </option>
           </select>
         </div>
 
@@ -49,6 +68,8 @@ const ContactForm = ({ dictionary }) => {
             <input
               type="text"
               id="name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
             />
           </div>
@@ -62,6 +83,8 @@ const ContactForm = ({ dictionary }) => {
             <input
               type="text"
               id="company"
+              value={company}
+              onChange={(e) => setCompany(e.target.value)}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
             />
           </div>
@@ -78,6 +101,8 @@ const ContactForm = ({ dictionary }) => {
             <input
               type="email"
               id="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
             />
           </div>
@@ -91,6 +116,8 @@ const ContactForm = ({ dictionary }) => {
             <input
               type="tel"
               id="phone"
+              value={phone}
+              onChange={(e) => setPhone(e.target.value)}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
             />
           </div>
@@ -107,6 +134,8 @@ const ContactForm = ({ dictionary }) => {
             <input
               type="text"
               id="part-number"
+              value={partNumber}
+              onChange={(e) => setPartNumber(e.target.value)}
               className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
             />
           </div>
@@ -122,6 +151,8 @@ const ContactForm = ({ dictionary }) => {
           <textarea
             id="message"
             rows="4"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
             className="mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-2 px-3 focus:outline-none focus:ring-yellow-500 focus:border-yellow-500 text-sm sm:text-base"
           ></textarea>
         </div>

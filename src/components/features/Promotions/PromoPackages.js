@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useMemo } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import useEmblaCarousel from 'embla-carousel-react';
@@ -9,30 +9,47 @@ import {
   ChevronLeft,
   ChevronRight,
   MessageCircle,
-  Eye,
-  Bookmark,
-  Share2,
-  Clock,
   MapPin,
   X,
   Sparkles,
 } from 'lucide-react';
 
 const PromoPackages = ({ dictionary, lang }) => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [savedPromos, setSavedPromos] = useState([]);
-  const [activeFilter, setActiveFilter] = useState('Semua');
-  const [selectedPromo, setSelectedPromo] = useState(null); // State untuk modal detail
+  const [selectedPromo, setSelectedPromo] = useState(null);
 
   // Data promo dari dictionary
-  const allPromos = dictionary?.list || [];
+  const allPromos = useMemo(() => dictionary?.list || [], [dictionary]);
 
   // Pisahkan large dan small promos
-  const largePromos = allPromos.filter((promo) => promo.size === 'large');
-  const smallPromos = allPromos.filter((promo) => promo.size !== 'large');
+  const largePromos = useMemo(
+    () => allPromos.filter((promo) => promo.size === 'large'),
+    [allPromos]
+  );
 
-  // Setup Embla Carousel untuk small promos
-  const [emblaRef, emblaApi] = useEmblaCarousel(
+  const smallPromos = useMemo(
+    () => allPromos.filter((promo) => promo.size === 'small'),
+    [allPromos]
+  );
+
+  // Pisahkan small promos menjadi 2 kategori
+  const grandOpeningPromos = useMemo(
+    () =>
+      smallPromos.filter((promo) =>
+        ['r1', 'r2', 'r3', 'r4'].includes(promo.id)
+      ),
+    [smallPromos]
+  );
+
+  const servicePromos = useMemo(
+    () =>
+      smallPromos.filter((promo) =>
+        ['r5', 'r6', 'r9', 'r7', 'r8'].includes(promo.id)
+      ),
+    [smallPromos]
+  );
+
+  // Setup Embla Carousel untuk Grand Opening Promo
+  const [emblaRef1, emblaApi1] = useEmblaCarousel(
     {
       loop: true,
       align: 'start',
@@ -41,13 +58,31 @@ const PromoPackages = ({ dictionary, lang }) => {
     [Autoplay({ delay: 4000, stopOnInteraction: true })]
   );
 
-  const scrollPrev = useCallback(() => {
-    if (emblaApi) emblaApi.scrollPrev();
-  }, [emblaApi]);
+  // Setup Embla Carousel untuk Service Promo
+  const [emblaRef2, emblaApi2] = useEmblaCarousel(
+    {
+      loop: true,
+      align: 'start',
+      slidesToScroll: 1,
+    },
+    [Autoplay({ delay: 4000, stopOnInteraction: true })]
+  );
 
-  const scrollNext = useCallback(() => {
-    if (emblaApi) emblaApi.scrollNext();
-  }, [emblaApi]);
+  const scrollPrev1 = useCallback(() => {
+    if (emblaApi1) emblaApi1.scrollPrev();
+  }, [emblaApi1]);
+
+  const scrollNext1 = useCallback(() => {
+    if (emblaApi1) emblaApi1.scrollNext();
+  }, [emblaApi1]);
+
+  const scrollPrev2 = useCallback(() => {
+    if (emblaApi2) emblaApi2.scrollPrev();
+  }, [emblaApi2]);
+
+  const scrollNext2 = useCallback(() => {
+    if (emblaApi2) emblaApi2.scrollNext();
+  }, [emblaApi2]);
 
   // Hardcoded data untuk header
   const sectionBadge = 'Exclusive Offers';
@@ -56,56 +91,99 @@ const PromoPackages = ({ dictionary, lang }) => {
   const description =
     'Discover our latest promotions on heavy equipment with unbeatable discounts and benefits.';
 
-  const filters = [
-    'Semua',
-    'Excavator',
-    'Bulldozer',
-    'Crane',
-    'Loader',
-    '<2JT',
-    '<5JT',
-    'Flash Sale',
-  ];
-
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % allPromos.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + allPromos.length) % allPromos.length);
-  };
-
-  const toggleSave = (promoId) => {
-    setSavedPromos((prev) =>
-      prev.includes(promoId)
-        ? prev.filter((id) => id !== promoId)
-        : [...prev, promoId]
-    );
-  };
-
-  const sendWhatsApp = (promo) => {
+  const sendWhatsApp = useCallback((promo) => {
     const message = `Halo, saya tertarik dengan promo ${
       promo.title || 'alat berat ini'
     }. Bisa info lebih lanjut?`;
-    const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+    const waUrl = `https://wa.me/6285195886789?text=${encodeURIComponent(
       message
     )}`;
     window.open(waUrl, '_blank');
-  };
+  }, []);
 
-  const openDetail = (promo) => {
+  const openDetail = useCallback((promo) => {
     setSelectedPromo(promo);
-  };
+  }, []);
 
-  const closeDetail = () => {
+  const closeDetail = useCallback(() => {
     setSelectedPromo(null);
-  };
+  }, []);
+
+  // Component untuk Small Promo Card
+  const SmallPromoCard = ({ promo }) => (
+    <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden h-full flex flex-col">
+      {/* Image Section */}
+      <div className="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
+        <Image
+          src={promo.image}
+          alt={promo.title || 'Promo Alat Berat'}
+          fill
+          className="object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
+          onClick={() => openDetail(promo)}
+        />
+        {promo.discount && (
+          <div className="absolute top-3 right-3 bg-red-500 text-white px-2 py-1 rounded-full font-bold text-xs">
+            -{promo.discount}
+          </div>
+        )}
+      </div>
+
+      {/* Content Section */}
+      <div className="p-4 flex flex-col flex-grow">
+        {/* Title & Location */}
+        <div className="mb-2">
+          <h4 className="text-sm font-bold text-gray-900 line-clamp-2 mb-1">
+            {promo.title}
+          </h4>
+          <div className="flex items-center gap-1 text-gray-600">
+            <MapPin className="w-3 h-3" />
+            <span className="text-xs">{promo.location}</span>
+          </div>
+        </div>
+
+        {/* Description or Price */}
+        <div className="mb-3 flex-grow">
+          {promo.price ? (
+            <div>
+              {promo.originalPrice && (
+                <p className="text-xs line-through text-gray-400">
+                  {promo.originalPrice}
+                </p>
+              )}
+              <p className="text-lg font-bold text-yellow-600">{promo.price}</p>
+            </div>
+          ) : promo.description ? (
+            <p className="text-xs text-gray-600 line-clamp-2">
+              {promo.description}
+            </p>
+          ) : null}
+        </div>
+
+        {/* Buttons */}
+        <div className="flex flex-col gap-2">
+          <Link
+            href={`/${lang}/promotions/${promo.slug}`}
+            className="w-full bg-black hover:bg-gray-800 text-white px-3 py-2 rounded-lg text-xs font-semibold transition text-center"
+          >
+            Detail
+          </Link>
+          <button
+            onClick={() => sendWhatsApp(promo)}
+            className="w-full bg-yellow-400 hover:bg-yellow-500 text-black px-3 py-2 rounded-lg text-xs font-semibold flex items-center justify-center gap-1.5 transition"
+          >
+            <MessageCircle className="w-3 h-3" />
+            Chat
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 py-8">
       {/* Header */}
-      <div className="text-center mb-8 sm:mb-12">
-        <div className="inline-flex items-center mt-10 gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
+      <div className="text-center mb-12 px-4">
+        <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
           <Sparkles className="w-4 h-4 text-yellow-400 animate-pulse" />
           <span className="text-yellow-400 font-bold text-sm uppercase tracking-wider">
             {sectionBadge}
@@ -121,92 +199,73 @@ const PromoPackages = ({ dictionary, lang }) => {
 
       {/* Large Promos Grid */}
       {largePromos.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 py-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {largePromos.map((promo) => (
               <div
                 key={promo.id}
-                className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] col-span-1 row-span-1"
+                className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden flex flex-col"
               >
-                {/* Image */}
-                <Image
-                  src={promo.image}
-                  alt={promo.title || 'Promo Alat Berat'}
-                  width={500}
-                  height={400}
-                  className="w-full h-full object-cover"
-                />
-
-                {/* Overlay & Content */}
-                <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/80 to-transparent p-6 flex flex-col justify-end">
-                  {promo.badge && (
-                    <span className="absolute top-4 left-4 px-3 py-1 bg-red-500 text-white text-xs font-bold rounded-full">
-                      {promo.badge}
-                    </span>
-                  )}
-
-                  <button
-                    onClick={() => toggleSave(promo.id)}
-                    className="absolute top-4 right-4 p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition"
-                  >
-                    <Bookmark
-                      className={`w-5 h-5 ${
-                        savedPromos.includes(promo.id)
-                          ? 'fill-white text-white'
-                          : 'text-white'
-                      }`}
-                    />
-                  </button>
-
-                  <div className="flex items-center gap-2 mb-2 text-white">
-                    <span className="px-2 py-1 bg-red-500 rounded text-xs font-bold">
-                      {promo.discount} OFF
-                    </span>
-                    <span className="text-xs flex items-center gap-1">
-                      <Clock className="w-3 h-3" />
-                      {promo.expiry}
-                    </span>
-                  </div>
-
-                  <h3 className="text-xl font-bold text-yellow-400 mb-1">
-                    {promo.title}
-                  </h3>
-
-                  <div className="flex items-center gap-2 text-white mb-3">
-                    <MapPin className="w-4 h-4" />
-                    <span className="text-xs">{promo.location}</span>
-                    <Eye className="w-4 h-4 ml-2" />
-                    <span className="text-xs">{promo.views}</span>
-                  </div>
-
-                  {/* Kondisi: Jika ada price, tampilkan harga; jika tidak, tampilkan description */}
-                  {promo.price ? (
-                    <div className="flex items-center gap-2 mb-3">
-                      <span className="text-sm line-through text-gray-300">
-                        {promo.originalPrice}
-                      </span>
-                      <span className="text-2xl font-bold text-white">
-                        {promo.price}
-                      </span>
+                {/* Image Section */}
+                <div className="relative w-full aspect-[4/5] overflow-hidden bg-gray-200 flex-shrink-0">
+                  <Image
+                    src={promo.image}
+                    alt={promo.title || 'Promo Alat Berat'}
+                    fill
+                    className="object-cover hover:scale-105 transition-transform duration-300 cursor-pointer"
+                    onClick={() => openDetail(promo)}
+                  />
+                  {promo.discount && (
+                    <div className="absolute top-4 right-4 bg-red-500 text-white px-3 py-1 rounded-full font-bold text-sm">
+                      -{promo.discount}
                     </div>
-                  ) : (
-                    promo.description && (
-                      <p className="text-base text-white mb-3">
+                  )}
+                </div>
+
+                {/* Content Section */}
+                <div className="p-6 flex flex-col flex-grow">
+                  {/* Title & Location */}
+                  <div className="mb-3">
+                    <h3 className="text-lg font-bold text-gray-900 line-clamp-2 mb-2">
+                      {promo.title}
+                    </h3>
+                    <div className="flex items-center gap-1 text-gray-600">
+                      <MapPin className="w-4 h-4" />
+                      <span className="text-sm">{promo.location}</span>
+                    </div>
+                  </div>
+
+                  {/* Description or Price */}
+                  <div className="mb-4 flex-grow">
+                    {promo.price ? (
+                      <div>
+                        {promo.originalPrice && (
+                          <p className="text-sm line-through text-gray-400 mb-1">
+                            {promo.originalPrice}
+                          </p>
+                        )}
+                        <p className="text-2xl font-bold text-yellow-600">
+                          {promo.price}
+                        </p>
+                      </div>
+                    ) : promo.description ? (
+                      <p className="text-sm text-gray-600 line-clamp-2">
                         {promo.description}
                       </p>
-                    )
-                  )}
+                    ) : null}
+                  </div>
 
-                  <div className="flex gap-2">
+                  {/* Buttons */}
+                  <div className="flex gap-3 flex-shrink-0">
                     <Link
                       href={`/${lang}/promotions/${promo.slug}`}
-                      className="flex-1 bg-black hover:bg-gray-800 text-yellow-400 px-4 py-2 rounded-lg text-sm font-semibold transition text-center"
+                      className="flex-1 bg-black hover:bg-gray-800 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition text-center"
                     >
                       Detail
                     </Link>
                     <button
                       onClick={() => sendWhatsApp(promo)}
-                      className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2 rounded-lg text-sm font-semibold flex items-center justify-center gap-1 transition"
+                      className="flex-1 bg-yellow-400 hover:bg-yellow-500 text-black px-4 py-2.5 rounded-lg text-sm font-semibold flex items-center justify-center gap-2 transition"
                     >
                       <MessageCircle className="w-4 h-4" />
                       Chat
@@ -219,107 +278,21 @@ const PromoPackages = ({ dictionary, lang }) => {
         </section>
       )}
 
-      {/* Small Promos Carousel */}
-      {smallPromos.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 py-8">
+      {/* Slider 1: Grand Opening THEI Promo */}
+      {grandOpeningPromos.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
           <h3 className="text-xl font-bold text-gray-900 mb-6">
-            More Promotions
+            Grand Opening THEI Promo
           </h3>
           <div className="relative">
-            <div className="overflow-hidden" ref={emblaRef}>
-              <div className="flex">
-                {smallPromos.map((promo) => (
+            <div className="overflow-hidden" ref={emblaRef1}>
+              <div className="flex gap-6">
+                {grandOpeningPromos.map((promo) => (
                   <div
                     key={promo.id}
-                    className="flex-[0_0_300px] mr-4 h-[25rem]"
+                    className="flex-[0_0_100%] sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
                   >
-                    <div className="relative rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-[1.02] h-full">
-                      {/* Image */}
-                      <Image
-                        src={promo.image}
-                        alt={promo.title || 'Promo Alat Berat'}
-                        width={300}
-                        height={300}
-                        className="w-full h-full object-cover"
-                      />
-
-                      {/* Overlay & Content */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/100 via-black/70 to-transparent p-3 flex flex-col justify-end h-full">
-                        {promo.badge && (
-                          <span className="absolute top-2 left-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded-full">
-                            {promo.badge}
-                          </span>
-                        )}
-
-                        <button
-                          onClick={() => toggleSave(promo.id)}
-                          className="absolute top-2 right-2 p-1 bg-white/20 backdrop-blur-sm rounded-full hover:bg-white/30 transition"
-                        >
-                          <Bookmark
-                            className={`w-3 h-3 ${
-                              savedPromos.includes(promo.id)
-                                ? 'fill-white text-white'
-                                : 'text-white'
-                            }`}
-                          />
-                        </button>
-
-                        <div className="flex items-center gap-1 mb-1 text-white">
-                          <span className="px-1 py-0.5 bg-red-500 rounded text-xs font-bold">
-                            {promo.discount} OFF
-                          </span>
-                          <span className="text-xs flex items-center gap-0.5">
-                            <Clock className="w-2.5 h-2.5" />
-                            {promo.expiry}
-                          </span>
-                        </div>
-
-                        <h4 className="text-sm font-bold text-yellow-400 mb-1">
-                          {promo.title}
-                        </h4>
-
-                        <div className="flex items-center gap-1 text-white mb-2">
-                          <MapPin className="w-3 h-3" />
-                          <span className="text-xs">{promo.location}</span>
-                          <Eye className="w-3 h-3 ml-1" />
-                          <span className="text-xs">{promo.views}</span>
-                        </div>
-
-                        {/* Kondisi: Jika ada price, tampilkan harga; jika tidak, tampilkan description */}
-                        {promo.price ? (
-                          <div className="flex items-center gap-1 mb-2">
-                            <span className="text-xs line-through text-gray-300">
-                              {promo.originalPrice}
-                            </span>
-                            <span className="text-lg font-bold text-white">
-                              {promo.price}
-                            </span>
-                          </div>
-                        ) : (
-                          promo.description && (
-                            <p className="text-xs text-white mb-2">
-                              {promo.description}
-                            </p>
-                          )
-                        )}
-
-                        <div className="flex flex-col gap-1">
-                          <Link
-                            href={`/${lang}/promotions/${promo.slug}`}
-                            className="w-full bg-black hover:bg-gray-800 text-yellow-400 px-2 py-1 rounded text-xs font-semibold transition text-center"
-                          >
-                            Detail
-                          </Link>
-                          <button
-                            onClick={() => sendWhatsApp(promo)}
-                            className="w-full bg-yellow-400 hover:bg-yellow-500 text-black px-2 py-1 rounded text-xs font-semibold flex items-center justify-center gap-0.5 transition"
-                          >
-                            <MessageCircle className="w-3 h-3" />
-                            Chat
-                          </button>
-                        </div>
-                      </div>
-                    </div>
+                    <SmallPromoCard promo={promo} />
                   </div>
                 ))}
               </div>
@@ -327,14 +300,14 @@ const PromoPackages = ({ dictionary, lang }) => {
 
             {/* Navigation Buttons */}
             <button
-              onClick={scrollPrev}
-              className="absolute left-0 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition"
+              onClick={scrollPrev1}
+              className="absolute -left-4 sm:left-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
             >
               <ChevronLeft className="w-6 h-6 text-gray-800" />
             </button>
             <button
-              onClick={scrollNext}
-              className="absolute right-0 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition"
+              onClick={scrollNext1}
+              className="absolute -right-4 sm:right-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
             >
               <ChevronRight className="w-6 h-6 text-gray-800" />
             </button>
@@ -342,10 +315,53 @@ const PromoPackages = ({ dictionary, lang }) => {
         </section>
       )}
 
-      {/* Modal Detail - Pop up image promo */}
+      {/* Slider 2: Service Promo */}
+      {servicePromos.length > 0 && (
+        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-6">
+            Service Promo
+          </h3>
+          <div className="relative">
+            <div className="overflow-hidden" ref={emblaRef2}>
+              <div className="flex gap-6">
+                {servicePromos.map((promo) => (
+                  <div
+                    key={promo.id}
+                    className="flex-[0_0_100%] sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
+                  >
+                    <SmallPromoCard promo={promo} />
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Navigation Buttons */}
+            <button
+              onClick={scrollPrev2}
+              className="absolute -left-4 sm:left-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
+            >
+              <ChevronLeft className="w-6 h-6 text-gray-800" />
+            </button>
+            <button
+              onClick={scrollNext2}
+              className="absolute -right-4 sm:right-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
+            >
+              <ChevronRight className="w-6 h-6 text-gray-800" />
+            </button>
+          </div>
+        </section>
+      )}
+
+      {/* Modal Detail */}
       {selectedPromo && (
-        <div className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4">
-          <div className="relative bg-white rounded-lg overflow-hidden shadow-2xl">
+        <div
+          className="fixed inset-0 bg-black/80 flex items-center justify-center z-50 p-4"
+          onClick={closeDetail}
+        >
+          <div
+            className="relative bg-white rounded-lg overflow-hidden shadow-2xl max-w-2xl w-full"
+            onClick={(e) => e.stopPropagation()}
+          >
             <button
               onClick={closeDetail}
               className="absolute top-4 right-4 p-2 bg-black/50 text-white rounded-full hover:bg-black/70 transition z-10"
@@ -355,9 +371,9 @@ const PromoPackages = ({ dictionary, lang }) => {
             <Image
               src={selectedPromo.image}
               alt={selectedPromo.title}
-              width={1200}
-              height={800}
-              className="w-full h-full object-contain"
+              width={800}
+              height={600}
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>

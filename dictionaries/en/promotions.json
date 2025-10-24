@@ -13,257 +13,624 @@
       "list": [
         {
           "id": "f1",
-          "slug": "heavy-equipment-purchase-promo",
-          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 285,000,000,-",
-          "discount": "30%",
+          "slug": "grand-opening-heavy-equipment-promo",
+          "title": "Grand Opening Promo: Heavy Equipment Purchase (All Types) Up to IDR 285 Million",
           "image": "/promo/promo1.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "BEST DEAL",
           "size": "large",
           "location": "All Locations",
-          "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service.",
+          "description": "THEI Grand Opening Promo! Get up to 30% discount on heavy equipment purchases and enjoy 7 total exclusive bonuses, including VIP services, operator training, and a premium corporate gift package.",
           "details": [
             {
-              "title": "Free Operator Training",
-              "description": "Comprehensive training program for equipment operators."
+              "title": "Free Priority Card for Company Maintenance Service",
+              "description": "Priority card for company machine maintenance services valued up to IDR 250,000,000."
             },
             {
-              "title": "Free Shipping",
-              "description": "Free delivery within Jabodetabek area."
+              "title": "Free Corporate Gift Pack Valued at IDR 3,000,000",
+              "description": "Exclusive corporate gift package containing: Exclusive THEI Jacket, 1L Stainless Tumbler, Custom Logo Safety Hat, Premium Notebook & Metal Pen, IDR 500,000 Service Voucher, Certificate + Handover Board, and Exclusive Flower Bouquet."
             },
             {
-              "title": "Exclusive Gift Package",
-              "description": "Premium gift set for every purchase."
+              "title": "Discount on Heavy Equipment Purchase (All Types) Up to 30%",
+              "description": "Purchase discount for heavy equipment valued at IDR 20,000,000 (Points 3 and 4 on the image have the same value)."
             },
             {
-              "title": "VIP After-Sales Service",
-              "description": "Priority maintenance and support services."
+              "title": "Free Operator Training for Jabodetabek Area Until Proficient",
+              "description": "Comprehensive operator training in the Jabodetabek area until proficiency is achieved, valued at IDR 5,000,000."
+            },
+            {
+              "title": "FREE Delivery for Jabodetabek Area",
+              "description": "Free delivery of the unit across the entire Jabodetabek area, valued at IDR 2,000,000."
+            },
+            {
+              "title": "Bonus Value Add THEI Concept (VIP After-Sales)",
+              "description": "VIP after-sales service from THEI, including Periodic Inspection and Additional Work Warranty, valued at IDR 5,000,000."
             }
           ]
         },
         {
           "id": "f2",
-          "slug": "heavy-equipment-service-promo",
-          "title": "Heavy Equipment Service Promo (All Types) Up to Rp 70,000,000,-",
-          "discount": "70%",
+          "slug": "heavy-equipment-service-promo-grand-opening",
+          "title": "Grand Opening Promo: Heavy Equipment Service (All Types) Up to IDR 70 Million",
           "image": "/promo/promo2.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Bulldozer",
-          "badge": "HOT",
           "size": "large",
           "location": "All Locations",
-          "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities.",
+          "description": "THEI Grand Opening Promo! Get a massive service discount up to 70% and spare parts discount up to 30%. Enjoy free inspection points, free technician accommodation, and VIP after-service value adds.",
           "details": [
             {
-              "title": "Service Discount up to 70%",
-              "description": "Massive discount on all service packages."
+              "title": "FREE Member Card for Company Car Maintenance",
+              "description": "Exclusive member card for company car maintenance services valued up to IDR 50,000,000."
             },
             {
-              "title": "Spare Parts Discount 30%",
-              "description": "Special price reduction on genuine spare parts."
+              "title": "Discount on Heavy Equipment Service up to 70%",
+              "description": "Major discount on all heavy equipment service packages, valued at IDR 10,000,000."
             },
             {
-              "title": "Free Inspection Points",
-              "description": "Comprehensive check for Jabodetabek area."
+              "title": "Spare Parts Discount up to 30%",
+              "description": "Price reduction on spare parts, valued at IDR 5,000,000."
             },
             {
-              "title": "Free Technician Accommodation",
-              "description": "Coverage in 25 major cities across Indonesia."
+              "title": "FREE Technician Accommodation in 25 Major Cities",
+              "description": "Free accommodation costs for technicians visiting 25 major branches of THEI, valued at IDR 3,000,000."
+            },
+            {
+              "title": "FREE Dozens of Inspection Points in Jabodetabek Area",
+              "description": "Free inspection service covering dozens of points in the Jabodetabek area, valued at IDR 1,000,000."
+            },
+            {
+              "title": "Value Add Service THEI (Digital Report, Priority Hotline, Work Guarantee)",
+              "description": "Premium after-service concept including Digital Reports, Priority Hotline access, and a Work Result Guarantee, valued at IDR 1,000,000."
             }
           ]
         },
         {
           "id": "r1",
           "slug": "heavy-equipment-rental-promo",
-          "title": "Heavy Equipment Rental Promo (All Types) Up to Rp 100,000,000,-",
-          "discount": "15%",
+          "title": "Grand Opening Promo: Heavy Equipment Rental (All Types) Up to IDR 100 Million",
           "image": "/promo/promo3.webp",
           "price": null,
-          "originalPrice": "",
-          "category": "Crane",
-          "badge": "",
+          "originalPrice": null,
           "size": "small",
-          "location": "Jakarta",
-          "description": "We provide complete solutions: big discounts up to 50 million, 24/7 VIP hotline service, free pick-up and delivery, up to GPS unit monitoring.",
+          "location": "All Locations",
+          "description": "THEI Grand Opening Rental Promo! Get a discount up to IDR 50 million and numerous value-added benefits, including 24/7 service, unit replacement guarantee, and comprehensive safety & legal documentation.",
           "details": [
             {
-              "title": "24/7 VIP Hotline",
+              "title": "Heavy Equipment Rental Discount up to IDR 50,000,000",
+              "description": "Significant discount available (Terms and Conditions apply)."
+            },
+            {
+              "title": "All Value Added Benefits Included",
+              "description": "Access to all premium extra benefits offered."
+            },
+            {
+              "title": "FREE Unit Pick-up & Delivery",
+              "description": "Complimentary transportation service for the unit."
+            },
+            {
+              "title": "SLA < 3 Hours + 24/7 Service Truck",
+              "description": "Service Level Agreement response time under 3 hours, supported by 24/7 Service Truck availability."
+            },
+            {
+              "title": "Unit Replacement Guarantee",
+              "description": "Guarantee for a unit replacement if needed to ensure business continuity."
+            },
+            {
+              "title": "IoT & GPS Monitoring + Monthly Report",
+              "description": "Real-time tracking with IoT & GPS, and provision of monthly usage reports."
+            },
+            {
+              "title": "Complete K3 Documents & Legality",
+              "description": "Provision of complete Occupational Health & Safety (K3) documents and full legal compliance."
+            },
+            {
+              "title": "Complete Safety Kit",
+              "description": "Includes: APAR (Fire Extinguisher), Helmet, Safety Shoes, Vest, and Goggles."
+            },
+            {
+              "title": "VIP Hotline 24/7",
               "description": "Round-the-clock priority support line."
             },
             {
-              "title": "Free Pick-up & Delivery",
-              "description": "Complimentary transportation service."
-            },
-            {
-              "title": "GPS Unit Monitoring",
-              "description": "Real-time tracking for all rented units."
+              "title": "Customer Logo Branding on Unit (3 Month Contract)",
+              "description": "Free branding of the customer's logo on the rented unit for contracts of 3 months or more."
             }
           ]
         },
         {
           "id": "r2",
           "slug": "heavy-equipment-trade-in-promo",
-          "title": "Heavy Equipment Trade-In Promo (All Types) Up to Rp 50,000,000,-",
-          "discount": "25%",
+          "title": "Grand Opening Promo: Heavy Equipment Trade-In (All Types) Up to IDR 50 Million",
           "image": "/promo/promo4.webp",
           "price": null,
-          "originalPrice": "",
-          "category": "Loader",
-          "badge": "",
+          "originalPrice": null,
           "size": "small",
           "location": "All Locations",
-          "description": "Get trade-in discounts up to 50 million rupiah for your new unit. We also provide free inspection and old unit pick-up bonuses. Time to upgrade with the best value!",
+          "description": "THEI Grand Opening Trade-In Promo! Get a trade-in discount up to IDR 50 million for your new unit. Enjoy added value like fast estimation, free inspection, and complimentary old unit pick-up.",
           "details": [
             {
-              "title": "Trade-in Discount",
-              "description": "Up to Rp 50,000,000 off for your new unit."
+              "title": "Trade-In Discount Up to IDR 50,000,000",
+              "description": "Significant trade-in discount for your new heavy equipment purchase (Terms and Conditions apply)."
             },
             {
-              "title": "Free Inspection",
-              "description": "Professional evaluation of your old equipment."
+              "title": "FREE Dozens of Old Unit Inspection Points (Jabodetabek Area)",
+              "description": "Complimentary professional inspection covering dozens of points on your old unit within the Jabodetabek area."
             },
             {
-              "title": "Free Old Unit Pick-up",
-              "description": "We collect your old equipment at no charge."
+              "title": "Value Add THEI Trade-In Services",
+              "description": "Includes: **Fast Estimation**, **Digital Inspection Report**, and **FREE Old Unit Pick-up**."
             }
           ]
         },
         {
           "id": "r3",
-          "slug": "silver-grade-service-promo",
-          "title": "Silver Grade Service Promo Worth Rp 10,000,000,-",
-          "discount": "10%",
-          "image": "/promo/promo-silver.webp",
+          "slug": "heavy-equipment-service-promo",
+          "title": "Heavy Equipment Service Promo (All Types) Up to Rp 70,000,000,-",
+          "image": "/promo/promo2.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Bulldozer",
-          "badge": "",
           "size": "small",
           "location": "All Locations",
-          "description": "With a total promo value of 10 million rupiah, you will get various free annual services such as engine scanner, carbon tune-up, undercarriage service, and anti-rust.",
+          "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities.",
           "details": [
             {
-              "title": "Engine Scanner",
-              "description": "Professional diagnostics included."
+              "title": "FREE Member Card for Company Car Maintenance",
+              "description": "Exclusive member card for company car maintenance services valued up to IDR 50,000,000."
             },
             {
-              "title": "Carbon Tune-up",
-              "description": "Deep cleaning for optimal performance."
+              "title": "Discount on Heavy Equipment Service up to 70%",
+              "description": "Major discount on all heavy equipment service packages, valued at IDR 10,000,000."
             },
             {
-              "title": "Undercarriage Service",
-              "description": "Complete inspection and maintenance."
+              "title": "Spare Parts Discount up to 30%",
+              "description": "Price reduction on spare parts, valued at IDR 5,000,000."
             },
             {
-              "title": "Anti-Rust Treatment",
-              "description": "Protection coating for longevity."
+              "title": "FREE Technician Accommodation in 25 Major Cities",
+              "description": "Free accommodation costs for technicians visiting 25 major branches of THEI, valued at IDR 3,000,000."
+            },
+            {
+              "title": "FREE Dozens of Inspection Points in Jabodetabek Area",
+              "description": "Free inspection service covering dozens of points in the Jabodetabek area, valued at IDR 1,000,000."
+            },
+            {
+              "title": "Value Add Service THEI (Digital Report, Priority Hotline, Work Guarantee)",
+              "description": "Premium after-service concept including Digital Reports, Priority Hotline access, and a Work Result Guarantee, valued at IDR 1,000,000."
             }
           ]
         },
         {
           "id": "r4",
-          "slug": "gold-grade-service-promo",
-          "title": "Gold Grade Service Promo Worth Rp 20,000,000,-",
-          "discount": "18%",
-          "image": "/promo/promo-gold.webp",
+          "slug": "heavy-equipment-purchase-promo",
+          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 285,000,000,-",
+          "image": "/promo/promo1.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "",
           "size": "small",
           "location": "All Locations",
-          "description": "With a total benefit of 20 million rupiah, you get dozens of services starting from engine scanner 3x per year, AC and undercarriage service, up to free washing and 25% spare parts discount.",
+          "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service.",
           "details": [
             {
-              "title": "Engine Scanner 3x per Year",
-              "description": "Regular diagnostic checks included."
+              "title": "Free Priority Card for Company Maintenance Service",
+              "description": "Priority card for company machine maintenance services valued up to IDR 250,000,000."
             },
             {
-              "title": "AC & Undercarriage Service",
-              "description": "Complete maintenance package."
+              "title": "Free Corporate Gift Pack Valued at IDR 3,000,000",
+              "description": "Exclusive corporate gift package containing: Exclusive THEI Jacket, 1L Stainless Tumbler, Custom Logo Safety Hat, Premium Notebook & Metal Pen, IDR 500,000 Service Voucher, Certificate + Handover Board, and Exclusive Flower Bouquet."
             },
             {
-              "title": "Free Washing",
-              "description": "Regular cleaning service included."
+              "title": "Discount on Heavy Equipment Purchase (All Types) Up to 30%",
+              "description": "Purchase discount for heavy equipment valued at IDR 20,000,000 (Points 3 and 4 on the image have the same value)."
             },
             {
-              "title": "25% Spare Parts Discount",
-              "description": "Special pricing on all genuine parts."
+              "title": "Free Operator Training for Jabodetabek Area Until Proficient",
+              "description": "Comprehensive operator training in the Jabodetabek area until proficiency is achieved, valued at IDR 5,000,000."
+            },
+            {
+              "title": "FREE Delivery for Jabodetabek Area",
+              "description": "Free delivery of the unit across the entire Jabodetabek area, valued at IDR 2,000,000."
+            },
+            {
+              "title": "Bonus Value Add THEI Concept (VIP After-Sales)",
+              "description": "VIP after-sales service from THEI, including Periodic Inspection and Additional Work Warranty, valued at IDR 5,000,000."
             }
           ]
         },
         {
           "id": "r5",
-          "slug": "diamond-grade-service-promo",
-          "title": "Diamond Grade Promo (Min. 1 Machine Purchase)",
-          "discount": null,
-          "image": "/promo/promo-diamond.webp",
-          "price": "Rp200,000,000",
+          "slug": "silver-grade-service-promo",
+          "title": "Silver Grade Service Promo Worth Rp 10,000,000,-",
+          "image": "/promo/promo-silver.webp",
+          "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "DIAMOND",
           "size": "small",
           "location": "All Locations",
-          "description": "Diamond Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine. Total benefits up to Rp200,000,000.",
+          "description": "Exclusive service promo for heavy equipment at THEI with a total value of IDR 10,000,000. This package includes 7 key annual services, a 15% parts discount, and 4 unlimited inspection services.",
           "details": [
             {
-              "title": "Unlimited Free Engine Scanner",
-              "description": "Use as much as you need for accurate engine diagnostics."
+              "title": "15% Spare Parts Discount",
+              "description": "Enjoy significant savings on all spare parts purchases outside the bonus package."
             },
             {
               "title": "Tune Up 65 Components + Carbon Cleaner",
-              "description": "4x per year to keep your machine in top performance."
+              "description": "Maintains top engine performance (Service 1x per year)."
             },
             {
-              "title": "Free Complete Undercarriage Service",
-              "description": "4x per year to ensure comfort and safety."
+              "title": "FREE Engine Scanner",
+              "description": "Provides accurate engine diagnostics (1x per year)."
             },
             {
-              "title": "Free Full Interior & Exterior Detailing",
-              "description": "4x per year, always keep your machine clean and fresh."
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 1x per year)."
             },
             {
-              "title": "45% Spare Parts Discount",
-              "description": "Big savings for spare parts purchases outside the bonus."
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 1x per year)."
+            },
+            {
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Includes light inspection and a basic tune-up (1x per year)."
+            },
+            {
+              "title": "FREE Spooring (Wheel Alignment)",
+              "description": "Ensures stability and safety (Service 1x per year)."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
             }
           ]
         },
         {
           "id": "r6",
-          "slug": "exclusive-grade-service-promo",
-          "title": "Exclusive Grade Promo (Min. 1 Machine Purchase)",
-          "discount": null,
-          "image": "/promo/promo-exclusive.webp",
-          "price": "Rp250,000,000",
+          "slug": "gold-grade-service-promo",
+          "title": "Gold Grade Service Promo Worth Rp 20,000,000,-",
+          "image": "/promo/promo-gold.webp",
+          "price": null,
           "originalPrice": null,
-          "category": "Forklift",
-          "badge": "EXCLUSIVE",
           "size": "small",
           "location": "All Locations",
-          "description": "Exclusive Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine. Total benefits up to Rp250,000,000.",
+          "description": "Exclusive service promo for heavy equipment at THEI with a total value of IDR 20,000,000. This package includes a 25% parts discount, 10 key services (like Tune-Up & Car Wash), and 4 unlimited inspection services.",
           "details": [
             {
-              "title": "Unlimited Free Engine Scanner",
-              "description": "Use as much as you need for accurate engine diagnostics."
+              "title": "25% Spare Parts Discount",
+              "description": "Enjoy significant savings on all spare parts purchases outside the bonus package."
+            },
+            {
+              "title": "FREE Engine Scanner",
+              "description": "Provides accurate engine diagnostics (3x per year)."
             },
             {
               "title": "Tune Up 65 Components + Carbon Cleaner",
-              "description": "6x per year to keep your machine in top performance."
+              "description": "Maintains top engine performance (Service 1x per year)."
             },
             {
-              "title": "Free Complete Undercarriage Service",
-              "description": "6x per year to ensure comfort and safety."
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 2x per year)."
             },
             {
-              "title": "Free Full Interior & Exterior Detailing",
-              "description": "6x per year, always keep your machine clean and fresh."
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 1x per year)."
             },
+            {
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Includes light tune-up and carbon cleaning (2x per year)."
+            },
+            {
+              "title": "FREE Spooring (Wheel Alignment)",
+              "description": "Ensures stability and safety (Service 2x per year)."
+            },
+            {
+              "title": "FREE Car Wash Snow",
+              "description": "Keeps your machine clean (Service 10x per year)."
+            },
+            {
+              "title": "FREE Super Cold Extra AC Service",
+              "description": "Maintains optimal cabin temperature (Service 2x per year)."
+            },
+            {
+              "title": "FREE Fogging & Disinfectant",
+              "description": "Ensures a clean and hygienic cabin (Service 5x per year)."
+            },
+            {
+              "title": "FREE Engine Detailing / Wash",
+              "description": "Keeps the engine bay clean (Service 2x per year)."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
+            }
+          ]
+        },
+        {
+          "id": "r9",
+          "slug": "platinum-grade-service-promo",
+          "title": "Platinum Grade Promo (Exclusive for Machine Trade-Ins at THEI)",
+          "image": "/promo/promo-platinum.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "All Locations",
+          "description": "Exclusive Trade-In Promo for heavy equipment at THEI with a total value of IDR 50,000,000. This package includes a 35% parts discount, 11 key services (like Tune-Up, Detailing & Car Wash), and 4 unlimited inspection services.",
+          "details": [
+            {
+              "title": "35% Spare Parts Discount",
+              "description": "Enjoy significant savings on all spare parts purchases outside the bonus package."
+            },
+            {
+              "title": "FREE Engine Scanner",
+              "description": "Provides accurate engine diagnostics (5x per year) plus one-time unlimited use."
+            },
+            {
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "Maintains top engine performance (Service 1x per year)."
+            },
+            {
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 3x per year)."
+            },
+            {
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 2x per year)."
+            },
+            {
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Includes light tune-up and carbon cleaning (3x per year)."
+            },
+            {
+              "title": "FREE Glass Coating Treatment",
+              "description": "Improves visibility and protects glass (Service 1x per year)."
+            },
+            {
+              "title": "FREE Spooring (Wheel Alignment)",
+              "description": "Ensures stability and safety (Unlimited for 6 months)."
+            },
+            {
+              "title": "FREE Car Wash Snow",
+              "description": "Keeps your machine clean (Service 20x per year)."
+            },
+            {
+              "title": "FREE Super Cold Extra AC Service",
+              "description": "Maintains optimal cabin temperature (Service 3x per year)."
+            },
+            {
+              "title": "FREE Fogging & Disinfectant",
+              "description": "Ensures a clean and hygienic cabin (Unlimited service)."
+            },
+            {
+              "title": "FREE Full Interior & Exterior Detailing",
+              "description": "Keeps your machine looking new (Service 2x per year)."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
+            }
+          ]
+        },
+        {
+          "id": "r7",
+          "slug": "diamond-grade-service-promo",
+          "title": "Diamond Grade Promo (Min. 1 Machine Purchase)",
+          "image": "/promo/promo-diamond.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "All Locations",
+          "description": "Diamond Grade Promo: A premium service and inspection package for a minimum purchase of 1 machine, valued at IDR 200,000,000. This package includes a 45% parts discount, 13 key services (like Tune-Up, Detailing, & 50x Car Wash), and 5 unlimited inspection services.",
+          "details": [
+            {
+              "title": "45% Spare Parts Discount",
+              "description": "Enjoy massive savings on all spare parts purchases outside the bonus package."
+            },
+            {
+              "title": "FREE Unlimited Engine Scanner",
+              "description": "Use as much as you need for accurate, on-demand engine diagnostics."
+            },
+            {
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "Keeps your machine in top performance (Service 4x per year)."
+            },
+            {
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 4x per year)."
+            },
+            {
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 2x per year)."
+            },
+            {
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Quick and efficient maintenance (Service 4x per year)."
+            },
+            {
+              "title": "FREE Glass Coating Treatment",
+              "description": "Improves visibility and protects glass (Service 2x per year)."
+            },
+            {
+              "title": "FREE Unlimited Spooring (1 Year)",
+              "description": "Ensures stability and safety, unlimited for 1 full year."
+            },
+            {
+              "title": "FREE Car Wash Snow",
+              "description": "Keeps your machine clean (Service 50x per year)."
+            },
+            {
+              "title": "FREE Super Cold Extra AC Service",
+              "description": "Maintains optimal cabin temperature (Service 4x per year)."
+            },
+            {
+              "title": "FREE Unlimited Fogging & Disinfectant",
+              "description": "Ensures a clean and hygienic cabin (Unlimited service)."
+            },
+            {
+              "title": "FREE Full Interior & Exterior Detailing",
+              "description": "Keeps your machine looking new (Service 4x per year)."
+            },
+            {
+              "title": "FREE Radiator Ultra Flush",
+              "description": "Ensures optimal engine cooling (Service 2x per year)."
+            },
+            {
+              "title": "FREE Unlimited Battery Maintenance & Fogging Terminal",
+              "description": "Unlimited service to ensure battery health and reliability."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Electrical & AC Inspection",
+              "description": "Unlimited checks for all electrical systems and air conditioning."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
+            }
+          ]
+        },
+        {
+          "id": "r8",
+          "slug": "exclusive-grade-service-promo",
+          "title": "Exclusive Grade Promo (Min. 1 Machine Purchase)",
+          "image": "/promo/promo-exclusive.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "All Locations",
+          "description": "Exclusive Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine, valued at IDR 250,000,000. This package includes a 50% parts discount, 16 key services (like Tune-Up, Detailing, & 100x Car Wash), and 6 unlimited inspection services.",
+          "details": [
             {
               "title": "50% Spare Parts Discount",
-              "description": "Big savings for spare parts purchases outside the bonus."
+              "description": "Enjoy massive savings on all spare parts purchases outside the bonus package."
+            },
+            {
+              "title": "FREE Unlimited Engine Scanner",
+              "description": "Use as much as you need for accurate, on-demand engine diagnostics."
+            },
+            {
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "Keeps your machine in top performance (Service 6x per year)."
+            },
+            {
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 6x per year)."
+            },
+            {
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 3x per year)."
+            },
+            {
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Quick and efficient maintenance (Service 6x per year)."
+            },
+            {
+              "title": "FREE Glass Coating Treatment",
+              "description": "Improves visibility and protects glass (Service 3x per year)."
+            },
+            {
+              "title": "FREE Unlimited Spooring (1 Year)",
+              "description": "Ensures stability and safety, unlimited for 1 full year."
+            },
+            {
+              "title": "FREE Car Wash Snow",
+              "description": "Keeps your machine clean (Service 100x per year)."
+            },
+            {
+              "title": "FREE Super Cold Extra AC Service",
+              "description": "Maintains optimal cabin temperature (Service 6x per year)."
+            },
+            {
+              "title": "FREE Unlimited Fogging & Disinfectant",
+              "description": "Ensures a clean and hygienic cabin (Unlimited service)."
+            },
+            {
+              "title": "FREE Full Interior & Exterior Detailing",
+              "description": "Keeps your machine looking new (Service 6x per year)."
+            },
+            {
+              "title": "FREE Radiator Ultra Flush",
+              "description": "Ensures optimal engine cooling (Service 4x per year)."
+            },
+            {
+              "title": "FREE Unlimited Battery Maintenance & Fogging Terminal",
+              "description": "Unlimited service to ensure battery health and reliability."
+            },
+            {
+              "title": "FREE Body & Paint Touch Up",
+              "description": "Keeps your machine's body pristine (Service 2x per year)."
+            },
+            {
+              "title": "FREE Nano Coating and Full Detailing",
+              "description": "Provides superior protection and shine (Service 2x per year)."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Electrical & AC Inspection",
+              "description": "Unlimited checks for all electrical systems and air conditioning."
+            },
+            {
+              "title": "Unlimited Chassis & Body Inspection",
+              "description": "Complete and thorough inspection for structural integrity."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
             }
           ]
         }

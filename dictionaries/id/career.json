@@ -30,34 +30,33 @@
       "subtitle": "JADILAH BAGIAN DARI KAMI",
       "title": "Lowongan Terbuka",
       "description": "Kami selalu mencari talenta terbaik untuk bergabung. Temukan posisi yang paling sesuai dengan keahlian dan minat Anda.",
-      "image": "/career.webp",
       "positions": [
         {
-          "title": "Mekanik Alat Berat",
-          "location": "Semua Cabang",
-          "type": "Full-time"
+          "title": "Sales Alat Berat",
+          "location": "Bekasi",
+          "type": "Full-time",
+          "images": [
+            "/career/sales_alatberat1.webp",
+            "/career/sales_alatberat2.webp"
+          ]
         },
         {
-          "title": "Service Advisor",
-          "location": "Jakarta, Surabaya",
-          "type": "Full-time"
-        },
-        {
-          "title": "Parts Sales Consultant",
-          "location": "Pekanbaru, Balikpapan",
-          "type": "Full-time"
-        },
-        {
-          "title": "Admin Operasional",
-          "location": "Kantor Pusat (Jakarta)",
-          "type": "Full-time"
-        },
-        {
-          "title": "Marketing Executive",
-          "location": "Bandung, Medan",
-          "type": "Full-time"
+          "title": "Sales Sparepart",
+          "location": "Bekasi",
+          "type": "Full-time",
+          "images": [
+            "/career/sales_sparepart1.webp",
+            "/career/sales_sparepart2.webp"
+          ]
         }
       ],
+      "form": {
+        "title": "Lamar Posisi",
+        "nama_label": "Nama",
+        "domisili_label": "Domisili",
+        "bagian_label": "Posisi yang Dilamar",
+        "submit_button": "Kirim Lamaran via WhatsApp"
+      },
       "cta": "Lihat Detail & Lamar"
     },
     "training_programs": {

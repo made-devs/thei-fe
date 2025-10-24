@@ -13,129 +13,624 @@
       "list": [
         {
           "id": "f1",
-          "title": "Promo Pembelian Alat Berat (All Type) S/D Rp 285.000.000,-",
-          "discount": "30%",
+          "slug": "grand-opening-heavy-equipment-promo",
+          "title": "Grand Opening Promo: Pembelian Alat Berat (Semua Jenis) Hingga Rp 285 Juta",
           "image": "/promo/promo1.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "BEST DEAL",
           "size": "large",
-          "expiry": "5 hari lagi",
-          "views": 856,
           "location": "Semua Lokasi",
-          "description": "Promo Grand Opening THEI! Hemat puluhan juta dengan diskon alat berat hingga 30%. Dapatkan juga bonus lengkap: gratis training operator, bebas ongkir Jabodetabek, paket hadiah eksklusif, dan layanan purna jual VIP."
+          "description": "Promo Grand Opening THEI! Dapatkan diskon hingga 30% untuk pembelian alat berat dan nikmati total 7 bonus eksklusif, termasuk layanan VIP, pelatihan operator, dan paket hadiah korporat premium.",
+          "details": [
+            {
+              "title": "Kartu Prioritas Gratis untuk Layanan Perawatan Perusahaan",
+              "description": "Kartu prioritas untuk layanan perawatan mesin perusahaan bernilai hingga Rp 250.000.000."
+            },
+            {
+              "title": "Paket Hadiah Korporat Gratis Bernilai Rp 3.000.000",
+              "description": "Paket hadiah korporat eksklusif berisi: Jaket Eksklusif THEI, Tumbler Stainless 1L, Topi Safety Logo Kustom, Notebook Premium & Pena Metal, Voucher Layanan Rp 500.000, Sertifikat + Papan Serah Terima, dan Bouquet Bunga Eksklusif."
+            },
+            {
+              "title": "Diskon Pembelian Alat Berat (Semua Jenis) Hingga 30%",
+              "description": "Diskon pembelian alat berat bernilai Rp 20.000.000 (Poin 3 dan 4 pada gambar memiliki nilai yang sama)."
+            },
+            {
+              "title": "Pelatihan Operator Gratis untuk Area Jabodetabek Hingga Mahir",
+              "description": "Pelatihan operator komprehensif di area Jabodetabek hingga tercapai kemahiran, bernilai Rp 5.000.000."
+            },
+            {
+              "title": "PENGIRIMAN GRATIS untuk Area Jabodetabek",
+              "description": "Pengiriman unit gratis di seluruh area Jabodetabek, bernilai Rp 2.000.000."
+            },
+            {
+              "title": "Bonus Value Add Konsep THEI (VIP After-Sales)",
+              "description": "Layanan after-sales VIP dari THEI, termasuk Inspeksi Berkala dan Garansi Pekerjaan Tambahan, bernilai Rp 5.000.000."
+            }
+          ]
         },
         {
           "id": "f2",
-          "title": "Promo Service Alat Berat (All Type) S/D Rp 70.000.000,-",
-          "discount": "70%",
+          "slug": "heavy-equipment-service-promo-grand-opening",
+          "title": "Grand Opening Promo: Layanan Alat Berat (Semua Jenis) Hingga Rp 70 Juta",
           "image": "/promo/promo2.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Bulldozer",
-          "badge": "HOT",
           "size": "large",
-          "expiry": "3 hari lagi",
-          "views": 1420,
           "location": "Semua Lokasi",
-          "description": "Nikmati diskon service besar-besaran hingga 70% dan potongan harga sparepart hingga 30%. Dapatkan juga bonus gratis belasan titik inspeksi (area Jabodetabek) dan bebas biaya akomodasi teknisi di 25 kota besar."
+          "description": "Promo Grand Opening THEI! Dapatkan diskon layanan besar hingga 70% dan diskon sparepart hingga 30%. Nikmati titik inspeksi gratis, akomodasi teknisi gratis, dan value add after-service VIP.",
+          "details": [
+            {
+              "title": "KARTU MEMBER GRATIS untuk Perawatan Mobil Perusahaan",
+              "description": "Kartu member eksklusif untuk layanan perawatan mobil perusahaan bernilai hingga Rp 50.000.000."
+            },
+            {
+              "title": "Diskon Layanan Alat Berat hingga 70%",
+              "description": "Diskon besar untuk semua paket layanan alat berat, bernilai Rp 10.000.000."
+            },
+            {
+              "title": "Diskon Sparepart hingga 30%",
+              "description": "Pengurangan harga pada sparepart, bernilai Rp 5.000.000."
+            },
+            {
+              "title": "AKOMODASI TEKNISI GRATIS di 25 Kota Besar",
+              "description": "Biaya akomodasi gratis untuk teknisi yang berkunjung ke 25 cabang besar THEI, bernilai Rp 3.000.000."
+            },
+            {
+              "title": "GRATIS Puluhan Titik Inspeksi di Area Jabodetabek",
+              "description": "Layanan inspeksi gratis yang mencakup puluhan titik di area Jabodetabek, bernilai Rp 1.000.000."
+            },
+            {
+              "title": "Value Add Layanan THEI (Laporan Digital, Hotline Prioritas, Garansi Pekerjaan)",
+              "description": "Konsep after-service premium termasuk Laporan Digital, akses Hotline Prioritas, dan Garansi Hasil Pekerjaan, bernilai Rp 1.000.000."
+            }
+          ]
         },
         {
           "id": "r1",
-          "title": "Promo Rental Alat Berat (All Type) S/D Rp 100.000.000,-",
-          "discount": "15%",
+          "slug": "heavy-equipment-rental-promo",
+          "title": "Grand Opening Promo: Rental Alat Berat (Semua Jenis) Hingga Rp 100 Juta",
           "image": "/promo/promo3.webp",
           "price": null,
-          "originalPrice": "",
-          "category": "Crane",
-          "badge": "",
+          "originalPrice": null,
           "size": "small",
-          "expiry": "2 hari lagi",
-          "views": 234,
-          "location": "Jakarta",
-          "description": "Kami menyediakan solusi lengkap: diskon besar hingga 50 juta, layanan VIP hotline 24/7, gratis antar-jemput, hingga monitoring unit via GPS."
+          "location": "Semua Lokasi",
+          "description": "Promo Rental Grand Opening THEI! Dapatkan diskon hingga Rp 50 juta dan berbagai manfaat value-added, termasuk layanan 24/7, garansi penggantian unit, dan dokumentasi keselamatan & legal yang komprehensif.",
+          "details": [
+            {
+              "title": "Diskon Rental Alat Berat hingga Rp 50.000.000",
+              "description": "Diskon signifikan tersedia (Syarat dan Ketentuan berlaku)."
+            },
+            {
+              "title": "Semua Manfaat Value Added Termasuk",
+              "description": "Akses ke semua manfaat ekstra premium yang ditawarkan."
+            },
+            {
+              "title": "GRATIS Jemput & Antar Unit",
+              "description": "Layanan transportasi gratis untuk unit."
+            },
+            {
+              "title": "SLA < 3 Jam + Truck Service 24/7",
+              "description": "Waktu respons Service Level Agreement di bawah 3 jam, didukung oleh ketersediaan Truck Service 24/7."
+            },
+            {
+              "title": "Garansi Penggantian Unit",
+              "description": "Garansi penggantian unit jika diperlukan untuk memastikan kelangsungan bisnis."
+            },
+            {
+              "title": "Monitoring IoT & GPS + Laporan Bulanan",
+              "description": "Pelacakan real-time dengan IoT & GPS, dan penyediaan laporan penggunaan bulanan."
+            },
+            {
+              "title": "Dokumen K3 Lengkap & Legalitas",
+              "description": "Penyediaan dokumen Kesehatan & Keselamatan Kerja (K3) lengkap dan kepatuhan legal penuh."
+            },
+            {
+              "title": "Safety Kit Lengkap",
+              "description": "Termasuk: APAR (Pemadam Api), Helm, Sepatu Safety, Vest, dan Kacamata."
+            },
+            {
+              "title": "Hotline VIP 24/7",
+              "description": "Line dukungan prioritas 24 jam."
+            },
+            {
+              "title": "Branding Logo Pelanggan di Unit (Kontrak 3 Bulan)",
+              "description": "Branding gratis logo pelanggan di unit yang disewa untuk kontrak 3 bulan atau lebih."
+            }
+          ]
         },
         {
           "id": "r2",
-          "title": "Promo Trade-In Alat Berat (All Type) S/D Rp 50.000.000,-",
-          "discount": "25%",
+          "slug": "heavy-equipment-trade-in-promo",
+          "title": "Grand Opening Promo: Trade-In Alat Berat (Semua Jenis) Hingga Rp 50 Juta",
           "image": "/promo/promo4.webp",
           "price": null,
-          "originalPrice": "",
-          "category": "Loader",
-          "badge": "",
+          "originalPrice": null,
           "size": "small",
-          "expiry": "1 hari lagi",
-          "views": 156,
           "location": "Semua Lokasi",
-          "description": "Dapatkan diskon trade-in hingga 50 juta rupiah untuk unit baru Anda. Kami juga berikan bonus inspeksi dan penjemputan unit lama secara gratis. Saatnya upgrade dengan nilai terbaik!"
+          "description": "Promo Trade-In Grand Opening THEI! Dapatkan diskon trade-in hingga Rp 50 juta untuk unit baru Anda. Nikmati value-added seperti estimasi cepat, inspeksi gratis, dan penjemputan unit lama gratis.",
+          "details": [
+            {
+              "title": "Diskon Trade-In Hingga Rp 50.000.000",
+              "description": "Diskon trade-in signifikan untuk pembelian alat berat baru Anda (Syarat dan Ketentuan berlaku)."
+            },
+            {
+              "title": "GRATIS Puluhan Titik Inspeksi Unit Lama (Area Jabodetabek)",
+              "description": "Inspeksi profesional gratis yang mencakup puluhan titik pada unit lama Anda di area Jabodetabek."
+            },
+            {
+              "title": "Value Add Layanan Trade-In THEI",
+              "description": "Termasuk: **Estimasi Cepat**, **Laporan Inspeksi Digital**, dan **Penjemputan Unit Lama GRATIS**."
+            }
+          ]
         },
         {
           "id": "r3",
-          "title": "Promo Service Grade Silver Senilai Rp 10.000.000,-",
-          "discount": "10%",
-          "image": "/promo/promo-silver.webp",
+          "slug": "heavy-equipment-service-promo",
+          "title": "Promo Layanan Alat Berat (Semua Jenis) Hingga Rp 70.000.000,-",
+          "image": "/promo/promo2.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Bulldozer",
-          "badge": "",
           "size": "small",
-          "expiry": "4 hari lagi",
-          "views": 89,
           "location": "Semua Lokasi",
-          "description": "Dengan total nilai promo mencapai 10 juta rupiah, Anda akan mendapatkan beragam service tahunan gratis seperti engine scanner, tune-up karbon, service kaki-kaki, dan anti karat."
+          "description": "Nikmati diskon layanan besar-besaran hingga 70% dan potongan harga sparepart hingga 30%. Juga dapatkan bonus gratis untuk puluhan titik inspeksi (area Jabodetabek) dan akomodasi teknisi gratis di 25 kota besar.",
+          "details": [
+            {
+              "title": "KARTU MEMBER GRATIS untuk Perawatan Mobil Perusahaan",
+              "description": "Kartu member eksklusif untuk layanan perawatan mobil perusahaan bernilai hingga Rp 50.000.000."
+            },
+            {
+              "title": "Diskon Layanan Alat Berat hingga 70%",
+              "description": "Diskon besar untuk semua paket layanan alat berat, bernilai Rp 10.000.000."
+            },
+            {
+              "title": "Diskon Sparepart hingga 30%",
+              "description": "Pengurangan harga pada sparepart, bernilai Rp 5.000.000."
+            },
+            {
+              "title": "AKOMODASI TEKNISI GRATIS di 25 Kota Besar",
+              "description": "Biaya akomodasi gratis untuk teknisi yang berkunjung ke 25 cabang besar THEI, bernilai Rp 3.000.000."
+            },
+            {
+              "title": "GRATIS Puluhan Titik Inspeksi di Area Jabodetabek",
+              "description": "Layanan inspeksi gratis yang mencakup puluhan titik di area Jabodetabek, bernilai Rp 1.000.000."
+            },
+            {
+              "title": "Value Add Layanan THEI (Laporan Digital, Hotline Prioritas, Garansi Pekerjaan)",
+              "description": "Konsep after-service premium termasuk Laporan Digital, akses Hotline Prioritas, dan Garansi Hasil Pekerjaan, bernilai Rp 1.000.000."
+            }
+          ]
         },
         {
           "id": "r4",
-          "title": "Promo Service Grade Silver Senilai Rp 20.000.000,-",
-          "discount": "18%",
-          "image": "/promo/promo-gold.webp",
+          "slug": "heavy-equipment-purchase-promo",
+          "title": "Promo Pembelian Alat Berat (Semua Jenis) Hingga Rp 285.000.000,-",
+          "image": "/promo/promo1.webp",
           "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "",
           "size": "small",
-          "expiry": "3 hari lagi",
-          "views": 312,
           "location": "Semua Lokasi",
-          "description": "Dengan total keuntungan senilai 20 juta rupiah, Anda mendapatkan lusinan layanan mulai dari engine scanner 3x setahun, service AC dan kaki-kaki, hingga gratis cuci unit dan diskon sparepart 25%."
+          "description": "Promo Grand Opening THEI! Hemat puluhan juta dengan diskon hingga 30% pada alat berat. Juga dapatkan bonus lengkap: pelatihan operator gratis, pengiriman gratis di Jabodetabek, paket hadiah eksklusif, dan layanan purna jual VIP.",
+          "details": [
+            {
+              "title": "Kartu Prioritas Gratis untuk Layanan Perawatan Perusahaan",
+              "description": "Kartu prioritas untuk layanan perawatan mesin perusahaan bernilai hingga Rp 250.000.000."
+            },
+            {
+              "title": "Paket Hadiah Korporat Gratis Bernilai Rp 3.000.000",
+              "description": "Paket hadiah korporat eksklusif berisi: Jaket Eksklusif THEI, Tumbler Stainless 1L, Topi Safety Logo Kustom, Notebook Premium & Pena Metal, Voucher Layanan Rp 500.000, Sertifikat + Papan Serah Terima, dan Bouquet Bunga Eksklusif."
+            },
+            {
+              "title": "Diskon Pembelian Alat Berat (Semua Jenis) Hingga 30%",
+              "description": "Diskon pembelian alat berat bernilai Rp 20.000.000 (Poin 3 dan 4 pada gambar memiliki nilai yang sama)."
+            },
+            {
+              "title": "Pelatihan Operator Gratis untuk Area Jabodetabek Hingga Mahir",
+              "description": "Pelatihan operator komprehensif di area Jabodetabek hingga tercapai kemahiran, bernilai Rp 5.000.000."
+            },
+            {
+              "title": "PENGIRIMAN GRATIS untuk Area Jabodetabek",
+              "description": "Pengiriman unit gratis di seluruh area Jabodetabek, bernilai Rp 2.000.000."
+            },
+            {
+              "title": "Bonus Value Add Konsep THEI (VIP After-Sales)",
+              "description": "Layanan after-sales VIP dari THEI, termasuk Inspeksi Berkala dan Garansi Pekerjaan Tambahan, bernilai Rp 5.000.000."
+            }
+          ]
         },
         {
           "id": "r5",
-          "slug": "diamond-grade-service-promo",
-          "title": "Promo Grade Diamond (Min. 1 Unit Mesin)",
-          "discount": null,
-          "image": "/promo/promo-diamond.webp",
-          "price": "Rp200.000.000",
+          "slug": "silver-grade-service-promo",
+          "title": "Promo Layanan Grade Silver Bernilai Rp 10.000.000,-",
+          "image": "/promo/promo-silver.webp",
+          "price": null,
           "originalPrice": null,
-          "category": "Excavator",
-          "badge": "DIAMOND",
           "size": "small",
-          "expiry": null,
-          "views": 0,
-          "location": "All Locations",
-          "description": "Promo Grade Diamond: Paket servis dan inspeksi super lengkap untuk pembelian minimal 1 unit mesin. Total benefit hingga Rp200.000.000.",
+          "location": "Semua Lokasi",
+          "description": "Promo layanan eksklusif untuk alat berat di THEI dengan total nilai Rp 10.000.000. Paket ini mencakup 7 layanan tahunan utama, diskon sparepart 15%, dan 4 layanan inspeksi tanpa batas.",
           "details": [
             {
-              "title": "Free Engine Scanner Sepuasnya",
-              "description": "Bebas pakai, tanpa batas untuk diagnosa mesin."
+              "title": "Diskon Sparepart 15%",
+              "description": "Nikmati penghematan signifikan pada semua pembelian sparepart di luar paket bonus."
             },
             {
               "title": "Tune Up 65 Komponen + Carbon Cleaner",
-              "description": "4x per tahun, menjaga performa mesin tetap optimal."
+              "description": "Mempertahankan performa mesin terbaik (Layanan 1x per tahun)."
             },
             {
-              "title": "Free Service Kaki-Kaki Super Komplit",
-              "description": "4x per tahun, memastikan kenyamanan dan keamanan berkendara."
+              "title": "GRATIS Engine Scanner",
+              "description": "Menyediakan diagnostik mesin yang akurat (1x per tahun)."
             },
             {
-              "title": "Free Full Detailing Interior & Eksterior",
-              "description": "4x per tahun, kendaraan selalu tampil bersih dan prima."
+              "title": "GRATIS Layanan Undercarriage Super Lengkap",
+              "description": "Memastikan kenyamanan dan keselamatan kendaraan (Layanan 1x per tahun)."
             },
+            {
+              "title": "GRATIS Flinkoat Anti-Karat Undercarriage",
+              "description": "Menyediakan perlindungan korosi (Layanan 1x per tahun)."
+            },
+            {
+              "title": "GRATIS Quick Service oleh TJM Express",
+              "description": "Termasuk inspeksi ringan dan tune-up dasar (1x per tahun)."
+            },
+            {
+              "title": "GRATIS Spooring (Wheel Alignment)",
+              "description": "Memastikan stabilitas dan keselamatan (Layanan 1x per tahun)."
+            },
+            {
+              "title": "Inspeksi Undercarriage Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas menggunakan Shaking Machine kami untuk komponen undercarriage."
+            },
+            {
+              "title": "Inspeksi Engine Tanpa Batas",
+              "description": "Pemeriksaan kesehatan engine tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Transmission Tanpa Batas",
+              "description": "Pemeriksaan kesehatan transmission tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Konsultasi Teknis Tanpa Batas",
+              "description": "Akses tanpa batas ke dukungan teknis ahli dari tim TJM Auto Care."
+            }
+          ]
+        },
+        {
+          "id": "r6",
+          "slug": "gold-grade-service-promo",
+          "title": "Promo Layanan Grade Gold Bernilai Rp 20.000.000,-",
+          "image": "/promo/promo-gold.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "Semua Lokasi",
+          "description": "Promo layanan eksklusif untuk alat berat di THEI dengan total nilai Rp 20.000.000. Paket ini mencakup diskon sparepart 25%, 10 layanan utama (seperti Tune-Up & Cuci Mobil), dan 4 layanan inspeksi tanpa batas.",
+          "details": [
+            {
+              "title": "Diskon Sparepart 25%",
+              "description": "Nikmati penghematan signifikan pada semua pembelian sparepart di luar paket bonus."
+            },
+            {
+              "title": "GRATIS Engine Scanner",
+              "description": "Menyediakan diagnostik mesin yang akurat (3x per tahun)."
+            },
+            {
+              "title": "Tune Up 65 Komponen + Carbon Cleaner",
+              "description": "Mempertahankan performa mesin terbaik (Layanan 1x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan Undercarriage Super Lengkap",
+              "description": "Memastikan kenyamanan dan keselamatan kendaraan (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Flinkoat Anti-Karat Undercarriage",
+              "description": "Menyediakan perlindungan korosi (Layanan 1x per tahun)."
+            },
+            {
+              "title": "GRATIS Quick Service oleh TJM Express",
+              "description": "Termasuk tune-up ringan dan pembersihan karbon (2x per tahun)."
+            },
+            {
+              "title": "GRATIS Spooring (Wheel Alignment)",
+              "description": "Memastikan stabilitas dan keselamatan (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Cuci Mobil Snow",
+              "description": "Mempertahankan kebersihan mesin Anda (Layanan 10x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan AC Super Dingin Ekstra",
+              "description": "Mempertahankan suhu kabin optimal (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Fogging & Disinfektan",
+              "description": "Memastikan kabin bersih dan higienis (Layanan 5x per tahun)."
+            },
+            {
+              "title": "GRATIS Engine Detailing / Wash",
+              "description": "Mempertahankan kebersihan engine bay (Layanan 2x per tahun)."
+            },
+            {
+              "title": "Inspeksi Undercarriage Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas menggunakan Shaking Machine kami untuk komponen undercarriage."
+            },
+            {
+              "title": "Inspeksi Engine Tanpa Batas",
+              "description": "Pemeriksaan kesehatan engine tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Transmission Tanpa Batas",
+              "description": "Pemeriksaan kesehatan transmission tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Konsultasi Teknis Tanpa Batas",
+              "description": "Akses tanpa batas ke dukungan teknis ahli dari tim TJM Auto Care."
+            }
+          ]
+        },
+        {
+          "id": "r9",
+          "slug": "platinum-grade-service-promo",
+          "title": "Promo Grade Platinum (Eksklusif untuk Trade-In Mesin di THEI)",
+          "image": "/promo/promo-platinum.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "Semua Lokasi",
+          "description": "Promo Trade-In Eksklusif untuk alat berat di THEI dengan total nilai Rp 50.000.000. Paket ini mencakup diskon sparepart 35%, 11 layanan utama (seperti Tune-Up, Detailing & Cuci Mobil), dan 4 layanan inspeksi tanpa batas.",
+          "details": [
+            {
+              "title": "Diskon Sparepart 35%",
+              "description": "Nikmati penghematan signifikan pada semua pembelian sparepart di luar paket bonus."
+            },
+            {
+              "title": "GRATIS Engine Scanner",
+              "description": "Menyediakan diagnostik mesin yang akurat (5x per tahun) plus satu kali penggunaan tanpa batas."
+            },
+            {
+              "title": "Tune Up 65 Komponen + Carbon Cleaner",
+              "description": "Mempertahankan performa mesin terbaik (Layanan 1x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan Undercarriage Super Lengkap",
+              "description": "Memastikan kenyamanan dan keselamatan kendaraan (Layanan 3x per tahun)."
+            },
+            {
+              "title": "GRATIS Flinkoat Anti-Karat Undercarriage",
+              "description": "Menyediakan perlindungan korosi (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Quick Service oleh TJM Express",
+              "description": "Termasuk tune-up ringan dan pembersihan karbon (3x per tahun)."
+            },
+            {
+              "title": "GRATIS Perawatan Coating Kaca",
+              "description": "Meningkatkan visibilitas dan melindungi kaca (Layanan 1x per tahun)."
+            },
+            {
+              "title": "GRATIS Spooring (Wheel Alignment)",
+              "description": "Memastikan stabilitas dan keselamatan (Tanpa batas selama 6 bulan)."
+            },
+            {
+              "title": "GRATIS Cuci Mobil Snow",
+              "description": "Mempertahankan kebersihan mesin Anda (Layanan 20x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan AC Super Dingin Ekstra",
+              "description": "Mempertahankan suhu kabin optimal (Layanan 3x per tahun)."
+            },
+            {
+              "title": "GRATIS Fogging & Disinfektan",
+              "description": "Memastikan kabin bersih dan higienis (Layanan tanpa batas)."
+            },
+            {
+              "title": "GRATIS Full Interior & Exterior Detailing",
+              "description": "Mempertahankan tampilan mesin Anda seperti baru (Layanan 2x per tahun)."
+            },
+            {
+              "title": "Inspeksi Undercarriage Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas menggunakan Shaking Machine kami untuk komponen undercarriage."
+            },
+            {
+              "title": "Inspeksi Engine Tanpa Batas",
+              "description": "Pemeriksaan kesehatan engine tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Transmission Tanpa Batas",
+              "description": "Pemeriksaan kesehatan transmission tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Konsultasi Teknis Tanpa Batas",
+              "description": "Akses tanpa batas ke dukungan teknis ahli dari tim TJM Auto Care."
+            }
+          ]
+        },
+        {
+          "id": "r7",
+          "slug": "diamond-grade-service-promo",
+          "title": "Promo Grade Diamond (Min. 1 Pembelian Mesin)",
+          "image": "/promo/promo-diamond.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "Semua Lokasi",
+          "description": "Promo Grade Diamond: Paket layanan dan inspeksi premium untuk pembelian minimal 1 mesin, bernilai Rp 200.000.000. Paket ini mencakup diskon sparepart 45%, 13 layanan utama (seperti Tune-Up, Detailing, & 50x Cuci Mobil), dan 5 layanan inspeksi tanpa batas.",
+          "details": [
             {
               "title": "Diskon Sparepart 45%",
-              "description": "Potongan harga besar untuk pembelian sparepart di luar bonus."
+              "description": "Nikmati penghematan besar pada semua pembelian sparepart di luar paket bonus."
+            },
+            {
+              "title": "GRATIS Engine Scanner Tanpa Batas",
+              "description": "Gunakan sebanyak yang Anda butuhkan untuk diagnostik mesin yang akurat dan on-demand."
+            },
+            {
+              "title": "Tune Up 65 Komponen + Carbon Cleaner",
+              "description": "Mempertahankan mesin Anda dalam performa terbaik (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan Undercarriage Super Lengkap",
+              "description": "Memastikan kenyamanan dan keselamatan kendaraan (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Flinkoat Anti-Karat Undercarriage",
+              "description": "Menyediakan perlindungan korosi (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Quick Service oleh TJM Express",
+              "description": "Perawatan cepat dan efisien (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Perawatan Coating Kaca",
+              "description": "Meningkatkan visibilitas dan melindungi kaca (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Spooring Tanpa Batas (1 Tahun)",
+              "description": "Memastikan stabilitas dan keselamatan, tanpa batas selama 1 tahun penuh."
+            },
+            {
+              "title": "GRATIS Cuci Mobil Snow",
+              "description": "Mempertahankan kebersihan mesin Anda (Layanan 50x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan AC Super Dingin Ekstra",
+              "description": "Mempertahankan suhu kabin optimal (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Fogging & Disinfektan Tanpa Batas",
+              "description": "Memastikan kabin bersih dan higienis (Layanan tanpa batas)."
+            },
+            {
+              "title": "GRATIS Full Interior & Exterior Detailing",
+              "description": "Mempertahankan tampilan mesin Anda seperti baru (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Radiator Ultra Flush",
+              "description": "Memastikan pendinginan engine optimal (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Perawatan Baterai Tanpa Batas & Fogging Terminal",
+              "description": "Layanan tanpa batas untuk memastikan kesehatan baterai dan keandalan."
+            },
+            {
+              "title": "Inspeksi Undercarriage Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas menggunakan Shaking Machine kami untuk komponen undercarriage."
+            },
+            {
+              "title": "Inspeksi Engine Tanpa Batas",
+              "description": "Pemeriksaan kesehatan engine tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Transmission Tanpa Batas",
+              "description": "Pemeriksaan kesehatan transmission tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Electrical & AC Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas untuk semua sistem elektrik dan air conditioning."
+            },
+            {
+              "title": "Konsultasi Teknis Tanpa Batas",
+              "description": "Akses tanpa batas ke dukungan teknis ahli dari tim TJM Auto Care."
+            }
+          ]
+        },
+        {
+          "id": "r8",
+          "slug": "exclusive-grade-service-promo",
+          "title": "Promo Grade Exclusive (Min. 1 Pembelian Mesin)",
+          "image": "/promo/promo-exclusive.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "Semua Lokasi",
+          "description": "Promo Grade Exclusive: Paket layanan dan inspeksi paling lengkap untuk pembelian minimal 1 mesin, bernilai Rp 250.000.000. Paket ini mencakup diskon sparepart 50%, 16 layanan utama (seperti Tune-Up, Detailing, & 100x Cuci Mobil), dan 6 layanan inspeksi tanpa batas.",
+          "details": [
+            {
+              "title": "Diskon Sparepart 50%",
+              "description": "Nikmati penghematan besar pada semua pembelian sparepart di luar paket bonus."
+            },
+            {
+              "title": "GRATIS Engine Scanner Tanpa Batas",
+              "description": "Gunakan sebanyak yang Anda butuhkan untuk diagnostik mesin yang akurat dan on-demand."
+            },
+            {
+              "title": "Tune Up 65 Komponen + Carbon Cleaner",
+              "description": "Mempertahankan mesin Anda dalam performa terbaik (Layanan 6x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan Undercarriage Super Lengkap",
+              "description": "Memastikan kenyamanan dan keselamatan kendaraan (Layanan 6x per tahun)."
+            },
+            {
+              "title": "GRATIS Flinkoat Anti-Karat Undercarriage",
+              "description": "Menyediakan perlindungan korosi (Layanan 3x per tahun)."
+            },
+            {
+              "title": "GRATIS Quick Service oleh TJM Express",
+              "description": "Perawatan cepat dan efisien (Layanan 6x per tahun)."
+            },
+            {
+              "title": "GRATIS Perawatan Coating Kaca",
+              "description": "Meningkatkan visibilitas dan melindungi kaca (Layanan 3x per tahun)."
+            },
+            {
+              "title": "GRATIS Spooring Tanpa Batas (1 Tahun)",
+              "description": "Memastikan stabilitas dan keselamatan, tanpa batas selama 1 tahun penuh."
+            },
+            {
+              "title": "GRATIS Cuci Mobil Snow",
+              "description": "Mempertahankan kebersihan mesin Anda (Layanan 100x per tahun)."
+            },
+            {
+              "title": "GRATIS Layanan AC Super Dingin Ekstra",
+              "description": "Mempertahankan suhu kabin optimal (Layanan 6x per tahun)."
+            },
+            {
+              "title": "GRATIS Fogging & Disinfektan Tanpa Batas",
+              "description": "Memastikan kabin bersih dan higienis (Layanan tanpa batas)."
+            },
+            {
+              "title": "GRATIS Full Interior & Exterior Detailing",
+              "description": "Mempertahankan tampilan mesin Anda seperti baru (Layanan 6x per tahun)."
+            },
+            {
+              "title": "GRATIS Radiator Ultra Flush",
+              "description": "Memastikan pendinginan engine optimal (Layanan 4x per tahun)."
+            },
+            {
+              "title": "GRATIS Perawatan Baterai Tanpa Batas & Fogging Terminal",
+              "description": "Layanan tanpa batas untuk memastikan kesehatan baterai dan keandalan."
+            },
+            {
+              "title": "GRATIS Body & Paint Touch Up",
+              "description": "Mempertahankan body mesin Anda prima (Layanan 2x per tahun)."
+            },
+            {
+              "title": "GRATIS Nano Coating and Full Detailing",
+              "description": "Menyediakan perlindungan superior dan kilau (Layanan 2x per tahun)."
+            },
+            {
+              "title": "Inspeksi Undercarriage Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas menggunakan Shaking Machine kami untuk komponen undercarriage."
+            },
+            {
+              "title": "Inspeksi Engine Tanpa Batas",
+              "description": "Pemeriksaan kesehatan engine tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Transmission Tanpa Batas",
+              "description": "Pemeriksaan kesehatan transmission tanpa batas sepanjang tahun."
+            },
+            {
+              "title": "Inspeksi Electrical & AC Tanpa Batas",
+              "description": "Pemeriksaan tanpa batas untuk semua sistem elektrik dan air conditioning."
+            },
+            {
+              "title": "Inspeksi Chassis & Body Tanpa Batas",
+              "description": "Pemeriksaan lengkap dan menyeluruh untuk integritas struktural."
+            },
+            {
+              "title": "Konsultasi Teknis Tanpa Batas",
+              "description": "Akses tanpa batas ke dukungan teknis ahli dari tim TJM Auto Care."
             }
           ]
         }

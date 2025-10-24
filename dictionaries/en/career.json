@@ -32,36 +32,31 @@
       "description": "We are always looking for the best talent to join us. Find the position that best fits your skills and interests.",
       "positions": [
         {
-          "title": "Heavy Equipment Mechanic",
-          "location": "All Branches",
+          "title": "Heavy Equipment Sales",
+          "location": "Bekasi",
           "type": "Full-time",
-          "image": "/career/mechanic.webp"
+          "images": [
+            "/career/sales_alatberat1.webp",
+            "/career/sales_alatberat2.webp"
+          ]
         },
         {
-          "title": "Service Advisor",
-          "location": "Jakarta, Surabaya",
+          "title": "Sparepart Sales",
+          "location": "Bekasi",
           "type": "Full-time",
-          "image": "/career/service-advisor.webp"
-        },
-        {
-          "title": "Parts Sales Consultant",
-          "location": "Pekanbaru, Balikpapan",
-          "type": "Full-time",
-          "image": "/career/parts-consultant.webp"
-        },
-        {
-          "title": "Operational Admin",
-          "location": "Head Office (Jakarta)",
-          "type": "Full-time",
-          "image": "/career/admin.webp"
-        },
-        {
-          "title": "Marketing Executive",
-          "location": "Bandung, Medan",
-          "type": "Full-time",
-          "image": "/career/marketing.webp"
+          "images": [
+            "/career/sales_sparepart1.webp",
+            "/career/sales_sparepart2.webp"
+          ]
         }
       ],
+      "form": {
+        "title": "Apply for Position",
+        "nama_label": "Name",
+        "domisili_label": "Residence",
+        "bagian_label": "Position Applied For",
+        "submit_button": "Send Application via WhatsApp"
+      },
       "cta": "View Details & Apply"
     },
     "training_programs": {

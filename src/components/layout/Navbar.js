@@ -36,6 +36,28 @@ const Navbar = ({ dictionary, currentLocale }) => {
       href: `/${currentLocale}`,
     },
     {
+      name: navDict.about_thei,
+      isDropdown: true,
+      items: [
+        {
+          name: navDict.company_profile,
+          href: `/${currentLocale}/about`,
+        },
+        {
+          name: navDict.news,
+          href: `/${currentLocale}/news`,
+        },
+        {
+          name: navDict.career_training,
+          href: `/${currentLocale}/career`,
+        },
+        {
+          name: navDict.branches,
+          href: `/${currentLocale}/branches`,
+        },
+      ],
+    },
+    {
       name: navDict.products,
       href: `/${currentLocale}/products`,
     },
@@ -65,28 +87,7 @@ const Navbar = ({ dictionary, currentLocale }) => {
       name: navDict.trade_in,
       href: `/${currentLocale}/trade-in`,
     },
-    {
-      name: navDict.about_thei,
-      isDropdown: true,
-      items: [
-        {
-          name: navDict.company_profile,
-          href: `/${currentLocale}/about`,
-        },
-        {
-          name: navDict.news,
-          href: `/${currentLocale}/news`,
-        },
-        {
-          name: navDict.career_training,
-          href: `/${currentLocale}/career`,
-        },
-        {
-          name: navDict.branches,
-          href: `/${currentLocale}/branches`,
-        },
-      ],
-    },
+
     {
       name: navDict.promotions,
       href: `/${currentLocale}/promotions`,

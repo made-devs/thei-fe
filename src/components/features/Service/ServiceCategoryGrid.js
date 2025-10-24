@@ -11,8 +11,8 @@ import {
   ClipboardCheck,
   Fuel,
   ArrowRight,
-} from "lucide-react";
-import Link from "next/link";
+} from 'lucide-react';
+import Link from 'next/link';
 
 // Mapping nama ikon ke komponen ikonnya
 const iconMap = {
@@ -54,13 +54,6 @@ const ServiceCategoryGrid = ({ dictionary }) => {
               <p className="text-gray-600 text-sm sm:text-base lg:text-lg mt-1 sm:mt-2 flex-grow">
                 {service.description}
               </p>
-              <div className="mt-4 sm:mt-6 font-semibold text-yellow-500 flex items-center group-hover:text-black transition-colors">
-                <span>Learn More</span>
-                <ArrowRight
-                  size={16}
-                  className="ml-2 transform group-hover:translate-x-1 transition-transform"
-                />
-              </div>
             </Link>
           ))}
         </div>

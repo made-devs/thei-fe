@@ -9,81 +9,102 @@
         { "name": "Tukar Tambah", "link": "/trade-in" }
       ]
     },
+    "trade_in_highlight": {
+      "title": "Lihat Perbedaannya Upgrade Membuat",
+      "description": "Geser untuk membandingkan unit lama dengan yang baru dan lihat manfaat program tukar tambah kami.",
+      "image_before": "/service/before.webp",
+      "image_after": "/service/after.webp"
+    },
     "benefits_section": {
       "title": "15 Manfaat Tukar Tambah di THEI",
       "benefits": [
         {
           "icon": "TrendingUp",
+          "image": "/tradein/benefit1.webp",
           "title": "Harga Tukar Tinggi & Transparan",
           "description": "Unit lama dihargai kompetitif dengan sistem appraisal resmi. Usia trade-in maksimal 10 tahun (contoh: forklift tahun 2015)."
         },
         {
           "icon": "Zap",
+          "image": "/tradein/benefit2.webp",
           "title": "Upgrade ke Teknologi Baru",
           "description": "Langsung ganti ke unit terbaru (diesel, elektrik, gasoline) yang lebih hemat energi & ramah lingkungan."
         },
         {
           "icon": "PiggyBank",
+          "image": "/tradein/benefit3.webp",
           "title": "Hemat Modal Awal",
           "description": "Nilai alat lama otomatis jadi potongan harga pembelian unit baru, meringankan cashflow bisnis Anda."
         },
         {
           "icon": "FastForward",
+          "image": "/tradein/benefit4.webp",
           "title": "Proses Cepat & Mudah",
           "description": "Semua proses dari appraisal, dokumen, hingga serah-terima unit ditangani sepenuhnya oleh tim THEI."
         },
         {
           "icon": "ThumbsUp",
+          "image": "/tradein/benefit5.webp",
           "title": "Bebas Ribet Jual Sendiri",
           "description": "Tidak perlu buang waktu dan tenaga untuk mengiklankan atau menjual alat lama ke pihak ketiga."
         },
         {
           "icon": "ShieldCheck",
+          "image": "/tradein/benefit6.webp",
           "title": "Garansi Unit Baru Lebih Panjang",
           "description": "Unit baru hasil trade-in mendapatkan tambahan promo dari THEI senilai Rp 20 juta."
         },
         {
           "icon": "CreditCard",
+          "image": "/tradein/benefit7.webp",
           "title": "Opsi Skema Cicilan",
           "description": "Unit baru dapat dibeli melalui skema pembiayaan (leasing) yang fleksibel setelah proses tukar tambah."
         },
         {
           "icon": "Wrench",
+          "image": "/tradein/benefit8.webp",
           "title": "Free Service Periode Awal",
           "description": "Dapatkan bonus komponen filter gratis untuk servis pada 250, 500, 750, dan 1000 jam pemakaian."
         },
         {
           "icon": "ClipboardCheck",
+          "image": "/tradein/benefit9.webp",
           "title": "Kepastian Harga Pasar",
           "description": "Nilai appraisal yang transparan berdasarkan kondisi unit, jam kerja, dan riwayat servis."
         },
         {
           "icon": "LineChart",
+          "image": "/tradein/benefit10.webp",
           "title": "Meningkatkan Efisiensi Armada",
           "description": "Solusi cerdas untuk efisiensi waktu dan peremajaan unit-unit lama di armada Anda."
         },
         {
           "icon": "Award",
+          "image": "/tradein/benefit11.webp",
           "title": "Dukungan Promo dari TJM Auto Care",
           "description": "Setiap unit baru otomatis masuk ke program aftersales premium TJM (teknisi siaga, hotline darurat, dll)."
         },
         {
           "icon": "Gift",
+          "image": "/tradein/benefit12.webp",
           "title": "Free Corporate Gift Pack",
           "description": "Dapatkan paket eksklusif berisi seragam, helm, rompi, dan safety kit dengan branding perusahaan Anda."
         },
         {
           "icon": "Briefcase",
+          "image": "/tradein/benefit13.webp",
           "title": "Nilai Tambah untuk Perusahaan",
           "description": "Dapatkan bonus konsultasi Corporate Business di Sentinel Law Firm sebagai nilai tambah."
         },
         {
           "icon": "Truck",
+          "image": "/tradein/benefit14.webp",
           "title": "Free Delivery Area Jabodetabek",
           "description": "Nikmati layanan pengiriman unit baru secara gratis untuk wilayah Jabodetabek."
         },
         {
           "icon": "Users",
+          "image": "/tradein/benefit15.webp",
           "title": "Free Training Operator",
           "description": "Kami memberikan pelatihan dasar gratis untuk operator unit baru Anda agar siap bekerja."
         }

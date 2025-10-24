@@ -1,8 +1,8 @@
-"use client";
+'use client';
 
-import React, { useState, useMemo, useRef } from "react";
-import { CheckCircle, ChevronLeft, ChevronRight } from "lucide-react";
-import Image from "next/image";
+import React, { useState, useMemo, useRef } from 'react';
+import { CheckCircle, MessageCircle } from 'lucide-react';
+import Image from 'next/image';
 
 // Komponen untuk list fitur/bonus
 const ListSection = ({ title, items }) => {
@@ -27,15 +27,14 @@ const ListSection = ({ title, items }) => {
 
 // Komponen untuk satu kartu paket rental
 const PackageCard = ({ aPackage, dictionary }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const tiers = aPackage.tiers || [];
-
-  // Navigasi tier harga
-  const nextSlide = () =>
-    setCurrentIndex((prev) => (prev === tiers.length - 1 ? 0 : prev + 1));
-  const prevSlide = () =>
-    setCurrentIndex((prev) => (prev === 0 ? tiers.length - 1 : prev - 1));
-  const goToSlide = (index) => setCurrentIndex(index);
+  // Function untuk WhatsApp
+  const handleWhatsAppClick = () => {
+    const message = `Halo, saya tertarik dengan paket rental ${aPackage.level} - ${aPackage.title}. Bisa info harga dan detailnya?`;
+    const waUrl = `https://wa.me/6285195886789?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(waUrl, '_blank');
+  };
 
   return (
     <div
@@ -59,71 +58,20 @@ const PackageCard = ({ aPackage, dictionary }) => {
       </h3>
       <p className="text-xs text-gray-500 uppercase mb-4">{aPackage.title}</p>
 
-      <div className="relative w-full mb-6">
-        <div className="overflow-hidden rounded-md mx-8">
-          <div
-            className="flex transition-transform duration-500 ease-in-out"
-            style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-          >
-            {tiers.map((tier, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-full bg-gray-50 p-3 text-center"
-              >
-                <p className="font-bold text-sm sm:text-md text-gray-800">
-                  {tier.capacity}
-                </p>
-                <p className="text-lg sm:text-2xl font-bold text-black">
-                  {tier.promo_price}
-                </p>
-                <p className="text-xs sm:text-sm text-gray-500">
-                  <span className="line-through">{tier.normal_price}</span>
-                  {tier.savings && (
-                    <>
-                      {" "}
-                      -{" "}
-                      <span className="font-semibold text-red-500">
-                        {tier.savings}
-                      </span>
-                    </>
-                  )}
-                </p>
-              </div>
-            ))}
-          </div>
+      {/* Custom Quote Badge - Menggantikan Price Carousel */}
+      <div className="bg-gradient-to-r from-yellow-400 to-yellow-500 p-4 rounded-lg text-center mb-6 shadow-md">
+        <div className="flex items-center justify-center gap-2 mb-1">
+          <MessageCircle className="w-4 h-4 text-black" />
+          <p className="text-sm font-bold text-black">
+            Price Available via WhatsApp
+          </p>
         </div>
-
-        {tiers.length > 1 && (
-          <>
-            <button
-              onClick={prevSlide}
-              className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-1 rounded-full hover:bg-opacity-75 z-10"
-            >
-              <ChevronLeft size={20} />
-            </button>
-            <button
-              onClick={nextSlide}
-              className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-1 rounded-full hover:bg-opacity-75 z-10"
-            >
-              <ChevronRight size={20} />
-            </button>
-            <div className="absolute -bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-2">
-              {tiers.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => goToSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    currentIndex === index ? "bg-black" : "bg-gray-300"
-                  }`}
-                  aria-label={`Pilih harga ke-${index + 1}`}
-                ></button>
-              ))}
-            </div>
-          </>
-        )}
+        <p className="text-xs text-gray-800">
+          Get personalized quote instantly
+        </p>
       </div>
 
-      <div className="flex-grow overflow-y-auto max-h-[300px] pr-2 space-y-4 border-t pt-4 mt-4">
+      <div className="flex-grow overflow-y-auto max-h-[300px] pr-2 space-y-4 border-t pt-4">
         <ListSection
           title={dictionary.serviceContent}
           items={aPackage.service_content}
@@ -140,7 +88,11 @@ const PackageCard = ({ aPackage, dictionary }) => {
       </div>
 
       <div className="mt-6">
-        <button className="w-full bg-yellow-400 text-black font-bold py-3 px-4 rounded-lg hover:bg-yellow-500 transition-colors">
+        <button
+          onClick={handleWhatsAppClick}
+          className="w-full bg-yellow-400 text-black font-bold py-3 px-4 rounded-lg hover:bg-yellow-500 transition-colors flex items-center justify-center gap-2"
+        >
+          <MessageCircle className="w-5 h-5" />
           {dictionary.getQuote}
         </button>
       </div>
@@ -151,29 +103,13 @@ const PackageCard = ({ aPackage, dictionary }) => {
 // Komponen utama RentalPackages
 const RentalPackages = ({ dictionary }) => {
   const data = useMemo(() => dictionary?.equipment_types || [], [dictionary]);
-  const [activeCategory, setActiveCategory] = useState(data[0]?.name || "");
+  const [activeCategory, setActiveCategory] = useState(data[0]?.name || '');
   const activeEquipment = useMemo(
     () => data.find((eq) => eq.name === activeCategory),
     [activeCategory, data]
   );
 
-  // Tambahan untuk scroll indicator
   const tabRef = useRef(null);
-  const [scrollInfo, setScrollInfo] = useState({
-    left: 0,
-    width: 0,
-    scrollWidth: 0,
-  });
-
-  const handleTabScroll = () => {
-    if (tabRef.current) {
-      setScrollInfo({
-        left: tabRef.current.scrollLeft,
-        width: tabRef.current.clientWidth,
-        scrollWidth: tabRef.current.scrollWidth,
-      });
-    }
-  };
 
   if (!dictionary || !dictionary.equipment_types) return null;
 
@@ -189,29 +125,48 @@ const RentalPackages = ({ dictionary }) => {
           </p>
         </div>
 
-        {/* Filter Tabs */}
-        {/* Filter Tabs */}
-        <div className="relative mb-12">
+        {/* Filter Tabs - Mobile: horizontal scroll, Desktop: flex wrap */}
+        <div className="mb-12">
+          {/* Mobile Version */}
           <div
-            className="overflow-x-auto lg:overflow-visible scrollbar-visible"
+            className="lg:hidden overflow-x-auto scrollbar-visible pb-2"
             ref={tabRef}
-            onScroll={handleTabScroll}
             style={{
-              scrollbarWidth: "thin", // Firefox
-              scrollbarColor: "#FCD34D #F3F4F6", // Firefox: thumb & track
+              scrollbarWidth: 'thin',
+              scrollbarColor: '#FCD34D #F3F4F6',
             }}
           >
-            <div className="flex space-x-2 pb-2 sm:space-x-2 sm:pb-0 sm:justify-center">
+            <div className="flex space-x-2">
               {data.map((eq) => (
                 <button
                   key={eq.name}
                   onClick={() => setActiveCategory(eq.name)}
-                  className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors
-            ${
-              activeCategory === eq.name
-                ? "bg-yellow-400 text-black"
-                : "bg-white text-gray-700 hover:bg-gray-100"
-            }`}
+                  className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors whitespace-nowrap
+                    ${
+                      activeCategory === eq.name
+                        ? 'bg-yellow-400 text-black'
+                        : 'bg-white text-gray-700 hover:bg-gray-100'
+                    }`}
+                >
+                  {eq.name}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Desktop Version - Flex Wrap with max-w-[1440px] */}
+          <div className="hidden lg:block">
+            <div className="flex flex-wrap justify-center gap-3 max-w-[1440px] mx-auto">
+              {data.map((eq) => (
+                <button
+                  key={eq.name}
+                  onClick={() => setActiveCategory(eq.name)}
+                  className={`px-6 py-2 rounded-full text-sm font-medium transition-colors whitespace-nowrap
+                    ${
+                      activeCategory === eq.name
+                        ? 'bg-yellow-400 text-black'
+                        : 'bg-white text-gray-700 hover:bg-gray-100'
+                    }`}
                 >
                   {eq.name}
                 </button>

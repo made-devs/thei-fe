@@ -71,7 +71,7 @@ const Hero = ({ dictionary, currentLocale }) => {
     <div className="relative h-[70vh] sm:h-[85vh] overflow-hidden flex items-center justify-center text-center">
       {/* Gambar Latar Statis */}
       <Image
-        src="/banner-slider1.webp"
+        src="/banner-hero.webp"
         alt="Heavy Equipment Fleet"
         fill
         className="object-cover -z-10"

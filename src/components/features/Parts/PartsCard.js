@@ -46,9 +46,6 @@ const PartsCard = ({ part, lang }) => {
 
         {/* Tambah info price dan availability untuk parts */}
         <div className="space-y-1 sm:space-y-2 text-xs flex-grow">
-          <p className="text-gray-700">
-            <strong>Price:</strong> {part.price}
-          </p>
           <p
             className={`font-medium ${
               part.availability === 'In Stock'
@@ -72,11 +69,10 @@ const PartsCard = ({ part, lang }) => {
             <ListChecks size={16} className="mr-2" />
             View Details
           </Link>
-          {/* Tambah tombol Chat seperti di PromoPackages */}
           <button
             onClick={() => {
               const message = `Halo, saya tertarik dengan spare part ${part.name}. Bisa info lebih lanjut?`;
-              const waUrl = `https://wa.me/6281234567890?text=${encodeURIComponent(
+              const waUrl = `https://wa.me/6285195886789?text=${encodeURIComponent(
                 message
               )}`;
               window.open(waUrl, '_blank');
