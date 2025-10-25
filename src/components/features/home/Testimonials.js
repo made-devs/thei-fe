@@ -16,7 +16,7 @@ const Testimonials = ({ dictionary }) => {
 
   // Embla Carousel for Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: 'start',
+    align: 'center', // Ubah dari 'start' ke 'center'
     containScroll: 'trimSnaps',
     loop: true,
   });
@@ -187,7 +187,9 @@ const Testimonials = ({ dictionary }) => {
               </h3>
             </div>
             <div className="relative">
-              <div className="overflow-hidden" ref={videoEmblaRef}>
+              <div className="overflow-hidden px-4 sm:px-0" ref={videoEmblaRef}>
+                {' '}
+                {/* Tambah px-4 untuk mobile */}
                 <div className="flex -ml-4">
                   {videoTestimonials.map((video, index) => (
                     <div
