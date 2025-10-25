@@ -12,30 +12,34 @@
         {
           "icon": "Building2",
           "title": "Head Office",
-          "line1": "Jl. Raya Cilandak KKO No.1",
-          "line2": "Ragunan, South Jakarta",
-          "cta": "View on Google Maps"
+          "line1": "POSH, Blok. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17132",
+          "line2": "Bekasi, West Java",
+          "cta": "View on Google Maps",
+          "link": "https://maps.app.goo.gl/qVaCThP526oGKdoE9"
         },
         {
           "icon": "Phone",
           "title": "24-Hour Hotline",
-          "line1": "1500-228",
+          "line1": "0851 9588 6789",
           "line2": "For emergency & general service",
-          "cta": "Call Now"
+          "cta": "Call Now",
+          "link": "tel:+6285195886789"
         },
         {
           "icon": "MessageSquare",
           "title": "WhatsApp",
           "line1": "0851 9588 6789",
           "line2": "For text messages only",
-          "cta": "Start Chat"
+          "cta": "Start Chat",
+          "link": "https://wa.me/6285195886789"
         },
         {
           "icon": "Mail",
           "title": "Email",
-          "line1": "tjmheavyequipment@gmail.com",
+          "line1": "admin@tjmheavyequipment.co.id",
           "line2": "For general inquiries & quotes",
-          "cta": "Send Email"
+          "cta": "Send Email",
+          "link": "mailto:admin@tjmheavyequipment.co.id"
         }
       ]
     },

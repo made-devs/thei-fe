@@ -77,6 +77,10 @@ const Navbar = ({ dictionary, currentLocale }) => {
           name: navDict.repair_premium,
           href: `/${currentLocale}/repair-packages`,
         },
+        {
+          name: navDict.contract_service, // Tambahkan ini
+          href: `/${currentLocale}/contract-service`, // Tambahkan ini
+        },
       ],
     },
     {

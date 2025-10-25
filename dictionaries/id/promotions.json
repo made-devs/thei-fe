@@ -1,8 +1,8 @@
 {
   "promotions_page": {
     "hero": {
-      "subtitle": "Penawaran Eksklusif",
-      "title": "Penawaran Terbaik, Keuntungan Maksimal.",
+      "subtitle": "Dapatkan Keuntungan Eksklusif Alat Berat",
+      "title": "Temukan Promo Alat Berat Terbaik",
       "image": "/banner-promo.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },

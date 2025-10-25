@@ -9,6 +9,8 @@ const dictionaries = {
       import('@/dictionaries/en/common.json').then((m) => m.default),
     homepage: () =>
       import('@/dictionaries/en/homepage.json').then((m) => m.default),
+    contractService: () =>
+      import('@/dictionaries/en/contract-service.json').then((m) => m.default), // Tambah baris ini
     about: () => import('@/dictionaries/en/about.json').then((m) => m.default),
     'new-machines': () =>
       import('@/dictionaries/en/new-machines.json').then((m) => m.default),
@@ -40,6 +42,8 @@ const dictionaries = {
       import('@/dictionaries/id/common.json').then((m) => m.default),
     homepage: () =>
       import('@/dictionaries/id/homepage.json').then((m) => m.default),
+    contractService: () =>
+      import('@/dictionaries/id/contract-service.json').then((m) => m.default), // Tambah baris ini
     about: () => import('@/dictionaries/id/about.json').then((m) => m.default),
     'new-machines': () =>
       import('@/dictionaries/id/new-machines.json').then((m) => m.default),

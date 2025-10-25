@@ -118,24 +118,32 @@
       "title": "See Their Success Stories",
       "videos": [
         {
-          "name": "Rian Pratama",
+          "name": "Kumar",
           "company": "Foreman, PT Cipta Karya",
-          "title": "Operational Efficiency Increased by 20%"
+          "title": "Operational Efficiency Increased by 20%",
+          "thumbnail": "/testi/testi-kumar.webp",
+          "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
         },
         {
-          "name": "Siti Hartono",
+          "name": "Arga",
           "company": "Site Manager, Tambang Jaya",
-          "title": "Downtime Reduced Significantly"
+          "title": "Downtime Reduced Significantly",
+          "thumbnail": "/testi/testi-arga.webp",
+          "videoUrl": "https://www.youtube.com/embed/ff-RDpeQx2o?rel=0&modestbranding=1"
         },
         {
-          "name": "Joko Susilo",
+          "name": "Richard",
           "company": "Lead Engineer, Geo-Infra Solusi",
-          "title": "Unbeatable 24/7 Support"
+          "title": "Unbeatable 24/7 Support",
+          "thumbnail": "/testi/testi-richard.webp",
+          "videoUrl": "https://www.youtube.com/embed/n5MDJw6Lbh4?rel=0&modestbranding=1"
         },
         {
-          "name": "Dewi Anggraini",
+          "name": "Rama",
           "company": "Logistics Head, Terra Logistik",
-          "title": "Fleet Management Made Easy"
+          "title": "Fleet Management Made Easy",
+          "thumbnail": "/testi/testi-rama.webp",
+          "videoUrl": "https://www.youtube.com/embed/hUcLgN2GtBM?rel=0&modestbranding=1"
         }
       ]
     }

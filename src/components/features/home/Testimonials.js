@@ -1,8 +1,8 @@
-"use client";
-import React, { useState, useMemo, useCallback, useEffect } from "react";
-import Image from "next/image";
-import useEmblaCarousel from "embla-carousel-react";
-import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from "lucide-react";
+'use client';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
+import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
+import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
 
 const Testimonials = ({ dictionary }) => {
   // Memoize data
@@ -16,24 +16,28 @@ const Testimonials = ({ dictionary }) => {
 
   // Embla Carousel for Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: "start",
-    containScroll: "trimSnaps",
+    align: 'start',
+    containScroll: 'trimSnaps',
     loop: true,
   });
 
   // Tambahkan state untuk index aktif video
   const [videoActiveIdx, setVideoActiveIdx] = useState(0);
 
+  // Tambahkan state untuk modal video
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [selectedVideo, setSelectedVideo] = useState(null);
+
   // Sinkronkan dots dengan embla
   useEffect(() => {
     if (!videoEmblaApi) return;
     const onSelect = () =>
       setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
-    videoEmblaApi.on("select", onSelect);
+    videoEmblaApi.on('select', onSelect);
     // Set index saat embla siap
     onSelect();
     return () => {
-      videoEmblaApi.off("select", onSelect);
+      videoEmblaApi.off('select', onSelect);
     };
   }, [videoEmblaApi]);
 
@@ -45,6 +49,16 @@ const Testimonials = ({ dictionary }) => {
     () => videoEmblaApi && videoEmblaApi.scrollNext(),
     [videoEmblaApi]
   );
+
+  const openModal = (video) => {
+    setSelectedVideo(video);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedVideo(null);
+  };
 
   if (testimonials.length === 0) {
     return null;
@@ -61,7 +75,7 @@ const Testimonials = ({ dictionary }) => {
             <Cog
               size={20}
               className="mr-2 animate-spin"
-              style={{ animationDuration: "5s" }}
+              style={{ animationDuration: '5s' }}
             />
             <span>{dictionary.subtitle}</span>
           </div>
@@ -82,11 +96,11 @@ const Testimonials = ({ dictionary }) => {
               className={`relative w-12 h-12 rounded-full border-2 transition-all duration-200
                 ${
                   index === activeIndex
-                    ? "border-yellow-400 scale-110 shadow-lg"
-                    : "border-gray-200 opacity-60"
+                    ? 'border-yellow-400 scale-110 shadow-lg'
+                    : 'border-gray-200 opacity-60'
                 }
               `}
-              style={{ padding: 0, background: "none" }}
+              style={{ padding: 0, background: 'none' }}
             >
               <Image
                 src={testimonial.image}
@@ -143,8 +157,8 @@ const Testimonials = ({ dictionary }) => {
               onClick={() => setActiveIndex(index)}
               className={`bg-gray-100 p-4 rounded-lg flex items-center gap-4 text-left transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${
                 index === activeIndex
-                  ? "ring-2 ring-yellow-400 shadow-xl"
-                  : "opacity-70 hover:opacity-100"
+                  ? 'ring-2 ring-yellow-400 shadow-xl'
+                  : 'opacity-70 hover:opacity-100'
               }`}
             >
               <div className="relative w-16 h-16 flex-shrink-0">
@@ -180,17 +194,22 @@ const Testimonials = ({ dictionary }) => {
                       key={index}
                       className="flex-[0_0_100%] sm:flex-[0_0_50%] lg:flex-[0_0_33.333%] pl-4"
                     >
-                      <div className="group cursor-pointer">
-                        <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg">
+                      <div
+                        className="group cursor-pointer"
+                        onClick={() => openModal(video)}
+                      >
+                        <div className="relative aspect-[4/5] rounded-lg overflow-hidden shadow-lg max-h-96 md:max-h-[32rem]">
                           <Image
-                            src={`https://placehold.co/1600x900/1a1a1a/ffc700?text=Video+${
-                              index + 1
-                            }`}
+                            src={
+                              video.thumbnail ||
+                              `https://placehold.co/1600x900/1a1a1a/ffc700?text=Video+${
+                                index + 1
+                              }`
+                            }
                             alt={video.title}
                             fill
                             className="object-cover group-hover:scale-105 transition-transform duration-300"
                             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                            unoptimized
                           />
                           <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
                             <PlayCircle
@@ -222,8 +241,8 @@ const Testimonials = ({ dictionary }) => {
                     onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
                     className={`h-2 rounded-full transition-all duration-200 focus:outline-none ${
                       videoActiveIdx === idx
-                        ? "w-6 bg-yellow-400"
-                        : "w-2 bg-gray-300"
+                        ? 'w-6 bg-yellow-400'
+                        : 'w-2 bg-gray-300'
                     }`}
                   />
                 ))}
@@ -241,6 +260,39 @@ const Testimonials = ({ dictionary }) => {
               >
                 <ArrowRight size={24} className="text-black" />
               </button>
+            </div>
+          </div>
+        )}
+
+        {/* Modal untuk Video Embed */}
+        {isModalOpen && selectedVideo && (
+          <div
+            className="fixed inset-0 bg-black/70 flex items-center justify-center z-50"
+            onClick={closeModal}
+          >
+            <div
+              className="relative w-full max-w-sm mx-4"
+              onClick={(e) => e.stopPropagation()}
+            >
+              {' '}
+              {/* Kurangi max-w untuk portrait */}
+              <button
+                className="absolute top-4 right-4 text-white text-2xl z-10"
+                onClick={closeModal}
+              >
+                &times;
+              </button>
+              <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
+                {' '}
+                {/* Ubah ke aspect-[9/16] untuk portrait */}
+                <iframe
+                  src={selectedVideo.videoUrl}
+                  title={selectedVideo.title}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+              </div>
             </div>
           </div>
         )}

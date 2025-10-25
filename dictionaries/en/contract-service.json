@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "subtitle": "FULL MAINTENANCE & OPERATIONAL SOLUTIONS FROM THEI",
+    "title": "Contract Service",
+    "image": "/banner-contract-service.webp",
+    "breadcrumbs": [
+      { "name": "Home", "link": "/" },
+      { "name": "Contract Service" }
+    ]
+  },
+  "intro": {
+    "title": "HEAVY EQUIPMENT CONTRACT SERVICE",
+    "subtitle": "Full Maintenance & Operational Solutions from THEI",
+    "image": "/contract-service/image1.webp",
+    "description": "THEI (PT. TJM Heavy Equipment Indonesia) provides Heavy Equipment Contract Service — a comprehensive maintenance and operational program for companies relying on heavy equipment units in projects, mining, construction, logistics, and manufacturing industries.\n\nThrough 3-month, 6-month, and 1-year contract systems, THEI ensures your units operate optimally, efficiently, and with minimal downtime, supported by certified professional technicians and an integrated monitoring system.",
+    "whatIsTitle": "WHAT IS THEI CONTRACT SERVICE?",
+    "whatIsDesc": "Contract Service is a total heavy equipment maintenance partnership, where THEI is responsible for routine maintenance, repairs, overhauls, and replacement of critical components — at a fixed cost and schedule as per the agreement. Clients can focus solely on project productivity, while THEI handles all technical aspects of the units."
+  },
+  "packages": {
+    "title": "CONTRACT SERVICE PACKAGE OPTIONS",
+    "threeMonth": {
+      "title": "3-MONTH PACKAGE",
+      "features": [
+        "250 HM Service",
+        "Oil & filter replacement",
+        "Engine & hydraulic inspection",
+        "Undercarriage and safety system check",
+        "Minor repairs & minor part replacement",
+        "Fast troubleshooting on-site",
+        "Weekly & monthly reports",
+        "Unit working hours recap",
+        "Mechanic standby on call (max 24-hour response)",
+        "Provision of fast-moving parts (Genuine & OEM)",
+        "Basic operator training",
+        "1-month service warranty"
+      ]
+    },
+    "sixMonth": {
+      "title": "6-MONTH PACKAGE",
+      "features": [
+        "250 HM and 500 HM Service",
+        "Oil & filter replacement (2x)",
+        "Engine, hydraulic, axle inspection",
+        "Radiator & fuel system cleaning",
+        "Medium repairs, minor component rebuild",
+        "On-site repair & standby team",
+        "Digital monitoring (HM record, fuel usage)",
+        "Performance reports & downtime analysis",
+        "Mechanic standby on-site (project working hours)",
+        "Mobile service + emergency team",
+        "On-site parts stock (consignment)",
+        "Operator awareness & safety refreshment",
+        "3-month service warranty"
+      ]
+    },
+    "oneYear": {
+      "title": "1-YEAR PACKAGE",
+      "features": [
+        "250, 500, 750, 1000 & 2000 HM Service",
+        "Full preventive maintenance schedule",
+        "Major component check",
+        "Recalibration and OEM inspection",
+        "Full corrective support & major component overhaul (engine, pump, transmission)",
+        "Zero downtime guarantee",
+        "Full digital dashboard (real-time)",
+        "Productivity analysis, cost efficiency, and unit history",
+        "Dedicated site mechanics & supervisor",
+        "24/7 Service Support",
+        "Full spare part management & digital inventory",
+        "Replacement plan up to main components",
+        "Full operator & mechanic training + THEI internal certification",
+        "6-month service warranty (extendable)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "ADVANTAGES OF THEI CONTRACT SERVICE",
+    "items": [
+      {
+        "title": "Economical Cost",
+        "desc": "all components and services in one contract"
+      },
+      {
+        "title": "Minimal Downtime",
+        "desc": "preventive plan & 24-hour standby mechanics"
+      },
+      {
+        "title": "Certified Technicians",
+        "desc": "multi-brand experience: Caterpillar, Komatsu, Zoomlion, SANY, etc."
+      },
+      {
+        "title": "Digital Maintenance System",
+        "desc": "all services are recorded and can be monitored"
+      },
+      {
+        "title": "Unit Performance Guarantee",
+        "desc": "according to OEM manufacturer standards"
+      }
+    ]
+  },
+  "schemes": {
+    "title": "FLEXIBLE PARTNERSHIP SCHEMES",
+    "items": [
+      {
+        "title": "Full Maintenance Contract (FMC)",
+        "desc": "THEI handles total maintenance, spare parts, and labor"
+      },
+      {
+        "title": "Labour Contract",
+        "desc": "Client provides parts, THEI provides mechanics"
+      },
+      {
+        "title": "Preventive Service Agreement (PSA)",
+        "desc": "Periodic service at a fixed cost"
+      },
+      {
+        "title": "On-Call Support Contract",
+        "desc": "Mechanics & team standby according to unit working hours"
+      }
+    ]
+  },
+  "cta": {
+    "title": "CONSULTATION & QUOTATION",
+    "description": "Consult your heavy equipment contract service needs with the THEI team.\nWe are ready to provide a FREE unit survey & contract proposal according to your project needs.",
+    "button": "Get a Free Quote"
+  },
+  "main_cta": {
+    "title": "Ready for Full Maintenance & Operational Support?",
+    "cta_button": "Contact THEI Team",
+    "cta_link": "/contact"
+  }
+}

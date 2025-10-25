@@ -11,12 +11,9 @@ import {
   Sparkles,
 } from 'lucide-react';
 import Link from 'next/link';
-import Image from 'next/image'; // Tambahkan import Image
+import Image from 'next/image';
 
 export default function HighlightPromo({ dictionary, promos, currentLocale }) {
-  // ✅ dictionary sekarang berisi highlight_promo config
-  // ✅ promos berisi array promo dari promotions
-
   const sectionBadge = dictionary?.section_badge || "This Month's Promo";
   const title = dictionary?.title || 'Offers';
   const titleHighlight = dictionary?.title_highlight || 'Limited';
@@ -27,7 +24,6 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
   const viewAllLink = dictionary?.view_all_link || '/promotions';
   const ctaRegular = dictionary?.cta_regular || 'View Details';
 
-  // Tambahkan field tambahan untuk carousel - ambil hanya 4 teratas
   const enhancedPromos = (promos || []).slice(0, 4).map((promo) => ({
     ...promo,
     is_featured: promo.size === 'large',
@@ -36,14 +32,23 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
   }));
 
   const [hoveredId, setHoveredId] = useState(null);
+
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
       align: 'start',
       skipSnaps: false,
       dragFree: false,
+      containScroll: 'trimSnaps',
     },
-    [Autoplay({ delay: 5000, stopOnInteraction: true, stopOnMouseEnter: true })]
+    [
+      Autoplay({
+        delay: 4000,
+        stopOnInteraction: false,
+        stopOnMouseEnter: true,
+        rootNode: (emblaRoot) => emblaRoot.parentElement,
+      }),
+    ]
   );
 
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -75,7 +80,11 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
     const snaps = emblaApi.scrollSnapList();
     setScrollSnaps(snaps.slice(0, enhancedPromos.length));
     emblaApi.on('select', onSelect);
-    return () => emblaApi.off('select', onSelect);
+    emblaApi.on('reInit', onSelect);
+    return () => {
+      emblaApi.off('select', onSelect);
+      emblaApi.off('reInit', onSelect);
+    };
   }, [emblaApi, onSelect, enhancedPromos.length]);
 
   const getBadgeStyle = (badge) => {
@@ -90,7 +99,6 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
     return styles[badge] || 'from-yellow-400 to-orange-500';
   };
 
-  // Return null jika tidak ada data
   if (!enhancedPromos || enhancedPromos.length === 0) {
     return null;
   }
@@ -115,9 +123,9 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
         </div>
 
         {/* Carousel Container */}
-        <div className="relative">
-          {/* Embla Viewport */}
-          <div className="overflow-hidden p-5 sm:p-18" ref={emblaRef}>
+        <div className="relative px-0 lg:px-16">
+          {/* Embla Viewport - tambah padding bawah agar shadow tidak kepotong */}
+          <div className="overflow-hidden py-4 pb-12" ref={emblaRef}>
             <div className="flex -ml-4">
               {enhancedPromos.map((promo) => (
                 <div
@@ -130,56 +138,66 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
                   onMouseEnter={() => setHoveredId(promo.id)}
                   onMouseLeave={() => setHoveredId(null)}
                 >
+                  {/* Card dengan Split Design */}
                   <div
-                    className={`relative rounded-2xl overflow-hidden transition-all duration-300 h-full ${
+                    className={`relative rounded-2xl overflow-hidden transition-all duration-300 bg-zinc-900 flex flex-col ${
                       hoveredId === promo.id
-                        ? 'shadow-2xl shadow-yellow-400/30 scale-105'
+                        ? 'shadow-2xl shadow-yellow-400/30 scale-[1.02]'
                         : 'shadow-lg shadow-black/50'
                     }`}
+                    style={{ height: '550px' }}
                   >
-                    {/* Card Image with 4:5 Aspect Ratio */}
-                    <div className="relative aspect-[4/5]">
+                    {/* Image Section - 60% height */}
+                    <div className="relative h-[60%] overflow-hidden bg-zinc-800">
+                      {' '}
+                      {/* Hapus aspect-[4/5], tambah bg untuk space kosong */}
                       <Image
                         src={promo.image}
                         alt={promo.title}
                         fill
-                        className={`object-cover transition-transform duration-700 ${
+                        className={`object-contain transition-transform duration-700 ${
+                          /* Ganti object-cover jadi object-contain */
                           hoveredId === promo.id ? 'scale-110' : 'scale-100'
                         }`}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
-                      {/* Overlay gradient: sepertiga bawah lebih pekat */}
-                      <div
-                        className="absolute inset-0 pointer-events-none"
-                        style={{
-                          background:
-                            'linear-gradient(to top, rgba(0,0,0,0.92) 0%, rgba(0,0,0,0.85) 33%, rgba(0,0,0,0.5) 66%, transparent 100%)',
-                        }}
-                      />
+                      {/* Badge di pojok kanan atas */}
+                      {promo.badge && (
+                        <div className="absolute top-4 right-4 z-10">
+                          <span
+                            className={`bg-gradient-to-r ${getBadgeStyle(
+                              promo.badge
+                            )} text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg`}
+                          >
+                            {promo.badge}
+                          </span>
+                        </div>
+                      )}
                     </div>
 
-                    {/* Content */}
-                    <div className="absolute bottom-0 left-0 right-0 p-5 bg-gradient-to-t from-black/90 to-transparent">
-                      {/* Valid Until */}
-                      <div className="flex items-center gap-2 text-yellow-300 text-sm mb-2">
-                        <Clock className="w-4 h-4" />
-                        <span className="font-semibold">
-                          {promo.valid_until}
-                        </span>
-                      </div>
+                    {/* Content Section - 40% height dengan bg solid */}
+                    <div className="h-[40%] py-5 px-5 flex flex-col justify-between bg-zinc-900">
+                      <div>
+                        {/* Valid Until */}
+                        <div className="flex items-center gap-2 text-yellow-400 text-xs mb-2">
+                          <Clock className="w-4 h-4" />
+                          <span className="font-semibold">
+                            {promo.valid_until}
+                          </span>
+                        </div>
 
-                      <h3 className="text-sm sm:text-xl font-bold text-white mb-2 line-clamp-2">
-                        {promo.title}
-                      </h3>
-                      <p className="text-xs sm:text-base lg:text-lg text-gray-300 mb-4 line-clamp-2">
-                        {promo.description}
-                      </p>
+                        <h3 className="text-base sm:text-lg font-bold text-white mb-2 line-clamp-2">
+                          {promo.title}
+                        </h3>
+                        <p className="text-sm text-gray-400 mb-3 line-clamp-2">
+                          {promo.description}
+                        </p>
+                      </div>
 
                       {/* CTA Button */}
                       <Link
                         href={`/${currentLocale}/promotions/${promo.slug}`}
-                        className={`w-full font-semibold py-2 sm:py-3 px-3 sm:px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm sm:text-base bg-white/10 backdrop-blur-md hover:bg-yellow-400 text-white hover:text-black border border-white/20'
-                        }`}
+                        className="w-full font-semibold py-2.5 px-4 rounded-lg transition-all flex items-center justify-center gap-2 group text-sm bg-yellow-400 hover:bg-yellow-500 text-black"
                       >
                         <span>{ctaRegular}</span>
                         <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -195,14 +213,14 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
           <div className="hidden lg:block">
             <button
               onClick={scrollPrev}
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 w-12 h-12 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full shadow-lg transition-all hover:scale-110 flex items-center justify-center z-10"
+              className="absolute left-0 top-1/2 -translate-y-1/2 w-12 h-12 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full shadow-xl transition-all hover:scale-110 flex items-center justify-center z-20"
               aria-label="Previous"
             >
               <ChevronLeft className="w-6 h-6" />
             </button>
             <button
               onClick={scrollNext}
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 w-12 h-12 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full shadow-lg transition-all hover:scale-110 flex items-center justify-center z-10"
+              className="absolute right-0 top-1/2 -translate-y-1/2 w-12 h-12 bg-yellow-400 hover:bg-yellow-500 text-black rounded-full shadow-xl transition-all hover:scale-110 flex items-center justify-center z-20"
               aria-label="Next"
             >
               <ChevronRight className="w-6 h-6" />

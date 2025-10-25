@@ -29,7 +29,7 @@ const MainCta = ({ dictionary }) => {
                 {dictionary.title}
               </h2>
               <a
-                href="#"
+                href={dictionary.cta_link || '/contact'} // Default ke /contact jika cta_link tidak ada
                 className="mt-8 inline-block bg-yellow-400 text-black px-8 py-3 text-sm font-bold tracking-wide uppercase hover:bg-yellow-500 transition-colors rounded-md"
               >
                 {dictionary.cta_button}

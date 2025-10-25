@@ -1,0 +1,126 @@
+{
+  "hero": {
+    "title": "Contract Service",
+    "subtitle": "Solusi Perawatan & Operasional Penuh dari THEI",
+    "image": "/banner-contract-service.webp",
+    "breadcrumbs": [
+      { "name": "Home", "link": "/" },
+      { "name": "Contract Service" }
+    ]
+  },
+  "intro": {
+    "title": "CONTRACT SERVICE ALAT BERAT",
+    "subtitle": "Solusi Perawatan & Operasional Penuh dari THEI",
+    "description": "THEI (PT. TJM Heavy Equipment Indonesia) menghadirkan layanan Contract Service Alat Berat — program perawatan dan operasional menyeluruh bagi perusahaan yang mengandalkan unit alat berat dalam kegiatan proyek, pertambangan, konstruksi, logistik, maupun industri manufaktur.\n\nMelalui sistem kontrak 3 bulan, 6 bulan, dan 1 tahun, THEI memastikan setiap unit Anda beroperasi optimal, efisien, dan minim downtime, dengan dukungan teknisi profesional bersertifikat serta sistem monitoring terpadu.",
+    "whatIsTitle": "APA ITU CONTRACT SERVICE THEI?",
+    "whatIsDesc": "Contract Service adalah kerjasama perawatan total alat berat, di mana THEI bertanggung jawab atas perawatan rutin, perbaikan, overhaul, hingga penggantian komponen kritikal — dengan biaya dan jadwal tetap sesuai perjanjian. Klien cukup fokus pada produktivitas proyek, sementara THEI menangani seluruh aspek teknis unit."
+  },
+  "packages": {
+    "title": "PILIHAN PAKET CONTRACT SERVICE",
+    "threeMonth": {
+      "title": "PAKET 3 BULAN",
+      "features": [
+        "Service 250 HM",
+        "Penggantian oli & filter",
+        "Inspeksi engine & hydraulic",
+        "Pengecekan kaki-kaki dan safety system",
+        "Perbaikan ringan & penggantian minor part",
+        "Troubleshooting cepat di lokasi",
+        "Laporan mingguan & bulanan",
+        "Rekap jam kerja unit",
+        "Mekanik standby on call (respon maksimal 24 jam)",
+        "Penyediaan fast-moving parts (Genuine & OEM)",
+        "Basic training operator",
+        "Garansi layanan 1 bulan"
+      ]
+    },
+    "sixMonth": {
+      "title": "PAKET 6 BULAN",
+      "features": [
+        "Service 250 HM dan 500 HM",
+        "Penggantian oli & filter (2x)",
+        "Inspeksi engine, hydraulic, axle",
+        "Cleaning radiator & fuel system",
+        "Perbaikan sedang, rebuild minor komponen",
+        "On-site repair & standby team",
+        "Monitoring digital (HM record, fuel usage)",
+        "Laporan performa & downtime analisis",
+        "Mekanik standby di site (jam kerja proyek)",
+        "Mobile service + emergency team",
+        "Stok part onsite (consignment)",
+        "Operator awareness & safety refreshment",
+        "Garansi layanan 3 bulan"
+      ]
+    },
+    "oneYear": {
+      "title": "PAKET 1 TAHUN",
+      "features": [
+        "Service 250, 500, 750, 1000 & 2000 HM",
+        "Full preventive maintenance schedule",
+        "Major component check",
+        "Recalibration dan inspection OEM",
+        "Full corrective support & overhaul major component (engine, pump, transmisi)",
+        "Zero downtime guarantee",
+        "Full digital dashboard (realtime)",
+        "Analisa produktivitas, cost efficiency, dan histori unit",
+        "Mekanik & supervisor site dedicated",
+        "Support Layanan 24/7",
+        "Full sparepart management & inventory digital",
+        "Replacement plan hingga komponen utama",
+        "Full operator & mechanic training + sertifikasi internal THEI",
+        "Garansi layanan 6 bulan (extendable)"
+      ]
+    }
+  },
+  "advantages": {
+    "title": "KEUNGGULAN CONTRACT SERVICE THEI",
+    "items": [
+      {
+        "title": "Biaya Ekonomis",
+        "desc": "semua komponen dan jasa dalam satu kontrak"
+      },
+      {
+        "title": "Minim Downtime",
+        "desc": "preventive plan & mekanik siaga 24 jam"
+      },
+      {
+        "title": "Teknisi Bersertifikat",
+        "desc": "pengalaman multi brand: Caterpillar, Komatsu, Zoomlion, SANY, dll"
+      },
+      {
+        "title": "Digital Maintenance System",
+        "desc": "semua servis tercatat dan bisa dipantau"
+      },
+      {
+        "title": "Garansi Performa Unit",
+        "desc": "sesuai standar pabrikan OEM"
+      }
+    ]
+  },
+  "schemes": {
+    "title": "SKEMA KERJASAMA FLEXIBLE",
+    "items": [
+      {
+        "title": "Full Maintenance Contract (FMC)",
+        "desc": "THEI tangani total perawatan, sparepart, dan tenaga kerja"
+      },
+      {
+        "title": "Labour Contract",
+        "desc": "Klien menyediakan part, THEI menyediakan mekanik"
+      },
+      {
+        "title": "Preventive Service Agreement (PSA)",
+        "desc": "Servis berkala dengan biaya tetap"
+      },
+      {
+        "title": "On-Call Support Contract",
+        "desc": "Mekanik & tim siaga sesuai jam kerja unit"
+      }
+    ]
+  },
+  "cta": {
+    "title": "KONSULTASI & PENAWARAN",
+    "description": "Konsultasikan kebutuhan kontrak servis alat berat Anda dengan tim THEI.\nKami siap memberikan survey unit & proposal kontrak GRATIS sesuai kebutuhan proyek Anda.",
+    "button": "Dapatkan Penawaran Gratis"
+  }
+}

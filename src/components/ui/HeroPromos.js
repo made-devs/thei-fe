@@ -95,7 +95,7 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
                   />
 
                   {/* Badge */}
-                  <div className="absolute top-2 left-2 sm:top-3 sm:left-3 bg-yellow-400 text-black px-2 sm:px-3 py-1 rounded-full font-bold text-xs sm:text-sm">
+                  <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-yellow-400 text-black px-2 sm:px-3 py-1 rounded-full font-bold text-xs sm:text-sm">
                     {promo.badge || 'HOT DEAL'}
                   </div>
 
@@ -115,7 +115,7 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
                   {/* Top Section */}
                   <div>
                     {/* Title */}
-                    <h3 className="font-bold text-base sm:text-lg md:text-2xl text-black mb-1 sm:mb-2 line-clamp-2 group-hover:text-yellow-600 transition-colors">
+                    <h3 className="font-bold text-base sm:text-lg md:text-2xl text-black mb-1 sm:mb-2 group-hover:text-yellow-600 transition-colors">
                       {promo.title}
                     </h3>
 
@@ -128,7 +128,7 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
 
                     {/* Description */}
                     {promo.description && (
-                      <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4 line-clamp-2 md:line-clamp-3">
+                      <p className="text-xs sm:text-sm md:text-base text-gray-600 mb-3 sm:mb-4">
                         {promo.description}
                       </p>
                     )}

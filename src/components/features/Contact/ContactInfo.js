@@ -39,7 +39,11 @@ const ContactInfo = ({ dictionary }) => {
                 {card.line2}
               </p>
               <a
-                href="#"
+                href={card.link || '#'}
+                target={card.icon === 'Building2' ? '_blank' : '_self'} // Buka tab baru untuk Google Maps
+                rel={
+                  card.icon === 'Building2' ? 'noopener noreferrer' : undefined
+                }
                 className="mt-4 sm:mt-6 text-yellow-600 font-semibold text-xs sm:text-sm hover:underline"
               >
                 {card.cta}

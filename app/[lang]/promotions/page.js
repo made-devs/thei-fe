@@ -16,9 +16,9 @@ export default async function PromotionsPage({ params }) {
     <>
       <PageHero dictionary={promoDict.hero} />{' '}
       {/* Ganti PromoHero dengan PageHero */}
+      <PromoPackages dictionary={promoDict.promo_cards} lang={lang} />
       <CollaborationBenefits dictionary={promoDict.collaboration} />
       <PartnerTestimonial dictionary={promoDict.testimonial} />
-      <PromoPackages dictionary={promoDict.promo_cards} lang={lang} />
       <MainCta dictionary={promoDict.main_cta} />
     </>
   );

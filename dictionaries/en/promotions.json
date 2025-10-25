@@ -1,8 +1,8 @@
 {
   "promotions_page": {
     "hero": {
-      "subtitle": "Exclusive Offers",
-      "title": "Best Deals, Maximum Benefits.",
+      "subtitle": "Unlock Exclusive Heavy Equipment Benefits",
+      "title": "Discover Unbeatable Heavy Equipment Deals",
       "image": "/banner-promo.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
@@ -49,39 +49,103 @@
           ]
         },
         {
-          "id": "f2",
-          "slug": "heavy-equipment-service-promo-grand-opening",
-          "title": "Grand Opening Promo: Heavy Equipment Service (All Types) Up to IDR 70 Million",
-          "image": "/promo/promo2.webp",
+          "id": "r8",
+          "slug": "exclusive-grade-service-promo",
+          "title": "Exclusive Grade Promo (Min. 1 Machine Purchase)",
+          "image": "/promo/promo-exclusive.webp",
           "price": null,
           "originalPrice": null,
           "size": "large",
           "location": "All Locations",
-          "description": "THEI Grand Opening Promo! Get a massive service discount up to 70% and spare parts discount up to 30%. Enjoy free inspection points, free technician accommodation, and VIP after-service value adds.",
+          "description": "Exclusive Grade Promo: The most complete service and inspection package for a minimum purchase of 1 machine, valued at IDR 250,000,000. This package includes a 50% parts discount, 16 key services (like Tune-Up, Detailing, & 100x Car Wash), and 6 unlimited inspection services.",
           "details": [
             {
-              "title": "FREE Member Card for Company Car Maintenance",
-              "description": "Exclusive member card for company car maintenance services valued up to IDR 50,000,000."
+              "title": "50% Spare Parts Discount",
+              "description": "Enjoy massive savings on all spare parts purchases outside the bonus package."
             },
             {
-              "title": "Discount on Heavy Equipment Service up to 70%",
-              "description": "Major discount on all heavy equipment service packages, valued at IDR 10,000,000."
+              "title": "FREE Unlimited Engine Scanner",
+              "description": "Use as much as you need for accurate, on-demand engine diagnostics."
             },
             {
-              "title": "Spare Parts Discount up to 30%",
-              "description": "Price reduction on spare parts, valued at IDR 5,000,000."
+              "title": "Tune Up 65 Components + Carbon Cleaner",
+              "description": "Keeps your machine in top performance (Service 6x per year)."
             },
             {
-              "title": "FREE Technician Accommodation in 25 Major Cities",
-              "description": "Free accommodation costs for technicians visiting 25 major branches of THEI, valued at IDR 3,000,000."
+              "title": "FREE Super Complete Undercarriage Service",
+              "description": "Ensures vehicle comfort and safety (Service 6x per year)."
             },
             {
-              "title": "FREE Dozens of Inspection Points in Jabodetabek Area",
-              "description": "Free inspection service covering dozens of points in the Jabodetabek area, valued at IDR 1,000,000."
+              "title": "FREE Flinkoat Anti-Rust Undercarriage",
+              "description": "Provides corrosion protection (Service 3x per year)."
             },
             {
-              "title": "Value Add Service THEI (Digital Report, Priority Hotline, Work Guarantee)",
-              "description": "Premium after-service concept including Digital Reports, Priority Hotline access, and a Work Result Guarantee, valued at IDR 1,000,000."
+              "title": "FREE Quick Service by TJM Express",
+              "description": "Quick and efficient maintenance (Service 6x per year)."
+            },
+            {
+              "title": "FREE Glass Coating Treatment",
+              "description": "Improves visibility and protects glass (Service 3x per year)."
+            },
+            {
+              "title": "FREE Unlimited Spooring (1 Year)",
+              "description": "Ensures stability and safety, unlimited for 1 full year."
+            },
+            {
+              "title": "FREE Car Wash Snow",
+              "description": "Keeps your machine clean (Service 100x per year)."
+            },
+            {
+              "title": "FREE Super Cold Extra AC Service",
+              "description": "Maintains optimal cabin temperature (Service 6x per year)."
+            },
+            {
+              "title": "FREE Unlimited Fogging & Disinfectant",
+              "description": "Ensures a clean and hygienic cabin (Unlimited service)."
+            },
+            {
+              "title": "FREE Full Interior & Exterior Detailing",
+              "description": "Keeps your machine looking new (Service 6x per year)."
+            },
+            {
+              "title": "FREE Radiator Ultra Flush",
+              "description": "Ensures optimal engine cooling (Service 4x per year)."
+            },
+            {
+              "title": "FREE Unlimited Battery Maintenance & Fogging Terminal",
+              "description": "Unlimited service to ensure battery health and reliability."
+            },
+            {
+              "title": "FREE Body & Paint Touch Up",
+              "description": "Keeps your machine's body pristine (Service 2x per year)."
+            },
+            {
+              "title": "FREE Nano Coating and Full Detailing",
+              "description": "Provides superior protection and shine (Service 2x per year)."
+            },
+            {
+              "title": "Unlimited Undercarriage Inspection",
+              "description": "Unlimited checks using our Shaking Machine for undercarriage components."
+            },
+            {
+              "title": "Unlimited Engine Inspection",
+              "description": "Unlimited engine health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Transmission Inspection",
+              "description": "Unlimited transmission health checks throughout the year."
+            },
+            {
+              "title": "Unlimited Electrical & AC Inspection",
+              "description": "Unlimited checks for all electrical systems and air conditioning."
+            },
+            {
+              "title": "Unlimited Chassis & Body Inspection",
+              "description": "Complete and thorough inspection for structural integrity."
+            },
+            {
+              "title": "Unlimited Technical Consultation",
+              "description": "Unlimited access to expert technical support from the TJM Auto Care team."
             }
           ]
         },
