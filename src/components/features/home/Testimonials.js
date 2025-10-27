@@ -242,9 +242,7 @@ const Testimonials = ({ dictionary }) => {
                           <h4 className="font-bold text-lg mt-2">
                             {video.title}
                           </h4>
-                          <p className="text-sm text-gray-600">
-                            {video.name}, {video.company}
-                          </p>
+                          <p className="text-sm text-gray-600">{video.name}</p>
                         </div>
                       </div>
                     </div>

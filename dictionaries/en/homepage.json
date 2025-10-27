@@ -99,55 +99,55 @@
         "name": "Arga",
         "company": null,
         "image": "/home/testi1.webp",
-        "quote": "Selama saya menggunakan forklift dari THEI, operasional di site jadi lebih lancar. Alat beratnya jadi tahan lama dan irit bahan bakar. Service 24 jam-nya juga cepat banget, tiap ada masalah langsung di-handle. Bonus aftersales-nya juga keren, mobil operasional kantor saya dapat free service dari TJM Auto Care. Pokoknya puas banget sama THEI!"
+        "quote": "Since I started using forklifts from THEI, site operations have run more smoothly. The heavy equipment is durable and fuel-efficient. The 24-hour service is also very fast—whenever there's an issue, it's handled immediately. The aftersales bonuses are great too; my company's operational car gets free service from TJM Auto Care. I'm really satisfied with THEI!"
       },
       {
         "name": "Sambat Kumar",
         "company": null,
         "image": "/home/testi2.webp",
-        "quote": "Forklift kami kerja 10 jam nonstop tiap hari, biasanya cepat aus, tapi unit dari THEI kuat banget. Yang bikin nyaman, teknisi THEI rajin follow up dan selalu ada pengingat service, jadi gak pernah kelewat. Terima kasih THEI, ini pengalaman luar biasa. Baru pertama kali beli forklift, dapat bonus free coating, spooring, dan perawatan mobil kantor juga!"
+        "quote": "Our forklifts work 10 hours nonstop every day. Usually, they wear out quickly, but the units from THEI are really tough. What makes it comfortable is THEI's technicians are diligent in following up, and there are service reminders so we never miss a schedule. Thank you, THEI, this is an amazing experience. It's my first time buying a forklift and I got bonuses like free coating, wheel alignment, and maintenance for our office car too!"
       },
       {
         "name": "Rama",
         "company": null,
         "image": "/home/testi3.webp",
-        "quote": "Tadinya saya pikir bakal ribet klaim garansi waktu crane saya error di site, tapi tim THEI datang cuma dalam 4 jam dan servisnya langsung beres tanpa biaya tambahan. Yang paling gokil, saya juga dapat bonus membership TJM Auto Care untuk mobil perusahaan. Baru kali ini nemu aftersales yang seserius ini, salut banget buat THEI."
+        "quote": "I thought claiming a warranty would be complicated when my crane had an error on site, but THEI's team came in just 4 hours and the service was completed with no extra cost. The coolest part is I also got a TJM Auto Care membership bonus for my company car. This is the first time I've found aftersales this serious—really salute THEI."
       },
       {
         "name": "Richard",
         "company": null,
         "image": "/home/testi4.webp",
-        "quote": "Awalnya cuma coba satu unit, ternyata alatnya irit dan servicenya cepat. Begitu ada masalah, tim THEI langsung datang. Sekarang saya tambah unit lagi, kerja jadi tenang. Bonusnya juga banyak, bahkan mobil operasional ikut dapat service. Luar biasa, gak nyangka ada layanan seperti ini di Indonesia."
+        "quote": "At first, I just tried one unit, but it turned out to be efficient and the service was fast. Whenever there's a problem, THEI's team comes right away. Now I've added more units, and work feels secure. There are lots of bonuses too—even our operational cars get serviced. Amazing, I never expected a service like this in Indonesia."
       }
     ],
     "video_testimonials": {
       "title": "See Their Success Stories",
       "videos": [
         {
-          "name": "Kumar",
+          "name": "Sambat Kumar",
           "company": "Foreman, PT Cipta Karya",
-          "title": "Operational Efficiency Increased by 20%",
+          "title": "Durable Forklifts & Reliable Service Reminders",
           "thumbnail": "/testi/testi-kumar.webp",
           "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
         },
         {
           "name": "Arga",
           "company": "Site Manager, Tambang Jaya",
-          "title": "Downtime Reduced Significantly",
+          "title": "Smooth Operations & Great Bonuses with THEI",
           "thumbnail": "/testi/testi-arga.webp",
           "videoUrl": "https://www.youtube.com/embed/ff-RDpeQx2o?rel=0&modestbranding=1"
         },
         {
           "name": "Richard",
           "company": "Lead Engineer, Geo-Infra Solusi",
-          "title": "Unbeatable 24/7 Support",
+          "title": "Efficient Equipment & Unexpected Service Excellence",
           "thumbnail": "/testi/testi-richard.webp",
           "videoUrl": "https://www.youtube.com/embed/n5MDJw6Lbh4?rel=0&modestbranding=1"
         },
         {
           "name": "Rama",
           "company": "Logistics Head, Terra Logistik",
-          "title": "Fleet Management Made Easy",
+          "title": "Fast Warranty Service & Valuable Bonuses",
           "thumbnail": "/testi/testi-rama.webp",
           "videoUrl": "https://www.youtube.com/embed/hUcLgN2GtBM?rel=0&modestbranding=1"
         }

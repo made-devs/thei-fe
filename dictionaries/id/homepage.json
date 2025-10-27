@@ -91,51 +91,65 @@
     }
   },
   "testimonials": {
-    "title": "Apa Kata Klien Kami Tentang Kami",
-    "subtitle": "Testimoni Pelanggan",
-    "description": "Kisah sukses klien kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa yang mereka katakan tentang kemitraan dengan THEI.",
+    "title": "What Our Clients Say About Us",
+    "subtitle": "Customer Testimonials",
+    "description": "Our clients' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
     "list": [
       {
-        "name": "Budi Santoso",
-        "company": "Project Manager, PT Abadi Jaya",
+        "name": "Arga",
+        "company": null,
         "image": "/home/testi1.webp",
-        "quote": "Dukungan purna jual dari THEI luar biasa. Setiap kali ada masalah, tim mereka merespons dengan cepat dan efektif, meminimalkan waktu henti di lokasi kami."
+        "quote": "Selama saya menggunakan forklift dari THEI, operasional di site jadi lebih lancar. Alat beratnya jadi tahan lama dan irit bahan bakar. Service 24 jam-nya juga cepat banget, tiap ada masalah langsung di-handle. Bonus aftersales-nya juga keren, mobil operasional kantor saya dapat free service dari TJM Auto Care. Pokoknya puas banget sama THEI!"
       },
       {
-        "name": "Citra Lestari",
-        "company": "Operations Director, PT Karya Bersama",
+        "name": "Sambat Kumar",
+        "company": null,
         "image": "/home/testi2.webp",
-        "quote": "Program Solusi Bundling sangat membantu dalam mengelola anggaran pemeliharaan kami. Kualitas suku cadang asli tidak diragukan lagi."
+        "quote": "Forklift kami kerja 10 jam nonstop tiap hari, biasanya cepat aus, tapi unit dari THEI kuat banget. Yang bikin nyaman, teknisi THEI rajin follow up dan selalu ada pengingat service, jadi gak pernah kelewat. Terima kasih THEI, ini pengalaman luar biasa. Baru pertama kali beli forklift, dapat bonus free coating, spooring, dan perawatan mobil kantor juga!"
       },
       {
-        "name": "Agus Wijaya",
-        "company": "CEO, PT Konstruksi Megah",
+        "name": "Rama",
+        "company": null,
         "image": "/home/testi3.webp",
-        "quote": "Keandalan alat berat adalah kunci keberhasilan proyek kami. THEI tidak hanya menjual produk tetapi juga memberikan solusi yang komprehensif."
+        "quote": "Tadinya saya pikir bakal ribet klaim garansi waktu crane saya error di site, tapi tim THEI datang cuma dalam 4 jam dan servisnya langsung beres tanpa biaya tambahan. Yang paling gokil, saya juga dapat bonus membership TJM Auto Care untuk mobil perusahaan. Baru kali ini nemu aftersales yang seserius ini, salut banget buat THEI."
+      },
+      {
+        "name": "Richard",
+        "company": null,
+        "image": "/home/testi4.webp",
+        "quote": "Awalnya cuma coba satu unit, ternyata alatnya irit dan servicenya cepat. Begitu ada masalah, tim THEI langsung datang. Sekarang saya tambah unit lagi, kerja jadi tenang. Bonusnya juga banyak, bahkan mobil operasional ikut dapat service. Luar biasa, gak nyangka ada layanan seperti ini di Indonesia."
       }
     ],
     "video_testimonials": {
-      "title": "Lihat Kisah Sukses Mereka",
+      "title": "See Their Success Stories",
       "videos": [
         {
-          "name": "Rian Pratama",
-          "company": "Foreman, PT Cipta Karya",
-          "title": "Efisiensi Operasional Meningkat 20%"
+          "name": "Kumar",
+          "company": null,
+          "title": "Forklift Tangguh & Layanan Service Terpercaya",
+          "thumbnail": "/testi/testi-kumar.webp",
+          "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
         },
         {
-          "name": "Siti Hartono",
-          "company": "Site Manager, Tambang Jaya",
-          "title": "Waktu Henti Berkurang Secara Signifikan"
+          "name": "Arga",
+          "company": null,
+          "title": "Operasional Lancar & Bonus Melimpah Bersama THEI",
+          "thumbnail": "/testi/testi-arga.webp",
+          "videoUrl": "https://www.youtube.com/embed/ff-RDpeQx2o?rel=0&modestbranding=1"
         },
         {
-          "name": "Joko Susilo",
-          "company": "Lead Engineer, Geo-Infra Solusi",
-          "title": "Dukungan 24/7 yang Tak Terkalahkan"
+          "name": "Richard",
+          "company": null,
+          "title": "Efisiensi Alat & Layanan Tak Terduga dari THEI",
+          "thumbnail": "/testi/testi-richard.webp",
+          "videoUrl": "https://www.youtube.com/embed/n5MDJw6Lbh4?rel=0&modestbranding=1"
         },
         {
-          "name": "Dewi Anggraini",
-          "company": "Logistics Head, Terra Logistik",
-          "title": "Manajemen Armada Menjadi Mudah"
+          "name": "Rama",
+          "company": null,
+          "title": "Klaim Garansi Cepat & Bonus Keanggotaan TJM",
+          "thumbnail": "/testi/testi-rama.webp",
+          "videoUrl": "https://www.youtube.com/embed/hUcLgN2GtBM?rel=0&modestbranding=1"
         }
       ]
     }
