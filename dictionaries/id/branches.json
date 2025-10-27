@@ -80,9 +80,9 @@
       ]
     },
     "virtual_tour": {
-      "title": "Kunjungi Fasilitas Kami, Secara Virtual",
-      "video_thumbnail": "/commitment.webp",
-      "video_id": "dQw4w9WgXcQ"
+      "title": "Mengapa Memilih THEI sebagai Mitra Alat Berat Anda?",
+      "video_thumbnail": "/branches/branches5.webp",
+      "video_id": "o-jlZLLMEPk"
     },
     "facility_gallery": {
       "title": "Standar Profesional di Setiap Lokasi",
@@ -95,7 +95,7 @@
     },
     "main_cta": {
       "title": "Tim Ahli Kami Menunggu di Kota Anda",
-      "cta_button": "Temukan Cabang Terdekat"
+      "cta_button": "Hubungi Kami"
     }
   }
 }

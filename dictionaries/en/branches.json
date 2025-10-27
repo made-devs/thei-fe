@@ -88,9 +88,9 @@
       ]
     },
     "virtual_tour": {
-      "title": "Visit Our Facilities, Virtually",
+      "title": "Why Choose THEI as Your Heavy Equipment Partner?",
       "video_thumbnail": "/branches/branches5.webp",
-      "video_id": "dQw4w9WgXcQ"
+      "video_id": "o-jlZLLMEPk"
     },
     "facility_gallery": {
       "title": "Professional Standards at Every Location",
@@ -103,7 +103,7 @@
     },
     "main_cta": {
       "title": "Our Expert Team is Waiting in Your City",
-      "cta_button": "Find The Nearest Branch"
+      "cta_button": "Contact Us"
     }
   }
 }

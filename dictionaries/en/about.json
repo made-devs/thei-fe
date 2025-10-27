@@ -14,7 +14,7 @@
       "title": "A Message from the Director",
       "quote": "Welcome to THEI Heavy Equipment Indonesia, a part of TJM Group.\nWe are here as pioneers in transforming the Indonesian heavy equipment industry, carrying the spirit of being more complete, more efficient, and more professional.\n\nTHEI is not just a service provider, but a strategic partner that delivers efficiency, innovation, and added value, accompanied by bonuses and promotions worth up to hundreds of millions of rupiah.\nOur program is the only one in Indonesia, and even in the world, designed to provide a different experience for our business partners.\n\nThrough our complete ecosystem: Sales, Spare Parts, Service, Rental, and Trade-In.",
       "video": {
-        "id": "dQw4w9WgXcQ",
+        "id": "",
         "thumbnail": "/about-us/about2.webp",
         "alt": "THEI director's welcome video"
       }
@@ -84,10 +84,6 @@
         "The 'Green with THEI' program for tree planting initiatives."
       ],
       "images": [
-        {
-          "src": "/career.webp",
-          "alt": "Corporate social activity with employees"
-        },
         {
           "src": "/home/news1.webp",
           "alt": "Company building as part of the community"

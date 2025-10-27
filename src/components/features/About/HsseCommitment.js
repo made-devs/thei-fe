@@ -42,7 +42,7 @@ const HsseCommitment = ({ dictionary }) => {
             </div>
             <div className="relative aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src="/about-us/about1.webp"
+                src="/home/news3.webp"
                 alt="HSSE Commitment"
                 fill
                 className="object-cover"

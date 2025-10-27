@@ -1,19 +1,19 @@
 // Filepath: app/[lang]/page.js
 
-import { getDictionary } from '@/lib/dictionary';
-import Hero from '@/components/features/home/Hero';
-import HighlightPromo from '@/components/features/home/HighlightPromo';
-import MainCta from '@/components/features/home/MainCta';
-import News from '@/components/features/home/News';
-import NewsTicker from '@/components/features/home/NewsTicker';
-import Testimonials from '@/components/features/home/Testimonials';
-import WhyThei from '@/components/features/home/WhyThei';
+import { getDictionary } from "@/lib/dictionary";
+import Hero from "@/components/features/home/Hero";
+import HighlightPromo from "@/components/features/home/HighlightPromo";
+import MainCta from "@/components/features/home/MainCta";
+import News from "@/components/features/home/News";
+import NewsTicker from "@/components/features/home/NewsTicker";
+import Testimonials from "@/components/features/home/Testimonials";
+import WhyThei from "@/components/features/home/WhyThei";
 
 export default async function HomePage({ params }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang, 'homepage');
-  const newsListDict = await getDictionary(lang, 'news/list');
-  const promoDict = await getDictionary(lang, 'promotions');
+  const dictionary = await getDictionary(lang, "homepage");
+  const newsListDict = await getDictionary(lang, "news/list");
+  const promoDict = await getDictionary(lang, "promotions");
 
   const newsDataForHomePage = {
     ...dictionary.news,
@@ -22,24 +22,24 @@ export default async function HomePage({ params }) {
 
   return (
     <>
-      <div className="bg-black">
-        <div className="text-center pt-10 sm:pt-24 pb-6 sm:pb-8">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-yellow-400 tracking-wider">
-            {dictionary.header?.title || 'THEI - TJM Heavy Equipment Indonesia'}
-          </h1>
-          <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-300 tracking-wide px-4">
-            {dictionary.header?.subtitle ||
-              "Indonesia's One-Stop Solution for Heavy Equipment Rental, Service & Sales"}
-          </p>
-        </div>
-        <div className="h-px w-1/3 mx-auto bg-yellow-400 opacity-60 rounded" />
-
+      <div
+        className="bg-cover bg-center bg-no-repeat relative" // Tambahkan relative untuk overlay
+        style={{ backgroundImage: "url(/banner-highlight.webp)" }}
+      >
+        {/* Overlay hitam semi-transparan */}
+        <div className="absolute inset-0 bg-black/50"></div>{" "}
+        {/* Overlay untuk readability */}
         {/* PENTING: Pass props dengan benar */}
-        <HighlightPromo
-          dictionary={dictionary.highlight_promo} // ✅ Ambil dari homepage.highlight_promo
-          promos={promoDict.promotions_page?.promo_cards?.list || []} // ✅ Ambil dari promotions
-          currentLocale={lang}
-        />
+        <div className="relative z-10">
+          {" "}
+          {/* Wrap HighlightPromo dengan relative z-10 agar di atas overlay */}
+          <HighlightPromo
+            dictionary={dictionary.highlight_promo}
+            promos={promoDict.promotions_page?.promo_cards?.list || []}
+            currentLocale={lang}
+            header={dictionary.header}
+          />
+        </div>
       </div>
 
       <Hero dictionary={dictionary.hero} currentLocale={lang} />

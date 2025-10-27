@@ -1,8 +1,8 @@
-'use client';
-import React, { useState, useMemo, useCallback, useEffect } from 'react';
-import Image from 'next/image';
-import useEmblaCarousel from 'embla-carousel-react';
-import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
+"use client";
+import React, { useState, useMemo, useCallback, useEffect } from "react";
+import Image from "next/image";
+import useEmblaCarousel from "embla-carousel-react";
+import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from "lucide-react";
 
 const Testimonials = ({ dictionary }) => {
   // Memoize data
@@ -14,10 +14,10 @@ const Testimonials = ({ dictionary }) => {
 
   const [activeIndex, setActiveIndex] = useState(0);
 
-  // Embla Carousel for Videos
+  // Embla Carousel untuk Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: 'center', // Ubah dari 'start' ke 'center'
-    containScroll: 'trimSnaps',
+    align: "center", // Ubah dari 'start' ke 'center'
+    containScroll: "trimSnaps",
     loop: true,
   });
 
@@ -33,11 +33,11 @@ const Testimonials = ({ dictionary }) => {
     if (!videoEmblaApi) return;
     const onSelect = () =>
       setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
-    videoEmblaApi.on('select', onSelect);
+    videoEmblaApi.on("select", onSelect);
     // Set index saat embla siap
     onSelect();
     return () => {
-      videoEmblaApi.off('select', onSelect);
+      videoEmblaApi.off("select", onSelect);
     };
   }, [videoEmblaApi]);
 
@@ -66,6 +66,14 @@ const Testimonials = ({ dictionary }) => {
 
   const activeTestimonial = testimonials[activeIndex];
 
+  // Embla Carousel untuk thumbnail selector
+  const [thumbEmblaRef, thumbEmblaApi] = useEmblaCarousel({
+    align: "center", // Ubah dari "start" ke "center" agar carousel center-aligned
+    containScroll: "trimSnaps",
+    dragFree: true,
+    loop: false,
+  });
+
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
@@ -75,7 +83,7 @@ const Testimonials = ({ dictionary }) => {
             <Cog
               size={20}
               className="mr-2 animate-spin"
-              style={{ animationDuration: '5s' }}
+              style={{ animationDuration: "5s" }}
             />
             <span>{dictionary.subtitle}</span>
           </div>
@@ -96,11 +104,11 @@ const Testimonials = ({ dictionary }) => {
               className={`relative w-12 h-12 rounded-full border-2 transition-all duration-200
                 ${
                   index === activeIndex
-                    ? 'border-yellow-400 scale-110 shadow-lg'
-                    : 'border-gray-200 opacity-60'
+                    ? "border-yellow-400 scale-110 shadow-lg"
+                    : "border-gray-200 opacity-60"
                 }
               `}
-              style={{ padding: 0, background: 'none' }}
+              style={{ padding: 0, background: "none" }}
             >
               <Image
                 src={testimonial.image}
@@ -118,13 +126,15 @@ const Testimonials = ({ dictionary }) => {
         </div>
 
         {/* Written Testimonial Card */}
-        <div className="bg-yellow-400 text-black rounded-xl shadow-lg p-4 mb-8 relative overflow-hidden min-h-[180px] flex items-center md:p-12 md:mb-12 md:min-h-[350px]">
+        <div className="bg-yellow-400 text-black rounded-xl shadow-lg p-4 mb-8 relative overflow-hidden h-[780px] flex items-center md:p-12 md:mb-12 md:h-[450px]">
           <Quote
             className="absolute -bottom-8 -left-8 text-black/10"
             size={200}
           />
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
-            <div className="md:col-span-2">
+            <div className="md:col-span-2 overflow-y-auto max-h-full">
+              {" "}
+              {/* Tambahkan overflow-y: auto agar quote panjang bisa di-scroll */}
               <p className="text-2xl lg:text-3xl font-light italic leading-snug mb-6">
                 &quot;{activeTestimonial.quote}&quot;
               </p>
@@ -149,33 +159,44 @@ const Testimonials = ({ dictionary }) => {
           </div>
         </div>
 
-        {/* Thumbnail Selectors (desktop: tetap di bawah) */}
-        <div className="hidden md:grid grid-cols-3 gap-6">
-          {testimonials.map((testimonial, index) => (
-            <button
-              key={index}
-              onClick={() => setActiveIndex(index)}
-              className={`bg-gray-100 p-4 rounded-lg flex items-center gap-4 text-left transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${
-                index === activeIndex
-                  ? 'ring-2 ring-yellow-400 shadow-xl'
-                  : 'opacity-70 hover:opacity-100'
-              }`}
-            >
-              <div className="relative w-16 h-16 flex-shrink-0">
-                <Image
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  fill
-                  className="rounded-full object-cover"
-                  sizes="64px"
-                />
-              </div>
-              <div>
-                <p className="font-bold text-black">{testimonial.name}</p>
-                <p className="text-sm text-gray-600">{testimonial.company}</p>
-              </div>
-            </button>
-          ))}
+        {/* Thumbnail Selectors (desktop: carousel 1 baris) */}
+        <div className="hidden md:block">
+          <div ref={thumbEmblaRef} className="overflow-hidden">
+            <div className="flex gap-4">
+              {testimonials.map((testimonial, index) => (
+                <div
+                  key={index}
+                  className="flex-shrink-0"
+                  style={{ minWidth: "280px" }}
+                >
+                  <button
+                    onClick={() => setActiveIndex(index)}
+                    className={`w-full bg-gray-100 p-4 rounded-lg flex items-center gap-4 text-left transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${
+                      index === activeIndex
+                        ? "ring-2 ring-yellow-400 shadow-xl"
+                        : "opacity-70 hover:opacity-100"
+                    }`}
+                  >
+                    <div className="relative w-16 h-16 flex-shrink-0">
+                      <Image
+                        src={testimonial.image}
+                        alt={testimonial.name}
+                        fill
+                        className="rounded-full object-cover"
+                        sizes="64px"
+                      />
+                    </div>
+                    <div>
+                      <p className="font-bold text-black">{testimonial.name}</p>
+                      <p className="text-sm text-gray-600">
+                        {testimonial.company}
+                      </p>
+                    </div>
+                  </button>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
 
         {/* Video Testimonials Section */}
@@ -188,7 +209,7 @@ const Testimonials = ({ dictionary }) => {
             </div>
             <div className="relative">
               <div className="overflow-hidden px-4 sm:px-0" ref={videoEmblaRef}>
-                {' '}
+                {" "}
                 {/* Tambah px-4 untuk mobile */}
                 <div className="flex -ml-4">
                   {videoTestimonials.map((video, index) => (
@@ -243,8 +264,8 @@ const Testimonials = ({ dictionary }) => {
                     onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
                     className={`h-2 rounded-full transition-all duration-200 focus:outline-none ${
                       videoActiveIdx === idx
-                        ? 'w-6 bg-yellow-400'
-                        : 'w-2 bg-gray-300'
+                        ? "w-6 bg-yellow-400"
+                        : "w-2 bg-gray-300"
                     }`}
                   />
                 ))}
@@ -276,7 +297,7 @@ const Testimonials = ({ dictionary }) => {
               className="relative w-full max-w-sm mx-4"
               onClick={(e) => e.stopPropagation()}
             >
-              {' '}
+              {" "}
               {/* Kurangi max-w untuk portrait */}
               <button
                 className="absolute top-4 right-4 text-white text-2xl z-10"
@@ -285,7 +306,7 @@ const Testimonials = ({ dictionary }) => {
                 &times;
               </button>
               <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
-                {' '}
+                {" "}
                 {/* Ubah ke aspect-[9/16] untuk portrait */}
                 <iframe
                   src={selectedVideo.videoUrl}

@@ -1,8 +1,8 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import Image from 'next/image';
-import { PlayCircle, X } from 'lucide-react';
+import { useState } from "react";
+import Image from "next/image";
+import { PlayCircle, X } from "lucide-react";
 
 const VirtualTour = ({ dictionary }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -17,7 +17,7 @@ const VirtualTour = ({ dictionary }) => {
             {dictionary.title}
           </h2>
           <div
-            className="relative aspect-video rounded-lg overflow-hidden group cursor-pointer"
+            className="relative aspect-video max-w-2xl mx-auto rounded-lg overflow-hidden group cursor-pointer" // Tambah max-w-md mx-auto untuk kecilkan ukuran tanpa ubah aspect
             onClick={() => setShowVideo(true)}
           >
             <Image
@@ -28,7 +28,7 @@ const VirtualTour = ({ dictionary }) => {
             />
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <PlayCircle
-                size={80}
+                size={60} // Kecilkan icon play dari 80 ke 60 agar proporsional
                 className="text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"
               />
             </div>
@@ -38,14 +38,18 @@ const VirtualTour = ({ dictionary }) => {
 
       {showVideo && (
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-          <div className="relative w-full max-w-4xl">
+          <div className="relative w-full max-w-md">
+            {" "}
+            {/* Kecilkan dari max-w-4xl ke max-w-md agar proporsional untuk portrait */}
             <button
               onClick={() => setShowVideo(false)}
               className="absolute -top-10 right-0 text-white hover:text-yellow-400"
             >
               <X size={32} />
             </button>
-            <div className="aspect-video">
+            <div className="aspect-[9/16]">
+              {" "}
+              {/* Ubah dari aspect-video ke aspect-[9/16] untuk format portrait/shorts */}
               <iframe
                 width="100%"
                 height="100%"

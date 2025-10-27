@@ -96,22 +96,28 @@
     "description": "Our clients' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
     "list": [
       {
-        "name": "Budi Santoso",
-        "company": "Project Manager, PT Abadi Jaya",
+        "name": "Arga",
+        "company": null,
         "image": "/home/testi1.webp",
-        "quote": "The after-sales support from THEI is outstanding. Whenever there's an issue, their team responds quickly and effectively, minimizing downtime on our site."
+        "quote": "Selama saya menggunakan forklift dari THEI, operasional di site jadi lebih lancar. Alat beratnya jadi tahan lama dan irit bahan bakar. Service 24 jam-nya juga cepat banget, tiap ada masalah langsung di-handle. Bonus aftersales-nya juga keren, mobil operasional kantor saya dapat free service dari TJM Auto Care. Pokoknya puas banget sama THEI!"
       },
       {
-        "name": "Citra Lestari",
-        "company": "Operations Director, PT Karya Bersama",
+        "name": "Sambat Kumar",
+        "company": null,
         "image": "/home/testi2.webp",
-        "quote": "The Bundling Solution program has been a great help in managing our maintenance budget. The quality of genuine parts is unquestionable."
+        "quote": "Forklift kami kerja 10 jam nonstop tiap hari, biasanya cepat aus, tapi unit dari THEI kuat banget. Yang bikin nyaman, teknisi THEI rajin follow up dan selalu ada pengingat service, jadi gak pernah kelewat. Terima kasih THEI, ini pengalaman luar biasa. Baru pertama kali beli forklift, dapat bonus free coating, spooring, dan perawatan mobil kantor juga!"
       },
       {
-        "name": "Agus Wijaya",
-        "company": "CEO, PT Konstruksi Megah",
+        "name": "Rama",
+        "company": null,
         "image": "/home/testi3.webp",
-        "quote": "The reliability of the heavy equipment is key to the success of our projects. THEI not only sells products but also provides comprehensive solutions."
+        "quote": "Tadinya saya pikir bakal ribet klaim garansi waktu crane saya error di site, tapi tim THEI datang cuma dalam 4 jam dan servisnya langsung beres tanpa biaya tambahan. Yang paling gokil, saya juga dapat bonus membership TJM Auto Care untuk mobil perusahaan. Baru kali ini nemu aftersales yang seserius ini, salut banget buat THEI."
+      },
+      {
+        "name": "Richard",
+        "company": null,
+        "image": "/home/testi4.webp",
+        "quote": "Awalnya cuma coba satu unit, ternyata alatnya irit dan servicenya cepat. Begitu ada masalah, tim THEI langsung datang. Sekarang saya tambah unit lagi, kerja jadi tenang. Bonusnya juga banyak, bahkan mobil operasional ikut dapat service. Luar biasa, gak nyangka ada layanan seperti ini di Indonesia."
       }
     ],
     "video_testimonials": {

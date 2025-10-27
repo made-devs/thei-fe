@@ -64,8 +64,7 @@
     "customer_service": {
       "title": "Our Team is Ready to Serve You",
       "description": "We pride ourselves on our responsive and solution-oriented customer service. See how our team works to ensure your every need is met.",
-      "video_id": "dQw4w9WgXcQ",
-      "video_thumb": "/home/news6.webp"
+      "image": "/home/news2.webp"
     }
   }
 }

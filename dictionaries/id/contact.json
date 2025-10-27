@@ -59,9 +59,8 @@
     },
     "customer_service": {
       "title": "Tim Kami Siap Melayani Anda",
-      "description": "Kami bangga dengan layanan pelanggan kami yang responsif dan solutif. Lihat bagaimana tim kami bekerja untuk memastikan setiap kebutuhan Anda terpenuhi.",
-      "video_id": "dQw4w9WgXcQ",
-      "video_thumb": "/home/news6.webp"
+      "description": "Kami bangga dengan layanan pelanggan kami yang responsif dan berorientasi pada solusi. Lihat bagaimana tim kami bekerja untuk memastikan setiap kebutuhan Anda terpenuhi.",
+      "image": "/home/news2.webp"
     }
   }
 }

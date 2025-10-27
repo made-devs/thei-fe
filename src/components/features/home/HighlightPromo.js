@@ -1,7 +1,7 @@
-'use client';
-import { useState, useCallback, useEffect } from 'react';
-import useEmblaCarousel from 'embla-carousel-react';
-import Autoplay from 'embla-carousel-autoplay';
+"use client";
+import { useState, useCallback, useEffect } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import Autoplay from "embla-carousel-autoplay";
 import {
   ChevronLeft,
   ChevronRight,
@@ -9,37 +9,54 @@ import {
   Tag,
   ArrowRight,
   Sparkles,
-} from 'lucide-react';
-import Link from 'next/link';
-import Image from 'next/image';
+} from "lucide-react";
+import Link from "next/link";
+import Image from "next/image";
 
-export default function HighlightPromo({ dictionary, promos, currentLocale }) {
+export default function HighlightPromo({
+  dictionary,
+  promos,
+  currentLocale,
+  header,
+}) {
+  // Tambahkan array custom images (ganti dengan path gambar Anda)
+  const customImages = [
+    "/home/promo1.webp", // Untuk card pertama
+    "/home/promo2.webp", // Untuk card kedua
+    "/home/promo3.webp", // Untuk card ketiga
+    "/home/promo4.webp", // Untuk card keempat
+  ];
+
   const sectionBadge = dictionary?.section_badge || "This Month's Promo";
-  const title = dictionary?.title || 'Offers';
-  const titleHighlight = dictionary?.title_highlight || 'Limited';
+  const title = dictionary?.title || "Offers";
+  const titleHighlight = dictionary?.title_highlight || "Limited";
   const description =
     dictionary?.description ||
     "Don't miss the golden opportunity to increase your business productivity";
-  const viewAllText = dictionary?.view_all_text || 'View All Promos';
-  const viewAllLink = dictionary?.view_all_link || '/promotions';
-  const ctaRegular = dictionary?.cta_regular || 'View Details';
+  const viewAllText = dictionary?.view_all_text || "View All Promos";
+  const viewAllLink = dictionary?.view_all_link || "/promotions";
+  const ctaRegular = dictionary?.cta_regular || "View Details";
 
-  const enhancedPromos = (promos || []).slice(0, 4).map((promo) => ({
-    ...promo,
-    is_featured: promo.size === 'large',
-    urgent: promo.badge === 'HOT' || promo.badge === 'FLASH SALE',
-    valid_until: promo.valid_until || promo.expiry || 'Limited Time',
-  }));
+  const enhancedPromos = (promos || [])
+    .filter((promo) => ["r1", "r2", "r3", "r4"].includes(promo.id)) // Filter hanya ID r1 sampai r4
+    .slice(0, 4) // Pastikan maksimal 4, meski filter sudah batasi
+    .map((promo, index) => ({
+      ...promo,
+      is_featured: promo.size === "large",
+      urgent: promo.badge === "HOT" || promo.badge === "FLASH SALE",
+      valid_until: promo.valid_until || promo.expiry || "Limited Time",
+      customImage: customImages[index] || promo.image, // Fallback ke promo.image jika custom tidak ada
+    }));
 
   const [hoveredId, setHoveredId] = useState(null);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
-      align: 'start',
+      align: "start",
       skipSnaps: false,
       dragFree: false,
-      containScroll: 'trimSnaps',
+      containScroll: "trimSnaps",
     },
     [
       Autoplay({
@@ -79,35 +96,35 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
     onSelect();
     const snaps = emblaApi.scrollSnapList();
     setScrollSnaps(snaps.slice(0, enhancedPromos.length));
-    emblaApi.on('select', onSelect);
-    emblaApi.on('reInit', onSelect);
+    emblaApi.on("select", onSelect);
+    emblaApi.on("reInit", onSelect);
     return () => {
-      emblaApi.off('select', onSelect);
-      emblaApi.off('reInit', onSelect);
+      emblaApi.off("select", onSelect);
+      emblaApi.off("reInit", onSelect);
     };
   }, [emblaApi, onSelect, enhancedPromos.length]);
-
-  const getBadgeStyle = (badge) => {
-    const styles = {
-      'BEST DEAL': 'from-yellow-400 to-orange-500',
-      HOT: 'from-red-500 to-pink-600',
-      'FLASH SALE': 'from-red-500 to-pink-600',
-      DIAMOND: 'from-purple-500 to-indigo-600',
-      EXCLUSIVE: 'from-purple-500 to-indigo-600',
-      SPECIAL: 'from-purple-500 to-indigo-600',
-    };
-    return styles[badge] || 'from-yellow-400 to-orange-500';
-  };
 
   if (!enhancedPromos || enhancedPromos.length === 0) {
     return null;
   }
 
   return (
-    <section className="bg-black py-12 sm:py-16 lg:py-20 overflow-hidden">
+    <section className=" py-12 sm:py-16 lg:py-20 overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
-        {/* Header */}
-        <div className="text-center mb-8 sm:mb-12">
+        {/* Header dari page.js - dipindah ke sini */}
+        <div className="text-center pt-10 sm:pt-[5rem] pb-6 sm:pb-8">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-yellow-400 tracking-wider">
+            {header?.title || "THEI - TJM Heavy Equipment Indonesia"}
+          </h1>
+          <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-300 tracking-wide px-4">
+            {header?.subtitle ||
+              "Indonesia's One-Stop Solution for Heavy Equipment Rental, Service & Sales"}
+          </p>
+        </div>
+        <div className="h-px w-1/3 mx-auto bg-yellow-400 opacity-60 rounded" />
+
+        {/* Header Promo - yang sudah ada */}
+        <div className="text-center mt-10 mb-8 sm:mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-yellow-400/10 rounded-full mb-4">
             <Sparkles className="w-4 h-4 text-yellow-400 animate-pulse" />
             <span className="text-yellow-400 font-bold text-sm uppercase tracking-wider">
@@ -142,41 +159,26 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
                   <div
                     className={`relative rounded-2xl overflow-hidden transition-all duration-300 bg-zinc-900 flex flex-col ${
                       hoveredId === promo.id
-                        ? 'shadow-2xl shadow-yellow-400/30 scale-[1.02]'
-                        : 'shadow-lg shadow-black/50'
+                        ? "shadow-2xl shadow-yellow-400/30 scale-[1.02]"
+                        : "shadow-lg shadow-black/50"
                     }`}
-                    style={{ height: '550px' }}
+                    style={{ height: "650px" }} // Tingkatkan dari 550px ke 650px agar judul dan konten full tampil
                   >
-                    {/* Image Section - 60% height */}
-                    <div className="relative h-[60%] overflow-hidden bg-zinc-800">
-                      {' '}
-                      {/* Hapus aspect-[4/5], tambah bg untuk space kosong */}
+                    {/* Image Section - ubah ke aspect-square untuk 1:1 */}
+                    <div className="relative aspect-square overflow-hidden bg-zinc-800">
                       <Image
-                        src={promo.image}
+                        src={promo.customImage}
                         alt={promo.title}
                         fill
                         className={`object-contain transition-transform duration-700 ${
-                          /* Ganti object-cover jadi object-contain */
-                          hoveredId === promo.id ? 'scale-110' : 'scale-100'
+                          hoveredId === promo.id ? "scale-110" : "scale-100"
                         }`}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
-                      {/* Badge di pojok kanan atas */}
-                      {promo.badge && (
-                        <div className="absolute top-4 right-4 z-10">
-                          <span
-                            className={`bg-gradient-to-r ${getBadgeStyle(
-                              promo.badge
-                            )} text-white text-xs font-bold px-3 py-1.5 rounded-full shadow-lg`}
-                          >
-                            {promo.badge}
-                          </span>
-                        </div>
-                      )}
                     </div>
 
-                    {/* Content Section - 40% height dengan bg solid */}
-                    <div className="h-[40%] py-5 px-5 flex flex-col justify-between bg-zinc-900">
+                    {/* Content Section - hapus h-[40%] agar fleksibel mengisi sisa tinggi */}
+                    <div className="py-5 px-5 flex flex-col justify-between bg-zinc-900 flex-1">
                       <div>
                         {/* Valid Until */}
                         <div className="flex items-center gap-2 text-yellow-400 text-xs mb-2">
@@ -186,10 +188,11 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
                           </span>
                         </div>
 
-                        <h3 className="text-base sm:text-lg font-bold text-white mb-2 line-clamp-2">
+                        <h3 className="text-base sm:text-lg font-bold text-white mb-2">
                           {promo.title}
                         </h3>
-                        <p className="text-sm text-gray-400 mb-3 line-clamp-2">
+
+                        <p className="text-sm text-gray-400 mb-3 line-clamp-3">
                           {promo.description}
                         </p>
                       </div>
@@ -235,8 +238,8 @@ export default function HighlightPromo({ dictionary, promos, currentLocale }) {
                 onClick={() => scrollTo(index)}
                 className={`transition-all ${
                   index === selectedIndex
-                    ? 'w-6 h-2 bg-yellow-400'
-                    : 'w-2 h-2 bg-gray-600 hover:bg-gray-500'
+                    ? "w-6 h-2 bg-yellow-400"
+                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
                 } rounded-full`}
                 aria-label={`Go to slide ${index + 1}`}
               />

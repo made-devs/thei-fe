@@ -1,5 +1,5 @@
 // Filepath: app/components/Promotions/CollaborationBenefits.js
-import Image from 'next/image';
+import Image from "next/image";
 import {
   CreditCard,
   Wrench,
@@ -11,7 +11,7 @@ import {
   ShieldCheck,
   Briefcase,
   Truck,
-} from 'lucide-react';
+} from "lucide-react";
 
 const iconMap = {
   CreditCard: (
@@ -65,7 +65,7 @@ const CollaborationBenefits = ({ dictionary }) => {
           </div>
           <div className="relative w-full h-[40vh] sm:h-[50vh] rounded-lg overflow-hidden">
             <Image
-              src="/banner-slider2.webp" // Ganti dengan path gambar yang sesuai
+              src="/promo/giftpack.webp" // Ganti dengan path gambar yang sesuai
               alt="Customer receiving gift pack"
               fill
               className="object-cover"

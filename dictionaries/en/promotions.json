@@ -14,7 +14,7 @@
         {
           "id": "f1",
           "slug": "grand-opening-heavy-equipment-promo",
-          "title": "Grand Opening Promo: Heavy Equipment Purchase (All Types) Up to IDR 285 Million",
+          "title": "Promo Grand Opening: Heavy Equipment Purchase (All Types) Up to IDR 285 Million",
           "image": "/promo/promo1.webp",
           "price": null,
           "originalPrice": null,
@@ -51,7 +51,7 @@
         {
           "id": "r8",
           "slug": "exclusive-grade-service-promo",
-          "title": "Exclusive Grade Promo (Min. 1 Machine Purchase)",
+          "title": "Promo Exclusive Grade (Min. 1 Machine Purchase)",
           "image": "/promo/promo-exclusive.webp",
           "price": null,
           "originalPrice": null,
@@ -151,8 +151,82 @@
         },
         {
           "id": "r1",
+          "slug": "heavy-equipment-purchase-promo",
+          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 285,000,000,-",
+          "image": "/promo/promo1.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "All Locations",
+          "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service.",
+          "details": [
+            {
+              "title": "Free Priority Card for Company Maintenance Service",
+              "description": "Priority card for company machine maintenance services valued up to IDR 250,000,000."
+            },
+            {
+              "title": "Free Corporate Gift Pack Valued at IDR 3,000,000",
+              "description": "Exclusive corporate gift package containing: Exclusive THEI Jacket, 1L Stainless Tumbler, Custom Logo Safety Hat, Premium Notebook & Metal Pen, IDR 500,000 Service Voucher, Certificate + Handover Board, and Exclusive Flower Bouquet."
+            },
+            {
+              "title": "Discount on Heavy Equipment Purchase (All Types) Up to 30%",
+              "description": "Purchase discount for heavy equipment valued at IDR 20,000,000 (Points 3 and 4 on the image have the same value)."
+            },
+            {
+              "title": "Free Operator Training for Jabodetabek Area Until Proficient",
+              "description": "Comprehensive operator training in the Jabodetabek area until proficiency is achieved, valued at IDR 5,000,000."
+            },
+            {
+              "title": "FREE Delivery for Jabodetabek Area",
+              "description": "Free delivery of the unit across the entire Jabodetabek area, valued at IDR 2,000,000."
+            },
+            {
+              "title": "Bonus Value Add THEI Concept (VIP After-Sales)",
+              "description": "VIP after-sales service from THEI, including Periodic Inspection and Additional Work Warranty, valued at IDR 5,000,000."
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "slug": "heavy-equipment-service-promo",
+          "title": "Heavy Equipment Service Promo (All Types) Up to Rp 70,000,000,-",
+          "image": "/promo/promo2.webp",
+          "price": null,
+          "originalPrice": null,
+          "size": "small",
+          "location": "All Locations",
+          "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities.",
+          "details": [
+            {
+              "title": "FREE Member Card for Company Car Maintenance",
+              "description": "Exclusive member card for company car maintenance services valued up to IDR 50,000,000."
+            },
+            {
+              "title": "Discount on Heavy Equipment Service up to 70%",
+              "description": "Major discount on all heavy equipment service packages, valued at IDR 10,000,000."
+            },
+            {
+              "title": "Spare Parts Discount up to 30%",
+              "description": "Price reduction on spare parts, valued at IDR 5,000,000."
+            },
+            {
+              "title": "FREE Technician Accommodation in 25 Major Cities",
+              "description": "Free accommodation costs for technicians visiting 25 major branches of THEI, valued at IDR 3,000,000."
+            },
+            {
+              "title": "FREE Dozens of Inspection Points in Jabodetabek Area",
+              "description": "Free inspection service covering dozens of points in the Jabodetabek area, valued at IDR 1,000,000."
+            },
+            {
+              "title": "Value Add Service THEI (Digital Report, Priority Hotline, Work Guarantee)",
+              "description": "Premium after-service concept including Digital Reports, Priority Hotline access, and a Work Result Guarantee, valued at IDR 1,000,000."
+            }
+          ]
+        },
+        {
+          "id": "r3",
           "slug": "heavy-equipment-rental-promo",
-          "title": "Grand Opening Promo: Heavy Equipment Rental (All Types) Up to IDR 100 Million",
+          "title": "Promo Grand Opening: Heavy Equipment Rental (All Types) Up to IDR 100 Million",
           "image": "/promo/promo3.webp",
           "price": null,
           "originalPrice": null,
@@ -203,9 +277,9 @@
           ]
         },
         {
-          "id": "r2",
+          "id": "r4",
           "slug": "heavy-equipment-trade-in-promo",
-          "title": "Grand Opening Promo: Heavy Equipment Trade-In (All Types) Up to IDR 50 Million",
+          "title": "Promo Grand Opening: Heavy Equipment Trade-In (All Types) Up to IDR 50 Million",
           "image": "/promo/promo4.webp",
           "price": null,
           "originalPrice": null,
@@ -224,80 +298,6 @@
             {
               "title": "Value Add THEI Trade-In Services",
               "description": "Includes: **Fast Estimation**, **Digital Inspection Report**, and **FREE Old Unit Pick-up**."
-            }
-          ]
-        },
-        {
-          "id": "r3",
-          "slug": "heavy-equipment-service-promo",
-          "title": "Heavy Equipment Service Promo (All Types) Up to Rp 70,000,000,-",
-          "image": "/promo/promo2.webp",
-          "price": null,
-          "originalPrice": null,
-          "size": "small",
-          "location": "All Locations",
-          "description": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities.",
-          "details": [
-            {
-              "title": "FREE Member Card for Company Car Maintenance",
-              "description": "Exclusive member card for company car maintenance services valued up to IDR 50,000,000."
-            },
-            {
-              "title": "Discount on Heavy Equipment Service up to 70%",
-              "description": "Major discount on all heavy equipment service packages, valued at IDR 10,000,000."
-            },
-            {
-              "title": "Spare Parts Discount up to 30%",
-              "description": "Price reduction on spare parts, valued at IDR 5,000,000."
-            },
-            {
-              "title": "FREE Technician Accommodation in 25 Major Cities",
-              "description": "Free accommodation costs for technicians visiting 25 major branches of THEI, valued at IDR 3,000,000."
-            },
-            {
-              "title": "FREE Dozens of Inspection Points in Jabodetabek Area",
-              "description": "Free inspection service covering dozens of points in the Jabodetabek area, valued at IDR 1,000,000."
-            },
-            {
-              "title": "Value Add Service THEI (Digital Report, Priority Hotline, Work Guarantee)",
-              "description": "Premium after-service concept including Digital Reports, Priority Hotline access, and a Work Result Guarantee, valued at IDR 1,000,000."
-            }
-          ]
-        },
-        {
-          "id": "r4",
-          "slug": "heavy-equipment-purchase-promo",
-          "title": "Heavy Equipment Purchase Promo (All Types) Up to Rp 285,000,000,-",
-          "image": "/promo/promo1.webp",
-          "price": null,
-          "originalPrice": null,
-          "size": "small",
-          "location": "All Locations",
-          "description": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service.",
-          "details": [
-            {
-              "title": "Free Priority Card for Company Maintenance Service",
-              "description": "Priority card for company machine maintenance services valued up to IDR 250,000,000."
-            },
-            {
-              "title": "Free Corporate Gift Pack Valued at IDR 3,000,000",
-              "description": "Exclusive corporate gift package containing: Exclusive THEI Jacket, 1L Stainless Tumbler, Custom Logo Safety Hat, Premium Notebook & Metal Pen, IDR 500,000 Service Voucher, Certificate + Handover Board, and Exclusive Flower Bouquet."
-            },
-            {
-              "title": "Discount on Heavy Equipment Purchase (All Types) Up to 30%",
-              "description": "Purchase discount for heavy equipment valued at IDR 20,000,000 (Points 3 and 4 on the image have the same value)."
-            },
-            {
-              "title": "Free Operator Training for Jabodetabek Area Until Proficient",
-              "description": "Comprehensive operator training in the Jabodetabek area until proficiency is achieved, valued at IDR 5,000,000."
-            },
-            {
-              "title": "FREE Delivery for Jabodetabek Area",
-              "description": "Free delivery of the unit across the entire Jabodetabek area, valued at IDR 2,000,000."
-            },
-            {
-              "title": "Bonus Value Add THEI Concept (VIP After-Sales)",
-              "description": "VIP after-sales service from THEI, including Periodic Inspection and Additional Work Warranty, valued at IDR 5,000,000."
             }
           ]
         },

@@ -42,26 +42,6 @@ const TechAndPricing = ({ dictionary }) => {
               />
             </div>
           </div>
-
-          {/* Pricing Table Section */}
-          <div className="text-center w-full max-w-4xl">
-            <h3 className="text-lg sm:text-2xl lg:text-3xl font-bold mb-4">
-              {dictionary.pricing_table.title}
-            </h3>
-            <div className="relative aspect-square rounded-lg overflow-hidden border shadow-lg">
-              <Image
-                // Menggunakan placeholder untuk tabel harga
-                src={
-                  "https://placehold.co/1000x1000/1a1a1a/ffc700?text=Pricing+Table"
-                }
-                alt="Tabel Harga Rental"
-                fill
-                className="object-contain p-4 bg-gray-50"
-                sizes="(max-width: 1024px) 100vw, 896px"
-                unoptimized
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
