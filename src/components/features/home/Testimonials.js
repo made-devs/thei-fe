@@ -16,17 +16,22 @@ const Testimonials = ({ dictionary }) => {
 
   // Embla Carousel untuk Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: "center", // Ubah dari 'start' ke 'center'
+    align: "center",
     containScroll: "trimSnaps",
     loop: true,
   });
 
-  // Tambahkan state untuk index aktif video
   const [videoActiveIdx, setVideoActiveIdx] = useState(0);
-
-  // Tambahkan state untuk modal video
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState(null);
+
+  // Embla Carousel untuk thumbnail selector - PINDAH KE SINI (sebelum conditional return)
+  const [thumbEmblaRef, thumbEmblaApi] = useEmblaCarousel({
+    align: "center",
+    containScroll: "trimSnaps",
+    dragFree: true,
+    loop: false,
+  });
 
   // Sinkronkan dots dengan embla
   useEffect(() => {
@@ -34,7 +39,6 @@ const Testimonials = ({ dictionary }) => {
     const onSelect = () =>
       setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
     videoEmblaApi.on("select", onSelect);
-    // Set index saat embla siap
     onSelect();
     return () => {
       videoEmblaApi.off("select", onSelect);
@@ -60,19 +64,12 @@ const Testimonials = ({ dictionary }) => {
     setSelectedVideo(null);
   };
 
+  // Conditional check SETELAH semua hooks
   if (testimonials.length === 0) {
     return null;
   }
 
   const activeTestimonial = testimonials[activeIndex];
-
-  // Embla Carousel untuk thumbnail selector
-  const [thumbEmblaRef, thumbEmblaApi] = useEmblaCarousel({
-    align: "center", // Ubah dari "start" ke "center" agar carousel center-aligned
-    containScroll: "trimSnaps",
-    dragFree: true,
-    loop: false,
-  });
 
   return (
     <section className="bg-white py-20">

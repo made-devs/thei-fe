@@ -5,15 +5,12 @@ import useEmblaCarousel from "embla-carousel-react";
 import { useState, useEffect, useCallback, useMemo } from "react";
 
 const PartnerTestimonial = ({ dictionary }) => {
-  if (!dictionary) return null;
-
-  // Ambil video testimonials dari dictionary
+  // Pindahkan semua hooks ke awal, SEBELUM conditional return
   const videoTestimonials = useMemo(
-    () => dictionary.video_testimonials?.videos || [],
-    [dictionary.video_testimonials]
+    () => dictionary?.video_testimonials?.videos || [],
+    [dictionary?.video_testimonials]
   );
 
-  // Embla Carousel untuk videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
     align: "center",
     containScroll: "trimSnaps",
@@ -24,7 +21,6 @@ const PartnerTestimonial = ({ dictionary }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedVideo, setSelectedVideo] = useState(null);
 
-  // Sinkronkan dots dengan embla
   useEffect(() => {
     if (!videoEmblaApi) return;
     const onSelect = () =>
@@ -46,6 +42,11 @@ const PartnerTestimonial = ({ dictionary }) => {
     [videoEmblaApi]
   );
 
+  // Conditional check SETELAH semua hooks
+  if (!dictionary || videoTestimonials.length === 0) {
+    return null;
+  }
+
   const openModal = (video) => {
     setSelectedVideo(video);
     setIsModalOpen(true);
@@ -55,10 +56,6 @@ const PartnerTestimonial = ({ dictionary }) => {
     setIsModalOpen(false);
     setSelectedVideo(null);
   };
-
-  if (videoTestimonials.length === 0) {
-    return null;
-  }
 
   return (
     <section className="bg-white py-20">
@@ -71,7 +68,7 @@ const PartnerTestimonial = ({ dictionary }) => {
           </h2>
         </div>
 
-        {/* Video Carousel - sama seperti di Testimonials.js */}
+        {/* Video Carousel */}
         <div className="relative">
           <div className="overflow-hidden px-4 sm:px-0" ref={videoEmblaRef}>
             <div className="flex -ml-4">
@@ -116,15 +113,13 @@ const PartnerTestimonial = ({ dictionary }) => {
             </div>
           </div>
 
-          {/* Dots Indicator (Mobile) */}
+          {/* Dots */}
           <div className="flex justify-center mt-6 space-x-2 md:hidden">
             {videoTestimonials.map((_, idx) => (
               <button
                 key={idx}
-                type="button"
-                aria-label={`Go to video ${idx + 1}`}
                 onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
-                className={`h-2 rounded-full transition-all duration-200 focus:outline-none ${
+                className={`h-2 rounded-full transition-all ${
                   videoActiveIdx === idx
                     ? "w-6 bg-yellow-400"
                     : "w-2 bg-gray-300"
@@ -133,22 +128,22 @@ const PartnerTestimonial = ({ dictionary }) => {
             ))}
           </div>
 
-          {/* Navigation Arrows (Desktop) */}
+          {/* Arrows */}
           <button
-            className="absolute top-[calc(50%-2.75rem)] -left-4 transform -translate-y-1/2 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md z-10 hidden lg:flex"
+            className="absolute top-[calc(50%-2.75rem)] -left-4 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md hidden lg:flex"
             onClick={videoScrollPrev}
           >
             <ArrowLeft size={24} className="text-black" />
           </button>
           <button
-            className="absolute top-[calc(50%-2.75rem)] -right-4 transform -translate-y-1/2 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md z-10 hidden lg:flex"
+            className="absolute top-[calc(50%-2.75rem)] -right-4 bg-white/80 hover:bg-yellow-400 rounded-full p-2 shadow-md hidden lg:flex"
             onClick={videoScrollNext}
           >
             <ArrowRight size={24} className="text-black" />
           </button>
         </div>
 
-        {/* Modal untuk Video Embed */}
+        {/* Modal */}
         {isModalOpen && selectedVideo && (
           <div
             className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
