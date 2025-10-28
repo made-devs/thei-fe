@@ -26,7 +26,7 @@ export default async function TradeInPage({ params }) {
       <TradeInHighlight dictionary={pageDict.trade_in_highlight} />
       <BenefitsSection dictionary={pageDict.benefits_section} />
       <HowItWorks dictionary={pageDict.how_it_works_section} />
-      <ProofSection dictionary={pageDict.proof_section} />
+      {/* <ProofSection dictionary={pageDict.proof_section} /> */}
       <MainCta dictionary={pageDict.main_cta} />
     </>
   );
