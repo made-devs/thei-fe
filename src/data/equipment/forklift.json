@@ -809,6 +809,547 @@
         "overall_dimension": "3100x2350x1490",
         "weight": "6600"
       }
+    },
+
+    {
+      "model": "SCP20C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "450 mm",
+        "tread": "1040 mm / 980 mm",
+        "wheelbase": "1650 mm",
+        "fork_spread": "250-1100 mm",
+        "working_aisle_width_with_pallet": "3730 mm",
+        "service_weight": "3650 kg",
+        "operating_pressure_for_attachment": "173.4 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.48 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.46 m/s"
+      },
+      "gradeability": {
+        "laden": "0.16",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "16 kW",
+        "pump_motor": "21 kW",
+        "battery": "96 V/160.4 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "2400 mm x 2000 mm x 1230 mm",
+        "weight": "3650 kg"
+      }
+    },
+    {
+      "model": "SCP25C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "450 mm",
+        "tread": "1040 mm / 980 mm",
+        "wheelbase": "1650 mm",
+        "fork_spread": "250-1100 mm",
+        "working_aisle_width_with_pallet": "3730 mm",
+        "service_weight": "3950 kg",
+        "operating_pressure_for_attachment": "173.4 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.48 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.46 m/s"
+      },
+      "gradeability": {
+        "laden": "0.16",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "16 kW",
+        "pump_motor": "21 kW",
+        "battery": "96 V/160.4 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "2400 mm x 2000 mm x 1230 mm",
+        "weight": "3950 kg"
+      }
+    },
+    {
+      "model": "SCP20C6(200V)",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "450 mm",
+        "tread": "1040 mm / 980 mm",
+        "wheelbase": "1650 mm",
+        "fork_spread": "250-1100 mm",
+        "working_aisle_width_with_pallet": "3730 mm",
+        "service_weight": "3550 kg",
+        "operating_pressure_for_attachment": "173.4 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.5 m/s",
+        "lifting_unladen": "0.55 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.46 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "20 kW",
+        "pump_motor": "25 kW",
+        "battery": "192 V/106.3 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "2410 mm x 2160 mm x 1230 mm",
+        "weight": "3550 kg"
+      }
+    },
+    {
+      "model": "SCP25C6(200V)",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2090 mm",
+        "front_overhang": "450 mm",
+        "tread": "1040 mm / 980 mm",
+        "wheelbase": "1650 mm",
+        "fork_spread": "250-1100 mm",
+        "working_aisle_width_with_pallet": "3730 mm",
+        "service_weight": "3850 kg",
+        "operating_pressure_for_attachment": "173.4 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.5 m/s",
+        "lifting_unladen": "0.55 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.46 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "20 kW",
+        "pump_motor": "25 kW",
+        "battery": "192 V/106.3 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "18 x 7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "2410 mm x 2160 mm x 1230 mm",
+        "weight": "3850 kg"
+      }
+    },
+    {
+      "model": "SCP30C6(200V)",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2350 mm",
+        "front_overhang": "500 mm",
+        "tread": "1020 mm / 980 mm",
+        "wheelbase": "1750 mm",
+        "fork_spread": "247-1100 mm",
+        "working_aisle_width_with_pallet": "4050 mm",
+        "service_weight": "4620 kg",
+        "operating_pressure_for_attachment": "198.8 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.385 m/s",
+        "lifting_unladen": "0.45 m/s",
+        "lowering_laden": "0.42 m/s",
+        "lowering_unladen": "0.405 m/s"
+      },
+      "gradeability": {
+        "laden": "0.16",
+        "unladen": "0.18"
+      },
+      "power": {
+        "driven_motor": "20 kW",
+        "pump_motor": "25 kW",
+        "battery": "192 V/106.3 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "21 x 8-9",
+        "front_wheel": "28 x 9-15",
+        "overall_dimension": "2695 mm x 2180 mm x 1250 mm",
+        "weight": "4620 kg"
+      }
+    },
+    {
+      "model": "SCP30C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2350 mm",
+        "front_overhang": "500 mm",
+        "tread": "1020 mm / 1000 mm",
+        "wheelbase": "1750 mm",
+        "fork_spread": "247-1100 mm",
+        "working_aisle_width_with_pallet": "4050 mm",
+        "service_weight": "4620 kg",
+        "operating_pressure_for_attachment": "198.8 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "22 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.44 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.42 m/s",
+        "lowering_unladen": "0.405 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.22"
+      },
+      "power": {
+        "driven_motor": "32 kW",
+        "pump_motor": "25 kW",
+        "battery": "288 V/105.9 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "21 x 8-9",
+        "front_wheel": "28 x 9-15",
+        "overall_dimension": "2695 mm x 2180 mm x 1250 mm",
+        "weight": "4620 kg"
+      }
+    },
+    {
+      "model": "SCP35C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2350 mm",
+        "front_overhang": "500 mm",
+        "tread": "1020 mm / 1000 mm",
+        "wheelbase": "1750 mm",
+        "fork_spread": "247-1100 mm",
+        "working_aisle_width_with_pallet": "4050 mm",
+        "service_weight": "4860 kg",
+        "operating_pressure_for_attachment": "198.8 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "22 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.44 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.42 m/s",
+        "lowering_unladen": "0.405 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "32 kW",
+        "pump_motor": "25 kW",
+        "battery": "288 V/105.9 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "21 x 8-9",
+        "front_wheel": "28 x 9-15",
+        "overall_dimension": "2695 mm x 2180 mm x 1250 mm",
+        "weight": "4860 kg"
+      }
+    },
+    {
+      "model": "SCP40C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2450 mm",
+        "front_overhang": "515 mm",
+        "tread": "1050 mm / 1050 mm",
+        "wheelbase": "1850 mm",
+        "fork_spread": "247-1100 mm",
+        "working_aisle_width_with_pallet": "4200 mm",
+        "service_weight": "5855 kg",
+        "operating_pressure_for_attachment": "198.8 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.38 m/s",
+        "lifting_unladen": "0.41 m/s",
+        "lowering_laden": "0.43 m/s",
+        "lowering_unladen": "0.34 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "32 kW",
+        "pump_motor": "32 kW",
+        "battery": "384 V/106.3 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "21 x 8-9",
+        "front_wheel": "250-15",
+        "overall_dimension": "2860 mm x 2180 mm x 1310 mm",
+        "weight": "5855 kg"
+      }
+    },
+    {
+      "model": "SCP50C6",
+      "brand": "Sany",
+      "image": "/equipment/forklift/scp20c6.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "5000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "110 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2756 mm",
+        "front_overhang": "560 mm",
+        "tread": "1200 mm / 1120 mm",
+        "wheelbase": "2000 mm",
+        "fork_spread": "350-1360 mm",
+        "working_aisle_width_with_pallet": "4586 mm",
+        "service_weight": "7300 kg",
+        "operating_pressure_for_attachment": "183.5 kg/cm²"
+      },
+      "speed": {
+        "travel_laden": "22 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.45 m/s",
+        "lifting_unladen": "0.47 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.48 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.22"
+      },
+      "power": {
+        "driven_motor": "46 kW",
+        "pump_motor": "46 kW",
+        "battery": "336 V/150 Ah",
+        "controller": "PMSM"
+      },
+      "size": {
+        "rear_wheel": "23 x 9-10",
+        "front_wheel": "28 x 12.5-15",
+        "overall_dimension": "3150 mm x 2190 mm x 1500 mm",
+        "weight": "7300 kg"
+      }
+    },
+    {
+      "model": "CPD15TVL",
+      "brand": "EP",
+      "image": "/equipment/forklift/cpd15tvl.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "100 mm",
+        "tilting_angle": "6°/7°",
+        "turning_radius": "1450 mm",
+        "front_overhang": "420 mm",
+        "tread": "943 mm / 175 mm",
+        "wheelbase": "1230 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "3175 mm",
+        "service_weight": "2950 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.33 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.55 m/s",
+        "lowering_unladen": "0.55 m/s"
+      },
+      "gradeability": {
+        "laden": "0.10",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "10 kW",
+        "pump_motor": "11 kW",
+        "battery": "80 V/150 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "15X4.5-8",
+        "front_wheel": "18X7-8",
+        "overall_dimension": "2733 mm x 2075 mm x 1070 mm",
+        "weight": "2950 kg"
+      }
+    },
+    {
+      "model": "CPD18TVL",
+      "brand": "EP",
+      "image": "/equipment/forklift/cpd15tvl.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1800 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "100 mm",
+        "tilting_angle": "6°/6°",
+        "turning_radius": "1550 mm",
+        "front_overhang": "420 mm",
+        "tread": "943 mm / 210 mm",
+        "wheelbase": "1330 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "3275 mm",
+        "service_weight": "3269 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.33 m/s",
+        "lifting_unladen": "0.45 m/s",
+        "lowering_laden": "0.4 m/s",
+        "lowering_unladen": "0.44 m/s"
+      },
+      "gradeability": {
+        "laden": "0.10",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "10 kW",
+        "pump_motor": "11 kW",
+        "battery": "80 V/205 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "140/55-9",
+        "front_wheel": "18X7-8",
+        "overall_dimension": "2833 mm x 2075 mm x 1100 mm",
+        "weight": "3269 kg"
+      }
+    },
+    {
+      "model": "CPD20TVL",
+      "brand": "EP",
+      "image": "/equipment/forklift/cpd15tvl.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "100 mm",
+        "tilting_angle": "6°/6°",
+        "turning_radius": "1585 mm",
+        "front_overhang": "420 mm",
+        "tread": "969 mm / 210 mm",
+        "wheelbase": "1330 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "3315 mm",
+        "service_weight": "3429 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "13 km/h",
+        "travel_unladen": "14 km/h",
+        "lifting_laden": "0.3 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.38 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "0.10",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "10 kW",
+        "pump_motor": "11 kW",
+        "battery": "80 V/205 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "140/55-9",
+        "front_wheel": "200/50-10",
+        "overall_dimension": "3020 mm x 2075 mm x 1170 mm",
+        "weight": "3429 kg"
+      }
     }
   ]
 }
