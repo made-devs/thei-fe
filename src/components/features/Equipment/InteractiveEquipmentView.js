@@ -6,6 +6,7 @@ import { ChevronRight, ChevronDown, X } from 'lucide-react';
 import ProductCard from './ProductCard';
 import ComparisonBar from './ComparisonBar';
 import ComparisonModal from './ComparisonModal';
+import Image from 'next/image';
 
 // Helper untuk mengubah nama kategori menjadi format URL-friendly
 const slugify = (text) =>
@@ -17,6 +18,13 @@ const slugify = (text) =>
     .replace(/\-\-+/g, '-') // Ganti -- jadi -
     .replace(/^-+/, '') // Hapus - di awal
     .replace(/-+$/, ''); // Hapus - di akhir
+
+const brandLogos = {
+  Zoomlion: '/zoomlion.webp',
+  Sany: '/sany.webp',
+  Komatsu: '/komatsu.webp',
+  // Tambahkan brand lain sesuai kebutuhan
+};
 
 export default function InteractiveEquipmentView({
   categories,
@@ -253,17 +261,21 @@ export default function InteractiveEquipmentView({
                       All
                     </button>
                     {uniqueBrands.map((brand) => (
-                      <button
+                      <Image
                         key={brand}
+                        src={brandLogos[brand] || '/default-brand.webp'}
+                        alt={brand}
+                        width={80} // Ukuran yang diinginkan
+                        height={60} // Ukuran yang diinginkan
+                        className="cursor-pointer transition-transform hover:scale-105" // Hapus mx-2 dan object-contain
+                        style={{
+                          width: '80px',
+                          height: '60px',
+                          objectFit: 'contain',
+                        }} // Tambahkan inline style
                         onClick={() => handleBrandClick(brand)}
-                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                          selectedBrand === brand
-                            ? 'bg-yellow-400 text-black'
-                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                        }`}
-                      >
-                        {brand}
-                      </button>
+                        priority={false}
+                      />
                     ))}
                   </div>
                 </div>
@@ -404,17 +416,21 @@ export default function InteractiveEquipmentView({
                     All Brands
                   </button>
                   {uniqueBrands.map((brand) => (
-                    <button
+                    <Image
                       key={brand}
+                      src={brandLogos[brand] || '/default-brand.webp'}
+                      alt={brand}
+                      width={80} // Ukuran yang diinginkan
+                      height={60} // Ukuran yang diinginkan
+                      className="cursor-pointer transition-transform hover:scale-105" // Hapus mx-2 dan object-contain
+                      style={{
+                        width: '80px',
+                        height: '60px',
+                        objectFit: 'contain',
+                      }} // Tambahkan inline style
                       onClick={() => handleBrandClick(brand)}
-                      className={`px-3 py-1 rounded-full text-sm font-medium transition-colors ${
-                        selectedBrand === brand
-                          ? 'bg-yellow-400 text-black'
-                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-                      }`}
-                    >
-                      {brand}
-                    </button>
+                      priority={false}
+                    />
                   ))}
                 </div>
               </div>

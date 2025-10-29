@@ -94,11 +94,6 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
                     onClick={() => setSelectedPromoImage(promo.image)}
                   />
 
-                  {/* Badge */}
-                  <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-yellow-400 text-black px-2 sm:px-3 py-1 rounded-full font-bold text-xs sm:text-sm">
-                    {promo.badge || 'HOT DEAL'}
-                  </div>
-
                   {/* Discount Tag jika ada */}
                   {promo.discount && (
                     <div className="absolute top-2 right-2 sm:top-3 sm:right-3 bg-red-500 text-white px-2 py-1 rounded-full font-bold text-xs">
@@ -114,6 +109,13 @@ const HeroPromos = ({ promos, dictionary, lang, title, description }) => {
                 <div className="flex-1 flex flex-col p-3 sm:p-4 md:p-8 w-full md:w-[60%] justify-between">
                   {/* Top Section */}
                   <div>
+                    {/* Badge di atas title */}
+                    <div className="mb-2">
+                      <span className="inline-block bg-red-500 text-white px-2 sm:px-3 py-1 rounded-full font-bold text-xs sm:text-sm">
+                        {promo.badge || 'HOT DEAL'}
+                      </span>
+                    </div>
+
                     {/* Title */}
                     <h3 className="font-bold text-base sm:text-lg md:text-2xl text-black mb-1 sm:mb-2 group-hover:text-yellow-600 transition-colors">
                       {promo.title}
