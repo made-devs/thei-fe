@@ -1350,6 +1350,186 @@
         "overall_dimension": "3020 mm x 2075 mm x 1170 mm",
         "weight": "3429 kg"
       }
+    },
+    {
+      "model": "EFL253",
+      "brand": "EP",
+      "image": "/equipment/forklift/efl253.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2305 mm",
+        "front_overhang": "495 mm",
+        "tread": "975 mm / 955 mm",
+        "wheelbase": "1740 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "4000 mm",
+        "service_weight": "3780 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "11 km/h",
+        "travel_unladen": "12 km/h",
+        "lifting_laden": "0.29 m/s",
+        "lifting_unladen": "0.36 m/s",
+        "lowering_laden": "0.43 m/s",
+        "lowering_unladen": "0.44 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.15"
+      },
+      "power": {
+        "driven_motor": "10 kW",
+        "pump_motor": "16 kW",
+        "battery": "80V/205AH",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18X7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "3600 mm x 2090 mm x 1154 mm",
+        "weight": "3780 kg"
+      }
+    },
+    {
+      "model": "EFL253S",
+      "brand": "EP",
+      "image": "/equipment/forklift/efl253.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2305 mm",
+        "front_overhang": "495 mm",
+        "tread": "975 mm / 955 mm",
+        "wheelbase": "1740 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "4000 mm",
+        "service_weight": "3955 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "17 km/h",
+        "lifting_laden": "0.4 m/s",
+        "lifting_unladen": "0.5 m/s",
+        "lowering_laden": "0.43 m/s",
+        "lowering_unladen": "0.44 m/s"
+      },
+      "gradeability": {
+        "laden": "0.20",
+        "unladen": "0.25"
+      },
+      "power": {
+        "driven_motor": "17 kW",
+        "pump_motor": "26 kW",
+        "battery": "80V/230AH",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18X7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "3600 mm x 2090 mm x 1154 mm",
+        "weight": "3955 kg"
+      }
+    },
+    {
+      "model": "EFL253P",
+      "brand": "EP",
+      "image": "/equipment/forklift/efl253.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "120 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2305 mm",
+        "front_overhang": "495 mm",
+        "tread": "975 mm / 955 mm",
+        "wheelbase": "1740 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "4000 mm",
+        "service_weight": "4025 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "19 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.46 m/s",
+        "lifting_unladen": "0.54 m/s",
+        "lowering_laden": "0.43 m/s",
+        "lowering_unladen": "0.44 m/s"
+      },
+      "gradeability": {
+        "laden": "0.22",
+        "unladen": "0.28"
+      },
+      "power": {
+        "driven_motor": "17 kW",
+        "pump_motor": "26 kW",
+        "battery": "80V/280AH",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "18X7-8",
+        "front_wheel": "7.00-12",
+        "overall_dimension": "3600 mm x 2090 mm x 1154 mm",
+        "weight": "4025 kg"
+      }
+    },
+    {
+      "model": "CPD50L1",
+      "brand": "EP",
+      "image": "/equipment/forklift/cpd50l1.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "5000 kg",
+        "load_centre": "500 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "150 mm",
+        "tilting_angle": "6°/10°",
+        "turning_radius": "2675 mm",
+        "front_overhang": "548 mm",
+        "tread": "1262 mm / 1085 mm",
+        "wheelbase": "2000 mm",
+        "fork_spread": null,
+        "working_aisle_width_with_pallet": "4440 mm",
+        "service_weight": "7000 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "18 km/h",
+        "lifting_laden": "0.3 m/s",
+        "lifting_unladen": "0.46 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.51 m/s"
+      },
+      "gradeability": {
+        "laden": "0.15",
+        "unladen": "0.20"
+      },
+      "power": {
+        "driven_motor": "18 kW",
+        "pump_motor": "25.4 kW",
+        "battery": "80V/560 Ah",
+        "controller": "AC"
+      },
+      "size": {
+        "rear_wheel": "23X10-12",
+        "front_wheel": "28x12.5-15",
+        "overall_dimension": "3970 mm x 2230 mm x 1550 mm",
+        "weight": "7000 kg"
+      }
     }
   ]
 }
