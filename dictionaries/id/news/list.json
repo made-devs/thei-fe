@@ -102,6 +102,42 @@
       "date": "2025-04-10",
       "image": "/home/news4.webp",
       "excerpt": "Dedikasi kami dalam memberikan layanan terbaik kembali diakui melalui penghargaan bergengsi sebagai distributor nasional terbaik tahun ini."
+    },
+    {
+      "id": 5,
+      "slug": "promotions/heavy-equipment-purchase-promo",
+      "category": "Promosi",
+      "title": "Promosi Grand Opening: Pembelian Alat Berat (Semua Jenis) Hingga Rp 285.000.000,-",
+      "date": "2025-10-20",
+      "image": "/home/promo1.webp",
+      "excerpt": "Promosi Grand Opening THEI! Hemat puluhan juta dengan diskon hingga 30% pada alat berat. Juga dapatkan bonus lengkap: pelatihan operator gratis, pengiriman gratis di Jabodetabek, paket hadiah eksklusif, dan layanan purna jual VIP."
+    },
+    {
+      "id": 6,
+      "slug": "promotions/heavy-equipment-service-promo",
+      "category": "Promosi",
+      "title": "Promosi Grand Opening: Layanan Alat Berat (Semua Jenis) Hingga Rp 70.000.000,-",
+      "date": "2025-10-20",
+      "image": "/home/promo2.webp",
+      "excerpt": "Nikmati diskon layanan besar hingga 70% dan potongan harga suku cadang hingga 30%. Juga dapatkan bonus gratis untuk puluhan titik inspeksi (wilayah Jabodetabek) dan akomodasi teknisi gratis di 25 kota besar."
+    },
+    {
+      "id": 7,
+      "slug": "promotions/heavy-equipment-rental-promo",
+      "category": "Promosi",
+      "title": "Promosi Grand Opening: Sewa Alat Berat (Semua Jenis) Hingga IDR 100 Juta",
+      "date": "2025-10-20",
+      "image": "/home/promo3.webp",
+      "excerpt": "Promosi Sewa Grand Opening THEI! Dapatkan diskon hingga IDR 50 juta dan berbagai manfaat nilai tambah, termasuk layanan 24/7, jaminan penggantian unit, dan dokumentasi keselamatan & hukum yang komprehensif."
+    },
+    {
+      "id": 8,
+      "slug": "promotions/heavy-equipment-trade-in-promo",
+      "category": "Promosi",
+      "title": "Promosi Grand Opening: Tukar Tambah Alat Berat (Semua Jenis) Hingga IDR 50 Juta",
+      "date": "2025-10-20",
+      "image": "/home/promo4.webp",
+      "excerpt": "Promosi Tukar Tambah Grand Opening THEI! Dapatkan diskon tukar tambah hingga IDR 50 juta untuk unit baru Anda. Nikmati nilai tambah seperti estimasi cepat, inspeksi gratis, dan pengambilan unit lama gratis."
     }
   ]
 }

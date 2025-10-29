@@ -67,9 +67,11 @@ const NewsGrid = ({ dictionary, lang }) => {
         {/* News Grid for Desktop/Tablet */}
         <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {filteredArticles.map((article) => (
-            <Link key={article.id} href={`/${lang}/news/${article.slug}`}>
+            <Link key={article.id} href={`/${lang}/${article.slug}`}>
               <div className="group bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 h-full flex flex-col">
-                <div className="relative aspect-video">
+                <div className="relative aspect-square">
+                  {' '}
+                  {/* Ubah dari aspect-video ke aspect-square untuk 1:1 */}
                   <Image
                     src={article.image}
                     alt={article.title}
@@ -90,7 +92,7 @@ const NewsGrid = ({ dictionary, lang }) => {
                   <h3 className="text-lg sm:text-xl font-bold text-black mb-2 flex-grow">
                     {article.title}
                   </h3>
-                  <p className="text-sm sm:text-base text-gray-600 mb-4">
+                  <p className="text-sm sm:text-base text-gray-600 mb-4 line-clamp-3">
                     {article.excerpt}
                   </p>
                   <span className="font-semibold text-yellow-500 group-hover:underline">
@@ -105,7 +107,7 @@ const NewsGrid = ({ dictionary, lang }) => {
         {/* List View for Mobile */}
         <div className="block md:hidden space-y-4">
           {filteredArticles.map((article) => (
-            <Link key={article.id} href={`/${lang}/news/${article.slug}`}>
+            <Link key={article.id} href={`/${lang}/${article.slug}`}>
               <div className="flex bg-white rounded-lg shadow-md p-4 mb-2 hover:shadow-lg transition-shadow">
                 <div className="w-20 h-20 relative rounded-lg overflow-hidden mr-4 flex-shrink-0">
                   <Image
@@ -128,7 +130,7 @@ const NewsGrid = ({ dictionary, lang }) => {
                   <h3 className="text-base font-bold text-black mb-1 line-clamp-2">
                     {article.title}
                   </h3>
-                  <p className="text-sm text-gray-600 line-clamp-2">
+                  <p className="text-sm text-gray-600 line-clamp-3">
                     {article.excerpt}
                   </p>
                 </div>

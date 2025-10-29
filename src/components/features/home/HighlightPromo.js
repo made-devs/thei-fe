@@ -1,7 +1,7 @@
-"use client";
-import { useState, useCallback, useEffect } from "react";
-import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+'use client';
+import { useState, useCallback, useEffect } from 'react';
+import useEmblaCarousel from 'embla-carousel-react';
+import Autoplay from 'embla-carousel-autoplay';
 import {
   ChevronLeft,
   ChevronRight,
@@ -9,9 +9,9 @@ import {
   Tag,
   ArrowRight,
   Sparkles,
-} from "lucide-react";
-import Link from "next/link";
-import Image from "next/image";
+} from 'lucide-react';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export default function HighlightPromo({
   dictionary,
@@ -21,30 +21,30 @@ export default function HighlightPromo({
 }) {
   // Tambahkan array custom images (ganti dengan path gambar Anda)
   const customImages = [
-    "/home/promo1.webp", // Untuk card pertama
-    "/home/promo2.webp", // Untuk card kedua
-    "/home/promo3.webp", // Untuk card ketiga
-    "/home/promo4.webp", // Untuk card keempat
+    '/home/promo1.webp', // Untuk card pertama
+    '/home/promo2.webp', // Untuk card kedua
+    '/home/promo3.webp', // Untuk card ketiga
+    '/home/promo4.webp', // Untuk card keempat
   ];
 
   const sectionBadge = dictionary?.section_badge || "This Month's Promo";
-  const title = dictionary?.title || "Offers";
-  const titleHighlight = dictionary?.title_highlight || "Limited";
+  const title = dictionary?.title || 'Offers';
+  const titleHighlight = dictionary?.title_highlight || 'Limited';
   const description =
     dictionary?.description ||
     "Don't miss the golden opportunity to increase your business productivity";
-  const viewAllText = dictionary?.view_all_text || "View All Promos";
-  const viewAllLink = dictionary?.view_all_link || "/promotions";
-  const ctaRegular = dictionary?.cta_regular || "View Details";
+  const viewAllText = dictionary?.view_all_text || 'View All Promos';
+  const viewAllLink = dictionary?.view_all_link || '/promotions';
+  const ctaRegular = dictionary?.cta_regular || 'View Details';
 
   const enhancedPromos = (promos || [])
-    .filter((promo) => ["r1", "r2", "r3", "r4"].includes(promo.id)) // Filter hanya ID r1 sampai r4
+    .filter((promo) => ['r1', 'r2', 'r3', 'r4'].includes(promo.id)) // Filter hanya ID r1 sampai r4
     .slice(0, 4) // Pastikan maksimal 4, meski filter sudah batasi
     .map((promo, index) => ({
       ...promo,
-      is_featured: promo.size === "large",
-      urgent: promo.badge === "HOT" || promo.badge === "FLASH SALE",
-      valid_until: promo.valid_until || promo.expiry || "Limited Time",
+      is_featured: promo.size === 'large',
+      urgent: promo.badge === 'HOT' || promo.badge === 'FLASH SALE',
+      valid_until: promo.valid_until || promo.expiry || 'Limited Time',
       customImage: customImages[index] || promo.image, // Fallback ke promo.image jika custom tidak ada
     }));
 
@@ -53,10 +53,10 @@ export default function HighlightPromo({
   const [emblaRef, emblaApi] = useEmblaCarousel(
     {
       loop: true,
-      align: "start",
+      align: 'start',
       skipSnaps: false,
       dragFree: false,
-      containScroll: "trimSnaps",
+      containScroll: 'trimSnaps',
     },
     [
       Autoplay({
@@ -96,11 +96,11 @@ export default function HighlightPromo({
     onSelect();
     const snaps = emblaApi.scrollSnapList();
     setScrollSnaps(snaps.slice(0, enhancedPromos.length));
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", onSelect);
+    emblaApi.on('select', onSelect);
+    emblaApi.on('reInit', onSelect);
     return () => {
-      emblaApi.off("select", onSelect);
-      emblaApi.off("reInit", onSelect);
+      emblaApi.off('select', onSelect);
+      emblaApi.off('reInit', onSelect);
     };
   }, [emblaApi, onSelect, enhancedPromos.length]);
 
@@ -114,9 +114,9 @@ export default function HighlightPromo({
         {/* Header dari page.js - dipindah ke sini */}
         <div className="text-center pt-10 sm:pt-[5rem] pb-6 sm:pb-8">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-yellow-400 tracking-wider">
-            {header?.title || "THEI - TJM Heavy Equipment Indonesia"}
+            {header?.title || 'THEI - TJM Heavy Equipment Indonesia'}
           </h1>
-          <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-gray-300 tracking-wide px-4">
+          <p className="mt-2 sm:mt-4 text-sm sm:text-base lg:text-lg text-white tracking-wide px-4">
             {header?.subtitle ||
               "Indonesia's One-Stop Solution for Heavy Equipment Rental, Service & Sales"}
           </p>
@@ -134,7 +134,7 @@ export default function HighlightPromo({
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-white mb-4">
             {title} <span className="text-yellow-400">{titleHighlight}</span>
           </h2>
-          <p className="text-sm sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto">
+          <p className="text-sm sm:text-base lg:text-lg text-white max-w-2xl mx-auto">
             {description}
           </p>
         </div>
@@ -159,10 +159,10 @@ export default function HighlightPromo({
                   <div
                     className={`relative rounded-2xl overflow-hidden transition-all duration-300 bg-zinc-900 flex flex-col ${
                       hoveredId === promo.id
-                        ? "shadow-2xl shadow-yellow-400/30 scale-[1.02]"
-                        : "shadow-lg shadow-black/50"
+                        ? 'shadow-2xl shadow-yellow-400/30 scale-[1.02]'
+                        : 'shadow-lg shadow-black/50'
                     }`}
-                    style={{ height: "650px" }} // Tingkatkan dari 550px ke 650px agar judul dan konten full tampil
+                    style={{ height: '650px' }} // Tingkatkan dari 550px ke 650px agar judul dan konten full tampil
                   >
                     {/* Image Section - ubah ke aspect-square untuk 1:1 */}
                     <div className="relative aspect-square overflow-hidden bg-zinc-800">
@@ -171,7 +171,7 @@ export default function HighlightPromo({
                         alt={promo.title}
                         fill
                         className={`object-contain transition-transform duration-700 ${
-                          hoveredId === promo.id ? "scale-110" : "scale-100"
+                          hoveredId === promo.id ? 'scale-110' : 'scale-100'
                         }`}
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                       />
@@ -238,8 +238,8 @@ export default function HighlightPromo({
                 onClick={() => scrollTo(index)}
                 className={`transition-all ${
                   index === selectedIndex
-                    ? "w-6 h-2 bg-yellow-400"
-                    : "w-2 h-2 bg-gray-600 hover:bg-gray-500"
+                    ? 'w-6 h-2 bg-yellow-400'
+                    : 'w-2 h-2 bg-gray-600 hover:bg-gray-500'
                 } rounded-full`}
                 aria-label={`Go to slide ${index + 1}`}
               />
