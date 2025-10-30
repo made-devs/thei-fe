@@ -60,7 +60,7 @@ const PartsCard = ({ part, lang }) => {
         </div>
 
         <div className="mt-auto pt-2 sm:pt-4 border-t border-gray-100 space-y-2 sm:space-y-3">
-          <Link
+          {/* <Link
             href={`/${lang}/spare-parts/${slugify(
               categoryName
             )}/${encodeURIComponent(part.name)}`} // Ganti products dengan spare-parts, model dengan name
@@ -68,7 +68,7 @@ const PartsCard = ({ part, lang }) => {
           >
             <ListChecks size={16} className="mr-2" />
             View Details
-          </Link>
+          </Link> */}
           <button
             onClick={() => {
               const message = `Halo, saya tertarik dengan spare part ${part.name}. Bisa info lebih lanjut?`;

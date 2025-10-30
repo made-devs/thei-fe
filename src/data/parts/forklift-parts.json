@@ -5,7 +5,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 150,000",
-    "image": "/parts/forklift-filter-oli.webp",
+    "image": "/parts/forklift/filteroli.webp",
     "description": "Filter oli berkualitas tinggi untuk mesin diesel forklift, kapasitas 10L.",
     "availability": "In Stock",
     "fastMoving": true
@@ -16,7 +16,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 200,000",
-    "image": "/parts/forklift-filter-solar.webp",
+    "image": "/parts/forklift/filtersolar.webp",
     "description": "Filter solar untuk sistem bahan bakar diesel forklift.",
     "availability": "In Stock",
     "fastMoving": true
@@ -27,7 +27,7 @@
     "subType": "Elektrik",
     "category": "Forklift",
     "price": "Rp 100,000",
-    "image": "/parts/forklift-filter-udara.webp",
+    "image": "/parts/forklift/filterudara.webp",
     "description": "Filter udara untuk mesin elektrik forklift, mencegah debu masuk.",
     "availability": "In Stock",
     "fastMoving": true
@@ -38,7 +38,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 250,000",
-    "image": "/parts/forklift-fan-belt.webp",
+    "image": "/parts/forklift/fanbelt.webp",
     "description": "Fan belt atau V-belt untuk sistem pendingin mesin diesel.",
     "availability": "In Stock",
     "fastMoving": true
@@ -49,7 +49,7 @@
     "subType": "AGV",
     "category": "Forklift",
     "price": "Rp 300,000",
-    "image": "/parts/forklift-v-belt.webp",
+    "image": "/parts/forklift/vbelt.webp",
     "description": "V-belt tahan lama untuk forklift otomatis AGV.",
     "availability": "In Stock",
     "fastMoving": true
@@ -60,7 +60,7 @@
     "subType": "Elektrik",
     "category": "Forklift",
     "price": "Rp 180,000",
-    "image": "/parts/forklift-seal-hidrolik.webp",
+    "image": "/parts/forklift/seal-hidrolik.webp",
     "description": "Seal hidrolik untuk sistem hidraulik forklift elektrik.",
     "availability": "In Stock",
     "fastMoving": true
@@ -71,7 +71,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 220,000",
-    "image": "/parts/forklift-kampas-rem.webp",
+    "image": "/parts/forklift/kampas-rem.webp",
     "description": "Kampas rem dan master rem untuk sistem pengereman forklift diesel.",
     "availability": "In Stock",
     "fastMoving": true
@@ -82,7 +82,7 @@
     "subType": "AGV",
     "category": "Forklift",
     "price": "Rp 350,000",
-    "image": "/parts/forklift-bearing-roda.webp",
+    "image": "/parts/forklift/bearing-roda.webp",
     "description": "Bearing roda berkualitas untuk forklift AGV, tahan beban berat.",
     "availability": "In Stock",
     "fastMoving": true
@@ -93,7 +93,7 @@
     "subType": "Elektrik",
     "category": "Forklift",
     "price": "Rp 5,000,000",
-    "image": "/parts/forklift-battery.webp",
+    "image": "/parts/forklift/battery.webp",
     "description": "Battery unit elektrik untuk forklift elektrik, kapasitas tinggi.",
     "availability": "In Stock",
     "fastMoving": true
@@ -104,7 +104,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 1,200,000",
-    "image": "/parts/forklift-tyre-solid.webp",
+    "image": "/parts/forklift/tyre-solid.webp",
     "description": "Tyre solid untuk forklift diesel, tahan aus dan beban.",
     "availability": "In Stock",
     "fastMoving": true
@@ -115,7 +115,7 @@
     "subType": "AGV",
     "category": "Forklift",
     "price": "Rp 800,000",
-    "image": "/parts/forklift-tyre-pneumatic.webp",
+    "image": "/parts/forklift/tyre-pneumatic.webp",
     "description": "Tyre pneumatic untuk forklift AGV, nyaman dan efisien.",
     "availability": "In Stock",
     "fastMoving": true
@@ -126,7 +126,7 @@
     "subType": "Diesel",
     "category": "Forklift",
     "price": "Rp 120,000",
-    "image": "/parts/forklift-filter-udara-diesel.webp",
+    "image": "/parts/forklift/filter-udara-diesel.webp",
     "description": "Filter udara tambahan untuk mesin diesel forklift.",
     "availability": "In Stock",
     "fastMoving": true
@@ -137,7 +137,7 @@
     "subType": "AGV",
     "category": "Forklift",
     "price": "Rp 200,000",
-    "image": "/parts/forklift-seal-hidrolik-agv.webp",
+    "image": "/parts/forklift/seal-hidrolik-agv.webp",
     "description": "Seal hidrolik khusus untuk sistem AGV forklift.",
     "availability": "In Stock",
     "fastMoving": true
@@ -148,7 +148,7 @@
     "subType": "Elektrik",
     "category": "Forklift",
     "price": "Rp 400,000",
-    "image": "/parts/forklift-bearing-roda-elektrik.webp",
+    "image": "/parts/forklift/bearing-roda-elektrik.webp",
     "description": "Bearing roda untuk forklift elektrik, ringan dan efisien.",
     "availability": "In Stock",
     "fastMoving": true
@@ -159,7 +159,7 @@
     "subType": "Elektrik",
     "category": "Forklift",
     "price": "Rp 240,000",
-    "image": "/parts/forklift-kampas-rem-elektrik.webp",
+    "image": "/parts/forklift/kampas-rem-elektrik.webp",
     "description": "Kampas rem untuk forklift elektrik, performa tinggi.",
     "availability": "In Stock",
     "fastMoving": true

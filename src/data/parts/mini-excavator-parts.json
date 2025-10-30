@@ -5,7 +5,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 500,000",
-    "image": "/parts/mini-excavator-bucket-teeth.webp",
+    "image": "/parts/mini-excavator/bucket-teeth.webp",
     "description": "Bucket teeth berkualitas tinggi untuk mini excavator, tahan aus.",
     "availability": "In Stock",
     "fastMoving": true
@@ -16,7 +16,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 300,000",
-    "image": "/parts/mini-excavator-bucket-adapter.webp",
+    "image": "/parts/mini-excavator/bucket-adapter.webp",
     "description": "Adapter bucket untuk mini excavator, mudah pasang.",
     "availability": "In Stock",
     "fastMoving": true
@@ -27,7 +27,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 400,000",
-    "image": "/parts/mini-excavator-pin-bushing.webp",
+    "image": "/parts/mini-excavator/pin-bushing.webp",
     "description": "Pin dan bushing untuk bucket mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -38,7 +38,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 150,000",
-    "image": "/parts/mini-excavator-filter-oli.webp",
+    "image": "/parts/mini-excavator/filter-oli.webp",
     "description": "Filter oli untuk mesin mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -49,7 +49,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 200,000",
-    "image": "/parts/mini-excavator-filter-solar.webp",
+    "image": "/parts/mini-excavator/filter-solar.webp",
     "description": "Filter solar untuk sistem bahan bakar mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -60,7 +60,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 100,000",
-    "image": "/parts/mini-excavator-filter-udara.webp",
+    "image": "/parts/mini-excavator/filter-udara.webp",
     "description": "Filter udara untuk mini excavator, mencegah debu.",
     "availability": "In Stock",
     "fastMoving": true
@@ -71,7 +71,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 180,000",
-    "image": "/parts/mini-excavator-filter-hidrolik.webp",
+    "image": "/parts/mini-excavator/filter-hidrolik.webp",
     "description": "Filter hidrolik untuk sistem hidraulik mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -82,7 +82,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 250,000",
-    "image": "/parts/mini-excavator-seal-boom.webp",
+    "image": "/parts/mini-excavator/seal-boom.webp",
     "description": "Seal kit untuk cylinder boom mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -93,7 +93,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 250,000",
-    "image": "/parts/mini-excavator-seal-arm.webp",
+    "image": "/parts/mini-excavator/seal-arm.webp",
     "description": "Seal kit untuk cylinder arm mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -104,7 +104,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 250,000",
-    "image": "/parts/mini-excavator-seal-bucket.webp",
+    "image": "/parts/mini-excavator/seal-bucket.webp",
     "description": "Seal kit untuk cylinder bucket mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -115,7 +115,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 350,000",
-    "image": "/parts/mini-excavator-hose-hidrolik.webp",
+    "image": "/parts/mini-excavator/hose-hidrolik.webp",
     "description": "Hose hidrolik tahan tekanan untuk mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -126,7 +126,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 1,500,000",
-    "image": "/parts/mini-excavator-track-shoe.webp",
+    "image": "/parts/mini-excavator/track-shoe.webp",
     "description": "Track shoe untuk mini excavator, tahan lama.",
     "availability": "In Stock",
     "fastMoving": true
@@ -137,7 +137,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 800,000",
-    "image": "/parts/mini-excavator-roller.webp",
+    "image": "/parts/mini-excavator/roller.webp",
     "description": "Roller untuk track mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -148,7 +148,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 900,000",
-    "image": "/parts/mini-excavator-idler.webp",
+    "image": "/parts/mini-excavator/idler.webp",
     "description": "Idler untuk track mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -159,7 +159,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 1,200,000",
-    "image": "/parts/mini-excavator-sprocket.webp",
+    "image": "/parts/mini-excavator/sprocket.webp",
     "description": "Sprocket untuk track mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -170,7 +170,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 200,000",
-    "image": "/parts/mini-excavator-engine-oil.webp",
+    "image": "/parts/mini-excavator/engine-oil.webp",
     "description": "Engine oil untuk mesin mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -181,7 +181,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 250,000",
-    "image": "/parts/mini-excavator-hydraulic-oil.webp",
+    "image": "/parts/mini-excavator/hydraulic-oil.webp",
     "description": "Hydraulic oil untuk sistem hidraulik mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -192,7 +192,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 1,000,000",
-    "image": "/parts/mini-excavator-alternator.webp",
+    "image": "/parts/mini-excavator/alternator.webp",
     "description": "Alternator untuk sistem elektrik mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
@@ -203,7 +203,7 @@
     "subType": "Mini Excavator",
     "category": "Mini Excavator",
     "price": "Rp 800,000",
-    "image": "/parts/mini-excavator-starter-motor.webp",
+    "image": "/parts/mini-excavator/starter-motor.webp",
     "description": "Starter motor untuk mesin mini excavator.",
     "availability": "In Stock",
     "fastMoving": true
