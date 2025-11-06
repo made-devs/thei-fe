@@ -17,9 +17,9 @@ export default async function CareerPage({ params }) {
     <>
       <PageHero dictionary={pageDict.hero} />{' '}
       {/* Ganti CareerHero dengan PageHero, hapus lang */}
-      <TrainingPrograms dictionary={pageDict.training_programs} />
-      <OpenPositions dictionary={pageDict.open_positions} />
+      {/* <TrainingPrograms dictionary={pageDict.training_programs} /> */}
       <WhyJoin dictionary={pageDict.why_join} />
+      <OpenPositions dictionary={pageDict.open_positions} />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

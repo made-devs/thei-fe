@@ -3,7 +3,7 @@
     "hero": {
       "subtitle": "KUALITAS DAN PERFORMA TERBAIK",
       "title": "Jelajahi Lini Mesin Baru Kami",
-      "image": "/product-banner.webp",
+      "image": "/banner-product.webp",
       "breadcrumbs": [
         { "name": "Beranda", "link": "/" },
         { "name": "Produk", "link": "/produk" }

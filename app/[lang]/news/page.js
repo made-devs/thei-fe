@@ -1,16 +1,15 @@
 // Filepath: app/[lang]/news/page.js
-import { getDictionary } from "@/lib/dictionary";
-import PageHero from "@/components/ui/PageHero";
-import NewsGrid from "@/components/features/News/NewsGrid";
-import FeaturedVideo from "@/components/features/News/FeaturedVideo";
-import DocumentationGallery from "@/components/features/News/DocumentationGallery"; // Impor komponen baru
-import MainCta from "@/components/features/home/MainCta";
+import { getDictionary } from '@/lib/dictionary';
+import PageHero from '@/components/ui/PageHero';
+import NewsGrid from '@/components/features/News/NewsGrid';
+import FeaturedVideo from '@/components/features/News/FeaturedVideo';
+import MainCta from '@/components/features/home/MainCta';
 
 export default async function NewsPage({ params }) {
   const { lang } = await params;
 
   // Memuat daftar berita dari path yang baru
-  const dictionary = await getDictionary(lang, "news/list");
+  const dictionary = await getDictionary(lang, 'news/list');
   const pageDict = dictionary.news_page || {};
   const articles = dictionary.articles || [];
   const commonDict = dictionary || {};
@@ -21,8 +20,6 @@ export default async function NewsPage({ params }) {
       {/* Mengirim data yang sudah difilter dan lang ke NewsGrid */}
       <FeaturedVideo dictionary={pageDict.featured_video} />
       <NewsGrid dictionary={{ ...pageDict, articles }} lang={lang} />
-      {/* Tambahkan komponen baru di sini */}
-      <DocumentationGallery dictionary={pageDict.documentation_gallery} />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

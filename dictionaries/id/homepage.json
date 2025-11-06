@@ -9,7 +9,7 @@
     "subheadline1": "PERTAMA DI INDONESIA"
   },
   "hero": {
-    "main_copy": "Penjualan • Suku Cadang • Servis • Sewa • Tukar Tambah",
+    "main_copy": "Sales • Suku Cadang • Service • Rental • Trade-in",
     "sub_copy_line1": "Bonus Purna Jual hingga Rp200 Juta",
     "sub_copy_line2": "Layanan 24/7",
     "sub_copy_line3": "Suku Cadang Asli",
@@ -34,6 +34,114 @@
       "Diskon 20% untuk semua suku cadang asli hingga akhir bulan!",
       "Pameran alat berat terbesar akan segera hadir di Jakarta Convention Center.",
       "Program Tukar Tambah: Tukarkan alat berat lama Anda dengan yang baru dan dapatkan penawaran spesial."
+    ]
+  },
+  "our-service": {
+    "subtitle": "Solusi Lengkap",
+    "title": "Layanan Kami",
+    "description": "THEI menyediakan solusi alat berat terpadu dari penjualan, suku cadang, service profesional, hingga rental dengan fleksibilitas tinggi.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Jual Alat Berat Berkualitas",
+        "image": "/home/our-service1.webp",
+        "link": "/products"
+      },
+      {
+        "id": 2,
+        "title": "Sparepart Alat Berat Terlengkap",
+        "image": "/home/our-service2.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 3,
+        "title": "Service Alat Berat Profesional",
+        "image": "/home/our-service3.webp",
+        "link": "/service"
+      },
+      {
+        "id": 4,
+        "title": "Rental Alat Berat Fleksibel",
+        "image": "/home/our-service4.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 5,
+        "title": "Tukar Tambah Alat Berat",
+        "image": "/home/our-service5.webp",
+        "link": "/trade-in"
+      }
+    ]
+  },
+  "our-promo": {
+    "subtitle": "Penawaran Spesial Grand Opening",
+    "title": "Promo Terbaru Kami",
+    "description": "Jangan lewatkan berbagai promo eksklusif untuk pembelian, rental, service, dan trade-in alat berat hanya di THEI. Raih keuntungan maksimal untuk bisnis Anda.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Promo Pembelian Alat Berat Senilai 1 Miliar Rupiah",
+        "description": "Dapatkan 16 promo gratis senilai total 1 miliar rupiah untuk setiap pembelian alat berat di Grand Opening kami.",
+        "image": "/home/promo1.webp",
+        "link": "/promotions/grand-opening-heavy-equipment-promo"
+      },
+      {
+        "id": 2,
+        "title": "Promo Rental Alat Berat Senilai 100 Juta Rupiah",
+        "description": "Nikmati kemudahan operasional proyek Anda dengan promo rental alat berat senilai 100 juta rupiah dari THEI.",
+        "image": "/home/promo2.webp",
+        "link": "/promotions/heavy-equipment-rental-promo"
+      },
+      {
+        "id": 3,
+        "title": "Promo Service & Kontrak Service Senilai 100 Juta Rupiah",
+        "description": "Pastikan alat berat Anda selalu dalam kondisi prima dengan promo service & kontrak service senilai 100 juta rupiah dari THEI.",
+        "image": "/home/promo3.webp",
+        "link": "/promotions/heavy-equipment-service-promo"
+      },
+      {
+        "id": 4,
+        "title": "Promo Trade In Alat Berat Senilai 100 Juta Rupiah",
+        "description": "Tingkatkan efisiensi proyek Anda dengan promo trade in alat berat senilai 100 juta rupiah dari THEI.",
+        "image": "/home/promo4.webp",
+        "link": "/promotions/heavy-equipment-trade-in-promo"
+      }
+    ]
+  },
+  "our-brand-product": {
+    "subtitle": "Pilihan Berkualitas",
+    "title": "Brand Produk Kami",
+    "description": "Kami bermitra dengan brand ternama dunia untuk menyediakan alat berat berkualitas tinggi yang sesuai dengan kebutuhan industri Anda.",
+    "hover_text": "Lihat Produk",
+    "cta_text": "Lihat Semua Produk",
+    "cta_link": "/products",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Zoomlion Boom Lift",
+        "description": "Boom lift Zoomlion, solusi aman dan efisien untuk pekerjaan di ketinggian pada proyek konstruksi dan maintenance.",
+        "image": "/home/our-product1.webp"
+      },
+      {
+        "id": 2,
+        "title": "XCMG Excavator",
+        "description": "Excavator heavy duty untuk proyek konstruksi skala besar dengan performa maksimal",
+        "image": "/home/our-product2.webp"
+      },
+      {
+        "id": 3,
+        "title": "Nichiyu Forklift",
+        "description": "Forklift elektrik Nichiyu, efisien dan ramah lingkungan untuk kebutuhan logistik dan pergudangan modern.",
+        "image": "/home/our-product3.webp"
+      },
+      {
+        "id": 4,
+        "title": "CAT Backhoe Loader",
+        "description": "Backhoe loader CAT, solusi kuat dan efisien untuk pekerjaan konstruksi dan penggalian.",
+        "image": "/home/our-product4.webp"
+      }
     ]
   },
   "highlight_promo": {
@@ -61,8 +169,8 @@
         "description": "Siap melayani Anda kapan pun, di mana pun, untuk meminimalkan waktu henti."
       },
       {
-        "title": "Suku Cadang Asli",
-        "description": "Jaminan ketersediaan suku cadang asli untuk performa optimal."
+        "title": "Suku Cadang Terlengkap",
+        "description": "Jaminan ketersediaan suku cadang terlengkap untuk performa optimal."
       },
       {
         "title": "Tersertifikasi HSSE",
@@ -80,7 +188,7 @@
     ]
   },
   "news": {
-    "title": "Wawasan Terkini",
+    "title": "Berita Terkini",
     "subtitle": "Berita & Artikel",
     "description": "Tetap terinformasi dengan berita, acara, dan artikel terbaru dari THEI. Dapatkan wawasan tentang produk, teknologi, dan kegiatan korporat kami.",
     "see_more": "Lihat Semua Berita",
@@ -96,9 +204,9 @@
     }
   },
   "testimonials": {
-    "title": "What Our Clients Say About Us",
+    "title": "THEI Customer Experience",
     "subtitle": "Customer Testimonials",
-    "description": "Our clients' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
+    "description": "Kisah sukses pelanggan kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa kata mereka tentang pengalaman bermitra dengan THEI.",
     "list": [
       {
         "name": "Arga",
@@ -158,5 +266,10 @@
         }
       ]
     }
+  },
+  "main_cta": {
+    "title": "THEI, PARTNER ALAT BERAT SEJATI ANDA",
+    "cta_button": "HUBUNGI KAMI SEKARANG",
+    "cta_link": "/contact"
   }
 }

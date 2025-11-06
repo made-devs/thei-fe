@@ -2,7 +2,7 @@
   "news_page": {
     "hero": {
       "subtitle": "Latest Insights from THEI",
-      "title": "News & Events",
+      "title": "THEI News",
       "image": "/banner-news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
@@ -10,8 +10,6 @@
       ]
     },
     "main_section": {
-      "title": "Stay Updated with Our Journey",
-      "description": "Explore the latest news, events, and articles from THEI. Filter by category to find what interests you the most.",
       "all": "All",
       "promo": "Promo",
       "project": "Project",
@@ -21,14 +19,14 @@
     },
     "featured_video": {
       "title": "Our Exclusive Event Coverage",
-      "description": "Relive the key moments from our latest event through this exclusive video coverage.",
+      "description": "Relive the highlights from our latest events through this exclusive video coverage.",
       "videos": [
         {
           "title": "THEI Grand Launching 2025",
           "id": "dQw4w9WgXcQ"
         },
         {
-          "title": "The Biggest Heavy Equipment Expo",
+          "title": "Largest Heavy Equipment Exhibition",
           "id": "dQw4w9WgXcQ"
         },
         {
@@ -36,14 +34,14 @@
           "id": "dQw4w9WgXcQ"
         },
         {
-          "title": "Tree Planting CSR Program",
+          "title": "CSR Tree Planting Program",
           "id": "dQw4w9WgXcQ"
         }
       ]
     },
     "documentation_gallery": {
-      "title": "Event Documentation Gallery",
-      "description": "Take a closer look at the important moments from our project, CSR, and training activities.",
+      "title": "Activity Documentation Gallery",
+      "description": "Take a closer look at key moments from our project, CSR, and training activities.",
       "images": [
         {
           "src": "https://placehold.co/1600x900/1a1a1a/ffc700?text=Project+Handover",
@@ -71,75 +69,75 @@
   "articles": [
     {
       "id": 1,
-      "slug": "news/thei-supports-strategic-national-infrastructure-projects",
+      "slug": "thei-supports-strategic-infrastructure-projects",
       "category": "Project",
-      "title": "THEI Supports Strategic National Infrastructure Projects",
+      "title": "THEI Supports National Strategic Infrastructure Projects",
       "date": "2025-07-22",
       "image": "/home/news2.webp",
-      "excerpt": "Our fleet is contributing to the development of national strategic projects, ensuring smoothness and efficiency on the ground."
+      "excerpt": "Our fleet plays a role in the development of national strategic projects, ensuring smooth and efficient operations on site."
     },
     {
       "id": 2,
-      "slug": "news/csr-program-planting-1000-trees",
-      "category": "CSR",
-      "title": "CSR: 1,000 Trees Planting Action for the Environment",
+      "slug": "promo-bonus-heavy-equipment-purchase-1-billion",
+      "category": "Promo",
+      "title": "THEI Offers Heavy Equipment Purchase Bonus Worth 1 Billion Rupiah",
       "date": "2025-06-30",
-      "image": "/home/news1.webp",
-      "excerpt": "As part of our commitment to the environment, THEI successfully organized a program to plant 1,000 trees in a conservation area."
+      "image": "/home/our-service5.webp",
+      "excerpt": "Get 16 free promos worth a total of 1 billion rupiah for every heavy equipment purchase at THEI's Grand Opening. Promos include discounts, operator training, unit branding, service packages, and various other exclusive bonuses."
     },
     {
       "id": 3,
-      "slug": "news/k3-certified-operator-training-batch-5-opens",
-      "category": "Training",
-      "title": "K3 Certified Operator Training Batch 5 Opens",
+      "slug": "most-complete-heavy-equipment-service-package",
+      "category": "Service",
+      "title": "THEI Provides the Most Complete Heavy Equipment Service Package in Indonesia",
       "date": "2025-05-19",
       "image": "/home/news3.webp",
-      "excerpt": "Enhance your skills and work safety standards by joining our professional operator training program, which is now open again."
+      "excerpt": "THEI presents the most complete heavy equipment service package in Indonesia. Get maintenance, inspection, and professional technical support services to ensure your equipment is always in prime and ready-to-work condition."
     },
     {
       "id": 4,
-      "slug": "news/thei-receives-best-distributor-award-again-in-2025",
-      "category": "CSR",
-      "title": "THEI Receives Best Distributor Award Again in 2025",
-      "date": "2025-04-10",
-      "image": "/home/news4.webp",
-      "excerpt": "Our dedication to providing the best service is once again recognized through the prestigious award as the best national distributor of the year."
+      "slug": "heavy-equipment-rental-thei-superior-service",
+      "category": "Rental",
+      "title": "Heavy Equipment Rental at THEI with Superior Service",
+      "date": "2025-10-25",
+      "image": "/home/our-product1.webp",
+      "excerpt": "THEI offers heavy equipment rental services with various advantages: the latest fleet, easy process, 24/7 technical support, as well as attractive bonuses and promos for every customer. Ensure your project needs are met with the best service from THEI."
     },
     {
       "id": 5,
       "slug": "promotions/heavy-equipment-purchase-promo",
-      "category": "Promo",
-      "title": "Promo Grand Opening: Heavy Equipment Purchase (All Types) Up to Rp 285,000,000,-",
+      "category": "Promotion",
+      "title": "Grand Opening Promotion: Heavy Equipment Purchase (All Types) Up to Rp 285,000,000",
       "date": "2025-10-20",
       "image": "/home/promo1.webp",
-      "excerpt": "THEI Grand Opening Promo! Save tens of millions with up to 30% discount on heavy equipment. Also get complete bonuses: free operator training, free shipping in Jabodetabek, exclusive gift packages, and VIP after-sales service."
+      "excerpt": "THEI Grand Opening Promotion! Save tens of millions with discounts up to 30% on heavy equipment. Also get complete bonuses: free operator training, free delivery in Jabodetabek, exclusive gift packages, and VIP after-sales service."
     },
     {
       "id": 6,
       "slug": "promotions/heavy-equipment-service-promo",
-      "category": "Promo",
-      "title": "Promo Grand Opening: Heavy Equipment Service (All Types) Up to Rp 70,000,000,-",
+      "category": "Promotion",
+      "title": "Grand Opening Promotion: Heavy Equipment Service (All Types) Up to Rp 70,000,000",
       "date": "2025-10-20",
       "image": "/home/promo2.webp",
-      "excerpt": "Enjoy massive service discounts up to 70% and spare parts price cuts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities."
+      "excerpt": "Enjoy big service discounts up to 70% and spare part discounts up to 30%. Also get free bonuses for dozens of inspection points (Jabodetabek area) and free technician accommodation in 25 major cities."
     },
     {
       "id": 7,
       "slug": "promotions/heavy-equipment-rental-promo",
-      "category": "Promo",
-      "title": "Promo Grand Opening: Heavy Equipment Rental (All Types) Up to IDR 100 Million",
+      "category": "Promotion",
+      "title": "Grand Opening Promotion: Heavy Equipment Rental (All Types) Up to IDR 100 Million",
       "date": "2025-10-20",
       "image": "/home/promo3.webp",
-      "excerpt": "THEI Grand Opening Rental Promo! Get a discount up to IDR 50 million and numerous value-added benefits, including 24/7 service, unit replacement guarantee, and comprehensive safety & legal documentation."
+      "excerpt": "THEI Grand Opening Rental Promotion! Get discounts up to IDR 50 million and various value-added benefits, including 24/7 service, unit replacement guarantee, and comprehensive safety & legal documentation."
     },
     {
       "id": 8,
       "slug": "promotions/heavy-equipment-trade-in-promo",
-      "category": "Promo",
-      "title": "Promo Grand Opening: Heavy Equipment Trade-In (All Types) Up to IDR 50 Million",
+      "category": "Promotion",
+      "title": "Grand Opening Promotion: Heavy Equipment Trade-In (All Types) Up to IDR 50 Million",
       "date": "2025-10-20",
       "image": "/home/promo4.webp",
-      "excerpt": "THEI Grand Opening Trade-In Promo! Get a trade-in discount up to IDR 50 million for your new unit. Enjoy added value like fast estimation, free inspection, and complimentary old unit pick-up."
+      "excerpt": "THEI Grand Opening Trade-In Promotion! Get trade-in discounts up to IDR 50 million for your new unit. Enjoy added value such as fast estimation, free inspection, and free pick-up of your old unit."
     }
   ]
 }

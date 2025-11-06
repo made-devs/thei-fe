@@ -2,7 +2,8 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { ListChecks, MessageSquare } from 'lucide-react';
+import { ListChecks } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 // Helper untuk mengubah nama kategori menjadi format URL-friendly (kebab-case)
 const slugify = (text) =>
@@ -77,10 +78,10 @@ const PartsCard = ({ part, lang }) => {
               )}`;
               window.open(waUrl, '_blank');
             }}
-            className="w-full flex items-center justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-bold text-black bg-green-400 hover:bg-green-500 transition-colors"
+            className="w-full flex items-center justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-bold text-white bg-green-500 hover:bg-green-600 transition-colors"
           >
-            <MessageSquare size={16} className="mr-2" />
-            Chat
+            <FaWhatsapp size={18} className="mr-2" />
+            Fast Response
           </button>
         </div>
       </div>

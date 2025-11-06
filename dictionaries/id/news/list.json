@@ -2,7 +2,7 @@
   "news_page": {
     "hero": {
       "subtitle": "Wawasan Terbaru dari THEI",
-      "title": "Berita & Acara",
+      "title": "THEI News",
       "image": "/banner-news.webp",
       "breadcrumbs": [
         { "name": "Home", "link": "/" },
@@ -78,30 +78,30 @@
     },
     {
       "id": 2,
-      "slug": "program-csr-penanaman-1000-pohon",
-      "category": "CSR",
-      "title": "CSR: Aksi Penanaman 1.000 Pohon untuk Lingkungan",
+      "slug": "promo-bonus-beli-alat-berat-1-miliar",
+      "category": "Promo",
+      "title": "THEI Memberikan Bonus Beli Alat Berat Senilai 1 Miliar Rupiah",
       "date": "2025-06-30",
-      "image": "/home/news1.webp",
-      "excerpt": "Sebagai bagian dari komitmen kami terhadap lingkungan, THEI sukses menyelenggarakan program penanaman 1.000 pohon di area konservasi."
+      "image": "/home/our-service5.webp",
+      "excerpt": "Dapatkan 16 promo gratis senilai total 1 miliar rupiah untuk setiap pembelian alat berat di Grand Opening THEI. Promo meliputi diskon, training operator, branding unit, paket service, dan berbagai bonus eksklusif lainnya."
     },
     {
       "id": 3,
-      "slug": "pelatihan-operator-bersertifikat-k3-batch-5-dibuka",
-      "category": "Training",
-      "title": "Pelatihan Operator Bersertifikat K3 Batch 5 Dibuka",
+      "slug": "paket-service-alat-berat-terlengkap",
+      "category": "Service",
+      "title": "THEI Memberikan Paket Service Alat Berat Terlengkap di Indonesia",
       "date": "2025-05-19",
       "image": "/home/news3.webp",
-      "excerpt": "Tingkatkan keahlian dan standar keselamatan kerja dengan mengikuti program pelatihan operator profesional kami yang kembali dibuka."
+      "excerpt": "THEI menghadirkan paket service alat berat paling lengkap di Indonesia. Dapatkan layanan perawatan, inspeksi, dan dukungan teknis profesional untuk memastikan alat berat Anda selalu dalam kondisi prima dan siap kerja."
     },
     {
       "id": 4,
-      "slug": "thei-terima-penghargaan-distributor-terbaik-2025",
-      "category": "CSR",
-      "title": "THEI Kembali Terima Penghargaan Distributor Terbaik 2025",
-      "date": "2025-04-10",
-      "image": "/home/news4.webp",
-      "excerpt": "Dedikasi kami dalam memberikan layanan terbaik kembali diakui melalui penghargaan bergengsi sebagai distributor nasional terbaik tahun ini."
+      "slug": "rental-alat-berat-thei-pelayanan-segudang",
+      "category": "Rental",
+      "title": "Rental Alat Berat di THEI dengan Pelayanan Segudang",
+      "date": "2025-10-25",
+      "image": "/home/our-product1.webp",
+      "excerpt": "THEI menghadirkan layanan rental alat berat dengan berbagai keunggulan: armada terbaru, proses mudah, dukungan teknis 24/7, serta bonus dan promo menarik untuk setiap pelanggan. Pastikan kebutuhan proyek Anda terpenuhi dengan pelayanan terbaik dari THEI."
     },
     {
       "id": 5,

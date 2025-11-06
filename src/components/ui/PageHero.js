@@ -26,7 +26,12 @@ const PageHero = ({ dictionary }) => {
             {subtitle}
           </p>
         )}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-2 sm:mt-4 max-w-4xl">
+        <h1
+          className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-2 sm:mt-4 max-w-4xl"
+          style={{
+            textShadow: '0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)',
+          }}
+        >
           {title}
         </h1>
         {/* Logic untuk render breadcrumbs secara dinamis */}
