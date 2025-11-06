@@ -1,7 +1,12 @@
 {
   "header": {
-    "title": "THEI - TJM Heavy Equipment Indonesia",
-    "subtitle": "Indonesia's One-Stop Solution for Heavy Equipment Rental, Service & Sales"
+    "background_image": "/banner-highlight.webp",
+    "brand_text": "THEI - TJM Heavy Equipment Indonesia",
+    "headline_line1": "BUY HEAVY EQUIPMENT",
+    "headline_line2": "BONUS WORTH",
+    "headline_highlight": "1 BILLION RUPIAH",
+    "headline_line3": "ONLY AT THEI",
+    "subheadline1": "FIRST IN INDONESIA"
   },
   "hero": {
     "main_copy": "Sales • Spare Parts • Service • Rental • Trade-In",

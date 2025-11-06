@@ -1,8 +1,8 @@
-'use client';
-import React, { useEffect, useRef, useState } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { gsap } from 'gsap';
+"use client";
+import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { gsap } from "gsap";
 
 const Hero = ({ dictionary, currentLocale }) => {
   const heroDict = dictionary || {};
@@ -21,15 +21,15 @@ const Hero = ({ dictionary, currentLocale }) => {
 
   // GSAP animasi slide in/out hanya di mobile
   useEffect(() => {
-    if (typeof window === 'undefined' || window.innerWidth >= 640) return;
+    if (typeof window === "undefined" || window.innerWidth >= 640) return;
     if (subTexts.length <= 1) return;
 
     const animateOut = () => {
       gsap.to(textRef.current, {
-        x: '-100%',
+        x: "-100%",
         opacity: 0,
         duration: 0.35,
-        ease: 'power2.in',
+        ease: "power2.in",
         onComplete: () => {
           setActiveIdx((prev) => (prev + 1) % subTexts.length);
         },
@@ -39,8 +39,8 @@ const Hero = ({ dictionary, currentLocale }) => {
     const animateIn = () => {
       gsap.fromTo(
         textRef.current,
-        { x: '100%', opacity: 0 },
-        { x: '0%', opacity: 1, duration: 0.35, ease: 'power2.out' }
+        { x: "100%", opacity: 0 },
+        { x: "0%", opacity: 1, duration: 0.35, ease: "power2.out" }
       );
     };
 
@@ -56,19 +56,19 @@ const Hero = ({ dictionary, currentLocale }) => {
 
   // Animate in on mount and when activeIdx changes (for manual trigger)
   useEffect(() => {
-    if (typeof window === 'undefined' || window.innerWidth >= 640) return;
+    if (typeof window === "undefined" || window.innerWidth >= 640) return;
     if (subTexts.length <= 1) return;
-    gsap.set(textRef.current, { x: '100%', opacity: 0 });
+    gsap.set(textRef.current, { x: "100%", opacity: 0 });
     gsap.to(textRef.current, {
-      x: '0%',
+      x: "0%",
       opacity: 1,
       duration: 0.35,
-      ease: 'power2.out',
+      ease: "power2.out",
     });
   }, [activeIdx, subTexts.length]);
 
   return (
-    <div className="relative h-[70vh] sm:h-[85vh] overflow-hidden flex items-center justify-center text-center">
+    <div className="relative h-[70vh] sm:h-[90vh] overflow-hidden flex items-center justify-center text-center">
       {/* Gambar Latar Statis */}
       <Image
         src="/banner-hero.webp"
@@ -78,7 +78,8 @@ const Hero = ({ dictionary, currentLocale }) => {
         priority
         sizes="100vw"
       />
-      <div className="absolute inset-0 bg-black/70"></div>
+      {/* Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/30 to-black/10" />
       <div className="relative z-10 h-full flex flex-col items-center justify-center p-4">
         <div className="max-w-2xl sm:max-w-4xl mx-auto w-full">
           {/* Teks Utama */}
@@ -92,7 +93,7 @@ const Hero = ({ dictionary, currentLocale }) => {
             <p
               ref={textRef}
               className="text-yellow-400 text-base sm:hidden font-semibold tracking-wider uppercase m-0 w-full absolute left-0 top-0"
-              style={{ minHeight: '3rem' }}
+              style={{ minHeight: "3rem" }}
             >
               {subTexts[activeIdx]}
             </p>

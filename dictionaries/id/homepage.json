@@ -1,7 +1,12 @@
 {
   "header": {
-    "title": "THEI - TJM Heavy Equipment Indonesia",
-    "subtitle": "Solusi Satu Pintu Indonesia untuk Sewa, Servis & Penjualan Alat Berat"
+    "background_image": "/banner-highlight.webp",
+    "brand_text": "THEI - TJM Heavy Equipment Indonesia",
+    "headline_line1": "BELI ALAT BERAT",
+    "headline_line2": "BONUS SENILAI",
+    "headline_highlight": "1 MILIAR RUPIAH",
+    "headline_line3": "HANYA DI THEI",
+    "subheadline1": "PERTAMA DI INDONESIA"
   },
   "hero": {
     "main_copy": "Penjualan • Suku Cadang • Servis • Sewa • Tukar Tambah",
