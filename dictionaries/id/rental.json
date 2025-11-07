@@ -55,7 +55,7 @@
       ]
     },
     "facilities": {
-      "title": "Bukan Sekadar Sewa, Ini Jaminan Ketenangan Anda",
+      "title": "Kenyamanan Rental Mobil Dengan Ratusan Benefit",
       "image": "/rental/rental.webp",
 
       "items": [
@@ -65,20 +65,19 @@
         { "name": "Jaminan Unit Pengganti", "icon": "Repeat" },
         { "name": "Pelacakan GPS IoT", "icon": "MapPin" },
         { "name": "Kelengkapan Safety Kit", "icon": "HardHat" },
-        { "name": "Pelatihan Operator Dasar", "icon": "Users" }
+        { "name": "Pelatihan Operator Dasar", "icon": "Users" },
+        {
+          "name": "Bonus Perawatan Mobil Perusahaan Up To 250 Juta",
+          "icon": "Car"
+        }
       ]
     },
-    "tech_and_pricing": {
-      "title": "Teknologi & Transparansi",
-      "iot_demo": {
-        "title": "Pantau Unit Anda Secara Real-time",
-        "description": "Semua unit rental kami dilengkapi dengan IoT GPS untuk memonitor lokasi, jam operasional, dan kondisi mesin langsung dari genggaman Anda.",
-        "cta": "Lihat Demo Video"
-      },
-      "pricing_table": {
-        "title": "Struktur Harga Kompetitif",
-        "image": "/equipment/rental/pricing-table.webp"
-      }
+    "video_demo": {
+      "subtitle": "Lihat Bagaimana Kami Bekerja",
+      "title": "THEI Rental - Solusi Tepat untuk Proyek Anda",
+      "description": "Tonton video singkat untuk mengetahui bagaimana layanan rental THEI dapat membantu efisiensi proyek Anda dengan armada modern, dan layanan support terpadu.",
+      "video_url": "",
+      "thumbnail": "/rental/video-thumbnail.webp"
     },
     "main_cta": {
       "title": "Siap Memulai Proyek Anda Tanpa Beban Investasi?",

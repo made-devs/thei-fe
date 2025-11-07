@@ -87,10 +87,10 @@
     "facility_gallery": {
       "title": "Standar Profesional di Setiap Lokasi",
       "images": [
-        "/home/news4.webp",
-        "/home/news5.webp",
-        "/equipment/equip1.webp",
-        "/equipment/equip3.webp"
+        "/branches/branches1.webp",
+        "/branches/branches2.webp",
+        "/branches/branches3.webp",
+        "/branches/branches4.webp"
       ]
     },
     "main_cta": {

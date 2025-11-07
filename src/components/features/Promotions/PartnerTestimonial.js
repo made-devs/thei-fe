@@ -1,10 +1,10 @@
-"use client";
-import { PlayCircle, ArrowLeft, ArrowRight } from "lucide-react";
-import Image from "next/image";
-import useEmblaCarousel from "embla-carousel-react";
-import { useState, useEffect, useCallback, useMemo } from "react";
+'use client';
+import { PlayCircle, ArrowLeft, ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 
-const PartnerTestimonial = ({ dictionary }) => {
+const PartnerTestimonial = ({ dictionary, currentLocale = 'id' }) => {
   // Pindahkan semua hooks ke awal, SEBELUM conditional return
   const videoTestimonials = useMemo(
     () => dictionary?.video_testimonials?.videos || [],
@@ -12,8 +12,8 @@ const PartnerTestimonial = ({ dictionary }) => {
   );
 
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: "center",
-    containScroll: "trimSnaps",
+    align: 'center',
+    containScroll: 'trimSnaps',
     loop: true,
   });
 
@@ -25,10 +25,10 @@ const PartnerTestimonial = ({ dictionary }) => {
     if (!videoEmblaApi) return;
     const onSelect = () =>
       setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
-    videoEmblaApi.on("select", onSelect);
+    videoEmblaApi.on('select', onSelect);
     onSelect();
     return () => {
-      videoEmblaApi.off("select", onSelect);
+      videoEmblaApi.off('select', onSelect);
     };
   }, [videoEmblaApi]);
 
@@ -57,15 +57,20 @@ const PartnerTestimonial = ({ dictionary }) => {
     setSelectedVideo(null);
   };
 
+  // Hardcoded title berdasarkan bahasa
+  const getTitle = () => {
+    if (currentLocale === 'en') {
+      return 'See Their Promo Stories';
+    }
+    return 'Lihat Cerita Promo Mereka';
+  };
+
   return (
     <section className="bg-white py-20">
       <div className="container mx-auto px-4 lg:px-8 max-w-7xl">
         {/* Header */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold">
-            {dictionary.video_testimonials?.title ||
-              "Kisah Sukses Partner Kami"}
-          </h2>
+          <h2 className="text-3xl lg:text-4xl font-bold">{getTitle()}</h2>
         </div>
 
         {/* Video Carousel */}
@@ -121,8 +126,8 @@ const PartnerTestimonial = ({ dictionary }) => {
                 onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
                 className={`h-2 rounded-full transition-all ${
                   videoActiveIdx === idx
-                    ? "w-6 bg-yellow-400"
-                    : "w-2 bg-gray-300"
+                    ? 'w-6 bg-yellow-400'
+                    : 'w-2 bg-gray-300'
                 }`}
               />
             ))}
@@ -166,7 +171,7 @@ const PartnerTestimonial = ({ dictionary }) => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                   className="w-full h-full"
-                  style={{ border: "none" }}
+                  style={{ border: 'none' }}
                 ></iframe>
               </div>
             </div>

@@ -13,18 +13,31 @@
     "subtitle": "Solusi Perawatan & Operasional Penuh dari THEI",
     "description": "THEI (PT. TJM Heavy Equipment Indonesia) menghadirkan layanan Contract Service Alat Berat — program perawatan dan operasional menyeluruh bagi perusahaan yang mengandalkan unit alat berat dalam kegiatan proyek, pertambangan, konstruksi, logistik, maupun industri manufaktur.\n\nMelalui sistem kontrak 3 bulan, 6 bulan, dan 1 tahun, THEI memastikan setiap unit Anda beroperasi optimal, efisien, dan minim downtime, dengan dukungan teknisi profesional bersertifikat serta sistem monitoring terpadu.",
     "whatIsTitle": "APA ITU CONTRACT SERVICE THEI?",
-    "whatIsDesc": "Contract Service adalah kerjasama perawatan total alat berat, di mana THEI bertanggung jawab atas perawatan rutin, perbaikan, overhaul, hingga penggantian komponen kritikal — dengan biaya dan jadwal tetap sesuai perjanjian. Klien cukup fokus pada produktivitas proyek, sementara THEI menangani seluruh aspek teknis unit."
+    "whatIsDesc": "Contract Service adalah kerjasama perawatan total alat berat, di mana THEI bertanggung jawab atas perawatan rutin, perbaikan, overhaul, hingga penggantian komponen kritikal — dengan biaya dan jadwal tetap sesuai perjanjian. Klien cukup fokus pada produktivitas proyek, sementara THEI menangani seluruh aspek teknis unit.",
+    "images": [
+      "/contract-service/image1.webp",
+      "/contract-service/image2.webp",
+      "/contract-service/image3.webp"
+    ]
   },
   "packages": {
     "title": "PILIHAN PAKET CONTRACT SERVICE",
     "threeMonth": {
-      "title": "PAKET 3 BULAN",
+      "title": "BASIC PACKAGE (3 BULAN)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "4.790.000",
+      "price_after": "3.999.000",
+      "note": "*Syarat dan ketentuan berlaku",
       "features": [
-        "Service 250 HM",
-        "Penggantian oli & filter",
-        "Inspeksi engine & hydraulic",
-        "Pengecekan kaki-kaki dan safety system",
-        "Perbaikan ringan & penggantian minor part",
+        "Pergantian oli mesin",
+        "Pergantian filter oli",
+        "Pergantian filter solar",
+        "Inspeksi engine 20 titik",
+        "Inspeksi hydraulic 14 titik",
+        "Greasing seluruh komponen forklift",
+        "Inspeksi undercarriage 16 titik",
+        "Perbaikan ringan & pergantian minor part",
         "Troubleshooting cepat di lokasi",
         "Laporan mingguan & bulanan",
         "Rekap jam kerja unit",
@@ -35,42 +48,115 @@
       ]
     },
     "sixMonth": {
-      "title": "PAKET 6 BULAN",
+      "title": "ADVANCE PACKAGE (6 BULAN)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "9.790.000",
+      "price_after": "7.250.000",
+      "note": "*Syarat dan ketentuan berlaku",
       "features": [
-        "Service 250 HM dan 500 HM",
-        "Penggantian oli & filter (2x)",
-        "Inspeksi engine, hydraulic, axle",
-        "Cleaning radiator & fuel system",
-        "Perbaikan sedang, rebuild minor komponen",
-        "On-site repair & standby team",
-        "Monitoring digital (HM record, fuel usage)",
-        "Laporan performa & downtime analisis",
-        "Mekanik standby di site (jam kerja proyek)",
-        "Mobile service + emergency team",
-        "Stok part onsite (consignment)",
-        "Operator awareness & safety refreshment",
-        "Garansi layanan 3 bulan"
+        "Pergantian oli mesin",
+        "Pergantian filter oli",
+        "Pergantian filter solar",
+        "Inspeksi engine 20 titik",
+        "Inspeksi hydraulic 14 titik",
+        "Greasing seluruh komponen forklift",
+        "Inspeksi kaki-kaki 16 titik",
+        "Perbaikan ringan & pergantian minor part",
+        "Troubleshooting cepat di lokasi",
+        "Laporan mingguan & bulanan",
+        "Rekap jam kerja unit",
+        "Mekanik standby on call (respon maksimal 24 jam)",
+        "Penyediaan fast-moving parts (Genuine & OEM)",
+        "Basic training operator",
+        "Garansi layanan 1 bulan"
       ]
     },
     "oneYear": {
-      "title": "PAKET 1 TAHUN",
+      "title": "PREMIUM PACKAGE (1 TAHUN)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "16.200.000",
+      "price_after": "13.500.000",
+      "note": "*Syarat dan ketentuan berlaku",
       "features": [
-        "Service 250, 500, 750, 1000 & 2000 HM",
-        "Full preventive maintenance schedule",
-        "Major component check",
-        "Recalibration dan inspection OEM",
-        "Full corrective support & overhaul major component (engine, pump, transmisi)",
-        "Zero downtime guarantee",
-        "Full digital dashboard (realtime)",
-        "Analisa produktivitas, cost efficiency, dan histori unit",
-        "Mekanik & supervisor site dedicated",
-        "Support Layanan 24/7",
-        "Full sparepart management & inventory digital",
-        "Replacement plan hingga komponen utama",
-        "Full operator & mechanic training + sertifikasi internal THEI",
-        "Garansi layanan 6 bulan (extendable)"
+        "Pergantian oli mesin",
+        "Pergantian oli transmisi",
+        "Pergantian oli gardan/final drive",
+        "Pergantian filter oli",
+        "Pergantian filter solar",
+        "Pergantian filter oli transmisi",
+        "Inspeksi engine 20 titik",
+        "Inspeksi hydraulic 14 titik",
+        "Inspeksi undercarriage 16 titik",
+        "Inspeksi electrical 17 titik",
+        "Perbaikan ringan & penggantian minor part",
+        "Troubleshooting cepat di lokasi",
+        "Laporan mingguan & bulanan",
+        "Rekap jam kerja unit",
+        "Mekanik standby on call 24 jam",
+        "Penyediaan fast-moving parts (Genuine & OEM)",
+        "Basic training operator",
+        "Garansi layanan 1 bulan"
       ]
     }
+  },
+  "promos": {
+    "subtitle": "Penawaran Eksklusif",
+    "title": "Promo Yang Akan Anda Dapatkan",
+    "description": "Total Promo Senilai 100 Juta Rupiah - 10 Promo Gratis",
+    "items": [
+      {
+        "title": "PROMO SILVER CAR CARE",
+        "description": "Service mobil perusahaan s/d 10 jt rupiah (min service 1 jt rupiah)",
+        "image": "/contract-service/promo1.webp"
+      },
+      {
+        "title": "PROMO GOLD CAR CARE",
+        "description": "Service mobil perusahaan khusus service alat berat di THEI s/d 20 jt rupiah (min service diatas 1 jt rupiah)",
+        "image": "/contract-service/promo2.webp"
+      },
+      {
+        "title": "PROMO PLATINUM CAR CARE",
+        "description": "Service mobil perusahaan khusus trade in unit di THEI s/d 50 jt rupiah (min service diatas 30 jt rupiah)",
+        "image": "/contract-service/promo3.webp"
+      },
+      {
+        "title": "FREE INSPEKSI 77 TITIK",
+        "description": "Pemeriksaan menyeluruh 77 titik kritis unit alat berat Anda secara gratis",
+        "image": "/contract-service/promo4.webp"
+      },
+      {
+        "title": "DISCOUNT PAKET SERVICE UP TO 50%",
+        "description": "Hemat hingga 50% untuk paket service rutin alat berat Anda",
+        "image": "/contract-service/promo5.webp"
+      },
+      {
+        "title": "FREE CORPORATE GIFT PACK BASIC",
+        "description": "Dapatkan paket corporate gift eksklusif untuk perusahaan Anda",
+        "image": "/contract-service/promo6.webp"
+      },
+      {
+        "title": "DISCOUNT SPAREPART UP TO 30%",
+        "description": "Potongan harga hingga 30% untuk pembelian sparepart original",
+        "image": "/contract-service/promo7.webp"
+      },
+      {
+        "title": "FREE BIAYA VISIT AREA JABODETABEK",
+        "description": "Gratis biaya kunjungan teknisi untuk area Jabodetabek",
+        "image": "/contract-service/promo8.webp"
+      },
+      {
+        "title": "FREE BIAYA MENGINAP TEKNISI",
+        "description": "Gratis biaya akomodasi teknisi untuk area Jabodetabek",
+        "image": "/contract-service/promo9.webp"
+      },
+      {
+        "title": "FREE RUST REMOVER ANTI KARAT",
+        "description": "Dapatkan produk anti karat premium untuk melindungi alat berat Anda",
+        "image": "/contract-service/promo10.webp"
+      }
+    ]
   },
   "advantages": {
     "title": "KEUNGGULAN CONTRACT SERVICE THEI",
@@ -98,7 +184,7 @@
     ]
   },
   "schemes": {
-    "title": "SKEMA KERJASAMA FLEXIBLE",
+    "title": "SKEMA KERJASAMA FLEXIBLE MULAI 3 BULAN",
     "items": [
       {
         "title": "Full Maintenance Contract (FMC)",
@@ -118,6 +204,7 @@
       }
     ]
   },
+
   "cta": {
     "title": "KONSULTASI & PENAWARAN",
     "description": "Konsultasikan kebutuhan kontrak servis alat berat Anda dengan tim THEI.\nKami siap memberikan survey unit & proposal kontrak GRATIS sesuai kebutuhan proyek Anda.",

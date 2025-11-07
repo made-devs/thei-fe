@@ -6,48 +6,48 @@
         { "name": "About Us", "link": "/about" }
       ],
       "subtitle": "GET TO KNOW US",
-      "title": "Thei Is A Pioneer In Heavy Equipment With The Most Comprehensive After-Sales Bonuses In Indonesia.",
+      "title": "THEI, the Pioneer of Heavy Equipment with the Most Complete After-Sales Bonus in Indonesia",
       "image": "/banner-aboutus.webp"
     },
     "director_intro": {
       "subtitle": "DIRECTOR'S WELCOME",
       "title": "A Message from the Director",
-      "quote": "Welcome to THEI Heavy Equipment Indonesia, a part of TJM Group.\nWe are here as pioneers in transforming the Indonesian heavy equipment industry, carrying the spirit of being more complete, more efficient, and more professional.\n\nTHEI is not just a service provider, but a strategic partner that delivers efficiency, innovation, and added value, accompanied by bonuses and promotions worth up to hundreds of millions of rupiah.\nOur program is the only one in Indonesia, and even in the world, designed to provide a different experience for our business partners.\n\nThrough our complete ecosystem: Sales, Spare Parts, Service, Rental, and Trade-In.",
+      "quote": "Welcome to THEI Heavy Equipment Indonesia, part of TJM Group.\nWe are here as pioneers in transforming Indonesia's heavy equipment industry, carrying the spirit of becoming more complete, more efficient, and more professional.\n\nTHEI is not just a service provider, but a strategic partner that brings efficiency, innovation, and added value, accompanied by bonuses and promotions worth up to hundreds of millions of rupiah.\nOur program is the only one in Indonesia, and even in the world, designed to provide a different experience for our business partners.\n\nThrough our complete ecosystem: Sales, Spare Parts, Service, Rental, and Trade-In.",
       "video": {
-        "id": "",
+        "id": "dQw4w9WgXcQ",
         "thumbnail": "/about-us/about2.webp",
-        "alt": "THEI director's welcome video"
+        "alt": "Video greeting from THEI director"
       }
     },
     "vision_mission": {
       "vision_title": "Our Vision",
-      "vision_text": "THEI aims to be the largest and most comprehensive heavy equipment market leader in Indonesia, the official dealer for sales, spare parts, service, rental, and trade-in nationwide.",
+      "vision_text": "THEI aims to become the largest and most complete heavy equipment market leader in Indonesia, the official dealer for sales, spare parts, service, rental, and trade-in across the country.",
       "mission_title": "Our Mission",
       "mission_points": [
-        "Providing modern, well-maintained heavy equipment with high operating uptime, ready to support national projects.",
-        "Official sales of new units with a complete product selection and warranty.",
-        "Premium & after-sales services: detailed inspections, digital reports, full warranty, and certified technicians.",
-        "Enforcing a safe work system with technicians on standby 24/7.",
-        "The most comprehensive after-sales program up to 500 million rupiah.",
+        "Providing modern, well-maintained heavy equipment with high uptime, ready to support national projects.",
+        "Official sales of new units, a complete product selection, with warranty.",
+        "Premium & after-sales services: detailed inspections, digital reports, full warranty, certified technicians.",
+        "Upholding a safe work system, with technicians on standby 24/7.",
+        "The most complete after-sales program up to 500 million rupiah.",
         "Providing industry experts and strengthening the availability of spare parts needed by customers through our 25 branches."
       ]
     },
     "core_values": {
       "subtitle": "OUR FOUNDATION",
       "title": "Our Core Values",
-      "description": "These values are the pillars that support every aspect of our business, guiding our decisions and shaping a strong, ethical corporate culture.",
+      "description": "These values are the pillars that support every aspect of our business, guide our decisions, and shape a strong and ethical corporate culture.",
       "values": [
         {
           "name": "Integrity",
-          "description": "Upholding honesty, ethics, and transparency in every business aspect to build trust."
+          "description": "Upholding honesty, ethics, and transparency in every aspect of business to build trust."
         },
         {
           "name": "Safety First",
-          "description": "Prioritizing occupational health and safety (OHS) as a core culture to protect our team, clients, and environment."
+          "description": "Prioritizing occupational health and safety (OHS) as a primary culture to protect our team, clients, and the environment."
         },
         {
           "name": "Reliability",
-          "description": "Delivering consistent, high-quality services and products to ensure smooth client operations."
+          "description": "Providing consistent, high-quality services and products to ensure client operations run smoothly."
         },
         {
           "name": "Satisfaction",
@@ -66,12 +66,12 @@
     "hsse": {
       "subtitle": "TOP PRIORITY",
       "title": "Our HSSE Commitment",
-      "description": "We are fully committed to a culture of safety, aiming for zero accidents and ensuring complete personal protective equipment (PPE) at all sites.",
+      "description": "We are fully committed to a safety culture, targeting zero accidents, and ensuring the completeness of personal protective equipment (PPE) at all locations.",
       "points": [
-        "Regular safety training for all staff.",
+        "Regular work safety training for all staff.",
         "Routine inspection of equipment and work environments.",
         "Implementation of international OHS (Occupational Health and Safety) standards.",
-        "A 'Safety First' program as the company's core culture."
+        "'Safety First' program as the company's main culture."
       ]
     },
     "csr": {
@@ -79,15 +79,11 @@
       "title": "Corporate Social Responsibility",
       "description": "We believe in sustainable growth by giving back to the community and the environment. Our CSR initiatives focus on education, community empowerment, and environmental conservation.",
       "activities": [
-        "Certified training for heavy equipment operators.",
-        "Donation of equipment to technical schools.",
-        "The 'Green with THEI' program for tree planting initiatives."
+        "Certified heavy equipment operator training.",
+        "Equipment donations to technical schools.",
+        "Go Green with THEI Program (tree planting initiative)."
       ],
       "images": [
-        {
-          "src": "/home/news1.webp",
-          "alt": "Company building as part of the community"
-        },
         {
           "src": "/home/news2.webp",
           "alt": "Partnership with local communities"
@@ -98,7 +94,7 @@
         },
         {
           "src": "/home/news4.webp",
-          "alt": "Skill training and development"
+          "alt": "Training and skill development"
         }
       ]
     }

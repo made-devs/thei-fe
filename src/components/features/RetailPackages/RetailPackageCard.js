@@ -12,54 +12,61 @@ import {
 
 const CARD_WIDTH = 320; // px
 
-// Card untuk satu service dengan desain baru
+// Card untuk satu service dengan desain THEI (Kuning & Hitam)
 const ServiceCard = ({ service, area_note, dictionary }) => (
   <div
-    className="group bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col h-full mx-2 overflow-hidden border border-gray-200"
+    className="group bg-gradient-to-br from-gray-900 to-black rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 flex flex-col h-full mx-2 overflow-hidden border-2 border-yellow-400 hover:border-yellow-500 hover:-translate-y-2"
     style={{
       width: `${CARD_WIDTH}px`,
       minWidth: `${CARD_WIDTH}px`,
       maxWidth: `${CARD_WIDTH}px`,
     }}
   >
-    <div className="w-full h-40 bg-gray-100 flex items-center justify-center relative overflow-hidden">
-      <div className="absolute inset-0 bg-yellow-400 opacity-0 group-hover:opacity-10 transition-opacity duration-300"></div>
+    {/* Icon Header dengan gradient kuning */}
+    <div className="w-full h-40 bg-gradient-to-br from-yellow-400 to-yellow-500 flex items-center justify-center relative overflow-hidden">
+      <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
       <Wrench
-        className="h-16 w-16 text-gray-300 group-hover:text-yellow-500 transition-colors duration-300"
-        strokeWidth={1.5}
+        className="h-16 w-16 text-black group-hover:scale-110 transition-transform duration-300"
+        strokeWidth={2}
       />
     </div>
+
+    {/* Content */}
     <div className="flex-1 flex flex-col p-4 sm:p-6">
-      <h4 className="font-bold text-black text-sm sm:text-base mb-2 flex-grow">
+      <h4 className="font-bold text-yellow-400 text-sm sm:text-base mb-2 flex-grow group-hover:text-yellow-300 transition-colors">
         {service.name}
       </h4>
-      <p className="text-lg sm:text-xl font-bold text-yellow-600 mb-3">
+      <p className="text-xl sm:text-2xl font-bold text-white mb-3">
         {service.price}
       </p>
       {area_note && (
-        <p className="text-xs text-gray-500 italic mb-4">{area_note}</p>
+        <p className="text-xs text-gray-400 italic mb-4">{area_note}</p>
       )}
-      <button className="mt-auto w-full bg-yellow-400 text-black font-bold py-2 px-4 rounded-lg hover:bg-yellow-500 transition-colors transform hover:scale-105 duration-300">
+      <button className="mt-auto w-full bg-yellow-400 text-black font-bold py-3 px-4 rounded-lg hover:bg-yellow-500 transition-all transform hover:scale-105 duration-300 shadow-lg">
         {dictionary.get_quote_button}
       </button>
     </div>
   </div>
 );
 
-// Card untuk bonus dengan desain baru
+// Card untuk bonus dengan warna THEI
 const BonusCard = ({ bonuses, dictionary }) => (
-  <div className="bg-yellow-50/50 rounded-lg p-4 sm:p-6 flex flex-col h-full border-2 border-dashed border-yellow-400">
-    <div className="flex items-center mb-3">
-      <Gift className="h-6 w-6 text-yellow-600 mr-3" />
-      <h4 className="font-bold text-black text-base sm:text-lg">
+  <div className="bg-gradient-to-br from-yellow-400 to-yellow-500 rounded-xl p-6 sm:p-8 flex flex-col h-full border-4 border-black shadow-2xl">
+    <div className="flex items-center mb-4">
+      <div className="bg-black rounded-full p-3 mr-4">
+        <Gift className="h-6 w-6 text-yellow-400" />
+      </div>
+      <h4 className="font-bold text-black text-lg sm:text-xl">
         {dictionary.bonus_title}
       </h4>
     </div>
-    <ul className="text-gray-700 text-sm space-y-2">
+    <ul className="text-black text-sm sm:text-base space-y-3">
       {bonuses.map((bonus, idx) => (
         <li key={idx} className="flex items-start">
-          <CheckCircle className="h-4 w-4 text-green-500 mr-2 mt-0.5 flex-shrink-0" />
-          <span>{bonus}</span>
+          <div className="bg-black rounded-full p-1 mr-3 mt-0.5 flex-shrink-0">
+            <CheckCircle className="h-4 w-4 text-yellow-400" />
+          </div>
+          <span className="font-medium">{bonus}</span>
         </li>
       ))}
     </ul>
@@ -69,7 +76,6 @@ const BonusCard = ({ bonuses, dictionary }) => (
 const RetailPackagesSlider = ({ dictionary, packages }) => {
   const [activeTab, setActiveTab] = useState(0);
 
-  // Embla setup - perbaiki typo embbaApi menjadi emblaApi
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: false,
     slidesToScroll: 'auto',
@@ -114,8 +120,9 @@ const RetailPackagesSlider = ({ dictionary, packages }) => {
   const activePackage = packages[activeTab];
 
   return (
-    <section className="bg-gray-50 py-12 sm:py-16 lg:py-20">
+    <section className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
+        {/* Header */}
         <div className="text-center mb-8 sm:mb-12">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black mb-4">
             {dictionary.title}
@@ -125,15 +132,16 @@ const RetailPackagesSlider = ({ dictionary, packages }) => {
           </p>
         </div>
 
+        {/* Tab Buttons */}
         <div className="flex justify-center mb-8 space-x-2 md:space-x-4 flex-wrap">
           {packages.map((pkg, idx) => (
             <button
               key={pkg.id}
               onClick={() => setActiveTab(idx)}
-              className={`px-4 md:px-6 py-2 rounded-full font-bold text-sm md:text-base transition-all duration-300 m-1 ${
+              className={`px-4 md:px-6 py-2 rounded-full font-bold text-sm md:text-base transition-all duration-300 m-1 border-2 ${
                 activeTab === idx
-                  ? 'bg-yellow-400 text-black shadow-md scale-105'
-                  : 'bg-white text-gray-700 hover:bg-gray-100'
+                  ? 'bg-yellow-400 text-black border-yellow-400 shadow-lg scale-105'
+                  : 'bg-black text-yellow-400 border-black hover:bg-gray-800 hover:border-gray-800'
               }`}
             >
               {pkg.equipment_type}
@@ -141,6 +149,7 @@ const RetailPackagesSlider = ({ dictionary, packages }) => {
           ))}
         </div>
 
+        {/* Carousel */}
         <div className="relative max-w-full lg:max-w-6xl mx-auto">
           <div className="overflow-hidden py-4" ref={emblaRef}>
             <div className="flex -mx-2">
@@ -155,15 +164,17 @@ const RetailPackagesSlider = ({ dictionary, packages }) => {
               ))}
             </div>
           </div>
+
+          {/* Navigation Buttons */}
           <button
-            className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-4 bg-white text-black p-2 rounded-full shadow-lg hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-opacity"
+            className="absolute top-1/2 left-0 transform -translate-y-1/2 -translate-x-4 bg-yellow-400 text-black p-3 rounded-full shadow-lg hover:bg-yellow-500 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-all"
             onClick={scrollPrev}
             disabled={!prevBtnEnabled}
           >
             <ChevronLeft size={24} />
           </button>
           <button
-            className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-4 bg-white text-black p-2 rounded-full shadow-lg hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-opacity"
+            className="absolute top-1/2 right-0 transform -translate-y-1/2 translate-x-4 bg-yellow-400 text-black p-3 rounded-full shadow-lg hover:bg-yellow-500 disabled:opacity-30 disabled:cursor-not-allowed z-10 transition-all"
             onClick={scrollNext}
             disabled={!nextBtnEnabled}
           >
@@ -171,6 +182,7 @@ const RetailPackagesSlider = ({ dictionary, packages }) => {
           </button>
         </div>
 
+        {/* Bonus Card */}
         <div className="max-w-3xl mx-auto mt-8 sm:mt-12">
           <BonusCard bonuses={activePackage.bonuses} dictionary={dictionary} />
         </div>

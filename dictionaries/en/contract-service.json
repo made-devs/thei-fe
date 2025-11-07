@@ -1,7 +1,7 @@
 {
   "hero": {
-    "subtitle": "FULL MAINTENANCE & OPERATIONAL SOLUTIONS FROM THEI",
     "title": "Contract Service",
+    "subtitle": "Complete Maintenance & Operational Solutions from THEI",
     "image": "/banner-contract-service.webp",
     "breadcrumbs": [
       { "name": "Home", "link": "/" },
@@ -10,25 +10,37 @@
   },
   "intro": {
     "title": "HEAVY EQUIPMENT CONTRACT SERVICE",
-    "subtitle": "Full Maintenance & Operational Solutions from THEI",
-    "image": "/contract-service/image1.webp",
-    "description": "THEI (PT. TJM Heavy Equipment Indonesia) provides Heavy Equipment Contract Service — a comprehensive maintenance and operational program for companies relying on heavy equipment units in projects, mining, construction, logistics, and manufacturing industries.\n\nThrough 3-month, 6-month, and 1-year contract systems, THEI ensures your units operate optimally, efficiently, and with minimal downtime, supported by certified professional technicians and an integrated monitoring system.",
+    "subtitle": "Complete Maintenance & Operational Solutions from THEI",
+    "description": "THEI (PT. TJM Heavy Equipment Indonesia) presents Heavy Equipment Contract Service — a comprehensive maintenance and operational program for companies that rely on heavy equipment units in project activities, mining, construction, logistics, and manufacturing industries.\n\nThrough 3-month, 6-month, and 1-year contract systems, THEI ensures each of your units operates optimally, efficiently, and with minimal downtime, supported by certified professional technicians and an integrated monitoring system.",
     "whatIsTitle": "WHAT IS THEI CONTRACT SERVICE?",
-    "whatIsDesc": "Contract Service is a total heavy equipment maintenance partnership, where THEI is responsible for routine maintenance, repairs, overhauls, and replacement of critical components — at a fixed cost and schedule as per the agreement. Clients can focus solely on project productivity, while THEI handles all technical aspects of the units."
+    "whatIsDesc": "Contract Service is a total heavy equipment maintenance partnership, where THEI is responsible for routine maintenance, repairs, overhauls, to the replacement of critical components — at a fixed cost and schedule as per the agreement. Clients can focus on project productivity, while THEI handles all technical aspects of the unit.",
+    "images": [
+      "/contract-service/image1.webp",
+      "/contract-service/image2.webp",
+      "/contract-service/image3.webp"
+    ]
   },
   "packages": {
     "title": "CONTRACT SERVICE PACKAGE OPTIONS",
     "threeMonth": {
-      "title": "3-MONTH PACKAGE",
+      "title": "BASIC PACKAGE (3 MONTHS)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "4,790,000",
+      "price_after": "3,999,000",
+      "note": "*Terms and conditions apply",
       "features": [
-        "250 HM Service",
-        "Oil & filter replacement",
-        "Engine & hydraulic inspection",
-        "Undercarriage and safety system check",
+        "Engine oil change",
+        "Oil filter change",
+        "Fuel filter change",
+        "20-point engine inspection",
+        "14-point hydraulic inspection",
+        "Greasing all forklift components",
+        "16-point undercarriage inspection",
         "Minor repairs & minor part replacement",
-        "Fast troubleshooting on-site",
+        "Quick troubleshooting on-site",
         "Weekly & monthly reports",
-        "Unit working hours recap",
+        "Unit work hour recap",
         "Mechanic standby on call (max 24-hour response)",
         "Provision of fast-moving parts (Genuine & OEM)",
         "Basic operator training",
@@ -36,42 +48,115 @@
       ]
     },
     "sixMonth": {
-      "title": "6-MONTH PACKAGE",
+      "title": "ADVANCE PACKAGE (6 MONTHS)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "9,790,000",
+      "price_after": "7,250,000",
+      "note": "*Terms and conditions apply",
       "features": [
-        "250 HM and 500 HM Service",
-        "Oil & filter replacement (2x)",
-        "Engine, hydraulic, axle inspection",
-        "Radiator & fuel system cleaning",
-        "Medium repairs, minor component rebuild",
-        "On-site repair & standby team",
-        "Digital monitoring (HM record, fuel usage)",
-        "Performance reports & downtime analysis",
-        "Mechanic standby on-site (project working hours)",
-        "Mobile service + emergency team",
-        "On-site parts stock (consignment)",
-        "Operator awareness & safety refreshment",
-        "3-month service warranty"
+        "Engine oil change",
+        "Oil filter change",
+        "Fuel filter change",
+        "20-point engine inspection",
+        "14-point hydraulic inspection",
+        "Greasing all forklift components",
+        "16-point undercarriage inspection",
+        "Minor repairs & minor part replacement",
+        "Quick troubleshooting on-site",
+        "Weekly & monthly reports",
+        "Unit work hour recap",
+        "Mechanic standby on call (max 24-hour response)",
+        "Provision of fast-moving parts (Genuine & OEM)",
+        "Basic operator training",
+        "1-month service warranty"
       ]
     },
     "oneYear": {
-      "title": "1-YEAR PACKAGE",
+      "title": "PREMIUM PACKAGE (1 YEAR)",
+      "subtitle": "1 TON - 3 TON",
+      "discount": "20%",
+      "price_before": "16,200,000",
+      "price_after": "13,500,000",
+      "note": "*Terms and conditions apply",
       "features": [
-        "250, 500, 750, 1000 & 2000 HM Service",
-        "Full preventive maintenance schedule",
-        "Major component check",
-        "Recalibration and OEM inspection",
-        "Full corrective support & major component overhaul (engine, pump, transmission)",
-        "Zero downtime guarantee",
-        "Full digital dashboard (real-time)",
-        "Productivity analysis, cost efficiency, and unit history",
-        "Dedicated site mechanics & supervisor",
-        "24/7 Service Support",
-        "Full spare part management & digital inventory",
-        "Replacement plan up to main components",
-        "Full operator & mechanic training + THEI internal certification",
-        "6-month service warranty (extendable)"
+        "Engine oil change",
+        "Transmission oil change",
+        "Differential/final drive oil change",
+        "Oil filter change",
+        "Fuel filter change",
+        "Transmission oil filter change",
+        "20-point engine inspection",
+        "14-point hydraulic inspection",
+        "16-point undercarriage inspection",
+        "17-point electrical inspection",
+        "Minor repairs & minor part replacement",
+        "Quick troubleshooting on-site",
+        "Weekly & monthly reports",
+        "Unit work hour recap",
+        "24-hour standby on-call mechanic",
+        "Provision of fast-moving parts (Genuine & OEM)",
+        "Basic operator training",
+        "1-month service warranty"
       ]
     }
+  },
+  "promos": {
+    "subtitle": "Exclusive Offer",
+    "title": "Promos You Will Get",
+    "description": "Total Promo Value of 100 Million Rupiah - 10 Free Promos",
+    "items": [
+      {
+        "title": "SILVER CAR CARE PROMO",
+        "description": "Company car service up to 10 million rupiah (min service 1 million rupiah)",
+        "image": "/contract-service/promo1.webp"
+      },
+      {
+        "title": "GOLD CAR CARE PROMO",
+        "description": "Company car service specifically for heavy equipment service at THEI up to 20 million rupiah (min service above 1 million rupiah)",
+        "image": "/contract-service/promo2.webp"
+      },
+      {
+        "title": "PLATINUM CAR CARE PROMO",
+        "description": "Company car service specifically for unit trade-in at THEI up to 50 million rupiah (min service above 30 million rupiah)",
+        "image": "/contract-service/promo3.webp"
+      },
+      {
+        "title": "FREE 77-POINT INSPECTION",
+        "description": "Free comprehensive inspection of 77 critical points on your heavy equipment unit",
+        "image": "/contract-service/promo4.webp"
+      },
+      {
+        "title": "SERVICE PACKAGE DISCOUNT UP TO 50%",
+        "description": "Save up to 50% on your heavy equipment's routine service package",
+        "image": "/contract-service/promo5.webp"
+      },
+      {
+        "title": "FREE CORPORATE GIFT PACK BASIC",
+        "description": "Get an exclusive corporate gift pack for your company",
+        "image": "/contract-service/promo6.webp"
+      },
+      {
+        "title": "SPAREPART DISCOUNT UP TO 30%",
+        "description": "Price reduction up to 30% for original spare part purchases",
+        "image": "/contract-service/promo7.webp"
+      },
+      {
+        "title": "FREE VISIT FEE FOR JABODETABEK AREA",
+        "description": "Free technician visit fee for the Jabodetabek area",
+        "image": "/contract-service/promo8.webp"
+      },
+      {
+        "title": "FREE TECHNICIAN ACCOMMODATION FEE",
+        "description": "Free technician accommodation costs for the Jabodetabek area",
+        "image": "/contract-service/promo9.webp"
+      },
+      {
+        "title": "FREE RUST REMOVER ANTI-RUST",
+        "description": "Get a premium anti-rust product to protect your heavy equipment",
+        "image": "/contract-service/promo10.webp"
+      }
+    ]
   },
   "advantages": {
     "title": "ADVANTAGES OF THEI CONTRACT SERVICE",
@@ -82,11 +167,11 @@
       },
       {
         "title": "Minimal Downtime",
-        "desc": "preventive plan & 24-hour standby mechanics"
+        "desc": "preventive plan & 24-hour standby mechanic"
       },
       {
         "title": "Certified Technicians",
-        "desc": "multi-brand experience: Caterpillar, Komatsu, Zoomlion, SANY, etc."
+        "desc": "multi-brand experience: Caterpillar, Komatsu, Zoomlion, SANY, etc"
       },
       {
         "title": "Digital Maintenance System",
@@ -99,7 +184,7 @@
     ]
   },
   "schemes": {
-    "title": "FLEXIBLE PARTNERSHIP SCHEMES",
+    "title": "FLEXIBLE PARTNERSHIP SCHEMES STARTING FROM 3 MONTHS",
     "items": [
       {
         "title": "Full Maintenance Contract (FMC)",
@@ -115,18 +200,13 @@
       },
       {
         "title": "On-Call Support Contract",
-        "desc": "Mechanics & team standby according to unit working hours"
+        "desc": "Mechanic & team on standby according to unit work hours"
       }
     ]
   },
   "cta": {
     "title": "CONSULTATION & QUOTATION",
-    "description": "Consult your heavy equipment contract service needs with the THEI team.\nWe are ready to provide a FREE unit survey & contract proposal according to your project needs.",
+    "description": "Consult your heavy equipment contract service needs with the THEI team.\nWe are ready to provide a unit survey & FREE contract proposal according to your project needs.",
     "button": "Get a Free Quote"
-  },
-  "main_cta": {
-    "title": "Ready for Full Maintenance & Operational Support?",
-    "cta_button": "Contact THEI Team",
-    "cta_link": "/contact"
   }
 }

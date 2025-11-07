@@ -1,10 +1,11 @@
-import { Suspense } from 'react'; // Tambah import Suspense
+import { Suspense } from 'react';
 import { getDictionary } from '@/lib/dictionary';
 import MainCta from '@/components/features/home/MainCta';
-import PageHero from '@/components/ui/PageHero'; // Ganti import dari PartsHero ke PageHero
-import InteractivePartsView from '@/components/features/Parts/InteractivePartsView'; // Tambahkan import InteractivePartsView
+import PageHero from '@/components/ui/PageHero';
+import InteractivePartsView from '@/components/features/Parts/InteractivePartsView';
 import KeyFeatures from '@/components/features/Parts/KeyFeatures';
-import FastMovers from '@/components/features/Parts/FastMovers';
+import PartsUSP from '@/components/features/Parts/PartsUSP';
+import PartsLocation from '@/components/features/Parts/PartsLocation';
 
 // Import data parts
 import forkliftData from '@/data/parts/forklift-parts.json';
@@ -20,7 +21,7 @@ import concretePumpData from '@/data/parts/concrete-pump-parts.json';
 import backhoeLoaderData from '@/data/parts/backhoe-loader-parts.json';
 import telehandlerData from '@/data/parts/telehandler-parts.json';
 import boomLiftData from '@/data/parts/boom-lift-parts.json';
-import reachStackerData from '@/data/parts/reach-stacker-parts.json'; // Tambah import reach stacker
+import reachStackerData from '@/data/parts/reach-stacker-parts.json';
 
 export default async function PartsPage({ params }) {
   const { lang } = await params;
@@ -29,7 +30,6 @@ export default async function PartsPage({ params }) {
   const partsDict = dictionary.parts_page || {};
   const commonDict = dictionary || {};
 
-  // Hardcode categories sementara sampai dictionary parts.json diupdate
   const categories = [
     { name: 'Forklift' },
     { name: 'Mini Excavator' },
@@ -44,10 +44,9 @@ export default async function PartsPage({ params }) {
     { name: 'Backhoe Loader' },
     { name: 'Telehandler' },
     { name: 'Boom Lift' },
-    { name: 'Reach Stacker' }, // Tambah kategori Reach Stacker
+    { name: 'Reach Stacker' },
   ];
 
-  // Gabungkan data parts ke dalam objek berdasarkan kategori
   const partsData = {
     Forklift: forkliftData.forklifts || forkliftData,
     'Mini Excavator': miniExcavatorData.miniExcavators || miniExcavatorData,
@@ -62,13 +61,12 @@ export default async function PartsPage({ params }) {
     'Backhoe Loader': backhoeLoaderData.backhoeLoaders || backhoeLoaderData,
     Telehandler: telehandlerData.telehandlers || telehandlerData,
     'Boom Lift': boomLiftData.boomLifts || boomLiftData,
-    'Reach Stacker': reachStackerData.reachStackers || reachStackerData, // Tambah data reach stacker
+    'Reach Stacker': reachStackerData.reachStackers || reachStackerData,
   };
 
   return (
     <>
-      <PageHero dictionary={partsDict.hero} />{' '}
-      {/* Ganti PartsHero dengan PageHero */}
+      <PageHero dictionary={partsDict.hero} />
       <Suspense
         fallback={
           <div className="container mx-auto px-6 py-12 text-center">
@@ -80,11 +78,11 @@ export default async function PartsPage({ params }) {
           categories={categories}
           partsData={partsData}
           lang={lang}
-        />{' '}
+        />
       </Suspense>
-      {/* Tambahkan InteractivePartsView setelah PageHero */}
       <KeyFeatures dictionary={partsDict.features_section} />
-      <FastMovers dictionary={partsDict.fast_movers_section} />
+      <PartsUSP dictionary={partsDict.usp_section} />
+      <PartsLocation dictionary={commonDict.location} />
       <MainCta dictionary={commonDict.main_cta} />
     </>
   );

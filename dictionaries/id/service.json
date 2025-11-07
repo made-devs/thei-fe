@@ -2,7 +2,7 @@
   "service_page": {
     "hero": {
       "subtitle": "DUKUNGAN AHLI UNTUK ALAT BERAT ANDA",
-      "title": "Layanan Profesional, Uptime Maksimal",
+      "title": "Service Dengan Ratusan Layanan Terlengkap Hanya Di THEI!",
       "description": "Jaga performa puncak alat berat Anda dengan dukungan teknisi ahli dan solusi servis komprehensif kami yang siap 24/7.",
       "cta": "Jadwalkan Servis Sekarang",
       "image": "/banner-service.webp",
@@ -26,7 +26,7 @@
         {
           "id": "inspection",
           "icon": "ClipboardCheck",
-          "title": "Inspection",
+          "title": "Inspeksi Ratusan Titik",
           "description": "Layanan inspeksi mendetail untuk memastikan unit baru siap kerja atau unit lama tetap prima.",
           "points": ["PDI", "99-Point Inspection", "Commissioning"]
         },
@@ -54,7 +54,7 @@
         {
           "id": "ac",
           "icon": "Snowflake",
-          "title": "Air Conditioning",
+          "title": "Perawatan AC",
           "description": "Pastikan kenyamanan dan keamanan operator dengan layanan perawatan AC yang menyeluruh.",
           "points": ["Flushing", "Refill Freon", "Cabin Filter"]
         },
@@ -103,7 +103,8 @@
       ]
     },
     "quality_gallery": {
-      "title": "Bukti Kualitas dan Keahlian Kami",
+      "title": "Galeri Service",
+      "description": "Lihat bukti nyata dari kualitas layanan kami melalui galeri ini.",
       "before_after": {
         "title": "Lihat Transformasi Nyata Pekerjaan Kami",
         "image_before": "/service/before.webp",
@@ -111,19 +112,20 @@
       },
       "media_items": [
         {
-          "type": "video",
-          "title": "Proses Uji Hidrolik",
-          "src": "/service/video-thumb.webp"
+          "type": "image",
+          "src": "/service/service1.webp"
         },
         {
           "type": "image",
-          "title": "Mekanik Profesional",
-          "src": "/service/mechanic.webp"
+          "src": "/service/service2.webp"
         },
         {
           "type": "image",
-          "title": "Armada Truk Servis",
-          "src": "/service/service-truck.webp"
+          "src": "/service/service3.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service4.webp"
         }
       ]
     },

@@ -9,20 +9,20 @@
     "subheadline1": "FIRST IN INDONESIA"
   },
   "hero": {
-    "main_copy": "Sales • Spare Parts • Service • Rental • Trade-in",
-    "sub_copy_line1": "After-sales bonus up to Rp200 Million",
+    "main_copy": "Sales • Sparepart • Service • Rental • Trade-in",
+    "sub_copy_line1": "After-Sales Bonus up to Rp200 Million",
     "sub_copy_line2": "24/7 Service",
     "sub_copy_line3": "Genuine Spare Parts",
     "cta": {
       "quote": "Request a Quote",
       "explore": "Explore Products",
-      "book": "Book Service",
-      "branch": "Find Branch"
+      "book": "Book a Service",
+      "branch": "Find a Branch"
     },
     "scroll_down": "SCROLL DOWN",
-    "fab_quote": "REQUEST QUOTE",
+    "fab_quote": "REQUEST A QUOTE",
     "fab_location": "FIND LOCATION",
-    "fab_live_chat": "24H LIVE CHAT",
+    "fab_live_chat": "24 HOUR LIVE CHAT",
     "fab_mobile_quote": "Quote",
     "fab_mobile_location": "Location",
     "fab_mobile_call": "Call",
@@ -32,25 +32,25 @@
     "items": [
       "THEI Awarded as Best National Distributor 2025.",
       "20% discount on all genuine spare parts until the end of the month!",
-      "The largest heavy equipment exhibition is coming soon at Jakarta Convention Center.",
-      "Trade-In Program: Exchange your old equipment for new ones and get special offers."
+      "The largest heavy equipment exhibition is coming soon to the Jakarta Convention Center.",
+      "Trade-In Program: Exchange your old heavy equipment for a new one and get a special offer."
     ]
   },
   "our-service": {
-    "subtitle": "Complete Solutions",
+    "subtitle": "Complete Solution",
     "title": "Our Services",
-    "description": "THEI provides integrated heavy equipment solutions from sales, spare parts, professional service, to flexible rental.",
+    "description": "THEI provides integrated heavy equipment solutions from sales, spare parts, professional service, to rental with high flexibility.",
     "hover_text": "Click for Details",
     "slides": [
       {
         "id": 1,
-        "title": "Quality Heavy Equipment Sales",
+        "title": "Sales of Quality Heavy Equipment",
         "image": "/home/our-service1.webp",
         "link": "/products"
       },
       {
         "id": 2,
-        "title": "Complete Heavy Equipment Spare Parts",
+        "title": "Most Complete Heavy Equipment Spare Parts",
         "image": "/home/our-service2.webp",
         "link": "/spare-parts"
       },
@@ -75,36 +75,36 @@
     ]
   },
   "our-promo": {
-    "subtitle": "Special Grand Opening Offers",
-    "title": "Our Latest Promotions",
-    "description": "Don't miss out on exclusive promotions for purchases, rentals, services, and trade-ins of heavy equipment only at THEI. Maximize your business benefits.",
+    "subtitle": "Grand Opening Special Offer",
+    "title": "Our Latest Promos",
+    "description": "Don't miss various exclusive promos for purchasing, renting, servicing, and trading-in heavy equipment only at THEI. Achieve maximum profit for your business.",
     "hover_text": "Click for Details",
     "slides": [
       {
         "id": 1,
         "title": "Heavy Equipment Purchase Promo Worth 1 Billion Rupiah",
-        "description": "Get 16 free promos worth a total of 1 billion rupiah for every heavy equipment purchase at our Grand Opening.",
+        "description": "Get 16 free promos with a total value of 1 billion rupiah for every heavy equipment purchase at our Grand Opening.",
         "image": "/home/promo1.webp",
         "link": "/promotions/grand-opening-heavy-equipment-promo"
       },
       {
         "id": 2,
         "title": "Heavy Equipment Rental Promo Worth 100 Million Rupiah",
-        "description": "Enjoy operational convenience for your project with a heavy equipment rental promo worth 100 million rupiah from THEI.",
+        "description": "Enjoy operational ease for your project with a heavy equipment rental promo worth 100 million rupiah from THEI.",
         "image": "/home/promo2.webp",
         "link": "/promotions/heavy-equipment-rental-promo"
       },
       {
         "id": 3,
         "title": "Service & Service Contract Promo Worth 100 Million Rupiah",
-        "description": "Ensure your equipment is always in prime condition with service & service contract promos worth 100 million rupiah from THEI.",
+        "description": "Ensure your heavy equipment is always in prime condition with a service & service contract promo worth 100 million rupiah from THEI.",
         "image": "/home/promo3.webp",
         "link": "/promotions/heavy-equipment-service-promo"
       },
       {
         "id": 4,
         "title": "Heavy Equipment Trade-In Promo Worth 100 Million Rupiah",
-        "description": "Increase your project efficiency with a heavy equipment trade-in promo worth 100 million rupiah from THEI.",
+        "description": "Increase your project's efficiency with a heavy equipment trade-in promo worth 100 million rupiah from THEI.",
         "image": "/home/promo4.webp",
         "link": "/promotions/heavy-equipment-trade-in-promo"
       }
@@ -112,9 +112,9 @@
   },
   "our-brand-product": {
     "subtitle": "Quality Choices",
-    "title": "Our Brand Products",
-    "description": "We partner with world-renowned brands to provide high-quality heavy equipment tailored to your industry needs.",
-    "hover_text": "View Products",
+    "title": "Our Product Brands",
+    "description": "We partner with world-renowned brands to provide high-quality heavy equipment that suits your industry needs.",
+    "hover_text": "View Product",
     "cta_text": "View All Products",
     "cta_link": "/products",
     "slides": [
@@ -127,19 +127,19 @@
       {
         "id": 2,
         "title": "XCMG Excavator",
-        "description": "Heavy duty XCMG excavator for large-scale construction projects with maximum performance.",
+        "description": "Heavy-duty excavator for large-scale construction projects with maximum performance",
         "image": "/home/our-product2.webp"
       },
       {
         "id": 3,
         "title": "Nichiyu Forklift",
-        "description": "Nichiyu electric forklift, efficient and eco-friendly for modern logistics and warehousing needs.",
+        "description": "Nichiyu electric forklift, efficient and environmentally friendly for modern logistics and warehousing needs.",
         "image": "/home/our-product3.webp"
       },
       {
         "id": 4,
         "title": "CAT Backhoe Loader",
-        "description": "CAT backhoe loader, a powerful and efficient solution for construction and excavation work.",
+        "description": "CAT backhoe loader, a strong and efficient solution for construction and excavation jobs.",
         "image": "/home/our-product4.webp"
       }
     ]
@@ -147,17 +147,17 @@
   "highlight_promo": {
     "section_badge": "This Month's Promo",
     "title": "Limited",
-    "title_highlight": "Offers",
-    "description": "Don't miss the golden opportunity to boost your business productivity.",
-    "view_all_text": "View All Promotions",
+    "title_highlight": "Offer",
+    "description": "Don't miss this golden opportunity to increase your business productivity",
+    "view_all_text": "View All Promos",
     "view_all_link": "/promotions",
     "cta_featured": "Get Promo",
     "cta_regular": "View Details"
   },
   "why_thei": {
     "subtitle": "Why Choose Us",
-    "title": "Why Our Clients Trust We're Different",
-    "description": "We not only provide heavy equipment, but complete solutions to support your project success with international standards and reliable after-sales service.",
+    "title": "Why Our Clients Believe We Are Different",
+    "description": "We don't just provide heavy equipment, but a complete solution to support your project's success with international standards and reliable after-sales service.",
     "image_url": "/whychooseus.webp",
     "features": [
       {
@@ -169,16 +169,16 @@
         "description": "Ready to serve you anytime, anywhere, to minimize downtime."
       },
       {
-        "title": "Complete Spare Parts",
+        "title": "Most Complete Spare Parts",
         "description": "Guaranteed availability of the most complete spare parts for optimal performance."
       },
       {
         "title": "HSSE Certified",
-        "description": "Committed to the highest standards for safety and environment."
+        "description": "Committed to the highest standards for health, safety, and environment."
       },
       {
-        "title": "Hundreds of Millions Rupiah Bonus",
-        "description": "The most rewarding after-sales program in the industry with abundant benefits."
+        "title": "Bonuses of Hundreds of Millions of Rupiah",
+        "description": "The most profitable after-sales program in the industry with abundant benefits."
       }
     ],
     "stats": [
@@ -190,56 +190,56 @@
   "news": {
     "title": "Latest News",
     "subtitle": "News & Articles",
-    "description": "Stay informed with the latest news, events, and articles from THEI. Get insights on our products, technology, and corporate activities.",
-    "see_more": "View All News",
+    "description": "Stay informed with the latest news, events, and articles from THEI. Get insights into our products, technology, and corporate activities.",
+    "see_more": "See All News",
     "event_videos": {
       "title": "Exclusive Event Coverage",
       "description": "Watch highlights from our most important events. See our technology, team, and commitment in action.",
       "videos": [
-        { "title": "THEI Grand Launching 2025" },
-        { "title": "Largest Heavy Equipment Exhibition" },
+        { "title": "THEI 2025 Grand Launching" },
+        { "title": "The Largest Heavy Equipment Exhibition" },
         { "title": "National Customer Day" },
-        { "title": "CSR Tree Planting Program" }
+        { "title": "Tree Planting CSR Program" }
       ]
     }
   },
   "testimonials": {
-    "title": "THEI Customer Experience",
+    "title": "What Clients Say About Us",
     "subtitle": "Customer Testimonials",
-    "description": "Our customers' success stories are a testament to our commitment to quality and service. See what they have to say about partnering with THEI.",
+    "description": "Our customers' success stories are a testament to our commitment to quality and service. See what they say about their experience partnering with THEI.",
     "list": [
       {
         "name": "Arga",
         "company": null,
         "image": "/home/testi1.webp",
-        "quote": "Since I started using dump trucks from THEI, site operations have become smoother. The equipment is more durable and fuel-efficient. The 24-hour service is also very fast, any issues are handled immediately. The aftersales bonus is great too, my office vehicle gets free service from TJM Auto Care. I'm really satisfied with THEI!"
+        "quote": "As long as I've used dump trucks from THEI, operations at the site have been smoother. The equipment is durable and fuel-efficient. The 24-hour service is also really fast; every problem is handled immediately. The after-sales bonus is also cool; my office operational car gets free service from TJM Auto Care. Overall, I'm very satisfied with THEI!"
       },
       {
         "name": "Shambat Kumar",
         "company": null,
         "image": "/home/testi2.webp",
-        "quote": "Our forklifts work nonstop for 10 hours every day, usually they wear out quickly, but the units from THEI are really tough. What makes it comfortable is THEI's technicians regularly follow up and always remind us about service, so we never miss it. First time buying a forklift, got free coating, wheel alignment, and office car maintenance too!"
+        "quote": "Our forklifts work 10 hours non-stop every day and usually wear out quickly, but the units from THEI are very strong. What makes it convenient is that THEI technicians are diligent in following up and there are always service reminders, so we never miss one. It's the first time I bought a forklift and got bonuses like free coating, spooring, and maintenance for the office car too!"
       },
       {
         "name": "Rama",
         "company": null,
         "image": "/home/testi3.webp",
-        "quote": "I thought claiming warranty would be complicated when my crane had an error on site, but THEI's team came in just 4 hours and the service was completed without extra cost. The best part, I also got a TJM Auto Care membership bonus for my company car. Never found aftersales this serious before, really salute THEI."
+        "quote": "I thought it would be a hassle to claim the warranty when my crane had an error on site, but the THEI team arrived in just 4 hours and the service was completed immediately at no extra cost. The craziest part is, I also got a TJM Auto Care membership bonus for the company car. This is the first time I've found an after-sales program this serious, kudos to THEI."
       },
       {
         "name": "Richard",
         "company": null,
         "image": "/home/testi4.webp",
-        "quote": "At first I only tried one unit, turns out the equipment is efficient and the service is fast. Whenever there's a problem, THEI's team comes right away. Now I added more units, work is more peaceful. The bonuses are plenty, even the operational car gets serviced. Amazing, never expected this kind of service in Indonesia."
+        "quote": "At first, I only tried one unit, but it turned out the equipment was fuel-efficient and the service was fast. As soon as there was a problem, the THEI team came right away. Now I've added more units, and work is stress-free. There are also many bonuses; even the operational car gets serviced. Amazing, I didn't expect service like this in Indonesia."
       }
     ],
     "video_testimonials": {
-      "title": "See Their Success Stories",
+      "title": "THEI Customer Experience",
       "videos": [
         {
           "name": "Shambat Kumar",
           "company": null,
-          "title": "Tough Forklift & Trusted Service",
+          "title": "Durable Forklift & Trusted Service",
           "thumbnail": "/testi/testi-kumar.webp",
           "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
         },

@@ -1,7 +1,76 @@
 {
   "parts_page": {
+    "usp_section": {
+      "title": "Benefits of Shopping for",
+      "title_highlight": "Spare Parts at THEI",
+      "description": "Enjoy various exclusive benefits that you won't find elsewhere. We are committed to providing more value for every transaction.",
+      "cta_text": "Contact Us Now",
+      "cta_link": "/contact",
+      "benefits": [
+        {
+          "icon": "truck",
+          "title": "Free Shipping for Surrounding Areas",
+          "description": "Free delivery for areas around THEI. Save costs, get it fast!",
+          "badge": "FREE"
+        },
+        {
+          "icon": "tag",
+          "title": "5-10% Opening Discount",
+          "description": "Get a special grand opening discount every day for all spare part products.",
+          "badge": "PROMO"
+        },
+        {
+          "icon": "shield",
+          "title": "1-Month Warranty",
+          "description": "Official warranty for all spare parts. Terms and conditions apply.",
+          "badge": null
+        },
+        {
+          "icon": "droplet",
+          "title": "Free Oil Filter",
+          "description": "Buy 1 gallon of oil (4 liters) and get 1 free original oil filter.",
+          "badge": "BONUS"
+        },
+        {
+          "icon": "card",
+          "title": "Free Member Card",
+          "description": "Collect points with every transaction, exchange them for discounts or attractive prizes.",
+          "badge": "NEW"
+        },
+        {
+          "icon": "users",
+          "title": "Partnership Program",
+          "description": "Attractive commissions for workshop partners. Join us and profit together!",
+          "badge": null
+        },
+        {
+          "icon": "trending",
+          "title": "Cashback up to 3%",
+          "description": "Cashback for large volume purchases. The more you buy, the bigger the cashback.",
+          "badge": "CASHBACK"
+        },
+        {
+          "icon": "graduation",
+          "title": "Free Mechanic Training",
+          "description": "Free training with certified instructors to improve your team's skills.",
+          "badge": "FREE"
+        },
+        {
+          "icon": "shirt",
+          "title": "Free Workshop Uniform",
+          "description": "Get an exclusive co-branded THEI uniform for your workshop team.",
+          "badge": "GIFT"
+        },
+        {
+          "icon": "megaphone",
+          "title": "Partner Promotion Support",
+          "description": "Banners, and other promotional support for workshop partners.",
+          "badge": null
+        }
+      ]
+    },
     "hero": {
-      "subtitle": "GENUINE PARTS FOR YOUR MACHINE",
+      "subtitle": "GENUINE SPARE PARTS FOR YOUR HEAVY EQUIPMENT",
       "title": "Guaranteed Availability, Maximum Performance",
       "image": "/banner-sparepart.webp",
       "breadcrumbs": [
@@ -10,36 +79,36 @@
       ]
     },
     "features_section": {
-      "title": "Why Choose Our Genuine Parts?",
+      "title": "Why Choose Our Genuine Spare Parts?",
       "features": [
         {
           "name": "Easy Ordering",
-          "description": "Order via WhatsApp, Hotline, or inquiry form.",
+          "description": "Order via WhatsApp, Hotline, or request form.",
           "icon": "MessageSquare"
         },
         {
-          "name": "Flexible Delivery",
-          "description": "Choose between delivery to your site or pick-up at our branch.",
+          "name": "Spare Part Delivery Service",
+          "description": "Enjoy the convenience of having spare parts delivered directly to your location.",
           "icon": "Truck"
         },
         {
-          "name": "Genuine Warranty",
-          "description": "Official warranty for every genuine part you purchase.",
+          "name": "Guaranteed Spare Parts",
+          "description": "Official warranty for every spare part you buy at THEI.",
           "icon": "ShieldCheck"
         },
         {
-          "name": "Monthly Promo",
-          "description": "Get special offers for selected spare parts every month.",
-          "icon": "Tag"
+          "name": "Service Without Holidays",
+          "description": "Our team is ready to serve your spare part needs every day, including weekends and holidays.",
+          "icon": "CalendarCheck"
         }
       ]
     },
     "category_section": {
-      "title": "Explore Parts Categories",
-      "description": "Find the specific part you need from our comprehensive catalog.",
+      "title": "Explore Spare Part Categories",
+      "description": "Find the specific spare parts you need from our complete catalog.",
       "categories": [
         {
-          "name": "Oil, Air, Fuel, Hydraulic Filter",
+          "name": "Oil, Air, Fuel, Hydraulic Filters",
           "image": "/parts/part1.webp",
           "link": "#"
         },
@@ -71,14 +140,29 @@
     },
     "promo_section": {
       "title": "This Month's Special Promo",
-      "description": "See a simulation of how easy it is to order parts via WhatsApp and get attractive offers.",
-      "video_placeholder": "WA Order Simulation Video",
+      "description": "See a simulation of how to easily order spare parts via WhatsApp and get attractive offers.",
+      "video_placeholder": "WA Order Video Simulation",
       "video_id": "dQw4w9WgXcQ"
     },
     "fast_movers_section": {
-      "title": "Fast Moving Parts",
+      "title": "Fast Moving Spare Parts",
       "description": "The table below shows the most frequently sought-after spare parts by our customers. All are guaranteed 100% genuine.",
       "image": "/parts/fast-movers-table.webp"
     }
+  },
+  "location": {
+    "title": "Location of",
+    "title_highlight": "THEI Spareparts",
+    "description": "Find the location of THEI's official spare parts store and warehouse for your heavy equipment needs.",
+    "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6449827472913!2d106.81717507499658!3d-6.176149993804892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e8d1e0!2sJl.%20Sukarjo%20Wiryopranoto%20No.39%2C%20RT.4%2FRW.1%2C%20Maphar%2C%20Kec.%20Taman%20Sari%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011160!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid",
+    "map_link": "https://maps.app.goo.gl/Z3kgfiqcodH3MYAP7",
+    "map_button_text": "Open in Google Maps",
+    "address_label": "Address",
+    "address": "Jl. Sukarjo Wiryopranoto No.39, RT.4/RW.1, Maphar, Kec. Taman Sari, West Jakarta City, DKI Jakarta 11160",
+    "phone_label": "Contact",
+    "phone": "+6282228622387",
+    "phone_display": "+62 822-2862-2387",
+    "hours_label": "Operating Hours",
+    "hours": [{ "text": "Monday - Sunday: 09:00 - 19:00", "highlight": false }]
   }
 }

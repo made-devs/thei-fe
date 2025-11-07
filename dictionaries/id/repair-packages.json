@@ -43,7 +43,7 @@
       "getQuote": "Minta Penawaran"
     },
     "premium_service": {
-      "title": "Paket Servis Premium",
+      "title": "Paket Service Premium",
       "description": "Pilih dari tiga level layanan—Komplit, Super, dan Ultimate—yang dirancang untuk memberikan performa dan nilai terbaik untuk unit Anda.",
       "serviceContent": "Isi Paket Servis",
       "fullInspection": "Inspeksi Lengkap",

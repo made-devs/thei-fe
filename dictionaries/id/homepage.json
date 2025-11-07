@@ -9,7 +9,7 @@
     "subheadline1": "PERTAMA DI INDONESIA"
   },
   "hero": {
-    "main_copy": "Sales • Suku Cadang • Service • Rental • Trade-in",
+    "main_copy": "Sales • Sparepart • Service • Rental • Trade-in",
     "sub_copy_line1": "Bonus Purna Jual hingga Rp200 Juta",
     "sub_copy_line2": "Layanan 24/7",
     "sub_copy_line3": "Suku Cadang Asli",
@@ -204,8 +204,8 @@
     }
   },
   "testimonials": {
-    "title": "THEI Customer Experience",
-    "subtitle": "Customer Testimonials",
+    "title": "Apa Kata Klien Tentang Kami",
+    "subtitle": "Testimoni Pelanggan",
     "description": "Kisah sukses pelanggan kami adalah bukti komitmen kami terhadap kualitas dan layanan. Lihat apa kata mereka tentang pengalaman bermitra dengan THEI.",
     "list": [
       {
@@ -234,7 +234,7 @@
       }
     ],
     "video_testimonials": {
-      "title": "See Their Success Stories",
+      "title": "THEI Customer Experience",
       "videos": [
         {
           "name": "Shambat Kumar",

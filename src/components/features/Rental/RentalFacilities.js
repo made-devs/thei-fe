@@ -8,6 +8,7 @@ import {
   MapPin,
   HardHat,
   Users,
+  Car,
 } from 'lucide-react';
 
 const iconMap = {
@@ -28,6 +29,7 @@ const iconMap = {
     <HardHat size={20} className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5" />
   ),
   Users: <Users size={20} className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5" />,
+  Car: <Car size={20} className="text-yellow-400 sm:w-6 sm:h-6 w-5 h-5" />,
 };
 
 const RentalFacilities = ({ dictionary }) => {

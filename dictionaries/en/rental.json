@@ -55,38 +55,37 @@
       ]
     },
     "facilities": {
-      "title": "More Than Just Renting, It's a Guarantee of Peace of Mind",
+      "title": "Car Rental Convenience With Hundreds of Benefits",
       "image": "/rental/rental.webp",
       "items": [
         { "name": "Free Delivery", "icon": "Truck" },
         { "name": "SLA Response <3 Hours", "icon": "Clock3" },
-        { "name": "24/7 Service Truck Support", "icon": "Wrench" },
+        { "name": "24/7 Service Truck", "icon": "Wrench" },
         { "name": "Replacement Unit Guarantee", "icon": "Repeat" },
         { "name": "IoT GPS Tracking", "icon": "MapPin" },
         { "name": "Complete Safety Kit", "icon": "HardHat" },
-        { "name": "Basic Operator Training", "icon": "Users" }
+        { "name": "Basic Operator Training", "icon": "Users" },
+        {
+          "name": "Company Car Maintenance Bonus Up To 250 Million",
+          "icon": "Car"
+        }
       ]
     },
-    "tech_and_pricing": {
-      "title": "Technology & Transparency",
-      "iot_demo": {
-        "title": "Monitor Your Unit in Real-time",
-        "description": "All our rental units are equipped with IoT GPS to monitor location, operating hours, and machine condition right from your fingertips.",
-        "cta": "Watch Demo Video"
-      },
-      "pricing_table": {
-        "title": "Competitive Pricing Structure",
-        "image": "/equipment/rental/pricing-table.webp"
-      }
+    "video_demo": {
+      "subtitle": "See How We Work",
+      "title": "THEI Rental - The Right Solution for Your Project",
+      "description": "Watch a short video to see how THEI's rental services can help your project's efficiency with a modern fleet and integrated support services.",
+      "video_url": "",
+      "thumbnail": "/rental/video-thumbnail.webp"
     },
     "main_cta": {
-      "title": "Ready to Start Your Project Without the Burden of Investment?",
+      "title": "Ready to Start Your Project Without the Investment Burden?",
       "cta_button": "Request a Rental Quote"
     },
     "packages": {
       "title": "The Best Rental Packages for You",
       "description": "Choose the rental package that suits your project needs.",
-      "serviceContent": "Service Included",
+      "serviceContent": "Services Included",
       "fullInspection": "Full Inspection",
       "additionalInspection": "Additional Inspection",
       "bonuses": "Bonuses",
@@ -97,31 +96,31 @@
           "packages": [
             {
               "level": "THEI Rental Forklift 1",
-              "title": "Forklift Package 2-3 Ton Capacity",
+              "title": "Forklift Package Capacity 2-3 Tons",
               "image": "/rental/paket-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "2-3 Ton",
-                  "promo_price": "Rp 18.000.000/month",
-                  "normal_price": "Rp 18.000.000",
+                  "capacity": "2-3 Tons",
+                  "promo_price": "Rp 18,000,000/month",
+                  "normal_price": "Rp 18,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (3 Months)",
-                  "promo_price": "Rp 16.200.000/month",
-                  "normal_price": "Rp 18.000.000",
+                  "capacity": "2-3 Tons (3 Months)",
+                  "promo_price": "Rp 16,200,000/month",
+                  "normal_price": "Rp 18,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (6 Months)",
-                  "promo_price": "Rp 15.300.000/month",
-                  "normal_price": "Rp 18.000.000",
+                  "capacity": "2-3 Tons (6 Months)",
+                  "promo_price": "Rp 15,300,000/month",
+                  "normal_price": "Rp 18,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (12 Months)",
-                  "promo_price": "Rp 13.500.000/month",
-                  "normal_price": "Rp 18.000.000",
+                  "capacity": "2-3 Tons (12 Months)",
+                  "promo_price": "Rp 13,500,000/month",
+                  "normal_price": "Rp 18,000,000",
                   "savings": ""
                 }
               ],
@@ -132,31 +131,31 @@
             },
             {
               "level": "THEI Rental Forklift 2",
-              "title": "Forklift Package 5-7 Ton Capacity",
+              "title": "Forklift Package Capacity 5-7 Tons",
               "image": "/rental/paket-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "5-7 Ton",
-                  "promo_price": "Rp 33.000.000/month",
-                  "normal_price": "Rp 33.000.000",
+                  "capacity": "5-7 Tons",
+                  "promo_price": "Rp 33,000,000/month",
+                  "normal_price": "Rp 33,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "5-7 Ton (3 Months)",
-                  "promo_price": "Rp 29.700.000/month",
-                  "normal_price": "Rp 33.000.000",
+                  "capacity": "5-7 Tons (3 Months)",
+                  "promo_price": "Rp 29,700,000/month",
+                  "normal_price": "Rp 33,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "5-7 Ton (6 Months)",
-                  "promo_price": "Rp 28.000.000/month",
-                  "normal_price": "Rp 33.000.000",
+                  "capacity": "5-7 Tons (6 Months)",
+                  "promo_price": "Rp 28,000,000/month",
+                  "normal_price": "Rp 33,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "5-7 Ton (12 Months)",
-                  "promo_price": "Rp 24.700.000/month",
-                  "normal_price": "Rp 33.000.000",
+                  "capacity": "5-7 Tons (12 Months)",
+                  "promo_price": "Rp 24,700,000/month",
+                  "normal_price": "Rp 33,000,000",
                   "savings": ""
                 }
               ],
@@ -171,31 +170,31 @@
             },
             {
               "level": "THEI Rental Forklift 3",
-              "title": "Forklift Package 8-10 Ton Capacity",
+              "title": "Forklift Package Capacity 8-10 Tons",
               "image": "/rental/paket-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "8-10 Ton",
-                  "promo_price": "Rp 37.000.000/month",
-                  "normal_price": "Rp 37.000.000",
+                  "capacity": "8-10 Tons",
+                  "promo_price": "Rp 37,000,000/month",
+                  "normal_price": "Rp 37,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (3 Months)",
-                  "promo_price": "Rp 33.300.000/month",
-                  "normal_price": "Rp 37.000.000",
+                  "capacity": "8-10 Tons (3 Months)",
+                  "promo_price": "Rp 33,300,000/month",
+                  "normal_price": "Rp 37,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (6 Months)",
-                  "promo_price": "Rp 31.400.000/month",
-                  "normal_price": "Rp 37.000.000",
+                  "capacity": "8-10 Tons (6 Months)",
+                  "promo_price": "Rp 31,400,000/month",
+                  "normal_price": "Rp 37,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (12 Months)",
-                  "promo_price": "Rp 27.700.000/month",
-                  "normal_price": "Rp 37.000.000",
+                  "capacity": "8-10 Tons (12 Months)",
+                  "promo_price": "Rp 27,700,000/month",
+                  "normal_price": "Rp 37,000,000",
                   "savings": ""
                 }
               ],
@@ -215,31 +214,31 @@
           "packages": [
             {
               "level": "THEI Rental Wheel Loader 1",
-              "title": "Wheel Loader Package 1.0-1.5 m³ Capacity",
+              "title": "Wheel Loader Package Capacity 1.0-1.5 m³",
               "image": "/rental/paket-wheel-loader.webp",
               "tiers": [
                 {
                   "capacity": "1.0-1.5 m³",
-                  "promo_price": "Rp 66.000.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 66,000,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "1.0-1.5 m³ (3 Months)",
-                  "promo_price": "Rp 59.400.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 59,400,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "1.0-1.5 m³ (6 Months)",
-                  "promo_price": "Rp 56.100.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 56,100,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "1.0-1.5 m³ (12 Months)",
-                  "promo_price": "Rp 49.500.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 49,500,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 }
               ],
@@ -250,31 +249,31 @@
             },
             {
               "level": "THEI Rental Wheel Loader 2",
-              "title": "Wheel Loader Package 2.0-2.5 m³ Capacity",
+              "title": "Wheel Loader Package Capacity 2.0-2.5 m³",
               "image": "/rental/paket-wheel-loader.webp",
               "tiers": [
                 {
                   "capacity": "2.0-2.5 m³",
-                  "promo_price": "Rp 75.000.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 75,000,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "2.0-2.5 m³ (3 Months)",
-                  "promo_price": "Rp 67.500.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 67,500,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "2.0-2.5 m³ (6 Months)",
-                  "promo_price": "Rp 63.700.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 63,700,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "2.0-2.5 m³ (12 Months)",
-                  "promo_price": "Rp 56.200.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 56,200,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 }
               ],
@@ -289,31 +288,31 @@
             },
             {
               "level": "THEI Rental Wheel Loader 3",
-              "title": "Wheel Loader Package 3.0-3.5 m³ Capacity",
+              "title": "Wheel Loader Package Capacity 3.0-3.5 m³",
               "image": "/rental/paket-wheel-loader.webp",
               "tiers": [
                 {
                   "capacity": "3.0-3.5 m³",
-                  "promo_price": "Rp 90.000.000/month",
-                  "normal_price": "Rp 90.000.000",
+                  "promo_price": "Rp 90,000,000/month",
+                  "normal_price": "Rp 90,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "3.0-3.5 m³ (3 Months)",
-                  "promo_price": "Rp 81.000.000/month",
-                  "normal_price": "Rp 90.000.000",
+                  "promo_price": "Rp 81,000,000/month",
+                  "normal_price": "Rp 90,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "3.0-3.5 m³ (6 Months)",
-                  "promo_price": "Rp 76.500.000/month",
-                  "normal_price": "Rp 90.000.000",
+                  "promo_price": "Rp 76,500,000/month",
+                  "normal_price": "Rp 90,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "3.0-3.5 m³ (12 Months)",
-                  "promo_price": "Rp 67.500.000/month",
-                  "normal_price": "Rp 90.000.000",
+                  "promo_price": "Rp 67,500,000/month",
+                  "normal_price": "Rp 90,000,000",
                   "savings": ""
                 }
               ],
@@ -333,66 +332,69 @@
           "packages": [
             {
               "level": "THEI Rental Vibro 1",
-              "title": "Vibro Compactor Package 8-10 Ton Capacity",
+              "title": "Vibro Compactor Package Capacity 8-10 Tons",
               "image": "/rental/paket-vibro-compactor.webp",
               "tiers": [
                 {
-                  "capacity": "8-10 Ton",
-                  "promo_price": "Rp 50.000.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "8-10 Tons",
+                  "promo_price": "Rp 50,000,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (3 Months)",
-                  "promo_price": "Rp 45.000.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "8-10 Tons (3 Months)",
+                  "promo_price": "Rp 45,000,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (6 Months)",
-                  "promo_price": "Rp 42.500.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "8-10 Tons (6 Months)",
+                  "promo_price": "Rp 42,500,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (12 Months)",
-                  "promo_price": "Rp 37.500.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "8-10 Tons (12 Months)",
+                  "promo_price": "Rp 37,500,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 }
               ],
-              "service_content": ["Free operator 2 weeks", "Compaction SOP"],
+              "service_content": [
+                "Free operator for 2 weeks",
+                "Compaction SOP"
+              ],
               "full_inspection": [],
               "additional_inspection": [],
               "bonuses": []
             },
             {
               "level": "THEI Rental Vibro 2",
-              "title": "Vibro Compactor Package 11-12 Ton Capacity",
+              "title": "Vibro Compactor Package Capacity 11-12 Tons",
               "image": "/rental/paket-vibro-compactor.webp",
               "tiers": [
                 {
-                  "capacity": "11-12 Ton",
-                  "promo_price": "Rp 58.000.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "11-12 Tons",
+                  "promo_price": "Rp 58,000,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (3 Months)",
-                  "promo_price": "Rp 52.200.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "11-12 Tons (3 Months)",
+                  "promo_price": "Rp 52,200,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (6 Months)",
-                  "promo_price": "Rp 49.300.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "11-12 Tons (6 Months)",
+                  "promo_price": "Rp 49,300,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (12 Months)",
-                  "promo_price": "Rp 43.500.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "11-12 Tons (12 Months)",
+                  "promo_price": "Rp 43,500,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 }
               ],
@@ -407,31 +409,31 @@
             },
             {
               "level": "THEI Rental Vibro 3",
-              "title": "Vibro Compactor Package 13-14 Ton Capacity",
+              "title": "Vibro Compactor Package Capacity 13-14 Tons",
               "image": "/rental/paket-vibro-compactor.webp",
               "tiers": [
                 {
-                  "capacity": "13-14 Ton",
-                  "promo_price": "Rp 65.000.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "capacity": "13-14 Tons",
+                  "promo_price": "Rp 65,000,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-14 Ton (3 Months)",
-                  "promo_price": "Rp 58.500.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "capacity": "13-14 Tons (3 Months)",
+                  "promo_price": "Rp 58,500,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-14 Ton (6 Months)",
-                  "promo_price": "Rp 55.300.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "capacity": "13-14 Tons (6 Months)",
+                  "promo_price": "Rp 55,300,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-14 Ton (12 Months)",
-                  "promo_price": "Rp 48.700.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "capacity": "13-14 Tons (12 Months)",
+                  "promo_price": "Rp 48,700,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 }
               ],
@@ -450,31 +452,31 @@
           "packages": [
             {
               "level": "THEI Rental Mini Excavator 1",
-              "title": "Mini Excavator Package 2-3 Ton Capacity",
+              "title": "Mini Excavator Package Capacity 2-3 Tons",
               "image": "/rental/paket-mini-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "2-3 Ton",
-                  "promo_price": "Rp 26.000.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "2-3 Tons",
+                  "promo_price": "Rp 26,000,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (3 Months)",
-                  "promo_price": "Rp 23.400.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "2-3 Tons (3 Months)",
+                  "promo_price": "Rp 23,400,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (6 Months)",
-                  "promo_price": "Rp 22.100.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "2-3 Tons (6 Months)",
+                  "promo_price": "Rp 22,100,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "2-3 Ton (12 Months)",
-                  "promo_price": "Rp 19.500.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "2-3 Tons (12 Months)",
+                  "promo_price": "Rp 19,500,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 }
               ],
@@ -485,37 +487,37 @@
             },
             {
               "level": "THEI Rental Mini Excavator 2",
-              "title": "Mini Excavator Package 3-5 Ton Capacity",
+              "title": "Mini Excavator Package Capacity 3-5 Tons",
               "image": "/rental/paket-mini-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "3-5 Ton",
-                  "promo_price": "Rp 30.000.000/month",
-                  "normal_price": "Rp 30.000.000",
+                  "capacity": "3-5 Tons",
+                  "promo_price": "Rp 30,000,000/month",
+                  "normal_price": "Rp 30,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (3 Months)",
-                  "promo_price": "Rp 27.000.000/month",
-                  "normal_price": "Rp 30.000.000",
+                  "capacity": "3-5 Tons (3 Months)",
+                  "promo_price": "Rp 27,000,000/month",
+                  "normal_price": "Rp 30,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (6 Months)",
-                  "promo_price": "Rp 25.500.000/month",
-                  "normal_price": "Rp 30.000.000",
+                  "capacity": "3-5 Tons (6 Months)",
+                  "promo_price": "Rp 25,500,000/month",
+                  "normal_price": "Rp 30,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (12 Months)",
-                  "promo_price": "Rp 22.500.000/month",
-                  "normal_price": "Rp 30.000.000",
+                  "capacity": "3-5 Tons (12 Months)",
+                  "promo_price": "Rp 22,500,000/month",
+                  "normal_price": "Rp 30,000,000",
                   "savings": ""
                 }
               ],
               "service_content": [
                 "All bonuses from THEI Rental Mini Excavator 1",
-                "Free operator 1 month",
+                "Free operator for 1 month",
                 "Hammer piping"
               ],
               "full_inspection": [],
@@ -524,31 +526,31 @@
             },
             {
               "level": "THEI Rental Mini Excavator 3",
-              "title": "Mini Excavator Package 6-8 Ton Capacity",
+              "title": "Mini Excavator Package Capacity 6-8 Tons",
               "image": "/rental/paket-mini-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "6-8 Ton",
-                  "promo_price": "Rp 36.000.000/month",
-                  "normal_price": "Rp 36.000.000",
+                  "capacity": "6-8 Tons",
+                  "promo_price": "Rp 36,000,000/month",
+                  "normal_price": "Rp 36,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (3 Months)",
-                  "promo_price": "Rp 32.400.000/month",
-                  "normal_price": "Rp 36.000.000",
+                  "capacity": "6-8 Tons (3 Months)",
+                  "promo_price": "Rp 32,400,000/month",
+                  "normal_price": "Rp 36,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (6 Months)",
-                  "promo_price": "Rp 30.600.000/month",
-                  "normal_price": "Rp 36.000.000",
+                  "capacity": "6-8 Tons (6 Months)",
+                  "promo_price": "Rp 30,600,000/month",
+                  "normal_price": "Rp 36,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (12 Months)",
-                  "promo_price": "Rp 27.000.000/month",
-                  "normal_price": "Rp 36.000.000",
+                  "capacity": "6-8 Tons (12 Months)",
+                  "promo_price": "Rp 27,000,000/month",
+                  "normal_price": "Rp 36,000,000",
                   "savings": ""
                 }
               ],
@@ -568,31 +570,31 @@
           "packages": [
             {
               "level": "THEI Rental Motor Grader 1",
-              "title": "Motor Grader Package 120-140 HP Capacity",
+              "title": "Motor Grader Package Capacity 120-140 HP",
               "image": "/rental/paket-motor-grader.webp",
               "tiers": [
                 {
                   "capacity": "120-140 HP",
-                  "promo_price": "Rp 85.000.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "promo_price": "Rp 85,000,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "120-140 HP (3 Months)",
-                  "promo_price": "Rp 76.500.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "promo_price": "Rp 76,500,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "120-140 HP (6 Months)",
-                  "promo_price": "Rp 72.300.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "promo_price": "Rp 72,300,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "120-140 HP (12 Months)",
-                  "promo_price": "Rp 63.700.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "promo_price": "Rp 63,700,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 }
               ],
@@ -603,31 +605,31 @@
             },
             {
               "level": "THEI Rental Motor Grader 2",
-              "title": "Motor Grader Package 150-180 HP Capacity",
+              "title": "Motor Grader Package Capacity 150-180 HP",
               "image": "/rental/paket-motor-grader.webp",
               "tiers": [
                 {
                   "capacity": "150-180 HP",
-                  "promo_price": "Rp 100.000.000/month",
-                  "normal_price": "Rp 100.000.000",
+                  "promo_price": "Rp 100,000,000/month",
+                  "normal_price": "Rp 100,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "150-180 HP (3 Months)",
-                  "promo_price": "Rp 90.000.000/month",
-                  "normal_price": "Rp 100.000.000",
+                  "promo_price": "Rp 90,000,000/month",
+                  "normal_price": "Rp 100,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "150-180 HP (6 Months)",
-                  "promo_price": "Rp 85.000.000/month",
-                  "normal_price": "Rp 100.000.000",
+                  "promo_price": "Rp 85,000,000/month",
+                  "normal_price": "Rp 100,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "150-180 HP (12 Months)",
-                  "promo_price": "Rp 75.000.000/month",
-                  "normal_price": "Rp 100.000.000",
+                  "promo_price": "Rp 75,000,000/month",
+                  "normal_price": "Rp 100,000,000",
                   "savings": ""
                 }
               ],
@@ -642,31 +644,31 @@
             },
             {
               "level": "THEI Rental Motor Grader 3",
-              "title": "Motor Grader Package 200+ HP Capacity",
+              "title": "Motor Grader Package Capacity 200+ HP",
               "image": "/rental/paket-motor-grader.webp",
               "tiers": [
                 {
                   "capacity": "200+ HP",
-                  "promo_price": "Rp 115.000.000/month",
-                  "normal_price": "Rp 115.000.000",
+                  "promo_price": "Rp 115,000,000/month",
+                  "normal_price": "Rp 115,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "200+ HP (3 Months)",
-                  "promo_price": "Rp 103.500.000/month",
-                  "normal_price": "Rp 115.000.000",
+                  "promo_price": "Rp 103,500,000/month",
+                  "normal_price": "Rp 115,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "200+ HP (6 Months)",
-                  "promo_price": "Rp 97.800.000/month",
-                  "normal_price": "Rp 115.000.000",
+                  "promo_price": "Rp 97,800,000/month",
+                  "normal_price": "Rp 115,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "200+ HP (12 Months)",
-                  "promo_price": "Rp 86.200.000/month",
-                  "normal_price": "Rp 115.000.000",
+                  "promo_price": "Rp 86,200,000/month",
+                  "normal_price": "Rp 115,000,000",
                   "savings": ""
                 }
               ],
@@ -686,36 +688,36 @@
           "packages": [
             {
               "level": "THEI Rental Excavator 1",
-              "title": "Excavator Package 10-20 Ton Capacity",
+              "title": "Excavator Package Capacity 10-20 Tons",
               "image": "/rental/paket-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "10-20 Ton",
-                  "promo_price": "Rp 26.000.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "10-20 Tons",
+                  "promo_price": "Rp 26,000,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-20 Ton (3 Months)",
-                  "promo_price": "Rp 23.400.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "10-20 Tons (3 Months)",
+                  "promo_price": "Rp 23,400,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-20 Ton (6 Months)",
-                  "promo_price": "Rp 22.100.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "10-20 Tons (6 Months)",
+                  "promo_price": "Rp 22,100,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-20 Ton (12 Months)",
-                  "promo_price": "Rp 19.500.000/month",
-                  "normal_price": "Rp 26.000.000",
+                  "capacity": "10-20 Tons (12 Months)",
+                  "promo_price": "Rp 19,500,000/month",
+                  "normal_price": "Rp 26,000,000",
                   "savings": ""
                 }
               ],
               "service_content": [
-                "Free operator 1 month",
+                "Free operator for 1 month",
                 "Free delivery",
                 "GPS monitoring"
               ],
@@ -725,31 +727,31 @@
             },
             {
               "level": "THEI Rental Excavator 2",
-              "title": "Excavator Package 21-30 Ton Capacity",
+              "title": "Excavator Package Capacity 21-30 Tons",
               "image": "/rental/paket-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "21-30 Ton",
-                  "promo_price": "Rp 85.000.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "capacity": "21-30 Tons",
+                  "promo_price": "Rp 85,000,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "21-30 Ton (3 Months)",
-                  "promo_price": "Rp 76.500.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "capacity": "21-30 Tons (3 Months)",
+                  "promo_price": "Rp 76,500,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "21-30 Ton (6 Months)",
-                  "promo_price": "Rp 72.200.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "capacity": "21-30 Tons (6 Months)",
+                  "promo_price": "Rp 72,200,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "21-30 Ton (12 Months)",
-                  "promo_price": "Rp 63.700.000/month",
-                  "normal_price": "Rp 85.000.000",
+                  "capacity": "21-30 Tons (12 Months)",
+                  "promo_price": "Rp 63,700,000/month",
+                  "normal_price": "Rp 85,000,000",
                   "savings": ""
                 }
               ],
@@ -765,37 +767,37 @@
             },
             {
               "level": "THEI Rental Excavator 3",
-              "title": "Excavator Package 31-50 Ton Capacity",
+              "title": "Excavator Package Capacity 31-50 Tons",
               "image": "/rental/paket-excavator.webp",
               "tiers": [
                 {
-                  "capacity": "31-50 Ton",
-                  "promo_price": "Rp 114.000.000/month",
-                  "normal_price": "Rp 114.000.000",
+                  "capacity": "31-50 Tons",
+                  "promo_price": "Rp 114,000,000/month",
+                  "normal_price": "Rp 114,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "31-50 Ton (3 Months)",
-                  "promo_price": "Rp 102.600.000/month",
-                  "normal_price": "Rp 114.000.000",
+                  "capacity": "31-50 Tons (3 Months)",
+                  "promo_price": "Rp 102,600,000/month",
+                  "normal_price": "Rp 114,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "31-50 Ton (6 Months)",
-                  "promo_price": "Rp 96.900.000/month",
-                  "normal_price": "Rp 114.000.000",
+                  "capacity": "31-50 Tons (6 Months)",
+                  "promo_price": "Rp 96,900,000/month",
+                  "normal_price": "Rp 114,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "31-50 Ton (12 Months)",
-                  "promo_price": "Rp 85.500.000/month",
-                  "normal_price": "Rp 114.000.000",
+                  "capacity": "31-50 Tons (12 Months)",
+                  "promo_price": "Rp 85,500,000/month",
+                  "normal_price": "Rp 114,000,000",
                   "savings": ""
                 }
               ],
               "service_content": [
                 "All bonuses from THEI Rental Excavator 2",
-                "Dedicated technician",
+                "Specialized technician",
                 "Replacement guarantee",
                 "Corporate gift",
                 "Business consultation"
@@ -811,31 +813,31 @@
           "packages": [
             {
               "level": "THEI Rental Dozer 1",
-              "title": "Dozer Package 13-17 Ton Capacity",
+              "title": "Dozer Package Capacity 13-17 Tons",
               "image": "/rental/paket-dozer.webp",
               "tiers": [
                 {
-                  "capacity": "13-17 Ton",
-                  "promo_price": "Rp 95.000.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "13-17 Tons",
+                  "promo_price": "Rp 95,000,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-17 Ton (3 Months)",
-                  "promo_price": "Rp 85.500.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "13-17 Tons (3 Months)",
+                  "promo_price": "Rp 85,500,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-17 Ton (6 Months)",
-                  "promo_price": "Rp 80.800.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "13-17 Tons (6 Months)",
+                  "promo_price": "Rp 80,800,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-17 Ton (12 Months)",
-                  "promo_price": "Rp 71.200.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "13-17 Tons (12 Months)",
+                  "promo_price": "Rp 71,200,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 }
               ],
@@ -846,31 +848,31 @@
             },
             {
               "level": "THEI Rental Dozer 2",
-              "title": "Dozer Package 20-25 Ton Capacity",
+              "title": "Dozer Package Capacity 20-25 Tons",
               "image": "/rental/paket-dozer.webp",
               "tiers": [
                 {
-                  "capacity": "20-25 Ton",
-                  "promo_price": "Rp 120.000.000/month",
-                  "normal_price": "Rp 120.000.000",
+                  "capacity": "20-25 Tons",
+                  "promo_price": "Rp 120,000,000/month",
+                  "normal_price": "Rp 120,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "20-25 Ton (3 Months)",
-                  "promo_price": "Rp 108.000.000/month",
-                  "normal_price": "Rp 120.000.000",
+                  "capacity": "20-25 Tons (3 Months)",
+                  "promo_price": "Rp 108,000,000/month",
+                  "normal_price": "Rp 120,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "20-25 Ton (6 Months)",
-                  "promo_price": "Rp 102.000.000/month",
-                  "normal_price": "Rp 120.000.000",
+                  "capacity": "20-25 Tons (6 Months)",
+                  "promo_price": "Rp 102,000,000/month",
+                  "normal_price": "Rp 120,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "20-25 Ton (12 Months)",
-                  "promo_price": "Rp 90.000.000/month",
-                  "normal_price": "Rp 120.000.000",
+                  "capacity": "20-25 Tons (12 Months)",
+                  "promo_price": "Rp 90,000,000/month",
+                  "normal_price": "Rp 120,000,000",
                   "savings": ""
                 }
               ],
@@ -885,31 +887,31 @@
             },
             {
               "level": "THEI Rental Dozer 3",
-              "title": "Dozer Package 30-40 Ton Capacity",
+              "title": "Dozer Package Capacity 30-40 Tons",
               "image": "/rental/paket-dozer.webp",
               "tiers": [
                 {
-                  "capacity": "30-40 Ton",
-                  "promo_price": "Rp 150.000.000/month",
-                  "normal_price": "Rp 150.000.000",
+                  "capacity": "30-40 Tons",
+                  "promo_price": "Rp 150,000,000/month",
+                  "normal_price": "Rp 150,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30-40 Ton (3 Months)",
-                  "promo_price": "Rp 135.000.000/month",
-                  "normal_price": "Rp 150.000.000",
+                  "capacity": "30-40 Tons (3 Months)",
+                  "promo_price": "Rp 135,000,000/month",
+                  "normal_price": "Rp 150,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30-40 Ton (6 Months)",
-                  "promo_price": "Rp 127.500.000/month",
-                  "normal_price": "Rp 150.000.000",
+                  "capacity": "30-40 Tons (6 Months)",
+                  "promo_price": "Rp 127,500,000/month",
+                  "normal_price": "Rp 150,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30-40 Ton (12 Months)",
-                  "promo_price": "Rp 112.500.000/month",
-                  "normal_price": "Rp 150.000.000",
+                  "capacity": "30-40 Tons (12 Months)",
+                  "promo_price": "Rp 112,500,000/month",
+                  "normal_price": "Rp 150,000,000",
                   "savings": ""
                 }
               ],
@@ -929,31 +931,31 @@
           "packages": [
             {
               "level": "THEI Rental Boom Lift 1",
-              "title": "Boom Lift Package 12-14 m Capacity",
+              "title": "Boom Lift Package Capacity 12-14 m",
               "image": "/rental/paket-boom-lift.webp",
               "tiers": [
                 {
                   "capacity": "12-14 m",
-                  "promo_price": "Rp 52.000.000/month",
-                  "normal_price": "Rp 52.000.000",
+                  "promo_price": "Rp 52,000,000/month",
+                  "normal_price": "Rp 52,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "12-14 m (3 Months)",
-                  "promo_price": "Rp 46.800.000/month",
-                  "normal_price": "Rp 52.000.000",
+                  "promo_price": "Rp 46,800,000/month",
+                  "normal_price": "Rp 52,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "12-14 m (6 Months)",
-                  "promo_price": "Rp 44.200.000/month",
-                  "normal_price": "Rp 52.000.000",
+                  "promo_price": "Rp 44,200,000/month",
+                  "normal_price": "Rp 52,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "12-14 m (12 Months)",
-                  "promo_price": "Rp 39.000.000/month",
-                  "normal_price": "Rp 52.000.000",
+                  "promo_price": "Rp 39,000,000/month",
+                  "normal_price": "Rp 52,000,000",
                   "savings": ""
                 }
               ],
@@ -964,31 +966,31 @@
             },
             {
               "level": "THEI Rental Boom Lift 2",
-              "title": "Boom Lift Package 16-18 m Capacity",
+              "title": "Boom Lift Package Capacity 16-18 m",
               "image": "/rental/paket-boom-lift.webp",
               "tiers": [
                 {
                   "capacity": "16-18 m",
-                  "promo_price": "Rp 59.000.000/month",
-                  "normal_price": "Rp 59.000.000",
+                  "promo_price": "Rp 59,000,000/month",
+                  "normal_price": "Rp 59,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "16-18 m (3 Months)",
-                  "promo_price": "Rp 53.100.000/month",
-                  "normal_price": "Rp 59.000.000",
+                  "promo_price": "Rp 53,100,000/month",
+                  "normal_price": "Rp 59,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "16-18 m (6 Months)",
-                  "promo_price": "Rp 44.200.000/month",
-                  "normal_price": "Rp 59.000.000",
+                  "promo_price": "Rp 44,200,000/month",
+                  "normal_price": "Rp 59,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "16-18 m (12 Months)",
-                  "promo_price": "Rp 63.700.000/month",
-                  "normal_price": "Rp 59.000.000",
+                  "promo_price": "Rp 63,700,000/month",
+                  "normal_price": "Rp 59,000,000",
                   "savings": ""
                 }
               ],
@@ -1003,31 +1005,31 @@
             },
             {
               "level": "THEI Rental Boom Lift 3",
-              "title": "Boom Lift Package 20-22 m Capacity",
+              "title": "Boom Lift Package Capacity 20-22 m",
               "image": "/rental/paket-boom-lift.webp",
               "tiers": [
                 {
                   "capacity": "20-22 m",
-                  "promo_price": "Rp 66.000.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 66,000,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-22 m (3 Months)",
-                  "promo_price": "Rp 59.400.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 59,400,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-22 m (6 Months)",
-                  "promo_price": "Rp 56.100.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 56,100,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-22 m (12 Months)",
-                  "promo_price": "Rp 49.500.000/month",
-                  "normal_price": "Rp 66.000.000",
+                  "promo_price": "Rp 49,500,000/month",
+                  "normal_price": "Rp 66,000,000",
                   "savings": ""
                 }
               ],
@@ -1047,66 +1049,66 @@
           "packages": [
             {
               "level": "THEI Rental Tandem Roller 1",
-              "title": "Tandem Roller Package 8-10 Ton Capacity",
+              "title": "Tandem Roller Package Capacity 8-10 Tons",
               "image": "/rental/paket-tandem-roller.webp",
               "tiers": [
                 {
-                  "capacity": "8-10 Ton",
-                  "promo_price": "Rp 45.000.000/month",
-                  "normal_price": "Rp 45.000.000",
+                  "capacity": "8-10 Tons",
+                  "promo_price": "Rp 45,000,000/month",
+                  "normal_price": "Rp 45,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (3 Months)",
-                  "promo_price": "Rp 40.500.000/month",
-                  "normal_price": "Rp 45.000.000",
+                  "capacity": "8-10 Tons (3 Months)",
+                  "promo_price": "Rp 40,500,000/month",
+                  "normal_price": "Rp 45,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (6 Months)",
-                  "promo_price": "Rp 38.300.000/month",
-                  "normal_price": "Rp 45.000.000",
+                  "capacity": "8-10 Tons (6 Months)",
+                  "promo_price": "Rp 38,300,000/month",
+                  "normal_price": "Rp 45,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "8-10 Ton (12 Months)",
-                  "promo_price": "Rp 33.700.000/month",
-                  "normal_price": "Rp 45.000.000",
+                  "capacity": "8-10 Tons (12 Months)",
+                  "promo_price": "Rp 33,700,000/month",
+                  "normal_price": "Rp 45,000,000",
                   "savings": ""
                 }
               ],
-              "service_content": ["Free fuel 1 week", "Operator 2 weeks"],
+              "service_content": ["Free fuel for 1 week", "Operator 2 weeks"],
               "full_inspection": [],
               "additional_inspection": [],
               "bonuses": []
             },
             {
               "level": "THEI Rental Tandem Roller 2",
-              "title": "Tandem Roller Package 11-12 Ton Capacity",
+              "title": "Tandem Roller Package Capacity 11-12 Tons",
               "image": "/rental/paket-tandem-roller.webp",
               "tiers": [
                 {
-                  "capacity": "11-12 Ton",
-                  "promo_price": "Rp 50.000.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "11-12 Tons",
+                  "promo_price": "Rp 50,000,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (3 Months)",
-                  "promo_price": "Rp 45.000.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "11-12 Tons (3 Months)",
+                  "promo_price": "Rp 45,000,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (6 Months)",
-                  "promo_price": "Rp 42.500.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "11-12 Tons (6 Months)",
+                  "promo_price": "Rp 42,500,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "11-12 Ton (12 Months)",
-                  "promo_price": "Rp 37.500.000/month",
-                  "normal_price": "Rp 50.000.000",
+                  "capacity": "11-12 Tons (12 Months)",
+                  "promo_price": "Rp 37,500,000/month",
+                  "normal_price": "Rp 50,000,000",
                   "savings": ""
                 }
               ],
@@ -1120,31 +1122,31 @@
             },
             {
               "level": "THEI Rental Tandem Roller 3",
-              "title": "Tandem Roller Package 13-15 Ton Capacity",
+              "title": "Tandem Roller Package Capacity 13-15 Tons",
               "image": "/rental/paket-tandem-roller.webp",
               "tiers": [
                 {
-                  "capacity": "13-15 Ton",
-                  "promo_price": "Rp 58.000.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "13-15 Tons",
+                  "promo_price": "Rp 58,000,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-15 Ton (3 Months)",
-                  "promo_price": "Rp 52.200.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "13-15 Tons (3 Months)",
+                  "promo_price": "Rp 52,200,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-15 Ton (6 Months)",
-                  "promo_price": "Rp 49.300.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "13-15 Tons (6 Months)",
+                  "promo_price": "Rp 49,300,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "13-15 Ton (12 Months)",
-                  "promo_price": "Rp 43.500.000/month",
-                  "normal_price": "Rp 58.000.000",
+                  "capacity": "13-15 Tons (12 Months)",
+                  "promo_price": "Rp 43,500,000/month",
+                  "normal_price": "Rp 58,000,000",
                   "savings": ""
                 }
               ],
@@ -1169,26 +1171,26 @@
               "tiers": [
                 {
                   "capacity": "Terminal Tractor 4x2",
-                  "promo_price": "Rp 65.000.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "promo_price": "Rp 65,000,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 4x2 (3 Months)",
-                  "promo_price": "Rp 58.500.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "promo_price": "Rp 58,500,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 4x2 (6 Months)",
-                  "promo_price": "Rp 55.300.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "promo_price": "Rp 55,300,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 4x2 (12 Months)",
-                  "promo_price": "Rp 48.700.000/month",
-                  "normal_price": "Rp 65.000.000",
+                  "promo_price": "Rp 48,700,000/month",
+                  "normal_price": "Rp 65,000,000",
                   "savings": ""
                 }
               ],
@@ -1204,26 +1206,26 @@
               "tiers": [
                 {
                   "capacity": "Terminal Tractor 6x4",
-                  "promo_price": "Rp 75.000.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 75,000,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 6x4 (3 Months)",
-                  "promo_price": "Rp 67.500.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 67,500,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 6x4 (6 Months)",
-                  "promo_price": "Rp 63.800.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 63,800,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "Terminal Tractor 6x4 (12 Months)",
-                  "promo_price": "Rp 56.200.000/month",
-                  "normal_price": "Rp 75.000.000",
+                  "promo_price": "Rp 56,200,000/month",
+                  "normal_price": "Rp 75,000,000",
                   "savings": ""
                 }
               ],
@@ -1242,27 +1244,27 @@
               "image": "/rental/paket-port-equipment.webp",
               "tiers": [
                 {
-                  "capacity": "Heavy Forklift 12-16 Ton",
-                  "promo_price": "Rp 110.000.000/month",
-                  "normal_price": "Rp 110.000.000",
+                  "capacity": "Heavy Forklift 12-16 Tons",
+                  "promo_price": "Rp 110,000,000/month",
+                  "normal_price": "Rp 110,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "Heavy Forklift 12-16 Ton (3 Months)",
-                  "promo_price": "Rp 99.000.000/month",
-                  "normal_price": "Rp 110.000.000",
+                  "capacity": "Heavy Forklift 12-16 Tons (3 Months)",
+                  "promo_price": "Rp 99,000,000/month",
+                  "normal_price": "Rp 110,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "Heavy Forklift 12-16 Ton (6 Months)",
-                  "promo_price": "Rp 93.500.000/month",
-                  "normal_price": "Rp 110.000.000",
+                  "capacity": "Heavy Forklift 12-16 Tons (6 Months)",
+                  "promo_price": "Rp 93,500,000/month",
+                  "normal_price": "Rp 110,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "Heavy Forklift 12-16 Ton (12 Months)",
-                  "promo_price": "Rp 82.500.000/month",
-                  "normal_price": "Rp 110.000.000",
+                  "capacity": "Heavy Forklift 12-16 Tons (12 Months)",
+                  "promo_price": "Rp 82,500,000/month",
+                  "normal_price": "Rp 110,000,000",
                   "savings": ""
                 }
               ],
@@ -1282,31 +1284,31 @@
           "packages": [
             {
               "level": "THEI Rental Wide Dump Truck 1",
-              "title": "Wide Dump Truck Package 20-25 m³ Capacity",
+              "title": "Wide Dump Truck Package Capacity 20-25 m³",
               "image": "/rental/paket-wide-dump-truck.webp",
               "tiers": [
                 {
                   "capacity": "20-25 m³",
-                  "promo_price": "Rp 70.000.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "promo_price": "Rp 70,000,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-25 m³ (3 Months)",
-                  "promo_price": "Rp 63.000.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "promo_price": "Rp 63,000,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-25 m³ (6 Months)",
-                  "promo_price": "Rp 59.500.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "promo_price": "Rp 59,500,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "20-25 m³ (12 Months)",
-                  "promo_price": "Rp 52.500.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "promo_price": "Rp 52,500,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 }
               ],
@@ -1317,31 +1319,31 @@
             },
             {
               "level": "THEI Rental Wide Dump Truck 2",
-              "title": "Wide Dump Truck Package 35-45 m³ Capacity",
+              "title": "Wide Dump Truck Package Capacity 35-45 m³",
               "image": "/rental/paket-wide-dump-truck.webp",
               "tiers": [
                 {
                   "capacity": "35-45 m³",
-                  "promo_price": "Rp 140.000.000/month",
-                  "normal_price": "Rp 140.000.000",
+                  "promo_price": "Rp 140,000,000/month",
+                  "normal_price": "Rp 140,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "35-45 m³ (3 Months)",
-                  "promo_price": "Rp 126.000.000/month",
-                  "normal_price": "Rp 140.000.000",
+                  "promo_price": "Rp 126,000,000/month",
+                  "normal_price": "Rp 140,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "35-45 m³ (6 Months)",
-                  "promo_price": "Rp 119.000.000/month",
-                  "normal_price": "Rp 140.000.000",
+                  "promo_price": "Rp 119,000,000/month",
+                  "normal_price": "Rp 140,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "35-45 m³ (12 Months)",
-                  "promo_price": "Rp 105.000.000/month",
-                  "normal_price": "Rp 140.000.000",
+                  "promo_price": "Rp 105,000,000/month",
+                  "normal_price": "Rp 140,000,000",
                   "savings": ""
                 }
               ],
@@ -1356,31 +1358,31 @@
             },
             {
               "level": "THEI Rental Wide Dump Truck 3",
-              "title": "Wide Dump Truck Package 60-100 m³ Capacity",
+              "title": "Wide Dump Truck Package Capacity 60-100 m³",
               "image": "/rental/paket-wide-dump-truck.webp",
               "tiers": [
                 {
                   "capacity": "60-100 m³",
-                  "promo_price": "Rp 220.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 220,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "60-100 m³ (3 Months)",
-                  "promo_price": "Rp 198.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 198,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "60-100 m³ (6 Months)",
-                  "promo_price": "Rp 187.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 187,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "60-100 m³ (12 Months)",
-                  "promo_price": "Rp 165.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 165,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 }
               ],
@@ -1400,31 +1402,31 @@
           "packages": [
             {
               "level": "THEI Rental Mobile Crane 1",
-              "title": "Mobile Crane Package 25 Ton Capacity",
+              "title": "Mobile Crane Package Capacity 25 Tons",
               "image": "/rental/paket-mobile-crane.webp",
               "tiers": [
                 {
-                  "capacity": "25 Ton",
-                  "promo_price": "Rp 180.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "capacity": "25 Tons",
+                  "promo_price": "Rp 180,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "25 Ton (3 Months)",
-                  "promo_price": "Rp 162.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "capacity": "25 Tons (3 Months)",
+                  "promo_price": "Rp 162,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "25 Ton (6 Months)",
-                  "promo_price": "Rp 153.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "capacity": "25 Tons (6 Months)",
+                  "promo_price": "Rp 153,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "25 Ton (12 Months)",
-                  "promo_price": "Rp 135.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "capacity": "25 Tons (12 Months)",
+                  "promo_price": "Rp 135,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 }
               ],
@@ -1435,31 +1437,31 @@
             },
             {
               "level": "THEI Rental Mobile Crane 2",
-              "title": "Mobile Crane Package 50 Ton Capacity",
+              "title": "Mobile Crane Package Capacity 50 Tons",
               "image": "/rental/paket-mobile-crane.webp",
               "tiers": [
                 {
-                  "capacity": "50 Ton",
-                  "promo_price": "Rp 220.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "capacity": "50 Tons",
+                  "promo_price": "Rp 220,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (3 Months)",
-                  "promo_price": "Rp 198.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "capacity": "50 Tons (3 Months)",
+                  "promo_price": "Rp 198,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (6 Months)",
-                  "promo_price": "Rp 187.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "capacity": "50 Tons (6 Months)",
+                  "promo_price": "Rp 187,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (12 Months)",
-                  "promo_price": "Rp 165.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "capacity": "50 Tons (12 Months)",
+                  "promo_price": "Rp 165,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 }
               ],
@@ -1474,31 +1476,31 @@
             },
             {
               "level": "THEI Rental Mobile Crane 3",
-              "title": "Mobile Crane Package 100 Ton Capacity",
+              "title": "Mobile Crane Package Capacity 100 Tons",
               "image": "/rental/paket-mobile-crane.webp",
               "tiers": [
                 {
-                  "capacity": "100 Ton",
-                  "promo_price": "Rp 300.000.000/month",
-                  "normal_price": "Rp 300.000.000",
+                  "capacity": "100 Tons",
+                  "promo_price": "Rp 300,000,000/month",
+                  "normal_price": "Rp 300,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "100 Ton (3 Months)",
-                  "promo_price": "Rp 270.000.000/month",
-                  "normal_price": "Rp 300.000.000",
+                  "capacity": "100 Tons (3 Months)",
+                  "promo_price": "Rp 270,000,000/month",
+                  "normal_price": "Rp 300,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "100 Ton (6 Months)",
-                  "promo_price": "Rp 255.000.000/month",
-                  "normal_price": "Rp 300.000.000",
+                  "capacity": "100 Tons (6 Months)",
+                  "promo_price": "Rp 255,000,000/month",
+                  "normal_price": "Rp 300,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "100 Ton (12 Months)",
-                  "promo_price": "Rp 225.000.000/month",
-                  "normal_price": "Rp 300.000.000",
+                  "capacity": "100 Tons (12 Months)",
+                  "promo_price": "Rp 225,000,000/month",
+                  "normal_price": "Rp 300,000,000",
                   "savings": ""
                 }
               ],
@@ -1519,31 +1521,31 @@
           "packages": [
             {
               "level": "THEI Rental Crawler Crane 1",
-              "title": "Crawler Crane Package 80 Ton Capacity",
+              "title": "Crawler Crane Package Capacity 80 Tons",
               "image": "/rental/paket-crawler-crane.webp",
               "tiers": [
                 {
-                  "capacity": "80 Ton",
-                  "promo_price": "Rp 250.000.000/month",
-                  "normal_price": "Rp 250.000.000",
+                  "capacity": "80 Tons",
+                  "promo_price": "Rp 250,000,000/month",
+                  "normal_price": "Rp 250,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "80 Ton (3 Months)",
-                  "promo_price": "Rp 225.000.000/month",
-                  "normal_price": "Rp 250.000.000",
+                  "capacity": "80 Tons (3 Months)",
+                  "promo_price": "Rp 225,000,000/month",
+                  "normal_price": "Rp 250,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "80 Ton (6 Months)",
-                  "promo_price": "Rp 212.500.000/month",
-                  "normal_price": "Rp 250.000.000",
+                  "capacity": "80 Tons (6 Months)",
+                  "promo_price": "Rp 212,500,000/month",
+                  "normal_price": "Rp 250,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "80 Ton (12 Months)",
-                  "promo_price": "Rp 187.500.000/month",
-                  "normal_price": "Rp 250.000.000",
+                  "capacity": "80 Tons (12 Months)",
+                  "promo_price": "Rp 187,500,000/month",
+                  "normal_price": "Rp 250,000,000",
                   "savings": ""
                 }
               ],
@@ -1554,37 +1556,37 @@
             },
             {
               "level": "THEI Rental Crawler Crane 2",
-              "title": "Crawler Crane Package 150 Ton Capacity",
+              "title": "Crawler Crane Package Capacity 150 Tons",
               "image": "/rental/paket-crawler-crane.webp",
               "tiers": [
                 {
-                  "capacity": "150 Ton",
-                  "promo_price": "Rp 320.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "150 Tons",
+                  "promo_price": "Rp 320,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "150 Ton (3 Months)",
-                  "promo_price": "Rp 288.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "150 Tons (3 Months)",
+                  "promo_price": "Rp 288,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "150 Ton (6 Months)",
-                  "promo_price": "Rp 272.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "150 Tons (6 Months)",
+                  "promo_price": "Rp 272,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "150 Ton (12 Months)",
-                  "promo_price": "Rp 240.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "150 Tons (12 Months)",
+                  "promo_price": "Rp 240,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 }
               ],
               "service_content": [
                 "All bonuses from THEI Rental Crawler Crane 1",
-                "Lift plan advance",
+                "Advanced lift plan",
                 "JIB config consultancy"
               ],
               "full_inspection": [],
@@ -1593,31 +1595,31 @@
             },
             {
               "level": "THEI Rental Crawler Crane 3",
-              "title": "Crawler Crane Package 300 Ton Capacity",
+              "title": "Crawler Crane Package Capacity 300 Tons",
               "image": "/rental/paket-crawler-crane.webp",
               "tiers": [
                 {
-                  "capacity": "300 Ton",
-                  "promo_price": "Rp 450.000.000/month",
-                  "normal_price": "Rp 450.000.000",
+                  "capacity": "300 Tons",
+                  "promo_price": "Rp 450,000,000/month",
+                  "normal_price": "Rp 450,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "300 Ton (3 Months)",
-                  "promo_price": "Rp 405.000.000/month",
-                  "normal_price": "Rp 450.000.000",
+                  "capacity": "300 Tons (3 Months)",
+                  "promo_price": "Rp 405,000,000/month",
+                  "normal_price": "Rp 450,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "300 Ton (6 Months)",
-                  "promo_price": "Rp 382.500.000/month",
-                  "normal_price": "Rp 450.000.000",
+                  "capacity": "300 Tons (6 Months)",
+                  "promo_price": "Rp 382,500,000/month",
+                  "normal_price": "Rp 450,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "300 Ton (12 Months)",
-                  "promo_price": "Rp 337.500.000/month",
-                  "normal_price": "Rp 450.000.000",
+                  "capacity": "300 Tons (12 Months)",
+                  "promo_price": "Rp 337,500,000/month",
+                  "normal_price": "Rp 450,000,000",
                   "savings": ""
                 }
               ],
@@ -1637,31 +1639,31 @@
           "packages": [
             {
               "level": "THEI Rental Rough Terrain Crane 1",
-              "title": "Rough Terrain Crane Package 30 Ton Capacity",
+              "title": "Rough Terrain Crane Package Capacity 30 Tons",
               "image": "/rental/paket-rough-terrain.webp",
               "tiers": [
                 {
-                  "capacity": "30 Ton",
-                  "promo_price": "Rp 200.000.000/month",
-                  "normal_price": "Rp 200.000.000",
+                  "capacity": "30 Tons",
+                  "promo_price": "Rp 200,000,000/month",
+                  "normal_price": "Rp 200,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30 Ton (3 Months)",
-                  "promo_price": "Rp 180.000.000/month",
-                  "normal_price": "Rp 200.000.000",
+                  "capacity": "30 Tons (3 Months)",
+                  "promo_price": "Rp 180,000,000/month",
+                  "normal_price": "Rp 200,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30 Ton (6 Months)",
-                  "promo_price": "Rp 170.000.000/month",
-                  "normal_price": "Rp 200.000.000",
+                  "capacity": "30 Tons (6 Months)",
+                  "promo_price": "Rp 170,000,000/month",
+                  "normal_price": "Rp 200,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "30 Ton (12 Months)",
-                  "promo_price": "Rp 150.000.000/month",
-                  "normal_price": "Rp 200.000.000",
+                  "capacity": "30 Tons (12 Months)",
+                  "promo_price": "Rp 150,000,000/month",
+                  "normal_price": "Rp 200,000,000",
                   "savings": ""
                 }
               ],
@@ -1672,31 +1674,31 @@
             },
             {
               "level": "THEI Rental Rough Terrain Crane 2",
-              "title": "Rough Terrain Crane Package 50 Ton Capacity",
+              "title": "Rough Terrain Crane Package Capacity 50 Tons",
               "image": "/rental/paket-rough-terrain.webp",
               "tiers": [
                 {
-                  "capacity": "50 Ton",
-                  "promo_price": "Rp 260.000.000/month",
-                  "normal_price": "Rp 260.000.000",
+                  "capacity": "50 Tons",
+                  "promo_price": "Rp 260,000,000/month",
+                  "normal_price": "Rp 260,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (3 Months)",
-                  "promo_price": "Rp 234.000.000/month",
-                  "normal_price": "Rp 260.000.000",
+                  "capacity": "50 Tons (3 Months)",
+                  "promo_price": "Rp 234,000,000/month",
+                  "normal_price": "Rp 260,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (6 Months)",
-                  "promo_price": "Rp 221.000.000/month",
-                  "normal_price": "Rp 260.000.000",
+                  "capacity": "50 Tons (6 Months)",
+                  "promo_price": "Rp 221,000,000/month",
+                  "normal_price": "Rp 260,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "50 Ton (12 Months)",
-                  "promo_price": "Rp 195.000.000/month",
-                  "normal_price": "Rp 260.000.000",
+                  "capacity": "50 Tons (12 Months)",
+                  "promo_price": "Rp 195,000,000/month",
+                  "normal_price": "Rp 260,000,000",
                   "savings": ""
                 }
               ],
@@ -1711,31 +1713,31 @@
             },
             {
               "level": "THEI Rental Rough Terrain Crane 3",
-              "title": "Rough Terrain Crane Package 70 Ton Capacity",
+              "title": "Rough Terrain Crane Package Capacity 70 Tons",
               "image": "/rental/paket-rough-terrain.webp",
               "tiers": [
                 {
-                  "capacity": "70 Ton",
-                  "promo_price": "Rp 320.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "70 Tons",
+                  "promo_price": "Rp 320,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "70 Ton (3 Months)",
-                  "promo_price": "Rp 288.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "70 Tons (3 Months)",
+                  "promo_price": "Rp 288,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "70 Ton (6 Months)",
-                  "promo_price": "Rp 272.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "70 Tons (6 Months)",
+                  "promo_price": "Rp 272,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "70 Ton (12 Months)",
-                  "promo_price": "Rp 240.000.000/month",
-                  "normal_price": "Rp 320.000.000",
+                  "capacity": "70 Tons (12 Months)",
+                  "promo_price": "Rp 240,000,000/month",
+                  "normal_price": "Rp 320,000,000",
                   "savings": ""
                 }
               ],
@@ -1755,31 +1757,31 @@
           "packages": [
             {
               "level": "THEI Rental Reach Stacker 1",
-              "title": "Reach Stacker Package 40 Ton / 5-High Capacity",
+              "title": "Reach Stacker Package Capacity 40 Ton / 5-High",
               "image": "/rental/paket-reach-stacker.webp",
               "tiers": [
                 {
                   "capacity": "40 Ton / 5-High",
-                  "promo_price": "Rp 160.000.000/month",
-                  "normal_price": "Rp 160.000.000",
+                  "promo_price": "Rp 160,000,000/month",
+                  "normal_price": "Rp 160,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "40 Ton / 5-High (3 Months)",
-                  "promo_price": "Rp 144.000.000/month",
-                  "normal_price": "Rp 160.000.000",
+                  "promo_price": "Rp 144,000,000/month",
+                  "normal_price": "Rp 160,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "40 Ton / 5-High (6 Months)",
-                  "promo_price": "Rp 136.000.000/month",
-                  "normal_price": "Rp 160.000.000",
+                  "promo_price": "Rp 136,000,000/month",
+                  "normal_price": "Rp 160,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "40 Ton / 5-High (12 Months)",
-                  "promo_price": "Rp 120.000.000/month",
-                  "normal_price": "Rp 160.000.000",
+                  "promo_price": "Rp 120,000,000/month",
+                  "normal_price": "Rp 160,000,000",
                   "savings": ""
                 }
               ],
@@ -1790,31 +1792,31 @@
             },
             {
               "level": "THEI Rental Reach Stacker 2",
-              "title": "Reach Stacker Package 45 Ton / 6 High Capacity",
+              "title": "Reach Stacker Package Capacity 45 Ton / 6 High",
               "image": "/rental/paket-reach-stacker.webp",
               "tiers": [
                 {
                   "capacity": "45 Ton / 6 High",
-                  "promo_price": "Rp 190.000.000/month",
-                  "normal_price": "Rp 190.000.000",
+                  "promo_price": "Rp 190,000,000/month",
+                  "normal_price": "Rp 190,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton / 6 High (3 Months)",
-                  "promo_price": "Rp 171.000.000/month",
-                  "normal_price": "Rp 190.000.000",
+                  "promo_price": "Rp 171,000,000/month",
+                  "normal_price": "Rp 190,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton / 6 High (6 Months)",
-                  "promo_price": "Rp 161.500.000/month",
-                  "normal_price": "Rp 190.000.000",
+                  "promo_price": "Rp 161,500,000/month",
+                  "normal_price": "Rp 190,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton / 6 High (12 Months)",
-                  "promo_price": "Rp 142.500.000/month",
-                  "normal_price": "Rp 190.000.000",
+                  "promo_price": "Rp 142,500,000/month",
+                  "normal_price": "Rp 190,000,000",
                   "savings": ""
                 }
               ],
@@ -1829,31 +1831,31 @@
             },
             {
               "level": "THEI Rental Reach Stacker 3",
-              "title": "Reach Stacker Package 45 Ton Intermodal Capacity",
+              "title": "Reach Stacker Package Capacity 45 Ton Intermodal",
               "image": "/rental/paket-reach-stacker.webp",
               "tiers": [
                 {
                   "capacity": "45 Ton Intermodal",
-                  "promo_price": "Rp 220.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 220,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton Intermodal (3 Months)",
-                  "promo_price": "Rp 198.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 198,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton Intermodal (6 Months)",
-                  "promo_price": "Rp 187.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 187,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "45 Ton Intermodal (12 Months)",
-                  "promo_price": "Rp 165.000.000/month",
-                  "normal_price": "Rp 220.000.000",
+                  "promo_price": "Rp 165,000,000/month",
+                  "normal_price": "Rp 220,000,000",
                   "savings": ""
                 }
               ],
@@ -1873,31 +1875,31 @@
           "packages": [
             {
               "level": "THEI Rental Side Loading Forklift 1",
-              "title": "Side Loading Forklift Package 3-5 Ton Capacity",
+              "title": "Side Loading Forklift Package Capacity 3-5 Tons",
               "image": "/rental/paket-sc-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "3-5 Ton",
-                  "promo_price": "Rp 70.000.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "capacity": "3-5 Tons",
+                  "promo_price": "Rp 70,000,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (3 Months)",
-                  "promo_price": "Rp 63.000.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "capacity": "3-5 Tons (3 Months)",
+                  "promo_price": "Rp 63,000,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (6 Months)",
-                  "promo_price": "Rp 59.500.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "capacity": "3-5 Tons (6 Months)",
+                  "promo_price": "Rp 59,500,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "3-5 Ton (12 Months)",
-                  "promo_price": "Rp 52.500.000/month",
-                  "normal_price": "Rp 70.000.000",
+                  "capacity": "3-5 Tons (12 Months)",
+                  "promo_price": "Rp 52,500,000/month",
+                  "normal_price": "Rp 70,000,000",
                   "savings": ""
                 }
               ],
@@ -1908,31 +1910,31 @@
             },
             {
               "level": "THEI Rental Side Loading Forklift 2",
-              "title": "Side Loading Forklift Package 6-8 Ton Capacity",
+              "title": "Side Loading Forklift Package Capacity 6-8 Tons",
               "image": "/rental/paket-sc-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "6-8 Ton",
-                  "promo_price": "Rp 80.000.000/month",
-                  "normal_price": "Rp 80.000.000",
+                  "capacity": "6-8 Tons",
+                  "promo_price": "Rp 80,000,000/month",
+                  "normal_price": "Rp 80,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (3 Months)",
-                  "promo_price": "Rp 72.000.000/month",
-                  "normal_price": "Rp 80.000.000",
+                  "capacity": "6-8 Tons (3 Months)",
+                  "promo_price": "Rp 72,000,000/month",
+                  "normal_price": "Rp 80,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (6 Months)",
-                  "promo_price": "Rp 68.000.000/month",
-                  "normal_price": "Rp 80.000.000",
+                  "capacity": "6-8 Tons (6 Months)",
+                  "promo_price": "Rp 68,000,000/month",
+                  "normal_price": "Rp 80,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "6-8 Ton (12 Months)",
-                  "promo_price": "Rp 60.000.000/month",
-                  "normal_price": "Rp 80.000.000",
+                  "capacity": "6-8 Tons (12 Months)",
+                  "promo_price": "Rp 60,000,000/month",
+                  "normal_price": "Rp 80,000,000",
                   "savings": ""
                 }
               ],
@@ -1947,31 +1949,31 @@
             },
             {
               "level": "THEI Rental Side Loading Forklift 3",
-              "title": "Side Loading Forklift Package 10-12 Ton Capacity",
+              "title": "Side Loading Forklift Package Capacity 10-12 Tons",
               "image": "/rental/paket-sc-forklift.webp",
               "tiers": [
                 {
-                  "capacity": "10-12 Ton",
-                  "promo_price": "Rp 95.000.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "10-12 Tons",
+                  "promo_price": "Rp 95,000,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-12 Ton (3 Months)",
-                  "promo_price": "Rp 85.500.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "10-12 Tons (3 Months)",
+                  "promo_price": "Rp 85,500,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-12 Ton (6 Months)",
-                  "promo_price": "Rp 80.800.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "10-12 Tons (6 Months)",
+                  "promo_price": "Rp 80,800,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 },
                 {
-                  "capacity": "10-12 Ton (12 Months)",
-                  "promo_price": "Rp 71.200.000/month",
-                  "normal_price": "Rp 95.000.000",
+                  "capacity": "10-12 Tons (12 Months)",
+                  "promo_price": "Rp 71,200,000/month",
+                  "normal_price": "Rp 95,000,000",
                   "savings": ""
                 }
               ],
@@ -1991,31 +1993,31 @@
           "packages": [
             {
               "level": "THEI Rental Empty Container Handler 1",
-              "title": "Empty Container Handler Package 6-High Capacity",
+              "title": "Empty Container Handler Package Capacity 6-High",
               "image": "/rental/paket-ech.webp",
               "tiers": [
                 {
                   "capacity": "6-High",
-                  "promo_price": "Rp 180.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "promo_price": "Rp 180,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "6-High (3 Months)",
-                  "promo_price": "Rp 162.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "promo_price": "Rp 162,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "6-High (6 Months)",
-                  "promo_price": "Rp 153.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "promo_price": "Rp 153,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "6-High (12 Months)",
-                  "promo_price": "Rp 135.000.000/month",
-                  "normal_price": "Rp 180.000.000",
+                  "promo_price": "Rp 135,000,000/month",
+                  "normal_price": "Rp 180,000,000",
                   "savings": ""
                 }
               ],
@@ -2026,31 +2028,31 @@
             },
             {
               "level": "THEI Rental Empty Container Handler 2",
-              "title": "Empty Container Handler Package 8-High Capacity",
+              "title": "Empty Container Handler Package Capacity 8-High",
               "image": "/rental/paket-ech.webp",
               "tiers": [
                 {
                   "capacity": "8-High",
-                  "promo_price": "Rp 210.000.000/month",
-                  "normal_price": "Rp 210.000.000",
+                  "promo_price": "Rp 210,000,000/month",
+                  "normal_price": "Rp 210,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "8-High (3 Months)",
-                  "promo_price": "Rp 189.000.000/month",
-                  "normal_price": "Rp 210.000.000",
+                  "promo_price": "Rp 189,000,000/month",
+                  "normal_price": "Rp 210,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "8-High (6 Months)",
-                  "promo_price": "Rp 178.500.000/month",
-                  "normal_price": "Rp 210.000.000",
+                  "promo_price": "Rp 178,500,000/month",
+                  "normal_price": "Rp 210,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "8-High (12 Months)",
-                  "promo_price": "Rp 157.500.000/month",
-                  "normal_price": "Rp 210.000.000",
+                  "promo_price": "Rp 157,500,000/month",
+                  "normal_price": "Rp 210,000,000",
                   "savings": ""
                 }
               ],
@@ -2065,31 +2067,31 @@
             },
             {
               "level": "THEI Rental Empty Container Handler 3",
-              "title": "Empty Container Handler Package 9-High Capacity",
+              "title": "Empty Container Handler Package Capacity 9-High",
               "image": "/rental/paket-ech.webp",
               "tiers": [
                 {
                   "capacity": "9-High",
-                  "promo_price": "Rp 240.000.000/month",
-                  "normal_price": "Rp 240.000.000",
+                  "promo_price": "Rp 240,000,000/month",
+                  "normal_price": "Rp 240,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "9-High (3 Months)",
-                  "promo_price": "Rp 216.000.000/month",
-                  "normal_price": "Rp 240.000.000",
+                  "promo_price": "Rp 216,000,000/month",
+                  "normal_price": "Rp 240,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "9-High (6 Months)",
-                  "promo_price": "Rp 204.000.000/month",
-                  "normal_price": "Rp 240.000.000",
+                  "promo_price": "Rp 204,000,000/month",
+                  "normal_price": "Rp 240,000,000",
                   "savings": ""
                 },
                 {
                   "capacity": "9-High (12 Months)",
-                  "promo_price": "Rp 180.000.000/month",
-                  "normal_price": "Rp 240.000.000",
+                  "promo_price": "Rp 180,000,000/month",
+                  "normal_price": "Rp 240,000,000",
                   "savings": ""
                 }
               ],

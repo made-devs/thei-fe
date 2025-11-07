@@ -1,5 +1,74 @@
 {
   "parts_page": {
+    "usp_section": {
+      "title": "Keuntungan Belanja",
+      "title_highlight": "Sparepart di THEI",
+      "description": "Nikmati berbagai keuntungan eksklusif yang tidak akan Anda temukan di tempat lain. Kami berkomitmen memberikan nilai lebih untuk setiap transaksi Anda.",
+      "cta_text": "Hubungi Kami Sekarang",
+      "cta_link": "/contact",
+      "benefits": [
+        {
+          "icon": "truck",
+          "title": "Gratis Ongkir Area Sekitar",
+          "description": "Pengiriman gratis untuk area sekitar THEI. Hemat biaya, cepat sampai!",
+          "badge": "FREE"
+        },
+        {
+          "icon": "tag",
+          "title": "Diskon Opening 5-10%",
+          "description": "Dapatkan diskon spesial grand opening setiap hari untuk semua produk sparepart.",
+          "badge": "PROMO"
+        },
+        {
+          "icon": "shield",
+          "title": "Garansi 1 Bulan",
+          "description": "Garansi resmi untuk semua sparepart. Syarat dan ketentuan berlaku.",
+          "badge": null
+        },
+        {
+          "icon": "droplet",
+          "title": "Gratis Filter Oli",
+          "description": "Beli 1 galon oli (4 liter) gratis 1 filter oli original.",
+          "badge": "BONUS"
+        },
+        {
+          "icon": "card",
+          "title": "Member Card Gratis",
+          "description": "Kumpulkan poin setiap transaksi, tukar dengan diskon atau hadiah menarik.",
+          "badge": "NEW"
+        },
+        {
+          "icon": "users",
+          "title": "Program Partnership",
+          "description": "Komisi menarik untuk mitra bengkel. Bergabunglah dan raih keuntungan bersama!",
+          "badge": null
+        },
+        {
+          "icon": "trending",
+          "title": "Cashback hingga 3%",
+          "description": "Cashback untuk pembelian volume besar. Semakin banyak beli, semakin besar cashback.",
+          "badge": "CASHBACK"
+        },
+        {
+          "icon": "graduation",
+          "title": "Pelatihan Mekanik Gratis",
+          "description": "Free training dengan instruktur bersertifikat untuk meningkatkan skill tim Anda.",
+          "badge": "FREE"
+        },
+        {
+          "icon": "shirt",
+          "title": "Seragam Bengkel Gratis",
+          "description": "Dapatkan seragam eksklusif co-branding THEI untuk tim bengkel Anda.",
+          "badge": "GIFT"
+        },
+        {
+          "icon": "megaphone",
+          "title": "Support Promosi Mitra",
+          "description": "Banner, spanduk, dan dukungan promosi lainnya untuk mitra bengkel.",
+          "badge": null
+        }
+      ]
+    },
     "hero": {
       "subtitle": "SUKU CADANG ASLI UNTUK ALAT BERAT ANDA",
       "title": "Ketersediaan Terjamin, Performa Maksimal",
@@ -18,19 +87,19 @@
           "icon": "MessageSquare"
         },
         {
-          "name": "Pengiriman Fleksibel",
-          "description": "Pilih antara pengiriman ke lokasi Anda atau ambil di cabang kami.",
+          "name": "Layanan Antar Sparepart",
+          "description": "Nikmati kemudahan pengiriman sparepart langsung ke lokasi Anda.",
           "icon": "Truck"
         },
         {
-          "name": "Garansi Asli",
-          "description": "Garansi resmi untuk setiap suku cadang asli yang Anda beli.",
+          "name": "Sparepart Bergaransi",
+          "description": "Garansi resmi untuk setiap suku cadang yang Anda beli di THEI.",
           "icon": "ShieldCheck"
         },
         {
-          "name": "Promo Bulanan",
-          "description": "Dapatkan penawaran spesial untuk suku cadang tertentu setiap bulannya.",
-          "icon": "Tag"
+          "name": "Layanan Tanpa Libur",
+          "description": "Tim kami siap melayani kebutuhan sparepart Anda setiap hari, termasuk akhir pekan dan hari libur.",
+          "icon": "CalendarCheck"
         }
       ]
     },
@@ -80,5 +149,20 @@
       "description": "Tabel di bawah ini menunjukkan suku cadang yang paling sering dicari oleh pelanggan kami. Semua dijamin 100% asli.",
       "image": "/parts/fast-movers-table.webp"
     }
+  },
+  "location": {
+    "title": "Lokasi",
+    "title_highlight": "THEI Spareparts",
+    "description": "Temukan lokasi toko dan gudang sparepart resmi THEI untuk kebutuhan alat berat Anda.",
+    "map_embed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6449827472913!2d106.81717507499658!3d-6.176149993804892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e8d1e0!2sJl.%20Sukarjo%20Wiryopranoto%20No.39%2C%20RT.4%2FRW.1%2C%20Maphar%2C%20Kec.%20Taman%20Sari%2C%20Kota%20Jakarta%20Barat%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2011160!5e0!3m2!1sen!2sid!4v1700000000000!5m2!1sen!2sid",
+    "map_link": "https://maps.app.goo.gl/Z3kgfiqcodH3MYAP7",
+    "map_button_text": "Buka di Google Maps",
+    "address_label": "Alamat",
+    "address": "Jl. Sukarjo Wiryopranoto No.39, RT.4/RW.1, Maphar, Kec. Taman Sari, Kota Jakarta Barat, DKI Jakarta 11160",
+    "phone_label": "Kontak",
+    "phone": "+6282228622387",
+    "phone_display": "+62 822-2862-2387",
+    "hours_label": "Jam Operasional",
+    "hours": [{ "text": "Senin - Minggu: 09:00 - 19:00", "highlight": false }]
   }
 }
