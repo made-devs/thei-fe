@@ -1,0 +1,1123 @@
+{
+  "en": {
+    "care_packages": [
+      {
+        "equipment_type": "Excavator",
+        "package_name": "EXCAVATOR CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing & pressure test - Hydraulic oil flushing to ensure a clean system",
+          "Grease track & joint - Lubrication of undercarriage & joints",
+          "Radiator ultra flush - Chemical radiator flush",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Steam & degreaser for engine compartment"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Mini Excavator",
+        "package_name": "MINI EXCAVATOR CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,200K",
+          "promo_price": "IDR 3,500K",
+          "savings": "IDR 700K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Grease track & joint - Lubrication of undercarriage & joints",
+          "Radiator ultra flush - Chemical radiator flush",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Steam & degreaser for engine compartment"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Bulldozer",
+        "package_name": "BULLDOZER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,000K",
+          "promo_price": "IDR 5,000K",
+          "savings": "IDR 1,000K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Differential & final drive oil - Large gear oil flushing",
+          "Engine bay wash - Steam & degreaser for engine compartment",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Cabin polish - Glass & interior polish"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Wheel Loader",
+        "package_name": "WHEEL LOADER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,000K",
+          "promo_price": "IDR 5,000K",
+          "savings": "IDR 1,000K"
+        },
+        "coverage_details": [
+          "Transmission oil & flush - Replace dirty transmission oil",
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "AC refrigerant & filter - Fill refrigerant & replace AC filter",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Cabin polish - Glass & interior polish"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Motor Grader",
+        "package_name": "MOTOR GRADER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 5,400K",
+          "promo_price": "IDR 4,500K",
+          "savings": "IDR 900K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Brake fluid - Refill brake fluid",
+          "Grease all points - Grease joint & pivot"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Backhoe Loader",
+        "package_name": "BACKHOE LOADER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 5,400K",
+          "promo_price": "IDR 4,500K",
+          "savings": "IDR 900K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Brake fluid - Refill brake fluid",
+          "Grease all points - Grease joint & pivot",
+          "Battery terminal grease - Grease battery terminals"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Skid Steer Loader",
+        "package_name": "SKID STEER LOADER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Balancing grease - Grease shaft",
+          "Hydraulic hose cleaner - Hose cleaning",
+          "Cabin fogging - Cabin fogging",
+          "Anti-rust spray - Frame coating",
+          "Interior refresh - Seat cleaning"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Crawler Crane",
+        "package_name": "CRAWLER CRANE CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,000K",
+          "promo_price": "IDR 5,000K",
+          "savings": "IDR 1,000K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Wire rope anti-rust spray - Steel wire rope coating",
+          "Hydraulic flushing oil - Hydraulic oil replacement",
+          "Safety kit reload - First aid kit refill"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Truck Crane",
+        "package_name": "TRUCK CRANE CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 7,200K",
+          "promo_price": "IDR 6,000K",
+          "savings": "IDR 1,200K"
+        },
+        "coverage_details": [
+          "Outrigger oil & grease - Crane outrigger lubrication",
+          "Transmission oil - Transmission oil replacement",
+          "Hydraulic oil top up - Hydraulic oil refill",
+          "AC refrigerant & filter - Freon & filter replacement",
+          "Engine bay wash - Engine steam cleaning"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Rough Terrain Crane",
+        "package_name": "ROUGH TERRAIN CRANE CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 3,000K",
+          "promo_price": "IDR 2,500K",
+          "savings": "IDR 500K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Boom inspection spray - NDT crack inspection",
+          "Battery water & cleaner - Battery refill",
+          "Cabin cleaning - Interior cleaner"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Forklift Diesel",
+        "package_name": "FORKLIFT DIESEL CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Battery water top up - Battery refill",
+          "Grease - Grease all points",
+          "Nano ceramic coating - Body coating",
+          "Hydraulic flushing oil - Hydraulic oil replacement"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Diesel Forklift",
+        "package_name": "DIESEL FORKLIFT CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 3,600K",
+          "promo_price": "IDR 3,000K",
+          "savings": "IDR 600K"
+        },
+        "coverage_details": [
+          "Battery distilled water - Traction battery refill",
+          "Contact cleaner spray - Control panel cleaner",
+          "Grease - Grease all points",
+          "Cabin cleaning - Interior cleaner"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Telehandler",
+        "package_name": "TELEHANDLER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Boom crack inspection spray - Liquid NDT",
+          "Frame anti-rust spray - Frame coating",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Grease all points - Grease joints"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Articulated Dump Truck",
+        "package_name": "ARTICULATED DUMP TRUCK CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,600K",
+          "promo_price": "IDR 5,500K",
+          "savings": "IDR 1,100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Transmission oil",
+          "Brake fluid - Brake fluid",
+          "Coolant chemical - Radiator chemical",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Engine steam cleaning"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Vibro Roller/Compactor",
+        "package_name": "VIBRO ROLLER/COMPACTOR CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Grease all points - Grease joints",
+          "Engine purge chemical - Engine cleaner",
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Sensor cleaner spray - Sensor cleaner"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Boom Lift",
+        "package_name": "BOOM LIFT CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Battery water top up - Battery refill",
+          "Safety limit switch cleaner - Switch cleaner",
+          "Rust protection spray - Body coating",
+          "Battery terminal grease - Battery terminal grease"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Scissor Lift",
+        "package_name": "SCISSOR LIFT CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 3,600K",
+          "promo_price": "IDR 3,000K",
+          "savings": "IDR 600K"
+        },
+        "coverage_details": [
+          "Battery water top up - Battery refill",
+          "Hydraulic hose cleaner - Hose cleaner",
+          "Safety sensor cleaner - Sensor cleaner",
+          "Control panel cleaner - Panel cleaner",
+          "Rust protection spray - Body coating"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Reach Stacker",
+        "package_name": "REACH STACKER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 8,100K",
+          "promo_price": "IDR 7,000K",
+          "savings": "IDR 1,100K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Transmission oil flush - Transmission oil",
+          "Grease all points - Grease joints",
+          "Radiator flush - Radiator chemical"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Empty Container Handler",
+        "package_name": "EMPTY CONTAINER HANDLER CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 7,800K",
+          "promo_price": "IDR 6,500K",
+          "savings": "IDR 1,300K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Transmission oil flush - Transmission oil",
+          "Grease all points - Grease joints",
+          "Radiator flush - Radiator chemical"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Wide Body Dump Truck",
+        "package_name": "WIDE BODY DUMP TRUCK CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,600K",
+          "promo_price": "IDR 5,500K",
+          "savings": "IDR 1,100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Transmission oil",
+          "Brake fluid - Brake fluid",
+          "Coolant chemical - Radiator chemical",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Engine steam cleaning"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "All Terrain Crane",
+        "package_name": "ALL TERRAIN CRANE CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 3,000K",
+          "promo_price": "IDR 2,500K",
+          "savings": "IDR 500K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Boom inspection spray - NDT crack inspection",
+          "Battery water & cleaner - Battery refill",
+          "Cabin cleaning - Interior cleaner"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Dump Truck",
+        "package_name": "DUMP TRUCK CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 6,600K",
+          "promo_price": "IDR 5,500K",
+          "savings": "IDR 1,100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Transmission oil",
+          "Brake fluid - Brake fluid",
+          "Coolant chemical - Radiator chemical",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Engine steam cleaning"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      },
+      {
+        "equipment_type": "Drilling Rig",
+        "package_name": "DRILLING RIG CARE PROTECTION SERVICE PACKAGE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "IDR 4,800K",
+          "promo_price": "IDR 4,000K",
+          "savings": "IDR 800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Hydraulic oil flushing to ensure a clean system",
+          "Grease track & joint - Lubrication of undercarriage & joints",
+          "Radiator ultra flush - Chemical radiator flush",
+          "Oil flush machine - Engine oil flushing with special chemicals",
+          "Engine bay wash - Steam & degreaser for engine compartment"
+        ],
+        "benefits": [
+          "20-point engine inspection",
+          "14-point hydraulic inspection",
+          "17-point electrical inspection",
+          "16-point undercarriage, cabin, & transmission inspection",
+          "8-point attachment inspection",
+          "2-point additional equipment inspection"
+        ]
+      }
+    ]
+  },
+  "id": {
+    "care_packages": [
+      {
+        "equipment_type": "Excavator",
+        "package_name": "PAKET SERVICE CARE PROTECTION EXCAVATOR",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing & pressure test - Flushing oli hidrolik agar sistem bersih",
+          "Grease track & joint - Pelumasan undercarriage & joint",
+          "Radiator ultra flush - Chemical flush radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam & degreaser ruang mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Mini Excavator",
+        "package_name": "PAKET SERVICE CARE PROTECTION MINI EXCAVATOR",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.200K",
+          "promo_price": "Rp3.500K",
+          "savings": "Rp700K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Grease track & joint - Pelumasan undercarriage & joint",
+          "Radiator ultra flush - Chemical flush radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam & degreaser ruang mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Bulldozer",
+        "package_name": "PAKET SERVICE CARE PROTECTION BULLDOZER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.000K",
+          "promo_price": "Rp5.000K",
+          "savings": "Rp1.000K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Differential & final drive oil - Flushing oli gear besar",
+          "Engine bay wash - Steam & degreaser ruang mesin",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Cabin polish - Polish kaca & interior"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Wheel Loader",
+        "package_name": "PAKET SERVICE CARE PROTECTION WHEEL LOADER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.000K",
+          "promo_price": "Rp5.000K",
+          "savings": "Rp1.000K"
+        },
+        "coverage_details": [
+          "Transmission oil & flush - Ganti oli transmisi kotor",
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "AC refrigerant & filter - Isi freon & filter AC",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Cabin polish - Polish kaca & interior"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Motor Grader",
+        "package_name": "PAKET SERVICE CARE PROTECTION MOTOR GRADER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp5.400K",
+          "promo_price": "Rp4.500K",
+          "savings": "Rp900K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Brake fluid - Isi ulang minyak rem",
+          "Grease all points - Grease joint & pivot"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Backhoe Loader",
+        "package_name": "PAKET SERVICE CARE PROTECTION BACKHOE LOADER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp5.400K",
+          "promo_price": "Rp4.500K",
+          "savings": "Rp900K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Brake fluid - Isi ulang minyak rem",
+          "Grease all points - Grease joint & pivot",
+          "Battery terminal grease - Grease terminal aki"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Skid Steer Loader",
+        "package_name": "PAKET SERVICE CARE PROTECTION SKID STEER LOADER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Balancing grease - Grease poros",
+          "Hydraulic hose cleaner - Pembersih selang",
+          "Cabin fogging - Fogging kabin",
+          "Anti karat spray - Coating rangka",
+          "Interior refresh - Pembersih jok"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Crawler Crane",
+        "package_name": "PAKET SERVICE CARE PROTECTION CRAWLER CRANE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.000K",
+          "promo_price": "Rp5.000K",
+          "savings": "Rp1.000K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Wire rope anti karat spray - Coating tali baja",
+          "Hydraulic flushing oil - Ganti oli hidrolik",
+          "Safety kit reload - Isi ulang P3K"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Rough Terrain Crane",
+        "package_name": "PAKET SERVICE CARE PROTECTION ROUGH TERRAIN CRANE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp3.000K",
+          "promo_price": "Rp2.500K",
+          "savings": "Rp500K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Boom inspection spray - NDT retak",
+          "Battery water & cleaner - Isi ulang aki",
+          "Cabin cleaning - Cleaner interior"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Forklift Diesel",
+        "package_name": "PAKET SERVICE CARE PROTECTION FORKLIFT DIESEL",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Battery water top up - Isi ulang aki",
+          "Grease - Grease all point",
+          "Nano ceramic coating - Coating body",
+          "Hydraulic flushing oil - Ganti oli hidrolik"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Diesel Forklift",
+        "package_name": "PAKET SERVICE CARE PROTECTION DIESEL FORKLIFT",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp3.600K",
+          "promo_price": "Rp3.000K",
+          "savings": "Rp600K"
+        },
+        "coverage_details": [
+          "Battery distilled water - Isi ulang aki traksi",
+          "Contact cleaner spray - Cleaner panel kontrol",
+          "Grease - Grease all point",
+          "Cabin cleaning - Cleaner interior"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Telehandler",
+        "package_name": "PAKET SERVICE CARE PROTECTION TELEHANDLER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Boom crack inspection spray - NDT cair",
+          "Frame anti karat spray - Coating rangka",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Grease all points - Grease joint"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Articulated Dump Truck",
+        "package_name": "PAKET SERVICE CARE PROTECTION ARTICULATED DUMP TRUCK",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.600K",
+          "promo_price": "Rp5.500K",
+          "savings": "Rp1.100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Oli transmisi",
+          "Brake fluid - Minyak rem",
+          "Coolant chemical - Chemical radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Vibro Roller/Compactor",
+        "package_name": "PAKET SERVICE CARE PROTECTION VIBRO ROLLER/COMPACTOR",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Grease all points - Grease joint",
+          "Engine purge chemical - Pembersih mesin",
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Sensor cleaner spray - Cleaner sensor"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Boom Lift",
+        "package_name": "PAKET SERVICE CARE PROTECTION BOOM LIFT",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Battery water top up - Isi aki",
+          "Safety limit switch cleaner - Cleaner switch",
+          "Rust protection spray - Coating body",
+          "Battery terminal grease - Grease terminal aki"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Scissor Lift",
+        "package_name": "PAKET SERVICE CARE PROTECTION SCISSOR LIFT",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp3.600K",
+          "promo_price": "Rp3.000K",
+          "savings": "Rp600K"
+        },
+        "coverage_details": [
+          "Battery water top up - Isi aki",
+          "Hydraulic hose cleaner - Cleaner selang",
+          "Safety sensor cleaner - Cleaner sensor",
+          "Control panel cleaner - Cleaner panel",
+          "Rust protection spray - Coating body"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Reach Stacker",
+        "package_name": "PAKET SERVICE CARE PROTECTION REACH STACKER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp8.100K",
+          "promo_price": "Rp7.000K",
+          "savings": "Rp1.100K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Transmission oil flush - Oli transmisi",
+          "Grease all points - Grease joint",
+          "Radiator flush - Chemical radiator"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Empty Container Handler",
+        "package_name": "PAKET SERVICE CARE PROTECTION EMPTY CONTAINER HANDLER",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp7.800K",
+          "promo_price": "Rp6.500K",
+          "savings": "Rp1.300K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Transmission oil flush - Oli transmisi",
+          "Grease all points - Grease joint",
+          "Radiator flush - Chemical radiator"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Wide Body Dump Truck",
+        "package_name": "PAKET SERVICE CARE PROTECTION WIDE BODY DUMP TRUCK",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.600K",
+          "promo_price": "Rp5.500K",
+          "savings": "Rp1.100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Oli transmisi",
+          "Brake fluid - Minyak rem",
+          "Coolant chemical - Chemical radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "All Terrain Crane",
+        "package_name": "PAKET SERVICE CARE PROTECTION ALL TERRAIN CRANE",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp3.000K",
+          "promo_price": "Rp2.500K",
+          "savings": "Rp500K"
+        },
+        "coverage_details": [
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Boom inspection spray - NDT retak",
+          "Battery water & cleaner - Isi ulang aki",
+          "Cabin cleaning - Cleaner interior"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Dump Truck",
+        "package_name": "PAKET SERVICE CARE PROTECTION DUMP TRUCK",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp6.600K",
+          "promo_price": "Rp5.500K",
+          "savings": "Rp1.100K"
+        },
+        "coverage_details": [
+          "Transmission oil flush - Oli transmisi",
+          "Brake fluid - Minyak rem",
+          "Coolant chemical - Chemical radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      },
+      {
+        "equipment_type": "Drilling Rig",
+        "package_name": "PAKET SERVICE CARE PROTECTION DRILLING RIG",
+        "level": "Care Protection",
+        "pricing": {
+          "normal_price": "Rp4.800K",
+          "promo_price": "Rp4.000K",
+          "savings": "Rp800K"
+        },
+        "coverage_details": [
+          "Hydraulic flushing - Flushing oli hidrolik agar sistem bersih",
+          "Grease track & joint - Pelumasan undercarriage & joint",
+          "Radiator ultra flush - Chemical flush radiator",
+          "Oil flush machine - Flushing oli mesin pakai chemical khusus",
+          "Engine bay wash - Steam & degreaser ruang mesin"
+        ],
+        "benefits": [
+          "Inspeksi engine 20 titik",
+          "Inspeksi hydraulic 14 titik",
+          "Inspeksi electrical 17 titik",
+          "Inspeksi undercarriage, cabin, & transmisi 16 titik",
+          "Inspeksi attachment 8 titik",
+          "Inspeksi additional equipment 2 titik"
+        ]
+      }
+    ]
+  }
+}

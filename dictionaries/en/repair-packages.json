@@ -42,6 +42,14 @@
       "specialBonus": "Special Bonus",
       "getQuote": "Get Quote"
     },
+    "care_protection_slider": {
+      "title": "Care Protection Packages",
+      "description": "Preventive maintenance packages to keep your heavy equipment in prime condition with comprehensive inspections and system cleaning services.",
+      "coverageDetails": "Service Details",
+      "benefits": "Inspection Benefits",
+      "bonuses": "Bonuses",
+      "getQuote": "Get a Quote"
+    },
     "premium_service": {
       "title": "Premium Service Package Comparison",
       "description": "Choose from three service levels—Complete, Super, and Ultimate—designed to provide the best performance and value for your unit.",

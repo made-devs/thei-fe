@@ -108,52 +108,42 @@
     "items": [
       {
         "title": "PROMO SILVER CAR CARE",
-        "description": "Service mobil perusahaan s/d 10 jt rupiah (min service 1 jt rupiah)",
         "image": "/contract-service/promo1.webp"
       },
       {
         "title": "PROMO GOLD CAR CARE",
-        "description": "Service mobil perusahaan khusus service alat berat di THEI s/d 20 jt rupiah (min service diatas 1 jt rupiah)",
         "image": "/contract-service/promo2.webp"
       },
       {
         "title": "PROMO PLATINUM CAR CARE",
-        "description": "Service mobil perusahaan khusus trade in unit di THEI s/d 50 jt rupiah (min service diatas 30 jt rupiah)",
         "image": "/contract-service/promo3.webp"
       },
       {
         "title": "FREE INSPEKSI 77 TITIK",
-        "description": "Pemeriksaan menyeluruh 77 titik kritis unit alat berat Anda secara gratis",
         "image": "/contract-service/promo4.webp"
       },
       {
         "title": "DISCOUNT PAKET SERVICE UP TO 50%",
-        "description": "Hemat hingga 50% untuk paket service rutin alat berat Anda",
         "image": "/contract-service/promo5.webp"
       },
       {
         "title": "FREE CORPORATE GIFT PACK BASIC",
-        "description": "Dapatkan paket corporate gift eksklusif untuk perusahaan Anda",
         "image": "/contract-service/promo6.webp"
       },
       {
         "title": "DISCOUNT SPAREPART UP TO 30%",
-        "description": "Potongan harga hingga 30% untuk pembelian sparepart original",
         "image": "/contract-service/promo7.webp"
       },
       {
         "title": "FREE BIAYA VISIT AREA JABODETABEK",
-        "description": "Gratis biaya kunjungan teknisi untuk area Jabodetabek",
         "image": "/contract-service/promo8.webp"
       },
       {
         "title": "FREE BIAYA MENGINAP TEKNISI",
-        "description": "Gratis biaya akomodasi teknisi untuk area Jabodetabek",
         "image": "/contract-service/promo9.webp"
       },
       {
         "title": "FREE RUST REMOVER ANTI KARAT",
-        "description": "Dapatkan produk anti karat premium untuk melindungi alat berat Anda",
         "image": "/contract-service/promo10.webp"
       }
     ]

@@ -42,6 +42,15 @@
       "specialBonus": "Bonus Spesial",
       "getQuote": "Minta Penawaran"
     },
+    "care_protection_slider": {
+      "title": "Paket Care Protection",
+      "description": "Paket perawatan preventif untuk menjaga alat berat Anda tetap dalam kondisi prima dengan inspeksi menyeluruh dan layanan pembersihan sistem.",
+      "coverageDetails": "Detail Layanan",
+      "benefits": "Manfaat Inspeksi",
+      "bonuses": "Bonus",
+      "specialBonus": "Bonus Spesial",
+      "getQuote": "Minta Penawaran"
+    },
     "premium_service": {
       "title": "Paket Service Premium",
       "description": "Pilih dari tiga level layanan—Komplit, Super, dan Ultimate—yang dirancang untuk memberikan performa dan nilai terbaik untuk unit Anda.",

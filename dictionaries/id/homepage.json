@@ -271,5 +271,163 @@
     "title": "THEI, PARTNER ALAT BERAT SEJATI ANDA",
     "cta_button": "HUBUNGI KAMI SEKARANG",
     "cta_link": "/contact"
+  },
+  "service_packages": {
+    "subtitle": "Paket Perawatan Terlengkap",
+    "title": "Paket Layanan Service THEI",
+    "description": "Pilih paket service yang sesuai dengan kebutuhan alat berat Anda. Dari perawatan berkala hingga perbaikan menyeluruh, kami siap menjaga performa optimal mesin Anda.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Paket Care Protection",
+        "description": "Lindungi investasi alat berat Anda dengan paket perlindungan menyeluruh mencakup perawatan preventif dan garansi extended.",
+        "image": "/home/service-package1.webp",
+        "link": "/service"
+      },
+      {
+        "id": 2,
+        "title": "Paket Eceran",
+        "description": "Solusi fleksibel untuk kebutuhan service dan perawatan berkala alat berat dengan sistem bayar per penggunaan.",
+        "image": "/home/service-package2.webp",
+        "link": "/service"
+      },
+      {
+        "id": 3,
+        "title": "Paket Premium Service THEI",
+        "description": "Layanan service eksklusif dengan prioritas tanggap cepat, teknisi bersertifikat, dan jaminan suku cadang original.",
+        "image": "/home/service-package3.webp",
+        "link": "/service"
+      },
+      {
+        "id": 4,
+        "title": "Paket Repair",
+        "description": "Perbaikan komprehensif untuk alat berat yang mengalami kerusakan dengan garansi hasil kerja dan spare part berkualitas.",
+        "image": "/home/service-package4.webp",
+        "link": "/repair-packages"
+      },
+      {
+        "id": 5,
+        "title": "Paket Contract Service",
+        "description": "Kontrak perawatan jangka panjang dengan harga terbaik, jadwal terencana, dan tim teknisi dedicated untuk armada Anda.",
+        "image": "/home/service-package5.webp",
+        "link": "/contract-service"
+      }
+    ]
+  },
+  "rental_service": {
+    "subtitle": "Solusi Rental Fleksibel",
+    "title": "Layanan Rental THEI",
+    "description": "Dapatkan alat berat berkualitas dengan skema rental yang fleksibel sesuai durasi dan kebutuhan proyek Anda. Hemat biaya investasi tanpa mengurangi produktivitas.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Rental Harian",
+        "description": "Solusi rental jangka pendek untuk kebutuhan proyek mendesak dengan proses cepat dan unit siap pakai.",
+        "image": "/home/rental1.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 2,
+        "title": "Rental Bulanan",
+        "description": "Paket rental hemat untuk proyek berdurasi menengah dengan harga kompetitif dan maintenance included.",
+        "image": "/home/rental2.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 3,
+        "title": "Rental Tahunan",
+        "description": "Kontrak rental jangka panjang dengan harga terbaik, ideal untuk operasional berkelanjutan dan armada tetap.",
+        "image": "/home/rental3.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 4,
+        "title": "Rental dengan Operator",
+        "description": "Paket lengkap rental alat berat beserta operator berpengalaman dan bersertifikat untuk efisiensi maksimal.",
+        "image": "/home/rental4.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 5,
+        "title": "Rental Project Based",
+        "description": "Solusi rental khusus proyek dengan skema pembayaran dan durasi yang disesuaikan dengan timeline proyek Anda.",
+        "image": "/home/rental5.webp",
+        "link": "/rental"
+      }
+    ]
+  },
+  "trade_in_service": {
+    "subtitle": "Tukar Tambah Menguntungkan",
+    "title": "Program Trade In THEI",
+    "description": "Tingkatkan armada Anda dengan program tukar tambah yang menguntungkan. Tukar unit lama dengan yang baru dan dapatkan nilai terbaik untuk alat berat Anda.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Trade In Excavator",
+        "description": "Tukar tambah excavator lama Anda dengan unit terbaru dan dapatkan harga trade in terbaik di kelasnya.",
+        "image": "/home/tradein1.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 2,
+        "title": "Trade In Forklift",
+        "description": "Program khusus trade in forklift dengan penawaran menarik dan proses cepat untuk upgrade armada gudang Anda.",
+        "image": "/home/tradein2.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 3,
+        "title": "Trade In Dump Truck",
+        "description": "Tingkatkan produktivitas dengan trade in dump truck ke unit yang lebih efisien dan berteknologi terkini.",
+        "image": "/home/tradein3.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 4,
+        "title": "Trade In Crane",
+        "description": "Tukar crane lama dengan model terbaru yang lebih aman dan powerful dengan nilai tukar yang kompetitif.",
+        "image": "/home/tradein4.webp",
+        "link": "/trade-in"
+      }
+    ]
+  },
+  "sparepart_service": {
+    "subtitle": "Solusi Suku Cadang",
+    "title": "Layanan Sparepart THEI",
+    "description": "Jaminan ketersediaan suku cadang untuk berbagai merek alat berat. Stok lengkap, pengiriman cepat, dan harga bersaing untuk menjaga operasional Anda tetap lancar.",
+    "hover_text": "Klik untuk Detail",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Sparepart Terlengkap",
+        "description": "Pilihan suku cadang terlengkap untuk berbagai kebutuhan alat berat Anda, dengan kualitas terjamin dan performa optimal.",
+        "image": "/home/sparepart1.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 2,
+        "title": "Sparepart Fast Moving",
+        "description": "Stok selalu tersedia untuk part yang sering dibutuhkan dengan ready stock dan pengiriman kilat.",
+        "image": "/home/sparepart2.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 3,
+        "title": "Sparepart Engine & Transmission",
+        "description": "Komponen vital mesin dan transmisi untuk berbagai merek dengan garansi performa dan ketahanan.",
+        "image": "/home/sparepart3.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 4,
+        "title": "Sparepart Hydraulic System",
+        "description": "Komponen sistem hidrolik lengkap mulai dari pump, valve, cylinder hingga hose dan fitting.",
+        "image": "/home/sparepart4.webp",
+        "link": "/spare-parts"
+      }
+    ]
   }
 }

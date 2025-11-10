@@ -271,5 +271,163 @@
     "title": "THEI, YOUR TRUE HEAVY EQUIPMENT PARTNER",
     "cta_button": "CONTACT US NOW",
     "cta_link": "/contact"
+  },
+  "service_packages": {
+    "subtitle": "Complete Maintenance Packages",
+    "title": "THEI Service Packages",
+    "description": "Choose the service package that fits your heavy equipment needs. From regular maintenance to comprehensive repairs, we ensure your machines perform at their best.",
+    "hover_text": "Click for Details",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Care Protection Package",
+        "description": "Protect your heavy equipment investment with a comprehensive package covering preventive maintenance and extended warranty.",
+        "image": "/home/service-package1.webp",
+        "link": "/service"
+      },
+      {
+        "id": 2,
+        "title": "Retail Package",
+        "description": "Flexible solution for periodic service and maintenance needs with pay-per-use system.",
+        "image": "/home/service-package2.webp",
+        "link": "/service"
+      },
+      {
+        "id": 3,
+        "title": "THEI Premium Service Package",
+        "description": "Exclusive service with fast response priority, certified technicians, and guaranteed original spare parts.",
+        "image": "/home/service-package3.webp",
+        "link": "/service"
+      },
+      {
+        "id": 4,
+        "title": "Repair Package",
+        "description": "Comprehensive repair for damaged equipment with guaranteed workmanship and quality spare parts.",
+        "image": "/home/service-package4.webp",
+        "link": "/repair-packages"
+      },
+      {
+        "id": 5,
+        "title": "Contract Service Package",
+        "description": "Long-term maintenance contract with the best price, scheduled service, and a dedicated technical team for your fleet.",
+        "image": "/home/service-package5.webp",
+        "link": "/contract-service"
+      }
+    ]
+  },
+  "rental_service": {
+    "subtitle": "Flexible Rental Solutions",
+    "title": "THEI Rental Service",
+    "description": "Get quality heavy equipment with flexible rental schemes tailored to your project duration and needs. Save on investment costs without sacrificing productivity.",
+    "hover_text": "Click for Details",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Daily Rental",
+        "description": "Short-term rental solution for urgent projects with fast process and ready-to-use units.",
+        "image": "/home/rental1.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 2,
+        "title": "Monthly Rental",
+        "description": "Cost-effective rental package for medium-term projects with competitive prices and maintenance included.",
+        "image": "/home/rental2.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 3,
+        "title": "Annual Rental",
+        "description": "Long-term rental contract with the best rates, ideal for continuous operations and permanent fleets.",
+        "image": "/home/rental3.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 4,
+        "title": "Rental with Operator",
+        "description": "Complete rental package with experienced and certified operators for maximum efficiency.",
+        "image": "/home/rental4.webp",
+        "link": "/rental"
+      },
+      {
+        "id": 5,
+        "title": "Project-Based Rental",
+        "description": "Special rental solution for projects with payment and duration schemes tailored to your project timeline.",
+        "image": "/home/rental5.webp",
+        "link": "/rental"
+      }
+    ]
+  },
+  "trade_in_service": {
+    "subtitle": "Profitable Trade-In",
+    "title": "THEI Trade-In Program",
+    "description": "Upgrade your fleet with our profitable trade-in program. Exchange your old units for new ones and get the best value for your heavy equipment.",
+    "hover_text": "Click for Details",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Excavator Trade-In",
+        "description": "Trade in your old excavator for the latest unit and get the best trade-in price in its class.",
+        "image": "/home/tradein1.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 2,
+        "title": "Forklift Trade-In",
+        "description": "Special trade-in program for forklifts with attractive offers and a fast process to upgrade your warehouse fleet.",
+        "image": "/home/tradein2.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 3,
+        "title": "Dump Truck Trade-In",
+        "description": "Increase productivity by trading in your dump truck for a more efficient and advanced unit.",
+        "image": "/home/tradein3.webp",
+        "link": "/trade-in"
+      },
+      {
+        "id": 4,
+        "title": "Crane Trade-In",
+        "description": "Exchange your old crane for the latest, safer, and more powerful model with a competitive trade-in value.",
+        "image": "/home/tradein4.webp",
+        "link": "/trade-in"
+      }
+    ]
+  },
+  "sparepart_service": {
+    "subtitle": "Spare Parts Solutions",
+    "title": "THEI Spare Parts Service",
+    "description": "Guaranteed availability of spare parts for various heavy equipment brands. Complete stock, fast delivery, and competitive prices to keep your operations running smoothly.",
+    "hover_text": "Click for Details",
+    "slides": [
+      {
+        "id": 1,
+        "title": "Most Complete Spare Parts",
+        "description": "The most complete selection of spare parts for all your heavy equipment needs, guaranteed quality and optimal performance.",
+        "image": "/home/sparepart1.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 2,
+        "title": "Fast Moving Spare Parts",
+        "description": "Always available stock for frequently needed parts with ready stock and express delivery.",
+        "image": "/home/sparepart2.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 3,
+        "title": "Engine & Transmission Spare Parts",
+        "description": "Vital engine and transmission components for various brands with guaranteed performance and durability.",
+        "image": "/home/sparepart3.webp",
+        "link": "/spare-parts"
+      },
+      {
+        "id": 4,
+        "title": "Hydraulic System Spare Parts",
+        "description": "Complete hydraulic system components from pumps, valves, cylinders to hoses and fittings.",
+        "image": "/home/sparepart4.webp",
+        "link": "/spare-parts"
+      }
+    ]
   }
 }
