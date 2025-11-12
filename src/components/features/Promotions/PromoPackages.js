@@ -20,43 +20,25 @@ const PromoPackages = ({ dictionary, lang }) => {
   // Data promo dari dictionary
   const allPromos = useMemo(() => dictionary?.list || [], [dictionary]);
 
-  // Pisahkan large dan small promos
-  const largePromos = useMemo(
-    () => allPromos.filter((promo) => promo.size === 'large'),
-    [allPromos]
-  );
+  // Pisahkan promo berdasarkan ID dan remove duplicates
+  const featuredPromos = useMemo(() => {
+    const filtered = allPromos.filter((promo) =>
+      ['r1', 'r2', 'r3', 'r4'].includes(promo.id)
+    );
+    // Remove duplicates by ID
+    return filtered.filter(
+      (promo, index, self) => index === self.findIndex((p) => p.id === promo.id)
+    );
+  }, [allPromos]);
 
-  const smallPromos = useMemo(
-    () => allPromos.filter((promo) => promo.size === 'small'),
-    [allPromos]
-  );
-
-  // Pisahkan small promos menjadi 2 kategori
-  const grandOpeningPromos = useMemo(
-    () =>
-      smallPromos.filter((promo) =>
-        ['r1', 'r2', 'r3', 'r4'].includes(promo.id)
-      ),
-    [smallPromos]
-  );
-
-  const servicePromos = useMemo(
-    () =>
-      smallPromos.filter((promo) =>
-        ['r5', 'r6', 'r9', 'r7', 'r8'].includes(promo.id)
-      ),
-    [smallPromos]
-  );
-
-  // Setup Embla Carousel untuk Grand Opening Promo
-  const [emblaRef1, emblaApi1] = useEmblaCarousel(
-    {
-      loop: true,
-      align: 'start',
-      slidesToScroll: 1,
-    },
-    [Autoplay({ delay: 4000, stopOnInteraction: true })]
-  );
+  const servicePromos = useMemo(() => {
+    const filtered = allPromos.filter((promo) =>
+      ['r5', 'r6', 'r9', 'r7', 'r8'].includes(promo.id)
+    );
+    return filtered.filter(
+      (promo, index, self) => index === self.findIndex((p) => p.id === promo.id)
+    );
+  }, [allPromos]);
 
   // Setup Embla Carousel untuk Service Promo
   const [emblaRef2, emblaApi2] = useEmblaCarousel(
@@ -67,14 +49,6 @@ const PromoPackages = ({ dictionary, lang }) => {
     },
     [Autoplay({ delay: 4000, stopOnInteraction: true })]
   );
-
-  const scrollPrev1 = useCallback(() => {
-    if (emblaApi1) emblaApi1.scrollPrev();
-  }, [emblaApi1]);
-
-  const scrollNext1 = useCallback(() => {
-    if (emblaApi1) emblaApi1.scrollNext();
-  }, [emblaApi1]);
 
   const scrollPrev2 = useCallback(() => {
     if (emblaApi2) emblaApi2.scrollPrev();
@@ -197,17 +171,27 @@ const PromoPackages = ({ dictionary, lang }) => {
         </p>
       </div>
 
-      {/* Large Promos Grid */}
-      {largePromos.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {largePromos.map((promo) => (
-              <div
-                key={promo.id}
-                className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden flex flex-col"
-              >
+      {/* Featured Promos (r1-r4) - Vertical Layout */}
+      {featuredPromos.length > 0 && (
+        <section className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12 space-y-16">
+          {featuredPromos.map((promo, index) => (
+            <div key={`featured-${promo.id}-${index}`} className="space-y-6">
+              {/* Header dengan Badge & Title */}
+              <div className="text-center">
+                <h3 className="text-xl sm:text-2xl md:text-3xl font-extrabold text-gray-900 mb-3">
+                  {promo.title}
+                </h3>
+                {promo.description && (
+                  <p className="text-sm sm:text-base text-gray-600 max-w-2xl mx-auto">
+                    {promo.description}
+                  </p>
+                )}
+              </div>
+
+              {/* Card */}
+              <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow overflow-hidden">
                 {/* Image Section */}
-                <div className="relative w-full aspect-[4/5] overflow-hidden bg-gray-200 flex-shrink-0">
+                <div className="relative w-full aspect-[4/5] overflow-hidden bg-gray-200">
                   <Image
                     src={promo.image}
                     alt={promo.title || 'Promo Alat Berat'}
@@ -223,40 +207,15 @@ const PromoPackages = ({ dictionary, lang }) => {
                 </div>
 
                 {/* Content Section */}
-                <div className="p-6 flex flex-col flex-grow">
-                  {/* Title & Location */}
-                  <div className="mb-3">
-                    <h3 className="text-lg font-bold text-gray-900 line-clamp-2 mb-2">
-                      {promo.title}
-                    </h3>
-                    <div className="flex items-center gap-1 text-gray-600">
-                      <MapPin className="w-4 h-4" />
-                      <span className="text-sm">{promo.location}</span>
-                    </div>
-                  </div>
-
-                  {/* Description or Price */}
-                  <div className="mb-4 flex-grow">
-                    {promo.price ? (
-                      <div>
-                        {promo.originalPrice && (
-                          <p className="text-sm line-through text-gray-400 mb-1">
-                            {promo.originalPrice}
-                          </p>
-                        )}
-                        <p className="text-2xl font-bold text-yellow-600">
-                          {promo.price}
-                        </p>
-                      </div>
-                    ) : promo.description ? (
-                      <p className="text-sm text-gray-600 line-clamp-2">
-                        {promo.description}
-                      </p>
-                    ) : null}
+                <div className="p-6">
+                  {/* Location */}
+                  <div className="flex items-center gap-1 text-gray-600 mb-3">
+                    <MapPin className="w-4 h-4" />
+                    <span className="text-sm">{promo.location}</span>
                   </div>
 
                   {/* Buttons */}
-                  <div className="flex gap-3 flex-shrink-0">
+                  <div className="flex gap-3">
                     <Link
                       href={`/${lang}/promotions/${promo.slug}`}
                       className="flex-1 bg-black hover:bg-gray-800 text-white px-4 py-2.5 rounded-lg text-sm font-semibold transition text-center"
@@ -273,45 +232,8 @@ const PromoPackages = ({ dictionary, lang }) => {
                   </div>
                 </div>
               </div>
-            ))}
-          </div>
-        </section>
-      )}
-
-      {/* Slider 1: Grand Opening THEI Promo */}
-      {grandOpeningPromos.length > 0 && (
-        <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
-          <h3 className="text-xl font-bold text-gray-900 mb-6">
-            Grand Opening THEI Promo
-          </h3>
-          <div className="relative">
-            <div className="overflow-hidden" ref={emblaRef1}>
-              <div className="flex gap-6">
-                {grandOpeningPromos.map((promo) => (
-                  <div
-                    key={promo.id}
-                    className="flex-[0_0_100%] sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
-                  >
-                    <SmallPromoCard promo={promo} />
-                  </div>
-                ))}
-              </div>
             </div>
-
-            {/* Navigation Buttons */}
-            <button
-              onClick={scrollPrev1}
-              className="absolute -left-4 sm:left-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
-            >
-              <ChevronLeft className="w-6 h-6 text-gray-800" />
-            </button>
-            <button
-              onClick={scrollNext1}
-              className="absolute -right-4 sm:right-0 top-1/3 -translate-y-1/2 bg-white hover:bg-gray-100 p-2 rounded-full shadow-lg transition z-10"
-            >
-              <ChevronRight className="w-6 h-6 text-gray-800" />
-            </button>
-          </div>
+          ))}
         </section>
       )}
 
@@ -324,9 +246,9 @@ const PromoPackages = ({ dictionary, lang }) => {
           <div className="relative">
             <div className="overflow-hidden" ref={emblaRef2}>
               <div className="flex gap-6">
-                {servicePromos.map((promo) => (
+                {servicePromos.map((promo, index) => (
                   <div
-                    key={promo.id}
+                    key={`service-${promo.id}-${index}`}
                     className="flex-[0_0_100%] sm:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)]"
                   >
                     <SmallPromoCard promo={promo} />

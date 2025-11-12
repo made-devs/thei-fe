@@ -283,21 +283,21 @@
         "title": "Care Protection Package",
         "description": "Protect your heavy equipment investment with a comprehensive package covering preventive maintenance and extended warranty.",
         "image": "/home/service-package1.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 2,
         "title": "Retail Package",
         "description": "Flexible solution for periodic service and maintenance needs with pay-per-use system.",
         "image": "/home/service-package2.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 3,
         "title": "THEI Premium Service Package",
         "description": "Exclusive service with fast response priority, certified technicians, and guaranteed original spare parts.",
         "image": "/home/service-package3.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 4,

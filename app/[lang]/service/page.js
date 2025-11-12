@@ -15,7 +15,7 @@ export default async function ServicePage({ params }) {
   const promotionsDict = await getDictionary(lang, 'promotions');
   const servicePromos =
     promotionsDict.promotions_page?.promo_cards?.list?.filter(
-      (promo) => promo.id === 'r3'
+      (promo) => promo.id === 'r2'
     ) || [];
 
   return (

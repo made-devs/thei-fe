@@ -9,8 +9,8 @@ const CustomerProof = ({ dictionary }) => {
 
   if (!dictionary) return null;
 
-  // Fallback to Rickroll video ID if not specified
-  const videoId = dictionary.video_id || 'dQw4w9WgXcQ';
+  // Fallback to the provided YouTube Shorts video ID if not specified
+  const videoId = dictionary.video_id || '3CUnakLDL9Y';
 
   return (
     <>
@@ -56,14 +56,14 @@ const CustomerProof = ({ dictionary }) => {
 
       {showVideo && (
         <div className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4">
-          <div className="relative w-full max-w-4xl">
+          <div className="relative w-full max-w-lg">
             <button
               onClick={() => setShowVideo(false)}
               className="absolute -top-10 right-0 text-white hover:text-yellow-400"
             >
               <X size={32} />
             </button>
-            <div className="aspect-video">
+            <div className="aspect-[9/16]">
               <iframe
                 width="100%"
                 height="100%"

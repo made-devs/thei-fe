@@ -18,7 +18,7 @@ export default async function RentalPage({ params }) {
   const promotionsDict = await getDictionary(lang, 'promotions');
   const rentalPromos =
     promotionsDict.promotions_page?.promo_cards?.list?.filter(
-      (promo) => promo.id === 'r1'
+      (promo) => promo.id === 'r3'
     ) || [];
 
   return (

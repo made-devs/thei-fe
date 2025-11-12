@@ -49,7 +49,7 @@ const QualityGallery = ({ dictionary }) => {
                 >
                   <Image
                     src={item.src}
-                    alt={item.title}
+                    alt={item.title || 'Quality gallery image'}
                     fill
                     className="object-cover rounded-lg"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -98,7 +98,7 @@ const QualityGallery = ({ dictionary }) => {
             <div className="relative w-full aspect-video bg-gradient-to-br from-gray-900 to-black rounded-2xl overflow-hidden shadow-2xl border-4 border-yellow-400">
               <Image
                 src={popup.src}
-                alt={popup.title}
+                alt={popup.title || 'Quality gallery image'}
                 fill
                 className="object-cover"
                 sizes="100vw"

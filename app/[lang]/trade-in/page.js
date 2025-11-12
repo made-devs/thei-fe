@@ -16,7 +16,7 @@ export default async function TradeInPage({ params }) {
   const promotionsDict = await getDictionary(lang, 'promotions');
   const tradeInPromos =
     promotionsDict.promotions_page?.promo_cards?.list?.filter(
-      (promo) => promo.id === 'r2'
+      (promo) => promo.id === 'r4'
     ) || [];
 
   return (

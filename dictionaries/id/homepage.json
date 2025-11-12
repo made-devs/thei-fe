@@ -283,21 +283,21 @@
         "title": "Paket Care Protection",
         "description": "Lindungi investasi alat berat Anda dengan paket perlindungan menyeluruh mencakup perawatan preventif dan garansi extended.",
         "image": "/home/service-package1.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 2,
         "title": "Paket Eceran",
         "description": "Solusi fleksibel untuk kebutuhan service dan perawatan berkala alat berat dengan sistem bayar per penggunaan.",
         "image": "/home/service-package2.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 3,
         "title": "Paket Premium Service THEI",
         "description": "Layanan service eksklusif dengan prioritas tanggap cepat, teknisi bersertifikat, dan jaminan suku cadang original.",
         "image": "/home/service-package3.webp",
-        "link": "/service"
+        "link": "/repair-packages"
       },
       {
         "id": 4,
