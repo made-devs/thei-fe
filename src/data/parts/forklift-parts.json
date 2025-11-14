@@ -44,7 +44,7 @@
     "fastMoving": true
   },
   {
-    "name": "V-Belt Forklift AGV",
+    "name": "V-Belt Forklift",
     "type": "Belt",
     "subType": "AGV",
     "category": "Forklift",
@@ -77,7 +77,7 @@
     "fastMoving": true
   },
   {
-    "name": "Bearing Roda Forklift AGV",
+    "name": "Bearing Roda Forklift",
     "type": "Bearing",
     "subType": "AGV",
     "category": "Forklift",
@@ -110,7 +110,7 @@
     "fastMoving": true
   },
   {
-    "name": "Tyre Pneumatic Forklift AGV",
+    "name": "Tyre Pneumatic Forklift",
     "type": "Tyre",
     "subType": "AGV",
     "category": "Forklift",
@@ -132,7 +132,7 @@
     "fastMoving": true
   },
   {
-    "name": "Seal Hidrolik Forklift AGV",
+    "name": "Seal Hidrolik Forklift",
     "type": "Seal",
     "subType": "AGV",
     "category": "Forklift",

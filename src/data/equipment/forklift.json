@@ -1530,6 +1530,376 @@
         "overall_dimension": "3970 mm x 2230 mm x 1550 mm",
         "weight": "7000 kg"
       }
+    },
+    {
+      "model": "FB35P",
+      "brand": "Nichiyu",
+      "image": "/equipment/forklift/fb35p.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "150 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2510 mm",
+        "front_overhang": "550 mm",
+        "tread": "1160 mm / 1180 mm",
+        "wheelbase": "1800 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": null,
+        "service_weight": "5040 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "14.0 km/h",
+        "travel_unladen": "16.0 km/h",
+        "lifting_laden": "320 mm/s",
+        "lifting_unladen": "480 mm/s",
+        "lowering_laden": null,
+        "lowering_unladen": null
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "18%"
+      },
+      "power": {
+        "driven_motor": "14 kW",
+        "pump_motor": "20 kW",
+        "battery": "72 V/545 Ah",
+        "controller": "Inverter Control"
+      },
+      "size": {
+        "rear_wheel": "7.00-12-12PR",
+        "front_wheel": "250-15-18PR",
+        "overall_dimension": "3870 mm x 1390 mm x 2340 mm",
+        "weight": "5040 kg"
+      }
+    },
+    {
+      "model": "FB40P",
+      "brand": "Nichiyu",
+      "image": "/equipment/forklift/fb35p.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4000 kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "150 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2510 mm",
+        "front_overhang": "550 mm",
+        "tread": "1160 mm / 1180 mm",
+        "wheelbase": "1800 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": null,
+        "service_weight": "5310 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "13.5 km/h",
+        "travel_unladen": "15.0 km/h",
+        "lifting_laden": "300 mm/s",
+        "lifting_unladen": "480 mm/s",
+        "lowering_laden": null,
+        "lowering_unladen": null
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "16%"
+      },
+      "power": {
+        "driven_motor": "14 kW",
+        "pump_motor": "20 kW",
+        "battery": "72 V/600 Ah",
+        "controller": "Inverter Control"
+      },
+      "size": {
+        "rear_wheel": "7.00-12-12PR",
+        "front_wheel": "250-15-18PR",
+        "overall_dimension": "3910 mm x 1390 mm x 2340 mm",
+        "weight": "5310 kg"
+      }
+    },
+    {
+      "model": "FB45PN",
+      "brand": "Nichiyu",
+      "image": "/equipment/forklift/fb35p.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4500 kg",
+        "load_centre": "600 mm",
+        "lifting_height": "3000 mm",
+        "free_lifting_height": "150 mm",
+        "tilting_angle": "6°/12°",
+        "turning_radius": "2530 mm",
+        "front_overhang": "565 mm",
+        "tread": "1160 mm / 1180 mm",
+        "wheelbase": "1800 mm",
+        "fork_spread": "1070 mm",
+        "working_aisle_width_with_pallet": null,
+        "service_weight": "5870 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "13.0 km/h",
+        "travel_unladen": "15.0 km/h",
+        "lifting_laden": "250 mm/s",
+        "lifting_unladen": "400 mm/s",
+        "lowering_laden": null,
+        "lowering_unladen": null
+      },
+      "gradeability": {
+        "laden": "11%",
+        "unladen": "16%"
+      },
+      "power": {
+        "driven_motor": "14 kW",
+        "pump_motor": "20 kW",
+        "battery": "72 V/600 Ah",
+        "controller": "Inverter Control"
+      },
+      "size": {
+        "rear_wheel": "7.00-12 SOLID",
+        "front_wheel": "250-15 SOLID",
+        "overall_dimension": "3910 mm x 1390 mm x 2340 mm",
+        "weight": "5870 kg"
+      }
+    },
+    {
+      "model": "FB5",
+      "brand": "Nichiyu",
+      "image": "/equipment/forklift/fb5.webp",
+      "type": "Electric Forklift",
+      "subtype": "Counterbalance",
+      "performance": {
+        "rated_capacity": "500 kg",
+        "load_centre": "400 mm",
+        "lifting_height": "2500 mm",
+        "free_lifting_height": "0 mm",
+        "tilting_angle": null,
+        "turning_radius": "1200 mm",
+        "min_90_turning_aisle": "3000 mm",
+        "front_overhang": "295 mm",
+        "rear_overhang": "200 mm",
+        "wheelbase": "1000 mm",
+        "fork_length": "620 mm",
+        "road_clearance": "90 mm (Mast)",
+        "tread": "740 mm / 250 mm",
+        "service_weight": "990 kg",
+        "operating_pressure_for_attachment": null
+      },
+      "speed": {
+        "travel_laden": "8.0 km/h",
+        "travel_unladen": "9.5 km/h",
+        "lifting_laden": "200 mm/s",
+        "lifting_unladen": "300 mm/s",
+        "lowering_laden": null,
+        "lowering_unladen": null
+      },
+      "gradeability": {
+        "laden": "10%",
+        "unladen": null
+      },
+      "power": {
+        "driven_motor": "0.4 kW x 2",
+        "pump_motor": "1.6 kW",
+        "battery": "24 V / 140 Ah (Standard); 200 Ah (Optional)",
+        "controller": "Chopper"
+      },
+      "size": {
+        "rear_wheel": "3.50-5-6PR (Double)",
+        "front_wheel": "4.00-8-6PR",
+        "overall_dimension": "2115 mm x 850 mm x 1865 mm",
+        "weight": "990 kg"
+      },
+      "notes": {
+        "mast_lowered": "1740 mm",
+        "mast_extended": "3300 mm",
+        "tyres": {
+          "front": "4.00-8-6PR",
+          "rear": "3.50-5-6PR (Double)"
+        },
+        "battery_weight_min_max": "120/150 kg",
+        "charger": {
+          "type": "Automatic Stationary Charger",
+          "input": "1/100 Ø/V",
+          "capacity": "1.6 kVA"
+        }
+      }
+    },
+    {
+      "model": "FD20N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd20n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1600 mm",
+        "tread": "960 mm / 980 mm",
+        "service_weight": "3460 kg"
+      },
+      "speed": {
+        "travel_laden": "16.5 km/h",
+        "travel_unladen": "17.5 km/h",
+        "lifting_laden": "0.61 m/s",
+        "lifting_unladen": "0.64 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "31%",
+        "unladen": "52%"
+      },
+      "power": {
+        "driven_motor": "36 kW (D04EG diesel)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "7.00-12-12PR",
+        "rear_wheel": "6.00-9-10PR",
+        "weight": "3460 kg"
+      }
+    },
+    {
+      "model": "FD25N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd20n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1600 mm",
+        "tread": "960 mm / 980 mm",
+        "service_weight": "3760 kg"
+      },
+      "speed": {
+        "travel_laden": "16.0 km/h",
+        "travel_unladen": "17.5 km/h",
+        "lifting_laden": "0.61 m/s",
+        "lifting_unladen": "0.64 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "27%",
+        "unladen": "47%"
+      },
+      "power": {
+        "driven_motor": "36 kW (D04EG diesel)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "7.00-12-12PR",
+        "rear_wheel": "6.00-9-10PR",
+        "weight": "3760 kg"
+      }
+    },
+    {
+      "model": "FD30N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd20n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1700 mm",
+        "tread": "1060 mm / 980 mm",
+        "service_weight": "4430 kg"
+      },
+      "speed": {
+        "travel_laden": "16.0 km/h",
+        "travel_unladen": "17.0 km/h",
+        "lifting_laden": "0.49 m/s",
+        "lifting_unladen": "0.51 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "22%",
+        "unladen": "39%"
+      },
+      "power": {
+        "driven_motor": "36 kW (D04EG diesel)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "28 x 9-15-12PR",
+        "rear_wheel": "6.50-10-10PR",
+        "weight": "4430 kg"
+      }
+    },
+    {
+      "model": "FD35N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd20n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1700 mm",
+        "tread": "1060 mm / 980 mm",
+        "service_weight": "4820 kg"
+      },
+      "speed": {
+        "travel_laden": "16.5 km/h",
+        "travel_unladen": "18.0 km/h",
+        "lifting_laden": "0.41 m/s",
+        "lifting_unladen": "0.43 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "18%",
+        "unladen": "33%"
+      },
+      "power": {
+        "driven_motor": "36 kW (D04EG diesel)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "250-15-12PR",
+        "rear_wheel": "6.50-10-10PR",
+        "weight": "4820 kg"
+      }
+    },
+    {
+      "model": "XCF4612K",
+      "brand": "XCMG",
+      "image": "/equipment/forklift/xcf4612k.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "46000 kg",
+        "load_centre": "1200 mm",
+        "lifting_height": "4000 mm",
+        "turning_radius": "7500 mm",
+        "wheelbase": "5500 mm",
+        "fork_length": "2440 mm",
+        "fork_spread": "1250-2850 mm",
+        "fork_dimensions": "2440x300x145 mm",
+        "service_weight": "58600 kg",
+        "dimensions_without_fork": "7930x4130x4850 mm"
+      },
+      "speed": {
+        "travel_laden": "23 km/h",
+        "travel_unladen": "26 km/h",
+        "lifting_laden": "320 mm/s",
+        "lifting_unladen": "240 mm/s"
+      },
+      "gradeability": {
+        "laden": "25%"
+      },
+      "power": {},
+      "size": {
+        "overall_dimension": "7930 mm x 4130 mm x 4850 mm",
+        "wheelbase": "5500 mm",
+        "weight": "58600 kg"
+      },
+      "notes": {
+        "minimum_turning_radius": "7500 mm",
+        "fork_adjustment_range": "1250-2850 mm"
+      }
     }
   ]
 }

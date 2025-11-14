@@ -1,30 +1,44 @@
-"use client";
+'use client';
 
-import { useState, useEffect } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
-import { ChevronRight, ChevronDown, X } from "lucide-react";
-import ProductCard from "./ProductCard";
-import ComparisonBar from "./ComparisonBar";
-import ComparisonModal from "./ComparisonModal";
-import Image from "next/image";
+import { useState, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import { ChevronRight, ChevronDown, X } from 'lucide-react';
+import ProductCard from './ProductCard';
+import ComparisonBar from './ComparisonBar';
+import ComparisonModal from './ComparisonModal';
+import Image from 'next/image';
 
 // Helper untuk mengubah nama kategori menjadi format URL-friendly
 const slugify = (text) =>
   text
     .toString()
     .toLowerCase()
-    .replace(/\s+/g, "-") // Ganti spasi dengan -
-    .replace(/[^\w\-]+/g, "") // Hapus karakter non-word
-    .replace(/\-\-+/g, "-") // Ganti -- jadi -
-    .replace(/^-+/, "") // Hapus - di awal
-    .replace(/-+$/, ""); // Hapus - di akhir
+    .replace(/\s+/g, '-') // Ganti spasi dengan -
+    .replace(/[^\w\-]+/g, '') // Hapus karakter non-word
+    .replace(/\-\-+/g, '-') // Ganti -- jadi -
+    .replace(/^-+/, '') // Hapus - di awal
+    .replace(/-+$/, ''); // Hapus - di akhir
 
 const brandLogos = {
-  Zoomlion: "/zoomlion.webp",
-  Sany: "/sany.webp",
-  EP: "/ep.webp",
+  Zoomlion: '/zoomlion.webp',
+  Sany: '/sany.webp',
+  EP: '/ep.webp',
+  Nichiyu: '/nichiyu.webp',
+  Mitsubishi: '/mitsubishi.webp',
+  XCMG: '/xcmg.webp',
   // Tambahkan brand lain sesuai kebutuhan
 };
+
+// non-aktifkan brand tertentu dari filter (lowercase)
+const disabledBrands = new Set(['sany']);
+
+// helper: filter products excluding disabled brands
+const filterDisabledProducts = (products = []) =>
+  products.filter(
+    (product) =>
+      !product?.brand ||
+      !disabledBrands.has(product.brand.toString().toLowerCase())
+  );
 
 export default function InteractiveEquipmentView({
   categories,
@@ -33,7 +47,7 @@ export default function InteractiveEquipmentView({
 }) {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const categoryParam = searchParams.get("category");
+  const categoryParam = searchParams.get('category');
 
   // Fungsi untuk mencari nama kategori asli dari parameter URL
   const findCategoryNameBySlug = (slug) => {
@@ -42,11 +56,12 @@ export default function InteractiveEquipmentView({
   };
 
   const initialCategoryName =
-    findCategoryNameBySlug(categoryParam) || categories[0]?.name || "";
+    findCategoryNameBySlug(categoryParam) || categories[0]?.name || '';
 
   const [activeCategory, setActiveCategory] = useState(initialCategoryName);
+  // gunakan products yang sudah difilter agar Sany gak muncul di list
   const [products, setProducts] = useState(
-    productData[initialCategoryName] || []
+    filterDisabledProducts(productData[initialCategoryName] || [])
   );
   const [compareList, setCompareList] = useState([]);
   const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
@@ -55,9 +70,11 @@ export default function InteractiveEquipmentView({
   const [selectedBrand, setSelectedBrand] = useState(null); // Tambah brand filter
   const [showMobileFilters, setShowMobileFilters] = useState(false); // Mobile filter toggle
 
-  // Fungsi untuk mendapatkan unique types dari kategori
+  // Fungsi untuk mendapatkan unique types dari kategori (exclude disabled)
   const getUniqueTypes = (categoryName) => {
-    const categoryProducts = productData[categoryName] || [];
+    const categoryProducts = filterDisabledProducts(
+      productData[categoryName] || []
+    );
     const types = [...new Set(categoryProducts.map((product) => product.type))];
     return types.sort();
   };
@@ -69,15 +86,18 @@ export default function InteractiveEquipmentView({
       ...new Set(
         categoryProducts
           .map((product) => product.brand)
-          .filter((brand) => brand)
+          .filter(
+            (brand) =>
+              brand && !disabledBrands.has(brand.toString().toLowerCase()) // exclude disabled
+          )
       ),
     ];
     return brands.sort();
   };
 
-  // Filter produk berdasarkan type dan brand
+  // Filter produk berdasarkan type dan brand (tambahkan filterDisabledProducts)
   useEffect(() => {
-    let filtered = productData[activeCategory] || [];
+    let filtered = filterDisabledProducts(productData[activeCategory] || []);
 
     if (selectedType) {
       filtered = filtered.filter((product) => product.type === selectedType);
@@ -159,10 +179,20 @@ export default function InteractiveEquipmentView({
   const uniqueBrands = getUniqueBrands(activeCategory);
   const hasFilters = selectedType || selectedBrand;
 
+  // Clear selectedBrand if it becomes disabled (or not available)
+  useEffect(() => {
+    if (
+      selectedBrand &&
+      disabledBrands.has(selectedBrand.toString().toLowerCase())
+    ) {
+      setSelectedBrand(null);
+    }
+  }, [selectedBrand]);
+
   return (
     <section
       className={`bg-gray-50 py-12 lg:py-16 ${
-        compareList.length > 0 ? "pt-32 lg:pt-16" : ""
+        compareList.length > 0 ? 'pt-32 lg:pt-16' : ''
       }`}
     >
       <div className="container mx-auto px-6 lg:px-8 max-w-[1440px]">
@@ -176,8 +206,8 @@ export default function InteractiveEquipmentView({
                   onClick={() => handleCategoryClick(category.name)}
                   className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                     activeCategory === category.name
-                      ? "bg-yellow-400 text-black"
-                      : "bg-white text-gray-700 hover:bg-gray-100"
+                      ? 'bg-yellow-400 text-black'
+                      : 'bg-white text-gray-700 hover:bg-gray-100'
                   }`}
                 >
                   {category.name}
@@ -192,14 +222,14 @@ export default function InteractiveEquipmentView({
             className="w-full flex items-center justify-between px-4 py-3 bg-white rounded-lg border border-gray-200 text-sm font-medium text-gray-700 mb-4"
           >
             <span>
-              Filters{" "}
+              Filters{' '}
               {hasFilters &&
                 `(${(selectedType ? 1 : 0) + (selectedBrand ? 1 : 0)})`}
             </span>
             <ChevronDown
               size={18}
               className={`transition-transform ${
-                showMobileFilters ? "rotate-180" : ""
+                showMobileFilters ? 'rotate-180' : ''
               }`}
             />
           </button>
@@ -218,8 +248,8 @@ export default function InteractiveEquipmentView({
                       onClick={() => setSelectedType(null)}
                       className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
                         !selectedType
-                          ? "bg-yellow-400 text-black"
-                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          ? 'bg-yellow-400 text-black'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                       }`}
                     >
                       All
@@ -232,8 +262,8 @@ export default function InteractiveEquipmentView({
                         }
                         className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
                           selectedType === type
-                            ? "bg-yellow-400 text-black"
-                            : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                            ? 'bg-yellow-400 text-black'
+                            : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                         }`}
                       >
                         {type}
@@ -255,8 +285,8 @@ export default function InteractiveEquipmentView({
                       className={`px-3 py-1 rounded-full text-xs font-medium transition-colors h-10 self-center ${
                         // Tambahkan h-10 self-center untuk tinggi tetap dan center vertikal
                         !selectedBrand
-                          ? "bg-yellow-400 text-black"
-                          : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                          ? 'bg-yellow-400 text-black'
+                          : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                       }`}
                     >
                       All
@@ -266,13 +296,13 @@ export default function InteractiveEquipmentView({
                         key={brand}
                         className={`relative cursor-pointer transition-all duration-200 hover:scale-105 w-[120px] h-[90px] ${
                           selectedBrand === brand
-                            ? "shadow-[0_4px_0_0_#fbbf24]" // Shadow bawah kuning saat aktif
-                            : ""
+                            ? 'shadow-[0_4px_0_0_#fbbf24]' // Shadow bawah kuning saat aktif
+                            : ''
                         }`}
                         onClick={() => handleBrandClick(brand)}
                       >
                         <Image
-                          src={brandLogos[brand] || "/default-brand.webp"}
+                          src={brandLogos[brand] || '/default-brand.webp'}
                           alt={brand}
                           fill
                           className="object-contain"
@@ -322,8 +352,8 @@ export default function InteractiveEquipmentView({
                       onClick={() => handleCategoryClick(category.name)}
                       className={`w-full text-left px-4 py-2 rounded-md transition-colors flex justify-between items-center ${
                         activeCategory === category.name
-                          ? "bg-yellow-400 font-bold text-black"
-                          : "hover:bg-gray-100 text-gray-700"
+                          ? 'bg-yellow-400 font-bold text-black'
+                          : 'hover:bg-gray-100 text-gray-700'
                       }`}
                     >
                       <span>{category.name}</span>
@@ -353,8 +383,8 @@ export default function InteractiveEquipmentView({
                               className={`w-full text-left px-2 py-1 rounded text-sm transition-colors ${
                                 !selectedType &&
                                 activeCategory === category.name
-                                  ? "bg-yellow-400 text-black font-medium"
-                                  : "hover:bg-gray-100 text-gray-700"
+                                  ? 'bg-yellow-400 text-black font-medium'
+                                  : 'hover:bg-gray-100 text-gray-700'
                               }`}
                             >
                               All Types
@@ -372,8 +402,8 @@ export default function InteractiveEquipmentView({
                                 className={`w-full text-left px-2 py-1 rounded text-sm transition-colors ${
                                   selectedType === type &&
                                   activeCategory === category.name
-                                    ? "bg-yellow-400 text-black font-medium"
-                                    : "hover:bg-gray-100 text-gray-700"
+                                    ? 'bg-yellow-400 text-black font-medium'
+                                    : 'hover:bg-gray-100 text-gray-700'
                                 }`}
                               >
                                 {type}
@@ -407,14 +437,14 @@ export default function InteractiveEquipmentView({
                     </button>
                   )}
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-6">
                   <button
                     onClick={() => setSelectedBrand(null)}
                     className={`flex-shrink-0 min-w-[120px] h-10 px-3 py-1 rounded-lg text-sm font-medium transition-colors self-center ${
                       // Tambahkan self-center untuk center vertikal
                       !selectedBrand
-                        ? "bg-yellow-400 text-black"
-                        : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+                        ? 'bg-yellow-400 text-black'
+                        : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                     }`}
                   >
                     All Brands
@@ -422,15 +452,15 @@ export default function InteractiveEquipmentView({
                   {uniqueBrands.map((brand) => (
                     <div
                       key={brand}
-                      className={`relative cursor-pointer transition-all duration-200 hover:scale-105 w-[120px] h-[60px] ${
+                      className={`relative cursor-pointer transition-all duration-200 hover:scale-105 w-[100px] h-[60px] ${
                         selectedBrand === brand
-                          ? "shadow-[0_4px_0_0_#fbbf24]" // Shadow bawah kuning saat aktif
-                          : ""
+                          ? 'shadow-[0_2px_0_0_#fbbf24]' // Shadow bawah kuning saat aktif
+                          : ''
                       }`}
                       onClick={() => handleBrandClick(brand)}
                     >
                       <Image
-                        src={brandLogos[brand] || "/default-brand.webp"}
+                        src={brandLogos[brand] || '/default-brand.webp'}
                         alt={brand}
                         fill
                         className="object-contain"
@@ -447,7 +477,7 @@ export default function InteractiveEquipmentView({
               <div>
                 <p className="text-sm text-gray-600 mb-4">
                   Showing {products.length} product
-                  {products.length !== 1 ? "s" : ""}
+                  {products.length !== 1 ? 's' : ''}
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 lg:gap-6">
                   {products.map((product) => (
