@@ -623,6 +623,59 @@
         "max_capacity_hydraulic_oil_tank_l": "115",
         "max_capacity_fuel_tank_l": "340"
       }
+    },
+    {
+      "model": "GR135",
+      "brand": "XCMG",
+      "type": "Motor Grader",
+      "image": "/equipment/motor-grader/gr135.webp",
+      "power_system_specification": {
+        "engine_model": "6BTA5.9-C150-n",
+        "rated_power_speed_kw_rpm": "112/2200"
+      },
+      "dimensions": {
+        "machine_dimension_mm": "8015 x 2380 x 3050",
+        "clearance_rear_axle_to_ground_mm": "515",
+        "wheel_track_mm": "2020",
+        "front_rear_axle_base_mm": "5780",
+        "middle_rear_wheel_base_mm": "1538"
+      },
+      "load_specification": {
+        "operating_weight_kg": "11200"
+      },
+      "operating_device_specification": {
+        "blade_capacity_mm": "3660 x 610",
+        "max_lift_above_ground_mm": "410",
+        "max_cutting_depth_mm": "515",
+        "blade_tip_range_degrees": "54-90",
+        "maximum_tilt_angle_degrees": "90",
+        "swivel_angle_degrees": "360"
+      },
+      "running_specification": {
+        "model_of_tire": "13.00-24",
+        "drive_speed_forward_kmh": "5/8/13/20/30/42",
+        "drive_speed_reverse_kmh": "5/13/30",
+        "traction_force_kn": ">59",
+        "maximum_gradeability_percent": ">25",
+        "tire_inflation_pressure_kpa": "300",
+        "work_system_pressure_mpa": "16",
+        "transmission_box_pressure_mpa": "1.4-1.8",
+        "steering_angle_front_wheel_degrees": "±49",
+        "tilt_angle_front_wheel_degrees": "±17",
+        "oscillation_angle_front_axle_degrees": "±15",
+        "oscillation_angle_balance_box_degrees": "±16",
+        "articulated_steering_angle_degrees": "±27",
+        "min_turning_radius_m": "6.6"
+      },
+      "tank_capacity": {
+        "coolant_l": "50",
+        "fuel_tank_l": "280",
+        "engine_l": "18",
+        "transmission_box_l": "26",
+        "balance_box_l": "46",
+        "drive_axle_l": "28",
+        "hydraulic_oil_l": "96"
+      }
     }
   ]
 }

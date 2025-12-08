@@ -504,6 +504,145 @@
       }
     },
     {
+      "model": "XCT25L5_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct25l5_y.webp",
+      "lifting_performance": {
+        "payload": "30600kg",
+        "rated_engine_power": "192/1800kw/rpm",
+        "max_gradeability": "39%",
+        "boom_length": "48.8m",
+        "max_load_moment_of_basic_boom": "965kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "576kN.m",
+        "min_ground_pressure": "261mm"
+      }
+    },
+    {
+      "model": "XCT30_Y_1",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct30_y_1.webp",
+      "lifting_performance": {
+        "payload": "33200kg",
+        "rated_engine_power": "221/1800kw/rpm",
+        "max_gradeability": "40%",
+        "boom_length": "51.3m",
+        "max_load_moment_of_basic_boom": "1105kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "706kN.m",
+        "min_ground_pressure": "250mm"
+      }
+    },
+    {
+      "model": "XCT50_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct50_y.webp",
+      "lifting_performance": {
+        "payload": "40100kg",
+        "rated_engine_power": "242/1800kw/rpm",
+        "max_gradeability": "40%",
+        "boom_length": "59.5m",
+        "max_load_moment_of_basic_boom": "2009kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "933kN.m",
+        "min_ground_pressure": "260mm"
+      }
+    },
+    {
+      "model": "XCT60_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct60_y.webp",
+      "lifting_performance": {
+        "payload": "41700kg",
+        "rated_engine_power": "242/1800kw/rpm",
+        "max_gradeability": "38%",
+        "boom_length": "60m",
+        "max_load_moment_of_basic_boom": "2009kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1113kN.m",
+        "min_ground_pressure": "260mm"
+      }
+    },
+    {
+      "model": "XCT60_Y_1",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct60_y_1.webp",
+      "lifting_performance": {
+        "payload": "41700kg",
+        "rated_engine_power": "251/1800kw/rpm",
+        "max_gradeability": "45%",
+        "boom_length": "61.5m",
+        "max_load_moment_of_basic_boom": "1985kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1235kN.m",
+        "min_ground_pressure": "266mm"
+      }
+    },
+    {
+      "model": "XCT110_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct110_y.webp",
+      "lifting_performance": {
+        "rated_engine_power": "276kw",
+        "max_gradeability": "45%",
+        "boom_length": "60.5m",
+        "dimensions": "15000×2800×3927mm",
+        "max_permissible_total_weight": "49800kg",
+        "engine_model_and_power": "WP10H375E50",
+        "fully_extended_boom_length_with_jib": "85m",
+        "counterweight": "33T",
+        "max_load_moment_of_basic_boom": "3528kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2274kN.m",
+        "min_ground_pressure": "290mm"
+      }
+    },
+    {
+      "model": "XCT80_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct80_y.webp",
+      "lifting_performance": {
+        "payload": "46000kg",
+        "rated_engine_power": "264/1800kw/rpm",
+        "max_gradeability": "40%",
+        "boom_length": "61.5m",
+        "max_load_moment_of_basic_boom": "2587kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1286kN.m",
+        "min_ground_pressure": "303mm"
+      }
+    },
+    {
+      "model": "XCT90_Y",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/xct90_y.webp",
+      "lifting_performance": {
+        "payload": "49600kg",
+        "rated_engine_power": "276/1800kw/rpm",
+        "max_gradeability": "45%",
+        "boom_length": "75m",
+        "max_load_moment_of_basic_boom": "3450kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2183kN.m",
+        "min_ground_pressure": "206mm"
+      }
+    },
+    {
+      "model": "QY130KH",
+      "brand": "XCMG",
+      "type": "Truck Crane",
+      "image": "/equipment/crane/qy130kh.webp",
+      "lifting_performance": {
+        "payload": "54600kg",
+        "rated_engine_power": "338/1800kw/rpm",
+        "max_gradeability": "45%",
+        "boom_length": "104.6m",
+        "max_load_moment_of_basic_boom": "4733kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "2019kN.m",
+        "min_ground_pressure": "270mm"
+      }
+    },
+    {
       "model": "ZRT1500V643A",
       "brand": "Zoomlion",
       "type": "Rough Terrain Crane",
@@ -917,6 +1056,466 @@
         "max_load_moment_of_main_boom_fully_extended": "792kN.m",
         "max_lifting_height_of_main_boom_fully_extended": "33.9m",
         "max_lifting_height_of_jib": "47.8m"
+      }
+    },
+    {
+      "model": "XCR30",
+      "brand": "XCMG",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/xcr30.webp",
+      "lifting_performance": {
+        "payload": "27409kg",
+        "rated_engine_power": "164/1800kw/rpm",
+        "max_gradeability": "78%",
+        "boom_length": "44m",
+        "max_load_moment_of_basic_boom": "989.8kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "656.6kN.m",
+        "min_ground_pressure": "345mm"
+      }
+    },
+    {
+      "model": "XCR90",
+      "brand": "XCMG",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/xcr90.webp",
+      "lifting_performance": {
+        "payload": "54998kg",
+        "rated_engine_power": "194/1800kw/rpm",
+        "max_gradeability": "62%",
+        "boom_length": "65.5m",
+        "max_load_moment_of_basic_boom": "2840kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1615kN.m",
+        "min_ground_pressure": "550mm"
+      }
+    },
+    {
+      "model": "XCR110L5",
+      "brand": "XCMG",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/xcr110l5.webp",
+      "lifting_performance": {
+        "payload": "58910kg",
+        "max_gradeability": "76%",
+        "boom_length": "67m",
+        "dimensions": "15288x3300x3893mm",
+        "max_permissible_total_weight": "58910kg",
+        "engine_model_and_power": "QSB6.7-C260-30",
+        "fully_extended_boom_length": "51m",
+        "fully_extended_boom_length_with_jib": "67m",
+        "max_load_moment_of_basic_boom": "3057.6kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1711.1kN.m",
+        "min_ground_pressure": "524mm"
+      }
+    },
+    {
+      "model": "XCR70H",
+      "brand": "XCMG",
+      "type": "Rough Terrain Crane",
+      "image": "/equipment/crane/xcr70h.webp",
+      "lifting_performance": {
+        "payload": "46755kg",
+        "max_gradeability": "70%",
+        "boom_length": "61m",
+        "dimensions": "14162×3290×3795mm",
+        "max_permissible_total_weight": "46755kg",
+        "engine_model_and_power": "QSB6.7-C260-30",
+        "fully_extended_boom_length": "45m",
+        "fully_extended_boom_length_with_jib": "61m",
+        "max_load_moment_of_basic_boom": "2028.6kN.m",
+        "max_load_moment_of_main_boom_fully_extended": "1223kN.m",
+        "min_ground_pressure": "508mm"
+      }
+    },
+    {
+      "model": "SQS300TL-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/sqs300tl-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "300kN.m",
+        "max_lifting_capacity": "12000kg",
+        "max_outreach": "12.9m",
+        "oil_tank_capacity": "270L",
+        "crane_weight": "4337kg",
+        "lifting_height": "14.7m",
+        "max_elevation": "75°"
+      }
+    },
+    {
+      "model": "QQS125D",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/qqs125d.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "125kN.m",
+        "max_lifting_capacity": "5000kg",
+        "max_outreach": "11.2m",
+        "max_lifting_height": "12.4m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63L/min",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "20MPa",
+        "recommended_power": "26kw",
+        "installation": "920mm",
+        "crane_weight": "2200kg"
+      }
+    },
+    {
+      "model": "QQS200GIII",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/qqs200giii.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "200kN.m",
+        "max_lifting_capacity": "8000kg",
+        "max_outreach": "20.35m",
+        "max_lifting_height": "22.5m",
+        "amplitude_range": "-15~75°",
+        "slewing_angle": "360°",
+        "drill_pipe_output_torque": "7055N.m",
+        "drilling_diameter": "0.3m",
+        "drilling_depth": "3.5m",
+        "rated_flow_hydraulic_system": "50+50L/min",
+        "oil_tank_capacity": "120L",
+        "rated_pressure_hydraulic_system": "27MPa",
+        "recommended_power": "45kw",
+        "installation": "700mm",
+        "crane_weight": "4800kg"
+      }
+    },
+    {
+      "model": "QQS250G",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/qqs250g.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "250kN.m",
+        "max_lifting_capacity": "10000kg",
+        "max_outreach": "13.8m",
+        "max_lifting_height": "15.5m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63+40L/min",
+        "oil_tank_capacity": "200L",
+        "rated_pressure_hydraulic_system": "26MPa",
+        "recommended_power": "30kw",
+        "installation": "1200mm",
+        "crane_weight": "4345kg"
+      }
+    },
+    {
+      "model": "MSQS68-3",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs68-3.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "67.2kN.m",
+        "max_lifting_capacity": "3200kg",
+        "max_outreach": "7.82m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "45L",
+        "rated_pressure_hydraulic_system": "20MPa",
+        "recommended_power": "15kw",
+        "installation": "800mm",
+        "crane_weight": "940kg",
+        "max_oil_flow_hydraulic_system": "40L/min",
+        "leg_crosswise_span": "2029-3550mm"
+      }
+    },
+    {
+      "model": "MSQS80-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs80-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "80kN.m",
+        "max_lifting_capacity": "4000kg",
+        "max_outreach": "9.62m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "45L",
+        "rated_pressure_hydraulic_system": "20MPa",
+        "recommended_power": "15kw",
+        "installation": "800mm",
+        "crane_weight": "1020kg",
+        "max_oil_flow_hydraulic_system": "40L/min",
+        "leg_crosswise_span": "2029-3550mm"
+      }
+    },
+    {
+      "model": "MSQS157-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs157-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "157.5kN.m",
+        "max_lifting_capacity": "6300kg",
+        "max_outreach": "13.04m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "22MPa",
+        "recommended_power": "26kw",
+        "installation": "900mm",
+        "crane_weight": "2420kg",
+        "max_oil_flow_hydraulic_system": "63L/min",
+        "leg_crosswise_span": "2280-5500mm"
+      }
+    },
+    {
+      "model": "MSQS200-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs200-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "200kN.m",
+        "max_lifting_capacity": "8000kg",
+        "max_outreach": "13.5m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "200L",
+        "rated_pressure_hydraulic_system": "26MPa",
+        "recommended_power": "27kw",
+        "installation": "1200mm",
+        "crane_weight": "3450kg",
+        "max_oil_flow_hydraulic_system": "63/50+50L/min",
+        "leg_crosswise_span": "2318-5708mm"
+      }
+    },
+    {
+      "model": "MSQS250-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs250-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "250kN.m",
+        "max_lifting_capacity": "10000kg",
+        "max_outreach": "14m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "200L",
+        "rated_pressure_hydraulic_system": "26MPa",
+        "recommended_power": "30kw",
+        "installation": "1200mm",
+        "crane_weight": "3693kg",
+        "max_oil_flow_hydraulic_system": "63/63+40L/min",
+        "leg_crosswise_span": "2318-5708mm"
+      }
+    },
+    {
+      "model": "MSQS300-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/msqs300-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "300kN.m",
+        "max_lifting_capacity": "12000kg",
+        "max_outreach": "14.5m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "240L",
+        "rated_pressure_hydraulic_system": "26MPa",
+        "recommended_power": "30kw",
+        "installation": "1300mm",
+        "crane_weight": "4406kg",
+        "max_oil_flow_hydraulic_system": "63/63+40L/min",
+        "leg_crosswise_span": "2310-5700mm"
+      }
+    },
+    {
+      "model": "GSQS125TL-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs125tl-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "126.25kN.m",
+        "max_lifting_capacity": "5050kg",
+        "max_outreach": "11.24m",
+        "max_lifting_height": "13.1m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63L/min",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "22MPa",
+        "recommended_power": "30kw",
+        "installation": "900mm",
+        "crane_weight": "1850kg"
+      }
+    },
+    {
+      "model": "GSQS125TL-5",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs125tl-5.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "126.25kN.m",
+        "max_lifting_capacity": "5050kg",
+        "max_outreach": "13.56m",
+        "max_lifting_height": "15.4m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63L/min",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "22MPa",
+        "recommended_power": "30kw",
+        "installation": "900mm",
+        "crane_weight": "2010kg"
+      }
+    },
+    {
+      "model": "GSQS125TL-6",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs125tl-6.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "126.25kN.m",
+        "max_lifting_capacity": "5050kg",
+        "max_outreach": "15.96m",
+        "max_lifting_height": "17.8m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63L/min",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "22MPa",
+        "recommended_power": "30kw",
+        "installation": "900mm",
+        "crane_weight": "2160kg"
+      }
+    },
+    {
+      "model": "GSQS157TL-4",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs157tl-4.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "158.75kN.m",
+        "max_lifting_capacity": "6350kg",
+        "max_outreach": "11.24m",
+        "max_lifting_height": "13.1m",
+        "slewing_angle": "360°",
+        "rated_flow_hydraulic_system": "63L/min",
+        "oil_tank_capacity": "90L",
+        "rated_pressure_hydraulic_system": "22MPa",
+        "recommended_power": "30kw",
+        "installation": "900mm",
+        "crane_weight": "900kg"
+      }
+    },
+    {
+      "model": "GSQS200-4(SQS200E)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs200-4_sqs200e.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "200kN.m",
+        "max_lifting_capacity": "8000kg",
+        "max_outreach": "15m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "200L",
+        "stabilizer_spread": "2470-5840mm",
+        "installation_space": "860mm",
+        "max_operating_pressure": "26MPa",
+        "recommended_pump_capacity": "63L/min",
+        "dead_weight": "3350kg"
+      }
+    },
+    {
+      "model": "GSQS350-5(SQS350G II)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs350-5_sqs350g_ii.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "360kN.m",
+        "max_lifting_capacity": "14000kg",
+        "max_outreach": "19.6m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "240L",
+        "stabilizer_spread": "2454-7562mm",
+        "installation_space": "1250mm",
+        "max_operating_pressure": "28MPa",
+        "recommended_pump_capacity": "63+50L/min",
+        "dead_weight": "5723kg"
+      }
+    },
+    {
+      "model": "GSQS300-4(SQS300E)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs300-4_sqs300e.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "330kN.m",
+        "max_lifting_capacity": "13000kg",
+        "max_outreach": "16m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "240L",
+        "stabilizer_spread": "2488-6088mm",
+        "installation_space": "1300mm",
+        "max_operating_pressure": "26MPa",
+        "recommended_pump_capacity": "63+40L/min",
+        "dead_weight": "4300kg"
+      }
+    },
+    {
+      "model": "GSQS250-4(SQS250C)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs250-4_sqs250c.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "260kN.m",
+        "max_lifting_capacity": "11000kg",
+        "max_outreach": "15.5m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "200L",
+        "stabilizer_spread": "2480-6070mm",
+        "installation_space": "1200mm",
+        "max_operating_pressure": "26MPa",
+        "recommended_pump_capacity": "50+50L/min",
+        "dead_weight": "3959kg"
+      }
+    },
+    {
+      "model": "GSQS500-5(SQS500B)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs500-5_sqs500b.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "520kN.m",
+        "max_lifting_capacity": "20000kg",
+        "max_outreach": "23.7m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "270L",
+        "stabilizer_spread": "2436-8396mm",
+        "installation_space": "1400mm",
+        "max_operating_pressure": "28MPa",
+        "recommended_pump_capacity": "80+50L/min",
+        "dead_weight": "7600kg"
+      }
+    },
+    {
+      "model": "GSQS400-5(SQS400B)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs400-5_sqs400b.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "430kN.m",
+        "max_lifting_capacity": "16000kg",
+        "max_outreach": "21.77m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "240L",
+        "stabilizer_spread": "2436-8396mm",
+        "installation_space": "1340mm",
+        "max_operating_pressure": "28MPa",
+        "recommended_pump_capacity": "80+50L/min",
+        "dead_weight": "6880kg"
+      }
+    },
+    {
+      "model": "GSQS400-4(SQS400D)",
+      "brand": "XCMG",
+      "type": "Truck Mounted Crane",
+      "image": "/equipment/crane/gsqs400-4_sqs400d.webp",
+      "lifting_performance": {
+        "max_lifting_moment": "420kN.m",
+        "max_lifting_capacity": "16000kg",
+        "max_outreach": "19.3m",
+        "slewing_angle": "360°",
+        "oil_tank_capacity": "240L",
+        "stabilizer_spread": "2454-7562mm",
+        "installation_space": "1340mm",
+        "max_operating_pressure": "28MPa",
+        "recommended_pump_capacity": "80+50L/min",
+        "dead_weight": "6206kg"
       }
     }
   ]

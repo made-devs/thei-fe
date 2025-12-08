@@ -143,9 +143,249 @@
         "max_digging_depth": "6660 mm",
         "max_dumping_height": "10010 mm"
       }
+    },
+    {
+      "model": "XE17U",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe17u.webp",
+      "basic_technical_data": {
+        "operating_weight": "1795kg",
+        "rated_power": "11.8kw/2300rpm",
+        "standard_capacity": "0.04m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "3900mm",
+        "max_digging_depth": "3475mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE55DA",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe55da.webp",
+      "basic_technical_data": {
+        "operating_weight": "5750kg",
+        "rated_power": "35kw/2200rpm",
+        "standard_capacity": "0.21m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "6130mm",
+        "max_digging_depth": "5630mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE60WD",
+      "brand": "XCMG",
+      "type": "Wheel Excavator",
+      "image": "/equipment/excavator/xe60wd.webp",
+      "basic_technical_data": {
+        "operating_weight": "5900kg",
+        "rated_power": "42.5kw/2400rpm",
+        "standard_capacity": "0.23m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "5910mm",
+        "max_digging_depth": "5830mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE60DA",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe60da.webp",
+      "basic_technical_data": {
+        "operating_weight": "6010kg",
+        "rated_power": "36.2kw/2100rpm",
+        "standard_capacity": "0.23m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "6130mm",
+        "max_digging_depth": "5630mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE75DA",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe75da.webp",
+      "basic_technical_data": {
+        "operating_weight": "7680kg",
+        "rated_power": "42.4kw/2000rpm",
+        "standard_capacity": "0.33m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "6260mm",
+        "max_digging_depth": "7085mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE135G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe135g.webp",
+      "basic_technical_data": {
+        "operating_weight": "13500kg",
+        "rated_power": "72.7kw/2200rpm",
+        "standard_capacity": "0.55m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "8310mm",
+        "max_digging_depth": "8640mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE135B",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe135b.webp",
+      "basic_technical_data": {
+        "operating_weight": "13800kg",
+        "rated_power": "72.7kw/2200rpm",
+        "standard_capacity": "0.52m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "8296mm",
+        "max_digging_depth": "8641mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE150WD",
+      "brand": "XCMG",
+      "type": "Wheel Excavator",
+      "image": "/equipment/excavator/xe150wd.webp",
+      "basic_technical_data": {
+        "operating_weight": "14000kg",
+        "rated_power": "104kw/2000rpm",
+        "standard_capacity": "0.58m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "7780mm",
+        "max_digging_depth": "5855mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE135F",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe135f.webp",
+      "basic_technical_data": {
+        "operating_weight": "17700kg",
+        "rated_power": "72.7kw/2200rpm",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_radius": null,
+        "max_digging_depth": null,
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE215C",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe215c.webp",
+      "basic_technical_data": {
+        "operating_weight": "21900kg",
+        "rated_power": "128.5kw/2100rpm",
+        "standard_capacity": "1.05m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9940mm",
+        "max_digging_depth": "9620mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE215CLL",
+      "brand": "XCMG",
+      "type": "Special Excavator",
+      "image": "/equipment/excavator/xe215cll.webp",
+      "basic_technical_data": {
+        "operating_weight": "22350kg",
+        "rated_power": "128.5kw/2100rpm",
+        "standard_capacity": "0.4-0.5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "15430mm",
+        "max_digging_depth": "13500mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE215G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe215g.webp",
+      "basic_technical_data": {
+        "operating_weight": "22500kg",
+        "rated_power": "128.5kw/2100rpm",
+        "standard_capacity": "1.05m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9940mm",
+        "max_digging_depth": "9620mm",
+        "max_dumping_height": null
+      }
     }
   ],
   "large_excavators": [
+    {
+      "model": "XE215S",
+      "brand": "XCMG",
+      "type": "Special Excavator",
+      "image": "/equipment/excavator/xe215s.webp",
+      "basic_technical_data": {
+        "operating_weight": "32440kg",
+        "rated_power": "128.5kw/2100rpm",
+        "standard_capacity": "1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "9950mm",
+        "max_digging_depth": "10595mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE220SL",
+      "brand": "XCMG",
+      "type": "Special Excavator",
+      "image": "/equipment/excavator/xe220sl.webp",
+      "basic_technical_data": {
+        "operating_weight": "30600kg",
+        "rated_power": "135kw/2050rpm",
+        "standard_capacity": "0.8m³"
+      },
+      "operating_range": {
+        "max_digging_radius": null,
+        "max_digging_depth": null,
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE215SLL",
+      "brand": "XCMG",
+      "type": "Special Excavator",
+      "image": "/equipment/excavator/xe215sll.webp",
+      "basic_technical_data": {
+        "operating_weight": "32500kg",
+        "rated_power": "128.5kw/2100rpm",
+        "standard_capacity": "0.4-0.5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "15430mm",
+        "max_digging_depth": "14475mm",
+        "max_dumping_height": null
+      }
+    },
     {
       "model": "ZE335G",
       "brand": "Zoomlion",
@@ -275,6 +515,22 @@
       }
     },
     {
+      "model": "XE450M",
+      "brand": "XCMG",
+      "type": "Special Excavator",
+      "image": "/equipment/excavator/xe450m.webp",
+      "basic_technical_data": {
+        "operating_weight": "45000kg",
+        "rated_power": "222kw/2100rpm",
+        "standard_capacity": "2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "15400mm",
+        "max_digging_depth": "13200mm",
+        "max_dumping_height": null
+      }
+    },
+    {
       "model": "ZE500G",
       "brand": "Zoomlion",
       "type": "Excavator",
@@ -351,6 +607,150 @@
       "operating_range": {
         "max_digging_radius": "13800mm",
         "max_digging_depth": "5380mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE335G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe335g.webp",
+      "basic_technical_data": {
+        "operating_weight": "33500kg",
+        "rated_power": "212kw/2000rpm",
+        "standard_capacity": "1.7m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10420mm",
+        "max_digging_depth": "10174mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE370G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe370g.webp",
+      "basic_technical_data": {
+        "operating_weight": "38500kg",
+        "rated_power": "212kw/2000rpm",
+        "standard_capacity": "2.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10640mm",
+        "max_digging_depth": "10035mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE370CA",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe370ca.webp",
+      "basic_technical_data": {
+        "operating_weight": "38500kg",
+        "rated_power": "190.5kw/2000rpm",
+        "standard_capacity": "2.3m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10470mm",
+        "max_digging_depth": "10123mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE490DK",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe490dk.webp",
+      "basic_technical_data": {
+        "operating_weight": "48100kg",
+        "rated_power": "280kw/2000rpm",
+        "standard_capacity": "3.1m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "10375mm",
+        "max_digging_depth": "9945mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE500G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe500g.webp",
+      "basic_technical_data": {
+        "operating_weight": "49700kg",
+        "rated_power": "343kw/1800rpm",
+        "standard_capacity": "2.8m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "11225mm",
+        "max_digging_depth": "10340mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE550G",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe550g.webp",
+      "basic_technical_data": {
+        "operating_weight": "51500kg",
+        "rated_power": "343kw/1800rpm",
+        "standard_capacity": "3.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "11360mm",
+        "max_digging_depth": "10415mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE690DK",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe690dk.webp",
+      "basic_technical_data": {
+        "operating_weight": "69800kg",
+        "rated_power": "566kw/2100rpm",
+        "standard_capacity": "5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "11780mm",
+        "max_digging_depth": "12200mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE700GK",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe700gk.webp",
+      "basic_technical_data": {
+        "operating_weight": "73000kg",
+        "rated_power": "563kw/2000rpm",
+        "standard_capacity": "4.5m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "12160mm",
+        "max_digging_depth": "11665mm",
+        "max_dumping_height": null
+      }
+    },
+    {
+      "model": "XE750GK",
+      "brand": "XCMG",
+      "type": "Excavator",
+      "image": "/equipment/excavator/xe750gk.webp",
+      "basic_technical_data": {
+        "operating_weight": "76500kg",
+        "rated_power": "563kw/2000rpm",
+        "standard_capacity": "5.2m³"
+      },
+      "operating_range": {
+        "max_digging_radius": "12050mm",
+        "max_digging_depth": "11280mm",
         "max_dumping_height": null
       }
     }

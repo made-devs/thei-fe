@@ -1865,6 +1865,1707 @@
       }
     },
     {
+      "model": "FD40N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd40n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "4000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "1850 mm",
+        "tread": "1175 mm / 1180 mm",
+        "service_weight": "5920 kg"
+      },
+      "speed": {
+        "travel_laden": "21.5 km/h",
+        "travel_unladen": "22.5 km/h",
+        "lifting_laden": "0.62 m/s",
+        "lifting_unladen": "0.67 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "27.3%",
+        "unladen": "26.7%"
+      },
+      "power": {
+        "driven_motor": "54.0 kW (D04EG-T diesel)",
+        "controller": "Powershift 2/1"
+      },
+      "size": {
+        "front_wheel": "8.25-15-14PR",
+        "rear_wheel": "7.00-12-14PR",
+        "weight": "5920 kg"
+      }
+    },
+    {
+      "model": "FD45N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd40n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "4500 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2000 mm",
+        "tread": "1175 mm / 1180 mm",
+        "service_weight": "6330 kg"
+      },
+      "speed": {
+        "travel_laden": "21.5 km/h",
+        "travel_unladen": "22.5 km/h",
+        "lifting_laden": "0.62 m/s",
+        "lifting_unladen": "0.67 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "24.6%",
+        "unladen": "25.4%"
+      },
+      "power": {
+        "driven_motor": "54.0 kW (D04EG-T diesel)",
+        "controller": "Powershift 2/1"
+      },
+      "size": {
+        "front_wheel": "300-15-18PR",
+        "rear_wheel": "7.00-12-14PR",
+        "weight": "6330 kg"
+      }
+    },
+    {
+      "model": "FD50CN3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd40n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "5000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2000 mm",
+        "tread": "1175 mm / 1180 mm",
+        "service_weight": "6850 kg"
+      },
+      "speed": {
+        "travel_laden": "21 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.54 m/s",
+        "lifting_unladen": "0.58 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "21.8%",
+        "unladen": "25.4%"
+      },
+      "power": {
+        "driven_motor": "54.0 kW (D04EG-T diesel)",
+        "controller": "Powershift 2/1"
+      },
+      "size": {
+        "front_wheel": "300-15-18PR",
+        "rear_wheel": "7.00-12-14PR",
+        "weight": "6850 kg"
+      }
+    },
+    {
+      "model": "FD50N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd40n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "5000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2150 mm",
+        "tread": "1175 mm / 1180 mm",
+        "service_weight": "7300 kg"
+      },
+      "speed": {
+        "travel_laden": "21 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.53 m/s",
+        "lifting_unladen": "0.57 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "21%",
+        "unladen": "26.4%"
+      },
+      "power": {
+        "driven_motor": "54.0 kW (D04EG-T diesel)",
+        "controller": "Powershift 2/1"
+      },
+      "size": {
+        "front_wheel": "300-15-18PR",
+        "rear_wheel": "7.00-12-14PR",
+        "weight": "7300 kg"
+      }
+    },
+    {
+      "model": "FD55N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd40n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "5500 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2150 mm",
+        "tread": "1175 mm / 1180 mm",
+        "service_weight": "7640 kg"
+      },
+      "speed": {
+        "travel_laden": "20.5 km/h",
+        "travel_unladen": "22 km/h",
+        "lifting_laden": "0.53 m/s",
+        "lifting_unladen": "0.57 m/s",
+        "lowering_laden": "0.50 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "19.3%",
+        "unladen": "25.3%"
+      },
+      "power": {
+        "driven_motor": "54.0 kW (D04EG-T diesel)",
+        "controller": "Powershift 2/1"
+      },
+      "size": {
+        "front_wheel": "300-15-8.00",
+        "rear_wheel": "7.00-12-5.00",
+        "weight": "7640 kg"
+      }
+    },
+    {
+      "model": "FD60N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd60n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "6000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2300 mm",
+        "tread": "1470 mm / 1700 mm",
+        "service_weight": "8670 kg"
+      },
+      "speed": {
+        "travel_laden": "25.0 km/h",
+        "travel_unladen": "28.0 km/h",
+        "lifting_laden": "0.53 m/s",
+        "lifting_unladen": "0.55 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "28%",
+        "unladen": "20%"
+      },
+      "power": {
+        "driven_motor": "81.0 kW (Kubota V3800 diesel)",
+        "controller": "Powershift 2/2"
+      },
+      "size": {
+        "front_wheel": "8.25x15-14PR",
+        "rear_wheel": "8.25x15-14PR",
+        "weight": "8670 kg"
+      }
+    },
+    {
+      "model": "FD70N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd60n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "7000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2300 mm",
+        "tread": "1470 mm / 1700 mm",
+        "service_weight": "9540 kg"
+      },
+      "speed": {
+        "travel_laden": "25.0 km/h",
+        "travel_unladen": "28.0 km/h",
+        "lifting_laden": "0.53 m/s",
+        "lifting_unladen": "0.55 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "28%",
+        "unladen": "20%"
+      },
+      "power": {
+        "driven_motor": "81.0 kW (Kubota V3800 diesel)",
+        "controller": "Powershift 2/2"
+      },
+      "size": {
+        "front_wheel": "8.25x15-14PR",
+        "rear_wheel": "8.25x15-14PR",
+        "weight": "9540 kg"
+      }
+    },
+    {
+      "model": "FD80N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd60n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "8000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2500 mm",
+        "tread": "1600 mm / 1700 mm",
+        "service_weight": "11510 kg"
+      },
+      "speed": {
+        "travel_laden": "24.0 km/h",
+        "travel_unladen": "28.0 km/h",
+        "lifting_laden": "0.44 m/s",
+        "lifting_unladen": "0.46 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "25%",
+        "unladen": "20%"
+      },
+      "power": {
+        "driven_motor": "81.0 kW (Kubota V3800 diesel)",
+        "controller": "Powershift 2/2"
+      },
+      "size": {
+        "front_wheel": "9.00x20-14PR",
+        "rear_wheel": "9.00x20-14PR",
+        "weight": "11510 kg"
+      }
+    },
+    {
+      "model": "FD100N3",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fd60n3.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "10000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2800 mm",
+        "tread": "1700 mm / 1700 mm",
+        "service_weight": "12910 kg"
+      },
+      "speed": {
+        "travel_laden": "24.0 km/h",
+        "travel_unladen": "27.0 km/h",
+        "lifting_laden": "0.35 m/s",
+        "lifting_unladen": "0.37 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "21%",
+        "unladen": "20%"
+      },
+      "power": {
+        "driven_motor": "81.0 kW (Kubota V3800 diesel)",
+        "controller": "Powershift 2/2"
+      },
+      "size": {
+        "front_wheel": "9.00x20-14PR",
+        "rear_wheel": "9.00x20-14PR",
+        "weight": "12910 kg"
+      }
+    },
+    {
+      "model": "FG15N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "1500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1400 mm",
+        "tread": "890 mm / 900 mm",
+        "service_weight": "2490 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "49%",
+        "unladen": "49%"
+      },
+      "power": {
+        "driven_motor": "41 kW (GK21E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "6.50-10-10PR",
+        "rear_wheel": "5.00-8-8PR",
+        "weight": "2490 kg"
+      }
+    },
+    {
+      "model": "FG18N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "1750 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1400 mm",
+        "tread": "890 mm / 900 mm",
+        "service_weight": "2690 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "43%",
+        "unladen": "81%"
+      },
+      "power": {
+        "driven_motor": "41 kW (GK21E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "6.50-10-10PR",
+        "rear_wheel": "5.00-8-8PR",
+        "weight": "2690 kg"
+      }
+    },
+    {
+      "model": "FG20CN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1400 mm",
+        "tread": "890 mm / 900 mm",
+        "service_weight": "3010 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "37%",
+        "unladen": "70%"
+      },
+      "power": {
+        "driven_motor": "41 kW (GK21E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "6.50-10-10PR",
+        "rear_wheel": "5.00-8-8PR",
+        "weight": "3010 kg"
+      }
+    },
+    {
+      "model": "FG20N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1600 mm",
+        "tread": "960 mm / 980 mm",
+        "service_weight": "3300 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "49%",
+        "unladen": "49%"
+      },
+      "power": {
+        "driven_motor": "41 kW (GK21E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "7.00-12-12PR",
+        "rear_wheel": "6.00-9-10PR",
+        "weight": "3300 kg"
+      }
+    },
+    {
+      "model": "FG25N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1700 mm",
+        "tread": "960 mm / 980 mm",
+        "service_weight": "3600 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "49%",
+        "unladen": "49%"
+      },
+      "power": {
+        "driven_motor": "41 kW (GK21E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "7.00-12-12PR",
+        "rear_wheel": "6.00-9-10PR",
+        "weight": "3600 kg"
+      }
+    },
+    {
+      "model": "FG30N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1700 mm",
+        "tread": "1060 mm / 980 mm",
+        "service_weight": "4240 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "43%",
+        "unladen": "81%"
+      },
+      "power": {
+        "driven_motor": "46.9 kW (GK25E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "28x9-15-12PR",
+        "rear_wheel": "6.50-10-10PR",
+        "weight": "4240 kg"
+      }
+    },
+    {
+      "model": "FG35N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fg15n.webp",
+      "type": "Internal Combustion Forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1700 mm",
+        "tread": "1060 mm / 980 mm",
+        "service_weight": "4630 kg"
+      },
+      "speed": {
+        "travel_laden": "19.0 km/h",
+        "travel_unladen": "19.5 km/h",
+        "lifting_laden": "0.64 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.50 m/s"
+      },
+      "gradeability": {
+        "laden": "37%",
+        "unladen": "70%"
+      },
+      "power": {
+        "driven_motor": "46.9 kW (GK25E LPG)",
+        "controller": "Powershift 1/1"
+      },
+      "size": {
+        "front_wheel": "250-15-12PR",
+        "rear_wheel": "6.50-10-10PR",
+        "weight": "4630 kg"
+      }
+    },
+    {
+      "model": "FB14N2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1400 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1320 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "2790 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.55 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "16%",
+        "unladen": "26%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18x7-8",
+        "rear_wheel": "140/55-9",
+        "weight": "2790 kg"
+      }
+    },
+    {
+      "model": "FB16CN2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1600 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1320 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "2966 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.52 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "25%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18x7-8",
+        "rear_wheel": "140/55-9",
+        "weight": "2966 kg"
+      }
+    },
+    {
+      "model": "FB16N2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1600 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1320 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "2949 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.52 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "25%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18x7-8",
+        "rear_wheel": "140/55-9",
+        "weight": "2949 kg"
+      }
+    },
+    {
+      "model": "FB18CN2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1800 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1320 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "3156 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.46 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18x7-8",
+        "rear_wheel": "140/55-9",
+        "weight": "3156 kg"
+      }
+    },
+    {
+      "model": "FB18N2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1800 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1320 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "3336 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.46 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18x7-8",
+        "rear_wheel": "140/55-9",
+        "weight": "3336 kg"
+      }
+    },
+    {
+      "model": "FB20N2T",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1428 mm",
+        "tread": "930 mm / 174 mm",
+        "service_weight": "3342 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.62 m/s",
+        "lifting_unladen": "0.42 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "12%",
+        "unladen": "21%"
+      },
+      "power": {
+        "driven_motor": "2 x 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "200/50-10",
+        "rear_wheel": "140/55-9",
+        "weight": "3342 kg"
+      }
+    },
+    {
+      "model": "FB16CN2",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1600 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1394 mm",
+        "tread": "930 mm / 898 mm",
+        "service_weight": "2944 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.55 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "16%",
+        "unladen": "26%"
+      },
+      "power": {
+        "driven_motor": "2 × 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18×7-8",
+        "rear_wheel": "16×6-8",
+        "weight": "2944 kg"
+      }
+    },
+    {
+      "model": "FB16N2",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1600 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1394 mm",
+        "tread": "930 mm / 898 mm",
+        "service_weight": "2957 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.55 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "16%",
+        "unladen": "26%"
+      },
+      "power": {
+        "driven_motor": "2 × 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18×7-8",
+        "rear_wheel": "16×6-8",
+        "weight": "2957 kg"
+      }
+    },
+    {
+      "model": "FB18CN2",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1800 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1394 mm",
+        "tread": "930 mm / 898 mm",
+        "service_weight": "3114 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.46 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 × 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18×7-8",
+        "rear_wheel": "16×6-8",
+        "weight": "3114 kg"
+      }
+    },
+    {
+      "model": "FB18N2",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "1800 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1502 mm",
+        "tread": "930 mm / 898 mm",
+        "service_weight": "3097 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.46 m/s",
+        "lifting_unladen": "0.62 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 × 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "18×7-8",
+        "rear_wheel": "16×6-8",
+        "weight": "3097 kg"
+      }
+    },
+    {
+      "model": "FB20N2",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb20n2.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1502 mm",
+        "tread": "938 mm / 898 mm",
+        "service_weight": "3287 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "16 km/h",
+        "lifting_laden": "0.62 m/s",
+        "lifting_unladen": "0.42 m/s",
+        "lowering_laden": "0.56 m/s",
+        "lowering_unladen": "0.56 m/s"
+      },
+      "gradeability": {
+        "laden": "12%",
+        "unladen": "21%"
+      },
+      "power": {
+        "driven_motor": "2 × 5.5 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "200/50-10",
+        "rear_wheel": "16×6-8",
+        "weight": "3287 kg"
+      }
+    },
+    {
+      "model": "FB25AN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb25an.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1730 mm",
+        "tread": "985 mm / 970 mm",
+        "service_weight": "4737 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.5 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.55 m/s",
+        "lowering_unladen": "0.5 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "25%"
+      },
+      "power": {
+        "driven_motor": "2 × 8 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "23×9-10",
+        "rear_wheel": "18×7-8",
+        "weight": "4737 kg"
+      }
+    },
+    {
+      "model": "FB25ACN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb25an.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "2500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1585 mm",
+        "tread": "985 mm / 970 mm",
+        "service_weight": "4584 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.5 m/s",
+        "lifting_unladen": "0.65 m/s",
+        "lowering_laden": "0.55 m/s",
+        "lowering_unladen": "0.5 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "25%"
+      },
+      "power": {
+        "driven_motor": "2 × 8 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "23×9-10",
+        "rear_wheel": "18×7-8",
+        "weight": "4584 kg"
+      }
+    },
+    {
+      "model": "FB30AN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb25an.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1730 mm",
+        "tread": "950 mm / 970 mm",
+        "service_weight": "5230 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.45 m/s",
+        "lifting_unladen": "0.6 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.45 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "22%"
+      },
+      "power": {
+        "driven_motor": "2 × 8 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "23×10-12",
+        "rear_wheel": "18×7-8",
+        "weight": "5230 kg"
+      }
+    },
+    {
+      "model": "FB30ACN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb25an.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1585 mm",
+        "tread": "950 mm / 970 mm",
+        "service_weight": "5222 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.45 m/s",
+        "lifting_unladen": "0.6 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.45 m/s"
+      },
+      "gradeability": {
+        "laden": "13%",
+        "unladen": "22%"
+      },
+      "power": {
+        "driven_motor": "2 × 8 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "23×10-12",
+        "rear_wheel": "18×7-8",
+        "weight": "5222 kg"
+      }
+    },
+    {
+      "model": "FB35AN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb25an.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "3500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1730 mm",
+        "tread": "950 mm / 970 mm",
+        "service_weight": "5654 kg"
+      },
+      "speed": {
+        "travel_laden": "18 km/h",
+        "travel_unladen": "18 km/h",
+        "lifting_laden": "0.45 m/s",
+        "lifting_unladen": "0.6 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.45 m/s"
+      },
+      "gradeability": {
+        "laden": "12%",
+        "unladen": "20%"
+      },
+      "power": {
+        "driven_motor": "2 × 8 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "23×10-12",
+        "rear_wheel": "18×7-8",
+        "weight": "5654 kg"
+      }
+    },
+    {
+      "model": "FB40N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb40n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4000 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1946 mm",
+        "tread": "1143 mm / 1169 mm",
+        "service_weight": "7290 kg"
+      },
+      "speed": {
+        "travel_laden": "18 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.41 m/s",
+        "lifting_unladen": "0.53 m/s",
+        "lowering_laden": "0.53 m/s",
+        "lowering_unladen": "0.51 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 × 16 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "250x15 (710)",
+        "rear_wheel": "7.00x12 (650)",
+        "weight": "7290 kg"
+      }
+    },
+    {
+      "model": "FB45N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb40n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4500 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1946 mm",
+        "tread": "1143 mm / 1169 mm",
+        "service_weight": "7648 kg"
+      },
+      "speed": {
+        "travel_laden": "18 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.38 m/s",
+        "lifting_unladen": "0.53 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.51 m/s"
+      },
+      "gradeability": {
+        "laden": "15%",
+        "unladen": "23%"
+      },
+      "power": {
+        "driven_motor": "2 × 16 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "250x15 (710)",
+        "rear_wheel": "7.00x12 (650)",
+        "weight": "7648 kg"
+      }
+    },
+    {
+      "model": "FB50CN",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb40n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "4990 kg",
+        "load_centre": "500 mm",
+        "wheelbase": "1946 mm",
+        "tread": "1154 mm / 1169 mm",
+        "service_weight": "7991 kg"
+      },
+      "speed": {
+        "travel_laden": "18 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.35 m/s",
+        "lifting_unladen": "0.53 m/s",
+        "lowering_laden": "0.52 m/s",
+        "lowering_unladen": "0.51 m/s"
+      },
+      "gradeability": {
+        "laden": "14%",
+        "unladen": "22%"
+      },
+      "power": {
+        "driven_motor": "2 × 16 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "355/50-15 (710)",
+        "rear_wheel": "7.00x12 (650)",
+        "weight": "7991 kg"
+      }
+    },
+    {
+      "model": "FB60N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "6000 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1305 mm / 1220 mm",
+        "service_weight": "10260 kg"
+      },
+      "speed": {
+        "travel_laden": "15 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.24 m/s",
+        "lifting_unladen": "0.39 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "6.5%",
+        "unladen": "11%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "22×9-16",
+        "weight": "10260 kg"
+      }
+    },
+    {
+      "model": "FB60NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "6000 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1375 mm / 1225 mm",
+        "service_weight": "10430 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.24 m/s",
+        "lifting_unladen": "0.40 m/s",
+        "lowering_laden": "0.39 m/s",
+        "lowering_unladen": "0.45 m/s"
+      },
+      "gradeability": {
+        "laden": "8.2%",
+        "unladen": "13.5%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "23×10-12",
+        "weight": "10430 kg"
+      }
+    },
+    {
+      "model": "FB65N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "6500 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1308 mm / 1222 mm",
+        "service_weight": "10540 kg"
+      },
+      "speed": {
+        "travel_laden": "15 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.24 m/s",
+        "lifting_unladen": "0.41 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "6.5%",
+        "unladen": "11%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "22×9-16",
+        "weight": "10540 kg"
+      }
+    },
+    {
+      "model": "FB65NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "6500 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1375 mm / 1225 mm",
+        "service_weight": "10540 kg"
+      },
+      "speed": {
+        "travel_laden": "15 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.24 m/s",
+        "lifting_unladen": "0.41 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "6.5%",
+        "unladen": "11%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "23×10-12",
+        "weight": "10540 kg"
+      }
+    },
+    {
+      "model": "FB70N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "7000 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1309 mm / 1224 mm",
+        "service_weight": "10770 kg"
+      },
+      "speed": {
+        "travel_laden": "14.5 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.22 m/s",
+        "lifting_unladen": "0.39 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.8 m/s"
+      },
+      "gradeability": {
+        "laden": "5.5%",
+        "unladen": "10%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "22×9-16",
+        "weight": "10770 kg"
+      }
+    },
+    {
+      "model": "FB70NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "7000 kg",
+        "load_centre": "650 mm",
+        "wheelbase": "2250 mm",
+        "tread": "1310 mm / 1225 mm",
+        "service_weight": "10770 kg"
+      },
+      "speed": {
+        "travel_laden": "20 km/h",
+        "travel_unladen": "20 km/h",
+        "lifting_laden": "0.22 m/s",
+        "lifting_unladen": "0.39 m/s",
+        "lowering_laden": "0.35 m/s",
+        "lowering_unladen": "0.45 m/s"
+      },
+      "gradeability": {
+        "laden": "7.4%",
+        "unladen": "12.8%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "22×9-16",
+        "weight": "10770 kg"
+      }
+    },
+    {
+      "model": "FB80N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "8000 kg",
+        "load_centre": "700 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1312 mm / 1227 mm",
+        "service_weight": "12095 kg"
+      },
+      "speed": {
+        "travel_laden": "14 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.2 m/s",
+        "lifting_unladen": "0.34 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.35 m/s"
+      },
+      "gradeability": {
+        "laden": "5%",
+        "unladen": "9.5%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "22×9-16",
+        "weight": "12095 kg"
+      }
+    },
+    {
+      "model": "FB80NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "8000 kg",
+        "load_centre": "700 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1375 mm / 1225 mm",
+        "service_weight": "12095 kg"
+      },
+      "speed": {
+        "travel_laden": "14 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.2 m/s",
+        "lifting_unladen": "0.34 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.35 m/s"
+      },
+      "gradeability": {
+        "laden": "5%",
+        "unladen": "9.5%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "23×10-12",
+        "weight": "12095 kg"
+      }
+    },
+    {
+      "model": "FB80N-900",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "8000 kg",
+        "load_centre": "900 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1415 mm / 1215 mm",
+        "service_weight": "12095 kg"
+      },
+      "speed": {
+        "travel_laden": "14 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.21 m/s",
+        "lifting_unladen": "0.43 m/s",
+        "lowering_laden": "0.45 m/s",
+        "lowering_unladen": "0.37 m/s"
+      },
+      "gradeability": {
+        "laden": "5%",
+        "unladen": "9.5%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "315/45-12",
+        "weight": "12095 kg"
+      }
+    },
+    {
+      "model": "FB80NH-900",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "8000 kg",
+        "load_centre": "900 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1475 mm / 1215 mm",
+        "service_weight": "14175 kg"
+      },
+      "speed": {
+        "travel_laden": "17 km/h",
+        "travel_unladen": "18 km/h",
+        "lifting_laden": "0.3 m/s",
+        "lifting_unladen": "0.44 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "9.2%",
+        "unladen": "16%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "315/45-12",
+        "weight": "14175 kg"
+      }
+    },
+    {
+      "model": "FB90N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "9000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1380 mm / 1225 mm",
+        "service_weight": "13425 kg"
+      },
+      "speed": {
+        "travel_laden": "15 km/h",
+        "travel_unladen": "18 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.47 m/s",
+        "lowering_unladen": "0.39 m/s"
+      },
+      "gradeability": {
+        "laden": "4.7%",
+        "unladen": "9%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "23×10-12",
+        "weight": "13425 kg"
+      }
+    },
+    {
+      "model": "FB90NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "9000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1375 mm / 1225 mm",
+        "service_weight": "13425 kg"
+      },
+      "speed": {
+        "travel_laden": "18 km/h",
+        "travel_unladen": "19 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.4 m/s",
+        "lowering_laden": "0.28 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "5.6%",
+        "unladen": "10%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "8.25-15",
+        "rear_wheel": "23×10-12",
+        "weight": "13425 kg"
+      }
+    },
+    {
+      "model": "FB100N",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "10000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1460 mm / 1215 mm",
+        "service_weight": "14175 kg"
+      },
+      "speed": {
+        "travel_laden": "14 km/h",
+        "travel_unladen": "15 km/h",
+        "lifting_laden": "0.18 m/s",
+        "lifting_unladen": "0.27 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "4%",
+        "unladen": "8%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "300-15",
+        "rear_wheel": "315/45-12",
+        "weight": "14175 kg"
+      }
+    },
+
+    {
+      "model": "FB100NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "10000 kg",
+        "load_centre": "600 mm",
+        "wheelbase": "2550 mm",
+        "tread": "1475 mm / 1215 mm",
+        "service_weight": "14175 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "18 km/h",
+        "lifting_laden": "0.22 m/s",
+        "lifting_unladen": "0.32 m/s",
+        "lowering_laden": "0.5 m/s",
+        "lowering_unladen": "0.4 m/s"
+      },
+      "gradeability": {
+        "laden": "4.5%",
+        "unladen": "8%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "300-15",
+        "rear_wheel": "315/45-12",
+        "weight": "14175 kg"
+      }
+    },
+    {
+      "model": "FB120NH",
+      "brand": "Mitsubishi",
+      "image": "/equipment/forklift/fb60n.webp",
+      "type": "Electric Forklift",
+      "performance": {
+        "rated_capacity": "12000 kg",
+        "load_centre": "700 mm",
+        "wheelbase": "2980 mm",
+        "tread": "1405 mm / 1215 mm",
+        "service_weight": "16145 kg"
+      },
+      "speed": {
+        "travel_laden": "16 km/h",
+        "travel_unladen": "17 km/h",
+        "lifting_laden": "0.28 m/s",
+        "lifting_unladen": "0.36 m/s",
+        "lowering_laden": "0.47 m/s",
+        "lowering_unladen": "0.38 m/s"
+      },
+      "gradeability": {
+        "laden": "4.8%",
+        "unladen": "8.8%"
+      },
+      "power": {
+        "driven_motor": "2 × 15 kW AC",
+        "controller": "AC"
+      },
+      "size": {
+        "front_wheel": "355/65-15",
+        "rear_wheel": "315/45-12",
+        "weight": "16145 kg"
+      }
+    },
+    {
       "model": "XCF4612K",
       "brand": "XCMG",
       "image": "/equipment/forklift/xcf4612k.webp",

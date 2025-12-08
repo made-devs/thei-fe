@@ -637,6 +637,30 @@
         "min_turning_radius": "8000 mm",
         "tyre": "18.00-25 40PR"
       }
+    },
+    {
+      "id": "ech-xcmg-xcs4531k",
+      "model": "XCS4531K",
+      "brand": "XCMG",
+      "type": "Reach Stacker",
+      "image": "/equipment/reach-stacker/xcs4531k.webp",
+      "engine": "250/2100 kW/rpm",
+      "transmission": "",
+      "drive_axle": "",
+      "hydraulic_system": "",
+      "performance": {
+        "max_loading_capacity": "45000 kg",
+        "rated_lifting_capacity": "45000 kg",
+        "payload": "31200 kg",
+        "max_lifting_height": "15375 mm",
+        "number_of_stacking": "5 (9'6\")-5 (9'6\")-4 (8'6\")",
+        "max_lifting_speed": "250 mm/s",
+        "max_gradeability": "33%"
+      },
+      "dimensions_and_weight": {
+        "spreader_width": "6053 mm"
+      },
+      "description": "Empty container handler XCMG XCS4531K dengan kapasitas angkat hingga 45 ton, efisiensi tinggi untuk penanganan kontainer di pelabuhan dan terminal."
     }
   ]
 }

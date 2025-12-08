@@ -1,0 +1,48 @@
+{
+  "empty_container_handlers": [
+    {
+      "id": "ech-xcmg-xch907e",
+      "model": "XCH907E",
+      "brand": "XCMG",
+      "type": "Empty Container Handler",
+      "description": "Empty container handler XCMG XCH907E dengan kapasitas angkat tinggi dan efisiensi kerja untuk penanganan kontainer kosong di pelabuhan dan terminal.",
+      "image": "/equipment/empty-container-handler/xch907e.webp",
+      "performance": {
+        "payload": "25873 kg",
+        "max_lifting_capacity": "9000 kg",
+        "max_lifting_height": "18780 mm",
+        "max_lifting_speed": "450 mm/s",
+        "max_gradeability": "30%",
+        "number_of_stacking": "7 (8'6\") / 6 (9'6\")"
+      },
+      "engine": {
+        "drive_motor_power": "100 kW"
+      },
+      "dimensions": {
+        "spreader_width": "6080 mm"
+      }
+    },
+    {
+      "id": "ech-xcmg-xch907k",
+      "model": "XCH907K",
+      "brand": "XCMG",
+      "type": "Empty Container Handler",
+      "description": "Empty container handler XCMG XCH907K dengan kapasitas angkat tinggi dan efisiensi kerja untuk penanganan kontainer kosong di pelabuhan dan terminal.",
+      "image": "/equipment/empty-container-handler/xch907k.webp",
+      "performance": {
+        "payload": "24250 kg",
+        "max_lifting_capacity": "9000 kg",
+        "max_lifting_height": "18780 mm",
+        "max_lifting_speed": "550 mm/s",
+        "max_gradeability": "25%",
+        "number_of_stacking": "7 (8'6\") / 6 (9'6\")"
+      },
+      "engine": {
+        "drive_motor_power": "185/2200 kW"
+      },
+      "dimensions": {
+        "spreader_width": "6080 mm"
+      }
+    }
+  ]
+}

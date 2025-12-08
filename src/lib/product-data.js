@@ -1,49 +1,51 @@
 // lib/product-data.js
-import 'server-only';
+import "server-only";
 
 // Update import paths: ganti ../ jadi @/data/equipment/
-import forkliftData from '@/data/equipment/forklift.json';
-import miniExcavatorData from '@/data/equipment/mini-excavator.json';
-import excavatorData from '@/data/equipment/excavator.json';
-import wheelLoaderData from '@/data/equipment/wheel-loader.json';
-import bulldozerData from '@/data/equipment/bulldozer.json';
-import craneData from '@/data/equipment/crane.json';
-import skidSteerLoaderData from '@/data/equipment/skid-steer-loader.json';
-import boomLiftData from '@/data/equipment/boom-lift.json';
-import telehandlerData from '@/data/equipment/telehandler.json';
-import crawlerCraneData from '@/data/equipment/crawler-crane.json';
-import telescopicCrawlerCraneData from '@/data/equipment/telescopic-crawler-crane.json';
-import concretePumpMixerData from '@/data/equipment/concrete-pump-mixer.json';
-import aerialWorkingPlatformData from '@/data/equipment/aerial-working-platform.json';
-import vibroRollerData from '@/data/equipment/vibro-roller.json';
-import motorGraderData from '@/data/equipment/motor-grader.json';
-import dumpTruckData from '@/data/equipment/dump-truck.json';
-import backhoeLoaderData from '@/data/equipment/backhoe-loader.json'; // Tambah import
-import reachStackerData from '@/data/equipment/reach-staker.json'; // Tambah import
+import forkliftData from "@/data/equipment/forklift.json";
+import miniExcavatorData from "@/data/equipment/mini-excavator.json";
+import excavatorData from "@/data/equipment/excavator.json";
+import wheelLoaderData from "@/data/equipment/wheel-loader.json";
+import bulldozerData from "@/data/equipment/bulldozer.json";
+import craneData from "@/data/equipment/crane.json";
+import skidSteerLoaderData from "@/data/equipment/skid-steer-loader.json";
+import boomLiftData from "@/data/equipment/boom-lift.json";
+import telehandlerData from "@/data/equipment/telehandler.json";
+import crawlerCraneData from "@/data/equipment/crawler-crane.json";
+import telescopicCrawlerCraneData from "@/data/equipment/telescopic-crawler-crane.json";
+import concretePumpMixerData from "@/data/equipment/concrete-pump-mixer.json";
+import aerialWorkingPlatformData from "@/data/equipment/aerial-working-platform.json";
+import vibroRollerData from "@/data/equipment/vibro-roller.json";
+import motorGraderData from "@/data/equipment/motor-grader.json";
+import dumpTruckData from "@/data/equipment/dump-truck.json";
+import backhoeLoaderData from "@/data/equipment/backhoe-loader.json"; // Tambah import
+import reachStackerData from "@/data/equipment/reach-staker.json"; // Tambah import
+import emptyContainerHandlerData from "@/data/equipment/empty-container-handler.json";
 
 const allProductsData = {
   forklift: forkliftData.forklifts,
-  'mini-excavator': miniExcavatorData.mini_excavators,
+  "mini-excavator": miniExcavatorData.mini_excavators,
   excavator: [
     ...excavatorData.medium_excavators,
     ...excavatorData.large_excavators,
   ],
-  'wheel-loader': wheelLoaderData.wheel_loaders,
+  "wheel-loader": wheelLoaderData.wheel_loaders,
   bulldozer: bulldozerData.bulldozers,
   crane: craneData.cranes,
-  'skid-steer-loader': skidSteerLoaderData.skid_steer_loaders,
-  'boom-lift': boomLiftData.boom_lifts,
+  "skid-steer-loader": skidSteerLoaderData.skid_steer_loaders,
+  "boom-lift": boomLiftData.boom_lifts,
   telehandler: telehandlerData.telehandlers,
-  'crawler-crane': crawlerCraneData.crawler_cranes,
-  'telescopic-crawler-crane':
+  "crawler-crane": crawlerCraneData.crawler_cranes,
+  "telescopic-crawler-crane":
     telescopicCrawlerCraneData.telescopic_crawler_cranes,
-  'concrete-pump-mixer': concretePumpMixerData.concrete_pump_mixers,
-  'aerial-working-platform': aerialWorkingPlatformData.aerial_working_platforms,
-  'vibro-roller': vibroRollerData.vibro_rollers,
-  'motor-grader': motorGraderData.motor_graders,
-  'dump-truck': dumpTruckData.dump_trucks,
-  'backhoe-loader': backhoeLoaderData.backhoe_loaders, // Tambah data
-  'reach-stacker': reachStackerData.reach_stackers, // Tambah data
+  "concrete-pump-mixer": concretePumpMixerData.concrete_pump_mixers,
+  "aerial-working-platform": aerialWorkingPlatformData.aerial_working_platforms,
+  "vibro-roller": vibroRollerData.vibro_rollers,
+  "motor-grader": motorGraderData.motor_graders,
+  "dump-truck": dumpTruckData.dump_trucks,
+  "backhoe-loader": backhoeLoaderData.backhoe_loaders, // Tambah data
+  "reach-stacker": reachStackerData.reach_stackers, // Tambah data
+  "empty-container-handler": emptyContainerHandlerData.empty_container_handlers, // Tambah data
 };
 
 // Fungsi untuk mendapatkan semua produk dengan kategori

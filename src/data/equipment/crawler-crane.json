@@ -530,6 +530,233 @@
         "fixed_jib_length": "7~15m",
         "max_length_of_main_boom_fixed_jib": "43+15m"
       }
+    },
+    {
+      "model": "XGC75T",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc75t.webp",
+      "technical_data": {
+        "max_lifting_capacity": "80540kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "47m",
+        "gradeability": "40%",
+        "max_lifting_moment": "2764kN.m",
+        "max_lifting_moment_fully_extended": "1443kN.m",
+        "min_ground_pressure": "480mm"
+      }
+    },
+    {
+      "model": "XGC75",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc75.webp",
+      "technical_data": {
+        "max_lifting_capacity": "61500kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "13-58m",
+        "max_lifting_moment": "286t.m",
+        "max_lifting_capacity_rated": "75000kg",
+        "slewing_speed": "2.4rpm",
+        "average_ground_pressure": "0.08MPa"
+      }
+    },
+    {
+      "model": "XGC55",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc55.webp",
+      "technical_data": {
+        "max_lifting_capacity": "55000kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "13-52m",
+        "max_lifting_moment": "203.5t.m",
+        "max_lifting_capacity_rated": "55000kg",
+        "slewing_speed": "2.45rpm",
+        "average_ground_pressure": "0.06MPa"
+      }
+    },
+    {
+      "model": "XGC320",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc320.webp",
+      "technical_data": {
+        "max_lifting_capacity": "260000kg",
+        "rated_engine_power": "247/2000kw/rpm",
+        "main_boom_length": "22-28m",
+        "max_lifting_moment": "1870t.m",
+        "max_lifting_capacity_rated": "320000kg",
+        "slewing_speed": "0.8rpm",
+        "average_ground_pressure": "0.14MPa"
+      }
+    },
+    {
+      "model": "XGC85",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc85.webp",
+      "technical_data": {
+        "max_lifting_capacity": "71500kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "13-58m",
+        "max_lifting_moment": "341t.m",
+        "max_lifting_capacity_rated": "85000kg",
+        "slewing_speed": "2rpm",
+        "average_ground_pressure": "0.087MPa"
+      }
+    },
+    {
+      "model": "XLC130",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xlc130.webp",
+      "technical_data": {
+        "max_lifting_capacity": "130t",
+        "max_lifting_moment": "742.2t.m",
+        "main_boom_length": "20-74m",
+        "fixed_jib_length": "13-31m",
+        "max_length_of_main_boom_fixed_jib": "47+31/50+28m",
+        "tower_jib_length": "22-49m",
+        "max_length_of_main_boom_tower_jib": "47+49m",
+        "max_lifting_capacity_of_fixed_jib": "45t",
+        "max_lifting_capacity_of_tower_jib": "45t",
+        "max_slewing_speed": "1.1rpm",
+        "max_travel_speed": "1.5km/h",
+        "max_single_line_speed_hoisting": "120m/min",
+        "max_single_line_speed_boom_luffing": "60m/min",
+        "max_single_line_speed_tower_jib_luffing": "75m/min",
+        "average_ground_pressure": "0.094MPa",
+        "gradeability": "30%",
+        "overall_crane_weight": "121t",
+        "max_transport_weight_single_unit": "33.7t",
+        "max_transport_size_single_unit": "11.0×3.0×3.2m"
+      }
+    },
+    {
+      "model": "XGC100A",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgc100a.webp",
+      "technical_data": {
+        "max_lifting_capacity": "100t",
+        "max_lifting_capacity_of_fixed_jib": "12t",
+        "max_lifting_moment": "425t.m",
+        "max_lifting_moment_fixed_jib": "242t.m",
+        "max_lifting_moment_single_top": "253t.m",
+        "main_boom_length": "13-61m",
+        "boom_luffing_angle": "-3~80.5°",
+        "fixed_jib_length": "7-19m",
+        "angle_between_boom_and_fixed_jib": "10, 30°",
+        "boom_single_top_length": "1.1m",
+        "hoist_winch_max_single_line_speed": "130m/min",
+        "boom_luffing_winch_max_single_line_speed": "70m/min",
+        "max_slewing_speed": "1.8rpm",
+        "max_travel_speed": "1.0km/h",
+        "engine_model": "WP7G270E301",
+        "rated_engine_power": "199/2000kw/rpm",
+        "emission_standard": "EURO IIIA",
+        "overall_crane_weight": "82.2t",
+        "average_ground_pressure": "0.079MPa",
+        "gradeability": "30%",
+        "max_transport_weight_single_unit": "25.1t",
+        "max_transport_size_single_unit": "13.04×3.4×3.04m"
+      }
+    },
+    {
+      "model": "XLC280",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xlc280.webp",
+      "technical_data": {
+        "max_lifting_capacity": "224700kg",
+        "rated_engine_power": "243/2000kw/rpm",
+        "main_boom_length": "23-86m",
+        "max_lifting_moment": "1430t.m",
+        "max_lifting_capacity_rated": "166400kg",
+        "slewing_speed": "1rpm",
+        "average_ground_pressure": "0.12MPa"
+      }
+    },
+    {
+      "model": "XLC150",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xlc150.webp",
+      "technical_data": {
+        "max_lifting_capacity": "128000kg",
+        "rated_engine_power": "247/2000kw/rpm",
+        "main_boom_length": "20-77m",
+        "max_lifting_moment": "874.8t.m",
+        "max_lifting_capacity_rated": "150000kg",
+        "slewing_speed": "1rpm",
+        "average_ground_pressure": "0.095MPa"
+      }
+    },
+    {
+      "model": "XGTC65",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgtc65.webp",
+      "technical_data": {
+        "max_lifting_capacity": "68000kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "12-46.5m",
+        "max_lifting_capacity_rated": "65000kg",
+        "slewing_speed": "2rpm",
+        "average_ground_pressure": "0.08MPa"
+      }
+    },
+    {
+      "model": "XGT150",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgt150.webp",
+      "technical_data": {
+        "max_lifting_capacity": "30000kg",
+        "rated_engine_power": "240/2100kw/rpm",
+        "main_boom_length": "20-77m",
+        "max_lifting_moment": "7t.m",
+        "max_lifting_capacity_rated": "15000kg",
+        "max_travel_speed": "12km/h",
+        "average_ground_pressure": "0.036MPa"
+      }
+    },
+    {
+      "model": "XGTC80",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgtc80.webp",
+      "technical_data": {
+        "max_lifting_capacity": "80t",
+        "max_lifting_moment": "302.5t.m",
+        "main_boom_length": "12.2-47m",
+        "fixed_jib_length": "10.5-17.5m",
+        "max_length_of_main_boom_fixed_jib": "64.5m (47+17.5m)",
+        "overall_crane_weight": "81.7t",
+        "average_ground_pressure": "0.086MPa",
+        "slewing_speed": "1.8r/min",
+        "traveling_speed": "1.8km/h",
+        "gradeability": "40%",
+        "engine_brand": "Weichai",
+        "rated_engine_power": "199/2000kW/rpm",
+        "fuel_tank_capacity": "500L",
+        "emission_standard": "EU Stage III"
+      }
+    },
+    {
+      "model": "XGTC30L5",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgtc30l5.webp",
+      "technical_data": {
+        "max_lifting_capacity": "41500kg",
+        "rated_engine_power": "176/2000kw/rpm",
+        "main_boom_length": "10.8-42m",
+        "max_lifting_moment": "1182.5t.m",
+        "max_single_line_speed_hoisting": "140m/min",
+        "average_ground_pressure": "0.06MPa"
+      }
+    },
+    {
+      "model": "XGTC100",
+      "brand": "XCMG",
+      "image": "/equipment/crawler-crane/xgtc100.webp",
+      "technical_data": {
+        "max_lifting_capacity": "90800kg",
+        "rated_engine_power": "199/2000kw/rpm",
+        "main_boom_length": "13-52m",
+        "max_lifting_moment": "360t.m",
+        "slewing_speed": "1.6rpm",
+        "average_ground_pressure": "0.088MPa"
+      }
     }
   ]
 }

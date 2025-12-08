@@ -95,6 +95,198 @@
         "max_dumping_height": "4860mm",
         "max_digging_radius": "5525mm"
       }
+    },
+    {
+      "model": "300.9D",
+      "brand": "CAT",
+      "image": "/equipment/mini-excavator/300.9d.webp",
+      "type": "Mini Excavator",
+      "basic_technical_data": {
+        "operating_weight": "985 kg",
+        "rated_power": "9.6 kW",
+        "standard_capacity": "0.022 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": "1731 mm",
+        "max_dumping_height": "2035 mm",
+        "max_digging_radius": "3074 mm"
+      }
+    },
+    {
+      "model": "301.5",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/301.5.webp",
+      "basic_technical_data": {
+        "operating_weight": "1775 kg",
+        "rated_power": "15.7 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2340 mm",
+        "max_dumping_height": "3430 mm",
+        "max_digging_radius": "3730 mm"
+      }
+    },
+    {
+      "model": "301.7 CR",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/301.7cr.webp",
+      "basic_technical_data": {
+        "operating_weight": "1915 kg",
+        "rated_power": "15.7 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2350 mm",
+        "max_dumping_height": "3430 mm",
+        "max_digging_radius": "3900 mm"
+      }
+    },
+    {
+      "model": "301.8",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/301.8.webp",
+      "basic_technical_data": {
+        "operating_weight": "2029 kg",
+        "rated_power": "15.7 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2370 mm",
+        "max_dumping_height": "3550 mm",
+        "max_digging_radius": "3800 mm"
+      }
+    },
+    {
+      "model": "302 CR",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/302cr.webp",
+      "basic_technical_data": {
+        "operating_weight": "2262 kg",
+        "rated_power": "15.7 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2370 mm",
+        "max_dumping_height": "3550 mm",
+        "max_digging_radius": "4040 mm"
+      }
+    },
+    {
+      "model": "302.7 CR",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/302.7cr.webp",
+      "basic_technical_data": {
+        "operating_weight": "3050 kg",
+        "rated_power": "15.7 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2510 mm",
+        "max_dumping_height": "4270 mm",
+        "max_digging_radius": "4510 mm"
+      }
+    },
+    {
+      "model": "303 CR",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/303cr.webp",
+      "basic_technical_data": {
+        "operating_weight": "3545 kg",
+        "rated_power": "17.6 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2650 mm",
+        "max_dumping_height": "4510 mm",
+        "max_digging_radius": "4830 mm"
+      }
+    },
+    {
+      "model": "303.5 CR",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/303.5cr.webp",
+      "basic_technical_data": {
+        "operating_weight": "4190 kg",
+        "rated_power": "17.6 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "2810 mm",
+        "max_dumping_height": "4920 mm",
+        "max_digging_radius": "5130 mm"
+      }
+    },
+    {
+      "model": "307.5",
+      "brand": "CAT",
+      "type": "Mini Excavator",
+      "image": "/equipment/mini-excavator/307.5.webp",
+      "basic_technical_data": {
+        "operating_weight": "8113 kg",
+        "rated_power": "34.9 kW",
+        "standard_capacity": null
+      },
+      "operating_range": {
+        "max_digging_depth": "4107 mm",
+        "max_dumping_height": null,
+        "max_digging_radius": "6297 mm"
+      }
+    },
+    {
+      "model": "XE19U",
+      "brand": "XCMG",
+      "image": "/equipment/mini-excavator/xe19u.webp",
+      "type": "Mini Excavator",
+      "basic_technical_data": {
+        "operating_weight": "1795 kg",
+        "rated_power": "15.4 kW@2400 rpm",
+        "standard_capacity": "0.04 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": null,
+        "max_dumping_height": "3420 mm",
+        "max_digging_radius": "4055 mm"
+      }
+    },
+    {
+      "model": "XE60G",
+      "brand": "XCMG",
+      "image": "/equipment/mini-excavator/xe60g.webp",
+      "type": "Mini Excavator",
+      "basic_technical_data": {
+        "operating_weight": "6000 kg",
+        "rated_power": "35.0 kW@2200 rpm",
+        "standard_capacity": "0.24 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": null,
+        "max_dumping_height": "5600 mm",
+        "max_digging_radius": "6130 mm"
+      }
+    },
+    {
+      "model": "XE75G",
+      "brand": "XCMG",
+      "image": "/equipment/mini-excavator/xe75g.webp",
+      "type": "Mini Excavator",
+      "basic_technical_data": {
+        "operating_weight": "7700 kg",
+        "rated_power": "42.4 kW@2000 rpm",
+        "standard_capacity": "0.33 m³"
+      },
+      "operating_range": {
+        "max_digging_depth": null,
+        "max_dumping_height": "7085 mm",
+        "max_digging_radius": "6260 mm"
+      }
     }
   ]
 }
