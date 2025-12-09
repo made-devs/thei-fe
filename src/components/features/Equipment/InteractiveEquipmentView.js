@@ -26,6 +26,7 @@ const brandLogos = {
   Nichiyu: '/nichiyu.webp',
   Mitsubishi: '/mitsubishi.webp',
   XCMG: '/xcmg.webp',
+  CAT: '/cat.webp',
   // Tambahkan brand lain sesuai kebutuhan
 };
 

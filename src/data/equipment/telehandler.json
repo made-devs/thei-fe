@@ -311,6 +311,65 @@
         "outrigger_lowering": null,
         "outrigger_retracting": null
       }
+    },
+    {
+      "model": "TH255C",
+      "brand": "CAT",
+      "type": "Telehandler",
+      "image": "/equipment/telehandler/th255c.webp",
+      "size_and_performance": {
+        "overall_length": null,
+        "overall_width": null,
+        "overall_height": null,
+        "wheelbase": null,
+        "min_ground_clearance": null,
+        "rated_capacity": "2500kg",
+        "max_lift_height": "5.6m",
+        "lift_capacity_at_max_height": "1360kg",
+        "max_forward_reach": "3.3m",
+        "lift_capacity_at_max_reach": "780kg",
+        "weight": "5010kg",
+        "max_traction_force": null,
+        "turning_radius_outside": "3.2m",
+        "frame_leveling_angle": null
+      },
+      "power_and_transmission": {
+        "engine": "TD 2.9L L4",
+        "rated_power": "55kW",
+        "max_torque": "260Nm",
+        "cylinder": "4",
+        "displacement": "2.9L",
+        "transmission": "Hydrostatic",
+        "max_drive_speed": "27km/h",
+        "steering": null
+      },
+      "hydraulic_and_tanks": {
+        "implement_pump": "Pompa roda-gigi",
+        "hydraulic_flow_pressure": "72.3L/min @ 241bar",
+        "hydraulic_tank_capacity": "91L",
+        "fuel_tank_capacity": "91L"
+      },
+      "tire_and_fork": {
+        "tire_type": "12.00 x 16.5 (standar), 14.00 x 17.5; 10.5 x 18.0 (opsional)",
+        "fork_size": null,
+        "fork_rotary": null
+      },
+      "working_speed": {
+        "boom_up_down": "6.6/8.2s",
+        "boom_extend_retract": "3.5/6.7s",
+        "fork_lift": null,
+        "fork_retract": null,
+        "rotate_speed": null,
+        "outrigger_lowering": null,
+        "outrigger_retracting": null
+      },
+      "additional_spec": {
+        "parking_brake": "Pelepas hidraulik cakram basah yang diaktifkan pegas",
+        "service_brake": "Rem cakram basah inboard pada gandar depan",
+        "axle_type": "Diferensial selip terbatas bias tinggi pada gandar depan, planetary pada gandar depan dan belakang",
+        "optional_drive_speed": "24km/h (Ban 12 x 16.5), 27km/h (Ban 14 x 17.5)",
+        "crowd_bucket": "1.8s"
+      }
     }
   ]
 }

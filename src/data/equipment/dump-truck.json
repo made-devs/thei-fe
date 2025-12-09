@@ -286,6 +286,526 @@
         "cargo_capacity": "38 m³",
         "cargo_empty": "7600x2500x2000 mm"
       }
+    },
+    {
+      "model": "785",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/785.webp",
+      "vehicle": {
+        "dimension_lwh": "11957x7535x5208 mm",
+        "wheel_base": "5180 mm",
+        "curb_weight": "255826 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "142 t",
+        "cargo_empty": "8318x6714x2790 mm"
+      },
+      "chassis": {
+        "motor": "Cat 3512E",
+        "rated_power": "1193 kW",
+        "emission_standard": "Tier 4 Final EPA AS/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "33.00R51",
+        "fuel_tank": null
+      }
+    },
+    {
+      "model": "785D",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/785d.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "249476 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "141 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat 3512C HD",
+        "rated_power": "1082 kW",
+        "emission_standard": null,
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": null,
+        "fuel_tank": "1893 l"
+      }
+    },
+    {
+      "model": "789",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/789.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "324318 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "193 t",
+        "cargo_empty": "27400 kg"
+      },
+      "chassis": {
+        "motor": "Cat 3516E",
+        "rated_power": "1566 kW",
+        "emission_standard": "Tier 4 Final EPA AS/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": null,
+        "fuel_tank": null
+      }
+    },
+    {
+      "model": "789D",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/789d.webp",
+      "vehicle": {
+        "dimension_lwh": "12945x7769x5550 mm",
+        "wheel_base": "5700 mm",
+        "curb_weight": "324319 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "194 t",
+        "cargo_empty": "27365 kg"
+      },
+      "chassis": {
+        "motor": "Cat 3516C HD",
+        "rated_power": "1566 kW",
+        "emission_standard": "EPA Tier 2",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "37 R57 / 40 R57",
+        "fuel_tank": "2082 l"
+      }
+    },
+    {
+      "model": "793",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/793.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "404000 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "240 t",
+        "cargo_empty": "30151 kg"
+      },
+      "chassis": {
+        "motor": "Cat C175-16",
+        "rated_power": "1976 kW",
+        "emission_standard": "Tier 4 Final EPA AS/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": null,
+        "fuel_tank": null
+      }
+    },
+    {
+      "model": "793D",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/793d.webp",
+      "vehicle": {
+        "dimension_lwh": "13589x7680x5584 mm",
+        "wheel_base": "5905 mm",
+        "curb_weight": "383848 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "232 t",
+        "cargo_empty": "30700 kg"
+      },
+      "chassis": {
+        "motor": "Cat 3516B HD",
+        "rated_power": "1801 kW",
+        "emission_standard": "EPA Tier 1 AS",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "40.00 R57",
+        "fuel_tank": null
+      }
+    },
+    {
+      "model": "793F",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/793f.webp",
+      "vehicle": {
+        "dimension_lwh": "11957x7535x5208 mm",
+        "wheel_base": "5180 mm",
+        "curb_weight": "255826 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "142 t",
+        "cargo_empty": "8318x6714x2790 mm"
+      },
+      "chassis": {
+        "motor": "Cat 3512E",
+        "rated_power": "1193 kW",
+        "emission_standard": "Tier 4 Final EPA AS/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "33.00R51",
+        "fuel_tank": null
+      },
+      "additional_specs": {
+        "ground_clearance": "1004 mm",
+        "max_dump_height": "5299 mm",
+        "operation_width": "7535 mm",
+        "front_tire_center_width": "4850 mm",
+        "engine_displacement": "58.56 l",
+        "engine_bore": "170 mm",
+        "engine_stroke": "215 mm"
+      }
+    },
+    {
+      "model": "794 AC",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/794ac.webp",
+      "vehicle": {
+        "dimension_lwh": "15463.5x9611x6779 mm",
+        "wheel_base": "6644.5 mm",
+        "curb_weight": "521631 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "297 t",
+        "cargo_empty": "9062x8738x6995 mm"
+      },
+      "chassis": {
+        "motor": "Cat C175-16",
+        "rated_power": "2610 kW",
+        "emission_standard": "Tier 4 Final/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "53/80 R63",
+        "fuel_tank": null
+      },
+      "additional_specs": {
+        "height_top_rops": "6779 mm",
+        "length_overall": "15463.5 mm",
+        "rear_axle_tail": "4716 mm",
+        "ground_clearance": "906 mm",
+        "dump_clearance": "1555 mm",
+        "max_dump_height": "6995 mm",
+        "max_height_body_raised": "14747 mm",
+        "front_tire_center_width": "7024 mm",
+        "front_axle_clearance": "969 mm",
+        "canopy_width_no_deflector": "9068 mm",
+        "body_width_outer": "9062 mm",
+        "body_width_inner": "8560 mm",
+        "canopy_height_front": "8024 mm",
+        "rear_axle_clearance": "934 mm",
+        "rear_tire_center_width": "5727 mm",
+        "canopy_width_overall": "9611 mm",
+        "body_weight": "29187 kg",
+        "chassis_weight": "193338 kg",
+        "engine_displacement": "85 l",
+        "engine_bore": "175 mm",
+        "engine_stroke": "220 mm",
+        "engine_speed": "1800 r/min",
+        "gross_power": "2610 kW",
+        "net_power": "2539 kW",
+        "optional_gross_power_1": "2312 kW",
+        "optional_gross_power_2": "2051 kW",
+        "max_speed_loaded": "60 km/h",
+        "final_drive_ratio": "35:01:00",
+        "brake_surface_area_front": "131473 cm²",
+        "brake_surface_area_rear": "198388 cm²",
+        "dynamic_retaradation_power": "4086 kW",
+        "body_floor_thickness": "16 mm",
+        "body_front_thickness": "9 mm",
+        "body_side_thickness": "8 mm",
+        "body_canopy_thickness": "5 mm",
+        "body_capacity_flat": "108-133 m³",
+        "body_capacity_sae_2_1": "180-222 m³"
+      }
+    },
+    {
+      "model": "796 AC",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/796ac.webp",
+      "vehicle": {
+        "dimension_lwh": "16270x10210x7270 mm",
+        "wheel_base": "7250 mm",
+        "curb_weight": "576072 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "327 t",
+        "cargo_empty": "9700x9400x7200 mm"
+      },
+      "chassis": {
+        "motor": "Cat C175-16",
+        "rated_power": "2610 kW",
+        "emission_standard": "Tier 4 Final/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "59/80 R63",
+        "fuel_tank": "4542 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "64 km/h",
+        "body_capacity_flat": "97-153 m³",
+        "body_capacity_sae_2_1": "186-237 m³",
+        "engine_displacement": "85 l",
+        "chassis_weight": "203398 kg"
+      }
+    },
+    {
+      "model": "797F",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/797f.webp",
+      "vehicle": {
+        "dimension_lwh": "14900x9650x7050 mm",
+        "wheel_base": "6900 mm",
+        "curb_weight": "623690 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "363 t",
+        "cargo_empty": "9700x9400x7200 mm"
+      },
+      "chassis": {
+        "motor": "Cat C175-20",
+        "rated_power": "2983 kW",
+        "emission_standard": "Tier 4 Final EPA AS",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "59/80 R63",
+        "fuel_tank": "4542 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "67 km/h",
+        "body_capacity_flat": "120-150 m³",
+        "body_capacity_sae_2_1": "200-250 m³",
+        "engine_displacement": "106 l",
+        "chassis_weight": "215217 kg"
+      }
+    },
+    {
+      "model": "798 AC",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/798ac.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "623690 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "372 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat C175-16",
+        "rated_power": "2610 kW",
+        "emission_standard": "Tier 4 Final/Stage V UE",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "59/80 R63",
+        "fuel_tank": "4542 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "64 km/h",
+        "body_capacity_flat": "129-200 m³",
+        "body_capacity_sae_2_1": "218-276 m³",
+        "engine_displacement": "85 l",
+        "chassis_weight": "205852 kg"
+      }
+    },
+    {
+      "model": "770 (07)",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/770-07.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": null,
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "38.6 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat C15 ACERT",
+        "rated_power": "381 kW",
+        "emission_standard": null,
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": null,
+        "fuel_tank": "530 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "73.5 km/h",
+        "body_capacity_flat": "17.6 m³",
+        "body_capacity_sae_2_1": "25.2 m³",
+        "engine_displacement": "15.2 l",
+        "turning_diameter": "17.6 m"
+      }
+    },
+    {
+      "model": "772 (07)",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/772-07.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "82100 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "46.8 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat C18 ACERT",
+        "rated_power": "451 kW",
+        "emission_standard": null,
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "21.00R33 (E4)",
+        "fuel_tank": "530 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "79.7 km/h",
+        "body_capacity_flat": "23.9 m³",
+        "body_capacity_sae_2_1": "31.2 m³",
+        "engine_displacement": "18.1 l",
+        "turning_diameter": "17.6 m"
+      }
+    },
+    {
+      "model": "773 (07)",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/773-07.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "102740 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "56 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat C27",
+        "rated_power": "578 kW",
+        "emission_standard": null,
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "21.00R33 (E4)",
+        "fuel_tank": "795 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "67.6 km/h",
+        "body_capacity_flat": "26.25 m³",
+        "body_capacity_sae_2_1": "35.75 m³",
+        "engine_displacement": "27 l",
+        "turning_diameter": "17.6 m"
+      }
+    },
+    {
+      "model": "775 (07)",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/775-07.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "111812 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": "64.6 t",
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat C27",
+        "rated_power": "615 kW",
+        "emission_standard": null,
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "24.00R35 (E4)",
+        "fuel_tank": "795 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "67.6 km/h",
+        "body_capacity_flat": "32.3 m³",
+        "body_capacity_sae_2_1": "42.23 m³",
+        "engine_displacement": "27 l",
+        "turning_diameter": "17.6 m"
+      }
+    },
+    {
+      "model": "773 (05)",
+      "brand": "CAT",
+      "type": "Dump Truck",
+      "image": "/equipment/dump-truck/773-05.webp",
+      "vehicle": {
+        "dimension_lwh": null,
+        "wheel_base": null,
+        "curb_weight": "111812 kg",
+        "full_load_weight": null
+      },
+      "truck": {
+        "cargo_capacity": null,
+        "cargo_empty": null
+      },
+      "chassis": {
+        "motor": "Cat 3412E",
+        "rated_power": "567 kW",
+        "emission_standard": "Stage III Non-Jalan Raya China, setara Tier 2",
+        "gear_box": null,
+        "front_axle": null,
+        "middle_rear_axle": null,
+        "tyre": "24.00R35 (E4)",
+        "fuel_tank": "700 l"
+      },
+      "additional_specs": {
+        "max_speed_loaded": "67.6 km/h",
+        "body_capacity_flat": "32.3 m³",
+        "body_capacity_sae_2_1": "42.2 m³",
+        "engine_displacement": "27 l",
+        "turning_diameter": "22 m"
+      }
     }
   ]
 }

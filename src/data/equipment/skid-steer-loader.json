@@ -79,6 +79,221 @@
         "height": "2065mm",
         "max_operating_altitude": "4115mm"
       }
+    },
+    {
+      "model": "226B3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/226b3.webp",
+      "basic_technical_data": {
+        "operating_weight": "2641kg",
+        "rated_power": "42kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1525mm",
+        "height": "1950mm",
+        "length_with_bucket": "3233mm",
+        "length_without_bucket": "2519mm",
+        "max_operating_altitude": "3709mm",
+        "max_pin_height": "2854mm",
+        "ground_clearance": "195mm",
+        "turning_radius_rear": "1502mm",
+        "turning_radius_coupler": "1195mm",
+        "travel_speed": "12.7km/h"
+      },
+      "additional_spec": {
+        "engine_model": "Cat® C2.2 T",
+        "breakout_force": "1852kg",
+        "rated_operating_capacity": "680kg",
+        "hydraulic_flow": "104L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "226D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/226d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "2653kg",
+        "rated_power": "49.1kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1497mm",
+        "height": "2028mm",
+        "length_with_bucket": "3234mm",
+        "length_without_bucket": "2524mm",
+        "max_operating_altitude": "3652mm",
+        "max_pin_height": "2818mm",
+        "ground_clearance": "175mm",
+        "turning_radius_rear": "1513mm",
+        "turning_radius_coupler": "1104mm",
+        "travel_speed": "12.3km/h"
+      },
+      "additional_spec": {
+        "engine_model": "C2.2 CRDI Cat",
+        "breakout_force": "1781kg",
+        "rated_operating_capacity": "705kg",
+        "hydraulic_flow": "99L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "232D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/232d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "2955kg",
+        "rated_power": "44kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1497mm",
+        "height": "2029mm",
+        "length_with_bucket": "3233mm",
+        "length_without_bucket": "2523mm",
+        "max_operating_altitude": "3832mm",
+        "max_pin_height": "3001mm",
+        "ground_clearance": "170mm",
+        "turning_radius_rear": "1513mm",
+        "turning_radius_coupler": "1102mm",
+        "travel_speed": "12.3km/h",
+        "travel_speed_2": "17.8km/h"
+      },
+      "additional_spec": {
+        "engine_model": "C2.2t Cat",
+        "breakout_force": "1782kg",
+        "rated_operating_capacity": "865kg",
+        "hydraulic_flow": "99L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "236D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/236d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "2979kg",
+        "rated_power": "53.8kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1676mm",
+        "height": "2082mm",
+        "length_with_bucket": "3487mm",
+        "length_without_bucket": "2767mm",
+        "max_operating_altitude": "3977mm",
+        "max_pin_height": "3122mm",
+        "ground_clearance": "195mm",
+        "turning_radius_rear": "1639mm",
+        "turning_radius_coupler": "1314mm",
+        "travel_speed": "11.2km/h",
+        "travel_speed_2": "17.1km/h"
+      },
+      "additional_spec": {
+        "engine_model": "Cat C3.3B DIT (turbo)",
+        "breakout_force": "2269kg",
+        "rated_operating_capacity": "820kg",
+        "hydraulic_flow": "112L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "242D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/242d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "3238kg",
+        "rated_power": "53.8kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1676mm",
+        "height": "2111mm",
+        "length_with_bucket": "3487mm",
+        "length_without_bucket": "2767mm",
+        "max_operating_altitude": "3917mm",
+        "max_pin_height": "3076mm",
+        "ground_clearance": "222mm",
+        "turning_radius_rear": "1639mm",
+        "turning_radius_coupler": "1314mm",
+        "travel_speed": "12.1km/h",
+        "travel_speed_2": "18.5km/h"
+      },
+      "additional_spec": {
+        "engine_model": "Cat C3.3B DIT (turbo)",
+        "breakout_force": "2251kg",
+        "rated_operating_capacity": "1000kg",
+        "hydraulic_flow": "112L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "246D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/246d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "3392kg",
+        "rated_power": "53.6kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1676mm",
+        "height": "2110mm",
+        "length_with_bucket": "3708mm",
+        "length_without_bucket": "2993mm",
+        "max_operating_altitude": "4032mm",
+        "max_pin_height": "3154mm",
+        "ground_clearance": "226mm",
+        "turning_radius_rear": "1806mm",
+        "turning_radius_coupler": "1401mm",
+        "travel_speed": "12.5km/h",
+        "travel_speed_2": "17.7km/h"
+      },
+      "additional_spec": {
+        "engine_model": "Cat C3.3B DIT (turbo)",
+        "breakout_force": "3336kg",
+        "rated_operating_capacity": "1000kg",
+        "hydraulic_flow": "121L/min",
+        "rops": "ISO 3471:2008"
+      }
+    },
+    {
+      "model": "262D3",
+      "brand": "CAT",
+      "type": "Skid Steer Loader",
+      "image": "/equipment/skid-steer-loader/262d3.webp",
+      "basic_technical_data": {
+        "operating_weight": "3763kg",
+        "rated_power": "53.6kw",
+        "bucket_capacity": null
+      },
+      "dimensions_and_performance": {
+        "width": "1676mm",
+        "height": "2110mm",
+        "length_with_bucket": "3714mm",
+        "length_without_bucket": "2995mm",
+        "max_operating_altitude": "4008mm",
+        "max_pin_height": "3172mm",
+        "ground_clearance": "226mm",
+        "turning_radius_rear": "1805mm",
+        "turning_radius_coupler": "1401mm",
+        "travel_speed": "12.5km/h",
+        "travel_speed_2": "17.7km/h"
+      },
+      "additional_spec": {
+        "engine_model": "Cat C3.3B DIT (turbo)",
+        "breakout_force": "3336kg",
+        "rated_operating_capacity": "1225kg",
+        "hydraulic_flow": "121L/min",
+        "rops": "ISO 3471:2008"
+      }
     }
   ]
 }
