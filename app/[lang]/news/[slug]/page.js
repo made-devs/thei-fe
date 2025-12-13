@@ -10,17 +10,20 @@ import ArticleContent from '@/components/features/News/ArticleContent';
 import RelatedArticles from '@/components/features/News/RelatedArticles';
 import MainCta from '@/components/features/home/MainCta';
 
-// FIX: generateStaticParams harus return array dengan format { lang, slug }
+// FIX: Filter out Promotion articles from static params
 export async function generateStaticParams() {
   const slugs = await getAllArticleSlugs();
-  // Pastikan return format yang benar
-  return slugs.map(({ lang, slug }) => ({
+  // Filter hanya artikel yang bukan kategori Promo/Promotion
+  const filteredSlugs = slugs.filter(
+    ({ category }) => category !== 'Promo' && category !== 'Promotion'
+  );
+
+  return filteredSlugs.map(({ lang, slug }) => ({
     lang,
     slug,
   }));
 }
 
-// FIX: Tambahkan dynamic = 'force-static' untuk memastikan pre-render
 export const dynamic = 'force-static';
 
 export default async function ArticlePage({ params }) {
