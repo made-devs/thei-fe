@@ -99,16 +99,15 @@ export const getAllArticleSlugs = async () => {
 
   for (const locale of locales) {
     try {
-      const listModule = await import(
-        `@/dictionaries/${locale}/news/list.json`
-      );
-      const articles = listModule.default.articles || [];
+      // Gunakan getDictionary yang sudah ada
+      const listData = await getDictionary(locale, 'news/list');
+      const articles = listData.articles || [];
 
       articles.forEach((article) => {
         allSlugs.push({
           lang: locale,
           slug: article.slug,
-          category: article.category, // Tambahkan category
+          category: article.category,
         });
       });
     } catch (error) {
