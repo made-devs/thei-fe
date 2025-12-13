@@ -3,7 +3,6 @@ import PageHero from '@/components/ui/PageHero';
 import CustomerProof from '@/components/features/RepairPackages/CustomerProof';
 import MainCta from '@/components/features/home/MainCta';
 import HeroPromos from '@/components/ui/HeroPromos';
-// Import komponen baru
 import PremiumServices from '@/components/features/RepairPackages/PremiumServices';
 import EconomisServices from '../../../src/components/features/RepairPackages/EconomisServices';
 import RepairSection from '../../../src/components/features/RepairPackages/RepairSection';
@@ -28,10 +27,10 @@ export default async function RepairPackagesPage({ params }) {
 
       <HeroPromos promos={servicePromos} />
 
-      {/* Insert Premium Services Section Here */}
-      <PremiumServices />
-      <EconomisServices />
-      <RepairSection />
+      {/* Pass dictionary ke masing-masing section */}
+      <PremiumServices dictionary={pageDict.premium_services} />
+      <EconomisServices dictionary={pageDict.economis_services} />
+      <RepairSection dictionary={pageDict.repair_section} />
 
       <CustomerProof dictionary={pageDict.testimonial} />
 

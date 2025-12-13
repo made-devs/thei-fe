@@ -2,10 +2,10 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { Percent, MessageCircle, X, ZoomIn } from 'lucide-react';
+import { Percent, MessageCircle, X, ZoomIn, Wallet } from 'lucide-react';
 import { economisServices } from '@/data/package';
 
-const EconomisServices = () => {
+const EconomisServices = ({ dictionary }) => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const formatRupiah = (price) => {
@@ -29,27 +29,23 @@ const EconomisServices = () => {
 
   return (
     <>
-      <section className="py-20 bg-neutral-50 border-t border-gray-200">
+      <section className="py-20 bg-white border-t border-gray-100">
         <div className="container mx-auto px-4">
-          {/* Header Section - Left Aligned for variety */}
-          <div className="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
-            <div className="space-y-2">
-              <h2 className="text-3xl md:text-4xl font-black text-gray-900 uppercase flex items-center gap-2">
-                <span className="bg-yellow-400 p-1 px-3 text-lg md:text-xl transform -rotate-2 text-black rounded-sm shadow-sm">
-                  Budget
-                </span>
-                Economis Package
-              </h2>
-              <p className="text-gray-500 max-w-xl">
-                Solusi perawatan ringan untuk menjaga performa unit tetap prima
-                dengan biaya yang sangat terjangkau.
-              </p>
+          {/* Header Section */}
+          <div className="text-center mb-12 space-y-3">
+            <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black text-yellow-500 text-xs font-bold uppercase tracking-wider mb-2">
+              <Wallet className="w-4 h-4" />
+              {dictionary.badge}
             </div>
-            {/* Decor Line */}
-            <div className="hidden md:block h-px flex-1 bg-gray-300 mx-8 relative top-[-10px]"></div>
+            <h2 className="text-4xl md:text-5xl font-black text-black uppercase tracking-tight">
+              {dictionary.title}
+            </h2>
+            <p className="text-gray-600 max-w-2xl mx-auto text-lg">
+              {dictionary.subtitle}
+            </p>
           </div>
 
-          {/* Grid System - Dense Marketplace Style */}
+          {/* Grid System */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {economisServices.map((item) => {
               const discountPercent = Math.round(
@@ -60,66 +56,66 @@ const EconomisServices = () => {
               return (
                 <div
                   key={item.id}
-                  className="group bg-white rounded-xl overflow-hidden border border-gray-200 hover:border-gray-300 hover:shadow-xl transition-all duration-300 flex flex-col"
+                  className="group bg-[#1A1A1A] rounded-xl overflow-hidden border border-[#333333] hover:border-yellow-500/50 hover:shadow-[0_8px_30px_rgba(250,204,21,0.15)] transition-all duration-300 flex flex-col"
                 >
-                  {/* Image Area - Aspect Square (1:1) with Zoom Indicator */}
+                  {/* Image Area - Aspect Square (1:1) */}
                   <div
-                    className="relative w-full aspect-square bg-gray-100 overflow-hidden cursor-pointer"
+                    className="relative w-full aspect-square bg-[#121212] overflow-hidden cursor-pointer"
                     onClick={() => setSelectedImage(item)}
                   >
                     <Image
                       src={item.image}
                       alt={item.title}
                       fill
-                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="object-cover transition-transform duration-500 group-hover:scale-110 opacity-90 group-hover:opacity-100"
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                     />
                     {/* Zoom Indicator Overlay */}
-                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/30 transition-all duration-300 flex items-center justify-center">
-                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-white/90 rounded-full p-3 shadow-lg">
-                        <ZoomIn className="w-6 h-6 text-gray-900" />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
+                      <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-yellow-500 text-black rounded-full p-3 shadow-lg transform group-hover:scale-110">
+                        <ZoomIn className="w-6 h-6" />
                       </div>
                     </div>
                     {/* Small Zoom Badge */}
-                    <div className="absolute top-2 right-2 bg-black/60 backdrop-blur-sm text-white text-[10px] px-2 py-1 rounded-full flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity">
-                      <ZoomIn className="w-3 h-3" />
-                      <span>Klik untuk perbesar</span>
+                    <div className="absolute top-3 right-3 bg-black/70 backdrop-blur-sm text-white text-[10px] px-2 py-1 rounded-md flex items-center gap-1 opacity-0 group-hover:opacity-100 transition-opacity font-medium border border-white/10">
+                      <ZoomIn className="w-3 h-3 text-yellow-500" />
+                      <span>Klik perbesar</span>
                     </div>
                   </div>
 
                   {/* Body Content */}
-                  <div className="p-4 flex flex-col flex-grow">
+                  <div className="p-5 flex flex-col flex-grow relative">
                     {/* Badge Diskon */}
-                    <div className="mb-2">
-                      <span className="inline-flex items-center gap-1 bg-red-600 text-white text-[10px] font-bold px-2 py-1 rounded shadow-sm">
+                    <div className="mb-3">
+                      <span className="inline-flex items-center gap-1 bg-yellow-500 text-black text-[10px] font-bold px-2.5 py-1 rounded-md shadow-sm font-oswald tracking-wide">
                         <Percent className="w-3 h-3" /> {discountPercent}% OFF
                       </span>
                     </div>
 
+                    {/* Capacity */}
+                    <div className="mb-2">
+                      <span className="inline-block text-[10px] font-bold text-yellow-500 bg-yellow-500/10 px-2 py-0.5 rounded border border-yellow-500/20 uppercase tracking-wider">
+                        {item.capacity}
+                      </span>
+                    </div>
+
                     {/* Title */}
-                    <div className="mb-1">
-                      <h3 className="text-sm font-bold text-gray-900 uppercase leading-snug line-clamp-2 min-h-[40px] group-hover:text-yellow-600 transition-colors">
+                    <div className="mb-4 flex-grow">
+                      <h3 className="text-sm font-bold text-white uppercase leading-snug line-clamp-2 group-hover:text-yellow-500 transition-colors font-oswald tracking-wide">
                         {item.title}
                       </h3>
                     </div>
 
-                    {/* Capacity */}
-                    <div className="mb-3">
-                      <span className="inline-block text-[10px] font-semibold text-gray-500 bg-gray-100 px-2 py-0.5 rounded border border-gray-200 uppercase">
-                        Cap: {item.capacity}
-                      </span>
-                    </div>
-
                     {/* Pricing */}
-                    <div className="mt-auto pt-3 border-t border-gray-100 border-dashed space-y-2">
-                      <p className="text-xs text-gray-400 line-through">
+                    <div className="mt-auto pt-4 border-t border-[#333333] border-dashed space-y-2 bg-[#1A1A1A] relative z-10">
+                      <p className="text-xs text-gray-500 line-through font-medium">
                         {formatRupiah(item.priceNormal)}
                       </p>
                       <div className="space-y-1">
-                        <p className="text-lg font-black text-gray-900">
+                        <p className="text-xl font-black text-yellow-500 font-oswald tracking-tight">
                           {formatRupiah(item.pricePromo)}
                         </p>
-                        <p className="text-[10px] text-green-600 font-semibold">
+                        <p className="text-[10px] text-green-400 font-bold tracking-wide">
                           Hemat {formatRupiah(savedAmount)}
                         </p>
                       </div>
@@ -127,51 +123,61 @@ const EconomisServices = () => {
                       {/* CTA Button */}
                       <button
                         onClick={() => handleWhatsApp(item)}
-                        className="w-full mt-3 bg-green-600 hover:bg-green-700 text-white font-bold py-2.5 px-4 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg transform hover:scale-105"
+                        className="w-full mt-4 bg-yellow-500 hover:bg-yellow-400 text-black font-bold py-2.5 px-4 rounded-lg transition-all duration-300 flex items-center justify-center gap-2 shadow-md hover:shadow-lg transform hover:-translate-y-0.5 font-oswald tracking-wide text-sm"
                       >
                         <MessageCircle className="w-4 h-4" />
-                        <span className="text-xs">Chat WhatsApp</span>
+                        <span>Chat WhatsApp</span>
                       </button>
                     </div>
+
+                    {/* Decorative Background Accent (Optional) */}
+                    <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-yellow-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div>
                   </div>
 
-                  {/* Bottom Accent Bar */}
-                  <div className="h-1 w-0 group-hover:w-full bg-yellow-400 transition-all duration-500 ease-out" />
+                  {/* Bottom Accent Bar - Dipertegas */}
+                  <div className="h-1 w-0 group-hover:w-full bg-yellow-500 transition-all duration-500 ease-out" />
                 </div>
               );
             })}
           </div>
+
+          {/* Note Footer */}
+          <div className="mt-16 text-center border-t border-gray-200 pt-8 max-w-2xl mx-auto">
+            <p className="text-gray-500 text-sm">{dictionary.note}</p>
+          </div>
         </div>
       </section>
 
-      {/* Image Popup Modal */}
+      {/* Image Popup Modal - Style Diperbarui */}
       {selectedImage && (
         <div
-          className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4 animate-fadeIn"
+          className="fixed inset-0 bg-black/95 z-50 flex items-center justify-center p-4 animate-fadeIn backdrop-blur-sm"
           onClick={() => setSelectedImage(null)}
         >
           <button
-            className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white p-3 rounded-full transition-all z-10"
+            className="absolute top-4 right-4 bg-[#1A1A1A] hover:bg-[#333333] text-yellow-500 p-3 rounded-full transition-all z-10 border border-[#333333] hover:border-yellow-500"
             onClick={() => setSelectedImage(null)}
           >
             <X className="w-6 h-6" />
           </button>
 
-          <div className="relative w-full max-w-4xl aspect-square">
+          <div className="relative w-full max-w-4xl aspect-square bg-[#121212] rounded-2xl overflow-hidden shadow-2xl border border-[#333333]">
             <Image
               src={selectedImage.image}
               alt={selectedImage.title}
               fill
-              className="object-contain"
+              className="object-contain p-4"
               sizes="100vw"
             />
           </div>
 
-          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-white/95 backdrop-blur-md rounded-lg p-4 max-w-md mx-4">
-            <h3 className="font-bold text-gray-900 text-sm mb-1">
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 bg-[#1A1A1A]/90 backdrop-blur-md rounded-lg p-5 max-w-md mx-4 border border-[#333333] text-center shadow-xl">
+            <h3 className="font-bold text-white text-base mb-2 font-oswald uppercase tracking-wide">
               {selectedImage.title}
             </h3>
-            <p className="text-xs text-gray-600">{selectedImage.capacity}</p>
+            <p className="text-xs text-yellow-500 font-medium uppercase tracking-wider bg-yellow-500/10 px-3 py-1 rounded-full inline-block border border-yellow-500/20">
+              Kapasitas: {selectedImage.capacity}
+            </p>
           </div>
         </div>
       )}

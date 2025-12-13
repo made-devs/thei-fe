@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { Check, Star, ShieldCheck, Zap } from 'lucide-react';
 import { premiumServices } from '@/data/package';
 
-const PremiumServices = () => {
+const PremiumServices = ({ dictionary }) => {
   const [activeCategory, setActiveCategory] = useState(
     premiumServices[0].category
   );
@@ -28,13 +28,13 @@ const PremiumServices = () => {
         <div className="text-center mb-12 space-y-3">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black text-yellow-500 text-xs font-bold uppercase tracking-wider mb-2">
             <Zap className="w-4 h-4" />
-            Heavy Equipment
+            {dictionary.badge}
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-black uppercase tracking-tight">
-            Premium Service Packages
+            {dictionary.title}
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Pilih kategori alat berat Anda dan temukan paket perawatan terbaik.
+            {dictionary.subtitle}
           </p>
         </div>
 
@@ -168,10 +168,7 @@ const PremiumServices = () => {
 
         {/* Note Footer */}
         <div className="mt-16 text-center border-t border-gray-200 pt-8 max-w-2xl mx-auto">
-          <p className="text-gray-500 text-sm">
-            *Harga dan ketersediaan paket dapat berubah sewaktu-waktu. Hubungi
-            tim sales kami untuk penawaran khusus unit fleet (borongan).
-          </p>
+          <p className="text-gray-500 text-sm">{dictionary.note}</p>
         </div>
       </div>
     </section>

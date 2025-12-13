@@ -1,74 +1,44 @@
 {
   "repair_packages_page": {
     "hero": {
-      "subtitle": "Special Repair Offers",
-      "title": "Repair & Premium Service Packages",
+      "subtitle": "Penawaran Spesial Repair",
+      "title": "Paket Repair & Premium Service",
       "image": "/banner-repair.webp",
       "breadcrumbs": [
-        { "name": "Home", "link": "/" },
-        { "name": "Promotions", "link": "/promotions" },
-        { "name": "Repair Packages", "link": "/promotions/repair-packages" }
+        { "name": "Beranda", "link": "/" },
+        { "name": "Promosi", "link": "/promotions" },
+        { "name": "Paket Repair", "link": "/promotions/repair-packages" }
       ]
     },
-    "packages": {
-      "title": "Choose the Package That Fits Your Needs",
-      "items": [
-        {
-          "name": "Premium Service Package",
-          "details": "The most comprehensive service for units from Forklifts to Motor Graders with tier options: Complete, Super, or Ultimate.",
-          "bonus": "Free Car Service Package worth Rp50 million at TJM Auto Care.",
-          "image": "/banner-slider3.webp"
-        },
-        {
-          "name": "Retail Repair Package",
-          "details": "Flexible per-unit service for Forklifts, Excavators, Boom Lifts, Wheel Loaders, etc.",
-          "bonus": "Free 25 to 40-point vital inspection for your unit.",
-          "image": "/service.webp"
-        },
-        {
-          "name": "Repair Package",
-          "details": "Covers a wide range of units from Super Economy Forklifts to Super Complete Bulldozers.",
-          "bonus": "Free Car Service worth Rp20 million at TJM Auto Care.",
-          "image": "/banner-slider4.webp"
-        }
-      ]
-    },
-    "repair_slider": {
-      "title": "Paket Rekondisi Sesuai Kebutuhan Anda",
-      "description": "Jelajahi berbagai paket rekondisi kami yang dirancang untuk mengembalikan alat berat Anda ke performa puncaknya dengan harga yang hemat.",
-      "serviceDetails": "Detail Servis",
-      "inspectionDetails": "Detail Inspeksi",
-      "bonuses": "Bonus",
-      "specialBonus": "Bonus Spesial",
-      "getQuote": "Minta Penawaran"
-    },
-    "care_protection_slider": {
-      "title": "Paket Care Protection",
-      "description": "Paket perawatan preventif untuk menjaga alat berat Anda tetap dalam kondisi prima dengan inspeksi menyeluruh dan layanan pembersihan sistem.",
-      "coverageDetails": "Detail Layanan",
-      "benefits": "Manfaat Inspeksi",
-      "bonuses": "Bonus",
-      "specialBonus": "Bonus Spesial",
-      "getQuote": "Minta Penawaran"
-    },
-    "premium_service": {
+    "premium_services": {
+      "badge": "Alat Berat",
       "title": "Paket Service Premium",
-      "description": "Pilih dari tiga level layanan—Komplit, Super, dan Ultimate—yang dirancang untuk memberikan performa dan nilai terbaik untuk unit Anda.",
-      "serviceContent": "Isi Paket Servis",
-      "fullInspection": "Inspeksi Lengkap",
-      "additionalInspection": "Inspeksi Tambahan",
-      "bonuses": "Bonus",
-      "getQuote": "Minta Penawaran"
+      "subtitle": "Pilih kategori alat berat Anda dan temukan paket perawatan terbaik.",
+      "note": "*Harga dan ketersediaan paket dapat berubah sewaktu-waktu. Hubungi tim sales kami untuk penawaran khusus unit fleet (borongan)."
     },
-    "retail_slider": {
-      "title": "Paket Perbaikan Retail",
-      "subtitle": "Paket layanan per unit yang fleksibel untuk berbagai jenis peralatan.",
-      "get_quote_button": "Minta Penawaran",
-      "bonus_title": "Bonus"
+    "economis_services": {
+      "badge": "Ramah Budget",
+      "title": "Paket Economis Budget",
+      "subtitle": "Solusi perawatan ringan untuk menjaga performa unit tetap prima dengan biaya yang sangat terjangkau.",
+      "note": "*Harga sudah termasuk diskon 50%. Syarat dan ketentuan berlaku. Hubungi tim sales kami untuk penawaran khusus."
+    },
+    "repair_section": {
+      "title": "PAKET",
+      "title_highlight": "REPAIR",
+      "subtitle": "Pilih paket repair yang sesuai dengan kebutuhan dan budget Anda",
+      "hemat_badge": "Paket Hemat",
+      "super_badge": "Paket Super",
+      "hemat_info": "💰 Solusi repair hemat untuk budget terbatas",
+      "super_info": "⚡ Repair lebih lengkap dengan garansi maksimal",
+      "note": "*Harga sudah termasuk diskon 50%. Syarat dan ketentuan berlaku."
+    },
+    "cta": {
+      "button": "Chat WhatsApp",
+      "choose_package": "Pilih Paket"
     },
     "testimonial": {
-      "title": "What Our Customers Say",
-      "quote": "The Premium Service Package truly provides peace of mind. Our unit is like new again and the car service bonus was incredibly useful!",
+      "title": "Apa Kata Pelanggan Kami",
+      "quote": "Paket Premium Service benar-benar memberikan ketenangan pikiran. Unit kami seperti baru lagi dan bonus service mobil sangat bermanfaat!",
       "name": "Andi Wijaya",
       "company": "Field Manager, PT. Konstruksi Prima",
       "video_thumb": "/testi/thumbnail1.webp",
