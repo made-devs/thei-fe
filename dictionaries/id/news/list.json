@@ -106,7 +106,7 @@
     {
       "id": 5,
       "slug": "promotions/heavy-equipment-purchase-promo",
-      "category": "Promosi",
+      "category": "Promotion",
       "title": "Promosi Grand Opening: Pembelian Alat Berat (Semua Jenis) Hingga Rp 285.000.000,-",
       "date": "2025-10-20",
       "image": "/home/promo1.webp",
@@ -115,7 +115,7 @@
     {
       "id": 6,
       "slug": "promotions/heavy-equipment-service-promo",
-      "category": "Promosi",
+      "category": "Promotion",
       "title": "Promosi Grand Opening: Layanan Alat Berat (Semua Jenis) Hingga Rp 70.000.000,-",
       "date": "2025-10-20",
       "image": "/home/promo2.webp",
@@ -124,7 +124,7 @@
     {
       "id": 7,
       "slug": "promotions/heavy-equipment-rental-promo",
-      "category": "Promosi",
+      "category": "Promotion",
       "title": "Promosi Grand Opening: Sewa Alat Berat (Semua Jenis) Hingga IDR 100 Juta",
       "date": "2025-10-20",
       "image": "/home/promo3.webp",
@@ -133,7 +133,7 @@
     {
       "id": 8,
       "slug": "promotions/heavy-equipment-trade-in-promo",
-      "category": "Promosi",
+      "category": "Promotion",
       "title": "Promosi Grand Opening: Tukar Tambah Alat Berat (Semua Jenis) Hingga IDR 50 Juta",
       "date": "2025-10-20",
       "image": "/home/promo4.webp",

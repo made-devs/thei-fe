@@ -81,7 +81,8 @@ export const getArticle = async (locale, slug) => {
     const articleModule = await import(
       `@/dictionaries/${locale}/news/${decodedSlug}.json`
     );
-    return articleModule.default;
+    // FIX: Return dengan wrapper 'article'
+    return { article: articleModule.default };
   } catch (error) {
     console.error(
       `Article not found for locale "${locale}" and slug "${slug}"`,
