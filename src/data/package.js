@@ -915,6 +915,14 @@ export const economisServices = [
     pricePromo: 1550000,
   },
   {
+    id: 'e-19',
+    title: 'PAKET SERVICE TELEHANDLER HEMAT',
+    capacity: '5 TON',
+    image: '/repair/hemat/telehandler.webp',
+    priceNormal: 3200000,
+    pricePromo: 1600000,
+  },
+  {
     id: 'e-4',
     title: 'PAKET SERVICE BOOM LIFT HEMAT',
     capacity: '10-25 METER',
@@ -945,14 +953,6 @@ export const economisServices = [
     image: '/repair/hemat/ex.webp',
     priceNormal: 3225000,
     pricePromo: 2150000,
-  },
-  {
-    id: 'e-19',
-    title: 'PAKET SERVICE TELEHANDLER HEMAT',
-    capacity: '5 TON',
-    image: '/repair/hemat/telehandler.webp',
-    priceNormal: 3200000,
-    pricePromo: 1600000,
   },
   {
     id: 'e-9',
