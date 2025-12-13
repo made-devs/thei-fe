@@ -74,9 +74,12 @@ const dictionaries = {
 // --- Fungsi untuk mengambil satu artikel ---
 export const getArticle = async (locale, slug) => {
   try {
+    // DECODE slug untuk mengubah %2F menjadi /
+    const decodedSlug = decodeURIComponent(slug);
+
     // Update path: ganti ../../ ke @
     const articleModule = await import(
-      `@/dictionaries/${locale}/news/${slug}.json`
+      `@/dictionaries/${locale}/news/${decodedSlug}.json`
     );
     return articleModule.default;
   } catch (error) {
