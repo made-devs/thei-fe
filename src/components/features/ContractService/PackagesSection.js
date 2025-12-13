@@ -20,6 +20,7 @@ const PackagesSection = ({ dictionary }) => {
               key={pkg.title}
               title={pkg.title}
               subtitle={pkg.subtitle}
+              image={pkg.image}
               discount={pkg.discount}
               price_before={pkg.price_before}
               price_after={pkg.price_after}

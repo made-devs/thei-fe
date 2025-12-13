@@ -1,5 +1,7 @@
+"use client";
 import React from 'react';
-import { CheckIcon, Tag, Clock } from 'lucide-react';
+import { CheckIcon, Tag } from 'lucide-react';
+import Image from 'next/image';
 
 const PackageCard = ({
   title,
@@ -9,6 +11,7 @@ const PackageCard = ({
   price_after,
   note,
   features,
+  image,
 }) => {
   // Helper function untuk format harga
   const formatPrice = (price) => {
@@ -16,6 +19,14 @@ const PackageCard = ({
     // Hapus semua karakter non-digit, lalu parse ke number
     const numericPrice = parseInt(price.toString().replace(/\D/g, ''), 10);
     return numericPrice.toLocaleString('id-ID');
+  };
+
+  // Fungsi handle klik tombol WhatsApp
+  const handleWhatsApp = () => {
+    const message = encodeURIComponent(
+      `Halo THEI, saya tertarik dengan paket ${title} (${subtitle}). Mohon info lebih lanjut.`
+    );
+    window.open(`https://wa.me/6285195886789?text=${message}`, '_blank');
   };
 
   return (
@@ -52,6 +63,21 @@ const PackageCard = ({
         {/* Inner Glow */}
         <div className="absolute inset-0 shadow-[inset_0_-16px_24px_0px_rgba(255,255,255,0.15)] pointer-events-none rounded-2xl" />
 
+        {/* Image Section - Aspect Ratio 1:1 */}
+        {image && (
+          <div className="relative w-full aspect-square overflow-hidden">
+            <Image
+              src={image}
+              alt={title}
+              fill
+              className="object-cover group-hover:scale-105 transition-transform duration-500"
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            />
+            {/* Overlay Gradient */}
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+          </div>
+        )}
+
         {/* Header */}
         <div className="bg-gradient-to-b from-yellow-400 to-yellow-500 p-6 relative">
           <div className="absolute inset-0 shadow-[inset_0_-2px_25px_-4px_rgba(255,255,255,0.6)]" />
@@ -60,12 +86,9 @@ const PackageCard = ({
               {title}
             </h3>
             {subtitle && (
-              <div className="flex items-center justify-center gap-2">
-                <Clock className="w-4 h-4 text-gray-800" />
-                <p className="text-sm font-semibold text-gray-800">
-                  {subtitle}
-                </p>
-              </div>
+              <p className="text-sm font-semibold text-gray-800 text-center">
+                {subtitle}
+              </p>
             )}
           </div>
         </div>
@@ -110,8 +133,11 @@ const PackageCard = ({
         </ul>
 
         {/* Button */}
-        <div className="p-6 pt-10">
-          <button className="w-full py-3 px-4 bg-gradient-to-b from-yellow-400 to-yellow-200 text-black text-sm font-semibold rounded-full shadow-[inset_0_-2px_25px_-4px_rgba(255,255,255,0.4)] hover:shadow-[inset_0_-2px_25px_-4px_rgba(255,255,255,0.6)] hover:scale-105 transition-all duration-300">
+        <div className="p-6 pt-4">
+          <button
+            className="w-full py-3 px-4 bg-gradient-to-b from-yellow-400 to-yellow-200 text-black text-sm font-semibold rounded-full shadow-[inset_0_-2px_25px_-4px_rgba(255,255,255,0.4)] hover:shadow-[inset_0_-2px_25px_-4px_rgba(255,255,255,0.6)] hover:scale-105 transition-all duration-300"
+            onClick={handleWhatsApp}
+          >
             Pilih Paket
           </button>
         </div>
