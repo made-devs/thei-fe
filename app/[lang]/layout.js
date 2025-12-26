@@ -2,6 +2,7 @@
 
 import "./globals.css";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 
 // ✅ i18n-config tetap di root (2 level up dari app/[lang]/)
 import { i18n } from "../../i18n-config";
@@ -31,6 +32,7 @@ export default async function RootLayout({ children, params }) {
         <main className="flex-1">{children}</main>
         <Footer dictionary={dictionary} currentLocale={lang} />
         <FloatingActionButton dictionary={dictionary} currentLocale={lang} />
+        <Analytics />
       </body>
     </html>
   );
