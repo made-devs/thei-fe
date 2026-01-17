@@ -22,20 +22,19 @@
       "description": "Rasakan kembali momen-momen penting dari acara terbaru kami melalui liputan video eksklusif ini.",
       "videos": [
         {
-          "title": "Grand Launching THEI 2025",
-          "id": "dQw4w9WgXcQ"
+          "title": "THEI Ke Zoomlion China",
+          "id": "Fs9aDURJqyU",
+          "thumbnail": "/news/thei-china1.webp"
         },
         {
-          "title": "Pameran Alat Berat Terbesar",
-          "id": "dQw4w9WgXcQ"
+          "title": "Meninjau Produksi Zoomlion Di China",
+          "id": "iF0LdrZo238",
+          "thumbnail": "/news/thei-china2.webp"
         },
         {
-          "title": "Hari Pelanggan Nasional",
-          "id": "dQw4w9WgXcQ"
-        },
-        {
-          "title": "Program CSR Penanaman Pohon",
-          "id": "dQw4w9WgXcQ"
+          "title": "Factory Visit Zoomlion China",
+          "id": "Fs9aDURJqyU",
+          "thumbnail": "/news/thei-china3.webp"
         }
       ]
     },

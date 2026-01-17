@@ -126,6 +126,34 @@
         {
           "type": "image",
           "src": "/service/service4.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service5.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service6.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service7.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service8.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service9.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service10.webp"
+        },
+        {
+          "type": "image",
+          "src": "/service/service11.webp"
         }
       ]
     },

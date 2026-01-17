@@ -141,12 +141,6 @@ const InteractiveMap = ({ dictionary }) => {
                   >
                     <MapPinIcon size={16} /> Lihat di Google Maps
                   </a>
-                  <a
-                    href={`tel:${branch.phone}`}
-                    className="flex items-center gap-2 text-blue-600 hover:underline"
-                  >
-                    <Phone size={16} /> {branch.phone}
-                  </a>
                 </div>
               </div>
             ))}

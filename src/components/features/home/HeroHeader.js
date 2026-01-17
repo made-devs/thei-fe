@@ -1,6 +1,6 @@
-"use client";
-import Image from "next/image";
-import { ChevronDown } from "lucide-react";
+'use client';
+import Image from 'next/image';
+import { ChevronDown } from 'lucide-react';
 
 export default function HeroHeader({ dictionary }) {
   const {
@@ -26,16 +26,16 @@ export default function HeroHeader({ dictionary }) {
           quality={90}
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/20 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/70 to-black/20" />
       </div>
 
       {/* Content */}
       <div className="container mx-auto lg:-mt-10 px-4 sm:px-6 lg:px-8 max-w-7xl relative z-10 h-full flex flex-col justify-center items-center text-center">
         {/* Brand Text */}
         <p
-          className="text-yellow-400 text-xs sm:text-sm md:text-base font-semibold tracking-widest uppercase mb-8 sm:mb-10 animate-fade-in"
+          className="text-yellow-400 text-xs sm:text-sm md:text-xl font-bold tracking-widest uppercase mb-8 sm:mb-10 animate-fade-in"
           style={{
-            textShadow: "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+            textShadow: '0 2px 16px rgba(0,0,0,0.9), 0 2px 2px rgba(0,0,0,0.9)',
           }}
         >
           {brand_text}
@@ -48,7 +48,7 @@ export default function HeroHeader({ dictionary }) {
             className="text-yellow-400 text-base sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-wider uppercase"
             style={{
               textShadow:
-                "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+                '0 2px 16px rgba(0,0,0,0.7), 0 2px 2px rgba(0,0,0,0.4)',
             }}
           >
             {subheadline1}
@@ -59,7 +59,7 @@ export default function HeroHeader({ dictionary }) {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-tight"
             style={{
               textShadow:
-                "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+                '0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)',
             }}
           >
             {headline_line1}
@@ -70,7 +70,7 @@ export default function HeroHeader({ dictionary }) {
             className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-white tracking-tight leading-tight"
             style={{
               textShadow:
-                "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+                '0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)',
             }}
           >
             {headline_line2}
@@ -78,10 +78,10 @@ export default function HeroHeader({ dictionary }) {
 
           {/* Highlight - 1 MILIAR RUPIAH */}
           <h2
-            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-yellow-400 tracking-tight leading-tight animate-pulse-glow"
+            className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-yellow-400 tracking-tight leading-tight"
             style={{
               textShadow:
-                "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+                '0 2px 16px rgba(0,0,0,0.9), 0 3px 2px rgba(0,0,0,0.9)',
             }}
           >
             {headline_highlight}
@@ -92,7 +92,7 @@ export default function HeroHeader({ dictionary }) {
             className="text-yellow-400 text-base sm:text-xl md:text-2xl lg:text-3xl font-bold tracking-wider uppercase mt-4"
             style={{
               textShadow:
-                "0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)",
+                '0 2px 16px rgba(0,0,0,0.9), 0 2px 2px rgba(0,0,0,0.9)',
             }}
           >
             {headline_line3}

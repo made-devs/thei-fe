@@ -54,12 +54,6 @@ const WhyJoin = ({ dictionary }) => {
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                  <PlayCircle
-                    size={60}
-                    className="text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all sm:w-20 sm:h-20"
-                  />
-                </div>
               </div>
             </div>
           </div>

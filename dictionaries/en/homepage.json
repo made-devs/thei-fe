@@ -185,6 +185,38 @@
       { "value": "20+", "label": "Expert Team" },
       { "value": "3.5k+", "label": "Units Rented" },
       { "value": "500+", "label": "Satisfied Customers" }
+    ],
+    "brand_videos": [
+      {
+        "title": "What is THEI?",
+        "desc": "Get to know our identity",
+        "videoId": "AKgR8ODPVW0",
+        "thumbnail": "/home/faq-thumb1.webp"
+      },
+      {
+        "title": "Industry Sectors",
+        "desc": "Serving various industries",
+        "videoId": "t15GxPiGDYc",
+        "thumbnail": "/home/faq-thumb2.webp"
+      },
+      {
+        "title": "THEI's Main Advantages",
+        "desc": "Why choose us?",
+        "videoId": "HXbTfdv-pe4",
+        "thumbnail": "/home/faq-thumb3.webp"
+      },
+      {
+        "title": "Our Big Vision",
+        "desc": "Building the future",
+        "videoId": "s2rAkOB7iSI",
+        "thumbnail": "/home/faq-thumb4.webp"
+      },
+      {
+        "title": "National Network",
+        "desc": "Present throughout Indonesia",
+        "videoId": "fjrHtrVfbGs",
+        "thumbnail": "/home/faq-thumb5.webp"
+      }
     ]
   },
   "news": {
@@ -231,6 +263,12 @@
         "company": null,
         "image": "/home/testi4.webp",
         "quote": "At first, I only tried one unit, but it turned out the equipment was fuel-efficient and the service was fast. As soon as there was a problem, the THEI team came right away. Now I've added more units, and work is stress-free. There are also many bonuses; even the operational car gets serviced. Amazing, I didn't expect service like this in Indonesia."
+      },
+      {
+        "name": "Samuel",
+        "company": null,
+        "image": "/home/testi5.webp",
+        "quote": "Hello, I just bought 3 forklift units for my company's needs. I received a bonus from THEI worth 250 million, which is very profitable for my company. When else can you get a promo that big? Only at THEI."
       }
     ],
     "video_testimonials": {
@@ -242,6 +280,13 @@
           "title": "Durable Forklift & Trusted Service",
           "thumbnail": "/testi/testi-kumar.webp",
           "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Samuel",
+          "company": null,
+          "title": "THEI Bonus up to 250 Million!",
+          "thumbnail": "/testi/testi-samuel.webp",
+          "videoUrl": "https://www.youtube.com/embed/Kgl3nMY7BLk?rel=0&modestbranding=1"
         },
         {
           "name": "Arga",

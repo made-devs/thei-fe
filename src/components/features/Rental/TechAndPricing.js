@@ -9,7 +9,7 @@ const TechAndPricing = ({ dictionary }) => {
   if (!dictionary) return null;
 
   // Video ID from the provided YouTube Shorts link
-  const videoId = 'QN-MDWtROaQ';
+  const videoId = 'qlUKYYgrIg0';
 
   const handlePlay = () => {
     setShowVideo(true);

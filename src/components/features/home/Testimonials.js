@@ -1,8 +1,8 @@
-"use client";
-import React, { useState, useMemo, useCallback, useEffect } from "react";
-import Image from "next/image";
-import useEmblaCarousel from "embla-carousel-react";
-import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from "lucide-react";
+'use client';
+import React, { useState, useMemo, useCallback, useEffect } from 'react';
+import Image from 'next/image';
+import useEmblaCarousel from 'embla-carousel-react';
+import { Quote, Cog, ArrowLeft, ArrowRight, PlayCircle } from 'lucide-react';
 
 const Testimonials = ({ dictionary }) => {
   // Memoize data
@@ -16,8 +16,8 @@ const Testimonials = ({ dictionary }) => {
 
   // Embla Carousel untuk Videos
   const [videoEmblaRef, videoEmblaApi] = useEmblaCarousel({
-    align: "center",
-    containScroll: "trimSnaps",
+    align: 'center',
+    containScroll: 'trimSnaps',
     loop: true,
   });
 
@@ -27,21 +27,56 @@ const Testimonials = ({ dictionary }) => {
 
   // Embla Carousel untuk thumbnail selector - PINDAH KE SINI (sebelum conditional return)
   const [thumbEmblaRef, thumbEmblaApi] = useEmblaCarousel({
-    align: "center",
-    containScroll: "trimSnaps",
+    align: 'start', // Ubah ke start agar list rapi dari kiri
+    containScroll: 'trimSnaps',
     dragFree: true,
     loop: false,
   });
 
-  // Sinkronkan dots dengan embla
+  // State untuk visibilitas tombol prev/next thumbnail
+  const [thumbPrevBtnEnabled, setThumbPrevBtnEnabled] = useState(false);
+  const [thumbNextBtnEnabled, setThumbNextBtnEnabled] = useState(false);
+
+  // Fungsi scroll thumbnail
+  const scrollPrevThumb = useCallback(
+    () => thumbEmblaApi && thumbEmblaApi.scrollPrev(),
+    [thumbEmblaApi]
+  );
+  const scrollNextThumb = useCallback(
+    () => thumbEmblaApi && thumbEmblaApi.scrollNext(),
+    [thumbEmblaApi]
+  );
+
+  // Listener untuk update state tombol thumbnail
+  const onSelectThumb = useCallback((api) => {
+    setThumbPrevBtnEnabled(api.canScrollPrev());
+    setThumbNextBtnEnabled(api.canScrollNext());
+  }, []);
+
+  useEffect(() => {
+    if (!thumbEmblaApi) return;
+
+    onSelectThumb(thumbEmblaApi);
+    thumbEmblaApi.on('reInit', onSelectThumb);
+    thumbEmblaApi.on('select', onSelectThumb);
+    thumbEmblaApi.on('scroll', onSelectThumb); // Tambahkan scroll listener responsif real-time
+
+    return () => {
+      thumbEmblaApi.off('reInit', onSelectThumb);
+      thumbEmblaApi.off('select', onSelectThumb);
+      thumbEmblaApi.off('scroll', onSelectThumb);
+    };
+  }, [thumbEmblaApi, onSelectThumb]);
+
+  // Sinkronkan dots dengan embla video
   useEffect(() => {
     if (!videoEmblaApi) return;
     const onSelect = () =>
       setVideoActiveIdx(videoEmblaApi.selectedScrollSnap());
-    videoEmblaApi.on("select", onSelect);
+    videoEmblaApi.on('select', onSelect);
     onSelect();
     return () => {
-      videoEmblaApi.off("select", onSelect);
+      videoEmblaApi.off('select', onSelect);
     };
   }, [videoEmblaApi]);
 
@@ -80,7 +115,7 @@ const Testimonials = ({ dictionary }) => {
             <Cog
               size={20}
               className="mr-2 animate-spin"
-              style={{ animationDuration: "5s" }}
+              style={{ animationDuration: '5s' }}
             />
             <span>{dictionary.subtitle}</span>
           </div>
@@ -101,11 +136,11 @@ const Testimonials = ({ dictionary }) => {
               className={`relative w-12 h-12 rounded-full border-2 transition-all duration-200
                 ${
                   index === activeIndex
-                    ? "border-yellow-400 scale-110 shadow-lg"
-                    : "border-gray-200 opacity-60"
+                    ? 'border-yellow-400 scale-110 shadow-lg'
+                    : 'border-gray-200 opacity-60'
                 }
               `}
-              style={{ padding: 0, background: "none" }}
+              style={{ padding: 0, background: 'none' }}
             >
               <Image
                 src={testimonial.image}
@@ -130,7 +165,7 @@ const Testimonials = ({ dictionary }) => {
           />
           <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
             <div className="md:col-span-2 overflow-y-auto max-h-full">
-              {" "}
+              {' '}
               {/* Tambahkan overflow-y: auto agar quote panjang bisa di-scroll */}
               <p className="text-2xl lg:text-3xl font-light italic leading-snug mb-6">
                 &quot;{activeTestimonial.quote}&quot;
@@ -157,21 +192,34 @@ const Testimonials = ({ dictionary }) => {
         </div>
 
         {/* Thumbnail Selectors (desktop: carousel 1 baris) */}
-        <div className="hidden md:block">
+        <div className="hidden md:block relative px-12 group/thumbs">
+          {/* Tombol Kiri Thumbnails */}
+          <button
+            onClick={scrollPrevThumb}
+            className={`absolute left-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md hover:bg-yellow-400 text-black p-2 rounded-full transition-all duration-300 ${
+              thumbPrevBtnEnabled
+                ? 'opacity-100 translate-x-0'
+                : 'opacity-0 -translate-x-4 pointer-events-none'
+            }`}
+            aria-label="Previous Testimonial"
+          >
+            <ArrowLeft size={24} />
+          </button>
+
           <div ref={thumbEmblaRef} className="overflow-hidden">
             <div className="flex gap-4">
               {testimonials.map((testimonial, index) => (
                 <div
                   key={index}
                   className="flex-shrink-0"
-                  style={{ minWidth: "280px" }}
+                  style={{ minWidth: '280px' }}
                 >
                   <button
                     onClick={() => setActiveIndex(index)}
                     className={`w-full bg-gray-100 p-4 rounded-lg flex items-center gap-4 text-left transition-all duration-300 transform hover:scale-105 hover:shadow-lg ${
                       index === activeIndex
-                        ? "ring-2 ring-yellow-400 shadow-xl"
-                        : "opacity-70 hover:opacity-100"
+                        ? 'ring-2 ring-yellow-400 shadow-xl'
+                        : 'opacity-70 hover:opacity-100'
                     }`}
                   >
                     <div className="relative w-16 h-16 flex-shrink-0">
@@ -194,6 +242,19 @@ const Testimonials = ({ dictionary }) => {
               ))}
             </div>
           </div>
+
+          {/* Tombol Kanan Thumbnails */}
+          <button
+            onClick={scrollNextThumb}
+            className={`absolute right-0 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md hover:bg-yellow-400 text-black p-2 rounded-full transition-all duration-300 ${
+              thumbNextBtnEnabled
+                ? 'opacity-100 translate-x-0'
+                : 'opacity-0 translate-x-4 pointer-events-none'
+            }`}
+            aria-label="Next Testimonial"
+          >
+            <ArrowRight size={24} />
+          </button>
         </div>
 
         {/* Video Testimonials Section */}
@@ -206,7 +267,7 @@ const Testimonials = ({ dictionary }) => {
             </div>
             <div className="relative">
               <div className="overflow-hidden px-4 sm:px-0" ref={videoEmblaRef}>
-                {" "}
+                {' '}
                 {/* Tambah px-4 untuk mobile */}
                 <div className="flex -ml-4">
                   {videoTestimonials.map((video, index) => (
@@ -259,8 +320,8 @@ const Testimonials = ({ dictionary }) => {
                     onClick={() => videoEmblaApi && videoEmblaApi.scrollTo(idx)}
                     className={`h-2 rounded-full transition-all duration-200 focus:outline-none ${
                       videoActiveIdx === idx
-                        ? "w-6 bg-yellow-400"
-                        : "w-2 bg-gray-300"
+                        ? 'w-6 bg-yellow-400'
+                        : 'w-2 bg-gray-300'
                     }`}
                   />
                 ))}
@@ -292,7 +353,7 @@ const Testimonials = ({ dictionary }) => {
               className="relative w-full max-w-sm mx-4"
               onClick={(e) => e.stopPropagation()}
             >
-              {" "}
+              {' '}
               {/* Kurangi max-w untuk portrait */}
               <button
                 className="absolute top-4 right-4 text-white text-2xl z-10"
@@ -301,7 +362,7 @@ const Testimonials = ({ dictionary }) => {
                 &times;
               </button>
               <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
-                {" "}
+                {' '}
                 {/* Ubah ke aspect-[9/16] untuk portrait */}
                 <iframe
                   src={selectedVideo.videoUrl}

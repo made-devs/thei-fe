@@ -90,7 +90,7 @@ const Hero = ({ dictionary, currentLocale }) => {
           sizes="100vw"
         />
         {/* Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/10 via-black/30 to-black/10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black/10" />
 
         {/* Content wrapper */}
         <div className="relative z-10 flex-1 flex flex-col items-center justify-center p-4">
@@ -111,21 +111,21 @@ const Hero = ({ dictionary, currentLocale }) => {
               {/* Mobile: slider dengan GSAP */}
               <p
                 ref={textRef}
-                className="text-yellow-400 text-base sm:hidden font-semibold tracking-wider uppercase m-0 w-full absolute left-0 top-0"
+                className="text-yellow-400 text-lg sm:hidden font-bold tracking-wider uppercase m-0 w-full absolute left-0 top-0 whitespace-nowrap"
                 style={{
                   minHeight: '3rem',
                   textShadow:
-                    '0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)',
+                    '0 2px 16px rgba(0,0,0,0.7), 0 2px 2px rgba(0,0,0,0.4)',
                 }}
               >
                 {subTexts[activeIdx]}
               </p>
               {/* Desktop: static */}
               <p
-                className="hidden sm:block text-yellow-400 sm:text-lg md:text-xl font-semibold tracking-wider uppercase break-words m-0"
+                className="hidden sm:block text-yellow-400 sm:text-2xl md:text-3xl font-bold tracking-wider uppercase break-words m-0"
                 style={{
                   textShadow:
-                    '0 2px 16px rgba(0,0,0,0.7), 0 1px 2px rgba(0,0,0,0.4)',
+                    '0 2px 16px rgba(0,0,0,0.9), 0 2px 2px rgba(0,0,0,0.9)',
                 }}
               >
                 {heroDict.sub_copy_line1}

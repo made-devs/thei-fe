@@ -36,13 +36,45 @@
       "button": "Chat WhatsApp",
       "choose_package": "Pilih Paket"
     },
-    "testimonial": {
-      "title": "Apa Kata Pelanggan Kami",
-      "quote": "Paket Premium Service benar-benar memberikan ketenangan pikiran. Unit kami seperti baru lagi dan bonus service mobil sangat bermanfaat!",
-      "name": "Andi Wijaya",
-      "company": "Field Manager, PT. Konstruksi Prima",
-      "video_thumb": "/testi/thumbnail1.webp",
-      "video_id": "3CUnakLDL9Y"
+    "video_testimonials": {
+      "title": "THEI Customer Experience",
+      "videos": [
+        {
+          "name": "Shambat Kumar",
+          "company": null,
+          "title": "Forklift Tangguh & Layanan Service Terpercaya",
+          "thumbnail": "/testi/testi-kumar.webp",
+          "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Samuel",
+          "company": null,
+          "title": "Bonus THEI hingga 250 Juta!",
+          "thumbnail": "/testi/testi-samuel.webp",
+          "videoUrl": "https://www.youtube.com/embed/Kgl3nMY7BLk?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Arga",
+          "company": null,
+          "title": "Operasional Lancar & Bonus Melimpah Bersama THEI",
+          "thumbnail": "/testi/testi-arga.webp",
+          "videoUrl": "https://www.youtube.com/embed/ff-RDpeQx2o?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Richard",
+          "company": null,
+          "title": "Efisiensi Alat & Layanan Tak Terduga dari THEI",
+          "thumbnail": "/testi/testi-richard.webp",
+          "videoUrl": "https://www.youtube.com/embed/n5MDJw6Lbh4?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Rama",
+          "company": null,
+          "title": "Klaim Garansi Cepat & Bonus Keanggotaan TJM",
+          "thumbnail": "/testi/testi-rama.webp",
+          "videoUrl": "https://www.youtube.com/embed/hUcLgN2GtBM?rel=0&modestbranding=1"
+        }
+      ]
     }
   }
 }

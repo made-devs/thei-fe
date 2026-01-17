@@ -1,11 +1,11 @@
 // /app/[lang]/branches/page.js
 
 import { getDictionary } from '@/lib/dictionary';
-import PageHero from '@/components/ui/PageHero'; // Ganti import dari BranchesHero ke PageHero
-import MapLoader from '@/components/features/Branches/MapLoader'; // Import komponen baru
-import VirtualTour from '@/components/features/Branches/VirtualTour';
+import PageHero from '@/components/ui/PageHero';
+import MapLoader from '@/components/features/Branches/MapLoader';
 import FacilityGallery from '@/components/features/Branches/FacilityGallery';
 import MainCta from '@/components/features/home/MainCta';
+import BranchesVideos from '../../../src/components/features/Branches/BranchesVideos';
 
 export default async function BranchesPage({ params }) {
   const { lang } = await params;
@@ -18,7 +18,7 @@ export default async function BranchesPage({ params }) {
       <PageHero dictionary={branchesDict.hero} />
       <FacilityGallery dictionary={branchesDict.facility_gallery} />
       <MapLoader dictionary={branchesDict.interactive_map} />
-      <VirtualTour dictionary={branchesDict.virtual_tour} />
+      <BranchesVideos dictionary={branchesDict.brand_videos} />
       <MainCta dictionary={branchesDict.main_cta} />
     </>
   );

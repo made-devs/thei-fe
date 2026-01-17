@@ -14,75 +14,189 @@
       "title": "Jelajahi Jaringan Cabang Kami",
       "branches": [
         {
-          "id": "jabodetabek",
-          "city": "Jabodetabek",
-          "address": "Jl. Raya Cilandak KKO No.1, RT.13/RW.5, Ragunan, Ps. Minggu, Jakarta Selatan",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(021) 782-2373",
-          "coords": { "lat": -6.29, "lng": 106.82 }
+          "id": "bekasi",
+          "city": "Head Office (Bekasi)",
+          "address": "POSH, Blok. A, Jl. Pusat Otomotif Sentra Harapan Indah No.2, Pejuang, Kecamatan Medan Satria, Kota Bks, Jawa Barat 17132",
+          "map_link": "https://maps.app.goo.gl/wKEDzHN1bQ2upQSk7",
+          "coords": { "lat": -6.190499938188441, "lng": 106.97722606940688 }
+        },
+        {
+          "id": "jakbar",
+          "city": "Jakarta Barat",
+          "address": "Daan Mogot Rd Kecamatan No.10-16, RT.3/RW.13, East Cengkareng, Cengkareng, West Jakarta City, Jawa Barat 11730",
+          "map_link": "https://maps.app.goo.gl/GhWLjVXB9FcUjXcNA",
+          "coords": { "lat": -6.154675518027079, "lng": 106.74688063872225 }
+        },
+        {
+          "id": "clk",
+          "city": "Cilangkap",
+          "address": "Jl. Setu Cipayung No.15, RT.4/RW.4, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870",
+          "map_link": "https://maps.app.goo.gl/hcMihCdKvhom973R9",
+          "coords": { "lat": -6.154675518027079, "lng": 106.74688063872225 }
+        },
+        {
+          "id": "jaktim",
+          "city": "Jakarta Timur",
+          "address": "Jl. Setu Cipayung No.15, RT.4/RW.4, Cilangkap, Kec. Cipayung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta 13870",
+          "map_link": "https://maps.app.goo.gl/qMYhBndHrDBpjtPp9",
+          "coords": { "lat": -6.326481096738293, "lng": 106.90315476755978 }
         },
         {
           "id": "bandung",
           "city": "Bandung",
-          "address": "Jl. Soekarno Hatta No. 438, Kota Bandung, Jawa Barat",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(022) 520-1234",
-          "coords": { "lat": -6.94, "lng": 107.62 }
+          "address": "Jl. Terusan Cibaduyut No.88, Cangkuang Kulon, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40239'",
+          "map_link": "https://maps.app.goo.gl/txRF8dg64jkw1xkA7",
+          "coords": { "lat": -6.967412685351058, "lng": 107.59143066263768 }
         },
         {
-          "id": "semarang",
+          "id": "smg",
           "city": "Semarang",
-          "address": "Jl. Jenderal Sudirman No. 320, Kota Semarang, Jawa Tengah",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(024) 760-5678",
-          "coords": { "lat": -6.98, "lng": 110.41 }
+          "address": "Jl. Soekarno Hatta No.: 59, Pedurungan Tengah, Kec. Pedurungan, Kota Semarang, Jawa Tengah 50426",
+          "map_link": "https://maps.app.goo.gl/FRZ1VufYGEg6daSy5",
+          "coords": { "lat": -7.007150172916936, "lng": 110.47225076756754 }
+        },
+        {
+          "id": "jog",
+          "city": "Jogjakarta",
+          "address": "Jl. Ring Road Bar. No.98, Area Sawah, Banyuraden, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55293",
+          "map_link": "https://maps.app.goo.gl/HGQ2tXDsjEsW9pez7",
+          "coords": { "lat": -7.783942722962179, "lng": 110.3312537829189 }
+        },
+        {
+          "id": "bgr",
+          "city": "Bogor",
+          "address": "Jl. A. Yani, RT.01/RW.05, Tanah Sareal, Kec. Bogor Utara, Kota Bogor, Jawa Barat 16153",
+          "map_link": "https://maps.app.goo.gl/d15A3QnXuCTXZL1m6",
+          "coords": { "lat": -6.568986019652491, "lng": 106.80499098650654 }
+        },
+        {
+          "id": "tangsel",
+          "city": "Tangerang Selatan",
+          "address": "Jl. W R Supratman No.39, Cemp. Putih, Kec. Ciputat Tim., Kota Tangerang Selatan, Banten 15412",
+          "map_link": "https://maps.app.goo.gl/ve1XsgSHyZQNztun8",
+          "coords": { "lat": -6.297683719636832, "lng": 106.74834275406597 }
         },
         {
           "id": "surabaya",
           "city": "Surabaya",
-          "address": "Jl. Raya Surabaya-Malang KM 48, Pandaan, Pasuruan, Jawa Timur",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(031) 888-9999",
-          "coords": { "lat": -7.54, "lng": 112.71 }
+          "address": "Jl. Barata Jaya XIX No.67, Baratajaya, Kec. Gubeng, Kota Surabaya, Jawa Timur 60284",
+          "map_link": "https://maps.app.goo.gl/VMtYz4pUZhSdNM976",
+          "coords": { "lat": -7.302763589405038, "lng": 112.75926762339336 }
         },
         {
           "id": "medan",
           "city": "Medan",
-          "address": "Jl. Medan-Tanjung Morawa KM 12.5, Kabupaten Deli Serdang, Sumatera Utara",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(061) 794-1111",
-          "coords": { "lat": 3.59, "lng": 98.67 }
+          "address": "Jl. Teuku Umar No.1, Petisah Tengah, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20112",
+          "map_link": "https://maps.app.goo.gl/sKeWcN9VdsGnjjj48",
+          "coords": { "lat": 3.586079199974142, "lng": 98.67122635216138 }
         },
         {
-          "id": "pekanbaru",
+          "id": "medan2",
+          "city": "Medan 2",
+          "address": "Jl. Sikambing No.8, Sekip, Kec. Medan Petisah, Kota Medan, Sumatera Utara 20111",
+          "map_link": "https://maps.app.goo.gl/i5eghg9UKeJhHVUP8",
+          "coords": { "lat": 3.60024848030637, "lng": 98.66815982517446 }
+        },
+        {
+          "id": "pkb",
           "city": "Pekanbaru",
-          "address": "Jl. Jend. Sudirman No. 450, Kota Pekanbaru, Riau",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(0761) 858-222",
-          "coords": { "lat": 0.51, "lng": 101.45 }
+          "address": "Jl. Soekarno - Hatta No.94, Sidomulyo Tim., Kec. Marpoyan Damai, Kota Pekanbaru, Riau 28292",
+          "map_link": "https://maps.app.goo.gl/kZCWe4YSxQuSWRpL6",
+          "coords": { "lat": 0.8351495894120252, "lng": 101.46068689792318 }
         },
         {
-          "id": "balikpapan",
-          "city": "Balikpapan",
-          "address": "Jl. Mulawarman No. 21, Batakan, Balikpapan Timur, Kalimantan Timur",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(0542) 761-888",
-          "coords": { "lat": -1.27, "lng": 116.83 }
+          "id": "plm",
+          "city": "Palembang",
+          "address": "Bengkel Mobil TJM Auto care, Jl. Soekarno Hatta No.050, RW No.RT.011, Karya Baru, Kota Palembang, Sumatera Selatan 30153",
+          "map_link": "https://maps.app.goo.gl/rFtWBLvtxiE7rHbj7",
+          "coords": { "lat": -2.723391170877254, "lng": 104.70651687808395 }
         },
         {
-          "id": "makassar",
+          "id": "lpg",
+          "city": "Lampung",
+          "address": "Jl. Yos Sudarso No.77, Sukaraja, Kec. Bumi Waras, Kota Bandar Lampung, Lampung 35226",
+          "map_link": "https://maps.app.goo.gl/cez1t4Yze3adBzWR9",
+          "coords": { "lat": -5.443672307303446, "lng": 105.2837514 }
+        },
+        {
+          "id": "mks",
           "city": "Makassar",
-          "address": "Jl. Urip Sumoharjo KM. 6, Tello Baru, Panakkukang, Makassar, Sulawesi Selatan",
-          "map_link": "https://maps.app.goo.gl/EXAMPLE",
-          "phone": "(0411) 448-888",
-          "coords": { "lat": -5.14, "lng": 119.43 }
+          "address": "Jl. Galangan Kapal, Kaluku Bodoa, Kec Tallo, Kota Makassar, Sulawesi Selatan",
+          "map_link": "https://maps.app.goo.gl/rWNzT3pfg7y2LXFz5",
+          "coords": { "lat": -5.11491427640621, "lng": 119.43124217116447 }
+        },
+        {
+          "id": "blp",
+          "city": "Balikpapan",
+          "address": "Jl. Mulawarman, RT.12/RW.No. 06, Kel. Manggar, Kec. Balikpapan Tiimur, Kota Balikpapan, Kalimantan Timur 40256",
+          "map_link": "https://maps.app.goo.gl/C1rn2ifEhoCydcJ19",
+          "coords": { "lat": -1.2485878373836594, "lng": 116.93455181349343 }
+        },
+        {
+          "id": "smd",
+          "city": "Samarinda",
+          "address": "Jl. A. Wahab Syahranie No.199, Sempaja Sel., Kec. Samarinda Ulu, Kota Samarinda, Kalimantan Timur 75131",
+          "map_link": "https://maps.app.goo.gl/AU4yBsyxv4YhGVsd8",
+          "coords": { "lat": -0.4514208516847868, "lng": 117.14206394232897 }
+        },
+        {
+          "id": "bjm",
+          "city": "Banjarmasin",
+          "address": "Jl. Pulau Laut No.1, Antasan Besar, Kec. Banjarmasin Tengah, Kota Banjarmasin, Kalimantan Selatan 70114",
+          "map_link": "https://maps.app.goo.gl/tcqjFhcthQQjXDZk8",
+          "coords": { "lat": -3.3160057053974645, "lng": 114.58971018650657 }
+        },
+        {
+          "id": "bli",
+          "city": "Bali",
+          "address": "Jl. Mertasari No.200, Sidakarya, Denpasar Selatan, Kota Denpasar, Bali 80228",
+          "map_link": "https://maps.app.goo.gl/zDudnkq4Q8pjPBaG8",
+          "coords": { "lat": -8.705669831896461, "lng": 115.23946353191785 }
+        },
+        {
+          "id": "mlg",
+          "city": "Malang",
+          "address": "Purwantoro, Blimbing, Malang City, East Java",
+          "map_link": "https://maps.app.goo.gl/PRSQdGy9bcB3veab9",
+          "coords": { "lat": -7.955120375465096, "lng": 112.64020911349343 }
         }
       ]
     },
-    "virtual_tour": {
-      "title": "Mengapa Memilih THEI sebagai Mitra Alat Berat Anda?",
-      "video_thumbnail": "/branches/branches5.webp",
-      "video_id": "o-jlZLLMEPk"
+    "brand_videos": {
+      "title": "Mengapa Memilih THEI Sebagai Mitra Alat Berat Anda?",
+      "description": "Temukan alasan utama mengapa kami menjadi pilihan terpercaya di industri alat berat melalui rangkaian video informatif kami.",
+      "list": [
+        {
+          "title": "Apa Itu THEI?",
+          "desc": "Mengenal identitas kami",
+          "videoId": "AKgR8ODPVW0",
+          "thumbnail": "/home/faq-thumb1.webp"
+        },
+        {
+          "title": "Sektor Industri",
+          "desc": "Melayani berbagai bidang",
+          "videoId": "t15GxPiGDYc",
+          "thumbnail": "/home/faq-thumb2.webp"
+        },
+        {
+          "title": "Keunggulan Utama",
+          "desc": "Kenapa harus kami?",
+          "videoId": "HXbTfdv-pe4",
+          "thumbnail": "/home/faq-thumb3.webp"
+        },
+        {
+          "title": "Visi Besar",
+          "desc": "Membangun masa depan",
+          "videoId": "s2rAkOB7iSI",
+          "thumbnail": "/home/faq-thumb4.webp"
+        },
+        {
+          "title": "Jaringan Nasional",
+          "desc": "Hadir di seluruh negeri",
+          "videoId": "fjrHtrVfbGs",
+          "thumbnail": "/home/faq-thumb5.webp"
+        }
+      ]
     },
     "facility_gallery": {
       "title": "Standar Profesional di Setiap Lokasi",
@@ -90,7 +204,14 @@
         "/branches/branches1.webp",
         "/branches/branches2.webp",
         "/branches/branches3.webp",
-        "/branches/branches4.webp"
+        "/branches/branches4.webp",
+        "/service/service5.webp",
+        "/service/service6.webp",
+        "/service/service7.webp",
+        "/service/service8.webp",
+        "/service/service9.webp",
+        "/service/service10.webp",
+        "/service/service11.webp"
       ]
     },
     "main_cta": {

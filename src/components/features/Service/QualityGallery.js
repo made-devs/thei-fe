@@ -91,16 +91,17 @@ const QualityGallery = ({ dictionary }) => {
           onClick={() => setPopup({ open: false, src: '', title: '' })}
         >
           <div
-            className="relative w-full max-w-5xl animate-scaleIn"
+            className="relative w-full max-w-6xl animate-scaleIn flex flex-col items-center"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Image Container - Aspect Video */}
-            <div className="relative w-full aspect-video bg-gradient-to-br from-gray-900 to-black rounded-2xl overflow-hidden shadow-2xl border-4 border-yellow-400">
+            {/* Image Container - Diubah agar tidak memaksa aspect ratio */}
+            {/* Hapus 'aspect-video', ganti dengan height fixed misal h-[80vh] dan hapus bg-gradient jika ingin transparan area kosongnya */}
+            <div className="relative w-full h-[60vh] md:h-[80vh] bg-black/20 rounded-2xl overflow-hidden shadow-2xl border-4 border-yellow-400">
               <Image
                 src={popup.src}
                 alt={popup.title || 'Quality gallery image'}
                 fill
-                className="object-cover"
+                className="object-contain"
                 sizes="100vw"
                 priority
               />
@@ -117,8 +118,8 @@ const QualityGallery = ({ dictionary }) => {
 
             {/* Title Card */}
             {popup.title && (
-              <div className="mt-6 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-xl p-6 shadow-xl border-2 border-yellow-600">
-                <h3 className="text-center text-black text-xl md:text-2xl font-bold">
+              <div className="mt-6 bg-gradient-to-r from-yellow-400 to-yellow-500 rounded-xl p-4 md:p-6 shadow-xl border-2 border-yellow-600 max-w-2xl w-full">
+                <h3 className="text-center text-black text-lg md:text-2xl font-bold">
                   {popup.title}
                 </h3>
               </div>

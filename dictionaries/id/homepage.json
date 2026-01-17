@@ -185,6 +185,38 @@
       { "value": "20+", "label": "Tim Ahli" },
       { "value": "3.5k+", "label": "Unit Direntalkan" },
       { "value": "500+", "label": "Pelanggan Puas" }
+    ],
+    "brand_videos": [
+      {
+        "title": "Apa Itu THEI?",
+        "desc": "Mengenal identitas kami",
+        "videoId": "AKgR8ODPVW0",
+        "thumbnail": "/home/faq-thumb1.webp"
+      },
+      {
+        "title": "Sektor Industri",
+        "desc": "Melayani berbagai bidang",
+        "videoId": "t15GxPiGDYc",
+        "thumbnail": "/home/faq-thumb2.webp"
+      },
+      {
+        "title": "Keunggulan Utama",
+        "desc": "Kenapa harus kami?",
+        "videoId": "HXbTfdv-pe4",
+        "thumbnail": "/home/faq-thumb3.webp"
+      },
+      {
+        "title": "Visi Besar",
+        "desc": "Membangun masa depan",
+        "videoId": "s2rAkOB7iSI",
+        "thumbnail": "/home/faq-thumb4.webp"
+      },
+      {
+        "title": "Jaringan Nasional",
+        "desc": "Hadir di seluruh negeri",
+        "videoId": "fjrHtrVfbGs",
+        "thumbnail": "/home/faq-thumb5.webp"
+      }
     ]
   },
   "news": {
@@ -231,6 +263,12 @@
         "company": null,
         "image": "/home/testi4.webp",
         "quote": "Awalnya cuma coba satu unit, ternyata alatnya irit dan servicenya cepat. Begitu ada masalah, tim THEI langsung datang. Sekarang saya tambah unit lagi, kerja jadi tenang. Bonusnya juga banyak, bahkan mobil operasional ikut dapat service. Luar biasa, gak nyangka ada layanan seperti ini di Indonesia."
+      },
+      {
+        "name": "Samuel",
+        "company": null,
+        "image": "/home/testi5.webp",
+        "quote": "Halo, saya baru beli 3 unit forklift untuk kebutuhan perusahaan saya. Saya mendapatkan bonus dari THEI sebesar 250 juta, jadi itu sangat menguntungkan bagi perusahaan saya. Kapan lagi dapat promo sebesar itu? Hanya di THEI."
       }
     ],
     "video_testimonials": {
@@ -242,6 +280,13 @@
           "title": "Forklift Tangguh & Layanan Service Terpercaya",
           "thumbnail": "/testi/testi-kumar.webp",
           "videoUrl": "https://www.youtube.com/embed/gGaqUSXEQRI?rel=0&modestbranding=1"
+        },
+        {
+          "name": "Samuel",
+          "company": null,
+          "title": "Bonus THEI hingga 250 Juta!",
+          "thumbnail": "/testi/testi-samuel.webp",
+          "videoUrl": "https://www.youtube.com/embed/Kgl3nMY7BLk?rel=0&modestbranding=1"
         },
         {
           "name": "Arga",
