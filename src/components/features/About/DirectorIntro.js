@@ -1,7 +1,7 @@
-"use client";
-import { useState } from "react";
-import Image from "next/image";
-import { PlayCircle, Cog, X } from "lucide-react";
+'use client';
+import { useState } from 'react';
+import Image from 'next/image';
+import { PlayCircle, Cog, X } from 'lucide-react';
 
 const DirectorIntro = ({ dictionary }) => {
   const [showVideo, setShowVideo] = useState(false);
@@ -19,7 +19,7 @@ const DirectorIntro = ({ dictionary }) => {
                 <Cog
                   size={20}
                   className="mr-2 animate-spin"
-                  style={{ animationDuration: "5s" }}
+                  style={{ animationDuration: '5s' }}
                 />
                 <span>{dictionary.subtitle}</span>
               </div>
@@ -33,10 +33,7 @@ const DirectorIntro = ({ dictionary }) => {
 
             {/* Right Column: Video Player */}
             {videoData && (
-              <div
-                className="relative aspect-video w-full rounded-lg overflow-hidden group cursor-pointer shadow-lg"
-                onClick={() => setShowVideo(true)}
-              >
+              <div className="relative aspect-video w-full rounded-lg overflow-hidden group cursor-pointer shadow-lg">
                 <Image
                   src={videoData.thumbnail}
                   alt={videoData.alt}
@@ -44,12 +41,6 @@ const DirectorIntro = ({ dictionary }) => {
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
-                <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-                  <PlayCircle
-                    size={80}
-                    className="text-white opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all"
-                  />
-                </div>
               </div>
             )}
           </div>

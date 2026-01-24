@@ -42,7 +42,7 @@ const InteractiveMap = ({ dictionary }) => {
         {
           animate: true,
           duration: 1, // Durasi animasi 1 detik
-        }
+        },
       );
     }
 
@@ -62,6 +62,11 @@ const InteractiveMap = ({ dictionary }) => {
     <section className="bg-white py-12 sm:py-16 lg:py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-[1440px]">
         <div className="text-center mb-8 sm:mb-12">
+          {dictionary.subtitle && (
+            <p className="text-yellow-500 font-bold uppercase tracking-widest text-sm sm:text-base mb-3">
+              {dictionary.subtitle}
+            </p>
+          )}
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-black">
             {dictionary.title}
           </h2>
